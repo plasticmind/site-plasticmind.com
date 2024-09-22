@@ -1,0 +1,59 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+{% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+<section class="c-section c-section--article">
+
+  {# = Feature Image #}
+  {% if page.data.featureImage %}
+  <div class="c-feature-image">
+    <img src="{{ page.data.featureImage }}" alt="{{ title }}">
+  </div>
+  {% endif %}
+
+  {# = Article Content #}
+  <div class="l-container--lg">
+    <time datetime="{{ page.date | dateISO }}" class="c-dateline">
+      {{ page.date | dateFull }}
+    </time>
+
+    {# = Article Title #}    
+    <h1 class="c-heading c-heading--lg">{{ title }}</h1>
+
+    {# = Article Body #}
+    {{ content | safe }}
+
+    {# = Article Tags #}
+    {% if tags %}
+      <ul class="c-tag-list">
+        {% for tag in tags %}
+          <li class="c-tag">#{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    <div class="c-dinkus">{% include "svg/dinkus.svg" %}</div>
+
+    <div class="l-container">
+      <div class="l-row">
+        {% if previousPost %}
+        <div class="l-col-fill">
+          <p>
+            <b>Previously:</b><br/>
+            <a href="{{ previousPost.url }}" title="Read: {{ previousPost.data.title | safe }}"><b>{{ previousPost.data.title }}</b></a>
+          </p>
+        </div>
+        {% endif %}
+        {% if nextPost %}
+        <div class="l-col-fill">
+          <p>
+            <b>Next:</b><br/>
+            <a href="{{ nextPost.url }}" title="Read: {{ nextPost.data.title | safe }}">{{ nextPost.data.title }}</a>
+          </p>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

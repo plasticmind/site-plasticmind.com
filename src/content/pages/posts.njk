@@ -1,0 +1,78 @@
+---
+permalink: "archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}"
+pagination:
+  data: collections.posts
+  size: 25
+title: "Archive"
+description: "A collection of all the posts I've written."
+section: "daily"
+eleventyNavigation:
+  key: Tips
+  title: Blog
+  order: 3
+"changefreq": "daily"
+"priority": "0.9" 
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+
+  {% if collections.posts.length %}
+  <section class="c-section u-pad-b-0">
+    <div class="l-container--lg">
+      <h1 class="c-section__title">The Archive</h1>
+    </div>
+  </section>
+
+  <section class="c-section">
+    <div class="l-container--lg">
+            <h3>👇 Here's what I've written so far:</h3>
+      <ul class="c-post-list">
+        {% for post in pagination.items %}
+          <li class="c-post-list__item">
+            <div class="l-grid l-grid--2-col">
+              <div class="l-grid__item--xl">
+                <div class="c-post-list__title">
+                  <a href="{{ post.url }}" class="c-post-list__link">
+                    {{ post.data.title }}
+                  </a>
+                </div>
+                <div class="c-post-list__description">
+                  {{ post.data.description }}
+                </div>                
+              </div>
+              <div class="l-grid__item--xs">
+                <time class="c-kicker">{{ post.date | dateFull }}</time>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+{% if pagination.pageLinks.length > 1 %}
+<nav class="c-pagination l-grid l-grid--2-col">
+  {% if pagination.previousPageLink %}
+    <div class="l-grid__item c-pagination__item">
+      <a href="{{ pagination.previousPageHref | url }}">← Newer Articles</a>
+    </div>
+  {% else %}
+    <div class="l-grid__item c-pagination__item"></div>
+  {% endif %}
+
+  {% if pagination.nextPageLink %}
+    <div class="l-grid__item c-pagination__item">
+      <a href="{{ pagination.nextPageHref | url }}">Older Articles →</a>
+    </div>
+  {% else %}
+    <div class="l-grid__item c-pagination__item"></div>
+  {% endif %}
+</nav>
+{% endif %}
+
+    </div>
+  </section>
+  {% endif %}
+
+
+{% endblock %}
