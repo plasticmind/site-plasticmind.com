@@ -1,0 +1,64 @@
+# Ignore log files
+*.log
+
+# Ignore build output
+public/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Eleventy specific
+.eleventy-cache/
+.cache/
+
+# Netlify specific
+.netlify/
+netlify/
+functions/
+
+# Adobe Fonts cache (if any)
+.typekit-cache/
+
+# npm specific
+node_modules/
+npm-debug.log*
+package-lock.json.bak
+.npm/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Local Netlify folder
+.netlify
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS specific (additional)
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Decap CMS local backend
+.decap/
