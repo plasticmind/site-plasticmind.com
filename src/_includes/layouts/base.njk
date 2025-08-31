@@ -7,7 +7,8 @@
     {% endif %}
     {% block styles %}{% endblock %}
     <!-- Latest Build: {{ site.buildDate | dateISO }} -->
-    
+    {# Webfonts via Typekit #}
+    <link rel="stylesheet" href="https://use.typekit.net/ybw0wkj.css">
   </head>
   <body class="{% if section  %}single-page page-{{ page.fileSlug }}{% else %}home{% endif %}">
 
