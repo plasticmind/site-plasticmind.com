@@ -31,6 +31,6 @@ Here are my guiding principles for this new site:
 
 For those of you who’ve followed this site through its various incarnations... thanks!
 
-—–
-Jesse Gardner
+—–  
+Jesse Gardner  
 jesse@plasticmind.com
