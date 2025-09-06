@@ -10,7 +10,7 @@
     {# Webfonts via Typekit #}
     <link rel="stylesheet" href="https://use.typekit.net/ybw0wkj.css">
   </head>
-  <body class="{% if section  %}single-page page-{{ page.fileSlug }}{% else %}home{% endif %}">
+  <body class="layout {% if section  %}layout--page-{{ page.fileSlug }}{% else %}layout--home{% endif %}">
 
       {% include "partials/site-header.njk" %}
 
