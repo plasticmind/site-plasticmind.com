@@ -2,7 +2,58 @@
 
 {% block content %}
 {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-<section class="c-section c-section--article">
+{% set nextPost = collections.posts | getNextCollectionItem(page) %}
+
+<article class="c-article c-article--single">
+
+  {# = Feature Image #}
+  {% if page.data.featureImage %}
+    <div class="c-feature-image">
+      <img src="{{ page.data.featureImage }}" alt="{{ title }}">
+    </div>
+  {% endif %}
+
+  <div class="l-container--lg">
+
+    {# = Article Title #}
+    <h1 class="c-heading c-heading--lg">{{ title }}</h1>
+
+    {# = Article Body #}
+    {{ content | safe }}
+
+    {# = Article Tags #}
+    {% if tags %}
+      <ul class="c-tag-list">
+        {% for tag in tags %}
+          <li class="c-tag">#{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {# = Dinkus Divider #}
+    <div class="c-dinkus">
+      {% include "svg/dinkus.svg" %}
+    </div>
+
+    {# = Previous / Next Navigation #}
+    <div class="l-article-nav">
+      {% if previousPost %}
+        <div class="l-article-nav__item">
+          <div class="c-eyebrow">PREVIOUSLY:</div>
+          <a href="{{ previousPost.url }}" class="c-link c-link--nav">{{ previousPost.data.title }}</a>
+        </div>
+      {% endif %}
+      {% if nextPost %}
+        <div class="l-article-nav__item">
+          <div class="c-eyebrow">NEXT:</div>
+          <a href="{{ nextPost.url }}" class="c-link c-link--nav">{{ nextPost.data.title }}</a>
+        </div>
+      {% endif %}
+    </div>
+
+  </div>
+</article>
+
 
   {# = Feature Image #}
   {% if page.data.featureImage %}
@@ -32,28 +83,26 @@
       </ul>
     {% endif %}
 
-    <div class="c-dinkus">{% include "svg/dinkus.svg" %}</div>
-
-    <div class="l-container">
-      <div class="l-row">
-        {% if previousPost %}
-        <div class="l-col-fill">
-          <p>
-            <b>Previously:</b><br/>
-            <a href="{{ previousPost.url }}" title="Read: {{ previousPost.data.title | safe }}"><b>{{ previousPost.data.title }}</b></a>
-          </p>
-        </div>
-        {% endif %}
-        {% if nextPost %}
-        <div class="l-col-fill">
-          <p>
-            <b>Next:</b><br/>
-            <a href="{{ nextPost.url }}" title="Read: {{ nextPost.data.title | safe }}">{{ nextPost.data.title }}</a>
-          </p>
-        </div>
-        {% endif %}
-      </div>
+    <div class="c-dinkus">
+      {% include "svg/dinkus.svg" %}
     </div>
+
+    <div class="l-article-nav">
+      {% if previousPost %}
+        <div class="l-article-nav__item">
+          <div class="c-eyebrow">PREVIOUSLY:</div>
+          <a href="{{ previousPost.url }}" class="c-link c-link--nav">{{ previousPost.data.title }}</a>
+        </div>
+      {% endif %}
+
+      {% if nextPost %}
+        <div class="l-article-nav__item">
+          <div class="c-eyebrow">NEXT:</div>
+          <a href="{{ nextPost.url }}" class="c-link c-link--nav">{{ nextPost.data.title }}</a>
+        </div>
+      {% endif %}
+    </div>
+
   </div>
 </section>
 {% endblock %}

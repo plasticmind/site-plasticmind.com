@@ -1,5 +1,4 @@
 ---
-permalink: "blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}"
 pagination:
   data: collections.posts
   size: 25
@@ -12,6 +11,8 @@ eleventyNavigation:
   order: 3
 "changefreq": "daily"
 "priority": "0.9" 
+eleventyExcludeFromCollections: true
+permalink: false
 ---
 
 {% extends "layouts/base.njk" %}
