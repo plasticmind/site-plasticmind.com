@@ -8,20 +8,34 @@
     {% block styles %}{% endblock %}
     <!-- Latest Build: {{ site.buildDate | dateISO }} -->
     {# Webfonts via Typekit #}
-    <link rel="stylesheet" href="https://use.typekit.net/ybw0wkj.css">
+    <link rel="preload" href="https://use.typekit.net/ybw0wkj.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.typekit.net/ybw0wkj.css"></noscript>
   </head>
-  <body class="layout {% if section  %}layout--page-{{ page.fileSlug }}{% else %}layout--home{% endif %}">
+  <body class="{% if section  %}l--{{ section }}{% else %}l--home{% endif %}">
+    <div class="l-shell">
 
       {% include "partials/site-header.njk" %}
 
-      <main class="c-site-content" role="main">
+      <main class="l-main" role="main" aria-label="Main content">
+        {# If featureImage is set but not post #}
+
+        {% if featureImage and not page.inputPath.includes('/content/posts/') %}
+          <div class="c-feature-image">
+            <img src="{{ featureImage }}" alt="{{ title }}">
+          </div>
+        {% endif %}
         {% block content %}
         {{ content | safe }}
         {% endblock %}
       </main>
 
+      {% include "partials/drawer-left.njk" %}
+
+      {% include "partials/drawer-right.njk" %}
+
       {% include "partials/site-footer.njk" %}
 
+    </div>
   </body>
 
   {% include "partials/site-js-global.njk" %}
