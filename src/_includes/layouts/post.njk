@@ -7,9 +7,9 @@
 <article class="c-article c-article--single">
 
   {# = Feature Image #}
-  {% if page.data.featureImage %}
+  {% if featured_image_url %}
     <div class="c-feature-image">
-      <img src="{{ page.data.featureImage }}" alt="{{ title }}">
+      <img src="{{ featured_image_url }}" alt="{{ title | safe }}">
     </div>
   {% endif %}
 
@@ -55,54 +55,5 @@
 </article>
 
 
-  {# = Feature Image #}
-  {% if page.data.featureImage %}
-  <div class="c-feature-image">
-    <img src="{{ page.data.featureImage }}" alt="{{ title }}">
-  </div>
-  {% endif %}
 
-  {# = Article Content #}
-  <div class="l-container--lg">
-    <time datetime="{{ page.date | dateISO }}" class="c-dateline">
-      {{ page.date | dateFull }}
-    </time>
-
-    {# = Article Title #}    
-    <h1 class="c-heading c-heading--lg">{{ title }}</h1>
-
-    {# = Article Body #}
-    {{ content | safe }}
-
-    {# = Article Tags #}
-    {% if tags %}
-      <ul class="c-tag-list">
-        {% for tag in tags %}
-          <li class="c-tag">#{{ tag }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-
-    <div class="c-dinkus">
-      {% include "svg/dinkus.svg" %}
-    </div>
-
-    <div class="l-article-nav">
-      {% if previousPost %}
-        <div class="l-article-nav__item">
-          <div class="c-eyebrow">PREVIOUSLY:</div>
-          <a href="{{ previousPost.url }}" class="c-link c-link--nav">{{ previousPost.data.title }}</a>
-        </div>
-      {% endif %}
-
-      {% if nextPost %}
-        <div class="l-article-nav__item">
-          <div class="c-eyebrow">NEXT:</div>
-          <a href="{{ nextPost.url }}" class="c-link c-link--nav">{{ nextPost.data.title }}</a>
-        </div>
-      {% endif %}
-    </div>
-
-  </div>
-</section>
 {% endblock %}

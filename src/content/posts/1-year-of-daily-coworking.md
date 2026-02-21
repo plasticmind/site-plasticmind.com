@@ -16,16 +16,7 @@ fix: false
 hits: 827
 ---
 
-<!-- wp:paragraph -->
-
-
 It’s March 11, 2020 — a Wednesday.
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
 
 The world hasn't completely shut down yet — that will happen Friday the 13th — but things are definitely getting weird.
 

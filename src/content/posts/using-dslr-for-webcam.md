@@ -2,8 +2,6 @@
 title: Using a DSLR as a Webcam
 date: 2020-03-13 15:47:11
 archive: false
-excerpt: 
-subtitle: 
 slug: using-dslr-for-webcam
 featured_image_url: https://plasticmind.com/wp-content/uploads/2020/03/post-1.jpg
 alt_text: 
@@ -16,27 +14,11 @@ fix: false
 hits: 8688
 ---
 
-<!-- wp:paragraph -->
-
-
 With everyone working from home lately, I thought it might be helpful if I shared a bit about my audio/video setup.
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
 <h2>Video</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 
 Before I dive into how I got everything working together, here's a bullet list of my video setup today:
 
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
 <ul><li><a href="https://www.amazon.com/Sony-Mirrorless-Digitial-3-0-Inch-16-50mm/dp/B00I8BICB2/ref=sr_1_3?dchild=1&amp;keywords=sony+a6000&amp;qid=1584117604&amp;s=electronics&amp;sr=1-3">Sony A6000</a></li><li><a href="https://www.amazon.com/gp/product/B075Z4GXKG/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&amp;psc=1">Dummy battery</a></li><li><a href="https://www.amazon.com/Elgato-Cam-Link-Broadcast-Camcorder/dp/B07K3FN5MR/ref=sr_1_1_sspa?dchild=1&amp;keywords=elgato+camlink&amp;qid=1584117647&amp;s=electronics&amp;sr=1-1-spons&amp;psc=1&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzOUlHVk1HTEk3UVJKJmVuY3J5cHRlZElkPUEwNzQ3ODY1M0Q3VkpUS01TQVdQMSZlbmNyeXB0ZWRBZElkPUEwMTg1ODkwM09PRjFROUFTT1ZJTSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">Elgato Cam Link</a></li><li><a href="https://www.amazon.com/gp/product/B00XI87KV8/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">Amazon Basics tripod</a></li><li><a href="https://www.amazon.com/gp/product/B06WWQ7KLV/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">Micro-HDMI to HDMI cable</a></li></ul>
 <!-- /wp:list -->
 
