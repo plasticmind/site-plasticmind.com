@@ -6,10 +6,6 @@
     <meta name=”robots” content=”noindex”>
     {% endif %}
     {% block styles %}{% endblock %}
-    <!-- Latest Build: {{ site.buildDate | dateISO }} -->
-    {# Webfonts via Typekit #}
-    <link rel="preload" href="https://use.typekit.net/ybw0wkj.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://use.typekit.net/ybw0wkj.css"></noscript>
   </head>
   <body class="{% if section  %}l--{{ section }}{% else %}l--home{% endif %}">
     <div class="l-shell">
