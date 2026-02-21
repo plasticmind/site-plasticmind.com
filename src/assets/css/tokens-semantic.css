@@ -1,0 +1,34 @@
+:root {
+
+    /* -------------------- */
+    /* # Semantic Variables */
+
+    /* ## Color */
+
+    --color-text: var(--neutral-900);
+    --color-text-weak: var(--neutral-600);
+    --color-text-weakest: var(--neutral-300);
+    --color-text-reverse: var(--neutral-0);
+    --color-text-reverse-weak: var(--neutral-300);
+
+    --color-ink: var(--neutral-900);
+    --color-ink-weak: var(--neutral-600);
+    --color-ink-weakest: var(--neutral-300);
+    --color-ink-faint: var(--neutral-100);
+
+    --color-ink-reverse: var(--neutral-0);
+    --color-ink-reverse-weak: var(--neutral-300);
+    --color-ink-reverse-weakest: var(--neutral-600);
+    --color-ink-reverse-faint: var(--neutral-700);
+
+    --color-surface: var(--neutral-0);
+    --color-surface-reverse: var(--neutral-900);
+    --color-surface-alt: var(--neutral-100);
+    --color-surface-alt-reverse: var(--neutral-800);
+
+    --color-link: var(--color-coral-500);
+    --color-hover: var(--color-coral-700);
+    --color-focus: var(--color-coral-700);
+    --color-press: var(--color-coral-900);
+
+}
