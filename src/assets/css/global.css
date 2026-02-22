@@ -56,11 +56,11 @@ code {
 /* Code blocks */
 pre {
     font-family: var(--font-family-mono);
-    font-size: var(--font-sm);
+    font-size: var(--font-xs);
     line-height: 1.6;
     color: var(--color-text);
     background: var(--neutral-100);
-    padding: var(--space-lg);
+    padding: var(--space-xl);
     margin: var(--space-lg) 0;
     overflow-x: auto;
     border-radius: var(--radius-md);
