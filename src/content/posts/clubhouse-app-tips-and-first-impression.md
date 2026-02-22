@@ -1,7 +1,7 @@
 ---
 title: "Clubhouse App: Tips and First-Impressions"
 date: 2021-02-05 14:59:51
-archive: false
+archive: true
 excerpt: 
 subtitle: 
 slug: clubhouse-app-tips-and-first-impression
@@ -34,7 +34,7 @@ A few stray observations:
     <li dir="auto">Much like conference panels, Twitter is a great place for live show notes. For a good example, check out <a href="https://twitter.com/steveportigal/status/1357735476598247426">Steve Portigal's tweets from today's event</a>.</li>
     <li dir="auto">Pinging people to a live room is Clubhouse's version of "share this with your friends." Seems like a sensible way of making people aware there's a live event happening, just hoping these pings don't get too noisy as the platform scales.</li>
     <li dir="auto">When pulling people from the audience to the stage, there's still a weird dance about when to move them back into the audience. Telling someone you're moving them back to audience before you do it feels right, gives them a chance to ask a follow up question first, etc.</li>
-    <li dir="auto">Inviting audience members to participate is m<span class="pq6dq46d tbxw36s4 knj5qynh kvgmc6g5 ditlmg2l oygrvhab nvdbi5me sf5mxxl7 gl3lb2sf hhz5lgdu"><img src="https://static.xx.fbcdn.net/images/emoji.php/v9/t75/2/16/2728.png" alt="&#x2728;" width="16" height="16" /></span>a<span class="pq6dq46d tbxw36s4 knj5qynh kvgmc6g5 ditlmg2l oygrvhab nvdbi5me sf5mxxl7 gl3lb2sf hhz5lgdu"><img src="https://static.xx.fbcdn.net/images/emoji.php/v9/t75/2/16/2728.png" alt="&#x2728;" width="16" height="16" /></span>g<span class="pq6dq46d tbxw36s4 knj5qynh kvgmc6g5 ditlmg2l oygrvhab nvdbi5me sf5mxxl7 gl3lb2sf hhz5lgdu"><img src="https://static.xx.fbcdn.net/images/emoji.php/v9/t75/2/16/2728.png" alt="&#x2728;" width="16" height="16" /></span>i<span class="pq6dq46d tbxw36s4 knj5qynh kvgmc6g5 ditlmg2l oygrvhab nvdbi5me sf5mxxl7 gl3lb2sf hhz5lgdu"><img src="https://static.xx.fbcdn.net/images/emoji.php/v9/t75/2/16/2728.png" alt="&#x2728;" width="16" height="16" /></span>c<span class="pq6dq46d tbxw36s4 knj5qynh kvgmc6g5 ditlmg2l oygrvhab nvdbi5me sf5mxxl7 gl3lb2sf hhz5lgdu"><img src="https://static.xx.fbcdn.net/images/emoji.php/v9/t75/2/16/2728.png" alt="&#x2728;" width="16" height="16" />a<img src="https://static.xx.fbcdn.net/images/emoji.php/v9/t75/2/16/2728.png" alt="&#x2728;" width="16" height="16" />l</span>, but keep in mind many people are listening in situations where they can't contribute. We'll have to find ways of inviting them without the dead air of waiting for them **not** to respond.</li>
+    <li dir="auto">Inviting audience members to participate is m✨a✨g✨i✨c✨a✨l, but keep in mind many people are listening in situations where they can't contribute. We'll have to find ways of inviting them without the dead air of waiting for them **not** to respond.</li>
     <li dir="auto">People come and go freely into rooms. That's the beauty of the platform. Unlike radio, though, people can see if you're listening. That's cool but weird. I can turn off the radio or podcast whenever I need to, but doing that on Clubhouse may have some social implications.</li>
     <li dir="auto">Joining a room and leaving your phone just so people who expect you to be there will see you there even though you're not actually listening: will that become a thing? Related: Clubhouse needs an incognito mode.</li>
 </ul>

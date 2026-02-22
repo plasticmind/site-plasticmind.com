@@ -27,7 +27,7 @@ Two big themes for our 2022 travels: local exploration and work travel.
 <!-- wp:paragraph -->
 
 
-In January, we braved the cold and traveled upstate, visiting the colorful ice castle in Lake George. A recurring theme here in Upstate NY is cold winters (foreshadowing). There were many tears the night we visited the castle, but they quickly froze and the beautiful pictures and hot cocoa afterwards helped us forget all that. <img height="16" width="16" src="https://static.xx.fbcdn.net/images/emoji.php/v9/tf2/2/16/1f605.png" alt="&#x1f605;">
+In January, we braved the cold and traveled upstate, visiting the colorful ice castle in Lake George. A recurring theme here in Upstate NY is cold winters (foreshadowing). There were many tears the night we visited the castle, but they quickly froze and the beautiful pictures and hot cocoa afterwards helped us forget all that. 😅
 
 
 <!-- /wp:paragraph -->
