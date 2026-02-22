@@ -1,48 +1,55 @@
 // Plasticmind Global JavaScript
 
 document.addEventListener('DOMContentLoaded', function() {
+  // ========================
+  // Drawer Management
+  // ========================
+
   const shell = document.querySelector('.l-shell');
   const overlay = document.querySelector('.l-drawer-overlay');
   const menuButton = document.querySelector('[data-action="toggle-menu"]');
   const mainContent = document.querySelector('.l-main');
-
-  // ========================
-  // Left Drawer Toggle
-  // ========================
-
-  function toggleLeftDrawer() {
-    const currentDrawer = shell.dataset.drawer;
-    if (currentDrawer === 'left') {
-      closeDrawers();
-    } else {
-      openDrawer('left');
-    }
-  }
+  const leftDrawer = document.getElementById('menu-drawer');
+  const rightDrawer = document.getElementById('right-drawer');
 
   function openDrawer(direction) {
     shell.dataset.drawer = direction;
     document.body.style.overflow = 'hidden';
+
+    // Focus management: only the open drawer should be interactive
+    mainContent.setAttribute('inert', '');
+    if (direction === 'left') {
+      leftDrawer.removeAttribute('inert');
+    } else {
+      rightDrawer.removeAttribute('inert');
+    }
   }
 
   function closeDrawers() {
     shell.dataset.drawer = '';
     document.body.style.overflow = '';
+
+    // Restore normal focus: main content interactive, drawers inert
+    mainContent.removeAttribute('inert');
+    leftDrawer.setAttribute('inert', '');
+    rightDrawer.setAttribute('inert', '');
   }
 
-  // Menu button click
   if (menuButton) {
     menuButton.addEventListener('click', function(e) {
       e.stopPropagation();
-      toggleLeftDrawer();
+      if (shell.dataset.drawer === 'left') {
+        closeDrawers();
+      } else {
+        openDrawer('left');
+      }
     });
   }
 
-  // Close on overlay click
   if (overlay) {
     overlay.addEventListener('click', closeDrawers);
   }
 
-  // Close drawers on main content click
   if (mainContent) {
     mainContent.addEventListener('click', () => {
       if (shell.dataset.drawer) {
