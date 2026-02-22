@@ -328,7 +328,12 @@ hr {
   justify-content: center;
   color: var(--neutral-0);
   border-radius: var(--radius-md);
-  transition: background var(--transition-sm) ease;
+  transition: background var(--transition-sm) ease, transform var(--transition-sm) ease;
+}
+
+.l-drawer--left .c-toolbar .c-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
 }
 
 .l-drawer--left .c-nav {
