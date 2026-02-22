@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const shell = document.querySelector('.l-shell');
   const overlay = document.querySelector('.l-drawer-overlay');
   const menuButton = document.querySelector('[data-action="toggle-menu"]');
+  const mainContent = document.querySelector('.l-main');
 
   // ========================
   // Left Drawer Toggle
@@ -42,7 +43,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Close drawers on main content click
-  const mainContent = document.querySelector('.l-main');
   if (mainContent) {
     mainContent.addEventListener('click', () => {
       if (shell.dataset.drawer) {

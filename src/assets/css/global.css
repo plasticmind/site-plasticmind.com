@@ -173,7 +173,6 @@ hr {
 .l-shell[data-drawer="left"] .l-main,
 .l-shell[data-drawer="right"] .l-main {
     overflow: hidden;
-    height: 100vh;
 }
 
 .l-shell[data-drawer="left"] .c-footer,
