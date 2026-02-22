@@ -72,7 +72,7 @@ Now, we'll need to make some changes to your Individual Entry Archive (or wherev
 <MTComments><br />
 	<div class="comments"><br />
 	<$MTCommentBody$><br />
-	### Shared by: <$MTCommentAuthorLink default_name="Visitor" spam_protect="1"$> <MTCommentAuthorIdentity> at <$MTCommentDate$>
+### Shared by: <$MTCommentAuthorLink default_name="Visitor" spam_protect="1"$> <MTCommentAuthorIdentity> at <$MTCommentDate$>
 <br />
 	</div><br />
 </MTComments>
@@ -205,7 +205,7 @@ What I've done is I've captured the MTCommentEmail tag data through PHP and comp
 	<?php $commentemail = $this->tag('MTCommentEmail'); ?><br />
 	<?php if ($commentemail == "foo@bar.com") {echo "<div class="mycomment">";} else {echo "<div class="comment">"; }?><br />
 	<$MTCommentBody$><br />
-	### Shared by: <$MTCommentAuthorLink default_name="Visitor" spam_protect="1"$> <MTCommentAuthorIdentity> at <$MTCommentDate$>
+### Shared by: <$MTCommentAuthorLink default_name="Visitor" spam_protect="1"$> <MTCommentAuthorIdentity> at <$MTCommentDate$>
 <br />
 	</div><br />
 </MTComments>

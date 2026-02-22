@@ -17,7 +17,7 @@ hits: 1526
 ---
 
 
-			### How A Biography Gets Written
+### How A Biography Gets Written
 
 
 

@@ -17,7 +17,7 @@ hits: 473
 ---
 
 
-			### Create a &#8220;Breadcrumb&#8221; Trail In Movable Type Using Subcategories
+### Create a &#8220;Breadcrumb&#8221; Trail In Movable Type Using Subcategories
 
 
 

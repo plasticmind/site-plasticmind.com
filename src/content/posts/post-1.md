@@ -17,7 +17,7 @@ hits: 152
 ---
 
 
-			##### A Practical Observation
+##### A Practical Observation
 
 
 

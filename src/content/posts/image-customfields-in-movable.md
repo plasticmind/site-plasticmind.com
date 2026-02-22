@@ -17,7 +17,7 @@ hits: 477
 ---
 
 
-			##### Dilemma: Image Link Instead of Image
+##### Dilemma: Image Link Instead of Image
 
 
 

@@ -17,7 +17,7 @@ hits: 4625
 ---
 
 
-			### Images and Frames&#8230; What&#8217;s a Blog To Do?
+### Images and Frames&#8230; What&#8217;s a Blog To Do?
 
 
 
