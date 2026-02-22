@@ -45,13 +45,13 @@
     {# = Previous / Next Navigation #}
     <nav class="l-article-nav" aria-label="Post navigation">
       {% if previousPost %}
-        <div class="l-article-nav__item">
+        <div class="l-article-nav__item l-article-nav__item--prev">
           <div class="c-eyebrow">Previously:</div>
           <a href="{{ previousPost.url }}" class="c-link c-link--nav">{{ previousPost.data.title }}</a>
         </div>
       {% endif %}
       {% if nextPost %}
-        <div class="l-article-nav__item">
+        <div class="l-article-nav__item l-article-nav__item--next">
           <div class="c-eyebrow">Next:</div>
           <a href="{{ nextPost.url }}" class="c-link c-link--nav">{{ nextPost.data.title }}</a>
         </div>

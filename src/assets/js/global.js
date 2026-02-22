@@ -118,9 +118,13 @@ document.addEventListener('DOMContentLoaded', function() {
   function openBottomDrawer(drawerId) {
     const drawer = document.getElementById(drawerId);
     if (drawer) {
-      bottomDrawers.forEach(d => d.classList.remove('is-open'));
+      bottomDrawers.forEach(d => {
+        d.classList.remove('is-open');
+        d.setAttribute('inert', '');
+      });
       drawer.classList.add('is-open');
       drawer.setAttribute('aria-hidden', 'false');
+      drawer.removeAttribute('inert');
       document.body.style.overflow = 'hidden';
     }
   }
@@ -128,6 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function closeBottomDrawer(drawer) {
     drawer.classList.remove('is-open');
     drawer.setAttribute('aria-hidden', 'true');
+    drawer.setAttribute('inert', '');
     document.body.style.overflow = '';
   }
 

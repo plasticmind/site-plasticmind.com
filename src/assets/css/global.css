@@ -627,11 +627,12 @@ hr {
   gap: var(--space-sm);
 }
 
-.l-article-nav__item:only-child {
+.l-article-nav__item--prev {
   grid-column: 1;
 }
 
-.l-article-nav__item:last-child:not(:only-child) {
+.l-article-nav__item--next {
+  grid-column: 2;
   text-align: right;
 }
 
@@ -650,11 +651,15 @@ hr {
   font-weight: 700;
   color: var(--color-text);
   text-decoration: none;
-  transition: color var(--transition-sm) ease;
+  transition: color var(--transition-sm) ease, text-decoration-color var(--transition-sm) ease;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 4px;
 }
 
 .c-link--nav:hover {
   color: var(--color-link);
+  text-decoration-color: var(--color-link);
 }
 
 /* ---------------------- */
