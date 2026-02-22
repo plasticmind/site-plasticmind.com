@@ -25,7 +25,8 @@ With everyone working from home lately, I thought it might be helpful if I share
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>Video</h2>
+## Video
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -57,7 +58,8 @@ This setup is about $750 if you buy everything new.
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Setting It Up</h3>
+### Setting It Up
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -149,7 +151,8 @@ The only thing worth mentioning with the Sony A6000 is that while you *can* run 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>Lighting</h2>
+## Lighting
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -173,7 +176,8 @@ If you buy two of these like I did, it will cost you $60 ($30/each).
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Setting It Up</h3>
+### Setting It Up
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -197,7 +201,8 @@ If you're looking for something more adjustable/flexible, take a look at the <a 
 <!-- /wp:image -->
 
 <!-- wp:heading -->
-<h2>Audio</h2>
+## Audio
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -221,7 +226,8 @@ This setup is about $400 if you buy everything new.
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Setting It Up</h3>
+### Setting It Up
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -253,7 +259,8 @@ Also — if you're thinking about any boom arm, save yourself the headache and g
 <!-- /wp:image -->
 
 <!-- wp:heading -->
-<h2>Result?</h2>
+## Result?
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

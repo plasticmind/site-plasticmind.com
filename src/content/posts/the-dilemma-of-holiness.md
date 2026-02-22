@@ -23,7 +23,8 @@ Some of you read that title and gasped.  I suspect that most read it and nodded 
 
 
 
-<h4>The Command</h4>
+#### The Command
+
 
 
 
@@ -43,7 +44,8 @@ So where's the dilemma?  God's Word commands us to be holy, so we should be holy
 
 
 
-<h4>Two Initial Questions</h4>
+#### Two Initial Questions
+
 
 
 
@@ -57,7 +59,8 @@ The next obvious question is: if we are called to be holy, why is it so difficul
 
 
 
-<h4>Why No Victory?</h4>
+#### Why No Victory?
+
 
 
 

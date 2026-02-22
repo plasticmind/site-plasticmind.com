@@ -35,7 +35,8 @@ I&#8217;ve always struggled with *Order*, so as an experiment in betterment I&#8
 
 
 
-<h3>Scheme</h3>
+### Scheme
+
 
 
 
@@ -73,7 +74,8 @@ I&#8217;ve always struggled with *Order*, so as an experiment in betterment I&#8
 
 
 
-<h3>Caveat Emptor</h3>
+### Caveat Emptor
+
 
 
 

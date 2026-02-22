@@ -35,7 +35,8 @@ So, after reading through <a href="https://www.macgasm.net/2012/05/03/rdio-vs-mo
 
 
 
-<h3>Good UI = Good Feelings</h3>
+### Good UI = Good Feelings
+
 
 
 
@@ -55,7 +56,8 @@ Then I started to recreate some of my favorite Spotify playlists.
 
 
 
-<h3>Missing Music = Bad Feelings</h3>
+### Missing Music = Bad Feelings
+
 
 
 
@@ -75,7 +77,8 @@ So I decided instead to start with some of my favorite artists.  I looked up Jon
 
 
 
-<h3>No Apps = More Bad Feelings</h3>
+### No Apps = More Bad Feelings
+
 
 
 
@@ -83,7 +86,8 @@ Put off, but not undeterred, I decided to stick with it for a week.  During that
 
 
 
-<h3>The Will of the Wife</h3>
+### The Will of the Wife
+
 
 
 

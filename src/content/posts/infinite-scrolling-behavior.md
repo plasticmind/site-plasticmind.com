@@ -129,7 +129,8 @@ Don&#8217;t forget to style your pagination links.  We styled ours like a big bu
 
 
 
-<h3>Google Analytics Protip</h3>
+### Google Analytics Protip
+
 
 
 

@@ -26,48 +26,59 @@ As I did, I started to realize a couple of things. First, a huge list of symbols
 
 <!--more-->
 
-<h3>What’s Inside</h3>
+### What’s Inside
+
 
 Here’s the full list of symbols that <a href="https://https://plasticmind.com/toybox/symbolassist/">SymbolAssist</a> puts at your finger’s tip:
 
-<h4>Upside-down Alphabet</h4>
+#### Upside-down Alphabet
+
 
 <div style="font-size: 18px; margin-bottom: 12px;">¿ ¡ ˙ z ʎ x ʍ ʌ n ʇ s ɹ b d o u ɯ ן ʞ ɾ ı ɥ ƃ ɟ ǝ p ɔ q ɐ
 (¡ʍʇɟ ‘ʇsıssɐןoqɯʎs)</div>
 
-<h4>Arrows ﹠ Pointers</h4>
+#### Arrows ﹠ Pointers
+
 
 <div style="font-size: 18px; margin-bottom: 12px;">➔ ➘ ➙ ➚ ➛ ➜ ➝ ➞ ➟ ➠ ➡ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➱ ➲ ➳ ➴ ➵ ➶ ➷ ➸ ➹ ➺ ➻ ➼ ➽ ➾ ← ↑ → ↓ ↔ ↕ ↨ ↻ ↺ ☚ ☛ ☜ ☝ ☞ ☟</div>
 
-<h4>Crosses ﹠ Stars</h4>
+#### Crosses ﹠ Stars
+
 
 <div style="font-size: 18px; margin-bottom: 12px;">✙ ✚ ✛ ✜ ✝ ✞ ✟ ♰ ♱ ✠ ✡ ✢ ✣ ✤ ✥ ✦ ✧ ✩ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ✱ ✲ ✳ ✴ ✵ ✶ ✷ ✸ ✹ ✺ ✻ ✼ ✽ ✾ ✿ ❀ ❁ ❂ ❃ ❄ ❅ ❆ ❇ ❈ ❉ ❊ ❋</div>
 
-<h4>Blocks ﹠ Shapes</h4>
+#### Blocks ﹠ Shapes
+
 
 <div style="font-size: 18px; margin-bottom: 12px;">❍ ❏ ❐ ❑ ❒ ■ ◆ ◊ ● ◗ ▄ █ ▌ ▐ ░ ▒ ▓ ␥ ■ □ ▪ ▫ ▬ ▲ ► ▼ ◄ ⎔ ▢ ■ □ ▢ ▣ ▤ ▥ ▦ ▧ ▨ ▩ ▪ ▫ ▬ ▭ ▮ ▯ ▰ ▱ ▲ △ ▴ ▵ ▶ ▷ ▸ ▹ ► ▻ ▼ ▽ ▾ ▿ ◀ ◁ ◂ ◃ ◄ ◅ ◆ ◇ ◈ ◉ ◊ ○ ◌ ◍ ◎ ● ◐ ◑ ◒ ◓ ◔ ◕ ◖ ◗ ◘ ◙ ◚ ◛ ◜ ◝ ◞ ◟ ◠ ◡ ◢ ◣ ◤ ◥ ◦ ◧ ◨ ◩ ◪ ◫ ◬ ◭ ◮ ◯ ◰ ◱ ◲ ◳ ◴ ◵ ◶ ◷</div>
 
-<h4>Lines</h4>
+#### Lines
+
 
 <div style="font-size: 18px; margin-bottom: 12px;">─ │ ┌ ┐ └ ┘ ├ ┤ ┬ ┴ ┼ ═ ║ ╒ ╓ ╔ ╕ ╖ ╗ ╘ ╙ ╚ ╛ ╜ ╝ ╞ ╟ ╠ ╡ ╢ ╣ ╤ ╥ ╦ ╧ ╨ ╩ ╪ ╫ ╬</div>
 
-<h4>Dingbats</h4>
+#### Dingbats
+
 
 <div style="font-size: 18px; margin-bottom: 12px;">☑ ☒ ☓ ✓ ✔ ✕ ✖ ✗ ✘ ✁ ✂ ✃ ✄ ✆ ✇ ♺ ✈ ✉ ✌ ✍ ✎ ✏ ✐ ✑ ✒ ⎗ ⎘ ⎙ ⎚ ⎈ ⎋ ☽ ☾ ☀ ☼ ☁ ☂ ☃ ☄ ★ ☆ ☇ ☈ ☉ ☊ ☋ ☌ ☍ ☎ ☏ ☙ ☠ ☡ ☢ ☣ ☤ ☥ ☦ ☧ ☨ ☩ ☪ ☫ ☬ ☭ ☮ ☯ ☸ ☹ ☺ ☻ ☿ ♀ ♁ ♂ ♃ ♄ ♅ ♆ ♇ ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ♔ ♕ ♖ ♗ ♘ ♙ ♚ ♛ ♜ ♝ ♞ ♟ ♠ ♡ ♢ ♣ ♤ ♥ ♦ ♧ ♨ ♩ ♪ ♫ ♬ ♭ ♮ ♯</div>
 
-<h4>Math ﹠ Money</h4>
+#### Math ﹠ Money
+
 
 <div style="font-size: 18px; margin-bottom: 12px;">‰ ‱ ª ⁿ ₤ € ¢ £ ℅ № ₧ ½ ¼ ¾ ⅛ ⅜ ⅝ ⅞ ° ± ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁰ µ ∀ ∂ ∃ ∅ ∆ ∇ ∈ ∉ ∊ ∍ ∏ ∑ − ∗ ∙ √ ∝ ∞ ∠ ∧ ∨ ∩ ∪ ∫ ∴ ∶ ∼ ≅ ≈ ≠ ≡ ≢ ≤ ≥ ⊂ ⊃ ⊄ ⊆ ⊇ ⊕ ⊗ ⊥ ⋄ ⋅</div>
 
-<h4>Typographical</h4>
+#### Typographical
+
 
 <div style="font-size: 18px; margin-bottom: 12px;">¶ ’ ’ ” ” ‚ „ ′ ″ ‐ ‑ ‒ - — ― ¡ ‼ ⁈ ⁉ ‽ ␦ ® © ™ § … † ‡ ƒ ‖ ‗ ‹ › ⁄ ❛ ❜ ❝ ❞ ❡ ❢ ❣ ❤ ❥ ❦ ❧ ﬆ ﬅ ﬄ ﬁ</div>
 
-<h4>Greek Alphabet</h4>
+#### Greek Alphabet
+
 
 <div style="font-size: 18px; margin-bottom: 12px;">Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ϑ ϒ ϕ ϖ</div>
 
-<h4>OCR Symbols</h4>
+#### OCR Symbols
+
 
 <div style="font-size: 18px; margin-bottom: 12px;">⑊ ⑉ ⑈ ⑇ ⑆ ⑅ ⑄ ⑃ ⑂ ⑁ ⑀</div>
 

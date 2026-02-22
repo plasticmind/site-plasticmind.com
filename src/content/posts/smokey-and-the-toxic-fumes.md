@@ -26,6 +26,6 @@ Seems as though I turned the wrong burner on. The one I turned on had the silico
 
 In the meantime, the dark, gray smoke was billowing from the top of the stove. We didn’t realize just how much until we turned around and saw the entire house, thick with smoke. This was the kind of smoke that makes you dizzy, gives you a headache and makes your eyes sting. We opened all the windows, turned on all the fans in the house and went out to sit in the car. Oh, what fun, especially in the middle winter.
 
-**Update:** We’re back in and can’t seem to smell much smoke. I figure either we’re blind to the scent or our brains have been damaged to the point where our olfactory system has stopped working. **But being brain dead never stopped anyone from blogging, right?!**
+**Update:** We’re back in and can’t seem to smell much smoke. I figure either we’re blind to the scent or our brains have been damaged to the point where our olfactory system has stopped working.**But being brain dead never stopped anyone from blogging, right?!**
 
 <!--more-->

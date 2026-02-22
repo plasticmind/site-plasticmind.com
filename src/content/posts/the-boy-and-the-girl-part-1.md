@@ -18,7 +18,8 @@ hits: 397
 
 <div class="thumb-left"><img src="https://plasticmind.com/images/story-theboyandthegirl.gif" alt="The Boy and the Girl: An Engagement Story" /></div>
 
-<h3>Chapter 1: Prelude to a Kiss</h3>
+### Chapter 1: Prelude to a Kiss
+
 
 **Once upon a time there was a very lonely boy.**
 

@@ -16,7 +16,7 @@ fix: false
 hits: 674
 ---
 
-I know you’re not supposed to start blog posts with qualifications, but I honestly don’t know how to weave this all together. So, stream of consciousness is my medium of choice tonight. **Beware.**
+I know you’re not supposed to start blog posts with qualifications, but I honestly don’t know how to weave this all together. So, stream of consciousness is my medium of choice tonight.**Beware.**
 
 Back in the early nineties, while everyone else was sporting <a href="https://cgi.ebay.com/Unique-New-Kids-on-the-Block-Slap-Bracelets-VINTAGE_W0QQitemZ160227334355QQcmdZViewItem">New Kids on the Block slap bracelets</a>, I was holed up in my basement with two gigantic speakers on either side of my desk, an old school 486 PC that I’d built from scratch and a <a href="https://en.wikipedia.org/wiki/Gravis_Ultrasound">Gravis Ultrasound</a> pumping out the latest <a href="https://en.wikipedia.org/wiki/MOD_(file_format">.mod files</a>) from Europe. To this day, I’m not sure how they made it all the way round the globe and onto the mom-and-pop BBS I used to dial into; but there they were, the roots of electronica in all their 8-bit, 4-channel glory.
 

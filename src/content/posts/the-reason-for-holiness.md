@@ -23,7 +23,8 @@ Yesterday we spent time dealing with some inital questions about holiness.  We d
 
 
 
-<h4>The Measuring Rod</h4>
+#### The Measuring Rod
+
 
 
 
@@ -43,7 +44,8 @@ Sin found it's roots in trying to sidestep God, which makes perfect sense becaus
 
 
 
-<h4>The God Who Does Not Wink</h4>
+#### The God Who Does Not Wink
+
 
 
 
@@ -57,7 +59,8 @@ The size of the violation does not matter.  It may be a lie, it may be pride and
 
 
 
-<h4>The Weeping Groom</h4>
+#### The Weeping Groom
+
 
 
 

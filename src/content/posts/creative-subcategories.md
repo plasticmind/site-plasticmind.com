@@ -17,7 +17,8 @@ hits: 473
 ---
 
 
-			<h3>Create a &#8220;Breadcrumb&#8221; Trail In Movable Type Using Subcategories</h3>
+			### Create a &#8220;Breadcrumb&#8221; Trail In Movable Type Using Subcategories
+
 
 
 
@@ -45,7 +46,8 @@ Essentially, we check to see if the category page we&#8217;re on has a parent.  
 
 
 
-<h3>Display Subcategories As A Menu On A Category Archive Page</h3>
+### Display Subcategories As A Menu On A Category Archive Page
+
 
 
 

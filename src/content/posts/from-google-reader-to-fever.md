@@ -37,7 +37,8 @@ For the visual learners, here&#8217;s the video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1IrfHJgqbhA" frameborder="0" allowfullscreen></iframe>
 
-<h3>What You&#8217;ll Need</h3>
+### What You&#8217;ll Need
+
 
 <ul>
 <li>A Unix-based server (most web servers)</li>
@@ -45,7 +46,8 @@ For the visual learners, here&#8217;s the video:
 <li>A Fever license ($30/domain)</li>
 </ul>
 
-<h3>Installation</h3>
+### Installation
+
 
 <ul>
 <li>Create an account on <a href="https://feedafever.com/">feedafever.com</a></li>

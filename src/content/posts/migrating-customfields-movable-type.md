@@ -17,7 +17,8 @@ hits: 186
 ---
 
 
-			<h5>Installing CustomFields Upgrade Assistant</h5>
+			##### Installing CustomFields Upgrade Assistant
+
 
 
 
@@ -31,7 +32,8 @@ A note about installing the upgrader: Arvind&#8217;s CustomFields plugin lives i
 
 
 
-<h5>Murphy&#8217;s Law</h5>
+##### Murphy&#8217;s Law
+
 
 
 
@@ -59,7 +61,8 @@ I first thought that the MTP upgrade and the CF Upgrade Assistant could not be r
 
 
 
-<h5>Troubleshooting Orphans</h5>
+##### Troubleshooting Orphans
+
 
 
 
@@ -115,7 +118,8 @@ To clean up orphaned custom fields data associated with **authors**, use the fol
  AND SUBSTRING( plugindata_key, 2 ) = author_id) IS NULL;
 </code></pre>
 
-<h5>One Last Bug Squash</h5>
+##### One Last Bug Squash
+
 
 
 
@@ -149,7 +153,8 @@ Both occurrences of <code>$entry</code> need to be changed to <code>$obj</code>.
 <pre><code> my $text = ($obj-&gt;text || '') . "n" . ($obj-&gt;text_more || '');
 </code></pre>
 
-<h5>Upgrade!</h5>
+##### Upgrade!
+
 
 
 

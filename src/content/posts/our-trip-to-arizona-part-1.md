@@ -29,6 +29,7 @@ I took 750 pictures of our trip of Arizona (much to my wife's chagrin), so it's 
 
 
 
-<h5><a href="https://www.flickr.com/photos/plasticmind/sets/72157600034230478/">Arizona: From Phoenix to Flagstaff</a></h5>
+##### <a href="https://www.flickr.com/photos/plasticmind/sets/72157600034230478/">Arizona: From Phoenix to Flagstaff</a>
+
 
 		

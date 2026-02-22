@@ -23,7 +23,8 @@ Thanks to <a href="https://endevver.com">Jay</a> and <a href="https://movalog.co
 
 
 
-<h3>Overview</h3>
+### Overview
+
 
 
 
@@ -37,7 +38,8 @@ This plugin gives you a new custom field type (&#8216;Formatted Multi-Line Text 
 
 
 
-<h3>Requirements</h3>
+### Requirements
+
 
 
 
@@ -51,7 +53,8 @@ PlasticField requires that you have <a href="https://www.movabletype.com/product
 
 
 
-<h3>Cost and Support</h3>
+### Cost and Support
+
 
 
 
@@ -59,7 +62,8 @@ This plugin is free and is provided as-is.  You can use it, redistribute it and/
 
 
 
-<h3>Installation</h3>
+### Installation
+
 
 
 
@@ -68,7 +72,8 @@ contents of /mt-static/ to your static directory.
 
 
 
-<h3>Using PlasticField</h3>
+### Using PlasticField
+
 
 
 
@@ -76,7 +81,8 @@ Look for changes to your Customfields » New Field screen.  If you&#8217;ve inst
 
 
 
-<h3>Converting Existing Fields</h3>
+### Converting Existing Fields
+
 
 
 

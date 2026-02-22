@@ -19,11 +19,13 @@ hits: 3511
 Specifically, we started looking for ways to make the sharing experience better for users and more effective overall. Pinterest has always been important to us since we're a recipe site and so many people use Pinterest as a recipe box. We discovered lots of room for improvement and made three significant changes on our site that have enhanced the pinning experience and have ultimately resulted in more referrals from Pinterest.
 
 In this article, I'm going to walk you through the first one.  I haven’t seen this technique posted anywhere, but it’s incredible useful.
-<h2>In Defense of Vertical Photos</h2>
+## In Defense of Vertical Photos
+
 If you use Pinterest, you know that tall vertical photos work really well in Pinterest, especially <a href="https://www.simplyrecipes.com/wp-content/uploads/2014/12/how-to-chop-onion-pinterest-stack.jpg">the tall “stack” photos</a>.  Even the Pinterest business blog <a href="https://business.pinterest.com/en/blog/pin-it-button-technical-tune-5-tips-make-sharing-your-site-better">recommends vertical photos</a>. However, those skyscraper-type images don’t play well with most site designs—certainly not ours. Plus, because the title of a Pin isn’t displayed on mobile devices, having the title in the image is common; but that also looks weird on a typical site where the title is presumable up top.
 
 **So, the dilemma arises.** You want a nice Pinterest-friendly [ref]Pinterest recommends using images that are at least 600 pixels wide.[/ref] image available for people to pin, but it just doesn’t work in the context of your site’s design.
-<h2>Some Bad Solutions</h2>
+## Some Bad Solutions
+
 You could technically put the image in a hidden div on the page. [ref]The Pinterest button won’t show images that have a `display:none` style set, but it will show images within a hidden div.[/ref] However, most browsers still load hidden images, and those tall images tend to be rather large. Your page performance would take a hit and it would cost visitors time and bandwidth.
 
 Fortunately, Pinterest recently introduced the <code>data-pin-media</code> attribute, which lets you point to an alternate image from one of your image tags. In other words, if your featured image was a landscape-oriented image, but you wanted to point to a portrait-oriented alternative, you’d some something like:
@@ -31,20 +33,25 @@ Fortunately, Pinterest recently introduced the <code>data-pin-media</code> attri
 This would tell the Pin It button to show portrait.jpg instead of landscape.jpg in the image selection screen. Handy!
 
 But there’s a problem. It’s a lousy user experience. If someone hovers the landscape image and clicks “Pin It”, the new pin creation popup will show a portrait image. If they click their browser’s Pin It button, the landscape image won’t be there to select. Some users might not notice the bait-and-switch, but you’ve limited and misled your users, and that’s never good UX.
-<h2>A Better-ish Solution</h2>
+## A Better-ish Solution
+
 There is a better way, but fair warning: this feels like a bit of a hack. We’re giving people better choices, so it’s worth it.
 
 The secret is to load a small, transparent image [ref]I tried using base64 encoding to avoid the extra HTTP request, but Pinterest doesn’t recognize base64 encoded images. I also tried using smaller images, but found that 200x100 pixels worked well in the tests I ran. The placeholder gif I created is heavily crunched and very small (200bytes, less than 1k).[/ref] at the beginning of the page in a hidden div, but use the <code>data-pin-media</code> attribute to point to the big, Pinterest-friendly image. (<a href="https://www.simplyrecipes.com/wp-content/themes/simply/assets/i/blank.gif">Download the placeholder image here</a>.)
 <pre><code>&lt;div style="display: none;"&gt;&lt;img src="small_placeholder.gif" alt="" data-pin-media="pinterest-friendly.jpg" /&gt;&lt;/div&gt;</code></pre>
 Pinterest now displays our big Pinterest-friendly image when someone clicks their Pin It button, without requiring non-Pinterest users to download that giant image on the page.
-<h2><img class="alignnone size-full wp-image-5206" src="https://plasticmind.com/wp-content/uploads/2014/12/86427e9fab617acd185132e52163260b.gif" alt="86427e9fab617acd185132e52163260b" width="652" height="540" /></h2>
-<h2>Demo</h2>
+## <img class="alignnone size-full wp-image-5206" src="https://plasticmind.com/wp-content/uploads/2014/12/86427e9fab617acd185132e52163260b.gif" alt="86427e9fab617acd185132e52163260b" width="652" height="540" />
+
+## Demo
+
 To see this in action, visit <a href="https://www.simplyrecipes.com/recipes/moms_turkey_soup/">Elise's Turkey Soup recipe</a> and click your browser's Pinterest button.  You're offered a beautiful Pinterest-friendly image that doesn't appear anywhere on the page.
-<h2>Warning</h2>
+## Warning
+
 A word of caution: <a href="https://github.com/pinterest/widgets/issues/42#issuecomment-66813024">According to one of the Pinterest developers</a>, the size of the images available in the image select screen is determined by the largest image on the page:
 <blockquote>The any-image Pin It button… assigns points based on things like size (bigger is better), shape (portrait is better than landscape, up to a point), whether it's a video, whether it's been identified as the canonical image on the page, and other special factors. After we get everything scored, we sort by score, highest to lowest, and then thumbnail everything whose score is greater than that of the highest-scoring image on the page divided by a magic number (currently 30, subject to change).</blockquote>
 Simply put, if you specify a significantly larger image with data-pin-media, some of the smaller images on your page that normally would show up in the image selection screen probably won’t be there anymore. That wasn’t too much of an issue for us, since we’d rather people be pinning the larger photos anyhow.
-<h2>Notes</h2>
+## Notes
+
 I've had some people ask some more specific questions about how we implement this, so here goes.
 
 We're running WordPress, so I created several custom fields (post meta) on our recipe pages (custom post type):

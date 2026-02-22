@@ -30,7 +30,8 @@ All told, I started with a total byte size of 367k for all our images, and these
 
 And those are just the theme-related images. There are several WordPress plugins we are experimenting with now to help bring the file size of our uploaded images. I've linked some of the best-reviewed and most-active ones below:
 
-<h3>Related Links</h3>
+### Related Links
+
 
 <ul>
 <li><a href="https://wordpress.org/plugins/wp-smushit/">Plugin: WP Smush It</a></li>

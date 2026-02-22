@@ -26,7 +26,8 @@ Isn’t it surprising what you can learn from your friends?
 
 In that spirit, I decided to collect all of those fascinating recommendations here so that other people can benefit from them. Please feel free to share anything *you'd* like to recommend in the comments.
 
-<h2>Music</h2>
+## Music
+
 
 <ul>
     <li><a href="https://www.youtube.com/watch?v=LsnVB16Gwcc">Petra</a> - Joe Butler</li>
@@ -45,7 +46,8 @@ In that spirit, I decided to collect all of those fascinating recommendations he
     <li>Channel 18 ("The Beatles Channel") on SiriusXM - Will Kessel</li>
 </ul>
 
-<h2>Television</h2>
+## Television
+
 
 <ul>
     <li><a href="https://www.youtube.com/watch?v=-CJGX50Pt4s">The Path</a> (Hulu) - Kinsey Dickey</li>
@@ -54,7 +56,8 @@ In that spirit, I decided to collect all of those fascinating recommendations he
     <li><a href="https://en.wikipedia.org/wiki/Batman_(TV_series)">Batman</a> (Adam West-era) - Nancy McGrath</li>
 </ul>
 
-<h2>Movies</h2>
+## Movies
+
 
 <ul>
     <li><a href="https://www.youtube.com/watch?v=8V8sLlqJB2w">Speed Racer (Wachowski version, 2008)</a> - Daniel Truman</li>
@@ -62,7 +65,8 @@ In that spirit, I decided to collect all of those fascinating recommendations he
     <li><a href="https://en.wikipedia.org/wiki/Tootsie">Tootsie (1982)</a> - Nancy McGrath</li>
 </ul>
 
-<h2>YouTube</h2>
+## YouTube
+
 
 <ul>
     <li><a href="https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ">Lazy Game Reviews</a> (channel) - Paul Stern</li>
@@ -70,7 +74,8 @@ In that spirit, I decided to collect all of those fascinating recommendations he
     <li><a href="https://www.youtube.com/user/LearnLiberty">Learn Liberty</a> (channel) - Andrew Colclough</li>
 </ul>
 
-<h2>Books</h2>
+## Books
+
 
 <ul>
     <li><a href="https://www.amazon.com/Red-Rising-Trilogy-ebook/dp/B00GIUG3ES">The Red Rising Trilogy</a> - Sarah Rummens</li>
@@ -83,7 +88,8 @@ In that spirit, I decided to collect all of those fascinating recommendations he
     <li><a href="https://www.christianbook.com/the-spirit-flyer-magic-bicycle/john-bibee/9780877843481/pd/3481">The Spirit Flyer series by John Bibee</a> -</li>
 </ul>
 
-<h2>Podcasts</h2>
+## Podcasts
+
 
 <ul>
     <li><a href="https://www.everybodypivots.com/">The Pivot</a> - Carrie Givens</li>
@@ -92,7 +98,8 @@ In that spirit, I decided to collect all of those fascinating recommendations he
     <li><a href="https://overcast.fm/+HSP3_EH3k">Baan Dek Montessori</a> - Leslie Jensen-Inman</li>
 </ul>
 
-<h2>Food / Drink</h2>
+## Food / Drink
+
 
 <ul>
     <li><a href="https://www.entube.la/">Entube Harissa chili paste</a> - Chuck Green</li>
@@ -114,7 +121,8 @@ In that spirit, I decided to collect all of those fascinating recommendations he
     <li>Korean BBQ - Amber Carter</li>
 </ul>
 
-<h2>Products / Services</h2>
+## Products / Services
+
 
 <ul>
     <li><a href="https://www.amazon.com/Leatherman-Skeletool-Multitool-Stainless-Steel/dp/B000XU9NXW">Leatherman Skeletool</a> - Dan Wolfgang</li>
@@ -134,7 +142,8 @@ In that spirit, I decided to collect all of those fascinating recommendations he
     <li>School supplies - Toni King</li>
 </ul>
 
-<h2>Places</h2>
+## Places
+
 
 <ul>
     <li><a href="ttps://www.littlesheephotpot.com/">Little Sheep Mongolian Hot Pot</a> (restaurant) - Tiffany Lambert</li>
@@ -147,7 +156,8 @@ In that spirit, I decided to collect all of those fascinating recommendations he
     <li>The Middle East - Tami Stroud</li>
 </ul>
 
-<h2>Experiences</h2>
+## Experiences
+
 
 <ul>
     <li>Fire breathing - Jared Young</li>
@@ -166,7 +176,8 @@ In that spirit, I decided to collect all of those fascinating recommendations he
     <li>Snuggling kittens - Heather Adair</li>
 </ul>
 
-<h2>Advice</h2>
+## Advice
+
 
 <ul>
     <li>“Take video of the most ordinary parts of your family life. (Those are what you will want to remember most.)” - Sheryl Logatto</li>

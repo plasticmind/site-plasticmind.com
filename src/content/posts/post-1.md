@@ -17,7 +17,8 @@ hits: 152
 ---
 
 
-			<h5>A Practical Observation</h5>
+			##### A Practical Observation
+
 
 
 
@@ -30,7 +31,8 @@ Worship is ultimately God-centered; but practically speaking, worship in the nar
 But here’s what often happens.  The means by which we express that praise often becomes primary; we form an emotional connection with the channel through which we worship Him, and we consider that channel then to be an essential part of worship.  In other words, we often find ourselves saying “it doesn’t feel like church if we don’t have this or that.”  If we haven’t had an opening prayer, we haven’t had church yet.  If I haven’t heard the organ, we haven’t had church yet.  If we haven’t sung a meaningful praise chorus, we haven’t had church yet.  If we haven’t recited the Apostle’s Creed, we haven’t had church yet.  If we haven’t had Sunday school, we haven’t had church yet.  If the pastor isn’t shouting, that isn’t preaching.
 
 
-			<!--more--><h5>The Rules of Worship</h5>
+			<!--more-->##### The Rules of Worship
+
 
 
 
@@ -44,7 +46,8 @@ The Bible is full of examples.  God rejected Cain’s offering in Genesis 4:5.  
 
 
 
-<h5>What Does The Bible Say About Worship?</h5>
+##### What Does The Bible Say About Worship?
+
 
 
 
@@ -60,7 +63,8 @@ God’s Word, then, becomes our sufficiency; it is our guide in all things that 
 
 
 
-<h5>The Temple and the Synagogue</h5>
+##### The Temple and the Synagogue
+
 
 
 
@@ -80,7 +84,8 @@ Most scholars actually believe that the synagogue took on strong significance af
 
 
 
-<h5>What Is Expected</h5>
+##### What Is Expected
+
 
 
 
@@ -106,7 +111,8 @@ For instance, there is nothing in Scripture that tells us that we can’t have r
 
 
 
-<h5>What Is Proper</h5>
+##### What Is Proper
+
 
 
 

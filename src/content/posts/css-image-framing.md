@@ -17,7 +17,8 @@ hits: 4625
 ---
 
 
-			<h3>Images and Frames&#8230; What&#8217;s a Blog To Do?</h3>
+			### Images and Frames&#8230; What&#8217;s a Blog To Do?
+
 
 
 
@@ -31,7 +32,8 @@ Enter CSS to save the day.  The concept is simple: lay a transparent .png frame 
 
 
 
-<h3>CSS Image Framing, The Concept</h3>
+### CSS Image Framing, The Concept
+
 
 
 
@@ -51,7 +53,8 @@ We begin with a thumbnail from Flickr.  Then we&#8217;ll need to create a transp
 
 
 
-			<!--more--><h3>CSS Image Framing, The Markup</h3>
+			<!--more-->### CSS Image Framing, The Markup
+
 
 
 
@@ -85,7 +88,8 @@ Our thumbnail is 75px and it&#8217;s inside an unordered list.  We&#8217;ve also
 
 
 
-<h3>CSS Image Framing, The Styling</h3>
+### CSS Image Framing, The Styling
+
 
 
 
@@ -146,7 +150,8 @@ The only thing left is our mouseover.  What I&#8217;ve found works best for imag
 
 
 
-<h3>CSS Image Framing, IE Caveat</h3>
+### CSS Image Framing, IE Caveat
+
 
 
 
@@ -165,7 +170,8 @@ Your IE stylesheet would look something like this:
     }
 </code></pre>
 
-<h3>The Final Result</h3>
+### The Final Result
+
 
 
 

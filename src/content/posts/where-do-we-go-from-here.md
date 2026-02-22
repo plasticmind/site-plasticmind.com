@@ -30,7 +30,8 @@ At first, I told myself I was stepping away to get out of the insane asylum. I k
 
 So I want to share some of those thoughts on the election and where we (or more specifically, I) go from here.
 
-<h2>On Calling for Unity</h2>
+## On Calling for Unity
+
 
 In my week without Facebook, I’ve been listening to a lot of people, and the common theme seems to be unity. Democrats and Republicans, conservatives and liberals alike, calling for unity. This has been expressed a number of different ways: stop pouting, what’s done is done, give him a chance, we need to come together now that the election is over, et al.
 
@@ -50,7 +51,8 @@ In the face of these truths, it seems to me that the most loving thing for us to
 
 I do care a whole lot about love and truth, but there was a lot of hurt dealt throughout the campaign and validated on election day, and I don't think pretending it didn't happen or pretending it doesn’t matter in the name of unity isn't the way forward.  Yes, let’s come together, let’s be unified, but let’s go out of our way to denounce the hurtful and disgusting comments from our president-elect, even if he won’t. And let’s especially make sure those hurtful comments don’t turn into hurtful policies.
 
-<h2>On Celebrating Evil</h2>
+## On Celebrating Evil
+
 
 See, ultimately, if you voted for Trump because he was the lesser of two evils, you shouldn’t be celebrating at all, because evil still came out on top.
 
@@ -62,7 +64,8 @@ This isn’t to say that **you** think those things or even support those positi
 
 And that danger of normalization is precisely why I came back to Facebook.
 
-<h2>On Being a Light</h2>
+## On Being a Light
+
 
 I had two conversations last week that made me rethink my Facebook sabbatical.
 

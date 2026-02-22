@@ -23,7 +23,8 @@ In <a href="https://www.movabletweak.com/templates/powering_your_whole_site_with
 
 
 
-<h4>The PHP Solution</h4>
+#### The PHP Solution
+
 
 
 
@@ -49,7 +50,8 @@ in any of your blogs and they will be updated as soon as you make changes to the
 
 
 
-<h4>A Caveat: .htaccess</h4>
+#### A Caveat: .htaccess
+
 
 
 
@@ -70,7 +72,8 @@ Drop that in the first line of your .htaccess in the root of your site (be caref
 
 
 
-<h4>Variable Solutions</h4>
+#### Variable Solutions
+
 
 
 

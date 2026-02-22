@@ -17,7 +17,8 @@ hits: 186
 ---
 
 
-			<h3>Be Honest</h3>
+			### Be Honest
+
 
 
 
@@ -37,7 +38,8 @@ The more important the message you need to convey to someone, the more thought y
 
 
 
-<h3>Keep Current</h3>
+### Keep Current
+
 
 
 
@@ -45,7 +47,8 @@ Though often demonized, anger is not wrong.  It can be misused to attack others 
 
 
 
-<h3>Attack Problems, Not People</h3>
+### Attack Problems, Not People
+
 
 
 
@@ -53,7 +56,8 @@ Unwholesome communication is destructive; edifying communication is constructive
 
 
 
-<h3>Act, Don&#8217;t React</h3>
+### Act, Don&#8217;t React
+
 
 
 

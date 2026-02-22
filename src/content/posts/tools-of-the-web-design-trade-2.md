@@ -29,7 +29,8 @@ Keep in mind, my goal here isn&#8217;t to write the ten commandments of web desi
 
 
 
-			<!--more--><h3>The Web Design Process</h3>
+			<!--more-->### The Web Design Process
+
 
 
 
@@ -43,7 +44,8 @@ The process begins when a prospective client contacts me, interested in work.  A
 
 
 
-<h3>Getting Work</h3>
+### Getting Work
+
 
 
 
@@ -85,7 +87,8 @@ There are some very practical ways to build this network of trust:
 <li>Be Honest.</li>
 </ul>
 
-<h3>Processing Work Requests</h3>
+### Processing Work Requests
+
 
 
 
@@ -129,7 +132,8 @@ It always takes longer than you think it will.  Scotty taught us this principle,
 
 
 
-<h3>Responding To Work Requests</h3>
+### Responding To Work Requests
+
 
 
 

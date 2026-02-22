@@ -36,7 +36,7 @@ However, when you add a class using that function, it’s added to the **end** o
 
 “Not a problem”, thought I.
 
-Except that Google seems to process the list and grab the **first** type it recognizes. Again, no problem—except WordPress by default adds the “hentry” class to all single post pages. And that hentry class was causing to Google treat the page like an article even though the Rich Snippet Tool was displaying all of the correctly formatted recipe information it found on the page. **The hentry class seems to trigger Google to look for a different set of meta information about a page, and most importantly, it seems to cause it to ignore the photo.**
+Except that Google seems to process the list and grab the **first** type it recognizes. Again, no problem—except WordPress by default adds the “hentry” class to all single post pages. And that hentry class was causing to Google treat the page like an article even though the Rich Snippet Tool was displaying all of the correctly formatted recipe information it found on the page.**The hentry class seems to trigger Google to look for a different set of meta information about a page, and most importantly, it seems to cause it to ignore the photo.**
 
 So the culprit was the hentry class WordPress was inserting into all posts by default with the <code>post_class()</code> function.
 

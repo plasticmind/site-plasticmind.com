@@ -17,7 +17,8 @@ hits: 1526
 ---
 
 
-			<h3>How A Biography Gets Written</h3>
+			### How A Biography Gets Written
+
 
 
 
@@ -31,7 +32,8 @@ An autobiography, on the other hand, doesn&#8217;t take nearly as much research.
 
 
 
-<h3>The New Media</h3>
+### The New Media
+
 
 
 
@@ -45,7 +47,8 @@ With this new prevalence of information and persistence of media come new questi
 
 
 
-			<!--more--><h3>The Balance: Trivial Vs. Significance</h3>
+			<!--more-->### The Balance: Trivial Vs. Significance
+
 
 
 
@@ -65,7 +68,8 @@ On the other hand, be sure to ground your greatest moments in reality.  For one 
 
 
 
-<h3>As The Journal Goes, So Goes The Autobiography</h3>
+### As The Journal Goes, So Goes The Autobiography
+
 
 
 
@@ -85,7 +89,8 @@ Email usually addresses highly specific and individual issues.  Much like letter
 
 
 
-<h3>Your Online Activity = Your Autobiography</h3>
+### Your Online Activity = Your Autobiography
+
 
 
 

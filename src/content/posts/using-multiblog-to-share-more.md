@@ -17,7 +17,8 @@ hits: 104
 ---
 
 
-			<h3>Module Aggregation</h3>
+			### Module Aggregation
+
 
 
 
@@ -61,7 +62,8 @@ I can make changes to the title (or description/modules/categories for that matt
 
 
 
-<h3>Search Templates</h3>
+### Search Templates
+
 
 
 

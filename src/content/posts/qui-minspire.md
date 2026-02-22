@@ -22,11 +22,13 @@ A friend emailed me and asked me who inspired my writing. I thought it a very po
 
 First, I must give credit to two people who have shaped my view of Christianity more than any others--my father and C.S. Lewis. My dad is an expert writer/teacher, and his resolute-yet-rational conviction.
 
-<h3>C. S. Lewis</h3>
+### C. S. Lewis
+
 
 I love Lewis because he takes some of the most complex issues that man can face and he presents them honestly (*A Grief Observed*) and rationally (*Mere Christianity*). He is master of the explosive understatement. Some <a href="https://www.keepersofthefaith.com/BookReviews/commentdisplay.asp?key=44">Christians doubt his faith</a>; yes, he was steeped in Anglican tradition and caught up with <a href="https://www.faithalone.org/journal/2000i/townsend2000e.htm">the Darwinism of the day</a> (along with men like Warfield and Strong), but I have been strengthened immensely by his words. His clarity, depth and honesty never cease to amaze me.
 
-<h3>J. Gresham Machen</h3>
+### J. Gresham Machen
+
 
 I also have a great deal of respect for <a href="https://www.tracts.ukgo.com/john_gresham_machen.htm">J. Gresham Machen</a>, a man virtually unheard of in Christian circles, and unfortunately so. Machen was the president of Princeton Theological Seminary for years, but stepped down in the 30's when the school abandoned the Scriptures as the foundation for their doctrine. He even chronicled this debate in his book *<a href="https://www.biblebelievers.com/machen/">Christianity and Liberalism</a>*, a must read for any orthodox Christian.
 
@@ -34,11 +36,13 @@ I also have a great deal of respect for <a href="https://www.tracts.ukgo.com/joh
 
 As for my writing skills, I'd have to point to several authors who have impacted me greatly. Ray Bradbury and E.B. White certainly appear at the top of the list. It's an ironic duo, too, because Bradbury's works are saturated with metaphor and White is the king of clarity.
 
-<h3>Ray Bradbury</h3>
+### Ray Bradbury
+
 
 Ever since my <a href="https://www.humanities-mt.org/ledahletter.htm">lime-vanilla ice</a> encounter with *Dandelion Wine* my senior year of college, I have not been the same. With religious fervor, I find myself visiting and revisiting Green Town and living again my childhood vicariously through Doug Spaulding. I can recall several papers marked blood red with professors scolding me: "this is dripping with adjectives!" or "too much metaphor... I'm lost!" And I cannot help but smile and think of <a href="https://www.twainquotes.com/Adjectives.html">Mark Twain's advice on figurative language</a>: "When you catch and adjective, kill it."
 
-<h3>E. B. White</h3>
+### E. B. White
+
 
 While Bradbury appeals to my imagination, White appeals to my sensibility. The powerful simplicity in his pen stroke is positively moving. He can describe something as rudimentary as <a href="https://www.nt.armstrong.edu/ebwpig.htm">the death of a pig</a> with such humanity as to bring a butcher to tears.
 
@@ -48,7 +52,8 @@ Consider this excerpt from White's essay (he's a phenomenal essayist) *On A Flor
 
 Prose perfection.
 
-<h3>Etc.</h3>
+### Etc.
+
 
 There are many more. <a href="https://www.transcendentalists.com/1thorea.html">Thoreau</a>, though rife with pantheism, awakens the awestruck boy in me running headlong through the woods. <a href="https://ic.net/~erasmus/RAZ28.HTM">Muggeridge's</a> bravery impresses me. I'm also impressed with <a href="https://www.desiringgod.org/who_is_dgm/piper_index.html">Piper's</a> level-headedness (fueled by his obvious devotion to Christ). I love <a href="https://www.shakespeare.com/">Shakespeare's</a> vocabulary and characters. And of course, no list would be complete without <a href="https://www.roalddahlfans.com/">Roald Dahl</a>, a strange and clever man who has impressed me far more than Seuss ever could.
 

@@ -54,7 +54,7 @@ So, I came up with a list of ten ways the new Movable Type will rock your blog:
 
 
 
-4.  **Love Your Assets. ** File management has been the bane of most web apps.  But the new Asset Manager makes keeping track of what you've uploaded really simple and using what you've got up on your blog even simpler.
+4.  **Love Your Assets.** File management has been the bane of most web apps.  But the new Asset Manager makes keeping track of what you've uploaded really simple and using what you've got up on your blog even simpler.
 
 
 

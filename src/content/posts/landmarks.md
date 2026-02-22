@@ -26,7 +26,8 @@ Whether or not you realize it, you are a dynamic character in your own life. Can
 
 This is true of everyone, to one degree or another. Some people change quickly. They make life-changing decisions overnight. Other people take a slow, methodical approach to change. Young people tend to change more quickly than older people do. Some change carry significant cost; other change might be the most natural, organic thing that could happen. But everyone, everywhere, changes.
 
-<h3>People Expect Stability</h3>
+### People Expect Stability
+
 
 Now we come to the main point: people change, but people often have a hard time dealing with other people’s change.
 
@@ -40,7 +41,8 @@ To put a finer point on this, if your marriage is falling apart, you probably wo
 
 Most people feel like they don’t have the luxury to pontificate about life while they’re busy trying to slog their way through it. (Ain’t nobody got time for that.)
 
-<h3>How Do You Choose Your Companions?</h3>
+### How Do You Choose Your Companions?
+
 
 Ultimately, this leads us to the question: who are my companions? And that question isn’t just about time, it’s about life. What do I want to do with my life? What do I want to be doing in five years? How do I want to spend my time, my energy, my money? We answer those questions, set our goals, and surround ourselves with people who share those goals and can help us along that journey. Because it’s hard to take someone on as a companion if you’re not heading in the same direction. It’s hard to journey meaningfully with a pastor who is angsty about the institution of marriage when you’re trying to save your own.
 
@@ -54,7 +56,8 @@ It’s an especially relevant question for a pluralistic society. How can I face
 
 The only answer I can summon? **Love.**
 
-<h3>More Than A Platitude</h3>
+### More Than A Platitude
+
 
 It may sound like a platitude, but I don’t think it is.
 

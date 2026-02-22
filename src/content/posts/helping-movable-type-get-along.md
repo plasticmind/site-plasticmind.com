@@ -22,7 +22,8 @@ hits: 416
 Unfortunately, trying to create a photo album with Movable Type is less than simple.  Integrating photos into your blog feels like the days when dinosaurs roamed the earth.  One great solution is Byrne's <a href="https://www.majordojo.com/projects/photogallery.php">Photo Gallery Plugin</a>, but that's more of an 'out of the box' solution.  Here we'll walk you through some extremely useful techniques that give you complete control over what happens to your images and how Movable Type spits them out.
 
 
-			<!--more--><h4>Ingredients:</h4>
+			<!--more-->#### Ingredients:
+
 
 
 
@@ -37,7 +38,8 @@ What you need to make the magic happen:
 <li><a href="https://www.slideshowpro.net/">SlideshowPro</a> (optional for Flash slidedow)</li>
 </ul>
 
-<h4>The Concept</h4>
+#### The Concept
+
 
 
 
@@ -57,7 +59,8 @@ The final touch is then setting up MT to publish an XML file containing all the 
 
 
 
-<h4>Step 1: <a href="https://www.staggernation.com/mtplugins/RightFields/">RightFields</a></h4>
+#### Step 1: <a href="https://www.staggernation.com/mtplugins/RightFields/">RightFields</a>
+
 
 
 
@@ -113,7 +116,8 @@ Once you've make these changes, click "Save Changes".
 
 
 
-<h4>Step 2: <a href="https://www.bradchoate.com/weblog/2002/08/07/mtembedimage">MTEmbedImage</a></h4>
+#### Step 2: <a href="https://www.bradchoate.com/weblog/2002/08/07/mtembedimage">MTEmbedImage</a>
+
 
 
 
@@ -171,7 +175,8 @@ I've also created sample code for placing a thumbnail like this in the default M
 
 
 
-<h4>Step 3: <a href="https://www.slideshowpro.net/">SlideshowPro</a></h4>
+#### Step 3: <a href="https://www.slideshowpro.net/">SlideshowPro</a>
+
 
 
 
@@ -222,7 +227,8 @@ It's long and seems convoluted, but it's basically generating 425px wide images 
 
 
 
-<h4>Step Four: ???</h4>
+#### Step Four: ???
+
 
 
 

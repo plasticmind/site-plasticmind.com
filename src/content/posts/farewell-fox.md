@@ -33,7 +33,8 @@ I joined Fox <a href="https://plasticmind.com/journeys/fox/" data-type="post" da
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>Why leave?</h2>
+## Why leave?
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -53,7 +54,8 @@ Two key things impacted my decision.
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Slope of Enlightenment</h3>
+### Slope of Enlightenment
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -97,7 +99,8 @@ But there was another catalyst.
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Reorganization</h3>
+### Reorganization
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -133,7 +136,8 @@ There's more I could say here about the hard-to-articulate realities of perceive
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>What next?</h2>
+## What next?
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

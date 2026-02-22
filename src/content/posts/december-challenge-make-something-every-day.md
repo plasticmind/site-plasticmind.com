@@ -34,7 +34,8 @@ https://twitter.com/brad_frost/status/1201230118825398274
 
 So inspired, in fact, that I decided to join in on the fun. I'm planning to make something — music, art, house projects — every day in December and share it on my site.
 
-<h2>What I've Made So Far...</h2>
+## What I've Made So Far...
+
 
 <ul>
     <li>Day 1: <a href="https://plasticmind.com/30-day-challenge/december-making-day1-drew-a-snowflake/">I drew a snowflake</a>.</li>

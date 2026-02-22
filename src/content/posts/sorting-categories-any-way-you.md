@@ -23,7 +23,8 @@ Strange adding a category called categories&#8230; but I digress.
 
 
 
-<h3>Two Roads Diverged&#8230;</h3>
+### Two Roads Diverged&#8230;
+
 
 
 
@@ -31,7 +32,8 @@ I&#8217;ve been working on a new blog in which I want to sort the categories in 
 
 
 
-<h3>The Easy, Ugly Way</h3>
+### The Easy, Ugly Way
+
 
 
 
@@ -39,7 +41,8 @@ Create first category for Washington, only call it 01:Washington.  Create second
 
 
 
-<h3>The Difficult, Prettier and Ultimately More Rewarding Way</h3>
+### The Difficult, Prettier and Ultimately More Rewarding Way
+
 
 
 
@@ -84,7 +87,8 @@ For more information about regex searches/syntax/possibilities, visit the <a hre
 
 
 
-<h3>Disclaimer</h3>
+### Disclaimer
+
 
 
 
@@ -101,7 +105,8 @@ All it does is take the entire category off and put the individual archives in t
 
 
 
-<h3>Beta Build Issues</h3>
+### Beta Build Issues
+
 
 
 

@@ -17,7 +17,8 @@ hits: 706
 ---
 
 
-			<h3>Websites As Applications</h3>
+			### Websites As Applications
+
 
 
 
@@ -43,7 +44,8 @@ Enter: <a href="https://fluidapp.com/">Fluid</a>.  According to the site, Fluid 
 
 
 
-<h3>Movable Type, Desktop Edition</h3>
+### Movable Type, Desktop Edition
+
 
 
 
@@ -57,7 +59,8 @@ I immediately thought of Movable Type.  I have one Movable Type install on my se
 
 
 
-			<!--more--><h3>The Setup</h3>
+			<!--more-->### The Setup
+
 
 
 

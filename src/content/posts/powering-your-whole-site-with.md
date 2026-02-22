@@ -29,7 +29,8 @@ Our primary goal is to create pages that are both easy to manage and easy to upd
 
 
 
-<h4>via Archive Mapping</h4>
+#### via Archive Mapping
+
 
 
 
@@ -64,7 +65,8 @@ And also, as a side note, I usually create a blog for the main structure of the 
 
 
 
-<h4>Raynes&#8217; MTEntry Plugin</h4>
+#### Raynes&#8217; MTEntry Plugin
+
 
 
 
@@ -90,7 +92,8 @@ You can be creative.  Your &lt;MTEntryTitle&gt; could be the &lt;h2&gt; on your 
 
 
 
-<h4>Conclusion</h4>
+#### Conclusion
+
 
 
 

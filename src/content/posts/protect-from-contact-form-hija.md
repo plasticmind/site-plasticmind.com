@@ -23,7 +23,8 @@ We've been spending some time on static publishing in Movable Type, because that
 
 
 
-<h4>Starting At The Beginning</h4>
+#### Starting At The Beginning
+
 
 
 
@@ -80,7 +81,8 @@ Lastly, we run the mail function by assigning it to a variable.  If it runs, the
 
 
 
-<h4>Simple Simon Met a Spammer</h4>
+#### Simple Simon Met a Spammer
+
 
 
 
@@ -113,7 +115,8 @@ Then I remembered a sage web proverb:  *Never trust a user's input.*
 
 
 
-<h4>Step 1:  Javascript Validation</h4>
+#### Step 1:  Javascript Validation
+
 
 
 

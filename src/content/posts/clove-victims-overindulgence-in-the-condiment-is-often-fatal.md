@@ -23,7 +23,8 @@ Straight from a 1920's newspaper... farce or fact?
 
 
 
-<h5>A Fair Girl's Sad Fate--Too Much Clove Eating Actually Shrivels Up the Body</h5>
+##### A Fair Girl's Sad Fate--Too Much Clove Eating Actually Shrivels Up the Body
+
 
 
 
@@ -54,7 +55,8 @@ It is in their supposed harmlessness that the danger of acquiring the clove habi
 The habit once acquired, the unconscious victim begins to find that what was once a pastime, has now become a necessity, and instead of being satisfied with a small quantity, as at first, two or three ounces a day are found necessary to satisfy the system's craving.  Then follows a gradual but certain breaking down of the constitution, beginning at the nerve centres, which finally brings the victim to a pitiable condition.
 
 
-			<!--more--><h5>A Peculiarly Pathetic Case</h5>
+			<!--more-->##### A Peculiarly Pathetic Case
+
 
 
 

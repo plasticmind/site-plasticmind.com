@@ -16,7 +16,8 @@ fix: false
 hits: 633
 ---
 
-<h3>Good, But Not In The Way That You’re Thinking</h3>
+### Good, But Not In The Way That You’re Thinking
+
 
 **The new version of Movable Type boasts pagination, but it’s probably not pagination in the same sense that you’re thinking.** When most people think about pagination, they think, “My front page should have X number of entries with a link to a page 2 which has that same X number of entries, and so on and so on.”
 
@@ -24,7 +25,8 @@ But that’s not really what Movable Type 4.x does; out of the box, Movable Type
 
 The great thing about this is that once April is over, Movable Type doesn’t have to rebuild that page again unless you backdate an entry (which is not that often). Each new month is a clean slate category archive; and you’ll definitely notice the spring in your server’s step when it’s only building out a dozen entries per category archive and not a thousand.
 
-<h3>Ouch, Said The User</h3>
+### Ouch, Said The User
+
 
 Trouble is, this is a really jarring experience for users. When navigating interfaces, people tend to think in patterns: *Scroll down six entries, click next page, scroll down six entries, click next page. Patterns are everywhere in user interfaces: menus work better in fixed locations; a scrollbar moves things the same distance each time it’s clicked. People like being able to anticipate what’s next; it reduces frustration and let’s them get better at getting around. It helps them feel better about using your site.
 
@@ -36,13 +38,15 @@ Let’s take an journey through these imaginary category-monthly archives; maybe
 
 Obviously, this is an exaggeration. People can find their way around your site, just like I can find the milk in the grocery store even though they put it all the way in the back. It’s just an annoyance, and petty annoyances can add up if you’re not careful.
 
-<h3>Why All The Fuss?</h3>
+### Why All The Fuss?
+
 
 Now, before you go assuming that the people at Six Apart are mean-spirited killjoys out to drive away your readers, let me explain. They have a very good reason for category-monthly archives. See, Movable Type is primarily a static publishing platform. (For a breakdown of dynamic publishing vs. static publishing, see<a href="https://bdash.net.nz/blog/2004/03/07/static-vs-dynamic-publishing/"> https://bdash.net.nz/blog/2004/03/07/static-vs-dynamic-publishing/</a>) What that means, in short, is that Movable Type actually builds your pages beforehand, as opposed to other programs that serve it up “on the fly”. The problem is that while dynamic systems just call to whatever content parameters they need for that page, static systems like Movable Type actually create a real page with a set of content constraints.
 
 Let me put it this way. A dynamic system can simply say to the database: “The user wants to see the next six entries; give me the next six entries and I’ll put them on a page.” The static system would actually have to say “Give me all of your entries and I’ll build page after page of six entries each in case a user requests it” and do this every time an entry was saved. As you may have guessed from my moribund tone, this would wreak havoc on your server. That’s why the default Movable Type templates ship with category-monthly archives.
 
-<h3>Don’t Give Up The Ship! or Pagination? Yes We Can!</h3>
+### Don’t Give Up The Ship! or Pagination? Yes We Can!
+
 
 If you stopped reading here (and I wouldn’t blame you) you might think that pagination was downright impossible with Movable Type. But there are several different pagination solutions that suit different needs with varying degrees of success. In order of recommendation:
 

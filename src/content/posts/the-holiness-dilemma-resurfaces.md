@@ -29,7 +29,8 @@ Uh-oh.  No one is naturally holy.  Romans 3:23 reminds us of that.  No need to w
 
 
 
-<h4>The Dilemma Resurfaces</h4>
+#### The Dilemma Resurfaces
+
 
 
 
@@ -43,7 +44,8 @@ But turn over the page to chapter 12, verse 14, and you'll find an apparent cont
 
 
 
-<h4>Holy by Birth</h4>
+#### Holy by Birth
+
 
 
 
@@ -57,7 +59,8 @@ When once you repent and turn to Christ, the penalty He paid on the cross is now
 
 
 
-<h4>Holy by Choice</h4>
+#### Holy by Choice
+
 
 
 
@@ -71,7 +74,8 @@ Take for instance a child who is born a king.  As king, he has every right and p
 
 
 
-<h4>Cart vs. Horse</h4>
+#### Cart vs. Horse
+
 
 
 

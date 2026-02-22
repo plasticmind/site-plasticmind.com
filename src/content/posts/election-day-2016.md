@@ -18,7 +18,8 @@ hits: 717
 
 If you follow me on Facebook, you know I’ve been thinking (and writing) a lot about this upcoming election. Now that Election Day is here, I thought I’d share a few final thoughts as I head into the voting booth.
 
-<h2>My Faith Informs My Vote</h2>
+## My Faith Informs My Vote
+
 
 First, a few thoughts about being a Christian and a citizen.  Some non-Christian friends argue that faith should be kept out of the public sphere, but it’s a key part of who I am, and it informs all areas of my life and actions, so it inevitably affects how I vote. Asking me to set my faith aside when voting is like asking a human being to set their humanity aside when voting.
 
@@ -32,9 +33,11 @@ That’s an important point, and one worth addressing, because I’ve heard a lo
 
 Here are some of the things that matter to me:
 
-<h2>The Issues</h2>
+## The Issues
 
-<h3>Abortion</h3>
+
+### Abortion
+
 
 This is a big, important issue for me. I am extremely pro-life. The idea of killing a baby in the womb sickens me and gets me so upset that I sometimes can't speak about the topic for fear of losing my temper.
 
@@ -54,31 +57,37 @@ I put together this graph that shows the decline in the overall abortion rate in
 
 I still want to bring that abortion rate WAY down, but I'm not convinced that voting for Trump (or Hillary, for that matter) is the way to do it.
 
-<h3>Immigration</h3>
+### Immigration
+
 
 I love this country, and I’ve been blessed by the freedoms afforded me in this country. I’ve participated in the “American Dream,” and I think it’s a real testament to the power of freedom. It’s important that a legal means of entering this country exist, and that process be followed; but let’s not pretend that there’s an easy solution for a complex human problem. These are real people whose lives matter just as much as yours and mine. The isolationism and the “fear of the other” that some conservatives feed into is incredibly unhealthy. It divides us, makes us suspicious and fearful, prevents us from being empathetic and hospitable.  It pits us against each other, so instead of looking for ways to profit together, we look for ways to “protect what’s ours.” Above all, I think it signals that we think liberty is frail, that the incredible power of freedom can’t drive people to rise above our differences and become better people.
 
 Hillary’s position on this tends to be more in line with my own, though I do think we need to have rigorous checks to ensure that people with clear intents to hurt the country are not allowed in. Trump’s plan to use a religious test to keep people out of this country, though, isn’t just discriminatory, it’s not even in keeping with many of our Founders like Jefferson who welcomed Muslim immigrants. And the wall… it’s just a dumb marketing ploy that even many of his supporters admit is unrealistic.
 
-<h3>National Security</h3>
+### National Security
+
 
 I believe in a strong military. I’ve got several family members who serve or have served in the military. However, I get concerned about the military industrial complex that Eisenhower warned us about.  I get concerned about a military that needs to prove its worth to stay funded and how that plays out in terms of how we view the world stage. I worry about the ratio of soldiers to civilians, specifically about the large % of contractors acting with little oversight.  More focus needs to be placed on effective use of technology (and cyber defense) instead of just showing force. I’m of the opinion that we should meddle less in foreign affairs, that stuff like training rebels to topple governments usually ends up causing more headache in the long run.
 
 Trump seems to be in favor of a large military since it polls well, though I imagine Clinton’s foreign policy experience and support of the Iraq war would also probably mean a substantial military. McMillan’s experience in the CIA makes me more likely to trust his perspective.
 
-<h3>Trade/Economy</h3>
+### Trade/Economy
+
 
 I’m not an economist, but I tend to favor globalism. I think technology has flattened the world. As much as we want to favor protectionism, even staunch advocates for supporting local businesses still use Amazon.
 
 Trump’s promise that “every product that comes across the border to be sold to the United States… will have a 35% tax on it” is not only unrealistic, I think it would have disastrous consequences for our economy. I think protectionism only helps us in the short term. As much as we want the government to step in and ensure our jobs stay the same they always have, it will ultimately result in stagnation. Technology is forcing business—and the people they employ—to reckon with this change. Putting artificial limits on how industries change is ultimately a disservice to our children. We should instead be recognizing and embracing the new global economy and taking steps to remain competitive in it.
 
-<h3>Gun Rights</h3>
+### Gun Rights
+
 
 I’m not a huge advocate for gun rights. That’s not to say I don’t believe in the right to bear arms. I absolutely do believe that the 2nd amendment affords us that right, and that the original intention for that amendment wasn’t hunting or sport but to protect citizens from a tyrannical government. I have a gun and know how to use it.  That said, I’m getting very tired of so much gun violence and welcome constructive ideas to address it that may challenge my long-held positions on the topic.
 
-<h2>The Candidates</h2>
+## The Candidates
 
-<h3>Hillary Clinton</h3>
+
+### Hillary Clinton
+
 
 Hillary Clinton has bungled a lot. She clearly mis-handled Benghazi, and the backflips that she and the Obama administration did in the aftermath to avoid blame were almost worse than the initial attack. It sickens me that earlier this year she dropped “rare” from her “safe, legal, and rare” position on abortion.
 
@@ -90,7 +99,8 @@ The email server controversy wasn’t as big an issue for me as it was for some.
 
 My biggest concern with Hillary is that she clearly knows how to play politics, and can get pretty much anything she wants because of the massive political infrastructure she's got in place. To vote for someone like that, especially after all of her bad behavior has come to light, sends a message, “We know you lied to us, we know you did things that were illegal, but we’re still handing you the keys to the country.” I can’t bring myself to do that.
 
-<h3>Donald Trump</h3>
+### Donald Trump
+
 
 Trump is no better, and frankly I think he’s more of a threat to this country than Hillary is.
 
@@ -110,7 +120,8 @@ Quite a few Christians I’ve spoken to say, “well, I don’t like Trump, but 
 
 Perhaps most concerning to me, though, has been the recent assertion by many Christians—and many so-called Christian leaders—that what a person believes about God, themselves, and their fellow man is of little consequence to how they'd govern. I’m not a perfectionist and I realize that every candidate has flaws; but we’re not just talking cracks in the pavement here, we’re talking about gaping holes down into the bowels of the earth.
 
-<h2>My Choice</h2>
+## My Choice
+
 
 After a lot of thought and consideration, I’ve decided to vote for Evan McMullin. He’s a write-in here in New York State.
 

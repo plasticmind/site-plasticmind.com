@@ -22,7 +22,8 @@ So long, in fact, that I've attempted to capture highlights from multiple years 
 
 For everyone's sanity, I decided to break this up into multiple parts: family, travel, work, etc. Today, recollections about our family (new baby!), our farm (raspberries!), and our homestead (renovations!)
 
-<h3>The Family</h3>
+### The Family
+
 
 These past few years have been eventful for our family.
 
@@ -42,7 +43,8 @@ Anna has been taking gymnastics for several years (and loving it), but we steppe
 
 Ethan will celebrate a two and a half years of karate this coming February. It’s been a wonderful fit for him and has helped him learn focus and self-control. He’s been pouring himself into it with very little push from our side. In fact, he very close to graduating to his brown belt. He’s also shown some interest in electrical engineering and computer programming. He’s built some clever contraptions with his SnapCircuits kits, wired up and programmed some functioning electronic devices with an Arduino, and has even done some work building a video game in Unity.
 
-<h3>The Farm</h3>
+### The Farm
+
 
 This year, our little hobby farm took a back seat to my web design business (more on that in a later post), which was somewhat ironic given how well everything has been growing.
 
@@ -80,7 +82,8 @@ However, a week later, while picking up some equipment I’d left down by the hi
 
 The chickens also surprised us. In 2016, we procured a rooster from the side of the road (a **long** story that involved me running full-tilt through the woods), so last year we had plenty of fertilized eggs to incubate. In 2016, we incubated 15 eggs and hatched only 1 chick. In 2017, we incubated 20… and hatched 11. *facepalm* Sadly, our coop space issues were remedied rather quickly when a weasel (I’m guessing) squeezed through the pen fencing and dispatched with 7 of them. The ones that remained, however, grew to be quite productive — so much so that we decided not to incubate any new eggs last year. However, our numbers have dwindled over the past year for various reasons (hawk, illness, disappearance), and we’re down to a single rooster and two hens. We’re still debating about whether or not to get new chicks this spring.
 
-<h3>The House</h3>
+### The House
+
 
 If you've been following along with <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my December "31 Days of Making" project</a>, you've seen some of the major work we've done over our house in 2019.
 
@@ -116,7 +119,8 @@ Installing new flooring has also been a big step in bringing all of these new op
 
 More exciting, though, than any of these physical changes to our house have been the camaraderie and ownership these changes have brought to our family. Working together, late into the night... these are the kind of memories that will last their entire life.
 
-<h3>Gardner Family Travels... Part 2</h3>
+### Gardner Family Travels... Part 2
+
 
 Speaking of memories — we've made some incredible memories over the last few years with our travels: Ocean City, Yosemite, Grand Canyon, Ireland... but this is already a tome, so I'll save those recollections for <a href="https://plasticmind.com/journeys/2019-in-review-traveling/">Part 2 of our Year In Review</a>.
 

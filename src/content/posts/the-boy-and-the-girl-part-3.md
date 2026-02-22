@@ -18,7 +18,8 @@ hits: 332
 
 <div class="thumb-left"><img src="https://plasticmind.com/images/story-theboyandthegirl.gif" alt="The Boy and the Girl: An Engagement Story" class="noborder" /></div>
 
-<h3>Chapter 3: The Leap</h3>
+### Chapter 3: The Leap
+
 
 **Before long,** the boy and the girl made it to the cliffs. The girl did not ask about the motor boat sitting on shore. They pulled their kayak out of the water and stepped onto the mossy bank. The boy whispered something to the girl and then squeezed her hand. She followed him with a question mark look on her face as they climbed the rough stone. 
 

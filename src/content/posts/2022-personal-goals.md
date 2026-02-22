@@ -33,7 +33,8 @@ These were my 2022 goals (and new 2023 goals at the end):
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Visit the Rockies together.</h3>
+### Visit the Rockies together.
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -57,7 +58,8 @@ We weren't able to make it to the Rockies this year, for a few reasons that I al
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Start making videos teaching people.</h3>
+### Start making videos teaching people.
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -73,7 +75,8 @@ I actually made some progress toward this goal. I started doing this as a shared
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Exercise more.</h3>
+### Exercise more.
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -89,7 +92,8 @@ Some success, some failure. See that big spike? That’s when I hiked part of th
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Feel better about work. Either get a new job or figure out how to make the current one better.</h3>
+### Feel better about work. Either get a new job or figure out how to make the current one better.
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -117,7 +121,8 @@ Of all my goals, this feels like the one I accomplished most thoroughly. I figur
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>2023 Goals</h2>
+## 2023 Goals
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -129,7 +134,8 @@ After reviewing last year's goals, I wrote out new goals for 2023.
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Take my family to the Rockies.</h3>
+### Take my family to the Rockies.
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -153,7 +159,8 @@ I’m determined to make this a reality in 2023.
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Write publicly (ideally, email newsletter) every weekday in 2023.</h3>
+### Write publicly (ideally, email newsletter) every weekday in 2023.
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -165,7 +172,8 @@ I’m just about ready to launch a newsletter where I plan to write every weekda
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Grow my design system consultancy to be 75% of my target income by the end of the year.</h3>
+### Grow my design system consultancy to be 75% of my target income by the end of the year.
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

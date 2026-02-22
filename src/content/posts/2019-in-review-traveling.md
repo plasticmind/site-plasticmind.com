@@ -22,7 +22,8 @@ In 2017, I turned 40. Instead of buying a sports car I couldn’t afford, I told
 
 But 2017 was also the first year I’d gone back to full-time consulting after 7 years of full-time employment (more on that in a later post), so we didn’t really have the means for much extensive travel at first. That meant that most of our travel for '17 and '18 consisted of traipsing around the East coast while we saved up for a few larger trips.
 
-<h2>Immediate Family</h2>
+## Immediate Family
+
 
 Our family had some incredibly memorable moments over the last few years:
 
@@ -59,7 +60,8 @@ Our family had some incredibly memorable moments over the last few years:
 
 <img class="alignnone size-large wp-image-5909" src="https://plasticmind.com/wp-content/uploads/2020/01/niagara-1024x769.jpg" alt="" width="1024" height="769" />
 
-<h2>Friends and Family</h2>
+## Friends and Family
+
 
 We also had some great adventures with friends and family:
 
@@ -143,7 +145,8 @@ We also had some great adventures with friends and family:
 
 <a href="https://www.facebook.com/plasticmind/videos/10155968620207202/"><img class="alignnone wp-image-5943 size-large" src="https://plasticmind.com/wp-content/uploads/2020/01/fireworks-1024x565.png" alt="" width="1024" height="565" /></a>
 
-<h2>Work</h2>
+## Work
+
 
 I also had the privilege of doing some travel for work. Some highlights from my work travels:
 
@@ -189,11 +192,13 @@ I also had the privilege of doing some travel for work. Some highlights from my 
 
 <img class="alignnone size-full wp-image-5910" src="https://plasticmind.com/wp-content/uploads/2020/01/dribbble-hangtime.gif" alt="" width="600" height="337" />
 
-<h2>The Big Trips</h2>
+## The Big Trips
+
 
 A few larger trips in particular stand out to me in recent years and are worth spending a bit more time on: hiking Yosemite with Jessica in 2017, visiting Salt Lake City and Jackson Hole while working at 10up in 2018, exploring Ireland with Jessica in early 2019, and attending Epicurrence Grand Canyon in late 2019.
 
-<h3>Yosemite</h3>
+### Yosemite
+
 
 <img class="alignnone size-large wp-image-5902" src="https://plasticmind.com/wp-content/uploads/2020/01/yosemite-1-2-1024x683.jpg" alt="" width="1024" height="683" />
 
@@ -242,7 +247,8 @@ In 2017, Jessica and I finally took the trip I’d been wanting to take for my 4
 
 <img class="alignnone size-large wp-image-5901" src="https://plasticmind.com/wp-content/uploads/2020/01/yosemite-7-1024x683.jpg" alt="" width="1024" height="683" />
 
-<h3>Salt Lake City / Jackson Hole</h3>
+### Salt Lake City / Jackson Hole
+
 
 While working at 10up in 2018, I had a chance to attend the annual company retreat in Jackson Hole, Wyoming. I'd been wanting to visit some friends out that way, so I extended the trip a bit to get in a bit more time with friends. Some highlights from that trip:
 
@@ -295,7 +301,8 @@ While working at 10up in 2018, I had a chance to attend the annual company retre
 
 <img class="alignnone size-large wp-image-5936" src="https://plasticmind.com/wp-content/uploads/2020/01/waffles-mt-1024x975.jpg" alt="" width="1024" height="975" />
 
-<h3>Grand Canyon</h3>
+### Grand Canyon
+
 
 <img class="alignnone size-large wp-image-5911" src="https://plasticmind.com/wp-content/uploads/2020/01/grand-canyon-2-1024x768.jpg" alt="" width="1024" height="768" />
 
@@ -343,7 +350,8 @@ Last October, I finally got to go to an Epicurrence (sadly, the last one).  Som
     <li>Met some incredible people and discovered (again) the value of talking to strangers</li>
 </ul>
 
-<h3>Ireland</h3>
+### Ireland
+
 
 Last year, we celebrated our anniversary by finally taking a trip out of the country. This trip deserves its own post since it meant so much to us and since I’ve got so many incredible photos and videos, but here are some of the highlights:
 
@@ -387,11 +395,13 @@ Last year, we celebrated our anniversary by finally taking a trip out of the cou
 
 <img class="alignnone size-large wp-image-5944" src="https://plasticmind.com/wp-content/uploads/2020/01/sunset-dinner-1024x768.jpg" alt="" width="1024" height="768" />
 
-<h2>Looking Back</h2>
+## Looking Back
+
 
 Looking back on these past few years has actually been a really encouraging exercise: I set a goal to travel more, and travel more I did! I'm really thankful for the opportunities that have been afforded me, and I'm excited about some travelling adventures we've got planned for 2020...
 
-<h2>Part 3: My Projects</h2>
+## Part 3: My Projects
+
 
 In addition to all of these travels, I've been working on some projects that are near and dear to my heart: Plasticmind Design, Troy Stories, Thoughtful Gardner, Three Timezones, etc. But I'll save those project updates for the next part of my Year In Review (coming tomorrow-ish).
 

@@ -29,7 +29,8 @@ There are many, many ways this can be done (plugins, php, etc.) and even more wa
 
 
 
-<h4>Static vs. Dynamic</h4>
+#### Static vs. Dynamic
+
 
 
 
@@ -43,7 +44,8 @@ So what we'll do here is outline two ways of accomplishing the same thing: one i
 
 
 
-<h4>Option #1: MTCompare</h4>
+#### Option #1: MTCompare
+
 
 
 
@@ -65,11 +67,13 @@ Now, we'll need to make some changes to your Individual Entry Archive (or wherev
 
 <div class="contentbox">
 <code>
-<h1>Comments:</h1><br />
+# Comments:
+<br />
 <MTComments><br />
 	<div class="comments"><br />
 	<$MTCommentBody$><br />
-	<h3>Shared by: <$MTCommentAuthorLink default_name="Visitor" spam_protect="1"$> <MTCommentAuthorIdentity> at <$MTCommentDate$></h3><br />
+	### Shared by: <$MTCommentAuthorLink default_name="Visitor" spam_protect="1"$> <MTCommentAuthorIdentity> at <$MTCommentDate$>
+<br />
 	</div><br />
 </MTComments>
 </code>
@@ -128,7 +132,8 @@ You can put anything else in these conditional statements (photos of contributin
 
 
 
-<h4>Option #2: Blessed PHP</h4>
+#### Option #2: Blessed PHP
+
 
 
 
@@ -194,12 +199,14 @@ What I've done is I've captured the MTCommentEmail tag data through PHP and comp
 
 <div class="contentbox">
 <code>
-<h1>Comments:</h1><br />
+# Comments:
+<br />
 <MTComments><br />
 	<?php $commentemail = $this->tag('MTCommentEmail'); ?><br />
 	<?php if ($commentemail == "foo@bar.com") {echo "<div class="mycomment">";} else {echo "<div class="comment">"; }?><br />
 	<$MTCommentBody$><br />
-	<h3>Shared by: <$MTCommentAuthorLink default_name="Visitor" spam_protect="1"$> <MTCommentAuthorIdentity> at <$MTCommentDate$></h3><br />
+	### Shared by: <$MTCommentAuthorLink default_name="Visitor" spam_protect="1"$> <MTCommentAuthorIdentity> at <$MTCommentDate$>
+<br />
 	</div><br />
 </MTComments>
 </code>
@@ -211,7 +218,8 @@ Now when you post comments to your own site, enter in your passcode in the comme
 
 
 
-<h4>Final Thoughts</h4>
+#### Final Thoughts
+
 
 
 

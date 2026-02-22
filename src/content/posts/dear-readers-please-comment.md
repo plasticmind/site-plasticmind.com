@@ -54,13 +54,13 @@ So I'm throwing the question out there for some feedback.  Here are my options:
 
 
 
-2. ** Revamp my forums.**  As much as it pains me, I'd probably just take a vanilla template from the forum software and focus less on wowing people with my graphics and more on making them a place for connecting.
+2.** Revamp my forums.**  As much as it pains me, I'd probably just take a vanilla template from the forum software and focus less on wowing people with my graphics and more on making them a place for connecting.
 
 
 
 
 
-3.  **Start fresh. ** Setup forums at <a href="https://www.cardboardwhite.com">www.cardboardwhite.com</a>
+3.  **Start fresh.** Setup forums at <a href="https://www.cardboardwhite.com">www.cardboardwhite.com</a>
 
 
 

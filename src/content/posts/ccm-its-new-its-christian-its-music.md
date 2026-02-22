@@ -34,7 +34,8 @@ I always chuckled at the music rule at my almamater--a self-proclaimed bastion f
 But I digress.  On to the discussion at hand.
 
 
-			<!--more--><h5>Music In The Public Worship Service</h5>
+			<!--more-->##### Music In The Public Worship Service
+
 
 
 
@@ -108,7 +109,8 @@ The goal, then, is to find music that provides a vehicle of worship for the broa
 
 
 
-<h5>Music Everywhere Else</h5>
+##### Music Everywhere Else
+
 
 
 

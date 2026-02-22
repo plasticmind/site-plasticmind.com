@@ -17,7 +17,8 @@ hits: 140
 ---
 
 
-			<h3>Kick &#8216;08</h3>
+			### Kick &#8216;08
+
 
 
 
@@ -25,7 +26,8 @@ The day started out well with Kick &#8216;08.  (It didn&#8217;t hurt that we cra
 
 
 
-<h3>Screen Burn</h3>
+### Screen Burn
+
 
 
 
@@ -33,7 +35,8 @@ After that, I had to pay an obligatory visit to Screen Burn to satisfy my inner 
 
 
 
-<h3>Iron Works BBQ</h3>
+### Iron Works BBQ
+
 
 
 
@@ -41,7 +44,8 @@ Ask anyone walking the streets of Austin what you should do/see when you&#8217;r
 
 
 
-<h3>Gruber&#8217;s *Great Design Hurts* Panel</h3>
+### Gruber&#8217;s *Great Design Hurts* Panel
+
 
 
 
@@ -55,7 +59,8 @@ Maybe I&#8217;m more pragmatic than Gruber, but I see web design as a marriage o
 
 
 
-<h3>Coudal&#8217;s General Theory of Creativity</h3>
+### Coudal&#8217;s General Theory of Creativity
+
 
 
 
@@ -69,7 +74,8 @@ Finally got a good seat for <a href="https://www.coudal.com/">Jim Coudal&#8217;s
 <li>The third power of like is the hard-to-define ability to choose something in good taste. (I like the blue better than the brown.)</li>
 </ol>
 
-<h3>Afterparties</h3>
+### Afterparties
+
 
 
 

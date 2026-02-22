@@ -29,7 +29,8 @@ Not surprisingly, it was beneficial.  Three particular things stood out: I had *
 
 
 
-<h2>More Productive Days</h2>
+## More Productive Days
+
 
 
 
@@ -55,7 +56,8 @@ Disabling these distractions helped me focus more on the tasks at hand, which br
 
 
 
-<h2>More Cohesive Thinking</h2>
+## More Cohesive Thinking
+
 
 
 
@@ -69,7 +71,8 @@ All worthwhile things to consider, yes, but instead of being invited in for care
 
 
 
-<h2>More Real-Life Connections</h2>
+## More Real-Life Connections
+
 
 
 
@@ -89,7 +92,8 @@ We all need social engagement.  That&#8217;s why social media has flourished the
 
 
 
-<h2>Easing Back In</h2>
+## Easing Back In
+
 
 
 

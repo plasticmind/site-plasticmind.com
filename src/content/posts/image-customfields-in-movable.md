@@ -17,7 +17,8 @@ hits: 477
 ---
 
 
-			<h5>Dilemma: Image Link Instead of Image</h5>
+			##### Dilemma: Image Link Instead of Image
+
 
 
 
@@ -42,7 +43,8 @@ Now, there are all sorts of cool new tags (like <code>&lt;mt:AssetLabel /&gt;</c
 
 
 
-<h5>Solution: Create CustomField Container With -Asset Suffix</h5>
+##### Solution: Create CustomField Container With -Asset Suffix
+
 
 
 

@@ -53,7 +53,8 @@ Anyhow, I&#8217;m going to go look around for some good shots: February&#8217;s 
 
 
 
-<h3>Lessons I Learned</h3>
+### Lessons I Learned
+
 
 
 
@@ -71,7 +72,8 @@ Some are a bit longer than 140 characters, but these are some of the important l
 <li>&#8220;Children are innocent and love justice, while most adults are wicked and prefer mercy.&#8221; &#8212;Chesterton</li>
 </ul>
 
-<h3>Things I Missed</h3>
+### Things I Missed
+
 
 
 
@@ -86,7 +88,8 @@ I missed the breaking of several events that mattered (to me anyhow):
 <li>Egyptians want a new government</li>
 </ul>
 
-<h3>January Discoveries</h3>
+### January Discoveries
+
 
 
 
@@ -101,7 +104,8 @@ I also missed sharing some neat things I discovered:
 <li>odi et amo. quare id faciam, fortasse requiris? nescio, sed fieri sentio et excrucior.</li>
 </ul>
 
-<h3>January Adventures</h3>
+### January Adventures
+
 
 
 

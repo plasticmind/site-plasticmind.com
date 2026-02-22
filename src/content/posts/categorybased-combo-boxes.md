@@ -17,7 +17,8 @@ hits: 87
 ---
 
 
-			<h4>Less Is More</h4>
+			#### Less Is More
+
 
 
 
@@ -31,7 +32,8 @@ The category-based combo box really solves a lot of problems, because the inform
 
 
 
-<h4>How To Do It</h4>
+#### How To Do It
+
 
 
 
@@ -68,7 +70,8 @@ An important note:  The first option I&#8217;ve set up is &#8220;Browse by Categ
 
 
 
-<h4>Accessibility Issues</h4>
+#### Accessibility Issues
+
 
 
 

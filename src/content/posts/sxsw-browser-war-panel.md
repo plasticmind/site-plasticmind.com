@@ -23,7 +23,8 @@ hits: 142
 
 
 
-<h3>Browser War Panel</h3>
+### Browser War Panel
+
 
 
 
@@ -63,7 +64,8 @@ First point: Where is Apple?  They wouldn&#8217;t send anyone to this panel.
 
 
 
-<h3>Audience Questions</h3>
+### Audience Questions
+
 
 
 

@@ -24,7 +24,8 @@ Now I have a pretty simple system for keeping my passwords secure, unguessable, 
 
 <!--more-->
 
-<h3>The System</h3>
+### The System
+
 
 I’ll break each part down, then I’ll give some examples. I think it goes without saying that this is not my exact method, but the principles apply.
 
@@ -32,15 +33,17 @@ I’ll break each part down, then I’ll give some examples. I think it goes wit
 
 **Next, consider the URL.** What URL is this password is being generated for? If it isn’t for a web service, then pick whatever the dominate name in context is. For example, if this is for a game, use the name of the game. If it’s for wifi, you could use the SSID. If this is for your local computer, you can use the computer name or the name of your hard drive. If it’s for your email, you could use the domain name associated at the end of the email address (e.g. foo@yahoo.com, you’d use yahoo.com).
 
-**Finally, the formula.** The secret here is to create a formula based on a combination of the random key and the primary name in context. You might choose to start with the first three letters of the name, then an underscore, followed by your random key. You might want to be a bit more obscure and take the first two and last two letters of the name and enter them in reverse order with the random key and three exclamation points appearing at the front. If you’d really like to keep things obscure, you could take the first three characters of the name and bump up their values by one, so ‘yah’ would become ‘zbi’. **The key here is to come up with your own formula.** This might sound complicated; but once you’ve memorized that random key and the formula becomes second nature, you’ll be a password machine.
+**Finally, the formula.** The secret here is to create a formula based on a combination of the random key and the primary name in context. You might choose to start with the first three letters of the name, then an underscore, followed by your random key. You might want to be a bit more obscure and take the first two and last two letters of the name and enter them in reverse order with the random key and three exclamation points appearing at the front. If you’d really like to keep things obscure, you could take the first three characters of the name and bump up their values by one, so ‘yah’ would become ‘zbi’.**The key here is to come up with your own formula.** This might sound complicated; but once you’ve memorized that random key and the formula becomes second nature, you’ll be a password machine.
 
 The beauty of this system is that if someone hacks one of your accounts and gets your password, they’ll have a single, unique password that’s not useful anywhere else. And if you do need to go through and change your passwords (which you should do from time to time), you can either change the formula or change the key. This means that old passwords long forgotten are only a formula or random key away from being restored.
 
-<h3>Examples</h3>
+### Examples
 
-Let’s go through some examples so you can better envision what I’m talking about. **Please do not use these; they are only patterns.**
 
-<h4>Example 1: A Simple Formula</h4>
+Let’s go through some examples so you can better envision what I’m talking about.**Please do not use these; they are only patterns.**
+
+#### Example 1: A Simple Formula
+
 
 Your random key is **stone13washed**. Your formula is to take last four characters of the name and split them on either side of your key with exclamation points.
 
@@ -49,7 +52,8 @@ Your random key is **stone13washed**. Your formula is to take last four characte
     <li>Creating a password for your Adobe Creative Cloud account (www.adobe.com). Final password: **do!stone13washed!be**</li>
 </ul>
 
-<h4>Example 2: A Complex Formula</h4>
+#### Example 2: A Complex Formula
+
 
 Your random key is **tbatstdg&amp;gitw** (first letters of the words in the first line of a famous poem, any guesses?). Your formula is to take the the first two letters of the name, add 1 to their value, enter those followed by two letters of the random key, then the last two letters of the name with the added values, followed by the rest of the key.
 
@@ -58,7 +62,8 @@ Your random key is **tbatstdg&amp;gitw** (first letters of the words in the firs
     <li>Creating a password for your 9rules account (www.9rules.com). Final password: **0stbftatstdg&amp;gitw**</li>
 </ul>
 
-<h3>Provisos</h3>
+### Provisos
+
 
 Two notes and an important warning:
 
@@ -68,7 +73,8 @@ Second, you may also run across sites like Gmail or Twitter where you might need
 
 Finally, the major danger of this system is that **your vulnerability is your formula**. Don’t give away your formula and keep the formula obscure enough that it can’t be discovered by simply looking at a password (e.g. yahoo+randomkey = bad). I recommend using an entirely different formula for highly sensitive sites like your online bank or server root passwords.
 
-<h3>Related Reading</h3>
+### Related Reading
+
 
 <ul>
     <li><a href="https://gizmo.do/dQcOJ4f">Gizmodo: Why We’re Losing The Password War</a></li>

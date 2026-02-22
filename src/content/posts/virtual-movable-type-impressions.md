@@ -17,7 +17,8 @@ hits: 396
 ---
 
 
-			<h3>What Is It?</h3>
+			### What Is It?
+
 
 
 
@@ -39,7 +40,8 @@ The long and short is that a pre-packaged version of Movable Type is bundled up 
 
 
 
-<h3>Installation? Virtually Painless.</h3>
+### Installation? Virtually Painless.
+
 
 
 
@@ -89,7 +91,8 @@ Ok, that subtitle sucks, but the installation sure didn&#8217;t.
 
 
 
-			<!--more--><h3>A Few Notes</h3>
+			<!--more-->### A Few Notes
+
 
 
 
@@ -145,7 +148,8 @@ Mon Aug  4 17:19:37 MST 2008 - 1.1.1
 
 </blockquote>
 
-<h3>Overall Impression</h3>
+### Overall Impression
+
 
 
 

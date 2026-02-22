@@ -22,7 +22,8 @@ For starters, I’ve been an Airbag fan for a long time. I met Greg almost ten y
 
 Secondly, Greg told me up front that he wanted to go the static publishing/flat-file route. My only exposure to that kind of setup had been some brief dabbling with <a href="https://getgrav.org/">Grav</a> a few years back. Since I tend to do a lot of WordPress development for clients, I was excited for a change of pace.
 
-<h2>The Platform Selection</h2>
+## The Platform Selection
+
 
 Selecting the right platform was our first priority. Greg wanted a flat-file system that got the job done but was only as complex as it needed to be.
 
@@ -36,11 +37,13 @@ I tried out several different platforms and sent Greg my thoughts:
     <li><a href="https://gohugo.io/">Hugo</a>: After our experience with Jekyll and some research about the <a href="https://forestry.io/blog/hugo-vs-jekyll-benchmark/">performance differences between Hugo and Jekyll</a>, we decided to pivot and build the site in Hugo with Forestry at the front end. (Note: Even though we’ve been relatively happy with Forestry, if I had it to do over again, I probably would have gone with Netlify CMS to reduce the complexity of our setup.)</li>
 </ul>
 
-<h2>The Hosting Setup</h2>
+## The Hosting Setup
+
 
 Greg had initially wanted to use a traditional hosting setup where the CMS lives on the server and all the content is stored and edited there. However, that had some limitations, so we considered the pros and cons of two different approaches:
 
-<h3>Approach 1: CMS lives on the server, content is stored and edited there</h3>
+### Approach 1: CMS lives on the server, content is stored and edited there
+
 
 This approach would have simplified the overall infrastructure and could have been powered using something like Statamic or Jekyll’s Admin GUI. Once set up, any changes made to the content would update the flat-files on the server. No deployment needed.
 
@@ -51,7 +54,8 @@ The challenge is that if we wanted to track updates to the site, we’d need to 
     <li>Cons: Local development is difficult as most development has to happen on the server, extra work to get the content to sync with Git (if versioning is desired).</li>
 </ul>
 
-<h3>Approach 2: Site content and code is stored in Git, edited there (or using a service like Forestry or Siteleaf), and pushed to your server changes are made.</h3>
+### Approach 2: Site content and code is stored in Git, edited there (or using a service like Forestry or Siteleaf), and pushed to your server changes are made.
+
 
 We eventually decided a setup like this was most flexible: <a href="https://gohugo.io/">Hugo</a> (installed a local machine) for rapid site design and development, <a href="https://forestry.io/">Forestry</a> (a hosted service) for day-to-day content creation/editing, <a href="https://github.com/">Github</a> to store it all (endless backups, basically), and <a href="https://www.netlify.com/">Netlify</a> to watch Github for any changes and build/deploy as needed.
 
@@ -59,7 +63,8 @@ We eventually decided a setup like this was most flexible: <a href="https://gohu
 
 Though it was a little harder to set up and a bit more complicated than the old Movable Type setup, this approach was flexible (you could blog from Github if you wanted to), portable (the site can be quickly checked out on any computer or server), and pretty darn reliable (full site backups on Github and redundancy on every machine where it’s checked out.)
 
-<h2>The Project Plan</h2>
+## The Project Plan
+
 
 After we settled on a platform and a host, I sent Greg a high level project plan that looked a little something like this:
 
@@ -70,7 +75,8 @@ After we settled on a platform and a host, I sent Greg a high level project plan
     <li>QA/Launch: Set up rewrite rules to make sure people can find old articles, spot check the top articles, switch the DNS, and walk Greg through the new site management process</li>
 </ul>
 
-<h2>The Dead Mac &#x2620;&#xfe0f;</h2>
+## The Dead Mac &#x2620;&#xfe0f;
+
 
 A few days after I sent Greg a project plan for the migration, I received this email:
 
@@ -82,11 +88,13 @@ Migrations are almost always messy, a process of connecting two platforms and de
 
 Thankfully, Greg had a JSON export of his content and a zipped backup of the docroot from the year previous, so we weren’t at a complete loss, but my idea of simply exporting the content from MT with a custom template was out the window. I needed to come up with a different approach.
 
-<h2>The Migration</h2>
+## The Migration
+
 
 I initially toyed with the idea of writing a migration script that would parse the JSON, pull out the relevant data, and write it to a format I needed. But as I begin to look over the JSON, I realized that everything was in there: comments, media, site options. Whatever process had exported this content tried to turn a multi-dimensional database into a flat JSON file, and the results weren’t pretty.
 
-<h3>Pivot: OpenRefine</h3>
+### Pivot: OpenRefine
+
 
 I’m highly pragmatic (read: lazy) when it comes to migrations, so I decided to look for an existing tool to help me deal with this file.
 
@@ -96,7 +104,8 @@ I installed it and imported the JSON. It’s such an interesting and helpful too
 
 What I needed was the page title, the slug, the date, and the post content. I was able to pretty quickly drill into the data I needed and export it to a spreadsheet.
 
-<h3>Culling Content</h3>
+### Culling Content
+
 
 Why export the content into a spreadsheet?
 
@@ -104,7 +113,8 @@ Greg had 6000 entries, but a lot of them were links to external sites, many of w
 
 To make this easier, I imported the spreadsheet from OpenRefine into Google Sheets and created an extra “keep” column so that Greg could quickly review the list of articles and flag the ones he wanted to keep. We went from 6000 entries to about 600.
 
-<h3>Exporting Content</h3>
+### Exporting Content
+
 
 Once Greg had selected the posts he wanted to keep, I put together a script that would export the Google Sheets as individual Markdown files in my Google Drive:
 
@@ -116,33 +126,39 @@ In short, it loops through all the rows in the spreadsheet and creates a file fo
 
 Basically, this script outputs the flat Markdown files our static site generator needs. I was able to drop these files into the <code>content/posts</code> folder and Hugo processed them with no trouble.
 
-<h3>Cleaning Up Content</h3>
+### Cleaning Up Content
+
 
 We weren’t done, though. Even though the content had been exported, there were significant character encoding issues.
 
-<h4>Line Breaks</h4>
+#### Line Breaks
+
 
 At first, I thought I had botched the export of content from the JSON file, collapsing the extra line breaks that tell Markdown to render <code>&lt;p&gt;</code> instead of <code>&lt;br&gt;</code> but after reviewing the JSON files, I realized that both the markup and HTML output in the JSON file didn’t have these breaks. The HTML included only <code>&lt;br&gt;</code> tags and the Markdown only had a single newline.
 
 The good news is that thanks to a good old fashioned Linux one-liner (<code>sed  -i.bak G *</code>), I was able to add a new line to every line break for every post, which resolved the issue. This posed a problem for lists, which require hyphens at the beginning of the line and *no* break between, but I was able to clean that up. I know that’s probably TMI… but the end result was that posts correctly rendered paragraph blocks instead of just line breaks.
 
-<h4>Character encoding</h4>
+#### Character encoding
+
 
 The source content contained a lot character encoding issues, specifically mixed encoding issues (e.g. a character has been encoded twice), even in the source file. This was especially annoying, and I thought I was going to have to use something industrial strength like this killer Python library called FTFY that seems to <a href="https://ftfy.now.sh/">handle this botched encoding pretty well</a> .
 
 However, since we had moved everything into flat files, I found that it was much faster to do some smart search/replace magic to address character encoding issues with em dash, en dash, ellipses, and curly single and double quotes. All in all, about 160 articles were updated.
 
-<h4>Block quotes</h4>
+#### Block quotes
+
 
 Because Greg tends to quote external articles, I also ran a few regular expressions to transform a quote class for block quotes into Markdown’s block quote syntax.
 
 <img class="alignnone size-large wp-image-5971" src="https://plasticmind.com/wp-content/uploads/2020/03/2020-03-04-at-9.49-AM-1024x615.png" alt="" width="1024" height="615" />
 
-<h4>Asset references</h4>
+#### Asset references
+
 
 Thankfully, we didn’t have too many asset references in the content that we had to deal with. I copied whatever assets were included in the posts (generally referenced in <code>bucket</code> and <code>images</code> folders) to a new uploads folder. That way, I could set up a redirect so any requests for <code>/bucket/</code> or <code>/images/</code> get passed to <code>/uploads/</code>. Incidentally, Forestry uploads media assets to the <code>/uploads/</code> folder, so this strategy worked out well.
 
-<h3>Templating</h3>
+### Templating
+
 
 It was a bit of a learning curve for me to figure out Hugo. The directory structure, content organization, and templating (Hugo uses the “Go” templating language) were all foreign to me, but the <a href="https://gohugo.io/documentation/">Hugo documentation</a> is solid. Also, The Airbag Industries site has a relatively straightforward content model — posts, pages, a menu, an archive page, and a site feed — so building out the site was relatively simple.
 
@@ -150,7 +166,8 @@ One other note about building with Hugo: I love how simple the setup was. I avoi
 
 I also can’t say enough how helpful <a href="https://www.sarasoueidan.com/blog/jekyll-ghpages-to-hugo-netlify/">Sara Soueidan’s article on moving from Jekyll to Hugo</a> was throughout this process. It helped me tremendously. If you’re building a site on Hugo, do yourself a favor and read the whole thing. Lots of practical information in there.
 
-<h3>Rewrite Rules</h3>
+### Rewrite Rules
+
 
 The last key step for the project was setting up URL rewrite rules so that old links still worked.
 
@@ -168,7 +185,8 @@ We decide to put the aforementioned redirect in place (Netlify lets you define r
 
 This handled a good percentage of the articles and most titles were under 15 characters. For articles that didn’t match the pattern, we just put in manual redirects.
 
-<h2>Site Launch &#x1f37e;</h2>
+## Site Launch &#x1f37e;
+
 
 <blockquote class="twitter-tweet">
 <p dir="ltr" lang="en">I’d like to thank <a href="https://twitter.com/plasticmind?ref_src=twsrc%5Etfw">@plasticmind</a> and <a href="https://twitter.com/ATXDodger?ref_src=twsrc%5Etfw">@ATXDodger</a> for their contributions to the redesign and development of an old website that was due for a refresh. It’s still a bit of a work in progress but I am thrilled to see Airbag 3.0 go live. More to come!<a href="https://t.co/PbxSIICEJ9">https://t.co/PbxSIICEJ9</a>
@@ -184,7 +202,8 @@ We successfully launched the site a few months ago, and more recently Greg worke
 
 <hr />
 
-<h2>Post-mortem</h2>
+## Post-mortem
+
 
 This project took a bit longer than expected, and it wasn’t just because of the unexpected dead Mac. Some of the things that made this take a bit longer:
 

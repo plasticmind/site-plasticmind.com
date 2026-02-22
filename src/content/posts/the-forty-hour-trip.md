@@ -17,7 +17,8 @@ hits: 122
 ---
 
 
-			<h5>Midnight, EST</h5>
+			##### Midnight, EST
+
 
 
 
@@ -25,7 +26,8 @@ Lift off from JFK.  Plane was late out of the gate.  Rode in a 747 for the first
 
 
 
-<h5>8:30am EST / 4:30am PST</h5>
+##### 8:30am EST / 4:30am PST
+
 
 
 
@@ -33,7 +35,8 @@ Touchdown in Anchorage, Alaska.  First impressions, mountains were close and jag
 
 
 
-<h5>10:15am EST / 6:15am PST</h5>
+##### 10:15am EST / 6:15am PST
+
 
 
 
@@ -41,7 +44,8 @@ Takeoff from Anchorage.  Everyone seems much more alert and awake.  For the firs
 
 
 
-<h5>6:15pm EST / 6:15am GMT+8</h5>
+##### 6:15pm EST / 6:15am GMT+8
+
 
 
 
@@ -49,7 +53,8 @@ Landed in Taipai, Taiwan.  Far more mountainous than I had imagined.  Not the ha
 
 
 
-<h5>7:25pm EST / 7:25pm GMT+8</h5>
+##### 7:25pm EST / 7:25pm GMT+8
+
 
 
 
@@ -57,7 +62,8 @@ The trip from Taiwan to Manilla was decidedly better than the rest.  I got a win
 
 
 
-<h5>10:30pm EST / 10:30am GMT+8</h5>
+##### 10:30pm EST / 10:30am GMT+8
+
 
 
 
@@ -83,7 +89,8 @@ We all piled into taxis and enjoyed a hair raising ride to the Cebu Airport.  We
 
 
 
-<h5>8:00am EST / 8:00pm GMT+8</h5>
+##### 8:00am EST / 8:00pm GMT+8
+
 
 
 
@@ -91,7 +98,8 @@ I suppose this airport would have been fine for an hour layover.  Grab a donut f
 
 
 
-<h5>11:00am EST / 11:00pm GMT+8</h5>
+##### 11:00am EST / 11:00pm GMT+8
+
 
 
 

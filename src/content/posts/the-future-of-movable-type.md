@@ -28,7 +28,8 @@ With Movable Type 4.0 looming on the horizon and several CMS platform <a href="h
 Last year, there was a considerable disconnect between the company itself and community leaders.  With the launch of Vox and other Six Apart ventures, some were afraid that Movable Type had become the red-headed stepchild of Ben and Mena.  The communication has since improved, with regular ProNet conference calls and more internal transparency; but if Six Apart genuinely wants Movable Type to be the one-stop solution for personal and enterprise blogs, there are some important things they need to do.  (The most recent ProNet podcast is a good sign of things to come and addresses much of what I've written here.)
 
 
-			<!--more--><h4>Becoming Pioneers Again</h4>
+			<!--more-->#### Becoming Pioneers Again
+
 
 
 
@@ -36,7 +37,8 @@ First, Six Apart needs to think long term about the future of blogging.  They ar
 
 
 
-<h4>Outlining Clear Goals</h4>
+#### Outlining Clear Goals
+
 
 
 
@@ -56,7 +58,8 @@ I just spoke with a developer today who wanted to know why I use Movable Type in
 
 
 
-<h4>Reinventing The Platform</h4>
+#### Reinventing The Platform
+
 
 
 
@@ -112,7 +115,8 @@ The results of the plugin survey that Byrne conducted were revealing: if you cou
 
 
 
-<h4>Getting Better vs. Getting By</h4>
+#### Getting Better vs. Getting By
+
 
 
 

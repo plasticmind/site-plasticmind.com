@@ -17,7 +17,8 @@ hits: 3321
 ---
 
 
-			<h3>The Concept</h3>
+			### The Concept
+
 
 
 
@@ -31,7 +32,8 @@ Amazon Web Services seemed like a perfect fit: all our data stored remotely and 
 
 
 
-			<!--more--><h3>The Process</h3>
+			<!--more-->### The Process
+
 
 
 
@@ -39,7 +41,8 @@ Before I go into the process in detail, I should warn you that you'll need both 
 
 
 
-<h4>Create an S3 account</h4>
+#### Create an S3 account
+
 
 
 
@@ -65,7 +68,8 @@ Once you've created your S3 account, visit <a href="https://aws-portal.amazon.co
 
 
 
-<h4>Download the code</h4>
+#### Download the code
+
 
 
 
@@ -85,7 +89,8 @@ You'll need to decide where to install.  I recommend you put this somewhere *not
 
 
 
-<h4>Configure the code</h4>
+#### Configure the code
+
 
 
 
@@ -124,7 +129,8 @@ Once you set these up, you should be able to run "php s3_backup.php" and after a
 
 
 
-<h4>Set up the cron tasks</h4>
+#### Set up the cron tasks
+
 
 
 
@@ -162,7 +168,8 @@ Check out this resource for more <a href="https://www.adminschoice.com/crontab-q
 
 
 
-<h3>Get to your backups</h3>
+### Get to your backups
+
 
 
 
@@ -188,7 +195,8 @@ However, Amazon provides a pretty powerful web interface for all of your AWS ser
 
 
 
-<h3>Rest easy</h3>
+### Rest easy
+
 
 
 

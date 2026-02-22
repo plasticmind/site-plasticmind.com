@@ -22,7 +22,7 @@ Now for those of you who don't follow pop culture and web trends, et. al, a "mos
 
 Of course, when someone says most people can't do [x], everyone tries it. Sort of like when I read the Snapple cap that said no one can lick their elbow. Now that's a conversation starter. Anyhow, I fired up Audacity and generated a 17kHz tone, and wouldn't you know--I couldn't hear it. So I bumped it down to 14kHz and heard it. At 15kHz, I could hear it so long as I didn't tilt my head funny. At 16kHz, I could still hear it, but it was really faint. Then I actually decided that I could only hear it if I knew it was playing, but I haven't been able to test that until I have someone else press play.
 
-My wife just walked in for her middle-of-the-night stroll and screwed her face up funny when I played the 18KHz sound. **Show off.**
+My wife just walked in for her middle-of-the-night stroll and screwed her face up funny when I played the 18KHz sound.**Show off.**
 
 Here are the sounds for you to test yourself with (Ren suggests headphones for best results). They're all 5-second long .mp3 files:
 

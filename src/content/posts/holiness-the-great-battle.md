@@ -23,7 +23,8 @@ John Wesley, one of great 19th century revivalists, taught that a Christian coul
 
 
 
-<h4>Bearing the Cross</h4>
+#### Bearing the Cross
+
 
 
 
@@ -37,7 +38,8 @@ The first time I stood on a soccer field to play, I was terrible.  I was playing
 
 
 
-<h4>Living the Position</h4>
+#### Living the Position
+
 
 
 
@@ -51,7 +53,8 @@ Bob Wilkin said it best in is treatise "Do Born Again People Sin?", "1 John 1:8,
 
 
 
-<h4>Considering the Battle</h4>
+#### Considering the Battle
+
 
 
 

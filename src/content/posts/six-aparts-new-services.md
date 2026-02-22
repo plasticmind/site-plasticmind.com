@@ -29,7 +29,8 @@ hits: 425
 <li>They&#8217;ve launched <a href="https://www.sixapart.com/services/">Six Apart Services</a>, a branch of Six Apart officially dedicated to design, development and implementation of their platforms for customers.   </li>
 </ol>
 
-<h3>What Does This Mean For You As A Customer?</h3>
+### What Does This Mean For You As A Customer?
+
 
 
 
@@ -49,7 +50,8 @@ hits: 425
 
 
 
-<h3>What Does This Mean For Me As A Consultant?</h3>
+### What Does This Mean For Me As A Consultant?
+
 
 
 

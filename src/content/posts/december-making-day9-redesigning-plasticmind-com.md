@@ -22,7 +22,8 @@ I've always struggled designing my own site, so I decided to treat myself like a
 
 In this first video, I work through the goals of my site, review what's working and what's not on the existing site, and put together a rough project plan by breaking up the projected effort into logical chunks.
 
-<h3>Video topics:</h3>
+### Video topics:
+
 
 <ul>
     <li>Should I position myself as a generalist or a specialist? (on this site, probably generalist)</li>
@@ -34,7 +35,8 @@ In this first video, I work through the goals of my site, review what's working 
     <li>How do I break up the project effort into logical chunks?</li>
 </ul>
 
-<h3>Video Timestamps:</h3>
+### Video Timestamps:
+
 
 <ul>
     <li><a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/watch?v=trxFz2CmXQE&amp;t=165s">02:45</a> — Brief overview of the current site and some thinking behind the existing design</li>

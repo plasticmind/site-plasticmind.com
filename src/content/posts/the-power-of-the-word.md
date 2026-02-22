@@ -23,7 +23,8 @@ One of the most interesting discoveries I made during my Greek studies at colleg
 
 
 
-<h5>Words Represent Ideas</h5>
+##### Words Represent Ideas
+
 
 
 
@@ -36,7 +37,8 @@ A word is something we use to represent an idea or a concept.  Words are essenti
 So when a word is given, it is often a representation of the giver’s thoughts, ideas and personality.  Sometimes these representations are direct, sometimes they are indirect.  If I say to you “I don’t like kidney beans”, that’s a fairly direct statement of my view on kidney beans.  If you give a choice between corn on the cob and kidney beans and I say, “I’ll take the corn, thanks”, that’s another revelation of my personality, even though it’s a bit more direct.
 
 
-			<!--more--><h5>Christ Is God’s Word</h5>
+			<!--more-->##### Christ Is God’s Word
+
 
 
 
@@ -46,7 +48,8 @@ This is why John 1 addresses Christ as “The Word”, because He is an incarnat
 
 <div class="contentbox">**Hebrews 4:12** For the word of God is living and powerful, and sharper than any two-edged sword, piercing even to the division of soul and spirit, and of joints and marrow, and is a discerner of the thoughts and intents of the heart. 13 And there is no creature hidden from His sight, but all things are naked and open to the eyes of Him to whom we must give account. 14 Seeing then that we have a great High Priest who has passed through the heavens, Jesus the Son of God, let us hold fast our confession. 15 For we do not have a High Priest who cannot sympathize with our weaknesses, but was in all points tempted as we are, yet without sin. 16 Let us therefore come boldly to the throne of grace, that we may obtain mercy and find grace to help in time of need.</div>
 
-<h5>Why Inspiration Matters</h5>
+##### Why Inspiration Matters
+
 
 
 
@@ -82,7 +85,8 @@ There is great power in God’s plan, and that powerful plan has been revealed i
 
 
 
-<h5>God’s Word Speaks Of Things to Come</h5>
+##### God’s Word Speaks Of Things to Come
+
 
 
 
@@ -112,7 +116,8 @@ There is a real and apparent rest that Christ brings to all those who by faith �
 
 
 
-<h5>When Words Fail</h5>
+##### When Words Fail
+
 
 
 
@@ -128,7 +133,8 @@ After all of the astounding things God did for them during the Exodus—freeing 
 
 
 
-<h5>God’s Promises + Our Faith</h5>
+##### God’s Promises + Our Faith
+
 
 
 

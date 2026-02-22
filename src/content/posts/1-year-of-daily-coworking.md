@@ -79,7 +79,8 @@ I've learned a lot over the last year and have some thoughts about why this idea
 
 <!-- wp:group -->
 <div class="wp-block-group"><div class="wp-block-group__inner-container"><!-- wp:heading -->
-<h2>Regulars</h2>
+## Regulars
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -109,7 +110,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://instagram.com/clarebotanica">Clare Freeman</a></h3>
+### <a href="https://instagram.com/clarebotanica">Clare Freeman</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6056,"sizeSlug":"large","linkDestination":"none"} -->
@@ -117,7 +119,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://www.instagram.com/leerdustin/">Dustin Leer</a></h3>
+### <a href="https://www.instagram.com/leerdustin/">Dustin Leer</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6059,"sizeSlug":"large","linkDestination":"none"} -->
@@ -125,7 +128,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://www.instagram.com/bullet_and_whiskey/">Andrew Colclough</a></h3>
+### <a href="https://www.instagram.com/bullet_and_whiskey/">Andrew Colclough</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6061,"sizeSlug":"large","linkDestination":"none"} -->
@@ -133,7 +137,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/snookca">Jonathan Snook</a></h3>
+### <a href="https://twitter.com/snookca">Jonathan Snook</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6065,"sizeSlug":"large","linkDestination":"none"} -->
@@ -141,7 +146,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/taylordunham_">Taylor Dunham</a></h3>
+### <a href="https://twitter.com/taylordunham_">Taylor Dunham</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6069,"sizeSlug":"large","linkDestination":"none"} -->
@@ -149,7 +155,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://www.facebook.com/kinsey.dickey">Kinsey Dickey</a></h3>
+### <a href="https://www.facebook.com/kinsey.dickey">Kinsey Dickey</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6073,"sizeSlug":"large","linkDestination":"none"} -->
@@ -157,7 +164,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/meyerweb">Eric Meyer</a></h3>
+### <a href="https://twitter.com/meyerweb">Eric Meyer</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6075,"sizeSlug":"large","linkDestination":"none"} -->
@@ -165,7 +173,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://www.facebook.com/daveshack">Dave Shackelford</a></h3>
+### <a href="https://www.facebook.com/daveshack">Dave Shackelford</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6079,"sizeSlug":"large","linkDestination":"none"} -->
@@ -173,7 +182,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/chuckwoj">Chuck Wojack</a></h3>
+### <a href="https://twitter.com/chuckwoj">Chuck Wojack</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6080,"sizeSlug":"large","linkDestination":"none"} -->
@@ -181,7 +191,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/antonpeck">Anton Peck</a></h3>
+### <a href="https://twitter.com/antonpeck">Anton Peck</a>
+
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -191,7 +202,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/darumacreative">Tatiana Bischak</a></h3>
+### <a href="https://twitter.com/darumacreative">Tatiana Bischak</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6058,"sizeSlug":"large","linkDestination":"none"} -->
@@ -199,7 +211,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/chrisfrueh">Chris Frueh</a></h3>
+### <a href="https://twitter.com/chrisfrueh">Chris Frueh</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6060,"sizeSlug":"large","linkDestination":"none"} -->
@@ -207,7 +220,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/callmearjen">Arjen Elliot</a></h3>
+### <a href="https://twitter.com/callmearjen">Arjen Elliot</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6062,"sizeSlug":"large","linkDestination":"none"} -->
@@ -215,7 +229,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/SomethingRobS">Rob Stewart</a></h3>
+### <a href="https://twitter.com/SomethingRobS">Rob Stewart</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6068,"sizeSlug":"large","linkDestination":"none"} -->
@@ -223,7 +238,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/jodyheavener">Jody Heavener</a></h3>
+### <a href="https://twitter.com/jodyheavener">Jody Heavener</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6070,"sizeSlug":"large","linkDestination":"none"} -->
@@ -231,7 +247,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/tyler_paulson">Tyler Paulson</a></h3>
+### <a href="https://twitter.com/tyler_paulson">Tyler Paulson</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6074,"sizeSlug":"large","linkDestination":"none"} -->
@@ -239,7 +256,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/joshking">Josh King</a></h3>
+### <a href="https://twitter.com/joshking">Josh King</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6076,"sizeSlug":"large","linkDestination":"none"} -->
@@ -247,7 +265,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/jacobatruman">Jacob Truman</a></h3>
+### <a href="https://twitter.com/jacobatruman">Jacob Truman</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6078,"sizeSlug":"large","linkDestination":"none"} -->
@@ -255,7 +274,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/matto">Matthew Oliphant</a></h3>
+### <a href="https://twitter.com/matto">Matthew Oliphant</a>
+
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6082,"sizeSlug":"large","linkDestination":"none"} -->
@@ -263,7 +283,8 @@ In no particular order:
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3><a href="https://twitter.com/JeffLancaster6">Jeffrey Lancaster</a></h3>
+### <a href="https://twitter.com/JeffLancaster6">Jeffrey Lancaster</a>
+
 <!-- /wp:heading --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div></div>
@@ -271,7 +292,8 @@ In no particular order:
 
 <!-- wp:group -->
 <div class="wp-block-group"><div class="wp-block-group__inner-container"><!-- wp:heading -->
-<h2>Visitors</h2>
+## Visitors
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -310,7 +332,8 @@ Here’s a list of the people who weren’t necessarily frequent joiners, but jo
 <!-- /wp:group -->
 
 <!-- wp:heading -->
-<h2 id="lessons">Lessons Learned</h2>
+## Lessons Learned
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -326,7 +349,8 @@ A few things I’ve observed:
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Inside Jokes &amp; Good Memories</h3>
+### Inside Jokes &amp; Good Memories
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

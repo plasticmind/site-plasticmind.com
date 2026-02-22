@@ -17,7 +17,8 @@ hits: 392
 ---
 
 
-			<h3>Speed Matters</h3>
+			### Speed Matters
+
 
 <ul>
 <li>April 2010, <a href="https://plas.tc/6r">Google announces</a>: &#8220;new signal in our search ranking algorithms: site speed&#8221;.</li>
@@ -29,9 +30,11 @@ hits: 392
 <li>Sales at Amazon increase by 1% for every 100 milliseconds it shaves off download times. (<a href="https://www.mobilemarketer.com/cms/opinion/columns/12732.html">Source</a>)</li>
 </ul>
 
-<h3>Performance Tips and Tools</h3>
+### Performance Tips and Tools
 
-<h4>Images</h4>
+
+#### Images
+
 
 <ul>
 <li>Save your JPG photos at 80%.  (<a href="https://petapixel.com/2011/08/26/a-higher-quality-setting-in-photoshop-sometimes-reduces-jpeg-quality/">70% is actually worse than 60%.</a>)</li>
@@ -43,7 +46,8 @@ hits: 392
 <li>WP Plugin - <a href="https://wordpress.org/plugins/genericond/">Genericon&#8217;d</a></li>
 </ul>
 
-<h4>Javascript/CSS</h4>
+#### Javascript/CSS
+
 
 <ul>
 <li><a href="https://refresh-sf.com/">YUI Compressor</a>: Copy/paste to minify your CSS or JS</li>

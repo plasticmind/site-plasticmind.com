@@ -17,7 +17,8 @@ hits: 2532
 ---
 
 
-			<h3>Introduction</h3>
+			### Introduction
+
 
 
 
@@ -43,7 +44,8 @@ So today I decided to take the plunge and try out a pro account, specifically so
 
 
 
-			<!--more--><h3>Login Headaches</h3>
+			<!--more-->### Login Headaches
+
 
 
 
@@ -69,7 +71,8 @@ Finally, I was able to log in.  I purchased the Pro account pretty easily throug
 
 
 
-<h3>Room Creation Headaches</h3>
+### Room Creation Headaches
+
 
 
 
@@ -101,7 +104,8 @@ Next, I jumped over to the Misc. menu, thinking maybe I&#8217;d find something r
 
 
 
-<h3>More Login Headaches</h3>
+### More Login Headaches
+
 
 
 
@@ -115,7 +119,8 @@ I jumped back to my membership area and noticed that I was still logged in and s
 
 
 
-<h3>Support?</h3>
+### Support?
+
 
 
 
@@ -135,7 +140,8 @@ Granted, the link in the footer of their standard site takes you to the new blog
 
 
 
-<h3>Conclusion</h3>
+### Conclusion
+
 
 
 

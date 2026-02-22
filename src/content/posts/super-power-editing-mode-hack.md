@@ -53,7 +53,8 @@ For instance&#8212;Customer A is using MT to store course listings.  The extende
 
 
 
-<h4>Step 1: Changing the Entry Form: Editing &#8216;entry_table.tmpl&#8217;</h4>
+#### Step 1: Changing the Entry Form: Editing &#8216;entry_table.tmpl&#8217;
+
 
 
 
@@ -120,7 +121,8 @@ Go ahead and save your &#8216;entry_table.tmpl&#8217; template module, preferabl
 
 
 
-<h4>Step 2: Getting MT Ready to Save New Fields: Adding Variables to &#8216;CMS.pm&#8217;</h4>
+#### Step 2: Getting MT Ready to Save New Fields: Adding Variables to &#8216;CMS.pm&#8217;
+
 
 
 

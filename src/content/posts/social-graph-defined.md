@@ -25,7 +25,8 @@ Have I lost you? Let’s start again.
 <img src="https://plasticmind.com/assets/openid.png" alt="openid.png" width="508" height="276" />
 
 <!--more-->
-<h3>OpenID: Own Your Identity</h3>
+### OpenID: Own Your Identity
+
 First, let’s start with <a href="https://openid.net/">OpenID</a>. With the rapid increase of sites that require you to login these days, it’s becoming difficult to keep track of login information. What’s particularly dangerous is that often people use the same user name and password for all of the different sites they log into (guilty). We’re human, it’s hard to remember this stuff. But what happens when you set up an account with InnocentLookingMaliciousIntent.com using the same user name and password as you use for your Gmail account? Suddenly, bad guys have access to your email account (and Paypal account, and Flickr account, ad nauseum).
 
 Now, one solution is to use a different password for each site. That’s fine if you’re Rain Man. But the rest of us humans can’t remember 45 different logins. So what do we do? We use the same user name and password. “Oh, don’t worry,” you say, “my password is really long!” Doesn’t matter. Your password could be a string of 255 letters, numbers and symbols and it wouldn’t make a difference; if you’re using it for every new site you sign up with, you’re giving that password away. Every time you give that password away, you’re trusting someone with it. And as trustworthy as they may be, you never know when they might get hacked. Or have their records stolen. Or sell it to someone else. You get the picture.
@@ -35,7 +36,8 @@ Enter OpenID. Here’s how it works. You have a website that you trust with your
 Now, if only we could do that with all our social network information.
 
 <img src="https://plasticmind.com/assets/opensnap.png" alt="opensnap.png" width="508" height="276" />
-<h3>OpenSNAP: Own Your Connections</h3>
+### OpenSNAP: Own Your Connections
+
 Before I start, let me just say that since this technology doesn’t have a name, I’m picking one arbitrarily. OpenSNAP (Social Network Asset Portability) seems fitting, so I’ll go with that. Now, where were we?
 
 Oh yes. First, what is your social graph? Put simply, it’s your connections online. Now, in real life, you’re in the middle and all of your connections are at the center. However, with all of the different social networking tools out there (Ringo, Flickr, Facebook, Twitter, Vox, IM, etc.), the graph looks a whole lot more broken up. You’ve got 238 friends on Facebook, 47 people that you follow in Twitter, 13 contacts in Flickr and 36 people in your Vox neighborhood. And some of those friends/followers/contacts/neighbors are the same people; but each time you join a new social network, you’ve got to try to find your friends all over again. What you need is something that will “glue” all of your data from multiple social networks together. Opening up your social graph is all about about social network portability—the ability to take your profile, data and connections with you wherever you go, using the same principles as OpenID. (Initial focus is primarily on your connections.)

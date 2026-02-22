@@ -40,7 +40,8 @@ So after picking up some good ideas from Mike Industries, I decided to toss it t
 I give you, dynamic comment previewing in three easy steps:
 
 
-			<!--more--><h4>Step 1: Modify mt-site.js</h4>
+			<!--more-->#### Step 1: Modify mt-site.js
+
 
 
 
@@ -69,7 +70,8 @@ This is the javascript that powers the live comment preview.  Our comment form w
 
 
 
-<h4>Step 2: Modify individual entry archives</h4>
+#### Step 2: Modify individual entry archives
+
 
 
 
@@ -105,7 +107,8 @@ You may need to modify the structure to fit your own style.  Essentially, whatev
 
 
 
-<h4>Step 3: Modify IEA's once more</h4>
+#### Step 3: Modify IEA's once more
+
 
 
 

@@ -38,7 +38,8 @@ Removing all references to hrecipe seems to have forced Google to pick up the mi
 
 <img class="alignnone size-full wp-image-5081" src="https://plasticmind.com/wp-content/uploads/2014/09/snippet.png" alt="snippet" width="541" height="476" />
 
-<h3>Related Links:</h3>
+### Related Links:
+
 
 <ul>
     <li>Google: <a href="https://support.google.com/webmasters/answer/99170?hl=en">About rich snippets and structured data</a></li>

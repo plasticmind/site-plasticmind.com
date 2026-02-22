@@ -23,7 +23,8 @@ In our first few studies on holiness, we talked a good deal about the theory beh
 
 
 
-<h4>What's In It For Me?</h4>
+#### What's In It For Me?
+
 
 
 
@@ -37,7 +38,8 @@ So what are some of the blessings of holy living?  We've already touched on some
 
 
 
-<h4>The Him in 'Follow Me'</h4>
+#### The Him in 'Follow Me'
+
 
 
 
@@ -57,7 +59,8 @@ Sure, the dramatic stories of drug dealers coming to Jesus gives us all a little
 
 
 
-<h4>Spiritual Alzheimers</h4>
+#### Spiritual Alzheimers
+
 
 
 
@@ -89,7 +92,8 @@ See, this saved-sin-sorry-saved-sin cycle is really just a cop out, a grasping f
 
 
 
-<h4>The Cure For Blindness</h4>
+#### The Cure For Blindness
+
 
 
 

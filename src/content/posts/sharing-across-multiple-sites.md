@@ -17,7 +17,8 @@ hits: 495
 ---
 
 
-			<h3>Problem:</h3>
+			### Problem:
+
 
 
 
@@ -31,7 +32,8 @@ More importantly, perhaps, is the fact that each of these items in our shared li
 
 
 
-<h3>Solution:</h3>
+### Solution:
+
 
 
 

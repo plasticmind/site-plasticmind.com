@@ -30,7 +30,7 @@ My journal is a proving ground for thoughts. My conversation with a blind man ab
 
 So, I’m starting something new: a writing regimen. Every day, as often as I can, I’ll spend 15 minutes writing about anything and everything. I’ll spend about 5 minutes beforehand thinking through what I’m going to write about, but after 15 minutes of nonstop writing, the timer will ring and I’ll wrap it up. And if my percentages are right, about 75% of what you’ll read here will be worthless.
 
-But that’s ok. If you want refined, cohesive thought, go buy a book. **These are my ramblings to a blind man.**
+But that’s ok. If you want refined, cohesive thought, go buy a book.**These are my ramblings to a blind man.**
 
 *Note: I’m planning to redesign my site shortly to make it easier for reading, but I didn’t want that to hold this project up.*
 

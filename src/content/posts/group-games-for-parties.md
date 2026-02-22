@@ -16,7 +16,8 @@ fix: false
 hits: 90040|90040
 ---
 
-<h3>Occupation</h3>
+### Occupation
+
 
 One person in the group is designated the reader and will not participate in this round.
 
@@ -28,7 +29,8 @@ If the accuser guesses right, he becomes a team captain and the accused joins hi
 
 **The object of the game is to be the last team captain with everyone on your team.**
 
-<h3>Fishbowl</h3>
+### Fishbowl
+
 
 Everyone in the group gets 3 - 5 slips of paper on which they write the name of a person or character (Mickey Mouse, Ronald Reagan, MacGuyver, Joan of Arc, etc.). The person or character should be something that every player would recognize, so historical or popular figures are usually best (though we’ve used people in the room or shared friends and they’ve worked fine). All of the papers should be folded in half and mixed together in a large bowl.
 
@@ -38,13 +40,15 @@ This game itself is made up of three rounds. Each round is played until all the 
 
 **Whichever team has the most points at the end of three rounds is the winner.**
 
-<h3>Psychiatrist</h3>
+### Psychiatrist
+
 
 One person is chosen to be the “psychiatrist” and leaves the room. The group then decides on a common “symptom” or pattern of behavior: for instance, everyone is afraid of water, everyone thinks they are cartoon characters or everyone is the person sitting to their left.
 
 The “psychiatrist” is then called back into the room and has to guess the symptom by choosing players from the circle and asking them questions. If a player lies or answers a question incorrectly based on the pattern, anyone in the group can shout out “Psychiatrist” and the person who lied has to trade seats with the first person who called it out.
 
-<h3>Two Truths and a Lie</h3>
+### Two Truths and a Lie
+
 
 Everyone in the group writes down three “facts” about themselves on a piece of paper. Two of them should be true; one of them should be a lie.
 
@@ -52,7 +56,8 @@ After everyone’s “fact sheet” is completed, each player takes turns readin
 
 **The player with the most correct guesses is the winner.** This is an especially good icebreaker game.
 
-<h3>Four on a Couch</h3>
+### Four on a Couch
+
 
 The group should sit in a circle of chairs for this game. A couch isn’t required, but you will need four seats side-by-side designated as the “couch”. Split the group in half. Two people from team one and two people from team two should be sitting on the “couch” with everyone else in chairs. One chair should remain empty.
 

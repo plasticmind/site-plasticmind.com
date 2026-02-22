@@ -35,7 +35,8 @@ Without further ado:
 
 
 
-<h3>Productivity</h3>
+### Productivity
+
 
 
 
@@ -193,7 +194,8 @@ Sometimes you just have to SSH.
 
 
 
-<h3>Games:</h3>
+### Games:
+
 
 
 
@@ -291,7 +293,8 @@ Probably one of the more unique games I&#8217;ve played.  You must navigate the 
 
 
 
-<h3>Honorable Mention:</h3>
+### Honorable Mention:
+
 
 
 

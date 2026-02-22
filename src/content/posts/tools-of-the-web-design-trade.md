@@ -24,7 +24,8 @@ Here are some of the tools that help me do what I do. This first article in the 
 
 <!--more-->
 
-<h5>Inspiration</h5>
+##### Inspiration
+
 
 Digital Web magazine recently ran <a href="https://www.digital-web.com/articles/collecting_for_design/">a fantastic article about “collecting”</a> based on <a href="https://www.sitepoint.com/article/copy-great-designers-steal">Cameron Moll’s “Good Designers Copy, Great Designers Steal” dictum</a>. The idea is this: No designer works in a vacuum. Some things work; others don’t. A good designer should be able to analyze client needs, goals and purposes and then strike a balance between using commonly accepted techniques and finding new ways of doing things. To put it another way: look around. What are other designers doing? Does it work? How could it be made better? What are some common patterns you see among good designers that may be missing from your work? Should that change? Here are some great places to go for observation and inspiration:
 
@@ -40,9 +41,10 @@ Digital Web magazine recently ran <a href="https://www.digital-web.com/articles/
 
 <a href="https://www.csszengarden.com/">CSS Zen Garden</a> - Standard fare for most designers, but an inspiration list without it would be incomplete.
 
-Remember, if you want to be great at this, you need to stay informed about both technological and visual trends and advancements. **The greatest web designers are not necessarily the best graphic artists; they are people who can combine the best technical solution and the most fitting visual design, marrying form and function.**
+Remember, if you want to be great at this, you need to stay informed about both technological and visual trends and advancements.**The greatest web designers are not necessarily the best graphic artists; they are people who can combine the best technical solution and the most fitting visual design, marrying form and function.**
 
-<h5>Instruction</h5>
+##### Instruction
+
 
 An essential part of standards-based web design is learning and understanding standards. There are many, many great resources out there for standards based design. You may not “get” them all at first, but there’s always induction, induction, induction! Here are a few resources that have helped me tremendously:
 
@@ -62,7 +64,8 @@ An essential part of standards-based web design is learning and understanding st
 
 **<a href="https://www.google.com">Google</a> University**: Hopefully, if you’re in this business, you’ve got the good sense to know where to look first if you can’t figure something out. No, it’s not your more knowledgeable web friend, it’s not a LazyTweet, it’s not a shotgun post to your favorite IRC channel, and it’s certainly not a cold email to a popular web designer/developer/celebrity; it’s Google. Ask Google your question first using several different search terms and phrasing it several different ways; if what you’re looking for doesn’t come up at all *then* you can ask around, preferably your knowledgeable web friend. (They’ll thank me for this.) If nothing else, they’ll give you a better set of search terms to use to find what you’re looking for.
 
-<h5>Proposals, Billing and Project Management</h5>
+##### Proposals, Billing and Project Management
+
 
 One of the first steps for almost every design project is getting together with the client and identifying the target audience and main purpose. In fact, I almost always ask for some type of IA (information architecture) from the client before even writing up a proposal. I’ve found this to be an **absolutely crucial** step as it helps you eliminate clients who don’t know what they want out of their site. Trust me, if they don’t know what they want, **you certainly aren’t going to be able to give it to them**. Plus, this ensures that they’re serious about the project before you spend time writing up a proposal. Here are some of the things I use to make this all possible.
 

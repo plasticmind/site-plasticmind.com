@@ -40,7 +40,7 @@ Simply put, **it’s hard to pay attention in the big room**.
 
 And paying attention is important for meaningful conversations. In fact, paying attention is important for everything in life except maybe folding laundry and The Weather Channel. I’m committed to doing some big things in life that require big attention: being a loving and aware father and husband, a thoughtful and attentive pastor, a creative and focused employee. It’s hard to give those things the proper attention they deserve when you’ve depleted your store of attention on lesser things that feel <a href="https://xkcd.com/386/">much more important</a> than they really are.
 
-**So… use social media, but be sure to step away from the big room now and again. **It’s not quite as noisy out here. I find a social media purge every now and again good for the mind.
+**So… use social media, but be sure to step away from the big room now and again.**It’s not quite as noisy out here. I find a social media purge every now and again good for the mind.
 <blockquote>*I’m going out to clean the pasture spring;
 I’ll only stop to rake the leaves away
 (And wait to watch the water clear, I may):

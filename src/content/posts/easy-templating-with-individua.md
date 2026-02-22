@@ -28,7 +28,8 @@ If you're like me, you don't like to code in theory.  You're constantly rebuildi
 So here are two quick tips for experimenting with your IEA's:
 
 
-			<!--more--><h4>The Single Entry Save</h4>
+			<!--more-->#### The Single Entry Save
+
 
 
 
@@ -36,7 +37,8 @@ So here are two quick tips for experimenting with your IEA's:
 
 
 
-<h4>An IEA as an Index Template</h4>
+#### An IEA as an Index Template
+
 
 
 

@@ -18,7 +18,8 @@ hits: 228
 
 <div class="thumb-left"><img src="https://plasticmind.com/images/story-theboyandthegirl.gif" alt="The Boy and the Girl: An Engagement Story" /></div>
 
-<h3>Chapter 2: The Secret</h3>
+### Chapter 2: The Secret
+
 
 **The boy wanted to marry the girl,** but he kept it a secret. He did tell his parents, but only to ask them what they thought about the whole idea. They smiled and said yes!
 

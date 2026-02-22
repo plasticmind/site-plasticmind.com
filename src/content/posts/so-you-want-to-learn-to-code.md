@@ -61,7 +61,8 @@ As time went on and as I developed a larger view of the world and a better under
 
 
 
-<h3>Resources for Learning To Code</h3>
+### Resources for Learning To Code
+
 
 
 
@@ -86,7 +87,8 @@ Here&#8217;s a list of some helpful resources for learning to code.  If you&#821
 <li><a href="https://www.extension.harvard.edu/open-learning-initiative/intensive-introduction-computer-science">Harvard&#8217;s Intro to Computer Science Course</a> - If the previous links were practicing your scales and chords, this course is Intro to Music Theory.</li>
 </ul>
 
-<h3>Which Language Is Right For Me?</h3>
+### Which Language Is Right For Me?
+
 
 
 
@@ -106,7 +108,8 @@ That said, choosing a language closest to what you want to accomplish can help y
 
 
 
-<h4>Beginner: HTML, CSS, Javascript</h4>
+#### Beginner: HTML, CSS, Javascript
+
 
 
 
@@ -114,7 +117,8 @@ Because these languages deal primarily with the display and manipulation of pres
 
 
 
-<h4>Intermediate: PHP, Python, Ruby, Perl</h4>
+#### Intermediate: PHP, Python, Ruby, Perl
+
 
 
 
@@ -122,7 +126,8 @@ These languages are typically related to web development.  These are &#8220;scri
 
 
 
-<h4>Advanced: C++, Cocoa, Objective C, Assembly</h4>
+#### Advanced: C++, Cocoa, Objective C, Assembly
+
 
 
 

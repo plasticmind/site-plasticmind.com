@@ -33,7 +33,8 @@ That’s not true. I *could* put it into a single post, but it would be far too 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>A Weird Year</h2>
+## A Weird Year
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -73,7 +74,8 @@ That will change in 2023. More to come on that in a later post.
 <!-- /wp:image -->
 
 <!-- wp:heading -->
-<h2>The Family</h2>
+## The Family
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -85,7 +87,8 @@ I’ll share my own personal updates from 2022 in a later post, but here are som
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Jessica</h3>
+### Jessica
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -133,7 +136,8 @@ We celebrated our 17th anniversary this year with a trip to NYC. We saw Wicked, 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Ethan</h3>
+### Ethan
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -165,7 +169,8 @@ He started <a href="https://www.youtube.com/channel/UCY31tcGh6NJ1hIrdqAOjwOw">a 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Anna</h3>
+### Anna
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -205,7 +210,8 @@ She’s also continued to improve her cooking and baking skills. Just a few week
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Elijah</h3>
+### Elijah
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -245,7 +251,8 @@ Another goal Elijah set for 2023 is to learn to ride a bike.
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Elliot</h3>
+### Elliot
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -285,11 +292,13 @@ Elliot’s (well, *mom’s)* big goal is to get him potty-trained this year.
 <!-- /wp:image -->
 
 <!-- wp:heading -->
-<h2>The Homestead</h2>
+## The Homestead
+
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Outside</h3>
+### Outside
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -321,7 +330,8 @@ We’ve got a lot of plans for the next year. Put in a new retaining wall, walkw
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>Inside</h3>
+### Inside
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -357,7 +367,8 @@ Given all we have planned for outside, this might have to wait until 2024.
 <!-- /wp:image -->
 
 <!-- wp:heading -->
-<h2>And So Much More…</h2>
+## And So Much More…
+
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

@@ -23,7 +23,8 @@ Movable Type is being used to store a list of classes, and we need to make those
 
 
 
-<h4>Ingredients</h4>
+#### Ingredients
+
 
 
 
@@ -37,7 +38,8 @@ Second, a javascript file that we&#8217;ll call to from our form for the list of
 
 
 
-<h4>Pros and Cons</h4>
+#### Pros and Cons
+
 
 
 
@@ -51,7 +53,8 @@ There are some weaknesses to using DHTML, namely problems for those who don&#821
 
 
 
-<h4>The JavaScript</h4>
+#### The JavaScript
+
 
 
 
@@ -142,7 +145,8 @@ The <code>&lt;MTCategories&gt;</code> envelope will loop through all of our cate
 
 
 
-<h4>The HTML</h4>
+#### The HTML
+
 
 
 
@@ -194,7 +198,8 @@ Don&#8217;t forget that these need to go inside a form.  What you do with them (
 
 
 
-<h4>Caveats</h4>
+#### Caveats
+
 
 
 
@@ -208,7 +213,8 @@ The other option, as is outlined by <a href="https://www.alistapart.com/">A List
 
 
 
-<h4>Example In Action</h4>
+#### Example In Action
+
 
 
 

@@ -20,13 +20,15 @@ I've always used Movable Type to manage my style sheets. I'm a WebDev Extension 
 
 But I've actually come up with a simple technique that lets MT power your CSS, not just publish it. With the addition of some MT tags in your style sheet, you can let MT handle automation just like it does in your html files.
 
-<h4>The Basics: Why?</h4>
+#### The Basics: Why?
+
 
 To best explain how it's done, let's talk about the why first. I wanted to allow a client to upload an image for a product that would be used on the individual entry archive. Now, the traditional way of doing this is to either use the "Upload File Popup" and include it in the entry or to have them FTP an image and put the path in one of the extra fields on the entry page. Then the image would either appear as part of the entry body or you'd specify the image source with "These are both fine ways to place tags on a page.
 
 But I didn't need an tag. I needed this image to be the background image for a div. I wanted to be able to put a hyperlinked "Purchase This" over the image as well as some other dynamic text. Essentially, I needed to be able to supply this background image in the edit entry screen, but still have the ability to use it in my stylesheet. Instead of manually adding a CSS id every time I added a product, I decided to automate it.
 
-<h4>First Things First: Get RightFields</h4>
+#### First Things First: Get RightFields
+
 
 There are other ways to associate an image with a specific entry, but by far the easiest and most straightforward is <a href="https://www.staggernation.com/mtplugins/RightFields">Kevin Shay's RightFields plugin</a>. RightFields is an internal plugin that allows you to change the look and functionality of the entry screen. What we're going to use it for in this example is to change our Extended Entry field into a "Product Image" upload field. This will allow us to select an image for this particular product. Instructions for plugin installation can be found <a href="https://www.staggernation.com/mtplugins/RightFields#Installing">at Staggernation, Kevin's website</a>.
 
@@ -34,7 +36,8 @@ At the RightFields plugin settings screen, choose the blog you'll be working wit
 
 Now save the changes and create a new entry. You'll notice that the fields have now been customized, and you can easily choose an image for this Product.
 
-<h4>Next Stop: CSS and the General DIV Class</h4>
+#### Next Stop: CSS and the General DIV Class
+
 
 In this example, we're going to use the uploaded image as a background image for our div. To keep the size of our style sheet down, lets divide up the styling of our "Product" div. All of the general styling will be put in a single class, while the background image definitions will be specific id's.
 
@@ -62,7 +65,8 @@ text-decoration: underline;
 
 We will assign this .product class to our "Product" div in just a moment.
 
-<h4>Moving On: Getting Specific With It</h4>
+#### Moving On: Getting Specific With It
+
 
 This next part is where the magin happens. Since Movable Type is publishing the style sheets along with the rest of the entries, we can make them talk the same language. We'll use the &lt;$MTEntryID$&gt; as the title of our #id. Normally, I avoid the entry ID like the plague because it's ugly and hard to remember; but it really doesn't matter now because MT is creating the style sheet as well as the pages that will be calling to it. So we'll let MT handle the dirty work.
 
@@ -77,7 +81,8 @@ background: url(/images/&lt;$MTEntryMore$&gt;);
 
 It's simple. Movable Type will loop through and create a unique ID for each product we've added to our "Product" category, complete with the background image that was uploaded. (You can add alignment or repeat functions to the end if it's applicable.)
 
-<h4>The Grand Finale: Getting Your Templates on the Same Page</h4>
+#### The Grand Finale: Getting Your Templates on the Same Page
+
 
 Now, all that's left is to set up the html in your templates correctly. We'll set up our id the same way we did in our style sheet to ensure correct match-up:
 
@@ -89,7 +94,8 @@ If all is well, (be sure you've put this code in either the context of an MTEntr
 
 Tune in next time for an article about using RightFields, MTImageEmbed, SlideShowPro and MT to create an out-of-the-park photoblog.
 
-<h4>Two Important Asides</h4>
+#### Two Important Asides
+
 
 Use included CSS. One of the first things that annoyed me about this approach was I kept copying and pasting CSS over my MT template code. The solution is simple... create a new index template with just the MT generated CSS in it. Then include it in your current stylesheet. Not only do you avoid the hassle of copy/paste errors, you also speed up rebuilds since MT doesn't have to rebuild your entire CSS file. (Thanks to <a href="https://www.thenorwoodhome.com">Mark</a> for the suggestion!)
 

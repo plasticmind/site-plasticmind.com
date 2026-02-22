@@ -22,11 +22,13 @@ https://www.youtube.com/watch?v=sfxd-d8lWmU
 
 This is a two-parter. On day 3, I created an original song in Logic using homemade sine wave and 808 patches. On day 4, I used Processing and the Minim audio library to create a dynamic visualization for the song.
 
-<h2>The Song</h2>
+## The Song
+
 
 I came up with the idea for this song while teaching my 11-year-old son about dial tones (he had no idea what they were!) We created a simple sine wave patch and found the tones for a dial tone, busy signal, and "off the hook" sound... and that experimentation turned into this song. I also had a blast creating my own custom <a href="https://en.wikipedia.org/wiki/Roland_TR-808">808 patch</a> for that killer bass.
 
-<h2>The Visualization</h2>
+## The Visualization
+
 
 Ever since I saw <a href="https://vimeo.com/347609052">Joshua Davis present at Dribbble Hangtime NYC</a>, I've been wanting to create something with <a href="https://processing.org/">Processing</a>.  I literally turned to the person I was sitting next to and said, "I might just quit my job and do this for a living." I've been enamored with audio visualization since the days of <a href="https://www.youtube.com/watch?v=17Bl4xf1BAg">Future Crew's killer demos</a> — this project did not disappoint!
 

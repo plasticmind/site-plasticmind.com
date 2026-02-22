@@ -29,7 +29,8 @@ However, I do get along rather well with most coders (conceptually, anyhow).  I 
 
 
 
-<h3>Applying It To Stylesheets</h3>
+### Applying It To Stylesheets
+
 
 
 
@@ -43,7 +44,8 @@ Plenty.  The best stylesheets are well-thought-out and deal with many stylistic 
 
 
 
-<h3>Press Reset</h3>
+### Press Reset
+
 
 
 
@@ -51,7 +53,8 @@ I almost always begin with a reset CSS file.  One speedbump for me when I was fi
 
 
 
-<h3>One For The Layout, Two For The Look</h3>
+### One For The Layout, Two For The Look
+
 
 
 
@@ -65,7 +68,8 @@ Next, I decided to take a dual stylesheet approach.  My site has a common layout
 
 
 
-<h3>Fixes For IE</h3>
+### Fixes For IE
+
 
 
 
@@ -73,7 +77,8 @@ Finally, using <a href="https://www.quirksmode.org/css/condcom.html">condition c
 
 
 
-<h3>Section Specific Styling</h3>
+### Section Specific Styling
+
 
 
 
@@ -101,7 +106,8 @@ You can specify any particular element in *only* that section by prepending it w
 
 
 
-<h3>Conclusion</h3>
+### Conclusion
+
 
 
 
