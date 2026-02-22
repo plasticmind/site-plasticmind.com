@@ -15,7 +15,19 @@
       <li><button class="c-button" aria-label="About me" data-drawer-target="info-drawer">{% include "svg/icon-info.svg" %}</button></li>
       <li><button class="c-button" aria-label="Text settings" data-drawer-target="text-drawer">{% include "svg/icon-text.svg" %}</button></li>
       <li><button class="c-button" aria-label="Search" data-drawer-target="search-drawer">{% include "svg/icon-search.svg" %}</button></li>
-      <li><button class="c-button" aria-label="Toggle dark mode" data-action="toggle-theme">{% include "svg/icon-moon.svg" %}</button></li>
+      <li><button class="c-button c-theme-toggle" aria-label="Toggle color mode" data-action="toggle-theme">
+        <svg class="c-theme-toggle__icon c-theme-toggle__icon--light" width="20" height="20" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <circle cx="8" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M8 1.5V3M8 13v1.5M1.5 8H3M13 8h1.5M3.05 3.05l1.06 1.06M11.89 11.89l1.06 1.06M3.05 12.95l1.06-1.06M11.89 4.11l1.06-1.06" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <svg class="c-theme-toggle__icon c-theme-toggle__icon--system" width="20" height="20" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <rect x="2" y="3" width="12" height="9" rx="1" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M5 14h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <svg class="c-theme-toggle__icon c-theme-toggle__icon--dark" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M17.5 11.5C16.5 12.2 15.3 12.6 14 12.6C10.5 12.6 7.6 9.7 7.6 6.2C7.6 4.9 8 3.7 8.7 2.7C4.9 3.5 2 6.8 2 10.8C2 15.3 5.7 19 10.2 19C14.2 19 17.5 16.1 18.3 12.3C18.1 12.1 17.8 11.8 17.5 11.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button></li>
     </ul>
   </div>
 
@@ -54,11 +66,10 @@
         <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
     </button>
-    <h2>Reading Settings</h2>
     <div class="c-text-controls">
       {# Theme Mode - Segmented Control #}
       <fieldset class="c-text-controls__group c-theme-picker" role="radiogroup" aria-label="Color theme">
-        <legend class="c-text-controls__label">Appearance</legend>
+        <legend class="c-text-controls__label u-visually-hidden">Appearance</legend>
         <div class="c-theme-picker__options">
           <input type="radio" name="theme" id="theme-light" value="light" class="c-theme-picker__input">
           <label for="theme-light" class="c-theme-picker__option">
@@ -78,8 +89,8 @@
           </label>
           <input type="radio" name="theme" id="theme-dark" value="dark" class="c-theme-picker__input">
           <label for="theme-dark" class="c-theme-picker__option">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-              <path d="M13.5 10.5a6 6 0 1 1-8-8 5 5 0 1 0 8 8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M17.5 11.5C16.5 12.2 15.3 12.6 14 12.6C10.5 12.6 7.6 9.7 7.6 6.2C7.6 4.9 8 3.7 8.7 2.7C4.9 3.5 2 6.8 2 10.8C2 15.3 5.7 19 10.2 19C14.2 19 17.5 16.1 18.3 12.3C18.1 12.1 17.8 11.8 17.5 11.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             <span>Night</span>
           </label>
@@ -88,7 +99,7 @@
 
       {# Font Size - Stepped Range Slider #}
       <div class="c-text-controls__group c-font-size-slider">
-        <label for="font-size-range" class="c-text-controls__label">Text Size</label>
+        <label for="font-size-range" class="c-text-controls__label u-visually-hidden">Text Size</label>
         <div class="c-font-size-slider__track">
           <button type="button" class="c-font-size-slider__icon c-font-size-slider__icon--small" aria-label="Decrease text size">A</button>
           <input type="range" id="font-size-range" name="font-size" min="1" max="5" step="1" value="3" class="c-font-size-slider__input" aria-valuetext="Medium">
@@ -98,7 +109,7 @@
 
       {# Line Height - 3 Button Options #}
       <div class="c-text-controls__group c-line-height-picker">
-        <span class="c-text-controls__label">Line Spacing</span>
+        <span class="c-text-controls__label u-visually-hidden">Line Spacing</span>
         <div class="c-line-height-picker__options">
           <button type="button" data-line-height="compact" class="c-line-height-picker__option" aria-label="Compact line spacing">
             <svg width="24" height="16" viewBox="0 0 24 16" fill="none" aria-hidden="true">

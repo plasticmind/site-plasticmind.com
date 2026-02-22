@@ -200,6 +200,9 @@ document.addEventListener('DOMContentLoaded', function() {
     localStorage.setItem('theme', theme);
     applyTheme(theme);
 
+    // Set preference attribute for toolbar icon
+    document.documentElement.setAttribute('data-theme-pref', theme);
+
     // Update radio buttons in drawer
     themeInputs.forEach(input => {
       input.checked = input.value === theme;
