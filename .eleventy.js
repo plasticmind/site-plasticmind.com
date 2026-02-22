@@ -12,7 +12,10 @@ const dateFull = require("./src/_11ty/filters/date.js").dateFull;
 const dateFullWeekday = require("./src/_11ty/filters/date.js").dateFullWeekday;
 const dateFeed = require("./src/_11ty/filters/date.js").dateFeed;
 const dateYear = require("./src/_11ty/filters/date.js").dateYear;
+const dateShort = require("./src/_11ty/filters/date.js").dateShort;
 const shuffle = require("./src/_11ty/filters/shuffle.js");
+const groupByYear = require("./src/_11ty/filters/groupByYear.js");
+const slugify = require("./src/_11ty/filters/slugify.js");
 const excludeDrafts = require("./src/_11ty/filters/excludeDrafts.js");
 const excludeFuture = require("./src/_11ty/filters/excludeFuture.js");
 const excludeNoIndex = require("./src/_11ty/filters/excludeNoIndex.js");
@@ -20,6 +23,8 @@ const relatedPosts = require("./src/_11ty/filters/relatedPosts.js");
 
 // collections
 const posts = require("./src/_11ty/collections/posts.js");
+const tagList = require("./src/_11ty/collections/tagList.js");
+const categoryList = require("./src/_11ty/collections/categoryList.js");
 
 module.exports = (eleventyConfig) => {
 
@@ -29,6 +34,9 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addFilter("dateFullWeekday", dateFullWeekday);
     eleventyConfig.addFilter("dateFeed", dateFeed);
     eleventyConfig.addFilter("dateYear", dateYear);
+    eleventyConfig.addFilter("dateShort", dateShort);
+    eleventyConfig.addFilter("groupByYear", groupByYear);
+    eleventyConfig.addFilter("slugify", slugify);
     eleventyConfig.addFilter("limit", limit);
     eleventyConfig.addFilter("shuffle", shuffle);
     eleventyConfig.addFilter("excludeDrafts", excludeDrafts);
@@ -38,6 +46,8 @@ module.exports = (eleventyConfig) => {
 
     // collections
     eleventyConfig.addCollection("posts", posts);
+    eleventyConfig.addCollection("tagList", tagList);
+    eleventyConfig.addCollection("categoryList", categoryList);
 
     // plugins
     eleventyConfig.addPlugin(eleventyPluginNavigation);

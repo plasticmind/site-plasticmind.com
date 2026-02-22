@@ -1,0 +1,63 @@
+---
+pagination:
+  data: collections.categoryList
+  size: 1
+  alias: category
+eleventyExcludeFromCollections: true
+permalink: /category/{{ category.slug }}/
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+
+{# Get category metadata from data file if it exists #}
+{% set categoryMeta = categoryDescriptions[category.slug] %}
+
+{# Filter posts that have this primary_category #}
+{% set categoryPosts = [] %}
+{% for post in collections.posts %}
+  {% if post.data.primary_category == category.name %}
+    {% set categoryPosts = (categoryPosts.push(post), categoryPosts) %}
+  {% endif %}
+{% endfor %}
+
+{# Group posts by year #}
+{% set yearGroups = categoryPosts | groupByYear %}
+
+<section class="c-section">
+  <div class="l-container--lg">
+    <header class="c-archive-header">
+      <h1 class="c-archive-header__title">{{ category.name }}</h1>
+      {% if categoryMeta and categoryMeta.description %}
+        <p class="c-archive-header__description">{{ categoryMeta.description }}</p>
+      {% endif %}
+      <p class="c-archive-header__count">{{ categoryPosts.length }} post{% if categoryPosts.length != 1 %}s{% endif %}</p>
+    </header>
+
+    {% if yearGroups.length %}
+    <div class="c-year-timeline">
+      {% for group in yearGroups %}
+        <div class="c-year-timeline__group">
+          <div class="c-year-timeline__bar"></div>
+          <div class="c-year-timeline__content">
+            <h2 class="c-year-timeline__year">{{ group.year }}</h2>
+            <ul class="c-year-timeline__posts">
+              {% for post in group.posts %}
+                <li class="c-year-timeline__item">
+                  <time class="c-year-timeline__date">{{ post.date | dateShort }}</time>
+                  <a href="{{ post.url }}" class="c-year-timeline__link">{{ post.data.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p>No posts found in this category.</p>
+    {% endif %}
+  </div>
+</section>
+
+{% endblock %}

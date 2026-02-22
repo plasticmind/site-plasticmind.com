@@ -67,4 +67,17 @@ const dateFeed = function(date) {
     return dt.toHTTP();
 }
 
-module.exports = { dateISO, dateFull, dateFullWeekday, dateFeed, dateYear };
+/**
+ * Format date as short format (e.g., "01 Apr")
+ *
+ * @param {Date} date - JS date
+ * @return {String} formatted date as "DD MMM"
+ */
+
+const dateShort = function(date) {
+    const jsDate = new Date(date);
+    const dt = DateTime.fromJSDate(jsDate);
+    return dt.toFormat("dd LLL");
+}
+
+module.exports = { dateISO, dateFull, dateFullWeekday, dateFeed, dateYear, dateShort };

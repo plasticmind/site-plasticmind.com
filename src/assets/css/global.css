@@ -509,8 +509,19 @@ hr {
 
 .c-drawer-tag {
   font-size: var(--font-sm);
-  color: var(--color-text-light-weak);
   list-style: none;
+}
+
+.c-drawer-tag a {
+  color: var(--coral-400);
+  text-decoration: none;
+  text-transform: lowercase;
+  transition: color var(--transition-sm) ease;
+}
+
+.c-drawer-tag a:hover {
+  color: var(--coral-300);
+  text-decoration: underline;
 }
 
 /* Drawer states */
@@ -587,7 +598,23 @@ hr {
 .c-tag {
   font-family: var(--font-family-body);
   font-size: var(--font-md);
-  color: var(--color-link);
+  list-style: none;
+}
+
+.c-tag a {
+  color: var(--coral-500);
+  text-decoration: none;
+  text-transform: lowercase;
+  transition: color var(--transition-sm) ease;
+}
+
+.c-tag a:hover {
+  color: var(--coral-700);
+  text-decoration: underline;
+}
+
+.c-tag--primary a {
+  font-weight: 700;
 }
 
 /* Dinkus / End Mark */
@@ -1245,4 +1272,111 @@ html, body {
 
 .c-link--more:hover {
   text-decoration: underline;
+}
+
+/* ---------------------- */
+/* # Archive Header */
+
+.c-archive-header {
+  margin-block-end: var(--space-xxl);
+}
+
+.c-archive-header__title {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-xxxxl);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  margin-block-end: var(--space-md);
+  color: var(--color-text);
+}
+
+.c-archive-header__description {
+  font-size: var(--font-lg);
+  line-height: 1.5;
+  color: var(--color-text-weak);
+  margin-block-end: var(--space-md);
+}
+
+.c-archive-header__count {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-sm);
+  color: var(--color-text-weakest);
+}
+
+/* ---------------------- */
+/* # Year Timeline */
+
+.c-year-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xxl);
+}
+
+.c-year-timeline__group {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: var(--space-lg);
+  align-items: stretch;
+}
+
+.c-year-timeline__bar {
+  width: 8px;
+  background: var(--gradient-brand);
+  border-radius: var(--radius-sm);
+}
+
+.c-year-timeline__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.c-year-timeline__year {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-xxl);
+  font-weight: 800;
+  color: var(--color-text);
+  margin: 0;
+  padding-block-end: var(--space-sm);
+  border-bottom: 1px solid var(--color-ink-faint);
+}
+
+.c-year-timeline__posts {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.c-year-timeline__item {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-lg);
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid var(--color-ink-faint);
+}
+
+.c-year-timeline__item:last-child {
+  border-bottom: none;
+}
+
+.c-year-timeline__date {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-sm);
+  color: var(--color-text-weak);
+  white-space: nowrap;
+  min-width: 50px;
+}
+
+.c-year-timeline__link {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-md);
+  font-weight: 600;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color var(--transition-sm) ease;
+}
+
+.c-year-timeline__link:hover {
+  color: var(--color-link);
 }

@@ -24,14 +24,14 @@
 
   {# Tags from current post #}
   {% if tags and tags.length %}
-  <div class="c-drawer-tags">
+  <nav class="c-drawer-tags" aria-label="Post topics">
     <h2 class="c-drawer-tags__heading">Topics</h2>
     <ul class="c-drawer-tags__list">
       {% for tag in tags %}
-      <li class="c-drawer-tag">#{{ tag }}</li>
+      <li class="c-drawer-tag"><a href="/tags/{{ tag | slugify }}/" rel="tag">#{{ tag }}</a></li>
       {% endfor %}
     </ul>
-  </div>
+  </nav>
   {% endif %}
 
 </aside>

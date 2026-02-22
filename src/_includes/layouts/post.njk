@@ -31,10 +31,13 @@
     </div>
 
     {# = Article Tags #}
-    {% if tags %}
-      <ul class="c-tag-list">
+    {% if primary_category or tags %}
+      <ul class="c-tag-list" aria-label="Post tags">
+        {% if primary_category %}
+          <li class="c-tag c-tag--primary"><a href="/category/{{ primary_category | slugify }}/" rel="tag">#{{ primary_category }}</a></li>
+        {% endif %}
         {% for tag in tags %}
-          <li class="c-tag">#{{ tag }}</li>
+          <li class="c-tag"><a href="/tags/{{ tag | slugify }}/" rel="tag">#{{ tag }}</a></li>
         {% endfor %}
       </ul>
     {% endif %}
