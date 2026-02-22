@@ -10,6 +10,8 @@
     --color-text-weakest: var(--neutral-300);
     --color-text-reverse: var(--neutral-0);
     --color-text-reverse-weak: var(--neutral-300);
+    --color-text-light: var(--neutral-0); /* Fixed light - never swaps */
+    --color-text-light-weak: var(--neutral-300); /* Fixed light weak - never swaps */
 
     --color-ink: var(--neutral-900);
     --color-ink-weak: var(--neutral-600);
@@ -20,9 +22,11 @@
     --color-ink-reverse-weak: var(--neutral-300);
     --color-ink-reverse-weakest: var(--neutral-600);
     --color-ink-reverse-faint: var(--neutral-700);
+    --color-ink-light-faint: var(--neutral-700); /* Fixed light faint - never swaps */
 
     --color-surface: var(--neutral-0);
     --color-surface-reverse: var(--neutral-900);
+    --color-surface-dark: var(--neutral-900); /* Fixed dark - never swaps */
     --color-surface-alt: var(--neutral-100);
     --color-surface-alt-reverse: var(--neutral-800);
 
@@ -30,5 +34,12 @@
     --color-hover: var(--color-coral-700);
     --color-focus: var(--color-coral-700);
     --color-press: var(--color-coral-900);
+
+    /* Gradients */
+    --gradient-brand: linear-gradient(95deg, #fc0b45 2%, #fe608d 98%);
+
+    /* Drawer dimensions */
+    --drawer-bar-width: 64px;
+    --drawer-nav-width: 200px;
 
 }
