@@ -66,6 +66,35 @@ Special characters that break YAML if unquoted:
 - **Use JSON, not YAML** - Eleventy doesn't parse `.yml` files without additional config; `.json` works natively
 - **Avoid naming collisions** - Don't name data files the same as frontmatter fields (e.g., `tags.json` conflicts with `post.data.tags`). Use specific names like `tagDescriptions.json`
 
+## Theme System
+
+- Three modes: `light`, `system`, `dark` - stored in localStorage as `theme`
+- `data-theme` attribute on `<html>` reflects the *resolved* theme (light or dark)
+- `data-theme-pref` attribute on `<html>` reflects the *user preference* (light, system, or dark)
+- System mode respects `prefers-color-scheme` media query
+- Toolbar icon changes based on `data-theme-pref` (sun/monitor/moon)
+- Reading settings drawer in left drawer has theme picker, font size slider, line height buttons
+
+## Code Blocks & Syntax Highlighting
+
+- Uses `@11ty/eleventy-plugin-syntaxhighlight` (Prism.js) - configured in `.eleventy.js`
+- Prism theme in `src/assets/css/prism.css` adapts to light/dark mode
+- Base `pre`/`code` styles in `global.css` (lines 41-80) - don't duplicate elsewhere
+- Legacy posts have raw `<pre>` tags (no language class) - base styles handle these
+- Markdown code blocks need language hint for syntax highlighting (e.g., ```js)
+
+## Markdown in Posts
+
+- **Headings must start at column 1** - no leading whitespace or they won't render
+- When converting HTML headings to markdown, ensure no indentation
+- Use `perl -i -pe 's/^[\t ]+(?=#{1,6} )//'` to strip leading whitespace from headings
+
+## SVG Icons
+
+- Use `currentColor` for fills that should adapt to context
+- Use `var(--color-surface)` for "knockout" areas that need to match background
+- Dinkus/end-mark uses `logo-mark-ghost.svg` with adaptive colors
+
 ## Non-Obvious
 
 - `ELEVENTY_ENV` controls dev vs prod (affects site URL in `_data/site.js`)
@@ -77,3 +106,7 @@ Special characters that break YAML if unquoted:
 - Header is fixed at top (z-index 150), archive banner is z-index 200
 - Dark surface styles: use `--color-surface-dark` bg with `--color-text-light` text (see footer)
 - CSS Grid `align-items: stretch` makes child elements fill container height naturally (used for timeline bars that scale with content)
+- Legacy photo URLs: `photos.plasticmind.com/set/{ID}` → `flickr.com/photos/plasticmind/albums/{ID}/`
+- Bottom drawers don't need backdrop overlay (`::before` pseudo-element removed)
+- Brand pink is `--coral-500` (#fc4665) - use for interactive elements, gradients use coral-400 to coral-600
+- `.u-visually-hidden` utility class hides content visually but keeps it accessible to screen readers
