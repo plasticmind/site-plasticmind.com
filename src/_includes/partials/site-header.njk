@@ -1,17 +1,14 @@
-      {# <div class="c-color-strip"></div>
-      <section class="c-site-header">
-        <div class="l-container">
-          <div class="l-grid l-grid--2-col">
-            <div class="l-grid__item">
-              <div class="c-logo">
-                <a href="{{site.url}}" title="← Home">
-                  {% include "svg/logo-plasticmind-color.svg" %}
-                </a>
-              </div>
-            </div>
-            <div class="l-grid__item">
-              {% include "partials/site-nav.njk" %}
-            </div>
-          </div>
-        </div>
-      </section> #}
+{# Site Header - Fixed logo and menu button #}
+<header class="c-site-header">
+  {# Site Logo - Fixed, stays above drawers #}
+  <a href="/" class="c-site-header__logo" title="Home">
+    {% include "svg/logo-plasticmind-pill.svg" %}
+  </a>
+
+  {# Menu button to toggle left drawer #}
+  <button class="c-menu-button" aria-label="Open menu" data-action="toggle-menu">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3 6H21M3 12H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+  </button>
+</header>

@@ -1,21 +1,93 @@
-{# Drawer: Left #}
+{# Drawer: Left - Hidden by default, revealed on swipe or menu button click #}
 
 <aside id="menu-drawer" class="l-drawer l-drawer--left">
+  {# Gradient Toolbar Bar #}
+  <div class="c-toolbar">
+    {# Logo at top #}
+    <div class="c-toolbar__logo">
+      <a href="/" title="Home">
+        {% include "svg/logo-mark-color.svg" %}
+      </a>
+    </div>
+
+    {# Option buttons at bottom - these toggle bottom drawers #}
+    <ul class="c-toolbar__list">
+      <li><button class="c-button" aria-label="About me" data-drawer-target="info-drawer">{% include "svg/icon-info.svg" %}</button></li>
+      <li><button class="c-button" aria-label="Text settings" data-drawer-target="text-drawer">{% include "svg/icon-text.svg" %}</button></li>
+      <li><button class="c-button" aria-label="Search" data-drawer-target="search-drawer">{% include "svg/icon-search.svg" %}</button></li>
+      <li><button class="c-button" aria-label="Toggle dark mode" data-action="toggle-theme">{% include "svg/icon-moon.svg" %}</button></li>
+    </ul>
+  </div>
+
+  {# Navigation Panel #}
   <nav class="c-nav" aria-label="Site Navigation">
     <ul class="c-nav__list">
-      <li class="c-nav__item"><a href="/archives" aria-label="View Archives">Archives</a></li>
-      <li class="c-nav__item"><a href="/projects" aria-label="View Projects">Projects</a></li>
-      <li class="c-nav__item"><a href="/work" aria-label="View Work">Work</a></li>
-      <li class="c-nav__item"><a href="/blog" aria-label="View Blog">Blog</a></li>
-      <li class="c-nav__item"><a href="/" aria-label="Go to Home">Home</a></li>
-    </ul>
-  </nav>
-  <nav class="c-toolbar" aria-label="Toolbar">
-    <ul class="c-toolbar__list">
-      <li><button class="c-button" aria-label="About"><i class="c-icon c-icon--info"></i></button></li>
-      <li><button class="c-button" aria-label="Font Settings"><i class="c-icon c-icon--text"></i></button></li>
-      <li><button class="c-button" aria-label="Search"><i class="c-icon c-icon--search"></i></button></li>
-      <li><button class="c-button" aria-label="Toggle Dark Mode"><i class="c-icon c-icon--moon"></i></button></li>
+      <li class="c-nav__item"><a href="/archives">Archives</a></li>
+      <li class="c-nav__item"><a href="/projects">Projects</a></li>
+      <li class="c-nav__item"><a href="/work">Work</a></li>
+      <li class="c-nav__item"><a href="/blog">Blog</a></li>
+      <li class="c-nav__item"><a href="/">Home</a></li>
     </ul>
   </nav>
 </aside>
+
+{# Bottom Drawers for toolbar options #}
+
+{# Info Drawer #}
+<div id="info-drawer" class="l-bottom-drawer" aria-hidden="true">
+  <div class="l-bottom-drawer__content">
+    <button class="l-bottom-drawer__close" aria-label="Close">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <h2>About Me</h2>
+    <p>I'm Jesse Gardner, a blogger, technologist, and humanist. I help people use technology to promote human flourishing. I've been at the intersection of design and engineering for nearly 20 years.</p>
+  </div>
+</div>
+
+{# Text Settings Drawer #}
+<div id="text-drawer" class="l-bottom-drawer" aria-hidden="true">
+  <div class="l-bottom-drawer__content">
+    <button class="l-bottom-drawer__close" aria-label="Close">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <h2>Text Settings</h2>
+    <div class="c-text-controls">
+      <div class="c-text-controls__group">
+        <label>Text Size</label>
+        <div class="c-text-controls__buttons">
+          <button data-action="text-size" data-size="small">A</button>
+          <button data-action="text-size" data-size="medium" class="is-active">A</button>
+          <button data-action="text-size" data-size="large">A</button>
+        </div>
+      </div>
+      <div class="c-text-controls__group">
+        <label>Font</label>
+        <div class="c-text-controls__buttons">
+          <button data-action="font-family" data-font="sans" class="is-active">Sans</button>
+          <button data-action="font-family" data-font="serif">Serif</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{# Search Drawer #}
+<div id="search-drawer" class="l-bottom-drawer" aria-hidden="true">
+  <div class="l-bottom-drawer__content">
+    <button class="l-bottom-drawer__close" aria-label="Close">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <h2>Search</h2>
+    <form class="c-search-form" role="search">
+      <input type="search" placeholder="Search posts..." aria-label="Search posts" class="c-search-form__input">
+      <button type="submit" class="c-search-form__button">Search</button>
+    </form>
+    <div id="search-results" class="c-search-results"></div>
+  </div>
+</div>

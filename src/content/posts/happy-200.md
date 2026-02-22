@@ -1,0 +1,48 @@
+---
+title: "Happy 200!"
+date: 2005-03-28 11:14:30
+archive: false
+excerpt: 
+subtitle: 
+slug: happy-200
+featured_image_url: 
+alt_text: 
+primary_category: "Blogging"
+categories: ["Blogging"]
+tags: []
+meta_description: 
+context: personal
+fix: false
+hits: 87
+---
+
+
+			
+
+<img alt="special-happy200.png" src="https://plasticmind.com/images/special-happy200.png" width="400" height="100">
+
+
+
+
+
+The last time I celebrated a milemarker post (100), PlasticMind was nothing more than junkmail with a brain in a jar.  Things haven't really changed much, except now instead of getting my insidious posts delivered to your inbox, you now have to visit <a href="https://plasticmind.com">plasticmind.com</a> to find out why I sent you this <a href="https://plasticmind.com/the-pen/every-brilliant/">babble</a> in the first place.
+
+
+			<!--more-->
+
+But bigger things are in store.  I'm working my proverbial head off trying to get PlasticMind cohesive.  I'd like to get <a href="https://plasticmind.com">my blog</a>, a <a href="https://plasticmind.com">web design center</a> and <a href="https://plasticmind.com/portfolio/">my portfolio</a> all working together to make things pretty and potent.  Ideally, I'd like to get Plasticmind Design off the ground before I move to Philly.  Which brings me to my next 'happenings' item.
+
+
+
+
+
+Jess and I are very excited about getting married.  After we get back from our Bermuda cruise, we'll be living in Langhorne (suburb of Philly) while Jess finishes off her degree at <a href="https://cairn.edu/">Philadelphia Biblical University</a>.
+
+
+
+
+
+I'd like to get people's input on the look of my new site.  I'll update this post in a day or so with snapshots of each design idea I've got and get a feel for what you all think.  Ah... I've got to go.  My chicken is burning!
+
+
+		

@@ -1,0 +1,70 @@
+---
+title: "Life Is Funny, Ep. 1"
+date: 2007-09-25 07:04:46
+archive: false
+excerpt: 
+subtitle: 
+slug: life-is-funny-ep-1
+featured_image_url: 
+alt_text: 
+primary_category: "Kicks and Giggles"
+categories: ["Kicks and Giggles"]
+tags: ["Bill Cosby", "feces", "ghosts", "humor", "Vistaprint"]
+meta_description: 
+context: personal
+fix: false
+hits: 341
+---
+
+
+			
+
+Show me the man that says life is boring, and I&#8217;ll throw him in a vat of sugar-free pudding with Bill Cosby.
+
+
+
+
+
+How many silly, ridiculous things happen in life that get overlooked?  Well, by golly, I&#8217;m going to write some of them down, so when I&#8217;m old, crochety, and can&#8217;t find my teeth, my grandkids can remind me that life really does have its humorous and enjoyable moments.
+
+
+
+
+
+First, I&#8217;m lying in bed in the middle of the night when suddenly my wife start pushing me for no apparent reason.  I started to ask her what was wrong when suddenly she says to me, &#8220;Ugh, you smell like poop.&#8221;  Now, I&#8217;m a pretty sensitive guy when it comes to smells, but for the life of me I wasn&#8217;t picking up feces.  I tried to ask her what again and she just grunted and pushed me away.  &#8220;What is it?!&#8221;  I finally got out.  She stopped for a minute, looked around and then said, &#8220;Whoa, I had a dream I was changing diapers.&#8221;
+
+
+
+
+
+Something else weird: for whatever reason, our lights go on and off at random in our house.  I&#8217;ll turn the bathroom light on, and it won&#8217;t come on until I&#8217;m halfway through my shower.  Some days.  Other days I&#8217;ll be watching television in the den and the light will just shut off.  Halfway through the rinse cycle on the dishwasher, the lights I just installed under our cabinets will come on.  My wife thinks it&#8217;s burglars (they must invisible) but I think it&#8217;s ghosts.  We&#8217;re being haunted by a malcontent parsonage spirit, I tell you.
+
+
+
+
+
+Then I get this phone call from Vistaprint.  &#8220;We were just calling to see if you were satisfied with your recent purchase from Vistaprint.&#8221;  See, I had ordered neat-o business cards that match my new design.  &#8220;Well, actually, I&#8217;ve been meaning to call because the cards came and they look great, but there&#8217;s a little hickey on the P where the foil shrank funny and I was wondering if I could get a&#8230;&#8221;  **CLICK**  That&#8217;s one way to get 100% customer satisfaction!
+
+
+
+
+
+Oh, and have you seen my favorite picture from Alcatraz?  The prisoners called this the Spanish dungeon, and it&#8217;s actually beneath the prison itself.  Did you know that Alcatraz was around during the time of the Civil War?  Yeah, I was like, were we even over there yet?
+
+
+
+
+
+<a href="https://photos.plasticmind.com/photo/1426921646"><img src="https://farm2.static.flickr.com/1380/1426921646_3d5046fc1b.jpg" alt="" /></a>
+
+
+
+
+
+You know, one of the things I miss most with blogging?  The ability to do impersonations.  I really want to end this with a Bill Cosby phrase about Jello pudding pops, but it&#8217;s just not the same.
+
+
+
+			<!--more-->
+
+		

@@ -1,0 +1,37 @@
+---
+title: "A Most Dangerous Misnomer"
+date: 2001-11-18 16:48:41
+archive: true
+excerpt: 
+subtitle: 
+slug: a-most-dangerou
+featured_image_url: 
+alt_text: 
+primary_category: "Savior"
+categories: ["Savior"]
+tags: []
+meta_description: 
+context: personal
+fix: false
+hits: 112
+---
+
+
+			
+
+I'm afraid Christianity has become a killer.<br />
+ <br />
+In all fairness, this needs to be rephrased.  Genuine Christianity is not to blame here; that which our Lord taught is beautiful and right.  But a misnomer has taken place and that which was once true Christianity - an honest following after Christ - has been substituted with a hollow self-righteousness with the same name.<br />
+ <br />
+What is now often called Christianity is a religion that tires men because pretenses drive its cause.  To fit into the "Christian mold" we must dance a jig and speak our own personalized jargon.  If you do not hate what has always been hated, or do not love what has always been loved, you do not have "true spirituality".  The amazing thing about spirituality, though, is that it must be judged in spiritual terms.  All to often we apply our material ruler to a man's spirit and call out a verdict to others who share the same lack of understanding and misplaced focus.<br />
+ <br />
+Jesus offered a yoke that was easy and a burden that was light, but our religion has turned from wing to ball and chain.  So much is expected, and we must fit the "Christian stereotype" to be considered godly; but God has worked through shepherd, harlots, cowards and kigs.  Why have we now excluded them when our very Father has embraced them and called them friends?<br />
+ <br />
+We discovered a way to streamline our faith.  It is easy.  There are no questions, only answers.  All difficulties are cleanly tucked out of sight and everything you ever need to know is found on a shelf in some Christian bookstore.  Perfect for a nation of consumers.<br />
+ <br />
+This Creator, who craved intimacy with His creation so strongly that He was willing to stoop to our level, made us to be dependent.  Why now do we think He is satisfied with such self-sufficiency?<br />
+
+
+
+			
+		

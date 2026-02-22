@@ -1,3 +1,4 @@
+const slugify = require('@sindresorhus/slugify');
 const todaysDate = new Date();
 
 function showDraft(data) {
@@ -9,13 +10,16 @@ function showDraft(data) {
 module.exports = () => {
     return {
         layout: 'layouts/post.njk',
-        permalink: '/journal/{{ title | slugify }}/',
         ogtype: 'article',
         "changefreq": "monthly",
         "priority": "0.8",
         eleventyComputed: {
             eleventyExcludeFromCollections: data => showDraft(data) ? data.eleventyExcludeFromCollections : true,
-            permalink: data => showDraft(data) ? data.permalink : false,
+            permalink: data => {
+                if (!showDraft(data)) return false;
+                const slug = data.slug || (typeof data.title === 'string' ? slugify(data.title) : data.page.fileSlug);
+                return `/journal/${slug}/`;
+            },
         }
     }
 }

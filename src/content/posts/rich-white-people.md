@@ -1,5 +1,5 @@
 ---
-title: Rich White People
+title: "Rich White People"
 date: 2006-04-08 10:56:01
 archive: true
 excerpt: 

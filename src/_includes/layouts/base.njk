@@ -3,18 +3,21 @@
   <head>
     {% include "partials/head-meta.njk" %}
     {% if crawl == 'false' %}
-    <meta name=”robots” content=”noindex”>
+    <meta name="robots" content="noindex">
     {% endif %}
     {% block styles %}{% endblock %}
   </head>
   <body class="{% if section  %}l--{{ section }}{% else %}l--home{% endif %}">
-    <div class="l-shell">
+    <div class="l-shell" data-drawer="">
 
-      {% include "partials/site-header.njk" %}
+      {% include "partials/drawer-left.njk" %}
+
+      <div class="l-drawer-overlay" aria-hidden="true"></div>
 
       <main class="l-main" role="main" aria-label="Main content">
-        {# If featureImage is set but not post #}
+        {% include "partials/site-header.njk" %}
 
+        {# If featureImage is set but not post #}
         {% if featureImage and not page.inputPath.includes('/content/posts/') %}
           <div class="c-feature-image">
             <img src="{{ featureImage }}" alt="{{ title }}">
@@ -24,8 +27,6 @@
         {{ content | safe }}
         {% endblock %}
       </main>
-
-      {% include "partials/drawer-left.njk" %}
 
       {% include "partials/drawer-right.njk" %}
 

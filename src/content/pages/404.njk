@@ -1,6 +1,6 @@
 ---
 permalink: 404.html
-title: "❌ This is not a page."
+title: "This is not a page."
 description: "The treachery of hyperlinks."
 crawl: "false"
 featureImage: "/assets/img/treachery.jpg"
@@ -9,12 +9,20 @@ featureImage: "/assets/img/treachery.jpg"
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-  <section class="c-section">
-    <div class="l-container">
-      <h1 class="c-section__title">{{title}}</h1>
-      <p class="c-section__text">The treachery of hyperlinks lies in the inevitable entropy of the web. As time passes, the probability of finding a document at it's original URL dwindles, and link rot sets in.</p>
+<article class="c-article c-article--single">
+  <div class="l-container--lg">
 
-      <p>But you may find what you're looking for in <a href="{{ site.url }}/archive/">the full site archive</a>.</p>
+    <h1 class="c-heading c-heading--lg">{{ title }}</h1>
+    <p class="c-subtitle">{{ description }}</p>
+
+    <div class="c-article__body">
+      <p>The treachery of hyperlinks lies in the inevitable entropy of the web. As time passes, the probability of finding a document at its original URL dwindles, and link rot sets in.</p>
+
+      <p>But you may find what you're looking for in <a href="/blog/">the full site archive</a>.</p>
     </div>
-  </section>
+
+    {% include "partials/end-mark.njk" %}
+
+  </div>
+</article>
 {% endblock %}

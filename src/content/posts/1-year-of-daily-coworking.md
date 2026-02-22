@@ -1,12 +1,12 @@
 ---
-title: 1 Year of Daily Coworking
+title: "1 Year of Daily Coworking"
 date: 2021-03-11 09:56:05
 archive: false
 excerpt: 
 subtitle: 
 slug: 1-year-of-daily-coworking
 featured_image_url: https://plasticmind.com/wp-content/uploads/2021/03/coworking-1year-copy-scaled.jpg
-alt_text: a collage of lots of Zoom screenshots
+alt_text: "a collage of lots of Zoom screenshots"
 primary_category: "Friends"
 categories: ["Friends"]
 tags: ["cowrok", "pandemic", "virtualcoworking", "zoom"]

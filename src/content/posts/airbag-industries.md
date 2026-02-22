@@ -1,12 +1,12 @@
 ---
-title: The Airbag Has Landed
+title: "The Airbag Has Landed"
 date: 2020-03-04 10:33:38
 archive: false
 excerpt: 
-subtitle: Helping Greg Storey get Airbag Industries off Movable Type and onto a better publishing stack.
+subtitle: "Helping Greg Storey get Airbag Industries off Movable Type and onto a better publishing stack."
 slug: airbag-industries
 featured_image_url: https://plasticmind.com/wp-content/uploads/2020/03/2020-03-04-at-10.09-AM.png
-alt_text: 
+alt_text: ""
 primary_category: "Projects"
 categories: ["Projects"]
 tags: ["flat file", "github", "hugo", "jekyll", "Movable Type", "netlify", "static"]

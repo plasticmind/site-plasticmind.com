@@ -18,8 +18,17 @@
     {# = Article Title #}
     <h1 class="c-heading c-heading--lg">{{ title }}</h1>
 
+    {# = Article Subtitle (if exists) #}
+    {% if subtitle %}
+      <p class="c-subtitle">{{ subtitle }}</p>
+    {% elif description %}
+      <p class="c-subtitle">{{ description }}</p>
+    {% endif %}
+
     {# = Article Body #}
-    {{ content | safe }}
+    <div class="c-article__body">
+      {{ content | safe }}
+    </div>
 
     {# = Article Tags #}
     {% if tags %}
@@ -30,30 +39,26 @@
       </ul>
     {% endif %}
 
-    {# = Dinkus Divider #}
-    <div class="c-dinkus">
-      {% include "svg/dinkus.svg" %}
-    </div>
+    {# = End Mark Divider #}
+    {% include "partials/end-mark.njk" %}
 
     {# = Previous / Next Navigation #}
-    <div class="l-article-nav">
+    <nav class="l-article-nav" aria-label="Post navigation">
       {% if previousPost %}
         <div class="l-article-nav__item">
-          <div class="c-eyebrow">PREVIOUSLY:</div>
+          <div class="c-eyebrow">Previously:</div>
           <a href="{{ previousPost.url }}" class="c-link c-link--nav">{{ previousPost.data.title }}</a>
         </div>
       {% endif %}
       {% if nextPost %}
         <div class="l-article-nav__item">
-          <div class="c-eyebrow">NEXT:</div>
+          <div class="c-eyebrow">Next:</div>
           <a href="{{ nextPost.url }}" class="c-link c-link--nav">{{ nextPost.data.title }}</a>
         </div>
       {% endif %}
-    </div>
+    </nav>
 
   </div>
 </article>
-
-
 
 {% endblock %}

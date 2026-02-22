@@ -1,12 +1,12 @@
 ---
-title: Use a Random Wikipedia Article as Your Start Page
+title: "Use a Random Wikipedia Article as Your Start Page"
 date: 2021-02-10 14:51:11
 archive: false
 excerpt: 
 subtitle: 
 slug: use-a-random-wikipedia-article-as-your-start-page
 featured_image_url: https://plasticmind.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-10-at-1.47.58-PM.png
-alt_text: screen shot of the url
+alt_text: "screen shot of the url"
 primary_category: "0's and 1's"
 categories: ["0's and 1's"]
 tags: ["bookmark", "random", "serendipity", "wikipedia"]

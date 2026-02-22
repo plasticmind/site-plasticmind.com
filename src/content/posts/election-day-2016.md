@@ -1,16 +1,16 @@
 ---
-title: Election Day, 2016
+title: "Election Day, 2016"
 date: 2016-11-08 08:02:24
 archive: false
 excerpt: 
 subtitle: 
 slug: election-day-2016
 featured_image_url: https://plasticmind.com/wp-content/uploads/2016/11/FLAG-1.jpg
-alt_text: 
+alt_text: ""
 primary_category: "America"
 categories: ["America"]
 tags: ["election", "vote"]
-meta_description: A few final thoughts before I head into the voting booth.
+meta_description: "A few final thoughts before I head into the voting booth."
 context: personal
 fix: false
 hits: 717

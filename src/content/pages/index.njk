@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Plasticmind = Jesse Garnder"
-description: "A blogger, technologist, and humanist."
+title: "Plasticmind = Jesse Gardner"
+description: "A technologist who cares about empowering people with technology."
 section: "home"
 eleventyNavigation:
   key: Home
@@ -15,15 +15,52 @@ eleventyNavigation:
 
 {% block content %}
 
-  <section class="c-section">
-    <div class="l-container">
-      <h1 class="c-section__title--center"><b>I’m Jesse Gardner.</b> I help people use technology to promote human flourishing.</h1>
-      <div class="c-section__body">
+<article class="c-article c-article--home">
+  <div class="l-container--lg">
 
-        <p>This is me telling the story of me. Family, technology, photography, music, depression, and naval-gazing. The projects I’m building, the books I’m reading, the things I'm learning, and what it means to be alive and to be kind. I go deep sometime, so be warned.</p>
-        
-      </div>
+    <h1 class="c-heading c-heading--lg">Hi, I'm Jesse!</h1>
+    <p class="c-subtitle">I care a lot about empowering people with technology.</p>
+
+    <div class="c-article__body">
+
+      <p>I've been doing full-stack web design and development for over 25 years. I specialize in user experience design, technical strategy, system architecture, software development, and improving accessibility at scale with design systems.</p>
+
+      <p>I'm currently the Director of Accessibility and Design Systems for New York State. I lead several teams dedicated to improving the resident experience and accessibility of the state's digital applications at scale with user research, design systems, and responsible AI.</p>
+
+      <p>Our design system team recently launched v1.0 of the <a href="https://designsystem.ny.gov">New York State Design System</a>, and our accessibility team is currently helping engineers remediate the top public-facing workflows for NYS agencies ahead of the DOJ Title II accessibility deadline.</p>
+
+      <p>I've also been exploring the role of generative AI in civic tech, especially in the context of code generation. The Design System we created is a library of design components mapped to a library of accessible, tested code components, which gives AI the context it needs to produce predictable, consistent code. I presented a talk about our approach at <a href="https://www.youtube.com/watch?v=formfest2025">FormFest 2025</a> or you can watch a <a href="https://www.linkedin.com/posts/jessegardner_shorter-version">shorter version on LinkedIn</a>. I'm also scheduled to present "Design systems as AI infrastructure" at <a href="https://intodesignsystems.com">Into Design Systems Conference 2026</a>.</p>
+
+      <p>I'm always looking to connect the dots between design and engineering. I've written a lot about ways to bridge that gap over at <a href="https://practicaldesignsystems.com">Practical Design Systems</a>.</p>
+
+      <p>Before NYS, I served as a VP of Technology at Fox, where I migrated several large media sites to a custom content platform, managed several client teams, and helped launch Fox Weather. Before that, I worked at Simply Recipes, designing and helping grow one of the world's most trusted food blogs, and at AMC Networks, unifying multiple content platforms into a single content platform for all of the company's business units. I've also helped clients like Asurion, Boeing, and Harvard with various design and development challenges.</p>
+
+      <hr>
+
+      <p>I currently live in Upstate NY with my wife and four kids. When I'm not solving problems, I tend to my hobby farm, make candles with my wife, snap landscape photos, and promote empathy through storytelling. I also write (infrequently) about technology, politics, and the human condition over on <a href="/blog/">my blog</a>.</p>
+
     </div>
-  </section>
+
+    {% include "partials/end-mark.njk" %}
+
+  </div>
+</article>
+
+<section class="c-section">
+  <div class="l-container--lg">
+    <h2 class="c-heading c-heading--md">Recent Posts</h2>
+    <ul class="c-post-list">
+      {% for post in collections.posts | limit(10) %}
+        <li class="c-post-list__item">
+          <a href="{{ post.url }}" class="c-post-list__link">
+            <span class="c-post-list__title">{{ post.data.title }}</span>
+            <span class="c-post-list__date">{{ post.data.date | dateFull }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    <a href="/blog/" class="c-link c-link--more">View all posts &rarr;</a>
+  </div>
+</section>
 
 {% endblock %}

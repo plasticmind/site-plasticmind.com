@@ -1,12 +1,12 @@
 ---
-title: '2022 In Review: Home & Family'
+title: "2022 In Review: Home & Family"
 date: 2023-01-02 17:39:59
 archive: false
 excerpt: 
 subtitle: 
 slug: 2022-home-family
 featured_image_url: https://plasticmind.com/wp-content/uploads/2023/01/IMG_1942.JPG-scaled.jpg
-alt_text: 
+alt_text: ""
 primary_category: "Journeys"
 categories: ["Journeys"]
 tags: []

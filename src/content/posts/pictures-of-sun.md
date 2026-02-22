@@ -1,0 +1,26 @@
+---
+title: "Pictures of Sunshine"
+date: 2003-12-11 19:17:13
+archive: false
+excerpt: 
+subtitle: 
+slug: pictures-of-sun
+featured_image_url: 
+alt_text: 
+primary_category: "Miscellany"
+categories: ["Miscellany"]
+tags: []
+meta_description: 
+context: personal
+fix: false
+hits: 86
+---
+
+
+			
+
+Like yesterday's soup the rain came down not cold, but cool, turning the fluffy powder into deceptive bowls of slush that leapt at every pant leg and dry sock.  Morning never actually came; night had its eerie grip on the entire day, penciling everything with monochromes.  Even sleep tugged at my limbs and lids much of the afternoon until finally I couldn't take it any longer; I ran into my room, pulled the curtains shut and hid in the den of my room to look at pictures of sunshine and deserts.  Maybe morning decided to show up late in the day.  I don't know; I didn't dare look out.
+
+
+			
+		
