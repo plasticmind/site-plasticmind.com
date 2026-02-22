@@ -26,6 +26,7 @@
         "luxon": "^3.3.0"
     },
     "dependencies": {
+        "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
         "lodash": "^4.17.23"
     }
 }

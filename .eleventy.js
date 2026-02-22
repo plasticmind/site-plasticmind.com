@@ -3,6 +3,7 @@
 // plugins
 const eleventyPluginNavigation = require("@11ty/eleventy-navigation");
 const eleventyPluginRss = require("@11ty/eleventy-plugin-rss");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const timeToRead = require('eleventy-plugin-time-to-read');
 
 // filters
@@ -52,6 +53,7 @@ module.exports = (eleventyConfig) => {
     // plugins
     eleventyConfig.addPlugin(eleventyPluginNavigation);
     eleventyConfig.addPlugin(eleventyPluginRss);
+    eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(timeToRead, {
         style: 'short'
     });
