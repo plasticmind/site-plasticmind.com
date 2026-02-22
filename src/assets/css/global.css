@@ -1000,7 +1000,10 @@ body:has(.c-archive-banner:not(.is-dismissed)) .l-main {
 
 /* Feature Image */
 .c-feature-image {
-  margin-block-end: var(--space-xl);
+  position: relative;
+  margin-inline: calc(-1 * var(--space-lg)); /* Full bleed left/right */
+  top: calc(-1 * (44px + var(--space-xl) + var(--space-lg))); /* Pull up to top of viewport */
+  margin-block-end: calc(-44px - var(--space-lg)); /* Compensate for position offset, maintain spacing */
 }
 
 .c-feature-image img {
