@@ -676,6 +676,7 @@ hr {
   width: 28px;
   height: auto;
   flex-shrink: 0;
+  color: var(--color-ink-faint);
 }
 
 /* Article Navigation */
