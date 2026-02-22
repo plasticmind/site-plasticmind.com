@@ -179,82 +179,133 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // ========================
-  // Dark Mode Toggle
+  // Theme Mode (Light/System/Dark)
   // ========================
 
-  const themeToggle = document.querySelector('[data-action="toggle-theme"]');
+  const themeInputs = document.querySelectorAll('input[name="theme"]');
+  const themeToggleButton = document.querySelector('[data-action="toggle-theme"]');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+  function applyTheme(theme) {
+    if (theme === 'system') {
+      // Use system preference
+      const systemTheme = prefersDark.matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', systemTheme);
+    } else {
+      document.documentElement.setAttribute('data-theme', theme);
+    }
+  }
 
   function setTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
+    applyTheme(theme);
+
+    // Update radio buttons in drawer
+    themeInputs.forEach(input => {
+      input.checked = input.value === theme;
+    });
   }
 
-  function toggleTheme() {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    setTheme(newTheme);
-  }
+  // Listen for system preference changes
+  prefersDark.addEventListener('change', () => {
+    const savedTheme = localStorage.getItem('theme') || 'system';
+    if (savedTheme === 'system') {
+      applyTheme('system');
+    }
+  });
 
-  const savedTheme = localStorage.getItem('theme');
-  if (savedTheme) {
-    setTheme(savedTheme);
-  }
+  // Initialize theme
+  const savedTheme = localStorage.getItem('theme') || 'system';
+  setTheme(savedTheme);
 
-  if (themeToggle) {
-    themeToggle.addEventListener('click', toggleTheme);
+  // Theme picker radio buttons
+  themeInputs.forEach(input => {
+    input.addEventListener('change', () => {
+      if (input.checked) {
+        setTheme(input.value);
+      }
+    });
+  });
+
+  // Toolbar toggle button cycles through modes
+  if (themeToggleButton) {
+    themeToggleButton.addEventListener('click', () => {
+      const currentTheme = localStorage.getItem('theme') || 'system';
+      const themes = ['light', 'system', 'dark'];
+      const currentIndex = themes.indexOf(currentTheme);
+      const nextTheme = themes[(currentIndex + 1) % themes.length];
+      setTheme(nextTheme);
+    });
   }
 
   // ========================
-  // Text Size Controls
+  // Text Size Slider
   // ========================
 
-  const textSizeButtons = document.querySelectorAll('[data-action="text-size"]');
+  const textSizeSlider = document.getElementById('font-size-range');
+  const textSizeDecreaseBtn = document.querySelector('.c-font-size-slider__icon--small');
+  const textSizeIncreaseBtn = document.querySelector('.c-font-size-slider__icon--large');
+  const textSizeLabels = ['Extra Small', 'Small', 'Medium', 'Large', 'Extra Large'];
 
   function setTextSize(size) {
+    // Clamp to valid range
+    size = Math.max(1, Math.min(5, parseInt(size)));
+
     document.documentElement.setAttribute('data-text-size', size);
     localStorage.setItem('textSize', size);
 
-    textSizeButtons.forEach(btn => {
-      btn.classList.toggle('is-active', btn.dataset.size === size);
+    if (textSizeSlider) {
+      textSizeSlider.value = size;
+      textSizeSlider.setAttribute('aria-valuetext', textSizeLabels[size - 1]);
+    }
+  }
+
+  if (textSizeSlider) {
+    textSizeSlider.addEventListener('input', () => {
+      setTextSize(textSizeSlider.value);
     });
   }
 
-  textSizeButtons.forEach(btn => {
+  if (textSizeDecreaseBtn) {
+    textSizeDecreaseBtn.addEventListener('click', () => {
+      const current = parseInt(localStorage.getItem('textSize') || '3');
+      setTextSize(current - 1);
+    });
+  }
+
+  if (textSizeIncreaseBtn) {
+    textSizeIncreaseBtn.addEventListener('click', () => {
+      const current = parseInt(localStorage.getItem('textSize') || '3');
+      setTextSize(current + 1);
+    });
+  }
+
+  const savedTextSize = localStorage.getItem('textSize') || '3';
+  setTextSize(savedTextSize);
+
+  // ========================
+  // Line Height Buttons
+  // ========================
+
+  const lineHeightButtons = document.querySelectorAll('[data-line-height]');
+
+  function setLineHeight(value) {
+    document.documentElement.setAttribute('data-line-height', value);
+    localStorage.setItem('lineHeight', value);
+
+    lineHeightButtons.forEach(btn => {
+      btn.classList.toggle('is-active', btn.dataset.lineHeight === value);
+    });
+  }
+
+  lineHeightButtons.forEach(btn => {
     btn.addEventListener('click', () => {
-      setTextSize(btn.dataset.size);
+      setLineHeight(btn.dataset.lineHeight);
     });
   });
 
-  const savedTextSize = localStorage.getItem('textSize');
-  if (savedTextSize) {
-    setTextSize(savedTextSize);
-  }
-
-  // ========================
-  // Font Family Controls
-  // ========================
-
-  const fontFamilyButtons = document.querySelectorAll('[data-action="font-family"]');
-
-  function setFontFamily(font) {
-    document.documentElement.setAttribute('data-font', font);
-    localStorage.setItem('fontFamily', font);
-
-    fontFamilyButtons.forEach(btn => {
-      btn.classList.toggle('is-active', btn.dataset.font === font);
-    });
-  }
-
-  fontFamilyButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      setFontFamily(btn.dataset.font);
-    });
-  });
-
-  const savedFont = localStorage.getItem('fontFamily');
-  if (savedFont) {
-    setFontFamily(savedFont);
-  }
+  const savedLineHeight = localStorage.getItem('lineHeight') || 'normal';
+  setLineHeight(savedLineHeight);
 
   // ========================
   // Keyboard Navigation

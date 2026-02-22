@@ -43,7 +43,7 @@ We spent alot of time together in younger days, and I know there were a few year
 
 
 
-I loved the little secret moments we had, <a href="https://photos.plasticmind.com/photo/2681041623">little hidden spots</a> that nobody but you and I knew about.  I could spend hours, lost in your beauty, amazed at your <a href="https://photos.plasticmind.com/photo/336941699">complex symmetry</a> and <a href="https://photos.plasticmind.com/photo/2453368809">slender lines</a>.  Thank you especially for <a href="https://photos.plasticmind.com/set/72157606118943691">your barns</a>... I think I'll miss them the most.
+I loved the little secret moments we had, <a href="https://photos.plasticmind.com/photo/2681041623">little hidden spots</a> that nobody but you and I knew about.  I could spend hours, lost in your beauty, amazed at your <a href="https://photos.plasticmind.com/photo/336941699">complex symmetry</a> and <a href="https://photos.plasticmind.com/photo/2453368809">slender lines</a>.  Thank you especially for <a href="https://flickr.com/photos/plasticmind/albums/72157606118943691/">your barns</a>... I think I'll miss them the most.
 
 
 

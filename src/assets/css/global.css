@@ -709,24 +709,8 @@ hr {
   overflow-y: auto;
 }
 
-.l-bottom-drawer::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  z-index: -1;
-}
-
 .l-bottom-drawer.is-open {
   transform: translateY(0);
-}
-
-.l-bottom-drawer.is-open::before {
-  opacity: 1;
-  visibility: visible;
 }
 
 .l-bottom-drawer__content {
@@ -779,7 +763,9 @@ hr {
   gap: var(--space-md);
 }
 
-.c-text-controls__group label {
+.c-text-controls__label,
+.c-text-controls__group > label,
+.c-text-controls__group > legend {
   font-family: var(--font-family-ui);
   font-size: var(--font-sm);
   font-weight: 600;
@@ -788,39 +774,188 @@ hr {
   letter-spacing: 0.5px;
 }
 
-.c-text-controls__buttons {
+/* Theme Picker - Segmented Control */
+.c-theme-picker {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.c-theme-picker__options {
+  display: flex;
+  background: transparent;
+  border: 1px solid var(--color-ink-faint);
+  border-radius: var(--radius-md);
+  padding: 4px;
+  gap: 4px;
+}
+
+.c-theme-picker__input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.c-theme-picker__option {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding: var(--space-md) var(--space-lg);
+  font-family: var(--font-family-ui);
+  font-size: var(--font-sm);
+  font-weight: 500;
+  color: var(--color-text-weak);
+  background: transparent;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-sm) ease;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.c-theme-picker__option:hover {
+  color: var(--color-text);
+}
+
+.c-theme-picker__input:checked + .c-theme-picker__option {
+  background: var(--color-surface);
+  color: var(--color-text);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.c-theme-picker__input:focus-visible + .c-theme-picker__option {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+
+.c-theme-picker__option svg {
+  flex-shrink: 0;
+}
+
+/* Font Size Slider */
+.c-font-size-slider__track {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.c-font-size-slider__icon {
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  color: var(--color-text-weak);
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: color var(--transition-sm) ease, background var(--transition-sm) ease;
+}
+
+.c-font-size-slider__icon:hover {
+  color: var(--color-text);
+  background: var(--color-surface-alt);
+}
+
+.c-font-size-slider__icon:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+
+.c-font-size-slider__icon--small {
+  font-size: 14px;
+}
+
+.c-font-size-slider__icon--large {
+  font-size: 24px;
+}
+
+.c-font-size-slider__input {
+  flex: 1;
+  height: 6px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--color-ink-faint);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.c-font-size-slider__input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, var(--coral-400) 0%, var(--coral-600) 100%);
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(252, 70, 101, 0.4);
+  transition: transform var(--transition-sm) ease, box-shadow var(--transition-sm) ease;
+}
+
+.c-font-size-slider__input::-moz-range-thumb {
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, var(--coral-400) 0%, var(--coral-600) 100%);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(252, 70, 101, 0.4);
+  transition: transform var(--transition-sm) ease, box-shadow var(--transition-sm) ease;
+}
+
+.c-font-size-slider__input:hover::-webkit-slider-thumb {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(252, 70, 101, 0.5);
+}
+
+.c-font-size-slider__input:hover::-moz-range-thumb {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(252, 70, 101, 0.5);
+}
+
+.c-font-size-slider__input:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 4px;
+}
+
+/* Line Height Picker - 3 Button Options */
+.c-line-height-picker__options {
   display: flex;
   gap: var(--space-md);
 }
 
-.c-text-controls__buttons button {
+.c-line-height-picker__option {
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: var(--space-md) var(--space-lg);
-  font-family: var(--font-family-ui);
-  font-size: var(--font-md);
-  color: var(--color-text);
-  background: var(--color-surface-alt);
-  border: 2px solid transparent;
+  color: var(--color-text-weak);
+  background: transparent;
+  border: 1px solid var(--color-ink-faint);
   border-radius: var(--radius-md);
+  cursor: pointer;
   transition: all var(--transition-sm) ease;
 }
 
-.c-text-controls__buttons button:hover {
+.c-line-height-picker__option:hover {
   border-color: var(--color-ink-weak);
+  color: var(--color-text);
 }
 
-.c-text-controls__buttons button.is-active {
-  background: var(--color-link);
+.c-line-height-picker__option.is-active {
+  background: linear-gradient(135deg, var(--coral-400) 0%, var(--coral-600) 100%);
   color: var(--color-surface);
-  border-color: var(--color-link);
+  border-color: transparent;
 }
 
-.c-text-controls__buttons button[data-size="small"] {
-  font-size: var(--font-sm);
-}
-
-.c-text-controls__buttons button[data-size="large"] {
-  font-size: var(--font-lg);
+.c-line-height-picker__option:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
 }
 
 /* Search Form */
@@ -1073,6 +1208,10 @@ a:hover {
   line-height: 1.54;
 }
 
+.c-article__body a:hover {
+  color: var(--coral-500);
+}
+
 .c-article__body p {
   line-height: 1.54;
 }
@@ -1152,24 +1291,67 @@ html, body {
 }
 
 /* ---------------------- */
-/* # Text Size Variations */
+/* # Text Size Variations (5 steps) */
 
-[data-text-size="small"] .l-main p,
-[data-text-size="small"] .l-main ul,
-[data-text-size="small"] .l-main ol,
-[data-text-size="small"] .l-main dd,
-[data-text-size="small"] .l-main dt,
-[data-text-size="small"] .l-main blockquote {
-  font-size: 0.875rem;
+[data-text-size="1"] .l-main p,
+[data-text-size="1"] .l-main ul,
+[data-text-size="1"] .l-main ol,
+[data-text-size="1"] .l-main dd,
+[data-text-size="1"] .l-main dt,
+[data-text-size="1"] .l-main blockquote {
+  font-size: 0.8125rem;
 }
 
-[data-text-size="large"] .l-main p,
-[data-text-size="large"] .l-main ul,
-[data-text-size="large"] .l-main ol,
-[data-text-size="large"] .l-main dd,
-[data-text-size="large"] .l-main dt,
-[data-text-size="large"] .l-main blockquote {
+[data-text-size="2"] .l-main p,
+[data-text-size="2"] .l-main ul,
+[data-text-size="2"] .l-main ol,
+[data-text-size="2"] .l-main dd,
+[data-text-size="2"] .l-main dt,
+[data-text-size="2"] .l-main blockquote {
+  font-size: 0.9375rem;
+}
+
+/* data-text-size="3" is default, no override needed */
+
+[data-text-size="4"] .l-main p,
+[data-text-size="4"] .l-main ul,
+[data-text-size="4"] .l-main ol,
+[data-text-size="4"] .l-main dd,
+[data-text-size="4"] .l-main dt,
+[data-text-size="4"] .l-main blockquote {
   font-size: 1.125rem;
+}
+
+[data-text-size="5"] .l-main p,
+[data-text-size="5"] .l-main ul,
+[data-text-size="5"] .l-main ol,
+[data-text-size="5"] .l-main dd,
+[data-text-size="5"] .l-main dt,
+[data-text-size="5"] .l-main blockquote {
+  font-size: 1.25rem;
+}
+
+/* ---------------------- */
+/* # Line Height Variations (3 options) */
+
+[data-line-height="compact"] .l-main p,
+[data-line-height="compact"] .l-main ul,
+[data-line-height="compact"] .l-main ol,
+[data-line-height="compact"] .l-main dd,
+[data-line-height="compact"] .l-main dt,
+[data-line-height="compact"] .l-main blockquote {
+  line-height: 1.4;
+}
+
+/* data-line-height="normal" is default (~1.6), no override needed */
+
+[data-line-height="relaxed"] .l-main p,
+[data-line-height="relaxed"] .l-main ul,
+[data-line-height="relaxed"] .l-main ol,
+[data-line-height="relaxed"] .l-main dd,
+[data-line-height="relaxed"] .l-main dt,
+[data-line-height="relaxed"] .l-main blockquote {
+  line-height: 1.9;
 }
 
 /* ---------------------- */

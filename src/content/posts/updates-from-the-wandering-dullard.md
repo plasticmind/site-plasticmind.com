@@ -103,7 +103,7 @@ So now here I am, Sunday night, sitting at the San Francisco airport, waiting fo
 
 
 
-Be sure you check out the pics over at my photoblog:  <a href="https://photos.plasticmind.com/set/72157602062581211">San Francisco Album</a>
+Be sure you check out the pics over at my photoblog:  <a href="https://flickr.com/photos/plasticmind/albums/72157602062581211/">San Francisco Album</a>
 
 
 
