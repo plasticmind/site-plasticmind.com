@@ -25,7 +25,7 @@ hits: 242
 
 
 
-I often find myself so busy **using** a tool that I don&#8217;t usually have time to talk about **how** I use it.  This seems to be the case with many of the developers in the Movable Type community: lots of awesome things being done, not a lot of time left to share their creations and good ideas.
+I often find myself so busy **using** a tool that I don't usually have time to talk about **how** I use it.  This seems to be the case with many of the developers in the Movable Type community: lots of awesome things being done, not a lot of time left to share their creations and good ideas.
 
 
 
@@ -37,19 +37,19 @@ That got me thinking: how can we give people a clear and up-to-date picture of a
 
 
 
-The answer was simple: Use what they&#8217;re **already saying**.  So I design and built (with **massive** help from <a href="https://majordojo.com">Byrne Reese</a>) HashMT to pull in existing conversations from all over Twitter, here in one place.
+The answer was simple: Use what they're **already saying**.  So I design and built (with **massive** help from <a href="https://majordojo.com">Byrne Reese</a>) HashMT to pull in existing conversations from all over Twitter, here in one place.
 
 
 
 
 
-Here&#8217;s how it works: <a href="https://twitter.com/hashmt/">@hashmt</a> follows anyone who is an active contributor to the Movable Type community and displays any tweet they&#8217;ve marked with #mt.  This makes it easy to contribute since most are twittering already; now their existing conversation can be a part of this community &#8220;microblog&#8221; just by adding a hash tag to something they were already saying.
+Here's how it works: <a href="https://twitter.com/hashmt/">@hashmt</a> follows anyone who is an active contributor to the Movable Type community and displays any tweet they've marked with #mt.  This makes it easy to contribute since most are twittering already; now their existing conversation can be a part of this community &#8220;microblog&#8221; just by adding a hash tag to something they were already saying.
 
 
 
 
 
-**Don&#8217;t get confused: HashMT isn&#8217;t retweeting.**  Anything you read over by <a href="https://twitter.com/hashmt/">@hashmt</a> is just news about the service.  <a href="https://plasticmind.com/hashmt/">HashMT</a> is simply aggregating specific tweets identified with a hash tag from specified users a particular account is following.  You can then read those tweets over at <a href="https://plasticmind.com/hashmt/">HashMT</a> or subscribe to them via the <a href="https://feeds.feedburner.com/hashmt">HashMT RSS feed</a>.
+**Don't get confused: HashMT isn't retweeting.**  Anything you read over by <a href="https://twitter.com/hashmt/">@hashmt</a> is just news about the service.  <a href="https://plasticmind.com/hashmt/">HashMT</a> is simply aggregating specific tweets identified with a hash tag from specified users a particular account is following.  You can then read those tweets over at <a href="https://plasticmind.com/hashmt/">HashMT</a> or subscribe to them via the <a href="https://feeds.feedburner.com/hashmt">HashMT RSS feed</a>.
 
 
 

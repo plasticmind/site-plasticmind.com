@@ -31,7 +31,7 @@ hits: 238
 
 
 
-I wanted it to be a central place where people could get together and start up their own conversations on anything and everything.  But a few things happened that I hadn&#8217;t thought about:
+I wanted it to be a central place where people could get together and start up their own conversations on anything and everything.  But a few things happened that I hadn't thought about:
 
 
 
@@ -43,7 +43,7 @@ I wanted it to be a central place where people could get together and start up t
 
 
 
-**Production isn&#8217;t nearly as popular as consumption.**  People visit my blog and my journal because there&#8217;s all manner of neat content on there.  I&#8217;ve literally put years of work into what&#8217;s on the site, so people come back to visit, hoping to find more to consume.  Cardboard White on the other hand was more a tool for production; couple that with no tangible benefit and a relatively small audience, and the outlook for growth was grim.
+**Production isn't nearly as popular as consumption.**  People visit my blog and my journal because there's all manner of neat content on there.  I've literally put years of work into what's on the site, so people come back to visit, hoping to find more to consume.  Cardboard White on the other hand was more a tool for production; couple that with no tangible benefit and a relatively small audience, and the outlook for growth was grim.
 
 
 
@@ -55,7 +55,7 @@ I wanted it to be a central place where people could get together and start up t
 
 
 
-So, with the philosophical diatribe out of the way, I&#8217;m announcing the official interment of the CBW forums.  If anyone wants to memorialize their forum posts, best get them now before I light the funeral pyre.  (It may rise again from the ashes, but only as something new, different and more powerful, *a la Jean Gray*.)
+So, with the philosophical diatribe out of the way, I'm announcing the official interment of the CBW forums.  If anyone wants to memorialize their forum posts, best get them now before I light the funeral pyre.  (It may rise again from the ashes, but only as something new, different and more powerful, *a la Jean Gray*.)
 
 
 

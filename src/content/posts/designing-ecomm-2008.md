@@ -25,13 +25,13 @@ hits: 259
 
 
 
-**When O&#8217;Reilly cancelled ETel 2008, Lee Dryburgh fought hard to keep the community of emergent communications activists alive by organizing <a href="https://ecommmedia.com">eComm2008</a>.**  The conference was a rethink of the trillion dollar communications industry, a challenge to industry leaders who have largely remained stagnant.
+**When O'Reilly cancelled ETel 2008, Lee Dryburgh fought hard to keep the community of emergent communications activists alive by organizing <a href="https://ecommmedia.com">eComm2008</a>.**  The conference was a rethink of the trillion dollar communications industry, a challenge to industry leaders who have largely remained stagnant.
 
 
 
 
 
-Because of ETel&#8217;s last minute cancelation, Lee needed an tremendous amount of design work done in a very short amount of time: identity design, information architecture, marketing artwork and a conference site built on Movable Type Community Solution.  It was such a pleasure to be involved with the creative process from start to finish: crafting the eComm logo back in November, designing PowerPoint templates in January for presenters, coming up with artwork for swag in February, the final push to create conference materials like signs and program guides and then ultimately seeing all those creative decisions and hard work up on stage adding punch to an already monumental conference.
+Because of ETel's last minute cancelation, Lee needed an tremendous amount of design work done in a very short amount of time: identity design, information architecture, marketing artwork and a conference site built on Movable Type Community Solution.  It was such a pleasure to be involved with the creative process from start to finish: crafting the eComm logo back in November, designing PowerPoint templates in January for presenters, coming up with artwork for swag in February, the final push to create conference materials like signs and program guides and then ultimately seeing all those creative decisions and hard work up on stage adding punch to an already monumental conference.
 
 
 
@@ -43,7 +43,7 @@ Because of ETel&#8217;s last minute cancelation, Lee needed an tremendous amount
 
 
 
-The key concept for the conference was connectivity&#8212;social and technological.  So I wanted that to be a prominent theme in the logo.  You can see I started early (top left) with that concept.  The next iteration (top right) was more a cross section of pipes, but didn&#8217;t communicate connectivity well.  The dots in draft 3 brought us back to the idea of connectivity, but with the concept of packets.  However, the broken lines in drafts 3 and 4 carried too much negative connotation (sporadic, spotty).  Draft four did introduce a very pleasing perspective that I melded with the swoop from draft one to get the finished logo that you can see in <a href="https://www.flickr.com/photos/x180/sets/72157604105659581/">the great photos that James Davidson took of the conference</a>.
+The key concept for the conference was connectivity&#8212;social and technological.  So I wanted that to be a prominent theme in the logo.  You can see I started early (top left) with that concept.  The next iteration (top right) was more a cross section of pipes, but didn't communicate connectivity well.  The dots in draft 3 brought us back to the idea of connectivity, but with the concept of packets.  However, the broken lines in drafts 3 and 4 carried too much negative connotation (sporadic, spotty).  Draft four did introduce a very pleasing perspective that I melded with the swoop from draft one to get the finished logo that you can see in <a href="https://www.flickr.com/photos/x180/sets/72157604105659581/">the great photos that James Davidson took of the conference</a>.
 
 
 
@@ -55,7 +55,7 @@ The key concept for the conference was connectivity&#8212;social and technologic
 
 
 
-Be sure to stop by <a href="https://duncandavidson.com/2008/03/the-ecomm2008-conference.html">James Duncan Davidson&#8217;s website</a> to read his recounting of the conference and <a href="https://www.flickr.com/photos/x180/sets/72157604105659581/">visit his eComm2008 Flickr set</a>.  
+Be sure to stop by <a href="https://duncandavidson.com/2008/03/the-ecomm2008-conference.html">James Duncan Davidson's website</a> to read his recounting of the conference and <a href="https://www.flickr.com/photos/x180/sets/72157604105659581/">visit his eComm2008 Flickr set</a>.  
 
 
 

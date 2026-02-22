@@ -34,19 +34,19 @@ Not surprisingly, it was beneficial.  Three particular things stood out: I had *
 
 
 
-One of the most surprising things about the fast was just how habitual Facebook had become to me.  The first day, before I blocked the URLs on my computer, at least ten times, I opened a new browser tab, typed in facebook.com and hit enter.  It was shockingly involuntary, and it&#8217;s what prompted me to block all social media URLs from my computer.  If my day was a coin purse, my social media &#8220;habit&#8221; was a slit in the bottom. 
+One of the most surprising things about the fast was just how habitual Facebook had become to me.  The first day, before I blocked the URLs on my computer, at least ten times, I opened a new browser tab, typed in facebook.com and hit enter.  It was shockingly involuntary, and it's what prompted me to block all social media URLs from my computer.  If my day was a coin purse, my social media &#8220;habit&#8221; was a slit in the bottom. 
 
 
 
 
 
-The real shock was how little time it took me to catch up on all my Facebook notifications.  I had fifty-eight unread notifications when I signed in after a week, but I went through them all in about fifteen minutes.  Think about that.  Checking fifty-eight notifications would have probably eaten up at **least** fifty-eight minutes of my time throughout the week, and that&#8217;s not even counting the time I&#8217;d probably burn on Facebook once I had logged in.
+The real shock was how little time it took me to catch up on all my Facebook notifications.  I had fifty-eight unread notifications when I signed in after a week, but I went through them all in about fifteen minutes.  Think about that.  Checking fifty-eight notifications would have probably eaten up at **least** fifty-eight minutes of my time throughout the week, and that's not even counting the time I'd probably burn on Facebook once I had logged in.
 
 
 
 
 
-Twitter was the biggest culprit, leading me down a trail of fascinating stories, controversial articles, and humorous cat pictures.  It was like the Bermuda Triangle of productivity; I&#8217;d reappear hours later, wondering what happened, where I&#8217;d been and why I&#8217;d gotten nothing done.
+Twitter was the biggest culprit, leading me down a trail of fascinating stories, controversial articles, and humorous cat pictures.  It was like the Bermuda Triangle of productivity; I'd reappear hours later, wondering what happened, where I'd been and why I'd gotten nothing done.
 
 
 
@@ -67,7 +67,7 @@ Before the fast, I generally started the day with Facebook.  I found that flippi
 
 
 
-All worthwhile things to consider, yes, but instead of being invited in for careful consideration, they&#8217;re running amok in my head before the day has even begun.  My brain has certain responsibilities to fulfill each day; but it&#8217;s off playing apologetic or politician or conscientious dissenter when it should be preparing for the day ahead.  I was giving away some of my prime thinking time, leaving me with less mental capital for people and things in my life that really need it.
+All worthwhile things to consider, yes, but instead of being invited in for careful consideration, they're running amok in my head before the day has even begun.  My brain has certain responsibilities to fulfill each day; but it's off playing apologetic or politician or conscientious dissenter when it should be preparing for the day ahead.  I was giving away some of my prime thinking time, leaving me with less mental capital for people and things in my life that really need it.
 
 
 
@@ -88,7 +88,7 @@ With social media out of the equation, I was less prone to seeing life through a
 
 
 
-We all need social engagement.  That&#8217;s why social media has flourished the way it has.  But removing social broadcast platforms from the equation forced me to invest my time and energy into people in a less &#8220;efficient&#8221; yet much more intimate way.
+We all need social engagement.  That's why social media has flourished the way it has.  But removing social broadcast platforms from the equation forced me to invest my time and energy into people in a less &#8220;efficient&#8221; yet much more intimate way.
 
 
 
@@ -97,19 +97,19 @@ We all need social engagement.  That&#8217;s why social media has flourished the
 
 
 
-Though I found this fast helpful in many ways, I&#8217;m going to get back into Facebook and Twitter.  Social media platforms can be useful, especially for staying in touch with far-away people.  (The grandparents need pictures of the grandkids!)
+Though I found this fast helpful in many ways, I'm going to get back into Facebook and Twitter.  Social media platforms can be useful, especially for staying in touch with far-away people.  (The grandparents need pictures of the grandkids!)
 
 
 
 
 
-But they need limits.  I&#8217;m leaving the respective social media apps off my phone (at least for now), and I&#8217;m only going to check them once or twice later in the day.
+But they need limits.  I'm leaving the respective social media apps off my phone (at least for now), and I'm only going to check them once or twice later in the day.
 
 
 
 
 
-I&#8217;ll try this new &#8220;limited&#8221; approach and report back in next week.
+I'll try this new &#8220;limited&#8221; approach and report back in next week.
 
 
 

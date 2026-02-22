@@ -31,13 +31,13 @@ Well, those of you savvy enough to follow my Twitter notifications caught my pre
 
 
 
-<strong style="font-size:130%;">We&#8217;re having a baby!**
+<strong style="font-size:130%;">We're having a baby!**
 
 
 
 
 
-He/she/it is due in August and I&#8217;ve got $20 says it&#8217;s twins.  Jessica, of course, begs to differ.  And (as if I need to tell you) I&#8217;ll certainly be keeping everyone up to speed with the progress.  **Yeehaw!**
+He/she/it is due in August and I've got $20 says it's twins.  Jessica, of course, begs to differ.  And (as if I need to tell you) I'll certainly be keeping everyone up to speed with the progress.  **Yeehaw!**
 
 
 

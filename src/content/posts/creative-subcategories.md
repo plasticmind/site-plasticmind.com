@@ -42,7 +42,7 @@ hits: 473
 
 
 
-Essentially, we check to see if the category page we&#8217;re on has a parent.  If it does, we append the title with that parent category name (exclude_current hides the subcategory we&#8217;re in) and link so the user can jump back pretty quickly.
+Essentially, we check to see if the category page we're on has a parent.  If it does, we append the title with that parent category name (exclude_current hides the subcategory we're in) and link so the user can jump back pretty quickly.
 
 
 
@@ -51,13 +51,13 @@ Essentially, we check to see if the category page we&#8217;re on has a parent.  
 
 
 
-**Quandary:** You got several categories with subcategories, and you&#8217;d like to show these subcategories as a menu on the parent category archive page.
+**Quandary:** You got several categories with subcategories, and you'd like to show these subcategories as a menu on the parent category archive page.
 
 
 
 
 
-**Solution:** This is a little tricky because all subcategories are categories too.  So you have to think more in terms of relationships to tackle this one.  Here&#8217;s the code:
+**Solution:** This is a little tricky because all subcategories are categories too.  So you have to think more in terms of relationships to tackle this one.  Here's the code:
 
 
 
@@ -90,7 +90,7 @@ The first chunk says, &#8220;If this category has subcategories (children), then
 
 
 
-The second chunk is similar, but it&#8217;s meant for the subcategory pages themselves.  This code says, &#8220;If this category has a parent category, then give us a list of subcategories (children) that belong to that parent and make a menu.&#8221;  Since Movable Type doesn&#8217;t have any type of sibling tags, we have to go back to a parent if it exists and then display that parent&#8217;s children (those are the siblings).
+The second chunk is similar, but it's meant for the subcategory pages themselves.  This code says, &#8220;If this category has a parent category, then give us a list of subcategories (children) that belong to that parent and make a menu.&#8221;  Since Movable Type doesn't have any type of sibling tags, we have to go back to a parent if it exists and then display that parent's children (those are the siblings).
 
 
 

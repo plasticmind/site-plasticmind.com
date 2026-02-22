@@ -25,13 +25,13 @@ hits: 144
 
 
 
-**Today, I received word that my good friend Sarah (Roegner) O&#8217;Dell passed away.**
+**Today, I received word that my good friend Sarah (Roegner) O'Dell passed away.**
 
 
 
 
 
-December of 2006, her husband, Aaron, invited me out to a birthday celebration for her.  I couldn&#8217;t go because I was heading up our New Year&#8217;s Eve service at church.  I promised to call and promptly forgot.
+December of 2006, her husband, Aaron, invited me out to a birthday celebration for her.  I couldn't go because I was heading up our New Year's Eve service at church.  I promised to call and promptly forgot.
 
 
 
@@ -49,13 +49,13 @@ I got an email from her parents about a month ago with her address, asking peopl
 
 
 
-Then I received an email today that she had taken a turn for the worse and had passed away.  All those thoughts, all those intentions, don&#8217;t mean very much at all right now.  And what can I say now?  I almost cared enough to let you know?  My good friend Sarah is gone and she&#8217;ll never know I cared because I didn&#8217;t take the time when I had it to tell her so.
+Then I received an email today that she had taken a turn for the worse and had passed away.  All those thoughts, all those intentions, don't mean very much at all right now.  And what can I say now?  I almost cared enough to let you know?  My good friend Sarah is gone and she'll never know I cared because I didn't take the time when I had it to tell her so.
 
 
 
 
 
-Just a reminder from someone who learned the hard way:  **Please don&#8217;t wait to tell someone that you care.**
+Just a reminder from someone who learned the hard way:  **Please don't wait to tell someone that you care.**
 
 
 

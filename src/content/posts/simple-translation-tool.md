@@ -25,13 +25,13 @@ hits: 293
 
 
 
-Put this module on your sidebar to give your site international flair by letting your users choose to read your site in their own language (courtesy <a href="https://www.google.com/translate_t">Google Translate</a>).  The more real text you&#8217;ve got on the site (read: not images), the better this disembabelment works.  Now, keep in mind; this is only to help international readers get a gist of what you&#8217;re talking about.  This does not replace real, human translation.  Launching a global enterprise site with this as your localization strategy is like applying for a job at Stanford and putting Jeopardy on your resume.
+Put this module on your sidebar to give your site international flair by letting your users choose to read your site in their own language (courtesy <a href="https://www.google.com/translate_t">Google Translate</a>).  The more real text you've got on the site (read: not images), the better this disembabelment works.  Now, keep in mind; this is only to help international readers get a gist of what you're talking about.  This does not replace real, human translation.  Launching a global enterprise site with this as your localization strategy is like applying for a job at Stanford and putting Jeopardy on your resume.
 
 
 
 
 
-That being said, it&#8217;s a whole lot of fun.  Here&#8217;s the code:
+That being said, it's a whole lot of fun.  Here's the code:
 
 
 
@@ -57,13 +57,13 @@ That being said, it&#8217;s a whole lot of fun.  Here&#8217;s the code:
 
 
 
-You really don&#8217;t have to do much beside replace &#8220;https://yoursite.com&#8221; with the page you want translated.  If you&#8217;re especially keen on giving people the option to translate each page on your site, you could have your content management system fill in that field with an entry&#8217;s permalink.
+You really don't have to do much beside replace &#8220;https://yoursite.com&#8221; with the page you want translated.  If you're especially keen on giving people the option to translate each page on your site, you could have your content management system fill in that field with an entry's permalink.
 
 
 
 
 
-Go ahead, try it out.  Did I mention it&#8217;s a whole lot of fun?  It&#8217;d probably be even more fun if could read something other than classical Greek and HTML.
+Go ahead, try it out.  Did I mention it's a whole lot of fun?  It'd probably be even more fun if could read something other than classical Greek and HTML.
 
 
 
@@ -88,13 +88,13 @@ Go ahead, try it out.  Did I mention it&#8217;s a whole lot of fun?  It&#8217;d 
 
 
 
-Now, before you ask: **no**.  You can&#8217;t seem link directly to a page without Google&#8217;s top frame.  It must check the headers of the referrer, because if you send the form directly to that address, it routes it right back to the Google site with the frame up top.  However, if I enter the URL that the form sends me to directly into the address bar, it comes up without a frame.  Also, it worked without a frame when I tried it from my RSS reader.  I&#8217;d be interesting in finding out if anyone was able to accomplish it some other way.
+Now, before you ask: **no**.  You can't seem link directly to a page without Google's top frame.  It must check the headers of the referrer, because if you send the form directly to that address, it routes it right back to the Google site with the frame up top.  However, if I enter the URL that the form sends me to directly into the address bar, it comes up without a frame.  Also, it worked without a frame when I tried it from my RSS reader.  I'd be interesting in finding out if anyone was able to accomplish it some other way.
 
 
 
 
 
-**Note:** This doesn&#8217;t play nice with Flash.  It *sort of* works with sIFR (Flash Replacement technique for headlines).  Google must catch the text before sending it to Flash because both the translated and untranslated text show up.  Also, it seems to have some issues with certain positioned elements; it seems to have made my logo go away.  I suspect it has something to do with the way it places it&#8217;s translation hints that get revealed on hover.  (Confirmed: it breaks elements with &#8220;position: absolute&#8221;.)  Anyhow, consider yourself warned.
+**Note:** This doesn't play nice with Flash.  It *sort of* works with sIFR (Flash Replacement technique for headlines).  Google must catch the text before sending it to Flash because both the translated and untranslated text show up.  Also, it seems to have some issues with certain positioned elements; it seems to have made my logo go away.  I suspect it has something to do with the way it places it's translation hints that get revealed on hover.  (Confirmed: it breaks elements with &#8220;position: absolute&#8221;.)  Anyhow, consider yourself warned.
 
 
 

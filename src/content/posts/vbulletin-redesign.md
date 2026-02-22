@@ -25,13 +25,13 @@ hits: 530
 
 
 
-The <a href="https://vbulletin.com">vBulletin.com redesign</a> was a particularly enjoyable project&#8212;it&#8217;s not that often you get to help shape the branding of a tool you frequently work with.
+The <a href="https://vbulletin.com">vBulletin.com redesign</a> was a particularly enjoyable project&#8212;it's not that often you get to help shape the branding of a tool you frequently work with.
 
 
 
 
 
-The goal of this project was simple but crucial: breathe new life and energy into the vBulletin branding without alienating almost 10 years worth of loyal customers (can you believe it&#8217;s been almost ten years!).
+The goal of this project was simple but crucial: breathe new life and energy into the vBulletin branding without alienating almost 10 years worth of loyal customers (can you believe it's been almost ten years!).
 
 
 
@@ -43,7 +43,7 @@ The goal of this project was simple but crucial: breathe new life and energy int
 
 
 
-The first few rounds we played it a bit too safe: corporate blues and oranges.  But the team reiterated their goal: breathe new life and energy into the brand.  That&#8217;s when the superhero theme came to me&#8212;bold, whimsical and a bit irreverent.  I literally woke up one morning with the image in my head, ran down to my office and <a href="https://www.flickr.com/photos/plasticmind/4009473674/">sketched it out</a>. (Channeling the jQuery rockstar perhaps?) Once the superhero cornerstone was settled, all the other design pieces began to fall into place.
+The first few rounds we played it a bit too safe: corporate blues and oranges.  But the team reiterated their goal: breathe new life and energy into the brand.  That's when the superhero theme came to me&#8212;bold, whimsical and a bit irreverent.  I literally woke up one morning with the image in my head, ran down to my office and <a href="https://www.flickr.com/photos/plasticmind/4009473674/">sketched it out</a>. (Channeling the jQuery rockstar perhaps?) Once the superhero cornerstone was settled, all the other design pieces began to fall into place.
 
 
 
@@ -55,7 +55,7 @@ The first few rounds we played it a bit too safe: corporate blues and oranges.  
 
 
 
-As for the logo, Gotham Condensed felt like the perfect fit. It carries all the friendliness and populist overtones they were trying to convey with the new community features of 4.0 while still being similar enough to the old logo font so as to be familiar.  The one key component of their branding they did want to keep was the checkmark V, so we recreated the mark using the basic layout from the old logo along with the &#8216;v&#8217; letterform from the new font.
+As for the logo, Gotham Condensed felt like the perfect fit. It carries all the friendliness and populist overtones they were trying to convey with the new community features of 4.0 while still being similar enough to the old logo font so as to be familiar.  The one key component of their branding they did want to keep was the checkmark V, so we recreated the mark using the basic layout from the old logo along with the &#8216;v' letterform from the new font.
 
 
 

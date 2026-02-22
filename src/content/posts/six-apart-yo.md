@@ -25,7 +25,7 @@ Six Apart is celebrating several anniversaries tonight: <a href="https://movable
 
 
 
-Since I couldn&#8217;t attend <a href="https://upcoming.yahoo.com/event/1264802/?ps=7">the anniversary party</a>, I figured I&#8217;d put together a little something for the good people over at Six Apart.  This shirt&#8217;s been a long time coming:
+Since I couldn't attend <a href="https://upcoming.yahoo.com/event/1264802/?ps=7">the anniversary party</a>, I figured I'd put together a little something for the good people over at Six Apart.  This shirt's been a long time coming:
 
 
 
@@ -37,7 +37,7 @@ Since I couldn&#8217;t attend <a href="https://upcoming.yahoo.com/event/1264802/
 
 
 
-Unfortunately, Printfection&#8217;s (and CafePress for that matter) base price is so high that even with the commission set to zero, the price is terrible.  If anyone knows of a better t-shirt printing solution, I&#8217;m all ears.  In the meantime: <a href="https://www.printfection.com/plasticmind/Six-Apart-Yo-T-Shirt/_p_3212484">GO GET ONE.</a>
+Unfortunately, Printfection's (and CafePress for that matter) base price is so high that even with the commission set to zero, the price is terrible.  If anyone knows of a better t-shirt printing solution, I'm all ears.  In the meantime: <a href="https://www.printfection.com/plasticmind/Six-Apart-Yo-T-Shirt/_p_3212484">GO GET ONE.</a>
 
 
 

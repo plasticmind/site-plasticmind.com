@@ -28,13 +28,13 @@ Some people are *clammers*.  In an effort to avoid confrontation, they avoid com
 
 
 
-Dishonesty can take several forms.  Outright deceit is fairly straightforward: saying things that aren&#8217;t true.  Incongruency is when what you say isn&#8217;t lining up with your actions.  Perhaps the most dangerous form of dishonesty, though, is disguised communication.  Disguised communication is a distant cousin to sarcasm.  Humor and sarcasm are valid forms of communication, but there is a fine line between sarcasm and veiled complaints.  
+Dishonesty can take several forms.  Outright deceit is fairly straightforward: saying things that aren't true.  Incongruency is when what you say isn't lining up with your actions.  Perhaps the most dangerous form of dishonesty, though, is disguised communication.  Disguised communication is a distant cousin to sarcasm.  Humor and sarcasm are valid forms of communication, but there is a fine line between sarcasm and veiled complaints.  
 
 
 
 
 
-The more important the message you need to convey to someone, the more thought you need to give to how it will be received.  Loving communication acts with another person&#8217;s best interests in mind, asking the question: &#8220;What can I do to make this easier for someone to hear?&#8221;
+The more important the message you need to convey to someone, the more thought you need to give to how it will be received.  Loving communication acts with another person's best interests in mind, asking the question: &#8220;What can I do to make this easier for someone to hear?&#8221;
 
 
 
@@ -43,7 +43,7 @@ The more important the message you need to convey to someone, the more thought y
 
 
 
-Though often demonized, anger is not wrong.  It can be misused to attack others or one&#8217;s self; but it&#8217;s really just energy to be used in solving problems.  Failure to keep relationships current opens the door to resentment and hatred and often ends up causing more problems in the future like strained sexual relationships and distortions of future problems.
+Though often demonized, anger is not wrong.  It can be misused to attack others or one's self; but it's really just energy to be used in solving problems.  Failure to keep relationships current opens the door to resentment and hatred and often ends up causing more problems in the future like strained sexual relationships and distortions of future problems.
 
 
 
@@ -52,11 +52,11 @@ Though often demonized, anger is not wrong.  It can be misused to attack others 
 
 
 
-Unwholesome communication is destructive; edifying communication is constructive.  We ought to be looking to solve problems and increase our understanding, not fire off salvos and act as a prosecutor.  Effective communication rests centrally on personal responsibility and offers graciousness to those who hear it.  Problems are attacked most effectively by asking questions and seeking to understand a person&#8217;s goals and motives.  It&#8217;s important to point out that attacking a person takes a lot less effort than attacking a problem.
+Unwholesome communication is destructive; edifying communication is constructive.  We ought to be looking to solve problems and increase our understanding, not fire off salvos and act as a prosecutor.  Effective communication rests centrally on personal responsibility and offers graciousness to those who hear it.  Problems are attacked most effectively by asking questions and seeking to understand a person's goals and motives.  It's important to point out that attacking a person takes a lot less effort than attacking a problem.
 
 
 
-### Act, Don&#8217;t React
+### Act, Don't React
 
 
 
@@ -74,11 +74,7 @@ Reactions are natural, built-in responses to stimuli.  You never have to practic
 <li>**Malice**: the desire to harm others or see them suffer</li>
 </ol>
 
-
-
 However, we ought to **replace** those reactions with these three actions:
-
-
 
 <ol>
 <li>**Kind**: benevolence and helpfulness towards others</li>
@@ -86,12 +82,4 @@ However, we ought to **replace** those reactions with these three actions:
 <li>**Forgiving**: passing over an offense and freeing an offender from the guilt of it</li>
 </ol>
 
-
-
-And it&#8217;s absolutely essential to realize that replacing reactions doesn&#8217;t happen by trying to get rid of them first.  These are communication replacements.  You *stop* reacting wrongly when you *start* acting rightly.
-
-
-
-			<!--more-->
-
-		
+And it's absolutely essential to realize that replacing reactions doesn't happen by trying to get rid of them first.  These are communication replacements.  You *stop* reacting wrongly when you *start* acting rightly.

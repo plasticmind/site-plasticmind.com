@@ -37,7 +37,7 @@ I must have missed the &#8220;always&#8221; somewhere in previous readings.  But
 
 
 
-Turns out they were in a tight spot again.  With suitcases in tow, they told me how they were kicked out of their motel room today because their disability check didn&#8217;t get deposited until midnight tonight.  They needed food, something warm to drink and enough money to stay one more night at the hotel.  I brewed up some coffee, gave them a plastic bag full of food and drink leftover from <a href="https://plasticmind.com/retrospection/2008-how-euphoric/">our New Year&#8217;s celebration</a> and, while they ate, talked to them a while about getting out of this cycle of poverty.  They really didn&#8217;t want  an apartment, they just wanted a cheaper motel.
+Turns out they were in a tight spot again.  With suitcases in tow, they told me how they were kicked out of their motel room today because their disability check didn't get deposited until midnight tonight.  They needed food, something warm to drink and enough money to stay one more night at the hotel.  I brewed up some coffee, gave them a plastic bag full of food and drink leftover from <a href="https://plasticmind.com/retrospection/2008-how-euphoric/">our New Year's celebration</a> and, while they ate, talked to them a while about getting out of this cycle of poverty.  They really didn't want  an apartment, they just wanted a cheaper motel.
 
 
 
@@ -49,19 +49,19 @@ Finally, I told them I had to go out and get my car and that they should meet me
 
 
 
-Immediately, she began to explain how that her husband must have thought I meant that he could take the cake when I said I&#8217;d give them food.  Completely lame, but I didn&#8217;t say anything, I just helped them into the car and got in without a word.  The entire way to the motel, she kept trying to convince me that it was a misunderstanding and when I didn&#8217;t respond she began to explain that they&#8217;d be coming out to church soon.  They told me this the last few times they&#8217;d been here.  So I reminded them that I don&#8217;t give them food so that they&#8217;ll come out to church, I give them food because I care about them and don&#8217;t want them to suffer.  But at what point should you let people experience the consequences of their frequent, willful behavior?
+Immediately, she began to explain how that her husband must have thought I meant that he could take the cake when I said I'd give them food.  Completely lame, but I didn't say anything, I just helped them into the car and got in without a word.  The entire way to the motel, she kept trying to convince me that it was a misunderstanding and when I didn't respond she began to explain that they'd be coming out to church soon.  They told me this the last few times they'd been here.  So I reminded them that I don't give them food so that they'll come out to church, I give them food because I care about them and don't want them to suffer.  But at what point should you let people experience the consequences of their frequent, willful behavior?
 
 
 
 
 
-In their hotel room, I had a hard time praying for them.  Kevin Dear once told me that I shouldn&#8217;t say anything I don&#8217;t mean when I&#8217;m praying, so I was struggling for words.  God please help these people help themselves?  God please get them so dissatisfied with living this way that they&#8217;ll change?  God please help me to love the unlovely?
+In their hotel room, I had a hard time praying for them.  Kevin Dear once told me that I shouldn't say anything I don't mean when I'm praying, so I was struggling for words.  God please help these people help themselves?  God please get them so dissatisfied with living this way that they'll change?  God please help me to love the unlovely?
 
 
 
 
 
-Before I left, I told them rather candidly: &#8220;About the cake.  If you really wanted it, all you had to do was ask.  I gave you so much food and yet you felt like you had to steal the cake?&#8221;  They again assured me that it was just a misunderstanding, and I went away feeling very cynical.  I can&#8217;t help but wondering: **would Jesus have cared about the cake?**
+Before I left, I told them rather candidly: &#8220;About the cake.  If you really wanted it, all you had to do was ask.  I gave you so much food and yet you felt like you had to steal the cake?&#8221;  They again assured me that it was just a misunderstanding, and I went away feeling very cynical.  I can't help but wondering: **would Jesus have cared about the cake?**
 
 
 

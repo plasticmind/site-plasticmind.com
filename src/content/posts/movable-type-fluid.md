@@ -28,19 +28,19 @@ hits: 706
 
 
 
-Tabbed browsing really is a modern marvel.  If you haven&#8217;t tried it, you should.  And while your at it, have you heard about running water?
+Tabbed browsing really is a modern marvel.  If you haven't tried it, you should.  And while your at it, have you heard about running water?
 
 
 
 
 
-Trouble is, when you&#8217;ve got your Gmail, Facebook, Google Calendar, Basecamp, Flickr, Digg and all the other sites a web savant needs to survive, things get pretty cluttered pretty quickly.
+Trouble is, when you've got your Gmail, Facebook, Google Calendar, Basecamp, Flickr, Digg and all the other sites a web savant needs to survive, things get pretty cluttered pretty quickly.
 
 
 
 
 
-Enter: <a href="https://fluidapp.com/">Fluid</a>.  According to the site, Fluid is a free, site-specific browser for Mac OS X Leopard that lets you use the Safari Webkit to create applications out of your favorite sites.  &#8220;Why bother?&#8221; you may ask.  Simple: Fluid lets your web browsing be web browsing while your tools get a special place in your dock.  You can hide them at will, give them their own icons; Fluid even recognizes some popular sites like Gmail and puts up a badge when you have a new message.  There&#8217;s even a handy API for <a href="https://www.youtube.com/watch?v=xz0q36Qwrdw">mashing up things like Gmail and Flickr</a> as well as built in Userscript support (<a href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey</a>).
+Enter: <a href="https://fluidapp.com/">Fluid</a>.  According to the site, Fluid is a free, site-specific browser for Mac OS X Leopard that lets you use the Safari Webkit to create applications out of your favorite sites.  &#8220;Why bother?&#8221; you may ask.  Simple: Fluid lets your web browsing be web browsing while your tools get a special place in your dock.  You can hide them at will, give them their own icons; Fluid even recognizes some popular sites like Gmail and puts up a badge when you have a new message.  There's even a handy API for <a href="https://www.youtube.com/watch?v=xz0q36Qwrdw">mashing up things like Gmail and Flickr</a> as well as built in Userscript support (<a href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey</a>).
 
 
 
@@ -55,7 +55,7 @@ Enter: <a href="https://fluidapp.com/">Fluid</a>.  According to the site, Fluid 
 
 
 
-I immediately thought of Movable Type.  I have one Movable Type install on my server that powers nearly a dozen of my sites, so I&#8217;m constantly accessing it.  Since I work quite a bit with other client&#8217;s installs, it&#8217;s easy to get them mixed up when I&#8217;ve got thirty tabs open.  Fluid lets me turn my Movable Type install into an app which is then accessible <a href="https://www.blacktree.com/projects/quicksilver.html">via Quicksilver</a>.
+I immediately thought of Movable Type.  I have one Movable Type install on my server that powers nearly a dozen of my sites, so I'm constantly accessing it.  Since I work quite a bit with other client's installs, it's easy to get them mixed up when I've got thirty tabs open.  Fluid lets me turn my Movable Type install into an app which is then accessible <a href="https://www.blacktree.com/projects/quicksilver.html">via Quicksilver</a>.
 
 
 
@@ -64,7 +64,7 @@ I immediately thought of Movable Type.  I have one Movable Type install on my se
 
 
 
-How do you turn Movable Type into a &#8220;desktop app&#8221;.  It&#8217;s surprisingly easy.
+How do you turn Movable Type into a &#8220;desktop app&#8221;.  It's surprisingly easy.
 
 
 
@@ -76,7 +76,7 @@ How do you turn Movable Type into a &#8220;desktop app&#8221;.  It&#8217;s surpr
 
 
 
-**Create a new application.**  When you run Fluid, it comes up with four simple options.  The URL for the application you&#8217;re creating, the name you&#8217;d like to give your application, where it&#8217;s going to be created (default is your Application directory) and the icon to be used to represent your application:
+**Create a new application.**  When you run Fluid, it comes up with four simple options.  The URL for the application you're creating, the name you'd like to give your application, where it's going to be created (default is your Application directory) and the icon to be used to represent your application:
 
 
 
@@ -88,7 +88,7 @@ How do you turn Movable Type into a &#8220;desktop app&#8221;.  It&#8217;s surpr
 
 
 
-In the first field, put in the url of your Movable Type install.  For instance, https://mywebsite.com/cgi-bin/mt/mt.fcgi.  Name it whatever you&#8217;d like.  I&#8217;d generally keep it in the Applications folder.  For the icon you can use this .png icon that I&#8217;ve created (or select your own.)
+In the first field, put in the url of your Movable Type install.  For instance, https://mywebsite.com/cgi-bin/mt/mt.fcgi.  Name it whatever you'd like.  I'd generally keep it in the Applications folder.  For the icon you can use this .png icon that I've created (or select your own.)
 
 
 
@@ -106,7 +106,7 @@ In the first field, put in the url of your Movable Type install.  For instance, 
 
 
 
-One final note: if you can&#8217;t seem to log in or if Fluid keeps sending you over to your default browser, you may need to go under Preferences » Advanced and Select &#8220;Allow browsing to any URL&#8221; in order to get it working correctly.&#8217;
+One final note: if you can't seem to log in or if Fluid keeps sending you over to your default browser, you may need to go under Preferences » Advanced and Select &#8220;Allow browsing to any URL&#8221; in order to get it working correctly.'
 
 
 

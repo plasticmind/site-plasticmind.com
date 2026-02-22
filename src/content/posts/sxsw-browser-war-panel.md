@@ -36,31 +36,31 @@ Charles McCarthie-Nevile - Opera
 
 
 
-First point: Where is Apple?  They wouldn&#8217;t send anyone to this panel.
+First point: Where is Apple?  They wouldn't send anyone to this panel.
 
 
 
 
 
-**Question to Chris, What is Microsoft&#8217;s message, especially considering Silverlight is proprietary?**  Silverlight isn&#8217;t what he&#8217;s representing, but Silverlight is still part of the web, much like Flash.  Open standards are important because they does not rely on any one company for sustenance.
+**Question to Chris, What is Microsoft's message, especially considering Silverlight is proprietary?**  Silverlight isn't what he's representing, but Silverlight is still part of the web, much like Flash.  Open standards are important because they does not rely on any one company for sustenance.
 
 
 
 
 
-**What&#8217;s happening with mobile devices:** The mobile space is a bit easier to compete on, because most mobile providers actually look at competing browsers and decide which is best.  The desktop market is much more difficult because the OS distributors usually choose which browsers are included by default.
+**What's happening with mobile devices:** The mobile space is a bit easier to compete on, because most mobile providers actually look at competing browsers and decide which is best.  The desktop market is much more difficult because the OS distributors usually choose which browsers are included by default.
 
 
 
 
 
-**What&#8217;s going on with HTML5?**  Chris Wilson, Microsoft employee, is co-chair, but the HTML5 workgroup site specifically says that it will be an open standard, unlike Silverlight (Microsoft&#8217;s proprietary &#8220;Flash-killer&#8221;).
+**What's going on with HTML5?**  Chris Wilson, Microsoft employee, is co-chair, but the HTML5 workgroup site specifically says that it will be an open standard, unlike Silverlight (Microsoft's proprietary &#8220;Flash-killer&#8221;).
 
 
 
 
 
-**What&#8217;s happening with the next generation of AJAX, specifically the XML/HTTP request?**  XML/HTTP version 2: Cross-site access, binary requests.
+**What's happening with the next generation of AJAX, specifically the XML/HTTP request?**  XML/HTTP version 2: Cross-site access, binary requests.
 
 
 
@@ -69,19 +69,19 @@ First point: Where is Apple?  They wouldn&#8217;t send anyone to this panel.
 
 
 
-**Scalable vector graphics:** Can IE support scalable vector graphics, especially since Silverlight is supposed to be the answer for it?  Yes, it matters to Microsoft; but it&#8217;s really more a matter of priority.  Essentially, a non-answer.  Brendan jumps in and says that they&#8217;re not going to implement it because it&#8217;s a bad standard; it&#8217;s far too large, too buggy and too abstract.  Browsers need to find an adequate subset to implement.
+**Scalable vector graphics:** Can IE support scalable vector graphics, especially since Silverlight is supposed to be the answer for it?  Yes, it matters to Microsoft; but it's really more a matter of priority.  Essentially, a non-answer.  Brendan jumps in and says that they're not going to implement it because it's a bad standard; it's far too large, too buggy and too abstract.  Browsers need to find an adequate subset to implement.
 
 
 
 
 
-**Multiple file uploads, playing media within standards:**  These things are included in the new specs; but specs are written by real people, and people take time.  So be patient, they&#8217;re coming.
+**Multiple file uploads, playing media within standards:**  These things are included in the new specs; but specs are written by real people, and people take time.  So be patient, they're coming.
 
 
 
 
 
-**Why can&#8217;t you guys all do padding and margins the same way!**  The specs are all there, but implementation.  Companies have to be communicating with one another, especially the developers.  Oh, and test suites are critical!
+**Why can't you guys all do padding and margins the same way!**  The specs are all there, but implementation.  Companies have to be communicating with one another, especially the developers.  Oh, and test suites are critical!
 
 
 

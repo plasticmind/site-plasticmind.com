@@ -25,13 +25,13 @@ hits: 157
 
 
 
-**I&#8217;ve been working on some interviews that I&#8217;ll be sharing over the next few weeks, perhaps months.**
+**I've been working on some interviews that I'll be sharing over the next few weeks, perhaps months.**
 
 
 
 
 
-When I first thought of doing these interviews, I really just had a single goal in mind: praising the worth of people I admire.  I&#8217;ve met many talented people and every one is a storehouse of knowledge, experience and history.  I felt far more compelled to write about their adventures and advances than the rather pretentious work of chronicling my own.  
+When I first thought of doing these interviews, I really just had a single goal in mind: praising the worth of people I admire.  I've met many talented people and every one is a storehouse of knowledge, experience and history.  I felt far more compelled to write about their adventures and advances than the rather pretentious work of chronicling my own.  
 
 
 
@@ -43,7 +43,7 @@ However, I realized very quickly&#8212;even while preparing questions for my fir
 
 
 
-The answer is plain, but it says a lot about how I view life.  I&#8217;m interviewing these folks because I want to hear their stories.  I believe the story of what brought you to your successes are an integral part of those successes.  Of course I want to know about what you accomplished and how often you had to practice and all the technical ins and outs of your craft.  But I also want to find out about the detours and potholes and the other incidentals that are usually not-so-incidental.  See, I believe in a holistic life.  I find that the decisions and choices people make in one part of their life impacts all the rest of it.  
+The answer is plain, but it says a lot about how I view life.  I'm interviewing these folks because I want to hear their stories.  I believe the story of what brought you to your successes are an integral part of those successes.  Of course I want to know about what you accomplished and how often you had to practice and all the technical ins and outs of your craft.  But I also want to find out about the detours and potholes and the other incidentals that are usually not-so-incidental.  See, I believe in a holistic life.  I find that the decisions and choices people make in one part of their life impacts all the rest of it.  
 
 
 

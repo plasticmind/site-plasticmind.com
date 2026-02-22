@@ -31,7 +31,7 @@ For the last few years, my writing has been decidedly utilitarian.  Most of my a
 
 
 
-Tonight, however, I write because I can&#8217;t seem to figure things.  I have a broad, unfocused restlessness that&#8217;s keeping me awake because I can&#8217;t even seem to find it&#8217;s boundaries and therefore can&#8217;t process it.  Blogging to the rescue!
+Tonight, however, I write because I can't seem to figure things.  I have a broad, unfocused restlessness that's keeping me awake because I can't even seem to find it's boundaries and therefore can't process it.  Blogging to the rescue!
 
 
 
@@ -43,13 +43,13 @@ It started with a general frustration with the way people abuse other people onl
 
 
 
-Then I think I began to think critically of some things that I often take for granted: my faith, my job, my political views.  Probably this came from some of the disparaging remarks I stumbled upon, but that&#8217;s really no matter.  I think it&#8217;s very important for people to think critically and talk openly about the most sacred things in their lives.
+Then I think I began to think critically of some things that I often take for granted: my faith, my job, my political views.  Probably this came from some of the disparaging remarks I stumbled upon, but that's really no matter.  I think it's very important for people to think critically and talk openly about the most sacred things in their lives.
 
 
 
 
 
-Ultimately I ended up with a passage from Emerson&#8217;s *Nature* running through my head: 
+Ultimately I ended up with a passage from Emerson's *Nature* running through my head: 
 
 
 
@@ -63,19 +63,19 @@ Crossing a bare common, in snow puddles, at twilight, under a clouded sky, witho
 
 
 
-Those words have always been so full of essence for me because they best describe those days of childhood when I would lie beneath a hundred tall trees and stare heavenward through tears.  There was so much feeling and emotion compressed into a moment that my fifteen-year-old frame couldn&#8217;t handle it.
+Those words have always been so full of essence for me because they best describe those days of childhood when I would lie beneath a hundred tall trees and stare heavenward through tears.  There was so much feeling and emotion compressed into a moment that my fifteen-year-old frame couldn't handle it.
 
 
 
 
 
-But you&#8217;re probably thinking that I skipped a part, so I need to go back and explain the transition from my religion to transcendentalism.  Trying to do so is like trying to recount yesterday&#8217;s dream: some parts are so vivid and some parts are vague but the transitions are the really difficult parts to recall.  *&#8220;I was standing high atop a cliff, and I was studying algebra; then I was in our old house, I can&#8217;t quite remember how I got there.&#8221;*
+But you're probably thinking that I skipped a part, so I need to go back and explain the transition from my religion to transcendentalism.  Trying to do so is like trying to recount yesterday's dream: some parts are so vivid and some parts are vague but the transitions are the really difficult parts to recall.  *&#8220;I was standing high atop a cliff, and I was studying algebra; then I was in our old house, I can't quite remember how I got there.&#8221;*
 
 
 
 
 
-The reasonable part of my brain is telling me that this is an aggrandized cop-out, a sneaky way to appear intellectual and to sound sincere while ignoring responsibility.  He (reason) dutifully informs me that feeling strongly about something is not the same as taking responsibility for it.  That&#8217;s the addiction, says he, of the movie theater: you come away having felt deeply and done nothing.
+The reasonable part of my brain is telling me that this is an aggrandized cop-out, a sneaky way to appear intellectual and to sound sincere while ignoring responsibility.  He (reason) dutifully informs me that feeling strongly about something is not the same as taking responsibility for it.  That's the addiction, says he, of the movie theater: you come away having felt deeply and done nothing.
 
 
 

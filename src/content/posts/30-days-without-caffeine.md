@@ -31,31 +31,31 @@ I did some research and discovered that two Excedrine tablets contain 130mg of c
 
 
 
-I had several people throughout the month point to my migraines as severe caffeine dependancy.  I&#8217;m not entirely convinced they were the source of my headaches.  I was still getting them weeks after I stopped my caffeine intake and they would come and go inconsistently.  Another reason I&#8217;m skeptical about the caffeine withdrawal argument is that I went to the eye doctor and found out my prescription is about 2 powers off.  Certainly a three-year-old prescription for someone who looks at computer screens 12 hours a day could be a prime suspect for headaches.
+I had several people throughout the month point to my migraines as severe caffeine dependancy.  I'm not entirely convinced they were the source of my headaches.  I was still getting them weeks after I stopped my caffeine intake and they would come and go inconsistently.  Another reason I'm skeptical about the caffeine withdrawal argument is that I went to the eye doctor and found out my prescription is about 2 powers off.  Certainly a three-year-old prescription for someone who looks at computer screens 12 hours a day could be a prime suspect for headaches.
 
 
 
 
 
-But I&#8217;m forgetting the most important part of this post: how amazing I felt without caffeine.  It&#8217;s no exaggeration to say that I had more energy than I&#8217;ve had in years.  It was a much more consistent energy, far fewer peaks and valleys.  No late afternoon crash.  However, the real litmus test for me was putting the kids to bed.  
+But I'm forgetting the most important part of this post: how amazing I felt without caffeine.  It's no exaggeration to say that I had more energy than I've had in years.  It was a much more consistent energy, far fewer peaks and valleys.  No late afternoon crash.  However, the real litmus test for me was putting the kids to bed.  
 
 
 
 
 
-For the last few months, I couldn&#8217;t even tell Ethan a bedtime story without bordering on comatose.  In fact, a week before starting this challenge, I fell so deeply asleep when putting Ethan to bed one night that he climbed over me and went downstairs.  A week after kicking the caffeine habit, the change in energy level was noticeable and dramatic.  I felt like I had two extra hours in the day.
+For the last few months, I couldn't even tell Ethan a bedtime story without bordering on comatose.  In fact, a week before starting this challenge, I fell so deeply asleep when putting Ethan to bed one night that he climbed over me and went downstairs.  A week after kicking the caffeine habit, the change in energy level was noticeable and dramatic.  I felt like I had two extra hours in the day.
 
 
 
 
 
-The big question for me now is whether or not I&#8217;ll continue the caffeine fast.  I drank half a celebratory cup of coffee this morning, but I&#8217;m already jittery and on edge.  I do miss the morning coffee habit, the warmth and the boost; but I love the consistent, crash-less energy throughout the day.  Most likely, I&#8217;ll avoid the morning coffee and caffeinated sodas without being too dogmatic about the occasional sip.  Much better to partake on occasion than to be a slave to the stuff.
+The big question for me now is whether or not I'll continue the caffeine fast.  I drank half a celebratory cup of coffee this morning, but I'm already jittery and on edge.  I do miss the morning coffee habit, the warmth and the boost; but I love the consistent, crash-less energy throughout the day.  Most likely, I'll avoid the morning coffee and caffeinated sodas without being too dogmatic about the occasional sip.  Much better to partake on occasion than to be a slave to the stuff.
 
 
 
 
 
-July&#8217;s challenge?  Draw something new everyday!
+July's challenge?  Draw something new everyday!
 
 
 

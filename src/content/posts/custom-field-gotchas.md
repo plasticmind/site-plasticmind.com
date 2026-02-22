@@ -31,7 +31,7 @@ Consider this a public service announcement to anyone debating about using Movab
 
 
 
-**2. There are no formatting options for editing Custom Fields.**  If you&#8217;re using Custom Fields for your primary entry data (i.e. no entry body, only custom field data), be aware that they have no formatting options for the editor&#8212;it&#8217;s just an input field.  You can get around this with <a href="https://plasticmind.com/movable-type/plasticfield/">my PlasticField plugin</a>, but it&#8217;s not the best solution because it requires you to create a new field, doesn&#8217;t use the default editor, and doesn&#8217;t support installed format types like Markdown or Textile.
+**2. There are no formatting options for editing Custom Fields.**  If you're using Custom Fields for your primary entry data (i.e. no entry body, only custom field data), be aware that they have no formatting options for the editor&#8212;it's just an input field.  You can get around this with <a href="https://plasticmind.com/movable-type/plasticfield/">my PlasticField plugin</a>, but it's not the best solution because it requires you to create a new field, doesn't use the default editor, and doesn't support installed format types like Markdown or Textile.
 
 
 
@@ -43,7 +43,7 @@ Consider this a public service announcement to anyone debating about using Movab
 
 
 
-**4. Date-based Custom Fields don&#8217;t <a href="https://wiki.movabletype.org/CustomField_Date_Fields">honor the format argument.</a>**  They spit out one format alone making them virtually unusable for creating neat things like iCal files (which require UTC date formatting).  And a related problem: <a href="https://forums.movabletype.org/2008/08/custom-fields-date-field-error.html">You can no longer specify a time-only field or a date-only field in 4.2.</a>
+**4. Date-based Custom Fields don't <a href="https://wiki.movabletype.org/CustomField_Date_Fields">honor the format argument.</a>**  They spit out one format alone making them virtually unusable for creating neat things like iCal files (which require UTC date formatting).  And a related problem: <a href="https://forums.movabletype.org/2008/08/custom-fields-date-field-error.html">You can no longer specify a time-only field or a date-only field in 4.2.</a>
 
 
 
@@ -55,7 +55,7 @@ Consider this a public service announcement to anyone debating about using Movab
 
 
 
-**Please feel free to let me know if I&#8217;ve missed anything.**
+**Please feel free to let me know if I've missed anything.**
 
 
 

@@ -27,13 +27,13 @@ This past Monday I sat down at work not having seen any of the Olympic games ove
 
 
 
-&#8220;I&#8217;ll just find some Twitter account following the winners.&#8221;  I found a few Twitterers tweeting Olympic news, but I couldn&#8217;t find anyone just updating medal winners.
+&#8220;I'll just find some Twitter account following the winners.&#8221;  I found a few Twitterers tweeting Olympic news, but I couldn't find anyone just updating medal winners.
 
 
 
 
 
-&#8220;Well, I&#8217;ll just grab a RSS feed of the medal winners,&#8221; thought I.  Searched around for a while.  Nothing.  Seems as though neither <a href="https://www.nbcolympics.com/">the NBC Olympics site</a> nor <a href="https://en.beijing2008.cn/">the official Beijing 2008 site</a> had medal feeds.  It was just a lot of clutter to wade through to find out the relevant information.
+&#8220;Well, I'll just grab a RSS feed of the medal winners,&#8221; thought I.  Searched around for a while.  Nothing.  Seems as though neither <a href="https://www.nbcolympics.com/">the NBC Olympics site</a> nor <a href="https://en.beijing2008.cn/">the official Beijing 2008 site</a> had medal feeds.  It was just a lot of clutter to wade through to find out the relevant information.
 
 
 

@@ -19,13 +19,13 @@ hits: 8806
 
 			
 
-The default behavior for <a href="https://github.com/paulirish/infinite-scroll">the Infinite Scroll plugin</a> is to engage infinite scrolling automatically as soon as you start to scroll.  We liked the concept of infinite scrolling, especially for a mobile home page.  However, it presents some usability issues for people who want to get to the footer.  For us, that&#8217;s where users switch to the full version of the site.  We imagined a user scrolling to the bottom of the page to switch to the full version of the site and right before they tapped the link, more content loads, pushing the link down and pushing them into a frustrated rage.
+The default behavior for <a href="https://github.com/paulirish/infinite-scroll">the Infinite Scroll plugin</a> is to engage infinite scrolling automatically as soon as you start to scroll.  We liked the concept of infinite scrolling, especially for a mobile home page.  However, it presents some usability issues for people who want to get to the footer.  For us, that's where users switch to the full version of the site.  We imagined a user scrolling to the bottom of the page to switch to the full version of the site and right before they tapped the link, more content loads, pushing the link down and pushing them into a frustrated rage.
 
 
 
 
 
-The Infinite Scroll plugin lets you define custom behaviors.  There&#8217;s a <a href="https://github.com/paulirish/infinite-scroll/blob/master/behaviors/manual-trigger.js">Twitter-style behavior</a> that requires a manual trigger for every load.  There&#8217;s a <a href="https://github.com/paulirish/infinite-scroll/issues/176#issuecomment-7521121">Facebook-style behavior</a> that will enable infinite scrolling for a set number of scrolls, after which it switches to manual triggering.  But I couldn&#8217;t find any behavior that matched the experience we were looking for.
+The Infinite Scroll plugin lets you define custom behaviors.  There's a <a href="https://github.com/paulirish/infinite-scroll/blob/master/behaviors/manual-trigger.js">Twitter-style behavior</a> that requires a manual trigger for every load.  There's a <a href="https://github.com/paulirish/infinite-scroll/issues/176#issuecomment-7521121">Facebook-style behavior</a> that will enable infinite scrolling for a set number of scrolls, after which it switches to manual triggering.  But I couldn't find any behavior that matched the experience we were looking for.
 
 
 
@@ -37,13 +37,13 @@ The Infinite Scroll plugin lets you define custom behaviors.  There&#8217;s a <a
 
 
 
-What we wanted was simple.  Present the user with a &#8220;more posts&#8221; button at the bottom of the page.  Once that&#8217;s tapped, infinite scrolling engages and continues until there are either no more posts or until the max threshold is reached.  That way users who want to get to the footer are able to, and those who register their intention to read more posts are able to.
+What we wanted was simple.  Present the user with a &#8220;more posts&#8221; button at the bottom of the page.  Once that's tapped, infinite scrolling engages and continues until there are either no more posts or until the max threshold is reached.  That way users who want to get to the footer are able to, and those who register their intention to read more posts are able to.
 
 
 
 
 
-Here&#8217;s the behavior code *(I&#8217;ve only tested it with 2.0+ version of the plugin)*:
+Here's the behavior code *(I've only tested it with 2.0+ version of the plugin)*:
 
 
 
@@ -91,7 +91,7 @@ $.extend($.infinitescroll.prototype,{
 
 
 
-To use this behavior, save this code as a file and include this in your site header just after you&#8217;re including the Infinite Scroll script.  For example:
+To use this behavior, save this code as a file and include this in your site header just after you're including the Infinite Scroll script.  For example:
 
 
 
@@ -101,7 +101,7 @@ To use this behavior, save this code as a file and include this in your site hea
 
 
 
-Then, wherever you&#8217;re initializing Infinite Scroll (probably in your document ready function), set the behavior option to &#8220;simplyrecipes&#8221;.  Something like this:
+Then, wherever you're initializing Infinite Scroll (probably in your document ready function), set the behavior option to &#8220;simplyrecipes&#8221;.  Something like this:
 
 
 
@@ -119,7 +119,7 @@ Then, wherever you&#8217;re initializing Infinite Scroll (probably in your docum
 
 
 
-Don&#8217;t forget to style your pagination links.  We styled ours like a big button beneath the content to help communicate that that tapping the link will load more entries beneath it.
+Don't forget to style your pagination links.  We styled ours like a big button beneath the content to help communicate that that tapping the link will load more entries beneath it.
 
 
 
@@ -140,13 +140,13 @@ With just a little extra code you can use Google Analytics events to better eval
 
 
 
-We&#8217;ve added two Google Analytics event pushes to the code, one inside the <code>options.loading.start</code> function and one inside the <code>options.loading.finished</code> function.  The idea is that we want to send GA an event the first time infinite scroll is engaged (which is why we&#8217;re binding it to the initial click event) and another event each time a new page is loaded automatically by the plugin.  I&#8217;m assigning the label &#8220;Mobile&#8221; to these events, but you can use whatever makes sense for your GA set up.
+We've added two Google Analytics event pushes to the code, one inside the <code>options.loading.start</code> function and one inside the <code>options.loading.finished</code> function.  The idea is that we want to send GA an event the first time infinite scroll is engaged (which is why we're binding it to the initial click event) and another event each time a new page is loaded automatically by the plugin.  I'm assigning the label &#8220;Mobile&#8221; to these events, but you can use whatever makes sense for your GA set up.
 
 
 
 
 
-Here&#8217;s the complete code, with events included.  Be sure your GA code is already being loaded on the page somewhere:
+Here's the complete code, with events included.  Be sure your GA code is already being loaded on the page somewhere:
 
 
 

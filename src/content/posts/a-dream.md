@@ -31,13 +31,13 @@ The air is warm and the ash gray road feels like day old embers against my bare 
 
 
 
-Then come voices of old friends in the dark, talking to their children on front porches in the early morning hours before responsibility sets in.  For a moment I stop and thank them for motivating me, trying I suppose to reforge old friendships or simply experience again acquaintances that once were.  But the visits don&#8217;t last long.  It becomes quickly apparent&#8212;photos on the wall, a note on the table, someone unexpected walks in the room&#8212;that their lives are different now.  So I turn back to the road.
+Then come voices of old friends in the dark, talking to their children on front porches in the early morning hours before responsibility sets in.  For a moment I stop and thank them for motivating me, trying I suppose to reforge old friendships or simply experience again acquaintances that once were.  But the visits don't last long.  It becomes quickly apparent&#8212;photos on the wall, a note on the table, someone unexpected walks in the room&#8212;that their lives are different now.  So I turn back to the road.
 
 
 
 
 
-I&#8217;m looking down at that ash gray road when the sky explodes with sunrise.  The golden honey sunlight pours slow and sticky down the charcoal twilight.  My reflex grabs for a camera, but I&#8217;m without one, so I just laugh out loud.  I guess this one&#8217;s for me alone.
+I'm looking down at that ash gray road when the sky explodes with sunrise.  The golden honey sunlight pours slow and sticky down the charcoal twilight.  My reflex grabs for a camera, but I'm without one, so I just laugh out loud.  I guess this one's for me alone.
 
 
 

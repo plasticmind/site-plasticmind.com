@@ -37,7 +37,7 @@ Why is that funny?  Because of all the great things she makes, *cornbread* is no
 
 
 
-**Now I&#8217;m going to go hide.**
+**Now I'm going to go hide.**
 
 
 

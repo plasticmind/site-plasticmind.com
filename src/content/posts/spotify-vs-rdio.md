@@ -19,13 +19,13 @@ hits: 1596
 
 			
 
-A little over a year ago, I purchased a subscription to <a href="https://www.spotify.com/">Spotify</a> after a friend recommended it to me.  After a year of almost daily use, not only have I gotten my money&#8217;s worth, but I&#8217;m actually surprised at how foreign a concept it is to purchase an album.
+A little over a year ago, I purchased a subscription to <a href="https://www.spotify.com/">Spotify</a> after a friend recommended it to me.  After a year of almost daily use, not only have I gotten my money's worth, but I'm actually surprised at how foreign a concept it is to purchase an album.
 
 
 
 
 
-About a month ago, I got a new debit card from my bank and went through the whole process of updating card details across all my services.  I forgot about Spotify, and oddly enough they didn&#8217;t notify me when my old card failed and instead just downgraded my account.  I thought this was probably a good opportunity to give <a href="https://www.rdio.com/">Rdio</a> a try.  I&#8217;d been wanting to for a while since several of my friends use it and speak highly of it.
+About a month ago, I got a new debit card from my bank and went through the whole process of updating card details across all my services.  I forgot about Spotify, and oddly enough they didn't notify me when my old card failed and instead just downgraded my account.  I thought this was probably a good opportunity to give <a href="https://www.rdio.com/">Rdio</a> a try.  I'd been wanting to for a while since several of my friends use it and speak highly of it.
 
 
 
@@ -40,7 +40,7 @@ So, after reading through <a href="https://www.macgasm.net/2012/05/03/rdio-vs-mo
 
 
 
-I was immediately impressed by the UI.  Much cleaner and less antiquated than Spotify.  I was especially struck with how well they&#8217;ve nailed the social aspect of music listening.  The &#8220;Heavy Rotation&#8221; startup screen was especially useful because I could see what was most popular among my friends and jump right into the listening.  I was also glad to see a history tab.  I can&#8217;t tell you how many times I&#8217;ve wanted to go back to what I had been listening to earlier in the day on Spotify, only to find myself trying to recreate the search that brought me to discover the music in the first place.  Frustrating.
+I was immediately impressed by the UI.  Much cleaner and less antiquated than Spotify.  I was especially struck with how well they've nailed the social aspect of music listening.  The &#8220;Heavy Rotation&#8221; startup screen was especially useful because I could see what was most popular among my friends and jump right into the listening.  I was also glad to see a history tab.  I can't tell you how many times I've wanted to go back to what I had been listening to earlier in the day on Spotify, only to find myself trying to recreate the search that brought me to discover the music in the first place.  Frustrating.
 
 
 
@@ -61,13 +61,13 @@ Then I started to recreate some of my favorite Spotify playlists.
 
 
 
-Now, let me start by saying that much of this part will be anecdotal.  You might not care about any of the artists I&#8217;m going to mention, and it&#8217;s entirely possible that I just happened to stumble on every song that Rdio doesn&#8217;t have.  However, not being able to find much of the music I enjoy was a significant factor for me.
+Now, let me start by saying that much of this part will be anecdotal.  You might not care about any of the artists I'm going to mention, and it's entirely possible that I just happened to stumble on every song that Rdio doesn't have.  However, not being able to find much of the music I enjoy was a significant factor for me.
 
 
 
 
 
-I&#8217;ve got an ambient playlist in Spotify with about 270 songs in it, with artists like Hammock, Helios, Ulrich Schnauss and Airlock.  Nearly half of the songs I tried to add were not available in Rdio. 
+I've got an ambient playlist in Spotify with about 270 songs in it, with artists like Hammock, Helios, Ulrich Schnauss and Airlock.  Nearly half of the songs I tried to add were not available in Rdio. 
 
 
 
@@ -82,7 +82,7 @@ So I decided instead to start with some of my favorite artists.  I looked up Jon
 
 
 
-Put off, but not undeterred, I decided to stick with it for a week.  During that time, the feature I missed most from Spotify were the apps.  I use the <a href="https://www.spotify.com/us/blog/archives/2012/10/25/soundrop/">Soundrop app</a> for Spotify that gives you themed listening rooms where you can join others and vote on tracks to listen to.  There are <a href="https://venturebeat.com/2012/06/23/best-spotify-apps/#s:spotify-classify">many other great Spotify apps</a>.  <a href="https://techli.com/2012/03/spotify-introduces-music-discovery-app-filtr/">Filtr</a> will generate a playlist based on the style of a song.  <a href="https://www.moodagent.com/spotify">Moodagent</a> will build you a playlist based on a mood.  There are even editorial apps like <a href="https://www.spotifyclassical.com/">Ulysses&#8217; Classical</a> and <a href="https://pitchfork.com/news/46121-listen-to-albums-on-pitchfork-with-spotify/">Pitchfork</a> that review music and give you listening links inline.  Lots of neat ways to discover new music that I used regularly.
+Put off, but not undeterred, I decided to stick with it for a week.  During that time, the feature I missed most from Spotify were the apps.  I use the <a href="https://www.spotify.com/us/blog/archives/2012/10/25/soundrop/">Soundrop app</a> for Spotify that gives you themed listening rooms where you can join others and vote on tracks to listen to.  There are <a href="https://venturebeat.com/2012/06/23/best-spotify-apps/#s:spotify-classify">many other great Spotify apps</a>.  <a href="https://techli.com/2012/03/spotify-introduces-music-discovery-app-filtr/">Filtr</a> will generate a playlist based on the style of a song.  <a href="https://www.moodagent.com/spotify">Moodagent</a> will build you a playlist based on a mood.  There are even editorial apps like <a href="https://www.spotifyclassical.com/">Ulysses' Classical</a> and <a href="https://pitchfork.com/news/46121-listen-to-albums-on-pitchfork-with-spotify/">Pitchfork</a> that review music and give you listening links inline.  Lots of neat ways to discover new music that I used regularly.
 
 
 
@@ -91,7 +91,7 @@ Put off, but not undeterred, I decided to stick with it for a week.  During that
 
 
 
-I noticed a lot of other little nuisances with Rdio.  When listening to a song in the context of a playlist on the mobile app, you can&#8217;t play more from that album; Spotify shows you the album the song your listening to is from and lets you jump into the album to start listening.  While listening in the car, my wife and I both kept noticing little audio blips every 15 or 20 minutes during playback, almost like a bad CD rip.  The audio quality was also noticeably lower&#8212;noticeable enough that my wife asked me to switch back to Spotify.
+I noticed a lot of other little nuisances with Rdio.  When listening to a song in the context of a playlist on the mobile app, you can't play more from that album; Spotify shows you the album the song your listening to is from and lets you jump into the album to start listening.  While listening in the car, my wife and I both kept noticing little audio blips every 15 or 20 minutes during playback, almost like a bad CD rip.  The audio quality was also noticeably lower&#8212;noticeable enough that my wife asked me to switch back to Spotify.
 
 
 

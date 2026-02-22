@@ -25,7 +25,7 @@ Two years ago, almost to the day, I <a href="https://plasticmind.com/journeys/ra
 
 
 
-The new job offered several benefits: better structure, better pay, and the chance to learn and be stretched beyond the comfy office chair I&#8217;d come to fill in my small home office.
+The new job offered several benefits: better structure, better pay, and the chance to learn and be stretched beyond the comfy office chair I'd come to fill in my small home office.
 
 
 
@@ -43,25 +43,25 @@ However, all those benefits came with a steep price: three hours of commute almo
 
 
 
-Which is why, when Elise from <a href="https://simplyrecipes.com">Simply Recipes</a> approached me about working full time from home, the choice was simple, really.  I&#8217;ll be starting March 1 as VP of Technology at Simply Recipes.
+Which is why, when Elise from <a href="https://simplyrecipes.com">Simply Recipes</a> approached me about working full time from home, the choice was simple, really.  I'll be starting March 1 as VP of Technology at Simply Recipes.
 
 
 
 
 
-I&#8217;ll miss the technical challenges.  I&#8217;ll miss my coworkers.  I&#8217;ll miss <a href="https://www.flickr.com/photos/plasticmind/6461194791/in/photostream">the energy</a> of New York.  But I&#8217;m incredibly excited about all the creative new opportunities ahead at Simply Recipes and how much more intimately I&#8217;ll get to be involved in them.  I&#8217;m excited to get back into design.  I&#8217;m excited at how quickly we&#8217;ll be able to execute new ideas.  But mostly, I&#8217;m excited to be closer to my family.
+I'll miss the technical challenges.  I'll miss my coworkers.  I'll miss <a href="https://www.flickr.com/photos/plasticmind/6461194791/in/photostream">the energy</a> of New York.  But I'm incredibly excited about all the creative new opportunities ahead at Simply Recipes and how much more intimately I'll get to be involved in them.  I'm excited to get back into design.  I'm excited at how quickly we'll be able to execute new ideas.  But mostly, I'm excited to be closer to my family.
 
 
 
 
 
-I spent a few hours the other day reading through the interviews over at <a href="https://thegreatdiscontent.com/">The Great Discontent</a>.  So many of those <a href="https://thegreatdiscontent.com/dan-mall">talented</a>, <a href="https://thegreatdiscontent.com/rogie-king">creative</a> people talked about a great desire to leave behind a legacy, and that legacy was almost always wrapped up in some way with their family.  I can&#8217;t help but believe that doing right by my family is an important part of who I am, what I do and what I leave behind.
+I spent a few hours the other day reading through the interviews over at <a href="https://thegreatdiscontent.com/">The Great Discontent</a>.  So many of those <a href="https://thegreatdiscontent.com/dan-mall">talented</a>, <a href="https://thegreatdiscontent.com/rogie-king">creative</a> people talked about a great desire to leave behind a legacy, and that legacy was almost always wrapped up in some way with their family.  I can't help but believe that doing right by my family is an important part of who I am, what I do and what I leave behind.
 
 
 
 
 
-So&#8230; here&#8217;s to food blogging, here&#8217;s to new horizons, and here&#8217;s to family!
+So&#8230; here's to food blogging, here's to new horizons, and here's to family!
 
 
 

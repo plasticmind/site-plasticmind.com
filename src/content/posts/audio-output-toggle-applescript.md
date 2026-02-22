@@ -31,7 +31,7 @@ Necessity is the mother of invention, and with <a href="https://www.flickr.com/p
 
 			<!--more-->
 
-(If you&#8217;ve not used AppleScript before, the quick explanation is that you should copy and paste the code below into the **Script Editor** application.  For a more detailed understanding of it, check out <a href="https://developer.apple.com/applescript/">Apple&#8217;s developer guide for AppleScript</a>.)
+(If you've not used AppleScript before, the quick explanation is that you should copy and paste the code below into the **Script Editor** application.  For a more detailed understanding of it, check out <a href="https://developer.apple.com/applescript/">Apple's developer guide for AppleScript</a>.)
 
 
 
@@ -49,7 +49,7 @@ end tell
 
 
 
-This next part is a bit confusing, but it&#8217;s important to understand as you may want to customize it.  First, we&#8217;re targeting the Output tab (make sure &#8220;Enable Assistive Devices&#8221; is checked in the &#8220;Universal Access&#8221; preference pane) then we do a simple conditional statement.  If the second row on your sound output list (my Line Out) is currently selected, this tells your Mac to select the first row (my Headphones).  If not, it selects the second row.  You can easily customize this part to fit your specific needs.
+This next part is a bit confusing, but it's important to understand as you may want to customize it.  First, we're targeting the Output tab (make sure &#8220;Enable Assistive Devices&#8221; is checked in the &#8220;Universal Access&#8221; preference pane) then we do a simple conditional statement.  If the second row on your sound output list (my Line Out) is currently selected, this tells your Mac to select the first row (my Headphones).  If not, it selects the second row.  You can easily customize this part to fit your specific needs.
 
 
 
@@ -97,7 +97,7 @@ end tell
 
 
 
-In this last bit we&#8217;re <a href="https://growl.info/documentation/applescript-support.php">registering our AppleScript with Growl</a> and then passing along a notification we built from the variable we set up in the conditional statement (deviceselected).  And that&#8217;s it!
+In this last bit we're <a href="https://growl.info/documentation/applescript-support.php">registering our AppleScript with Growl</a> and then passing along a notification we built from the variable we set up in the conditional statement (deviceselected).  And that's it!
 
 
 
@@ -121,7 +121,7 @@ The last bit of magic is to save the script and <a href="https://leafraker.com/2
 
 
 
-Looking for more handy Quicksilver triggers?  Check out LifeHacker&#8217;s <a href="https://lifehacker.com/software/hack-attack/nine-time+saving-quicksilver-triggers-291520.php">Nine Time-Saving Quicksilver Triggers</a>  How about sharpening your AppleScript-fu?  Be sure to stop by <a href="https://macscripter.net/">https://macscripter.net/</a>.
+Looking for more handy Quicksilver triggers?  Check out LifeHacker's <a href="https://lifehacker.com/software/hack-attack/nine-time+saving-quicksilver-triggers-291520.php">Nine Time-Saving Quicksilver Triggers</a>  How about sharpening your AppleScript-fu?  Be sure to stop by <a href="https://macscripter.net/">https://macscripter.net/</a>.
 
 
 

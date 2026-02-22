@@ -25,7 +25,7 @@ hits: 550
 
 
 
-When Jessica and I got engaged, I wrote <a href="https://plasticmind.com/heart/the-boy-and-the-1/">a rather lengthy, sentimental account of our story</a> up to that point entitled *The Boy &amp; The Girl*.  Well, there&#8217;s nothing overly nostalgic about a 24th birthday or the two-year, five-month and three week anniversary of our wedding; so I decided to celebrate Jessica&#8217;s birthday by creating an abridged version.  (Besides, I&#8217;m not sure I fully grasped frame 4 before we were married.)
+When Jessica and I got engaged, I wrote <a href="https://plasticmind.com/heart/the-boy-and-the-1/">a rather lengthy, sentimental account of our story</a> up to that point entitled *The Boy &amp; The Girl*.  Well, there's nothing overly nostalgic about a 24th birthday or the two-year, five-month and three week anniversary of our wedding; so I decided to celebrate Jessica's birthday by creating an abridged version.  (Besides, I'm not sure I fully grasped frame 4 before we were married.)
 
 
 

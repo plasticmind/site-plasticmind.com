@@ -25,7 +25,7 @@ This year, our family just put up our very first real Christmas tree.  We drove 
 
 
 
-My childhood Christmases were filled with real trees: sticky sap, shedding needles and all.  In rural upstate New York, though, we&#8217;d usually have to trek through sprawling, snow-filled pine tree farms to find the tree we wanted to bring home.  After the decision was made, there was still the ordeal of chopping it down, hauling it a half-mile through the fields in sub-zero weather and scheming about the best way to attach it to the car.
+My childhood Christmases were filled with real trees: sticky sap, shedding needles and all.  In rural upstate New York, though, we'd usually have to trek through sprawling, snow-filled pine tree farms to find the tree we wanted to bring home.  After the decision was made, there was still the ordeal of chopping it down, hauling it a half-mile through the fields in sub-zero weather and scheming about the best way to attach it to the car.
 
 
 
@@ -37,13 +37,13 @@ Recreating this tradition again for the first time in a long time brought to min
 
 
 
-I brought home nearly 40 trees in all: a mix of Scotch Pine and Blue Spruce.  I can&#8217;t recall the exact prices, but think I charged $10 or $15 more for Blue Spruce because they had better &#8220;needle retention&#8221;.  I built some tree supports, decorated them with Christmas lights, then set up the trees in our large front yard.  Fortunately, we lived on Route 9 just north of Saratoga Springs, NY, so traffic was always heavy&#8212;a big asset when you&#8217;re selling Christmas trees on your front lawn.  As they say in business: location, location, location.
+I brought home nearly 40 trees in all: a mix of Scotch Pine and Blue Spruce.  I can't recall the exact prices, but think I charged $10 or $15 more for Blue Spruce because they had better &#8220;needle retention&#8221;.  I built some tree supports, decorated them with Christmas lights, then set up the trees in our large front yard.  Fortunately, we lived on Route 9 just north of Saratoga Springs, NY, so traffic was always heavy&#8212;a big asset when you're selling Christmas trees on your front lawn.  As they say in business: location, location, location.
 
 
 
 
 
-Most of the experience is a blur in my mind; I can only recall bits and pieces.  Keeping vigil at the front window, running outside when a car would pull up, making best the &#8220;I&#8217;m a young entrepreneur&#8221; sales pitch a young thespian could muster.  I vaguely remember tiring of the responsibility at times (more often than not, I&#8217;m sure), and mom or dad dutifully bundling up to collect money for me.  I remember wondering what to do with the extra trees that were left over.  I don&#8217;t even think I made very much off the whole thing&#8212;maybe $100 or $200 for the season.
+Most of the experience is a blur in my mind; I can only recall bits and pieces.  Keeping vigil at the front window, running outside when a car would pull up, making best the &#8220;I'm a young entrepreneur&#8221; sales pitch a young thespian could muster.  I vaguely remember tiring of the responsibility at times (more often than not, I'm sure), and mom or dad dutifully bundling up to collect money for me.  I remember wondering what to do with the extra trees that were left over.  I don't even think I made very much off the whole thing&#8212;maybe $100 or $200 for the season.
 
 
 
@@ -55,7 +55,7 @@ I learned a lot that Christmas season about taking risk, taking initiative, and 
 
 
 
-The most important lesson was not lost on me, though: **one of the greatest gifts you can give or receive is a nudge toward the unfamiliar**.  I&#8217;m profoundly thankful for the people in my life who challenged me to grow.  Most people see a Christmas tree and think about the presents under it; I see the tree and think about the year I was given the gift of courage.
+The most important lesson was not lost on me, though: **one of the greatest gifts you can give or receive is a nudge toward the unfamiliar**.  I'm profoundly thankful for the people in my life who challenged me to grow.  Most people see a Christmas tree and think about the presents under it; I see the tree and think about the year I was given the gift of courage.
 
 
 

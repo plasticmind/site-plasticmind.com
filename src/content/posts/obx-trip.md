@@ -31,7 +31,7 @@ Good friends of ours organized a trip to the Outer Banks of North Carolina.  The
 
 
 
-We did so much during the week that I could ramble on and on about all the details, but instead I&#8217;ll touch on the highlights:
+We did so much during the week that I could ramble on and on about all the details, but instead I'll touch on the highlights:
 
 
 
@@ -55,7 +55,7 @@ Jessica, Ethan and I made the trip down with my sister and her husband and one y
 
 
 
-The house was beautiful.  Unfortunately, I didn&#8217;t take a video tour of the place like I wanted to, so you&#8217;ll have to imagine from the pictures.  The house had three floors and we were on the top with a balcony looking out over Currituck Bay.
+The house was beautiful.  Unfortunately, I didn't take a video tour of the place like I wanted to, so you'll have to imagine from the pictures.  The house had three floors and we were on the top with a balcony looking out over Currituck Bay.
 
 
 
@@ -67,7 +67,7 @@ The house was beautiful.  Unfortunately, I didn&#8217;t take a video tour of the
 
 
 
-It also had a heated pool (at times frigid and at other times scalding) where we discovered much to our surprise (you may recall <a href="https://www.flickr.com/photos/plasticmind/3486247840/">our kiddie pool adventure</a>) that Ethan is a water rat.  He&#8217;s also a big connoisseur of sand&#8212;I think he ate four or five handfuls before we caught on.
+It also had a heated pool (at times frigid and at other times scalding) where we discovered much to our surprise (you may recall <a href="https://www.flickr.com/photos/plasticmind/3486247840/">our kiddie pool adventure</a>) that Ethan is a water rat.  He's also a big connoisseur of sand&#8212;I think he ate four or five handfuls before we caught on.
 
 
 
@@ -79,7 +79,7 @@ It also had a heated pool (at times frigid and at other times scalding) where we
 
 
 
-The shoreline was littered with crabs&#8212;mostly <a href="https://en.wikipedia.org/wiki/Blue_crab">blue crabs</a>&#8212;though they were usually tucked away in their holes.  At night, they&#8217;d come out in droves and you could see fifty to a hundred any where you shined a flashlight.
+The shoreline was littered with crabs&#8212;mostly <a href="https://en.wikipedia.org/wiki/Blue_crab">blue crabs</a>&#8212;though they were usually tucked away in their holes.  At night, they'd come out in droves and you could see fifty to a hundred any where you shined a flashlight.
 
 
 
@@ -91,7 +91,7 @@ The shoreline was littered with crabs&#8212;mostly <a href="https://en.wikipedia
 
 
 
-We were surprisingly close to Kitty Hawk, so we decided to brave the foul weather and visit the Wright Brother&#8217;s Museum and <a href="https://www.flickr.com/photos/plasticmind/3504744477/">Kill Devil Hill</a> where <a href="https://www.flickr.com/photos/plasticmind/3504094369/">Orville and Wilbur made the first engine powered flight</a>.  We stopped by Cap&#8217;n Frank&#8217;s Hot Dog stand on the way home and had all manner of heartburn-inducing dogs and some <a href="https://www.flickr.com/photos/plasticmind/3505548202/">real, honest-to-goodness hushpuppies</a>.
+We were surprisingly close to Kitty Hawk, so we decided to brave the foul weather and visit the Wright Brother's Museum and <a href="https://www.flickr.com/photos/plasticmind/3504744477/">Kill Devil Hill</a> where <a href="https://www.flickr.com/photos/plasticmind/3504094369/">Orville and Wilbur made the first engine powered flight</a>.  We stopped by Cap'n Frank's Hot Dog stand on the way home and had all manner of heartburn-inducing dogs and some <a href="https://www.flickr.com/photos/plasticmind/3505548202/">real, honest-to-goodness hushpuppies</a>.
 
 
 
@@ -103,7 +103,7 @@ We were surprisingly close to Kitty Hawk, so we decided to brave the foul weathe
 
 
 
-Pelicans and dolphins frequented the ocean just off the beach.  The pelicans would fly <a href="https://www.flickr.com/photos/plasticmind/3504886651/">in groups of three to six just above the water</a> looking for food, sometimes riding just under the crest of the wave like a surfer.  When several pods of dolphins came past the house, one of our friends swam out close and the dolphins responded by coming in close to the shore&#8212;within fifty feet or so&#8212;and began performing for us, flipping in the air and dancing with each other.  It was tough to guess where they would be jumping out the water, so that&#8217;s why the pictures aren&#8217;t nearly as stunning as being there.
+Pelicans and dolphins frequented the ocean just off the beach.  The pelicans would fly <a href="https://www.flickr.com/photos/plasticmind/3504886651/">in groups of three to six just above the water</a> looking for food, sometimes riding just under the crest of the wave like a surfer.  When several pods of dolphins came past the house, one of our friends swam out close and the dolphins responded by coming in close to the shore&#8212;within fifty feet or so&#8212;and began performing for us, flipping in the air and dancing with each other.  It was tough to guess where they would be jumping out the water, so that's why the pictures aren't nearly as stunning as being there.
 
 
 
@@ -133,7 +133,7 @@ Not only was the shore littered with crabs, but all sorts of bizarre sea treasur
 
 
 
-The weather was perhaps the biggest surprise of the week.  The weather report predicted rain all week, but I forgot that when you&#8217;re near the ocean, the storms move in and out rather quickly.  So while each day had rain, it only lasted a few hours and the rest of the day was gorgeous&#8212;making for <a href="https://www.flickr.com/photos/plasticmind/3520903512/">beautiful kite flying weather</a>!
+The weather was perhaps the biggest surprise of the week.  The weather report predicted rain all week, but I forgot that when you're near the ocean, the storms move in and out rather quickly.  So while each day had rain, it only lasted a few hours and the rest of the day was gorgeous&#8212;making for <a href="https://www.flickr.com/photos/plasticmind/3520903512/">beautiful kite flying weather</a>!
 
 
 
@@ -145,7 +145,7 @@ The weather was perhaps the biggest surprise of the week.  The weather report pr
 
 
 
-Of course, big storms make for dramatic sunsets and sunrises.  (Sadly, the picture of the thunderstorm didn&#8217;t turn out.)
+Of course, big storms make for dramatic sunsets and sunrises.  (Sadly, the picture of the thunderstorm didn't turn out.)
 
 
 
@@ -157,7 +157,7 @@ Of course, big storms make for dramatic sunsets and sunrises.  (Sadly, the pictu
 
 
 
-There were so many other wonderful things about the week: <a href="https://www.flickr.com/photos/plasticmind/3520905792/">exploring Corolla</a>, <a href="https://www.flickr.com/photos/plasticmind/3520905432/">relaxing on the beach</a>, <a href="https://www.flickr.com/photos/plasticmind/3520902534/">taking pictures</a>, Nerf wars, <a href="https://www.flickr.com/photos/plasticmind/3504306716/">rainbows</a>, <a href="https://www.flickr.com/photos/plasticmind/3520907942/">friends</a> and <a href="https://www.flickr.com/photos/plasticmind/3520907942/">family</a>.  But it&#8217;s Monday again, so I&#8217;ve got to file those under memories now and move on!
+There were so many other wonderful things about the week: <a href="https://www.flickr.com/photos/plasticmind/3520905792/">exploring Corolla</a>, <a href="https://www.flickr.com/photos/plasticmind/3520905432/">relaxing on the beach</a>, <a href="https://www.flickr.com/photos/plasticmind/3520902534/">taking pictures</a>, Nerf wars, <a href="https://www.flickr.com/photos/plasticmind/3504306716/">rainbows</a>, <a href="https://www.flickr.com/photos/plasticmind/3520907942/">friends</a> and <a href="https://www.flickr.com/photos/plasticmind/3520907942/">family</a>.  But it's Monday again, so I've got to file those under memories now and move on!
 
 
 

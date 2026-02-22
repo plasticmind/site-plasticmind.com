@@ -25,13 +25,13 @@ Well, my trip to San Francisco has already proved mighty interesting.
 
 
 
-First, there was the guy who cut in front of a line of about 400 people at Philadelphia International waiting to get through security.  He told the lady in front of me that he had a job interview and that his flight left in 20 minutes.  I didn&#8217;t say much about it, but the lady behind me was just plain nasty.  She told him that he had to wait just like everyone else, even if he missed his flight.  When he didn&#8217;t move, she shouted loudly that she was going to put a jinx on his interview.  I told him to be sure to preface his interview with the fact that he&#8217;d been jinxed.  People never cease to amaze me.
+First, there was the guy who cut in front of a line of about 400 people at Philadelphia International waiting to get through security.  He told the lady in front of me that he had a job interview and that his flight left in 20 minutes.  I didn't say much about it, but the lady behind me was just plain nasty.  She told him that he had to wait just like everyone else, even if he missed his flight.  When he didn't move, she shouted loudly that she was going to put a jinx on his interview.  I told him to be sure to preface his interview with the fact that he'd been jinxed.  People never cease to amaze me.
 
 
 
 
 
-On the plane, I sat next to Deborah, a very kind lesbian with whom I probably disagreed with on most everything; but we had a very heartfelt talk about what&#8217;s wrong with the world and what morality really means.  We talked about her Catholic upbringing and the impact that had on her perception of God today.  Very interesting, to be sure.  Much more interesting than Fantastic Four: Rise of The Silver Surfer.
+On the plane, I sat next to Deborah, a very kind lesbian with whom I probably disagreed with on most everything; but we had a very heartfelt talk about what's wrong with the world and what morality really means.  We talked about her Catholic upbringing and the impact that had on her perception of God today.  Very interesting, to be sure.  Much more interesting than Fantastic Four: Rise of The Silver Surfer.
 
 
 
@@ -43,13 +43,13 @@ The arrival in San Francisco was uneventful.  San Francisco International remind
 
 
 
-The hostel scared me at first.  It looks like a Starbucks with rooms.  And then there are rooms you&#8217;d normally find in a house, like a kitchen.  But everyone mills around them; some people watching movies, some people using computers, everyone looking like hippies (nice ones).  And, drat it all, I got a top bunk.
+The hostel scared me at first.  It looks like a Starbucks with rooms.  And then there are rooms you'd normally find in a house, like a kitchen.  But everyone mills around them; some people watching movies, some people using computers, everyone looking like hippies (nice ones).  And, drat it all, I got a top bunk.
 
 
 
 
 
-Sheesh.  It&#8217;s midnight here, but it feels like 3am to me.  I&#8217;m fading fast.  Tomorrow I meet up with Arvind and Elise and we do lunch with Six Apart.  I&#8217;ll keep you all posted.
+Sheesh.  It's midnight here, but it feels like 3am to me.  I'm fading fast.  Tomorrow I meet up with Arvind and Elise and we do lunch with Six Apart.  I'll keep you all posted.
 
 
 

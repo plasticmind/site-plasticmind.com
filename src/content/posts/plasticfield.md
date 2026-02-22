@@ -19,7 +19,7 @@ hits: 402
 
 			
 
-Thanks to <a href="https://endevver.com">Jay</a> and <a href="https://movalog.com">Arvind</a>, I&#8217;ve finally finished my first plugin, **PlasticField**.  I&#8217;d appreciate any <a href="https://plasticmind.com/contact/">feedback</a> on it you may have.
+Thanks to <a href="https://endevver.com">Jay</a> and <a href="https://movalog.com">Arvind</a>, I've finally finished my first plugin, **PlasticField**.  I'd appreciate any <a href="https://plasticmind.com/contact/">feedback</a> on it you may have.
 
 
 
@@ -28,7 +28,7 @@ Thanks to <a href="https://endevver.com">Jay</a> and <a href="https://movalog.co
 
 
 
-This plugin gives you a new custom field type (&#8216;Formatted Multi-Line Text Field&#8217;) with familiar formatting buttons as well as resizing controls instead of the bare boxes that CustomFields provides by default.  Extremely handy if you&#8217;re using Movable Type&#8217;s Custom Fields extensively as a CMS.
+This plugin gives you a new custom field type (&#8216;Formatted Multi-Line Text Field') with familiar formatting buttons as well as resizing controls instead of the bare boxes that CustomFields provides by default.  Extremely handy if you're using Movable Type's Custom Fields extensively as a CMS.
 
 
 
@@ -58,7 +58,7 @@ PlasticField requires that you have <a href="https://www.movabletype.com/product
 
 
 
-This plugin is free and is provided as-is.  You can use it, redistribute it and/or modify it.  You just can&#8217;t start reselling it as-is.  If you have a problem and would like to submit a fix, let me know.  **If you&#8217;d like to hire me to install it for you or just make your website look good, <a href="https://plasticmind.com/contact/">drop me a line</a>.**
+This plugin is free and is provided as-is.  You can use it, redistribute it and/or modify it.  You just can't start reselling it as-is.  If you have a problem and would like to submit a fix, let me know.  **If you'd like to hire me to install it for you or just make your website look good, <a href="https://plasticmind.com/contact/">drop me a line</a>.**
 
 
 
@@ -77,7 +77,7 @@ contents of /mt-static/ to your static directory.
 
 
 
-Look for changes to your Customfields » New Field screen.  If you&#8217;ve installed it correctly, the field type dropdown on the New Field screen should list &#8220;Formatted Multi-Line Text Area&#8221; as one of the choices.
+Look for changes to your Customfields » New Field screen.  If you've installed it correctly, the field type dropdown on the New Field screen should list &#8220;Formatted Multi-Line Text Area&#8221; as one of the choices.
 
 
 
@@ -86,7 +86,7 @@ Look for changes to your Customfields » New Field screen.  If you&#8217;ve inst
 
 
 
-Some people have asked about enabling these formatting controls on existing fields.  To do that, you must specify a different field type for the field, and that&#8217;s not something you can do from the application yet (I&#8217;d really like to address in a future release).  If you&#8217;re feeling bold and have made a backup recently, you can edit the mt-fields table in your database and change the field-type from &#8216;textarea&#8217; to &#8216;formatted_field&#8217; in any of the fields you want converted.  **Do this at your own risk!**
+Some people have asked about enabling these formatting controls on existing fields.  To do that, you must specify a different field type for the field, and that's not something you can do from the application yet (I'd really like to address in a future release).  If you're feeling bold and have made a backup recently, you can edit the mt-fields table in your database and change the field-type from &#8216;textarea' to &#8216;formatted_field' in any of the fields you want converted.  **Do this at your own risk!**
 
 
 

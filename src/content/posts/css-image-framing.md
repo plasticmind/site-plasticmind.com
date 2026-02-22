@@ -17,12 +17,12 @@ hits: 4625
 ---
 
 
-### Images and Frames&#8230; What&#8217;s a Blog To Do?
+### Images and Frames&#8230; What's a Blog To Do?
 
 
 
 
-The initial draft I created for the new Plasticmind.com had rounded frames with drop shadows for the portfolio thumbnails.  Now, I had to create each thumbnail by hand anyhow, so I could have just applied the frame and drop shadow in Photoshop.  However, after deciding to pull my recent photo thumbnails from Flickr, I realized that I had to find a way to automate this.  The first thing that came to mind was using Image::Magick to import the thumbnails and then lay a frame over them.  But that&#8217;s a lot of coding, a lot of processing power, and worst of all, a whole lot a disk space for hosting these fancified thumbnails.
+The initial draft I created for the new Plasticmind.com had rounded frames with drop shadows for the portfolio thumbnails.  Now, I had to create each thumbnail by hand anyhow, so I could have just applied the frame and drop shadow in Photoshop.  However, after deciding to pull my recent photo thumbnails from Flickr, I realized that I had to find a way to automate this.  The first thing that came to mind was using Image::Magick to import the thumbnails and then lay a frame over them.  But that's a lot of coding, a lot of processing power, and worst of all, a whole lot a disk space for hosting these fancified thumbnails.
 
 
 
@@ -49,7 +49,7 @@ First, the concept:
 
 
 
-We begin with a thumbnail from Flickr.  Then we&#8217;ll need to create a transparent frame that will be placed over our thumbnail.  (If the frame is larger than the thumbnail, we&#8217;ll have to factor some padding into our styling.) The best part about this approach is that the frame is applied via CSS while your thumbnails are placed, as they should be, with HTML.  Some framing techniques involve placing your thumbnail as a CSS background on a frame image, but a view of the unstyled page reveals a list of empty frames.  Not exactly accessible.  But since our frame is placed over the thumbnails with CSS, people who choose to turn off styling or search engines that don&#8217;t process CSS see a list of thumbnails, which is precisely what you want.
+We begin with a thumbnail from Flickr.  Then we'll need to create a transparent frame that will be placed over our thumbnail.  (If the frame is larger than the thumbnail, we'll have to factor some padding into our styling.) The best part about this approach is that the frame is applied via CSS while your thumbnails are placed, as they should be, with HTML.  Some framing techniques involve placing your thumbnail as a CSS background on a frame image, but a view of the unstyled page reveals a list of empty frames.  Not exactly accessible.  But since our frame is placed over the thumbnails with CSS, people who choose to turn off styling or search engines that don't process CSS see a list of thumbnails, which is precisely what you want.
 
 
 
@@ -74,7 +74,7 @@ Now, on to the markup:
 
 
 
-This is semantic goodness.  It&#8217;s a list of thumbnails.  Without any styling, here&#8217;s what you get:
+This is semantic goodness.  It's a list of thumbnails.  Without any styling, here's what you get:
 
 
 
@@ -84,7 +84,7 @@ This is semantic goodness.  It&#8217;s a list of thumbnails.  Without any stylin
 
 
 
-Our thumbnail is 75px and it&#8217;s inside an unordered list.  We&#8217;ve also got a span element in there (with a <code>&amp;nbsp;</code> inside since some browsers ignore empty tags) that we&#8217;ll use to create the frame.  We&#8217;ll set the dimensions of the span, give it a background image (our frame) and position it over top the thumbnail.  
+Our thumbnail is 75px and it's inside an unordered list.  We've also got a span element in there (with a <code>&amp;nbsp;</code> inside since some browsers ignore empty tags) that we'll use to create the frame.  We'll set the dimensions of the span, give it a background image (our frame) and position it over top the thumbnail.  
 
 
 
@@ -93,7 +93,7 @@ Our thumbnail is 75px and it&#8217;s inside an unordered list.  We&#8217;ve also
 
 
 
-Here&#8217;s the CSS:
+Here's the CSS:
 
 
 
@@ -128,25 +128,25 @@ Here&#8217;s the CSS:
 
 
 
-Let&#8217;s go through these one at a time.  First, <code>.thumbs ul, .thumbs li</code> and <code>.thumbs a</code> - we&#8217;re turning off the default styling for lists and anchors.  We don&#8217;t really want bullets or underlines for our thumbnails.
+Let's go through these one at a time.  First, <code>.thumbs ul, .thumbs li</code> and <code>.thumbs a</code> - we're turning off the default styling for lists and anchors.  We don't really want bullets or underlines for our thumbnails.
 
 
 
 
 
-Next, <code>.thumbs li</code>.  We&#8217;re going for a grid of thumbnails, so we&#8217;re going too float them left so they pile up nicely in a grid.  The padding pushes the thumbnails 5 pixels from the top and left and helps center the thumb inside my frame.  This might need tweaking based on the size on your frame relative to the size of your thumbs.  Position relative is essential because when we set the position of the span to absolute, we want the browser to know that we mean absolute *inside* the list item (as opposed to the entire page.)  Then we set the width and height of the list item to the width and height of the frame image.
+Next, <code>.thumbs li</code>.  We're going for a grid of thumbnails, so we're going too float them left so they pile up nicely in a grid.  The padding pushes the thumbnails 5 pixels from the top and left and helps center the thumb inside my frame.  This might need tweaking based on the size on your frame relative to the size of your thumbs.  Position relative is essential because when we set the position of the span to absolute, we want the browser to know that we mean absolute *inside* the list item (as opposed to the entire page.)  Then we set the width and height of the list item to the width and height of the frame image.
 
 
 
 
 
-Finally, <code>.thumbs a span</code>.  Here&#8217;s where the magic happens.  First, we set the position to absolute and specify the top and left placement.  In laymen&#8217;s terms, this is basically, &#8220;put this in the top left most corner of the container it&#8217;s in.&#8221;  Because it&#8217;s in a relatively placed list item, this span will get placed in the upper-left-most corner of said list item.  Then we specify the width and height and set the background image and voila!  Our frames are laid over top of our images.  (We use overflow:hidden to make sure nothing gets spilled out of the frame.)
+Finally, <code>.thumbs a span</code>.  Here's where the magic happens.  First, we set the position to absolute and specify the top and left placement.  In laymen's terms, this is basically, &#8220;put this in the top left most corner of the container it's in.&#8221;  Because it's in a relatively placed list item, this span will get placed in the upper-left-most corner of said list item.  Then we specify the width and height and set the background image and voila!  Our frames are laid over top of our images.  (We use overflow:hidden to make sure nothing gets spilled out of the frame.)
 
 
 
 
 
-The only thing left is our mouseover.  What I&#8217;ve found works best for image rollovers is background positioning.  The idea is this: my frame image is actually 176 pixels high (88 x 2).  The top half of my frame image is the normal state of the frame.  The bottom half is the rollover state of the frame.  Then in my stylesheet, I specify &#8216;top&#8217; in my background-image declaration for <code>.thumbs a</code> and and &#8216;bottom&#8217; for <code>.thumbs a:hover</code>.  Now, the browser doesn&#8217;t have to fetch another image when you mouse over something, it&#8217;s already loaded.  (Please note that while most browsers support :hover for all elements, Internet Explorer only supports :hover with the anchor tag.)
+The only thing left is our mouseover.  What I've found works best for image rollovers is background positioning.  The idea is this: my frame image is actually 176 pixels high (88 x 2).  The top half of my frame image is the normal state of the frame.  The bottom half is the rollover state of the frame.  Then in my stylesheet, I specify &#8216;top' in my background-image declaration for <code>.thumbs a</code> and and &#8216;bottom' for <code>.thumbs a:hover</code>.  Now, the browser doesn't have to fetch another image when you mouse over something, it's already loaded.  (Please note that while most browsers support :hover for all elements, Internet Explorer only supports :hover with the anchor tag.)
 
 
 
@@ -155,7 +155,7 @@ The only thing left is our mouseover.  What I&#8217;ve found works best for imag
 
 
 
-Of course, IE6 does not correctly support alpha transparency, so if you want to make sure people using that browser can see your thumbnails, you&#8217;ll need to create a .gif version of your frame and then specify it using an IE-only stylesheet.  (<a href="https://virtuelvis.com/archives/2004/02/css-ie-only">Best practice says do this via conditional comments.</a>)
+Of course, IE6 does not correctly support alpha transparency, so if you want to make sure people using that browser can see your thumbnails, you'll need to create a .gif version of your frame and then specify it using an IE-only stylesheet.  (<a href="https://virtuelvis.com/archives/2004/02/css-ie-only">Best practice says do this via conditional comments.</a>)
 
 
 
@@ -175,7 +175,7 @@ Your IE stylesheet would look something like this:
 
 
 
-What we end up with is a semantically correct, search-engine friendly list of thumbnails that look fantastic.  And the design possibilities are endless.  There&#8217;s <a href="https://www.digital-web.com/articles/web_standards_creativity_png/">a whole lot you can do</a> with alpha transparency.  White out your images.  Create translucent overlays.  Gradients, copyrights, watermarks, masks&#8230; go crazy.
+What we end up with is a semantically correct, search-engine friendly list of thumbnails that look fantastic.  And the design possibilities are endless.  There's <a href="https://www.digital-web.com/articles/web_standards_creativity_png/">a whole lot you can do</a> with alpha transparency.  White out your images.  Create translucent overlays.  Gradients, copyrights, watermarks, masks&#8230; go crazy.
 
 
 

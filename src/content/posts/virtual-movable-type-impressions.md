@@ -22,7 +22,7 @@ hits: 396
 
 
 
-Ok, the first question that nearly everyone asks when they hear about **Virtual Movable Type** is: &#8220;What&#8217;s the virtual part all about?&#8221;  From the readme file:
+Ok, the first question that nearly everyone asks when they hear about **Virtual Movable Type** is: &#8220;What's the virtual part all about?&#8221;  From the readme file:
 
 
 
@@ -36,7 +36,7 @@ JumpBox virtual appliances are the easiest path to running server based applicat
 
 
 
-The long and short is that a pre-packaged version of Movable Type is bundled up and ready to run with any software that handles virtual appliances.  Some servers support this natively which turns running MT into drag-and-drop simplicity.  You can also use different desktop virtualization packages like <a href="https://www.parallels.com/">Parallels</a> or <a href="https://www.vmware.com/products/player/">VMware</a> (the VMware player is free).  I&#8217;ll be talking about my experience with Virtual MT and Parallels in this article.
+The long and short is that a pre-packaged version of Movable Type is bundled up and ready to run with any software that handles virtual appliances.  Some servers support this natively which turns running MT into drag-and-drop simplicity.  You can also use different desktop virtualization packages like <a href="https://www.parallels.com/">Parallels</a> or <a href="https://www.vmware.com/products/player/">VMware</a> (the VMware player is free).  I'll be talking about my experience with Virtual MT and Parallels in this article.
 
 
 
@@ -45,13 +45,13 @@ The long and short is that a pre-packaged version of Movable Type is bundled up 
 
 
 
-Ok, that subtitle sucks, but the installation sure didn&#8217;t.
+Ok, that subtitle sucks, but the installation sure didn't.
 
 
 
 
 
-**1.** <a href="https://www.jumpbox.com/download-page?application=movabletype">Download Virtual Movable Type from Jumpbox.</a>  You don&#8217;t even have to fill in any information to get at the file (which actually surprised me).
+**1.** <a href="https://www.jumpbox.com/download-page?application=movabletype">Download Virtual Movable Type from Jumpbox.</a>  You don't even have to fill in any information to get at the file (which actually surprised me).
 
 
 
@@ -63,7 +63,7 @@ Ok, that subtitle sucks, but the installation sure didn&#8217;t.
 
 
 
-**2. Unzip the downloaded file.**  If you&#8217;re running VMware, Parallels or some other virtualization software, <code>Jumpbox.pvs</code> should show up ready to run.  One click and Parallels booted up my new Virtual Movable Type server.
+**2. Unzip the downloaded file.**  If you're running VMware, Parallels or some other virtualization software, <code>Jumpbox.pvs</code> should show up ready to run.  One click and Parallels booted up my new Virtual Movable Type server.
 
 
 
@@ -75,7 +75,7 @@ Ok, that subtitle sucks, but the installation sure didn&#8217;t.
 
 
 
-**3. Log into the local Jumpbox panel from your browser.**  Once Parallels boots up, it will show you two IP addresses, one for accessing Movable Type and one managing the Jumpbox virtual server that&#8217;s running.  Log into Jumpbox and you&#8217;ll be able to set up your account as well as turn on features like SSH, SFTP and stats.
+**3. Log into the local Jumpbox panel from your browser.**  Once Parallels boots up, it will show you two IP addresses, one for accessing Movable Type and one managing the Jumpbox virtual server that's running.  Log into Jumpbox and you'll be able to set up your account as well as turn on features like SSH, SFTP and stats.
 
 
 
@@ -87,7 +87,7 @@ Ok, that subtitle sucks, but the installation sure didn&#8217;t.
 
 
 
-**4. Log into Virtual Movable Type.**  One thing they don&#8217;t point on well enough in the docs is that **your username is &#8216;admin&#8217;** and **your password is your Jumpbox password**.  One you&#8217;re in, everything should look familiar.  Now enjoy the new blog smell for a moment.
+**4. Log into Virtual Movable Type.**  One thing they don't point on well enough in the docs is that **your username is &#8216;admin'** and **your password is your Jumpbox password**.  One you're in, everything should look familiar.  Now enjoy the new blog smell for a moment.
 
 
 
@@ -96,7 +96,7 @@ Ok, that subtitle sucks, but the installation sure didn&#8217;t.
 
 
 
-**Security exception.**  When I first logged into Jumbox, it came up with a security certificate that I had to make an exception for.  I&#8217;m not sure if that&#8217;s because I logged in via the IP address and not the server name it created.  The readme clarifies: 
+**Security exception.**  When I first logged into Jumbox, it came up with a security certificate that I had to make an exception for.  I'm not sure if that's because I logged in via the IP address and not the server name it created.  The readme clarifies: 
 
 
 
@@ -110,7 +110,7 @@ The initial JumpBox Configuration process is no longer encrypted.  After the set
 
 
 
-**Can&#8217;t remove default blog.**  And you can&#8217;t change the default publishing path.  Well, you can, but it&#8217;s difficult to fix if you do.  The title can be changed and additional blogs can be created (just be sure to use the default URL that&#8217;s suggested).
+**Can't remove default blog.**  And you can't change the default publishing path.  Well, you can, but it's difficult to fix if you do.  The title can be changed and additional blogs can be created (just be sure to use the default URL that's suggested).
 
 
 
@@ -159,13 +159,13 @@ I can see Virtual Movable Type being useful in many cases:
 
 
 
-**Demoing Movable Type to clients.**  Sometimes you either don&#8217;t have internet access or don&#8217;t have a fresh install of MT set up when meeting with prospective clients.  Running MT as easily as a desktop app makes it much easier to show off.
+**Demoing Movable Type to clients.**  Sometimes you either don't have internet access or don't have a fresh install of MT set up when meeting with prospective clients.  Running MT as easily as a desktop app makes it much easier to show off.
 
 
 
 
 
-**Sandboxing and development.**  Being able to create a virtual clean slate for testing is extremely valuable and far less risky than testing live (take it from someone who knows, right <a href="https://twitter.com/djacobs">@djacobs</a>?).  Couple that with Movable Type&#8217;s powerful export feature and Jumpbox&#8217;s powerful backup feature (Jumpbox provides a way for users to specify which files or directories get backed up with their backup tool).
+**Sandboxing and development.**  Being able to create a virtual clean slate for testing is extremely valuable and far less risky than testing live (take it from someone who knows, right <a href="https://twitter.com/djacobs">@djacobs</a>?).  Couple that with Movable Type's powerful export feature and Jumpbox's powerful backup feature (Jumpbox provides a way for users to specify which files or directories get backed up with their backup tool).
 
 
 

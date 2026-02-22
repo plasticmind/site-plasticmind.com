@@ -19,13 +19,13 @@ hits: 215
 
 			
 
-Last year, I wrote about some <a href="https://plasticmind.com/wordpress/wordpress-hrecipe-gotcha/">trouble we were having with Google&#8217;s rich snippets</a> for recipes.  In a nutshell, when Google saw the <code>.hentry</code> class on our recipe page, it ignored the <code>.hrecipe</code> class that Google uses to determine if a page is a recipe or not.  Subsequently, all of our lovely recipe photos stopped showing up in the search results.  (Boo.)
+Last year, I wrote about some <a href="https://plasticmind.com/wordpress/wordpress-hrecipe-gotcha/">trouble we were having with Google's rich snippets</a> for recipes.  In a nutshell, when Google saw the <code>.hentry</code> class on our recipe page, it ignored the <code>.hrecipe</code> class that Google uses to determine if a page is a recipe or not.  Subsequently, all of our lovely recipe photos stopped showing up in the search results.  (Boo.)
 
 
 
 
 
-We recently noticed that instead of food photos next to the results, Elise&#8217;s avatar was showing up.  This is the treatment given to news articles that have a verified author.
+We recently noticed that instead of food photos next to the results, Elise's avatar was showing up.  This is the treatment given to news articles that have a verified author.
 
 
 
@@ -37,13 +37,13 @@ We recently noticed that instead of food photos next to the results, Elise&#8217
 
 
 
-It goes without saying that people want to see what they&#8217;re thinking of cooking, so we really wanted to figure out why our photos had disappeared.  We hadn&#8217;t changed anything recently in the code, so we were at a bit of a loss.
+It goes without saying that people want to see what they're thinking of cooking, so we really wanted to figure out why our photos had disappeared.  We hadn't changed anything recently in the code, so we were at a bit of a loss.
 
 
 
 
 
-<a href="https://support.google.com/webmasters/answer/99170?hl=en">Google&#8217;s rich snippet guidelines</a> indicates that you can use either schema.org microdata (itemprop and itemscope) or microformats (hrecipe and semantic classes).  We had chosen the microformats approach since it required less markup and felt like a more natural and semantic integration into our pages.  
+<a href="https://support.google.com/webmasters/answer/99170?hl=en">Google's rich snippet guidelines</a> indicates that you can use either schema.org microdata (itemprop and itemscope) or microformats (hrecipe and semantic classes).  We had chosen the microformats approach since it required less markup and felt like a more natural and semantic integration into our pages.  
 
 
 
@@ -55,7 +55,7 @@ A bit later, we decided to include the schema.org microdata on the page as well,
 
 
 
-I wasn&#8217;t sure exactly where to start (any SEO talk requires a bit of black magic).  Obviously, Google has been trying to promote Google+ and <a href="https://plus.google.com/authorship">Google Authorship</a>, so I thought perhaps Google was just emphasizing authorship over any recipe formatting.  My initial thought was to strip out Google Authorship.  
+I wasn't sure exactly where to start (any SEO talk requires a bit of black magic).  Obviously, Google has been trying to promote Google+ and <a href="https://plus.google.com/authorship">Google Authorship</a>, so I thought perhaps Google was just emphasizing authorship over any recipe formatting.  My initial thought was to strip out Google Authorship.  
 
 
 
@@ -73,13 +73,13 @@ However, I decided to strip out all of the microformatting.  I removed the <code
 
 
 
-One other interesting side note: the formatting of my search results while logged in to Google seem to lag behind the general public.  When I noticed the thumbnails were missing while not logged in and searching, they were still showing up for me when I was signed in and searching. Now they&#8217;re back in the public search, but if I&#8217;m logged in I still get the version without the thumbnails.
+One other interesting side note: the formatting of my search results while logged in to Google seem to lag behind the general public.  When I noticed the thumbnails were missing while not logged in and searching, they were still showing up for me when I was signed in and searching. Now they're back in the public search, but if I'm logged in I still get the version without the thumbnails.
 
 
 
 
 
-Moral of the story: always be sure to check your searches without being logged in.  (I&#8217;ve also noticed some slight variations while searching from different parts of the country, but nothing conclusive.)
+Moral of the story: always be sure to check your searches without being logged in.  (I've also noticed some slight variations while searching from different parts of the country, but nothing conclusive.)
 
 
 

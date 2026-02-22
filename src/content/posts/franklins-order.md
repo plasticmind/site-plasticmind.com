@@ -19,7 +19,7 @@ hits: 212
 
 			
 
-I&#8217;ve recently been reading through Benjamin Franklin&#8217;s autobiography and have found it both enlightening and humorous.  I particularly enjoy his systematic attempts to better himself.
+I've recently been reading through Benjamin Franklin's autobiography and have found it both enlightening and humorous.  I particularly enjoy his systematic attempts to better himself.
 
 
 
@@ -31,7 +31,7 @@ One discipline he considered highly valuable was *Order*, the idea that all thin
 
 
 
-I&#8217;ve always struggled with *Order*, so as an experiment in betterment I&#8217;ll attempt to follow his order for the next two weeks:
+I've always struggled with *Order*, so as an experiment in betterment I'll attempt to follow his order for the next two weeks:
 
 
 
@@ -40,7 +40,7 @@ I&#8217;ve always struggled with *Order*, so as an experiment in betterment I&#8
 
 
 
-**5am&#8212;8am** Morning.  *The Question*: What good shall I do this day? Rise, wash and address *Powerful Goodness!* Contrive day&#8217;s business, and take the resolution of the day; prosecute the present study, and breakfast.
+**5am&#8212;8am** Morning.  *The Question*: What good shall I do this day? Rise, wash and address *Powerful Goodness!* Contrive day's business, and take the resolution of the day; prosecute the present study, and breakfast.
 
 
 
@@ -86,7 +86,7 @@ I think it only fair to point out that Franklin himself struggled with his daily
 <blockquote>
   
 
-My scheme of *Order* gave me the most trouble; and I found, that, though it might be practicable where a man&#8217;s business was such as to leave him the disposition of his time, that of a journeyman printer, for instance, it was not possible to be exactly observed by a master, who must mix with the world, and often receive people of business at their own hours.
+My scheme of *Order* gave me the most trouble; and I found, that, though it might be practicable where a man's business was such as to leave him the disposition of his time, that of a journeyman printer, for instance, it was not possible to be exactly observed by a master, who must mix with the world, and often receive people of business at their own hours.
 
 
 </blockquote>
@@ -107,7 +107,7 @@ Like the man, who, in buying an axe of a smith, my neighbor desired to have the 
 
 
 
-**I&#8217;ll report back on this in two weeks and let you know whether or not I like a speckled axe best.**
+**I'll report back on this in two weeks and let you know whether or not I like a speckled axe best.**
 
 
 

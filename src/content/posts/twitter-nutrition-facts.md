@@ -37,7 +37,7 @@ To help prospective Twitter followers make a more informed decision (and have so
 
 
 
-And since I love to share, here&#8217;s the PSD so you can roll your own (you&#8217;ll need Helvetica Neue for best results).  Enjoy!
+And since I love to share, here's the PSD so you can roll your own (you'll need Helvetica Neue for best results).  Enjoy!
 
 
 

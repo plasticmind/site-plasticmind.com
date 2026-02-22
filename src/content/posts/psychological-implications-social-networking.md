@@ -51,13 +51,13 @@ Let me first say that I am not a scientist, a psychologist or even a social netw
 
 			<!--more-->
 
-To be completely fair, I don&#8217;t think the fault rests solely on social networking; it&#8217;s symptomatic of a larger concern. Instant communication technologies like IRC, IM and texting are low-resolution communication &#8220;proxies&#8221;. Instead of learning how to interact directly with human beings, we learn how to interact through these proxies.
+To be completely fair, I don't think the fault rests solely on social networking; it's symptomatic of a larger concern. Instant communication technologies like IRC, IM and texting are low-resolution communication &#8220;proxies&#8221;. Instead of learning how to interact directly with human beings, we learn how to interact through these proxies.
 
 
 
 
 
-The big difference between relating to humans and relating to humans through a proxy, I believe, is how we learn to deal with disparity. With these proxies in place, it&#8217;s so easy to sever the connection with little consequence because it&#8217;s just a machine; the proxy keeps us from considering the human being on the other side of the connection. Real life human interaction makes it much harder to just &#8220;ignore&#8221; someone we don&#8217;t like or don&#8217;t agree with.
+The big difference between relating to humans and relating to humans through a proxy, I believe, is how we learn to deal with disparity. With these proxies in place, it's so easy to sever the connection with little consequence because it's just a machine; the proxy keeps us from considering the human being on the other side of the connection. Real life human interaction makes it much harder to just &#8220;ignore&#8221; someone we don't like or don't agree with.
 
 
 

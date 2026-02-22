@@ -19,7 +19,7 @@ hits: 1251
 
 			
 
-I don&#8217;t typically like confirmation dialog boxes.  In nearly all cases, <a href="https://www.alistapart.com/articles/neveruseawarning/">an undo button is the better choice</a> than a confirmation dialog.
+I don't typically like confirmation dialog boxes.  In nearly all cases, <a href="https://www.alistapart.com/articles/neveruseawarning/">an undo button is the better choice</a> than a confirmation dialog.
 
 
 
@@ -60,7 +60,7 @@ EOT;
 
 
 
-**Note:** This affects only the initial &#8220;Publish&#8221; event, not successive &#8220;Update&#8221; events.  It&#8217;s easy enough to modify it to include both.  Be sure to check out the <a href="https://gist.github.com/4337952">gist</a>&#8212;there are some revisions in there that might give you some ideas of how to tweak this to better suit your needs.
+**Note:** This affects only the initial &#8220;Publish&#8221; event, not successive &#8220;Update&#8221; events.  It's easy enough to modify it to include both.  Be sure to check out the <a href="https://gist.github.com/4337952">gist</a>&#8212;there are some revisions in there that might give you some ideas of how to tweak this to better suit your needs.
 
 
 

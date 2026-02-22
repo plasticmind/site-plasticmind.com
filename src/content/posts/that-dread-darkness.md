@@ -25,19 +25,19 @@ hits: 132
 
 
 
-It&#8217;s a terrible thing when your body starts losing control of itself, when cells begin to multiply frantically and that thing growing inside you is not a new life, but the dread possibility of death.  Suddenly, the things you took for granted, the involuntary synchronicity that held you together begins to unravel and your body wages war with itself.
+It's a terrible thing when your body starts losing control of itself, when cells begin to multiply frantically and that thing growing inside you is not a new life, but the dread possibility of death.  Suddenly, the things you took for granted, the involuntary synchronicity that held you together begins to unravel and your body wages war with itself.
 
 
 
 
 
-It&#8217;s come after <a href="https://plasticmind.com/friends/eternal-sunrise/">far too many</a> of <a href="https://plasticmind.com/retrospection/so-roll-the-clouds/">the people I care about</a> and frankly I&#8217;m tired of that dread darkness.  **Death may be gain, but what a slow and painful investment!**
+It's come after <a href="https://plasticmind.com/friends/eternal-sunrise/">far too many</a> of <a href="https://plasticmind.com/retrospection/so-roll-the-clouds/">the people I care about</a> and frankly I'm tired of that dread darkness.  **Death may be gain, but what a slow and painful investment!**
 
 
 
 
 
-We just found out this week that my wife&#8217;s mother Nancy has cancer.  Thankfully, it&#8217;s not as serious as the doctor&#8217;s initially suspected, but we&#8217;d appreciate your prayers as she goes in for an MRI on Monday and then surgery that will likely take place next week.
+We just found out this week that my wife's mother Nancy has cancer.  Thankfully, it's not as serious as the doctor's initially suspected, but we'd appreciate your prayers as she goes in for an MRI on Monday and then surgery that will likely take place next week.
 
 
 

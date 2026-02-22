@@ -19,13 +19,13 @@ hits: 210
 
 			
 
-The premise of May&#8217;s 30-day challenge was pretty simple: get my finances in order. However, I barely touched them. I&#8217;m sure this is just an excuse for my laziness, but non-specific goals don&#8217;t fare well on my todo list.  Maybe if I had defined it better, say 30 days to set up individual credit cards for church, work and personal expenses.  Either way, this is a goal I can&#8217;t just toss on the heap failed goals&#8212;my bills and bank accounts aren&#8217;t going away.
+The premise of May's 30-day challenge was pretty simple: get my finances in order. However, I barely touched them. I'm sure this is just an excuse for my laziness, but non-specific goals don't fare well on my todo list.  Maybe if I had defined it better, say 30 days to set up individual credit cards for church, work and personal expenses.  Either way, this is a goal I can't just toss on the heap failed goals&#8212;my bills and bank accounts aren't going away.
 
 
 
 
 
-This month&#8217;s challenge, though infinitely more frightening, will probably be easier.  I&#8217;m giving up caffeine this month.  My life is already so full, adding something is much harder than taking something away.  So even though my body is already starting to experience DT&#8217;s at the thought of no caffeine, remembering not to drink coffee will be easier in some ways than trying to fit one more thing into my schedule.
+This month's challenge, though infinitely more frightening, will probably be easier.  I'm giving up caffeine this month.  My life is already so full, adding something is much harder than taking something away.  So even though my body is already starting to experience DT's at the thought of no caffeine, remembering not to drink coffee will be easier in some ways than trying to fit one more thing into my schedule.
 
 
 
@@ -37,7 +37,7 @@ Of course, I may have to avoid any kind of public writing until my body acclimat
 
 
 
-If you&#8217;re wondering what this is all about, be sure to read about my <a href="https://plasticmind.com/retrospection/30-day-change/">2011 monthly challenges</a>.
+If you're wondering what this is all about, be sure to read about my <a href="https://plasticmind.com/retrospection/30-day-change/">2011 monthly challenges</a>.
 
 
 

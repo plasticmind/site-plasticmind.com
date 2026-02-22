@@ -19,13 +19,13 @@ hits: 456
 
 			
 
-To be fair, I must admit I learned a lot from my dad about perspective and horizon in my artwork.  And heaven knows I&#8217;d never be able to paint an evergreen without the help of Bob Ross.  
+To be fair, I must admit I learned a lot from my dad about perspective and horizon in my artwork.  And heaven knows I'd never be able to paint an evergreen without the help of Bob Ross.  
 
 
 
 
 
-But it was <a href="https://markkistler.com">Mark Kistler</a> and his show on PBS that most influenced my drawing.  You remember, the guy with the afro and mustache who dressed up in jumpsuits and wore the Garth Brooks boom mic?  Sure, he looks like he should be selling cigarettes in some convenience store or filling in as Cousin Larry on *Perfect Strangers*, but that didn&#8217;t seem to faze me back then.  His &#8220;secret city&#8221; mural helped transform my doodles into fantastic worlds and taught me a lot about escapism in art.
+But it was <a href="https://markkistler.com">Mark Kistler</a> and his show on PBS that most influenced my drawing.  You remember, the guy with the afro and mustache who dressed up in jumpsuits and wore the Garth Brooks boom mic?  Sure, he looks like he should be selling cigarettes in some convenience store or filling in as Cousin Larry on *Perfect Strangers*, but that didn't seem to faze me back then.  His &#8220;secret city&#8221; mural helped transform my doodles into fantastic worlds and taught me a lot about escapism in art.
 
 
 

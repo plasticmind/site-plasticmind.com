@@ -25,7 +25,7 @@ hits: 252
 
 
 
-I&#8217;m really psyched to release the first public beta of <a href="https://plasticmind.com/twitster/">Twitster</a> into the wild today.
+I'm really psyched to release the first public beta of <a href="https://plasticmind.com/twitster/">Twitster</a> into the wild today.
 
 
 
@@ -37,7 +37,7 @@ I&#8217;m really psyched to release the first public beta of <a href="https://pl
 
 
 
-I work a lot with the Movable Type community.  It&#8217;s a small community, but there are some really talented developers and designers doing some really cool stuff.  One day I sat back and realized that the community actually *felt* smaller than it was.  The cool stuff that everyone was doing was happening in all different places, so it was hard to see the &#8220;bigger picture&#8221;&#8212;to get a finger on the pulse of the community.  
+I work a lot with the Movable Type community.  It's a small community, but there are some really talented developers and designers doing some really cool stuff.  One day I sat back and realized that the community actually *felt* smaller than it was.  The cool stuff that everyone was doing was happening in all different places, so it was hard to see the &#8220;bigger picture&#8221;&#8212;to get a finger on the pulse of the community.  
 
 
 
@@ -49,25 +49,25 @@ Then I noticed that there was one common denominator for almost every community 
 
 
 
-The obvious key was to track these conversations using hash tags.  I checked out <a href="https://hashtag.org">hashtag.org</a>, but it doesn&#8217;t let you publish tagged tweets on your own site.  The other problem was that if you follow a tag on hashtag.org, anyone can use a tag for any reason.  If you&#8217;re following #mt you might get posts about Movable Type, Media Temple or Montana.  I wanted the ability to pick a hash tag and then control who could contribute to my Twitter group.
+The obvious key was to track these conversations using hash tags.  I checked out <a href="https://hashtag.org">hashtag.org</a>, but it doesn't let you publish tagged tweets on your own site.  The other problem was that if you follow a tag on hashtag.org, anyone can use a tag for any reason.  If you're following #mt you might get posts about Movable Type, Media Temple or Montana.  I wanted the ability to pick a hash tag and then control who could contribute to my Twitter group.
 
 
 
 
 
-You may also be thinking &#8220;Can&#8217;t this can be done with a Twitter app like TweetDeck or EventBox?&#8221;  For the most part, yes. The problem is that those things aren&#8217;t being published on your site&#8212;they&#8217;re great for individual users to follow hash tags, but they make mass publication of these groups really difficult.  I saw this first hand at SXSW &#8216;09 when presenters were running TweetDeck maximized on the big screen&#8230; not exactly ideal execution.
+You may also be thinking &#8220;Can't this can be done with a Twitter app like TweetDeck or EventBox?&#8221;  For the most part, yes. The problem is that those things aren't being published on your site&#8212;they're great for individual users to follow hash tags, but they make mass publication of these groups really difficult.  I saw this first hand at SXSW &#8216;09 when presenters were running TweetDeck maximized on the big screen&#8230; not exactly ideal execution.
 
 
 
 
 
-So I set out to build Twitster, an application that would let you publish the tweets of everyone you&#8217;re following on your own site and&#8212;perhaps more importantly&#8212;let you filter that feed for particular topics.  I began work and built out much of the design and basic development, but I&#8217;m no codemonkey, so I asked my good friend <a href="https://www.majordojo.com">Byrne Reese</a> to help spearhead the technical development of Twitster.
+So I set out to build Twitster, an application that would let you publish the tweets of everyone you're following on your own site and&#8212;perhaps more importantly&#8212;let you filter that feed for particular topics.  I began work and built out much of the design and basic development, but I'm no codemonkey, so I asked my good friend <a href="https://www.majordojo.com">Byrne Reese</a> to help spearhead the technical development of Twitster.
 
 
 
 
 
-**And that&#8217;s what I&#8217;m happy to give you today: the <a href="https://plasticmind.com/twitster/">first public beta of Twitster</a>.**
+**And that's what I'm happy to give you today: the <a href="https://plasticmind.com/twitster/">first public beta of Twitster</a>.**
 
 
 

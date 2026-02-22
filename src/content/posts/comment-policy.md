@@ -19,19 +19,19 @@ hits: 160
 
 			
 
-All of the trains out of Penn Station today were delayed an hour.  I knew something was wrong when the amount of people on the street and around the station was nearly triple an average day.  It was actually quite humorous, watching the teeming masses of people, all visibly annoyed and some let it escape verbally, like the pop and whistle of wet log on a fire.  &#8220;Good thing they&#8217;re raising the rates next month!&#8221; &#8220;Why did you just hit me?&#8221; &#8220;Dude, watch where you&#8217;re going.&#8221; &#8220;Seriously?&#8221;  Expletives, ad nauseum.
+All of the trains out of Penn Station today were delayed an hour.  I knew something was wrong when the amount of people on the street and around the station was nearly triple an average day.  It was actually quite humorous, watching the teeming masses of people, all visibly annoyed and some let it escape verbally, like the pop and whistle of wet log on a fire.  &#8220;Good thing they're raising the rates next month!&#8221; &#8220;Why did you just hit me?&#8221; &#8220;Dude, watch where you're going.&#8221; &#8220;Seriously?&#8221;  Expletives, ad nauseum.
 
 
 
 
 
-But I&#8217;d rather not write about that.  I&#8217;ve been thinking about another kind of mob.  
+But I'd rather not write about that.  I've been thinking about another kind of mob.  
 
 
 
 
 
-Earlier today, I <a href="https://plasticmind.com/social-networking/a-lesson-in-comment-policy-fro/">wrote briefly</a> about Gawker Media&#8217;s new comment approach they&#8217;ve implemented across all of their web sites.  The psychology of it all fascinates me.
+Earlier today, I <a href="https://plasticmind.com/social-networking/a-lesson-in-comment-policy-fro/">wrote briefly</a> about Gawker Media's new comment approach they've implemented across all of their web sites.  The psychology of it all fascinates me.
 
 
 
@@ -49,7 +49,7 @@ Comments tailed off initially, but came racing back and have grown exponentially
 
 
 
-I find this so fascinating: everyone wants a voice, but not everyone wants to hear everyone else&#8217;s voice.  When a community is overrun by anarchy, it loses its focus and more importantly, it loses its value.
+I find this so fascinating: everyone wants a voice, but not everyone wants to hear everyone else's voice.  When a community is overrun by anarchy, it loses its focus and more importantly, it loses its value.
 
 
 

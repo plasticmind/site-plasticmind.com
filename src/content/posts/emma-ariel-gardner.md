@@ -32,7 +32,7 @@ Last night, my very first niece was born&#8230; 8lbs., 3oz. and 20&#8221;.  Cong
 
 
 
-**Note:** *People have been asking, so I&#8217;ll answer it here for everyone&#8217;s sake.  I&#8217;m married to a Jessica.  My brother is married to a Jessica.  So yes, there are two Jessica Gardner&#8217;s.  And just to add to the confusion, I have two sisters named Sarah.  (Long story.)  One is married to a John.  Now, my unmarried sister Sarah needs to marry a John and have a baby girl named Emma and the circle of confusion will be complete.*
+**Note:** *People have been asking, so I'll answer it here for everyone's sake.  I'm married to a Jessica.  My brother is married to a Jessica.  So yes, there are two Jessica Gardner's.  And just to add to the confusion, I have two sisters named Sarah.  (Long story.)  One is married to a John.  Now, my unmarried sister Sarah needs to marry a John and have a baby girl named Emma and the circle of confusion will be complete.*
 
 
 

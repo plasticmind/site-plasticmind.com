@@ -22,7 +22,7 @@ hits: 392
 
 <ul>
 <li>April 2010, <a href="https://plas.tc/6r">Google announces</a>: &#8220;new signal in our search ranking algorithms: site speed&#8221;.</li>
-<li>Google also offers <a href="https://developers.google.com/speed/pagespeed/">Page Speed tools</a> to help diagnose and improve your site&#8217;s performance.</li>
+<li>Google also offers <a href="https://developers.google.com/speed/pagespeed/">Page Speed tools</a> to help diagnose and improve your site's performance.</li>
 <li>How long does your site take to load? <a href="https://webpagetest.org/">https://webpagetest.org/</a></li>
 <li>Slower sites have been proven to cause negative psychological effects on users. (<a href="https://www.websiteoptimization.com/speed/tweak/psychology-web-performance/">Source</a>)</li>
 <li>If a page load takes more than two seconds, 40% are likely to abandon that site. (<a href="https://www.mobilemarketer.com/cms/opinion/columns/12732.html">Source</a>)</li>
@@ -43,7 +43,7 @@ hits: 392
 <li>WP Plugin - <a href="https://wordpress.org/extend/plugins/wp-smushit/‎">Smush it</a></li>
 <li>Icon sprites: <a href="https://www.alistapart.com/articles/sprites">What they are</a> and a <a href="https://spriteme.org/">great tool for creating them</a></li>
 <li>Icon font: <a href="">https://genericons.com/</a></li>
-<li>WP Plugin - <a href="https://wordpress.org/plugins/genericond/">Genericon&#8217;d</a></li>
+<li>WP Plugin - <a href="https://wordpress.org/plugins/genericond/">Genericon'd</a></li>
 </ul>
 
 #### Javascript/CSS

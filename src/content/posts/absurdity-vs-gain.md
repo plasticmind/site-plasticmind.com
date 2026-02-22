@@ -25,7 +25,7 @@ hits: 162
 
 
 
-**Last night&#8217;s dream was particularly vivid.**
+**Last night's dream was particularly vivid.**
 
 
 

@@ -22,7 +22,7 @@ hits: 104
 
 
 
-David Raynes&#8217; MultiBlog is a must have plugin for anyone interested in content aggregation, but it&#8217;s uses are far greater than just sharing text.
+David Raynes' MultiBlog is a must have plugin for anyone interested in content aggregation, but it's uses are far greater than just sharing text.
 
 
 
@@ -34,7 +34,7 @@ Take for instance storing a master stylesheet in your main blog and sharing it w
 
 
 
-Consider this example, where I&#8217;ve shared the header modules from blog 2 with the blog I&#8217;m currently working on:
+Consider this example, where I've shared the header modules from blog 2 with the blog I'm currently working on:
 
 
 
@@ -49,7 +49,7 @@ Now I can easily make changes to the header without needing to worry about the o
 
 
 
-And it isn&#8217;t limited to the body.  You can use MultiBlog tags in the head as well:
+And it isn't limited to the body.  You can use MultiBlog tags in the head as well:
 
 
 
@@ -58,7 +58,7 @@ And it isn&#8217;t limited to the body.  You can use MultiBlog tags in the head 
 
 
 
-I can make changes to the title (or description/modules/categories for that matter) of the master blog (blog#2) and the add-on blogs don&#8217;t need to be changed.  
+I can make changes to the title (or description/modules/categories for that matter) of the master blog (blog#2) and the add-on blogs don't need to be changed.  
 
 
 
@@ -67,7 +67,7 @@ I can make changes to the title (or description/modules/categories for that matt
 
 
 
-I&#8217;ve found that this trick works *especially* well in search templates, because according to the Movable Type documentation: 
+I've found that this trick works *especially* well in search templates, because according to the Movable Type documentation: 
 
 
 

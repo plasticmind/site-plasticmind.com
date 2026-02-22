@@ -19,7 +19,7 @@ hits: 740
 
 			
 
-**In short?  I don&#8217;t need it.**
+**In short?  I don't need it.**
 
 
 
@@ -37,7 +37,7 @@ Like any engrained habit, it was difficult to give up at first.  Not only did we
 
 
 
-Two things, though, frightened me most of all about my television consumption habits.  First, I found my son forming the same kind of rituals.  He&#8217;d wake up in the morning and immediately ask to watch a movie.  Any time he was feeling upset, he&#8217;d ask for a movie.  Worse yet, I found myself getting angry when my own viewing was interrupted.  I&#8217;d fly off the handle at my wife or snap at my son if they dared intrude on my alone time with an engrossing show.
+Two things, though, frightened me most of all about my television consumption habits.  First, I found my son forming the same kind of rituals.  He'd wake up in the morning and immediately ask to watch a movie.  Any time he was feeling upset, he'd ask for a movie.  Worse yet, I found myself getting angry when my own viewing was interrupted.  I'd fly off the handle at my wife or snap at my son if they dared intrude on my alone time with an engrossing show.
 
 
 
@@ -49,7 +49,7 @@ I am embarrassed to admit that kind of a reaction, given its relative insignific
 
 
 
-In fact, I found the whole exercise so fruitful that we decided to drop our cable altogether&#8212;saving about $70 monthly.  That&#8217;s enough per year to pay for a weeklong camping trip.
+In fact, I found the whole exercise so fruitful that we decided to drop our cable altogether&#8212;saving about $70 monthly.  That's enough per year to pay for a weeklong camping trip.
 
 
 
@@ -61,7 +61,7 @@ Why not try it yourself?
 
 
 
-***Note:** I realize this summary is coming a month after it&#8217;s respective August challenge.  I have no defense for failing the September challenge, except to say that every night I prayed with my son we talked at length about the things we are thankful for.  However, I felt the lesson I learned with my television fast was important enough to share, even a month after the fact.*
+***Note:** I realize this summary is coming a month after it's respective August challenge.  I have no defense for failing the September challenge, except to say that every night I prayed with my son we talked at length about the things we are thankful for.  However, I felt the lesson I learned with my television fast was important enough to share, even a month after the fact.*
 
 
 

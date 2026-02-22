@@ -28,7 +28,7 @@ hits: 495
 
 
 
-More importantly, perhaps, is the fact that each of these items in our shared library need to live within the chrome and the url structure of the individual sites.  In other words, the course that Site A is offering is the same as Site B, but we need to make sure the course description lives at <code>https://examplesite-a.com</code> and <code>https://examplesite-b.com</code> respectively along and has each site&#8217;s correspondent branding and layout.
+More importantly, perhaps, is the fact that each of these items in our shared library need to live within the chrome and the url structure of the individual sites.  In other words, the course that Site A is offering is the same as Site B, but we need to make sure the course description lives at <code>https://examplesite-a.com</code> and <code>https://examplesite-b.com</code> respectively along and has each site's correspondent branding and layout.
 
 
 
@@ -37,7 +37,7 @@ More importantly, perhaps, is the fact that each of these items in our shared li
 
 
 
-**Here&#8217;s the gist of our solution.**  We create a shared blog and then pull those shared pages or entries into each individual blog using private tags as a filter.  They&#8217;re fed into a php switch statement that checks against a query string and serves up these shared resources based on which is identified in the url.  **The end result will look something like <code>https://examplesite-a.com/courses/?course=microsoft_word</code>.**  A little confusing at first, but it will make more sense as we start building it out.
+**Here's the gist of our solution.**  We create a shared blog and then pull those shared pages or entries into each individual blog using private tags as a filter.  They're fed into a php switch statement that checks against a query string and serves up these shared resources based on which is identified in the url.  **The end result will look something like <code>https://examplesite-a.com/courses/?course=microsoft_word</code>.**  A little confusing at first, but it will make more sense as we start building it out.
 
 
 
@@ -49,19 +49,19 @@ More importantly, perhaps, is the fact that each of these items in our shared li
 
 			<!--more-->
 
-First, create this &#8220;shared blog&#8221; within the system.  Make note of the blog&#8217;s id.  Publishing settings won&#8217;t matter too much because this is really just storing data for the other sites to pull from.  In fact, you can save yourself some unnecessary rebuilding and delete all the templates in this shared blog.
+First, create this &#8220;shared blog&#8221; within the system.  Make note of the blog's id.  Publishing settings won't matter too much because this is really just storing data for the other sites to pull from.  In fact, you can save yourself some unnecessary rebuilding and delete all the templates in this shared blog.
 
 
 
 
 
-Go ahead and add some pages to this shared blog.  For this example, I&#8217;ll be creating a pool of courses, each with a course title (title), course description (entry body) and course category (category).
+Go ahead and add some pages to this shared blog.  For this example, I'll be creating a pool of courses, each with a course title (title), course description (entry body) and course category (category).
 
 
 
 
 
-Next, in the individual blog where you&#8217;re pulling from this shared library, create an index template with the following code (obviously replacing the chrome header and footer with whatever standard code you&#8217;ve got before and after the main page content):
+Next, in the individual blog where you're pulling from this shared library, create an index template with the following code (obviously replacing the chrome header and footer with whatever standard code you've got before and after the main page content):
 
 
 
@@ -94,37 +94,37 @@ Next, in the individual blog where you&#8217;re pulling from this shared library
 
 
 
-You can publish the output file whatever you want, but make sure it&#8217;s a .php file.  For this example, I&#8217;m using <code>courses/index.php</code>.  That will publish this file to https://examplesite-a.com/courses/index.php.
+You can publish the output file whatever you want, but make sure it's a .php file.  For this example, I'm using <code>courses/index.php</code>.  That will publish this file to https://examplesite-a.com/courses/index.php.
 
 
 
 
 
-Now, let&#8217;s break down this script.  First, we&#8217;re creating a variable called <code>this_blog_tag</code>.  Setting a variable here lets us define this particular site&#8217;s private tag (more on that in a moment) in a module that gets included in the header of this particular blog.  That way the rest of the code can be moved into a global module if you want and it will still filter correctly on a per blog basis.  *If you don&#8217;t understand that part, don&#8217;t worry&#8212;you don&#8217;t need it to get this working.*
+Now, let's break down this script.  First, we're creating a variable called <code>this_blog_tag</code>.  Setting a variable here lets us define this particular site's private tag (more on that in a moment) in a module that gets included in the header of this particular blog.  That way the rest of the code can be moved into a global module if you want and it will still filter correctly on a per blog basis.  *If you don't understand that part, don't worry&#8212;you don't need it to get this working.*
 
 
 
 
 
-Next, we&#8217;re checking to see if any course was specified in the query string.  If not, the script dumps out a &#8220;No Course Selected&#8221; message, but that&#8217;s probably not likely to get seen because we&#8217;re going to let MT build the urls.  If something **is** specified in the query string, we run in through a PHP <code>switch</code> statement.
+Next, we're checking to see if any course was specified in the query string.  If not, the script dumps out a &#8220;No Course Selected&#8221; message, but that's probably not likely to get seen because we're going to let MT build the urls.  If something **is** specified in the query string, we run in through a PHP <code>switch</code> statement.
 
 
 
 
 
-Essentially, MT is providing PHP with all of the different valid &#8220;cases&#8221; that this query string could be and filling out the content for each of those &#8220;pages&#8221;.  Notice the <code>mt:Pages</code> loop.  Every page from your shared blog (be sure to replace ### with the blog id of the shared blog) that is tagged with this site&#8217;s tag (e.g. @sitea) gets a case statement.  PHP compares the query string (e.g. ?course=microsoft_word) with the basename of the page.  If they match, that page&#8217;s content is served up; if not, an error message is displayed.
+Essentially, MT is providing PHP with all of the different valid &#8220;cases&#8221; that this query string could be and filling out the content for each of those &#8220;pages&#8221;.  Notice the <code>mt:Pages</code> loop.  Every page from your shared blog (be sure to replace ### with the blog id of the shared blog) that is tagged with this site's tag (e.g. @sitea) gets a case statement.  PHP compares the query string (e.g. ?course=microsoft_word) with the basename of the page.  If they match, that page's content is served up; if not, an error message is displayed.
 
 
 
 
 
-**Ok, the heavy code part done.  Let&#8217;s see what all this means practically.**  
+**Ok, the heavy code part done.  Let's see what all this means practically.**  
 
 
 
 
 
-We type in the url <code>https://examplesite-a.com/courses/?course=microsoft_word</code>.  The <code>index.php</code> page in our courses folder then checks to see if <code>microsoft_word</code> is a valid case.  Since the basename for our Microsoft Word page on the shared blog is <code>microsoft_word</code> and since we&#8217;ve tagged that page with @sitea, it works!  If that particular page wasn&#8217;t tagged with @sitea or @ALL, MT wouldn&#8217;t build in a case for it into this site&#8217;s PHP.
+We type in the url <code>https://examplesite-a.com/courses/?course=microsoft_word</code>.  The <code>index.php</code> page in our courses folder then checks to see if <code>microsoft_word</code> is a valid case.  Since the basename for our Microsoft Word page on the shared blog is <code>microsoft_word</code> and since we've tagged that page with @sitea, it works!  If that particular page wasn't tagged with @sitea or @ALL, MT wouldn't build in a case for it into this site's PHP.
 
 
 
@@ -144,13 +144,13 @@ So how do we use this with our site?  I could, for instance, put a &#8220;Course
 
 
 
-Notice the url we&#8217;re building: <code>&lt;mt:BlogURL&gt;courses/?course=&lt;mt:PageBasename&gt;</code>.  We&#8217;re just passing the basename to that one course page, and that PHP magic we created knows which to serve up.  Now we have one course (along with it&#8217;s description, title, category and whatever other custom fields we want to create) that can be pulled into as many sites as we want while still retaining that site&#8217;s url structure and branding.
+Notice the url we're building: <code>&lt;mt:BlogURL&gt;courses/?course=&lt;mt:PageBasename&gt;</code>.  We're just passing the basename to that one course page, and that PHP magic we created knows which to serve up.  Now we have one course (along with it's description, title, category and whatever other custom fields we want to create) that can be pulled into as many sites as we want while still retaining that site's url structure and branding.
 
 
 
 
 
-**Note:** If you don&#8217;t like query strings, you can always put something like this in an .htaccess file to clean up your url:
+**Note:** If you don't like query strings, you can always put something like this in an .htaccess file to clean up your url:
 
 
 

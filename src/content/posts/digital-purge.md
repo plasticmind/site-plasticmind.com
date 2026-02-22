@@ -37,13 +37,13 @@ I found myself overthinking this (as I tend to do), so I decided to take a very 
 
 
 
-And these first few days have truly been that.  I&#8217;m not going to say that it&#8217;s been a struggle, but I have found myself bumping up against habit.  I removed the Twitter and Facebook apps from my phone and I <a href="https://www.techzilo.com/edit-hosts-file-mac-block-sites-domains/">changed my computer&#8217;s host file</a> so that it won&#8217;t serve up twitter.com or facebook.com, and I found myself trying to run Tweetie or launch the Facebook app without even thinking, much like flipping through channels at night when you&#8217;re tired and you really should just go to sleep.
+And these first few days have truly been that.  I'm not going to say that it's been a struggle, but I have found myself bumping up against habit.  I removed the Twitter and Facebook apps from my phone and I <a href="https://www.techzilo.com/edit-hosts-file-mac-block-sites-domains/">changed my computer's host file</a> so that it won't serve up twitter.com or facebook.com, and I found myself trying to run Tweetie or launch the Facebook app without even thinking, much like flipping through channels at night when you're tired and you really should just go to sleep.
 
 
 
 
 
-I&#8217;ve also found that I think of things happening around me in terms of how I can tell other people about it.  &#8220;What would be a humorous, catchy way to say this?  Could I say it in 140 characters?&#8221;  I wonder if that mental tendency will wear off after 30 days?  Expect my first few February tweets to be irrelevant, banal, and cut off mid-sentence.
+I've also found that I think of things happening around me in terms of how I can tell other people about it.  &#8220;What would be a humorous, catchy way to say this?  Could I say it in 140 characters?&#8221;  I wonder if that mental tendency will wear off after 30 days?  Expect my first few February tweets to be irrelevant, banal, and cut off mid-sentence.
 
 
 

@@ -19,31 +19,31 @@ hits: 5206
 
 			
 
-In face-to-face relationships, this feedback happens in subtle and often imperceptible ways: a wrinkle of the forehead means someone might not understand our point, so we clarify; a wag of the head communicates disagreement, so we may pause and ask for more feedback; a sigh and a glance at the time tells us to wrap it up because we&#8217;re rambling.  
+In face-to-face relationships, this feedback happens in subtle and often imperceptible ways: a wrinkle of the forehead means someone might not understand our point, so we clarify; a wag of the head communicates disagreement, so we may pause and ask for more feedback; a sigh and a glance at the time tells us to wrap it up because we're rambling.  
 
 
 
 
 
-It&#8217;s no wonder then that we clamor for online feedback when we share our ideas with the world.  How many page views has my article generated?  How many people liked it?  How many people commented?  Re-tweeted?  Linked to it?  We crave this feedback because we want to gauge the traction of our ideas and the overall effectiveness of our method and means of communicating those ideas in the absence of the social bandwidth that comes with presenting them face-to-face.
+It's no wonder then that we clamor for online feedback when we share our ideas with the world.  How many page views has my article generated?  How many people liked it?  How many people commented?  Re-tweeted?  Linked to it?  We crave this feedback because we want to gauge the traction of our ideas and the overall effectiveness of our method and means of communicating those ideas in the absence of the social bandwidth that comes with presenting them face-to-face.
 
 
 
 
 
-It&#8217;s also no wonder most people get perturbed when they don&#8217;t get the kind of feedback they&#8217;re expecting.
+It's also no wonder most people get perturbed when they don't get the kind of feedback they're expecting.
 
 
 
 
 
-You know what I mean.  You labor for hours over each word of your carefully thought out blog post only to find that the link to the inane video you gave no thought to is getting ten times the traffic.  You post the perfect picture, carefully cropped and edited, and twenty-four hours later only three people have liked it.  You post a witty, acerbic observation about the world and not a single response.  I&#8217;ve even had people express this frustration to me in face-to-face conversations: &#8220;Why didn&#8217;t you like my picture?&#8221; or &#8220;How come you didn&#8217;t you comment on my post?&#8221;  We reload our analytics, refresh our social network notifications, and track the overall engagement with our ideas at a level that borders on narcissism.
+You know what I mean.  You labor for hours over each word of your carefully thought out blog post only to find that the link to the inane video you gave no thought to is getting ten times the traffic.  You post the perfect picture, carefully cropped and edited, and twenty-four hours later only three people have liked it.  You post a witty, acerbic observation about the world and not a single response.  I've even had people express this frustration to me in face-to-face conversations: &#8220;Why didn't you like my picture?&#8221; or &#8220;How come you didn't you comment on my post?&#8221;  We reload our analytics, refresh our social network notifications, and track the overall engagement with our ideas at a level that borders on narcissism.
 
 
 
 
 
-There&#8217;s nothing wrong with feedback; it&#8217;s natural, healthy and often helpful, especially when gauging how effectively you&#8217;re communicating your ideas.  But I&#8217;ve come to an important realization: **just because you&#8217;re not getting feedback doesn&#8217;t mean your ideas don&#8217;t have merit.**  
+There's nothing wrong with feedback; it's natural, healthy and often helpful, especially when gauging how effectively you're communicating your ideas.  But I've come to an important realization: **just because you're not getting feedback doesn't mean your ideas don't have merit.**  
 
 
 
@@ -67,7 +67,7 @@ Consider Anne Frank.  &#8220;Will I ever be able to write something great, will 
 
 
 
-Consider Emily Dickinson.  Of the 1800 poems she wrote, fewer than a dozen were published in her lifetime and those that were published were highly altered to fit the strict poetic conventions of her day.  In fact, you might not even recognize the name Emily Dickinson if her sister had not broken a promise she made to burn all of Emily&#8217;s writings after her death.
+Consider Emily Dickinson.  Of the 1800 poems she wrote, fewer than a dozen were published in her lifetime and those that were published were highly altered to fit the strict poetic conventions of her day.  In fact, you might not even recognize the name Emily Dickinson if her sister had not broken a promise she made to burn all of Emily's writings after her death.
 
 
 
@@ -79,13 +79,13 @@ There are many others.  People who wrote with conviction without an audience.  P
 
 
 
-Technology has afforded us, however, all these means of feedback, so it&#8217;s tempting to monitor them and shape our message around what people respond well to.  Content creation by comment count, as it were.  But anyone who has ever said anything worth saying knows that the important truths are sometimes the least obvious and least popular.
+Technology has afforded us, however, all these means of feedback, so it's tempting to monitor them and shape our message around what people respond well to.  Content creation by comment count, as it were.  But anyone who has ever said anything worth saying knows that the important truths are sometimes the least obvious and least popular.
 
 
 
 
 
-So the next time you contribute something to the annals of Internet history and you&#8217;re tempted to look upon yourself and curse your fate, wishing yourself like to one more rich in fans, friends, likes and comments, stop for a moment and consider instead the merit of your ideas.
+So the next time you contribute something to the annals of Internet history and you're tempted to look upon yourself and curse your fate, wishing yourself like to one more rich in fans, friends, likes and comments, stop for a moment and consider instead the merit of your ideas.
 
 
 

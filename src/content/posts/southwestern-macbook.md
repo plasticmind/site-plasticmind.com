@@ -25,7 +25,7 @@ hits: 99
 
 
 
-I didn&#8217;t take pictures, so you&#8217;ll have to use your imagination.
+I didn't take pictures, so you'll have to use your imagination.
 
 
 

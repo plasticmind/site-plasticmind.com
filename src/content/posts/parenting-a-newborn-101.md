@@ -25,7 +25,7 @@ hits: 173
 
 
 
-Jessica and I put together a brief list of things that we either didn&#8217;t know or didn&#8217;t realize about having a newborn baby.  It&#8217;s not exhaustive (though we are exhausted) and it&#8217;s probably not even 100% correct, but hopefully it could be of some use to those with a little one on the way.
+Jessica and I put together a brief list of things that we either didn't know or didn't realize about having a newborn baby.  It's not exhaustive (though we are exhausted) and it's probably not even 100% correct, but hopefully it could be of some use to those with a little one on the way.
 
 
 
@@ -43,7 +43,7 @@ Jessica and I put together a brief list of things that we either didn&#8217;t kn
 
 
 
-**3.** You don&#8217;t get to see your baby very much the day he&#8217;s born (they keep him in the nursery for several hours for cleanup, measuring, and warmup).
+**3.** You don't get to see your baby very much the day he's born (they keep him in the nursery for several hours for cleanup, measuring, and warmup).
 
 
 
@@ -61,19 +61,19 @@ Jessica and I put together a brief list of things that we either didn&#8217;t kn
 
 
 
-**6.** You can get eight hours of sleep and still be miserable because it&#8217;s broken up into tiny segments.
+**6.** You can get eight hours of sleep and still be miserable because it's broken up into tiny segments.
 
 
 
 
 
-**7.** Sometimes you don&#8217;t just get up in the night, sometimes you actually *stay* up all night for several days at a time.
+**7.** Sometimes you don't just get up in the night, sometimes you actually *stay* up all night for several days at a time.
 
 
 
 
 
-**8.** Figure the car seat out **before** it&#8217;s time to leave the hospital.  Also, neck stabilizers are good for newborns and car seats.
+**8.** Figure the car seat out **before** it's time to leave the hospital.  Also, neck stabilizers are good for newborns and car seats.
 
 
 
@@ -85,7 +85,7 @@ Jessica and I put together a brief list of things that we either didn&#8217;t kn
 
 
 
-**10.** Breast milk can take three or four days to come in.  Until that, it&#8217;s just a little bit of a clear liquid called colostrum.
+**10.** Breast milk can take three or four days to come in.  Until that, it's just a little bit of a clear liquid called colostrum.
 
 
 
@@ -109,19 +109,19 @@ Jessica and I put together a brief list of things that we either didn&#8217;t kn
 
 
 
-**14.** Babies aren&#8217;t supposed to sleep on their stomach but you can get foam wedges that let them sleep on their side.
+**14.** Babies aren't supposed to sleep on their stomach but you can get foam wedges that let them sleep on their side.
 
 
 
 
 
-**15.** Keep them awake as often as you can during the day so they&#8217;ll sleep at night.
+**15.** Keep them awake as often as you can during the day so they'll sleep at night.
 
 
 
 
 
-Oh and the most important thing I&#8217;ve learned about parenting: **you know nothing.**
+Oh and the most important thing I've learned about parenting: **you know nothing.**
 
 
 

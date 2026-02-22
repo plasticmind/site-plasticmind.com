@@ -25,7 +25,7 @@ In the previous article, I explained how to <a href="https://plasticmind.com/mov
 
 
 
-But <a href="https://movalog.com">Arvind</a> suggested one better: why not install the iMT plugin and have Movable Type run as a MenuExtra?  For those of you that don&#8217;t know, MenuExtras are the little icons on the right-hand side of your OS X menu.  Putting Movable Type up there as a simple dropdown menu would make it almost as easy as&#8230; dare I say, Twitter?
+But <a href="https://movalog.com">Arvind</a> suggested one better: why not install the iMT plugin and have Movable Type run as a MenuExtra?  For those of you that don't know, MenuExtras are the little icons on the right-hand side of your OS X menu.  Putting Movable Type up there as a simple dropdown menu would make it almost as easy as&#8230; dare I say, Twitter?
 
 
 
@@ -46,13 +46,13 @@ But <a href="https://movalog.com">Arvind</a> suggested one better: why not insta
 
 
 
-First, make sure you&#8217;ve downloaded the <a href="https://plugins.movabletype.org/imt/">iMT plugin</a> for Movable Type and installed it on your server.  This is what&#8217;s going to give us our slick iPhone-like interface perfect for a MenuExtra dropdown.
+First, make sure you've downloaded the <a href="https://plugins.movabletype.org/imt/">iMT plugin</a> for Movable Type and installed it on your server.  This is what's going to give us our slick iPhone-like interface perfect for a MenuExtra dropdown.
 
 
 
 
 
-Next, follow the instructions from <a href="https://plasticmind.com/movable-type/movable-type-fluid/">the previous article on setting up Movable Type as a Fluid application</a>.  After that&#8217;s done, you&#8217;ve only got just a few changes to make before you&#8217;re ready to go:
+Next, follow the instructions from <a href="https://plasticmind.com/movable-type/movable-type-fluid/">the previous article on setting up Movable Type as a Fluid application</a>.  After that's done, you've only got just a few changes to make before you're ready to go:
 
 
 
@@ -94,7 +94,7 @@ Next, follow the instructions from <a href="https://plasticmind.com/movable-type
 
 
 
-**Note:** Fluid tries to use the large 256x256 pixel icon which is a mess.  So I&#8217;ve created a smaller, desaturated version for those who are using Movable Type as a MenuExtra:
+**Note:** Fluid tries to use the large 256x256 pixel icon which is a mess.  So I've created a smaller, desaturated version for those who are using Movable Type as a MenuExtra:
 
 
 

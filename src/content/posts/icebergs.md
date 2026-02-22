@@ -19,7 +19,7 @@ hits: 911
 
 			
 
-Seriously, that&#8217;s the best comparison I can think of to describe <a href="https://iceber.gs/">this new visual organization tool</a>.  
+Seriously, that's the best comparison I can think of to describe <a href="https://iceber.gs/">this new visual organization tool</a>.  
 
 
 
@@ -31,7 +31,7 @@ The web-based tool, which bills itself as *&#8220;Visual organization for creati
 
 
 
-In fact, my first impression of the service was so good, I thought I&#8217;d put together a short screencast  of my &#8220;unboxing&#8221;.  This is me, exploring the site for the first time:
+In fact, my first impression of the service was so good, I thought I'd put together a short screencast  of my &#8220;unboxing&#8221;.  This is me, exploring the site for the first time:
 
 
 
@@ -39,13 +39,13 @@ In fact, my first impression of the service was so good, I thought I&#8217;d put
 
 
 
-I&#8217;ll update this post in a few week and let you know if I&#8217;m still using it.  I don&#8217;t even use Pinterest all that much, so I&#8217;m not entirely sure it&#8217;ll stick in my workflow &#8212; we&#8217;ll see.
+I'll update this post in a few week and let you know if I'm still using it.  I don't even use Pinterest all that much, so I'm not entirely sure it'll stick in my workflow &#8212; we'll see.
 
 
 
 
 
-I don&#8217;t seem to be able to give out invites. However, you can <a href="https://iceber.gs/">head over to the site and request an invite</a>.
+I don't seem to be able to give out invites. However, you can <a href="https://iceber.gs/">head over to the site and request an invite</a>.
 
 
 

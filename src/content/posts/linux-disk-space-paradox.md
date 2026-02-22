@@ -46,7 +46,7 @@ But nothing was even close to the size of that bandwidth file.
 
 
 
-Thankfully, I came across <a href="https://serverfault.com/a/133004">this great Stack Exchange post</a> which cleared up the mystery.  If you delete a file while it&#8217;s being written to, the file gets unlinked; but until the process that&#8217;s writing to the file gets stopped, it doesn&#8217;t actually get removed off the disk.  Which means that if you run <code>df</code>, the disk appears full; but if you try to find the file using <code>du</code>, it&#8217;s nowhere to be found.  Thus to <code>df</code>/<code>du</code> paradox.
+Thankfully, I came across <a href="https://serverfault.com/a/133004">this great Stack Exchange post</a> which cleared up the mystery.  If you delete a file while it's being written to, the file gets unlinked; but until the process that's writing to the file gets stopped, it doesn't actually get removed off the disk.  Which means that if you run <code>df</code>, the disk appears full; but if you try to find the file using <code>du</code>, it's nowhere to be found.  Thus to <code>df</code>/<code>du</code> paradox.
 
 
 

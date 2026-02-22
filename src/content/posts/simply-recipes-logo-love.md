@@ -50,14 +50,14 @@ The judges shared their thoughts <a href="https://www.logodesignlove.com/logo-de
 
   
 
-&#8220;This logo wins in my opinion because it&#8217;s warm color palette and clean yet evocative style made me hungry! Though the icon doesn&#8217;t denote &#8220;food&#8221; or &#8220;recipes&#8221;, I still find the mark a success overall.&#8221; Jeff Andrews (1 point awarded)
+&#8220;This logo wins in my opinion because it's warm color palette and clean yet evocative style made me hungry! Though the icon doesn't denote &#8220;food&#8221; or &#8220;recipes&#8221;, I still find the mark a success overall.&#8221; Jeff Andrews (1 point awarded)
 
 
 </blockquote>
 
 
 
-And a hearty congratulations to <a href="https://joe-urban.com/">Joe Urban</a>, <a href="https://nymag.com/daily/entertainment/">Vulture</a> and <a href="https://www.undiesdrawer.com/">Undies Drawer</a>!  Unfortunately, Logo Design Love didn&#8217;t identify any of the designers, which is odd considering that one of their stated goals was to give some well deserved exposure to lesser-known graphic designers.  Anyone know the names of these award-winning logo designers?
+And a hearty congratulations to <a href="https://joe-urban.com/">Joe Urban</a>, <a href="https://nymag.com/daily/entertainment/">Vulture</a> and <a href="https://www.undiesdrawer.com/">Undies Drawer</a>!  Unfortunately, Logo Design Love didn't identify any of the designers, which is odd considering that one of their stated goals was to give some well deserved exposure to lesser-known graphic designers.  Anyone know the names of these award-winning logo designers?
 
 
 

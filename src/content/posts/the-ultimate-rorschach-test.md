@@ -25,7 +25,7 @@ hits: 609
 
 
 
-It didn&#8217;t take nearly as long as I thought it would.
+It didn't take nearly as long as I thought it would.
 
 
 
@@ -37,7 +37,7 @@ But there I was, straining at what would be, in any other context, considered te
 
 
 
-**There&#8217;s our baby, a mere 15.9mm wide.**
+**There's our baby, a mere 15.9mm wide.**
 
 
 

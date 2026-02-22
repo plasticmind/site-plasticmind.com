@@ -19,30 +19,30 @@ hits: 860
 
 			
 
-I visit my RSS feeds rather faithfully, so I immediately started thinking about alternatives.  I&#8217;ve played with a lot of RSS readers, but I really like Shaun Inman&#8217;s <a href="https://feedafever.com/">Fever</a> because it uses some clever analyzing of your feeds to bubble the really interesting stuff to the top.  And syncing isn&#8217;t really an issue because you&#8217;re accessing it one place on the web.
+I visit my RSS feeds rather faithfully, so I immediately started thinking about alternatives.  I've played with a lot of RSS readers, but I really like Shaun Inman's <a href="https://feedafever.com/">Fever</a> because it uses some clever analyzing of your feeds to bubble the really interesting stuff to the top.  And syncing isn't really an issue because you're accessing it one place on the web.
 
 
 
 
 
-That&#8217;s the big sticking point for most people though, I think&#8212;you have to host it yourself on your own server.  It may seem intimidating, but I put together a 7-minute long video that walks you through the whole process of setting up Fever on your server and moving all your feeds over from Google.  You could literally do it in 15 minutes&#8212;7 to watch the video and 8 to do it yourself.  (Before you do, be sure to read <a href="https://shauninman.com/archive/2013/03/14/fire">this note by Shaun</a>.)
+That's the big sticking point for most people though, I think&#8212;you have to host it yourself on your own server.  It may seem intimidating, but I put together a 7-minute long video that walks you through the whole process of setting up Fever on your server and moving all your feeds over from Google.  You could literally do it in 15 minutes&#8212;7 to watch the video and 8 to do it yourself.  (Before you do, be sure to read <a href="https://shauninman.com/archive/2013/03/14/fire">this note by Shaun</a>.)
 
 
 
 
 
-For the visual learners, here&#8217;s the video:
+For the visual learners, here's the video:
 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1IrfHJgqbhA" frameborder="0" allowfullscreen></iframe>
 
-### What You&#8217;ll Need
+### What You'll Need
 
 
 <ul>
 <li>A Unix-based server (most web servers)</li>
-<li>A MySQL database (you&#8217;ll need the username + password)</li>
+<li>A MySQL database (you'll need the username + password)</li>
 <li>A Fever license ($30/domain)</li>
 </ul>
 
@@ -52,7 +52,7 @@ For the visual learners, here&#8217;s the video:
 <ul>
 <li>Create an account on <a href="https://feedafever.com/">feedafever.com</a></li>
 <li>Download the <a href="https://www.feedafever.com/gateway/public/fever.zip">Fever Server Compatibility Suite</a></li>
-<li>Copy the fever folder to your own server (make sure it&#8217;s world writable, e.g. 777)</li>
+<li>Copy the fever folder to your own server (make sure it's world writable, e.g. 777)</li>
 <li>Run the Compatibility test by visiting *yourdomain.com/fever/boot.php* (be sure to enter in your MySQL credentials to test the database)</li>
 <li>If all passes, purchase your Fever license</li>
 <li>Enter the activation code into your Fever install</li>
@@ -64,7 +64,7 @@ For the visual learners, here&#8217;s the video:
 
 
 
-The upside to all of this is that once you&#8217;ve set it up, it just keeps updating your feeds 
+The upside to all of this is that once you've set it up, it just keeps updating your feeds 
 
 
 

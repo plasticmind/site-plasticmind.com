@@ -19,7 +19,7 @@ hits: 301
 
 			
 
-If you enjoy the feeling you get when you look at my website, and you&#8217;re a Colloquy user, you&#8217;re in luck!  As part of my &#8220;let&#8217;s skin applications&#8221; kick, I&#8217;ve created Haas, a minimalist, Helvetica-based design for Colloquy.  Plenty of variants to make you happy.  
+If you enjoy the feeling you get when you look at my website, and you're a Colloquy user, you're in luck!  As part of my &#8220;let's skin applications&#8221; kick, I've created Haas, a minimalist, Helvetica-based design for Colloquy.  Plenty of variants to make you happy.  
 
 
 

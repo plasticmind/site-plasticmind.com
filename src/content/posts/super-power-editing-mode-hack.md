@@ -25,46 +25,46 @@ hits: 190
 
 
 
-Movable Type gives you an amazing amount of control over your content, but one of the things that it sorely lacks is the ability to make massive changes to *all* of your entries at once.  Oh sure, you can edit the basics in power editing mode&#8212;categories, authors, dates and titles&#8212;but we want more.  Being able to make massive changes to the extended, excerpt and keyword fields can become almost a necessity if, like me, you&#8217;re using those fields for something other than their original purpose.
+Movable Type gives you an amazing amount of control over your content, but one of the things that it sorely lacks is the ability to make massive changes to *all* of your entries at once.  Oh sure, you can edit the basics in power editing mode&#8212;categories, authors, dates and titles&#8212;but we want more.  Being able to make massive changes to the extended, excerpt and keyword fields can become almost a necessity if, like me, you're using those fields for something other than their original purpose.
 
 
 
 
 
-For instance&#8212;Customer A is using MT to store course listings.  The extended entry field contains the dates offered, the excerpt field holds the price and the keywords field stores the length of the class in days.  Now, admitedly, the data could be altered using SQL, but MT&#8217;s biggest draw is its usability.  So we need a hack that will list those fields for editing in our power editing list.  
+For instance&#8212;Customer A is using MT to store course listings.  The extended entry field contains the dates offered, the excerpt field holds the price and the keywords field stores the length of the class in days.  Now, admitedly, the data could be altered using SQL, but MT's biggest draw is its usability.  So we need a hack that will list those fields for editing in our power editing list.  
 
 
 
 
 
-**<span class="red">NOTE, PART THE FIRST:</span> The following is a hack and will call for changes in core MT components.  Make sure you&#8217;ve made the appropriate backups before trying this one out.  Also, realize that if you upgrade your MT installation, these changes will be lost.  (Which is a bad thing if your customer relies on this functionality.)  Best suggestion is to add a AltTemplatePath ./alttmpl to your mt-config.cgi, create a /mt/alttmpl/cms directory and put your edited tempalte modules there.  But then, you already knew that if you&#8217;re making drastic changes, right?**
+**<span class="red">NOTE, PART THE FIRST:</span> The following is a hack and will call for changes in core MT components.  Make sure you've made the appropriate backups before trying this one out.  Also, realize that if you upgrade your MT installation, these changes will be lost.  (Which is a bad thing if your customer relies on this functionality.)  Best suggestion is to add a AltTemplatePath ./alttmpl to your mt-config.cgi, create a /mt/alttmpl/cms directory and put your edited tempalte modules there.  But then, you already knew that if you're making drastic changes, right?**
 
 
 
 
 
-**<span class="red">NOTE, PART DUEX:</span> This specific hack will not work versions of MT previous to 3.2 (probably guessed that with the mt-config.cgi instruction).  It&#8217;s doable with the older versions, but I&#8217;m not going to take time here explaining it when you really should have upgraded.  Please <a href="mailto:jesse@plasticmind.com">email me</a> if you really need help with the older versions.  The major difference is that MT 3.2 moves all the power-editing functionality to a new template module called &#8216;entry*table.tmpl&#8217;, whereas before, the power-editing form was integrated with &#8216;list*entries.tmpl&#8217;. The separation of it into its own template module makes perfect sense.**
+**<span class="red">NOTE, PART DUEX:</span> This specific hack will not work versions of MT previous to 3.2 (probably guessed that with the mt-config.cgi instruction).  It's doable with the older versions, but I'm not going to take time here explaining it when you really should have upgraded.  Please <a href="mailto:jesse@plasticmind.com">email me</a> if you really need help with the older versions.  The major difference is that MT 3.2 moves all the power-editing functionality to a new template module called &#8216;entry*table.tmpl', whereas before, the power-editing form was integrated with &#8216;list*entries.tmpl'. The separation of it into its own template module makes perfect sense.**
 
 
 
 
 
-**<span class="red">NOTE, PART THE LAST: </span>Hopefully after all these caveats you&#8217;ve realized that this hack really needs to be tailored to your own use.  I&#8217;m going to explain how I used it, but you&#8217;re big boys and girls&#8212;you can make adjustments as necessary.**
+**<span class="red">NOTE, PART THE LAST: </span>Hopefully after all these caveats you've realized that this hack really needs to be tailored to your own use.  I'm going to explain how I used it, but you're big boys and girls&#8212;you can make adjustments as necessary.**
 
 
 
-#### Step 1: Changing the Entry Form: Editing &#8216;entry_table.tmpl&#8217;
-
-
-
-
-As stated before, MT 3.2 moved the power-editing mode into the &#8216;entry*table.tmpl&#8217; (located in /mt/tmpl/cms/) instead of previous versions where it was integrated with &#8216;list*entries.tmpl&#8217;.  It makes much more sense now, considering we&#8217;re not just &#8216;listing&#8217;, we&#8217;re editing as well.
+#### Step 1: Changing the Entry Form: Editing &#8216;entry_table.tmpl'
 
 
 
 
+As stated before, MT 3.2 moved the power-editing mode into the &#8216;entry*table.tmpl' (located in /mt/tmpl/cms/) instead of previous versions where it was integrated with &#8216;list*entries.tmpl'.  It makes much more sense now, considering we're not just &#8216;listing', we're editing as well.
 
-In your &#8216;entry_table.tmpl&#8217;, find the part where your table headers are defined&#8212;somewhere around line 23.  Scroll down until you find:
+
+
+
+
+In your &#8216;entry_table.tmpl', find the part where your table headers are defined&#8212;somewhere around line 23.  Scroll down until you find:
 
 
 
@@ -85,7 +85,7 @@ Right after this code (and before the </tr>) insert the following lines:
 
 
 
-This will add three columns after your date column any place your entries are listed.  If I were creating this for my example site using MT to list courses offered, I could change the <code><MT_TRANS phrase="Extended Entry"></code> to simply &#8220;Dates Offered&#8221; (no quotes).  Keep in mind, this will hurt accesibility because the MT_TRANS tag is inserting translatable titles, allowing multi-language support.  Chances are though that if you&#8217;re customizing this screen you&#8217;re probably not too worried about that.
+This will add three columns after your date column any place your entries are listed.  If I were creating this for my example site using MT to list courses offered, I could change the <code><MT_TRANS phrase="Extended Entry"></code> to simply &#8220;Dates Offered&#8221; (no quotes).  Keep in mind, this will hurt accesibility because the MT_TRANS tag is inserting translatable titles, allowing multi-language support.  Chances are though that if you're customizing this screen you're probably not too worried about that.
 
 
 
@@ -111,34 +111,34 @@ This is the code for the date column.  Lets insert the following codes between t
 
 
 
-Let&#8217;s pause for a moment and look at what&#8217;s happening here.  Three columns are being inserted (beneath the headers we just created). A <code>TMPL_IF</code> tag is inserted because if we&#8217;re in power-editing mode, we want editable fields, if we&#8217;re simply looking at the entry list or the system overview, we just want values, no input fields.  One important thing to note with our input fields&#8212;be sure to include the text*more* or keywords_ with the <code>&lt;TMPL_VAR NAME=ID&gt;</code> attached no matter what you&#8217;ve named the column.  This will be important for our next step because it&#8217;s how we tell MT which field and which entry to save changes to.
+Let's pause for a moment and look at what's happening here.  Three columns are being inserted (beneath the headers we just created). A <code>TMPL_IF</code> tag is inserted because if we're in power-editing mode, we want editable fields, if we're simply looking at the entry list or the system overview, we just want values, no input fields.  One important thing to note with our input fields&#8212;be sure to include the text*more* or keywords_ with the <code>&lt;TMPL_VAR NAME=ID&gt;</code> attached no matter what you've named the column.  This will be important for our next step because it's how we tell MT which field and which entry to save changes to.
 
 
 
 
 
-Go ahead and save your &#8216;entry_table.tmpl&#8217; template module, preferable in your /mt/alttemplate/cms/ directory.
+Go ahead and save your &#8216;entry_table.tmpl' template module, preferable in your /mt/alttemplate/cms/ directory.
 
 
 
-#### Step 2: Getting MT Ready to Save New Fields: Adding Variables to &#8216;CMS.pm&#8217;
-
-
-
-
-Modifying core Perl modules should always be done carefully and with hesitation.  The changes we&#8217;re making here aren&#8217;t taking any functionality away or even changing current functionality, we&#8217;re simply ADDING functionality.  If you remove the custom entry table template module we created earlier, MT will function the same way it always has.  At the very most, you&#8217;d notice a performance hit when saving via power editing mode, and if it matters enough to you you can just remove the following changes.
+#### Step 2: Getting MT Ready to Save New Fields: Adding Variables to &#8216;CMS.pm'
 
 
 
 
-
-MT doesn&#8217;t expect extended entry, excerpt or keyword data to be passed to it from the power-editing mode, so we need to change that by adding those variables to the save_entries subroutine of &#8216;cms.pm&#8217;.
+Modifying core Perl modules should always be done carefully and with hesitation.  The changes we're making here aren't taking any functionality away or even changing current functionality, we're simply ADDING functionality.  If you remove the custom entry table template module we created earlier, MT will function the same way it always has.  At the very most, you'd notice a performance hit when saving via power editing mode, and if it matters enough to you you can just remove the following changes.
 
 
 
 
 
-Open &#8216;/mt/lib/MT/App/CMS.pm&#8217; and find the following lines (around line 5084):
+MT doesn't expect extended entry, excerpt or keyword data to be passed to it from the power-editing mode, so we need to change that by adding those variables to the save_entries subroutine of &#8216;cms.pm'.
+
+
+
+
+
+Open &#8216;/mt/lib/MT/App/CMS.pm' and find the following lines (around line 5084):
 
 
 
@@ -149,7 +149,7 @@ Open &#8216;/mt/lib/MT/App/CMS.pm&#8217; and find the following lines (around li
 
 
 
-That&#8217;s the beginning of the subroutine.  Scroll down about 20 lines until you see the following:
+That's the beginning of the subroutine.  Scroll down about 20 lines until you see the following:
 
 
 
@@ -171,13 +171,13 @@ We want to add those values we included on the new power-editing template to thi
 
 
 
-Save, upload and give it a try.  Keep in mind, if your &#8216;Excerpt&#8217; field is blank and your site configuration is set to auto create an excerpt with the first 250 words of your entry, the power-editing form could get **LONG**.  For the example of my class, since I&#8217;m using the excerpt field for the price of the class, I&#8217;ve set the auto-excerpt to 0 words so if the field is left blank, it will stay blank.
+Save, upload and give it a try.  Keep in mind, if your &#8216;Excerpt' field is blank and your site configuration is set to auto create an excerpt with the first 250 words of your entry, the power-editing form could get **LONG**.  For the example of my class, since I'm using the excerpt field for the price of the class, I've set the auto-excerpt to 0 words so if the field is left blank, it will stay blank.
 
 
 
 
 
-As I mentioned earlier, this hack isn&#8217;t for every situation, but it&#8217;s perfect if you&#8217;re pushing the MT envelope and need the ability to edit more fields than is customary.
+As I mentioned earlier, this hack isn't for every situation, but it's perfect if you're pushing the MT envelope and need the ability to edit more fields than is customary.
 
 
 

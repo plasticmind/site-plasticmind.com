@@ -25,25 +25,25 @@ hits: 622
 
 
 
-Well, in case you missed <a href="https://ethanscottgardner.com">the announcement</a>, we had a son!  **Ethan Scott Gardner came into the world on Friday, August 22, 2008 at 2:26pm weighing in at a whopping 9 pounds, three ounces!**  And now he&#8217;s almost two weeks old&#8230; how time flies.
+Well, in case you missed <a href="https://ethanscottgardner.com">the announcement</a>, we had a son!  **Ethan Scott Gardner came into the world on Friday, August 22, 2008 at 2:26pm weighing in at a whopping 9 pounds, three ounces!**  And now he's almost two weeks old&#8230; how time flies.
 
 
 
 
 
-Many thanks to all of our friends for your prayers, thoughts, visits, well-wishes and gifts for our little boy.  The outpouring of love has been hard to even keep up with (especially with a newborn on our hands!)  I&#8217;ve gotten more hits on <a href="https://ethanscottgardner.com">his website</a> in the last two weeks than <a href="https://plasticmind.com">Plasticmind.com</a> got in the last three months!  We&#8217;ll be sending out thank you notes in short order.
+Many thanks to all of our friends for your prayers, thoughts, visits, well-wishes and gifts for our little boy.  The outpouring of love has been hard to even keep up with (especially with a newborn on our hands!)  I've gotten more hits on <a href="https://ethanscottgardner.com">his website</a> in the last two weeks than <a href="https://plasticmind.com">Plasticmind.com</a> got in the last three months!  We'll be sending out thank you notes in short order.
 
 
 
 
 
-Today we visited Children&#8217;s Hospital of Philadelphia for Ethan&#8217;s initial evaluation with the cleft palate team there and we were able to get a better picture of how the surgeries will play out.  Most everything they told us today was what we were expecting; it was just good to set specific dates.
+Today we visited Children's Hospital of Philadelphia for Ethan's initial evaluation with the cleft palate team there and we were able to get a better picture of how the surgeries will play out.  Most everything they told us today was what we were expecting; it was just good to set specific dates.
 
 
 
 
 
-The doctor will perform the first surgery&#8212;a lip adhesion&#8212;in November just before Thanksgiving.  This will essentially recreate Ethan&#8217;s right nostril which will in turn help shape the cartilage of the nose and begin to guide the cleft palate together.  This is a short surgery that should only take an hour or so and keep him in overnight.
+The doctor will perform the first surgery&#8212;a lip adhesion&#8212;in November just before Thanksgiving.  This will essentially recreate Ethan's right nostril which will in turn help shape the cartilage of the nose and begin to guide the cleft palate together.  This is a short surgery that should only take an hour or so and keep him in overnight.
 
 
 
@@ -79,7 +79,7 @@ After those three major surgeries, nothing else is planned until Ethan begins lo
 
 
 
-In the meantime, I&#8217;d like to share with you <a href="https://beckwithweb.com/pics/2007/emily_baby/emily_baby.html">some photos that my friend Matt Beckwith shared with me of his beautiful daughter Emily</a>.  Emily had very much the same type of cleft lip and palate as Ethan does. Matt put these pictures together as a journey through the life of a child with a cleft palate, and I&#8217;ve found it (as did my wife and family) helpful beyond words to be able to watch Emily&#8217;s progression from infancy through each surgery and up into her teenage years.  Thanks so much, Matt!
+In the meantime, I'd like to share with you <a href="https://beckwithweb.com/pics/2007/emily_baby/emily_baby.html">some photos that my friend Matt Beckwith shared with me of his beautiful daughter Emily</a>.  Emily had very much the same type of cleft lip and palate as Ethan does. Matt put these pictures together as a journey through the life of a child with a cleft palate, and I've found it (as did my wife and family) helpful beyond words to be able to watch Emily's progression from infancy through each surgery and up into her teenage years.  Thanks so much, Matt!
 
 
 

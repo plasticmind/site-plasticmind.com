@@ -19,7 +19,7 @@ hits: 146
 
 			
 
-This little snip of code will dump out a list of all the users and their email addresses on your install in a comma-delimited format that you can easily import into your email client.  It&#8217;s particularly useful on larger installs:
+This little snip of code will dump out a list of all the users and their email addresses on your install in a comma-delimited format that you can easily import into your email client.  It's particularly useful on larger installs:
 
 
 
@@ -49,7 +49,7 @@ And the <a href="https://www.movabletype.org/documentation/appendices/tags/autho
 
 
 
-**Note:** Some people have asked about creating an email list of all the commenters on the system, and it&#8217;s very simple.  The code stays the same, but you just need to specify roles=&#8221;Commenter&#8221; and need_entry=&#8221;0&#8221; (since most commenters won&#8217;t have written an entry).  Here&#8217;s the code to do it:
+**Note:** Some people have asked about creating an email list of all the commenters on the system, and it's very simple.  The code stays the same, but you just need to specify roles=&#8221;Commenter&#8221; and need_entry=&#8221;0&#8221; (since most commenters won't have written an entry).  Here's the code to do it:
 
 
 
