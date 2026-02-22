@@ -2,39 +2,13 @@
 
 code[class*="language-"],
 pre[class*="language-"] {
-  color: var(--color-text);
-  background: none;
-  font-family: var(--font-family-mono);
-  font-size: var(--font-sm);
   text-align: left;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-  line-height: 1.6;
   tab-size: 2;
   hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-  padding: var(--space-lg);
-  margin: var(--space-lg) 0;
-  overflow: auto;
-  border-radius: var(--radius-md);
-  background: var(--neutral-100);
-  border: 1px solid var(--color-ink-faint);
-}
-
-[data-theme="dark"] pre[class*="language-"] {
-  background: var(--neutral-800);
-}
-
-/* Inline code - don't override */
-:not(pre) > code[class*="language-"] {
-  padding: var(--space-xs) var(--space-sm);
-  border-radius: var(--radius-sm);
-  white-space: normal;
 }
 
 /* Token colors - Light mode */

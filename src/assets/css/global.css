@@ -38,13 +38,46 @@ img {
     box-sizing: border-box;
 }
 
-code,
-pre {
+/* Inline code */
+code {
     font-family: var(--font-family-mono);
-    color: var(--coral-900);
+    color: var(--coral-700);
     background: var(--neutral-100);
     padding: var(--space-xs) var(--space-sm);
     font-size: var(--font-sm);
+    border-radius: var(--radius-sm);
+}
+
+[data-theme="dark"] code {
+    color: var(--coral-400);
+    background: var(--neutral-800);
+}
+
+/* Code blocks */
+pre {
+    font-family: var(--font-family-mono);
+    font-size: var(--font-sm);
+    line-height: 1.6;
+    color: var(--color-text);
+    background: var(--neutral-100);
+    padding: var(--space-lg);
+    margin: var(--space-lg) 0;
+    overflow-x: auto;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-ink-faint);
+}
+
+[data-theme="dark"] pre {
+    background: var(--neutral-800);
+}
+
+/* Reset code inside pre */
+pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+    border-radius: 0;
 }
 
 /* ----------- */
