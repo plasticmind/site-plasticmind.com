@@ -16,6 +16,7 @@ const shuffle = require("./src/_11ty/filters/shuffle.js");
 const excludeDrafts = require("./src/_11ty/filters/excludeDrafts.js");
 const excludeFuture = require("./src/_11ty/filters/excludeFuture.js");
 const excludeNoIndex = require("./src/_11ty/filters/excludeNoIndex.js");
+const relatedPosts = require("./src/_11ty/filters/relatedPosts.js");
 
 // collections
 const posts = require("./src/_11ty/collections/posts.js");
@@ -33,6 +34,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addFilter("excludeDrafts", excludeDrafts);
     eleventyConfig.addFilter("excludeFuture", excludeFuture);
     eleventyConfig.addFilter("excludeNoIndex", excludeNoIndex);
+    eleventyConfig.addFilter("relatedPosts", relatedPosts);
 
     // collections
     eleventyConfig.addCollection("posts", posts);
