@@ -254,4 +254,47 @@ document.addEventListener('DOMContentLoaded', function() {
       closeAllBottomDrawers();
     }
   });
+
+  // ========================
+  // Archive Banner Dismiss
+  // ========================
+
+  const archiveBanner = document.querySelector('[data-archive-banner]');
+
+  if (archiveBanner) {
+    const postSlug = archiveBanner.dataset.postSlug;
+    const dismissedKey = `archive-banner-dismissed-${postSlug}`;
+
+    function updateBannerHeight() {
+      const bannerHeight = archiveBanner.offsetHeight;
+      document.documentElement.style.setProperty('--archive-banner-height', bannerHeight + 'px');
+    }
+
+    function dismissBanner() {
+      archiveBanner.classList.add('is-dismissed');
+      localStorage.setItem(dismissedKey, 'true');
+      document.documentElement.style.setProperty('--archive-banner-height', '0px');
+    }
+
+    // Check if already dismissed for this post
+    if (localStorage.getItem(dismissedKey) === 'true') {
+      archiveBanner.classList.add('is-dismissed');
+    } else {
+      // Set initial banner height
+      updateBannerHeight();
+      // Update on resize (text may wrap differently)
+      window.addEventListener('resize', updateBannerHeight);
+    }
+
+    // Click anywhere on banner to dismiss
+    archiveBanner.addEventListener('click', dismissBanner);
+
+    // Keyboard support for accessibility
+    archiveBanner.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        dismissBanner();
+      }
+    });
+  }
 });
