@@ -44,24 +44,28 @@ permalink: /work/
                 </p>
               </header>
 
-              <p class="c-work-entry__summary">{{ entry.summary }}</p>
+              <p class="c-work-entry__summary">{{ entry.summary }}{% if entry.description %} <button class="c-work-entry__toggle" aria-expanded="false" aria-controls="details-{{ entry.id }}">More</button>{% endif %}</p>
 
               {% if entry.description %}
-                <button class="c-work-entry__toggle" aria-expanded="false" aria-controls="details-{{ entry.id }}">
-                  <span class="c-work-entry__toggle-text">Show more</span>
-                  <svg class="c-work-entry__toggle-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <polyline points="6 9 12 15 18 9"></polyline>
-                  </svg>
-                </button>
-
                 <div class="c-work-entry__details" id="details-{{ entry.id }}" hidden>
                   <p>{{ entry.description }}</p>
                 </div>
               {% endif %}
 
-              {% set matchingPosts = collections.posts | relatedPosts(entry.relatedTags) | limit(1) %}
-              {% if matchingPosts.length > 0 %}
-                {% set matchingPost = matchingPosts[0] %}
+              {% set matchingPost = null %}
+              {% if entry.relatedSlug %}
+                {% for post in collections.posts %}
+                  {% if post.data.slug == entry.relatedSlug or post.fileSlug == entry.relatedSlug %}
+                    {% set matchingPost = post %}
+                  {% endif %}
+                {% endfor %}
+              {% elif entry.relatedTags %}
+                {% set matchingPosts = collections.posts | relatedPosts(entry.relatedTags) | limit(1) %}
+                {% if matchingPosts.length > 0 %}
+                  {% set matchingPost = matchingPosts[0] %}
+                {% endif %}
+              {% endif %}
+              {% if matchingPost %}
                 <div class="c-work-entry__related">
                   <a href="{{ matchingPost.url }}" class="c-work-entry__post">
                     {% if matchingPost.data.featured_image_url %}
@@ -80,18 +84,15 @@ permalink: /work/
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const toggleButtons = document.querySelectorAll('.c-work-entry__toggle');
-
-      toggleButtons.forEach(function(button) {
-        button.addEventListener('click', function() {
-          const expanded = this.getAttribute('aria-expanded') === 'true';
-          const detailsId = this.getAttribute('aria-controls');
-          const details = document.getElementById(detailsId);
-          const toggleText = this.querySelector('.c-work-entry__toggle-text');
-
-          this.setAttribute('aria-expanded', !expanded);
-          details.hidden = expanded;
-          toggleText.textContent = expanded ? 'Show more' : 'Show less';
+      document.querySelectorAll('.c-work-entry__toggle').forEach(function(button) {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          var detailsId = this.getAttribute('aria-controls');
+          var details = document.getElementById(detailsId);
+          if (details) {
+            details.removeAttribute('hidden');
+            this.style.display = 'none';
+          }
         });
       });
     });
