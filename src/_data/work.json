@@ -1,0 +1,28 @@
+{
+  "history": [
+    {
+      "id": "nys-accessibility",
+      "company": "New York State Information Technology Services (ITS)",
+      "companyLogo": "/assets/i/logos/nys.svg",
+      "title": "Director of Accessibility and Design Systems",
+      "type": "full-time",
+      "startDate": "2022-01",
+      "endDate": null,
+      "summary": "Leading accessibility initiatives and design systems strategy for New York State digital services.",
+      "description": "Leading the development and implementation of accessibility standards and design systems across New York State's digital infrastructure. Building scalable component libraries, establishing WCAG compliance frameworks, and driving organizational change through training and documentation.",
+      "relatedTags": ["design systems", "accessibility"]
+    },
+    {
+      "id": "plasticmind-consulting",
+      "company": "Plasticmind",
+      "companyLogo": "/assets/i/logos/plasticmind.svg",
+      "title": "Principal Consultant",
+      "type": "consulting",
+      "startDate": "2015-01",
+      "endDate": null,
+      "summary": "Helping organizations build effective design systems and improve their digital products.",
+      "description": "Providing strategic consulting services for design systems, accessibility, and digital product development. Working with clients to establish design system foundations, create component libraries, and train teams on best practices.",
+      "relatedTags": ["design systems", "consulting"]
+    }
+  ]
+}

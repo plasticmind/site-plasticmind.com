@@ -80,4 +80,17 @@ const dateShort = function(date) {
     return dt.toFormat("dd LLL");
 }
 
-module.exports = { dateISO, dateFull, dateFullWeekday, dateFeed, dateYear, dateShort };
+/**
+ * Format work date from "YYYY-MM" to "MMM YYYY"
+ *
+ * @param {String} dateStr - Date string in YYYY-MM format
+ * @return {String} formatted date as "MMM YYYY" or "Present" if null
+ */
+
+const dateWork = function(dateStr) {
+    if (!dateStr) return "Present";
+    const dt = DateTime.fromFormat(dateStr, "yyyy-MM");
+    return dt.toFormat("LLL yyyy");
+}
+
+module.exports = { dateISO, dateFull, dateFullWeekday, dateFeed, dateYear, dateShort, dateWork };

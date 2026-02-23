@@ -1,0 +1,99 @@
+---
+title: "Work"
+description: "My professional experience building design systems, digital products, and accessible experiences."
+eleventyNavigation:
+  key: Work
+  title: Work
+  order: 2
+"priority": "0.6"
+eleventyExcludeFromCollections: true
+permalink: /work/
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+  <section class="c-section">
+    <div class="l-container--lg">
+      <header class="c-archive-header">
+        <h1 class="c-archive-header__title">Work</h1>
+        <p class="c-archive-header__description">A timeline of my professional experience in design systems, accessibility, and digital product development.</p>
+      </header>
+
+      <div class="c-work-list">
+        {% for entry in work.history %}
+          <article class="c-work-entry" id="{{ entry.id }}">
+            <div class="c-work-entry__logo">
+              {% if entry.companyLogo %}
+                <img src="{{ entry.companyLogo }}" alt="" aria-hidden="true" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              {% endif %}
+              <div class="c-work-entry__logo-placeholder" {% if entry.companyLogo %}style="display:none;"{% endif %}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="c-work-entry__content">
+              <header class="c-work-entry__header">
+                <h2 class="c-work-entry__title">{{ entry.title }}</h2>
+                <p class="c-work-entry__meta">
+                  <span class="c-work-entry__company">{{ entry.company }}</span>
+                  <span class="c-work-entry__dates">{{ entry.startDate | dateWork }} – {{ entry.endDate | dateWork }}</span>
+                </p>
+              </header>
+
+              <p class="c-work-entry__summary">{{ entry.summary }}</p>
+
+              {% if entry.description %}
+                <button class="c-work-entry__toggle" aria-expanded="false" aria-controls="details-{{ entry.id }}">
+                  <span class="c-work-entry__toggle-text">Show more</span>
+                  <svg class="c-work-entry__toggle-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+
+                <div class="c-work-entry__details" id="details-{{ entry.id }}" hidden>
+                  <p>{{ entry.description }}</p>
+                </div>
+              {% endif %}
+
+              {% set matchingPosts = collections.posts | relatedPosts(entry.relatedTags) | limit(1) %}
+              {% if matchingPosts.length > 0 %}
+                {% set matchingPost = matchingPosts[0] %}
+                <div class="c-work-entry__related">
+                  <a href="{{ matchingPost.url }}" class="c-work-entry__post">
+                    {% if matchingPost.data.featured_image_url %}
+                      <img src="{{ matchingPost.data.featured_image_url }}" alt="" class="c-work-entry__post-thumb" />
+                    {% endif %}
+                    <span class="c-work-entry__post-title">{{ matchingPost.data.title }}</span>
+                  </a>
+                </div>
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButtons = document.querySelectorAll('.c-work-entry__toggle');
+
+      toggleButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+          const expanded = this.getAttribute('aria-expanded') === 'true';
+          const detailsId = this.getAttribute('aria-controls');
+          const details = document.getElementById(detailsId);
+          const toggleText = this.querySelector('.c-work-entry__toggle-text');
+
+          this.setAttribute('aria-expanded', !expanded);
+          details.hidden = expanded;
+          toggleText.textContent = expanded ? 'Show more' : 'Show less';
+        });
+      });
+    });
+  </script>
+{% endblock %}
