@@ -40,32 +40,25 @@ While I can't speak for anyone else, let me say as plainly as I can why I got in
 
 And for those of you that skipped down to the bottom because you like pretty pictures, here are <a href="https://openmelody.org/contribute/toys">some toys for your enjoyment</a>.
 
-<pre><code>        &lt;!--more--&gt;&lt;h3&gt;Related Links&lt;/h3&gt;
-</code></pre>
+### Related Links
 
 **Melody In The Press:**
 
-<ul>
-<li>**CNET:** <a href="https://news.cnet.com/8301-17939_109-10270621-2.html">Meet Melody: Movable Type's Open-source Sibling</a></li>
-<li>**ZDNet:** <a href="https://blogs.zdnet.com/open-source/?p=4406">How Friendly Is the Movable Type Fork?</a></li>
-<li>**InformationWeek**: <a href="https://www.informationweek.com/blog/main/archives/2009/06/melody_movable.html">Melody: Movable Type, Reloaded</a></li>
-<li>**CMSWire:** <a href="https://www.cmswire.com/cms/web-cms/movable-type-mtos-forks-hello-open-melody-004890.php">Movable Type Forks, Hello Open Melody</a></li>
-</ul>
+- **CNET:** [Meet Melody: Movable Type's Open-source Sibling](https://news.cnet.com/8301-17939_109-10270621-2.html)
+- **ZDNet:** [How Friendly Is the Movable Type Fork?](https://blogs.zdnet.com/open-source/?p=4406)
+- **InformationWeek**: [Melody: Movable Type, Reloaded](https://www.informationweek.com/blog/main/archives/2009/06/melody_movable.html)
+- **CMSWire:** [Movable Type Forks, Hello Open Melody](https://www.cmswire.com/cms/web-cms/movable-type-mtos-forks-hello-open-melody-004890.php)
 
 **Melody In The Community:**
 
-<ul>
-<li>**Ben Trott, Founder of Movable Type:** <a href="https://www.movabletype.org/2009/06/meet_melody.html">Meet Melody</a></li>
-<li>**Byrne Reese:** <a href="https://www.majordojo.com/2009/06/meet-melody-and-the-people-behind-melody.php">The People Behind Melody</a></li>
-<li>**Dan Wolfgang:** <a href="https://www.eatdrinksleepmovabletype.com/announcements/introducing_melody/">Introducing Melody!</a></li>
-<li>**Mark Carey:** <a href="https://mt-hacks.com/20090623-open-melody-movable-type-forked.html">Open Melody: Movable Type Forked</a></li>
-<li>**Lloyd Budd:** <a href="https://foolswisdom.com/movable-type-communitys-melody/">New Project to Find Movable Type Community's Melody</a></li>
-</ul>
+- **Ben Trott, Founder of Movable Type:** [Meet Melody](https://www.movabletype.org/2009/06/meet_melody.html)
+- **Byrne Reese:** [The People Behind Melody](https://www.majordojo.com/2009/06/meet-melody-and-the-people-behind-melody.php)
+- **Dan Wolfgang:** [Introducing Melody!](https://www.eatdrinksleepmovabletype.com/announcements/introducing_melody/)
+- **Mark Carey:** [Open Melody: Movable Type Forked](https://mt-hacks.com/20090623-open-melody-movable-type-forked.html)
+- **Lloyd Budd:** [New Project to Find Movable Type Community's Melody](https://foolswisdom.com/movable-type-communitys-melody/)
 
 **Melody Elsewhere:**
 
-<ul>
-<li><a href="https://delicious.com/tag/melody">Delicious</a></li>
-<li><a href="https://search.twitter.com/search?q=%23melody">Twitter</a></li>
-<li><a href="https://digg.com/software/Meet_Melody_Community_Powered_Publishing">Digg</a></li>
-</ul>
+- [Delicious](https://delicious.com/tag/melody)
+- [Twitter](https://search.twitter.com/search?q=%23melody)
+- [Digg](https://digg.com/software/Meet_Melody_Community_Powered_Publishing)

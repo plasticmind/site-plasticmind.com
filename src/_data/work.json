@@ -1,28 +1,87 @@
 {
   "history": [
     {
-      "id": "nys-accessibility",
-      "company": "New York State Information Technology Services (ITS)",
+      "id": "nys-its",
+      "company": "New York State Office of Information Technology Services",
       "companyLogo": "/assets/i/logos/nys.svg",
-      "title": "Director of Accessibility and Design Systems",
+      "title": "Director, Accessibility and Design Systems",
       "type": "full-time",
-      "startDate": "2022-01",
+      "startDate": "2023-05",
       "endDate": null,
-      "summary": "Leading accessibility initiatives and design systems strategy for New York State digital services.",
-      "description": "Leading the development and implementation of accessibility standards and design systems across New York State's digital infrastructure. Building scalable component libraries, establishing WCAG compliance frameworks, and driving organizational change through training and documentation.",
-      "relatedSlug": ["farewell-fox"]
+      "summary": "Leading two teams that help 45+ state agencies build digital services that work for all 20 million New Yorkers.",
+      "description": "I lead two teams at the heart of New York State's push to modernize its digital services: the NYS Design System team and the Digital Accessibility team. The design system is a shared component library built on web components, serving dozens of agencies and thousands of users. The accessibility team is helping the state meet its DOJ Title II compliance obligations — a massive coordination effort across agencies with very different tech stacks and levels of maturity. The work was called out in both the 2023 and 2024 State of the State addresses, which is surreal and motivating in equal measure.",
+      "relatedSlugs": ["empire-state-of-ux"]
     },
     {
-      "id": "plasticmind-consulting",
+      "id": "plasticmind",
       "company": "Plasticmind",
       "companyLogo": "/assets/i/logos/plasticmind.svg",
-      "title": "Principal Consultant",
+      "title": "Founder & Principal Consultant",
       "type": "consulting",
-      "startDate": "2015-01",
+      "startDate": "2005-07",
       "endDate": null,
-      "summary": "Helping organizations build effective design systems and improve their digital products.",
-      "description": "Providing strategic consulting services for design systems, accessibility, and digital product development. Working with clients to establish design system foundations, create component libraries, and train teams on best practices.",
-      "relatedTags": ["design systems", "consulting"]
+      "summary": "A small design studio helping people build things for the web that are useful, usable, and well-crafted.",
+      "description": "I started Plasticmind in 2005 as a way to do the kind of work I cared about: helping people create web experiences that were thoughtful, well-built, and easy to maintain. Over the years, that's meant everything from brand identity and creative direction to front-end architecture and design strategy. Clients have included Harvard Business School, the Committee to Protect Journalists, Boeing, Asurion, Marc Andreessen, and many others. The through-line has always been the same — figure out what's actually needed, then build it well."
+    },
+    {
+      "id": "fox",
+      "company": "Fox Corporation",
+      "companyLogo": "/assets/i/logos/fox.svg",
+      "title": "VP, Technology",
+      "type": "full-time",
+      "startDate": "2021-04",
+      "endDate": "2022-08",
+      "summary": "Focused on making engineers and stakeholders happier by finding efficiencies and getting things unstuck.",
+      "description": "My role at Fox was less about building things directly and more about making the building easier — looking for friction in how teams communicated, how decisions got made, and how the tech stack scaled. I spent a lot of time in the space between engineering and product, trying to help both sides feel heard and move faster. It was a short stint but a rewarding one, with tremendous teams and a bittersweet goodbye.",
+      "relatedSlugs": ["farewell-fox", "fox"]
+    },
+    {
+      "id": "10up",
+      "company": "10up",
+      "companyLogo": "/assets/i/logos/10up.svg",
+      "title": "Associate Director, Business Development",
+      "type": "full-time",
+      "startDate": "2018-01",
+      "endDate": "2018-08",
+      "summary": "Meeting with prospective clients, understanding their needs, and putting together creative ways of solving them.",
+      "description": "A brief but formative chapter. I spent my time at 10up on the business development side — meeting with prospective clients, listening to their challenges, and figuring out how to bring technology, strategy, and empathy together into something that actually helped. It sharpened how I think about scoping work and building trust with stakeholders.",
+      "relatedSlugs": ["leveling-10up"]
+    },
+    {
+      "id": "simply-recipes",
+      "company": "Simply Recipes",
+      "companyLogo": "/assets/i/logos/simplyrecipes.svg",
+      "title": "VP, Technology",
+      "type": "full-time",
+      "startDate": "2012-04",
+      "endDate": "2016-08",
+      "summary": "Helped grow a food blog to 15 million monthly pageviews with a team of two, then watched it get acquired.",
+      "description": "This was the job where I learned to do everything. With a staff of two, I handled web design, mobile app development, server infrastructure, CDN configuration, SEO, video production, social media strategy, and analytics — basically anything that touched a screen. I designed and built a fully responsive site focused on performance, created an iOS app that Apple featured in the App Store, migrated the entire platform from Movable Type to WordPress, and helped grow the site to over 15 million monthly pageviews. Simply Recipes was acquired by Fexy Media in 2016.",
+      "relatedSlugs": ["simply-recipes"]
+    },
+    {
+      "id": "amc-networks",
+      "company": "AMC Networks",
+      "companyLogo": "/assets/i/logos/amcnetworks.svg",
+      "title": "Director, Platform Development",
+      "type": "full-time",
+      "startDate": "2010-03",
+      "endDate": "2012-03",
+      "summary": "Consolidated a fragmented web platform across AMC, IFC, WEtv, and other channel brands.",
+      "description": "I was brought on to help solve a messy problem: every channel at AMC Networks was running a different CMS with a different tech strategy. I met with stakeholders across each brand, listened to what they actually needed, and helped define and build a unified site framework that all of the major channels eventually migrated to. The sites were getting millions of pageviews a day, so everything we built had to be fast — which meant complex caching policies, custom analytics, and a lot of careful coordination.",
+      "relatedSlugs": ["rainbow"]
+    },
+    {
+      "id": "open-melody",
+      "company": "The Open Melody Software Group",
+      "companyLogo": "/assets/i/logos/openmelody.png",
+      "title": "Board Member",
+      "type": "volunteer",
+      "startDate": "2009-06",
+      "endDate": "2012-01",
+      "summary": "Served on the board of the open-source community behind Movable Type.",
+      "description": "I was active in the Movable Type community for years, and serving on the Open Melody board was a way to give back to a platform and community that had shaped a lot of my early career. It was my first real experience with open-source governance and community stewardship.",
+      "relatedSlugs": ["melody"]
     }
   ]
 }

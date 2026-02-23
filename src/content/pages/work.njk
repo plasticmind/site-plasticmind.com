@@ -52,27 +52,28 @@ permalink: /work/
                 </div>
               {% endif %}
 
-              {% set matchingPost = null %}
-              {% if entry.relatedSlug %}
-                {% for post in collections.posts %}
-                  {% if post.data.slug == entry.relatedSlug or post.fileSlug == entry.relatedSlug %}
-                    {% set matchingPost = post %}
-                  {% endif %}
+              {% set matchingPosts = [] %}
+              {% if entry.relatedSlugs %}
+                {% for slug in entry.relatedSlugs %}
+                  {% for post in collections.posts %}
+                    {% if post.data.slug == slug or post.fileSlug == slug %}
+                      {% set matchingPosts = (matchingPosts.push(post), matchingPosts) %}
+                    {% endif %}
+                  {% endfor %}
                 {% endfor %}
               {% elif entry.relatedTags %}
-                {% set matchingPosts = collections.posts | relatedPosts(entry.relatedTags) | limit(1) %}
-                {% if matchingPosts.length > 0 %}
-                  {% set matchingPost = matchingPosts[0] %}
-                {% endif %}
+                {% set matchingPosts = collections.posts | relatedPosts(entry.relatedTags) %}
               {% endif %}
-              {% if matchingPost %}
+              {% if matchingPosts.length > 0 %}
                 <div class="c-work-entry__related">
-                  <a href="{{ matchingPost.url }}" class="c-work-entry__post">
-                    {% if matchingPost.data.featured_image_url %}
-                      <img src="{{ matchingPost.data.featured_image_url }}" alt="" class="c-work-entry__post-thumb" />
-                    {% endif %}
-                    <span class="c-work-entry__post-title">{{ matchingPost.data.title }}</span>
-                  </a>
+                  {% for matchingPost in matchingPosts %}
+                    <a href="{{ matchingPost.url }}" class="c-work-entry__post">
+                      {% if matchingPost.data.featured_image_url %}
+                        <img src="{{ matchingPost.data.featured_image_url }}" alt="" class="c-work-entry__post-thumb" />
+                      {% endif %}
+                      <span class="c-work-entry__post-title">{{ matchingPost.data.title }}</span>
+                    </a>
+                  {% endfor %}
                 </div>
               {% endif %}
             </div>

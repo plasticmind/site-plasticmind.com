@@ -167,7 +167,7 @@ blockquote + blockquote {
 blockquote {
   margin-inline-start: 0;
   padding-inline-start: var(--space-lg);
-  border-inline-start: 4px solid var(--color-ink-weak);
+  border-inline-start: 4px solid var(--color-ink-faint);
   color: var(--color-text-weak);
 }
 
