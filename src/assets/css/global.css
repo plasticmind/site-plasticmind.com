@@ -608,7 +608,7 @@ hr {
 .l-drawer-overlay {
   position: fixed;
   inset: 0;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
@@ -619,6 +619,25 @@ hr {
 .l-shell[data-drawer="right"] .l-drawer-overlay {
   opacity: 1;
   visibility: visible;
+}
+
+/* Drag mode: disable transitions during touch gesture */
+.is-dragging,
+.is-dragging .l-drawer--left,
+.is-dragging .l-drawer--right,
+.is-dragging .l-main,
+.is-dragging .l-drawer-overlay {
+  transition: none !important;
+}
+
+.is-dragging .l-drawer--left,
+.is-dragging .l-drawer--right,
+.is-dragging .l-main {
+  will-change: transform;
+}
+
+.is-dragging .l-drawer-overlay {
+  will-change: opacity;
 }
 
 /* ---------------------- */

@@ -59,54 +59,231 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // ========================
-  // Swipe Detection
+  // Progressive Swipe Gesture
   // ========================
 
-  let touchStartX = 0;
-  let touchStartY = 0;
-  let touchEndX = 0;
-  let touchEndY = 0;
-  const swipeThreshold = 50;
-  const swipeRestraint = 100;
+  const LEFT_DRAWER_WIDTH = 264;   // 64px bar + 200px nav
+  const RIGHT_DRAWER_WIDTH = 280;
+  const DIRECTION_LOCK_DISTANCE = 10;
+  const SNAP_THRESHOLD = 0.35;
+  const VELOCITY_THRESHOLD = 0.3;  // px/ms
+  const EDGE_ZONE = 44;            // WCAG 2.5.5 AAA touch target
+
+  let isDragging = false;
+  let directionLocked = false;
+  let dragDirection = null;        // 'left' or 'right'
+  let dragStartedOpen = false;
+  let startX = 0;
+  let startY = 0;
+  let lastMoveX = 0;
+  let lastMoveTime = 0;
+  let velocityX = 0;
+
+  function applyDrawerProgress(direction, progress) {
+    const width = direction === 'left' ? LEFT_DRAWER_WIDTH : RIGHT_DRAWER_WIDTH;
+    const drawer = direction === 'left' ? leftDrawer : rightDrawer;
+
+    if (direction === 'left') {
+      drawer.style.transform = 'translateX(' + (-width * (1 - progress)) + 'px)';
+      mainContent.style.transform = 'translateX(' + (width * progress) + 'px)';
+    } else {
+      drawer.style.transform = 'translateX(' + (width * (1 - progress)) + 'px)';
+      mainContent.style.transform = 'translateX(' + (-width * progress) + 'px)';
+    }
+
+    if (progress > 0) {
+      drawer.style.zIndex = '102';
+    } else {
+      drawer.style.zIndex = '';
+    }
+
+    overlay.style.opacity = progress;
+  }
+
+  function clearDragStyles() {
+    shell.classList.remove('is-dragging');
+
+    [leftDrawer, rightDrawer].forEach(function(d) {
+      d.style.transform = '';
+      d.style.zIndex = '';
+    });
+    mainContent.style.transform = '';
+    overlay.style.opacity = '';
+    overlay.style.visibility = '';
+  }
+
+  function resetDragState() {
+    isDragging = false;
+    directionLocked = false;
+    dragDirection = null;
+    dragStartedOpen = false;
+    startX = 0;
+    startY = 0;
+    lastMoveX = 0;
+    lastMoveTime = 0;
+    velocityX = 0;
+  }
 
   function handleTouchStart(e) {
-    touchStartX = e.changedTouches[0].screenX;
-    touchStartY = e.changedTouches[0].screenY;
-  }
+    var touch = e.changedTouches[0];
+    startX = touch.clientX;
+    startY = touch.clientY;
+    lastMoveX = startX;
+    lastMoveTime = Date.now();
+    velocityX = 0;
+    directionLocked = false;
+    isDragging = false;
 
-  function handleTouchEnd(e) {
-    touchEndX = e.changedTouches[0].screenX;
-    touchEndY = e.changedTouches[0].screenY;
-    handleSwipe();
-  }
-
-  function handleSwipe() {
-    const deltaX = touchEndX - touchStartX;
-    const deltaY = touchEndY - touchStartY;
-
-    if (Math.abs(deltaX) > swipeThreshold && Math.abs(deltaY) < swipeRestraint) {
-      const currentDrawer = shell.dataset.drawer;
-
-      if (deltaX > 0) {
-        // Swipe right - open left drawer or close right
-        if (currentDrawer === 'right') {
-          closeDrawers();
-        } else if (!currentDrawer) {
-          openDrawer('left');
-        }
-      } else {
-        // Swipe left - close left drawer or open right
-        if (currentDrawer === 'left') {
-          closeDrawers();
-        } else if (!currentDrawer) {
-          openDrawer('right');
-        }
-      }
+    var currentDrawer = shell.dataset.drawer;
+    if (currentDrawer === 'left' || currentDrawer === 'right') {
+      dragStartedOpen = true;
+      dragDirection = currentDrawer;
+    } else {
+      dragStartedOpen = false;
+      dragDirection = null;
     }
   }
 
+  function handleTouchMove(e) {
+    var touch = e.changedTouches[0];
+    var deltaX = touch.clientX - startX;
+    var deltaY = touch.clientY - startY;
+
+    // Direction lock: decide horizontal vs vertical within first ~10px
+    if (!directionLocked) {
+      if (Math.abs(deltaX) < DIRECTION_LOCK_DISTANCE && Math.abs(deltaY) < DIRECTION_LOCK_DISTANCE) {
+        return; // Not enough movement to decide
+      }
+      directionLocked = true;
+
+      // More vertical than horizontal — let browser scroll
+      if (Math.abs(deltaY) > Math.abs(deltaX)) {
+        dragDirection = null;
+        return;
+      }
+
+      // Determine direction if drawer wasn't already open
+      if (!dragStartedOpen) {
+        var isNearLeftEdge = startX < EDGE_ZONE;
+        var isNearRightEdge = startX > window.innerWidth - EDGE_ZONE;
+
+        if (deltaX > 0 && isNearLeftEdge) {
+          dragDirection = 'left';
+        } else if (deltaX < 0 && isNearRightEdge) {
+          dragDirection = 'right';
+        } else {
+          dragDirection = null;
+          return;
+        }
+      }
+    }
+
+    // No valid drag direction — bail
+    if (!dragDirection) return;
+
+    e.preventDefault();
+
+    // Commit to dragging
+    if (!isDragging) {
+      isDragging = true;
+      shell.classList.add('is-dragging');
+      overlay.style.visibility = 'visible';
+    }
+
+    // Track velocity
+    var now = Date.now();
+    var dt = now - lastMoveTime;
+    if (dt > 0) {
+      velocityX = (touch.clientX - lastMoveX) / dt;
+    }
+    lastMoveX = touch.clientX;
+    lastMoveTime = now;
+
+    // Calculate progress (0 = closed, 1 = open)
+    var width = dragDirection === 'left' ? LEFT_DRAWER_WIDTH : RIGHT_DRAWER_WIDTH;
+    var progress;
+
+    if (dragDirection === 'left') {
+      progress = dragStartedOpen
+        ? 1 + deltaX / width    // closing: starts at 1, decreases
+        : deltaX / width;       // opening: starts at 0, increases
+    } else {
+      progress = dragStartedOpen
+        ? 1 - deltaX / width    // closing: starts at 1, decreases (positive deltaX closes)
+        : -deltaX / width;      // opening: starts at 0, increases (negative deltaX opens)
+    }
+
+    progress = Math.max(0, Math.min(1, progress));
+    applyDrawerProgress(dragDirection, progress);
+  }
+
+  function handleTouchEnd(e) {
+    if (!isDragging || !dragDirection) {
+      resetDragState();
+      return;
+    }
+
+    var touch = e.changedTouches[0];
+    var deltaX = touch.clientX - startX;
+    var width = dragDirection === 'left' ? LEFT_DRAWER_WIDTH : RIGHT_DRAWER_WIDTH;
+
+    // Final progress
+    var progress;
+    if (dragDirection === 'left') {
+      progress = dragStartedOpen ? 1 + deltaX / width : deltaX / width;
+    } else {
+      progress = dragStartedOpen ? 1 - deltaX / width : -deltaX / width;
+    }
+    progress = Math.max(0, Math.min(1, progress));
+
+    // Snap decision: velocity overrides position
+    var shouldOpen;
+    if (Math.abs(velocityX) > VELOCITY_THRESHOLD) {
+      // Fast flick — use direction
+      if (dragDirection === 'left') {
+        shouldOpen = velocityX > 0;
+      } else {
+        shouldOpen = velocityX < 0;
+      }
+    } else {
+      shouldOpen = progress >= SNAP_THRESHOLD;
+    }
+
+    // Remove drag mode (re-enables CSS transitions for snap)
+    clearDragStyles();
+
+    // Snap to final state
+    if (shouldOpen) {
+      openDrawer(dragDirection);
+    } else {
+      closeDrawers();
+    }
+
+    resetDragState();
+  }
+
+  function handleTouchCancel() {
+    if (!isDragging) {
+      resetDragState();
+      return;
+    }
+
+    clearDragStyles();
+
+    // Restore pre-gesture state
+    if (dragStartedOpen && dragDirection) {
+      openDrawer(dragDirection);
+    } else {
+      closeDrawers();
+    }
+
+    resetDragState();
+  }
+
   document.addEventListener('touchstart', handleTouchStart, { passive: true });
+  document.addEventListener('touchmove', handleTouchMove, { passive: false });
   document.addEventListener('touchend', handleTouchEnd, { passive: true });
+  document.addEventListener('touchcancel', handleTouchCancel, { passive: true });
 
   // ========================
   // Bottom Drawers
