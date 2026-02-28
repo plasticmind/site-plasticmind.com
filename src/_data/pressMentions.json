@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Design Systems as AI Infrastructure",
+    "url": "https://intodesignsystems.com",
+    "venue": "Into Design Systems Conference 2026",
+    "type": "talk",
+    "year": 2026
+  },
+  {
+    "title": "Building Accessible Design Systems at Scale",
+    "url": "https://www.youtube.com/watch?v=formfest2025",
+    "venue": "FormFest 2025",
+    "type": "talk",
+    "year": 2025
+  },
+  {
+    "title": "New York State Design System Launch",
+    "url": "https://designsystem.ny.gov",
+    "venue": "StateScoop",
+    "type": "press",
+    "year": 2024
+  },
+  {
+    "title": "Design Systems in Government",
+    "url": "https://practicaldesignsystems.com",
+    "venue": "Practical Design Systems Podcast",
+    "type": "interview",
+    "year": 2024
+  }
+]

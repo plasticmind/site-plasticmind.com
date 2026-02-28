@@ -22,23 +22,7 @@ eleventyNavigation:
     <p class="c-subtitle">I care a lot about empowering people with technology.</p>
 
     <div class="c-article__body">
-
-      <p>I've been doing full-stack web design and development for over 25 years. I specialize in user experience design, technical strategy, system architecture, software development, and improving accessibility at scale with design systems.</p>
-
-      <p>I'm currently the Director of Accessibility and Design Systems for New York State. I lead several teams dedicated to improving the resident experience and accessibility of the state's digital applications at scale with user research, design systems, and responsible AI.</p>
-
-      <p>Our design system team recently launched v1.0 of the <a href="https://designsystem.ny.gov">New York State Design System</a>, and our accessibility team is currently helping engineers remediate the top public-facing workflows for NYS agencies ahead of the DOJ Title II accessibility deadline.</p>
-
-      <p>I've also been exploring the role of generative AI in civic tech, especially in the context of code generation. The Design System we created is a library of design components mapped to a library of accessible, tested code components, which gives AI the context it needs to produce predictable, consistent code. I presented a talk about our approach at <a href="https://www.youtube.com/watch?v=formfest2025">FormFest 2025</a> or you can watch a <a href="https://www.linkedin.com/posts/jessegardner_shorter-version">shorter version on LinkedIn</a>. I'm also scheduled to present "Design systems as AI infrastructure" at <a href="https://intodesignsystems.com">Into Design Systems Conference 2026</a>.</p>
-
-      <p>I'm always looking to connect the dots between design and engineering. I've written a lot about ways to bridge that gap over at <a href="https://practicaldesignsystems.com">Practical Design Systems</a>.</p>
-
-      <p>Before NYS, I served as a VP of Technology at Fox, where I migrated several large media sites to a custom content platform, managed several client teams, and helped launch Fox Weather. Before that, I worked at Simply Recipes, designing and helping grow one of the world's most trusted food blogs, and at AMC Networks, unifying multiple content platforms into a single content platform for all of the company's business units. I've also helped clients like Asurion, Boeing, and Harvard with various design and development challenges.</p>
-
-      <hr>
-
-      <p>I currently live in Upstate NY with my wife and four kids. When I'm not solving problems, I tend to my hobby farm, make candles with my wife, snap landscape photos, and promote empathy through storytelling. I also write (infrequently) about technology, politics, and the human condition over on <a href="/blog/">my blog</a>.</p>
-
+      <p>I've spent 25 years at the intersection of design and engineering. I currently direct the Accessibility and Design Systems teams for <a href="https://designsystem.ny.gov">New York State</a>, where I'm exploring how design systems can serve as AI infrastructure. I also write about bridging design and engineering at <a href="https://practicaldesignsystems.com">Practical Design Systems</a>.</p>
     </div>
 
     {% include "partials/end-mark.njk" %}
@@ -48,19 +32,52 @@ eleventyNavigation:
 
 <section class="c-section">
   <div class="l-container--lg">
-    <h2 class="c-heading c-heading--md">Recent Posts</h2>
-    <ul class="c-post-list">
-      {% for post in collections.posts | limit(10) %}
-        <li class="c-post-list__item">
-          <a href="{{ post.url }}" class="c-post-list__link">
-            <span class="c-post-list__title">{{ post.data.title }}</span>
-            <span class="c-post-list__date">{{ post.data.date | dateFull }}</span>
+    <h2 class="c-heading c-heading--md">Selected Articles</h2>
+    <ul class="c-selected-articles">
+      {% for article in selectedArticles %}
+        <li class="c-selected-articles__item">
+          <a href="{{ article.url }}" class="c-selected-articles__link"{% if article.url.startsWith('http') %} rel="external"{% endif %}>
+            <span class="c-selected-articles__title">{{ article.title }}</span>
+            <span class="c-selected-articles__meta">
+              <span class="c-selected-articles__publication">{{ article.publication }}</span>
+              <span class="c-selected-articles__year">{{ article.year }}</span>
+            </span>
           </a>
         </li>
       {% endfor %}
     </ul>
-    <a href="/blog/" class="c-link c-link--more">View all posts &rarr;</a>
   </div>
 </section>
+
+<section class="c-section">
+  <div class="l-container--lg">
+    <h2 class="c-heading c-heading--md">Press & Mentions</h2>
+    <ul class="c-press-mentions">
+      {% for item in pressMentions %}
+        <li class="c-press-mentions__item">
+          <a href="{{ item.url }}" class="c-press-mentions__link" rel="external">
+            <span class="c-press-mentions__title">{{ item.title }}</span>
+            <span class="c-press-mentions__meta">
+              <span class="c-press-mentions__venue">{{ item.venue }}</span>
+              <span class="c-press-mentions__type">{{ item.type }}</span>
+              <span class="c-press-mentions__year">{{ item.year }}</span>
+            </span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# Blogroll - will be populated from OPML file later #}
+{#
+<section class="c-section">
+  <div class="l-container--lg">
+    <h2 class="c-heading c-heading--md">Blogroll</h2>
+    <ul class="c-blogroll">
+    </ul>
+  </div>
+</section>
+#}
 
 {% endblock %}
