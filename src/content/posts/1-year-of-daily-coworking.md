@@ -39,11 +39,10 @@ So I tweeted:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:embed {"url":"https://twitter.com/plasticmind/status/1237751340975165442","type":"rich","providerNameSlug":"twitter","responsive":true,"className":""} -->
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-https://twitter.com/plasticmind/status/1237751340975165442
-</div></figure>
-<!-- /wp:embed -->
+<blockquote class="twitter-tweet">
+  <a href="https://twitter.com/plasticmind/status/1237751340975165442">View tweet from @plasticmind</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js"></script>
 
 <!-- wp:paragraph -->
 
