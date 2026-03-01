@@ -294,10 +294,10 @@ hr {
   --color-surface-alt: var(--neutral-800);
   --color-surface-alt-reverse: var(--neutral-100);
 
-  --color-link: var(--color-cyan-500);
-  --color-hover: var(--color-cyan-300);
-  --color-focus: var(--color-cyan-300);
-  --color-press: var(--color-cyan-0);
+  --color-link: var(--coral-400);
+  --color-hover: var(--coral-300);
+  --color-focus: var(--coral-300);
+  --color-press: var(--coral-0);
 }
 
 /* ---------------------- */
@@ -325,6 +325,7 @@ hr {
 }
 
 .l-drawer--left .c-toolbar {
+  order: -1; /* Keep toolbar visually first (left) despite DOM order */
   width: var(--drawer-bar-width);
   max-width: 4rem;
   height: 100%;
@@ -792,7 +793,8 @@ hr {
   z-index: 200;
   max-height: 70vh;
   max-height: 70dvh;
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .l-bottom-drawer.is-open {
@@ -824,6 +826,11 @@ hr {
 .l-bottom-drawer__close:hover {
   background: var(--color-surface-alt);
   color: var(--color-text);
+}
+
+.l-bottom-drawer__close:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
 }
 
 .l-bottom-drawer h2 {

@@ -12,17 +12,31 @@ document.addEventListener('DOMContentLoaded', function() {
   const leftDrawer = document.getElementById('menu-drawer');
   const rightDrawer = document.getElementById('right-drawer');
 
+  // Track which element opened the drawer so we can restore focus on close
+  var drawerTrigger = null;
+
+  var focusableSelector = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
   function openDrawer(direction) {
+    drawerTrigger = document.activeElement;
     shell.dataset.drawer = direction;
     document.body.style.overflow = 'hidden';
 
     // Focus management: only the open drawer should be interactive
     mainContent.setAttribute('inert', '');
+    var activeDrawer;
     if (direction === 'left') {
       leftDrawer.removeAttribute('inert');
+      activeDrawer = leftDrawer;
     } else {
       rightDrawer.removeAttribute('inert');
+      activeDrawer = rightDrawer;
     }
+    // Defer focus until the browser has processed the inert removal
+    requestAnimationFrame(function() {
+      var firstFocusable = activeDrawer.querySelector(focusableSelector);
+      if (firstFocusable) firstFocusable.focus();
+    });
   }
 
   function closeDrawers() {
@@ -33,6 +47,13 @@ document.addEventListener('DOMContentLoaded', function() {
     mainContent.removeAttribute('inert');
     leftDrawer.setAttribute('inert', '');
     rightDrawer.setAttribute('inert', '');
+
+    // Return focus to the element that opened the drawer
+    if (drawerTrigger && typeof drawerTrigger.focus === 'function') {
+      var el = drawerTrigger;
+      drawerTrigger = null;
+      requestAnimationFrame(function() { el.focus(); });
+    }
   }
 
   if (menuButton) {
@@ -292,9 +313,31 @@ document.addEventListener('DOMContentLoaded', function() {
   const bottomDrawers = document.querySelectorAll('.l-bottom-drawer');
   const bottomDrawerTriggers = document.querySelectorAll('[data-drawer-target]');
 
+  // Track which element opened the bottom drawer
+  var bottomDrawerTrigger = null;
+  var bottomDrawerTrapHandler = null;
+
+  function trapFocusIn(container) {
+    return function(e) {
+      if (e.key !== 'Tab') return;
+      var focusables = Array.from(container.querySelectorAll(focusableSelector));
+      if (focusables.length === 0) return;
+      var first = focusables[0];
+      var last = focusables[focusables.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
+  }
+
   function openBottomDrawer(drawerId) {
     const drawer = document.getElementById(drawerId);
     if (drawer) {
+      bottomDrawerTrigger = document.activeElement;
       bottomDrawers.forEach(d => {
         d.classList.remove('is-open');
         d.setAttribute('inert', '');
@@ -303,6 +346,19 @@ document.addEventListener('DOMContentLoaded', function() {
       drawer.setAttribute('aria-hidden', 'false');
       drawer.removeAttribute('inert');
       document.body.style.overflow = 'hidden';
+
+      // Trap focus within the bottom drawer
+      if (bottomDrawerTrapHandler) {
+        document.removeEventListener('keydown', bottomDrawerTrapHandler);
+      }
+      bottomDrawerTrapHandler = trapFocusIn(drawer);
+      document.addEventListener('keydown', bottomDrawerTrapHandler);
+
+      // Defer focus until the browser has processed the inert removal
+      requestAnimationFrame(function() {
+        var firstFocusable = drawer.querySelector(focusableSelector);
+        if (firstFocusable) firstFocusable.focus();
+      });
     }
   }
 
@@ -311,6 +367,19 @@ document.addEventListener('DOMContentLoaded', function() {
     drawer.setAttribute('aria-hidden', 'true');
     drawer.setAttribute('inert', '');
     document.body.style.overflow = '';
+
+    // Remove focus trap
+    if (bottomDrawerTrapHandler) {
+      document.removeEventListener('keydown', bottomDrawerTrapHandler);
+      bottomDrawerTrapHandler = null;
+    }
+
+    // Return focus to the element that opened the bottom drawer
+    if (bottomDrawerTrigger && typeof bottomDrawerTrigger.focus === 'function') {
+      var el = bottomDrawerTrigger;
+      bottomDrawerTrigger = null;
+      requestAnimationFrame(function() { el.focus(); });
+    }
   }
 
   function closeAllBottomDrawers() {

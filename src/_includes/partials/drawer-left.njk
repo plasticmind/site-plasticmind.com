@@ -1,7 +1,18 @@
 {# Drawer: Left - Hidden by default, revealed on swipe or menu button click #}
 
 <aside id="menu-drawer" class="l-drawer l-drawer--left" inert>
-  {# Gradient Toolbar Bar #}
+  {# Navigation Panel — first in DOM for tab order, visually second via CSS order #}
+  <nav class="c-nav" aria-label="Site Navigation">
+    <ul class="c-nav__list">
+      <li class="c-nav__item"><a href="/archives">Archives</a></li>
+      <li class="c-nav__item"><a href="/projects">Projects</a></li>
+      <li class="c-nav__item"><a href="/work">Work</a></li>
+      <li class="c-nav__item"><a href="/blog">Blog</a></li>
+      <li class="c-nav__item"><a href="/">Home</a></li>
+    </ul>
+  </nav>
+
+  {# Gradient Toolbar Bar — visually first via CSS order: -1 #}
   <div class="c-toolbar">
     {# Logo at top #}
     <div class="c-toolbar__logo">
@@ -30,17 +41,6 @@
       </button></li>
     </ul>
   </div>
-
-  {# Navigation Panel #}
-  <nav class="c-nav" aria-label="Site Navigation">
-    <ul class="c-nav__list">
-      <li class="c-nav__item"><a href="/archives">Archives</a></li>
-      <li class="c-nav__item"><a href="/projects">Projects</a></li>
-      <li class="c-nav__item"><a href="/work">Work</a></li>
-      <li class="c-nav__item"><a href="/blog">Blog</a></li>
-      <li class="c-nav__item"><a href="/">Home</a></li>
-    </ul>
-  </nav>
 </aside>
 
 {# Bottom Drawers for toolbar options #}
