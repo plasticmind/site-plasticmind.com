@@ -14,6 +14,15 @@
 
       <div class="l-drawer-overlay" aria-hidden="true"></div>
 
+      <button class="c-edge-handle c-edge-handle--left" hidden
+              aria-label="Open navigation menu"
+              data-edge-handle="left">
+        <span class="c-edge-handle__indicator">
+          <span class="c-edge-handle__line"></span>
+          <span class="c-edge-handle__label">Menu</span>
+        </span>
+      </button>
+
       <main class="l-main" role="main" aria-label="Main content">
         {% include "partials/archive-banner.njk" %}
         {% include "partials/site-header.njk" %}
@@ -29,7 +38,27 @@
         {% endblock %}
       </main>
 
+      <button class="c-edge-handle c-edge-handle--right" hidden
+              aria-label="Open post details"
+              data-edge-handle="right">
+        <span class="c-edge-handle__indicator">
+          <span class="c-edge-handle__line"></span>
+          <span class="c-edge-handle__label">Info</span>
+        </span>
+      </button>
+
       {% include "partials/drawer-right.njk" %}
+
+      {# Swipe hint for first-time touch users #}
+      <div class="c-swipe-hint" hidden aria-hidden="true">
+        <div class="c-swipe-hint__item c-swipe-hint__item--left" data-swipe-hint="left">
+          <div class="c-swipe-hint__graphic">
+            <span class="c-swipe-hint__circle"></span>
+            <span class="c-swipe-hint__trail"></span>
+          </div>
+          <span class="c-swipe-hint__label">Swipe for menu</span>
+        </div>
+      </div>
 
       {% include "partials/site-footer.njk" %}
 

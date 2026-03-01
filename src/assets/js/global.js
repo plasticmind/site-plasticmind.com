@@ -496,7 +496,112 @@ document.addEventListener('DOMContentLoaded', function() {
       closeDrawers();
       closeAllBottomDrawers();
     }
+
+    // [ and ] toggle drawers (only when not in an input/textarea/contenteditable)
+    var tag = e.target.tagName;
+    var isEditable = tag === 'INPUT' || tag === 'TEXTAREA' || e.target.isContentEditable;
+    if (!isEditable && !e.ctrlKey && !e.metaKey && !e.altKey) {
+      if (e.key === '[') {
+        if (shell.dataset.drawer === 'left') {
+          closeDrawers();
+        } else {
+          openDrawer('left');
+        }
+      } else if (e.key === ']') {
+        if (shell.dataset.drawer === 'right') {
+          closeDrawers();
+        } else {
+          openDrawer('right');
+        }
+      }
+    }
   });
+
+  // ========================
+  // Desktop Edge Handles
+  // ========================
+
+  var isTouch = ('ontouchstart' in window) || window.matchMedia('(pointer: coarse)').matches;
+  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var edgeHandleLeft = document.querySelector('[data-edge-handle="left"]');
+  var edgeHandleRight = document.querySelector('[data-edge-handle="right"]');
+
+  // Show edge handles on non-touch devices (or always if reduced motion skips hints)
+  if (!isTouch || prefersReducedMotion) {
+    if (edgeHandleLeft) edgeHandleLeft.hidden = false;
+    if (edgeHandleRight) edgeHandleRight.hidden = false;
+  }
+
+  if (edgeHandleLeft) {
+    edgeHandleLeft.addEventListener('click', function() {
+      openDrawer('left');
+    });
+  }
+
+  if (edgeHandleRight) {
+    edgeHandleRight.addEventListener('click', function() {
+      openDrawer('right');
+    });
+  }
+
+  // ========================
+  // Touch Swipe Hints
+  // ========================
+
+  var swipeHintContainer = document.querySelector('.c-swipe-hint');
+  var swipeHintLeft = document.querySelector('[data-swipe-hint="left"]');
+
+  if (isTouch && !prefersReducedMotion && swipeHintContainer) {
+    var hintSeen = localStorage.getItem('swipe-hint-seen');
+
+    if (!hintSeen) {
+      swipeHintContainer.hidden = false;
+
+      // Start hint animation after short delay
+      if (swipeHintLeft) {
+        setTimeout(function() {
+          swipeHintLeft.classList.add('is-animating');
+        }, 800);
+
+        // Auto-fade after animation completes (3 loops x 1.4s = 4.2s + 0.8s delay)
+        setTimeout(function() {
+          if (swipeHintLeft.classList.contains('is-animating')) {
+            swipeHintLeft.classList.remove('is-animating');
+            swipeHintLeft.classList.add('is-fading-out');
+          }
+        }, 5400);
+      }
+
+      // Auto-hide entire hint after animation done
+      setTimeout(function() {
+        dismissAllHints();
+      }, 6200);
+
+      // Watch for successful left drawer open via MutationObserver
+      var hintObserver = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.attributeName === 'data-drawer') {
+            if (shell.dataset.drawer === 'left') {
+              localStorage.setItem('swipe-hint-seen', 'true');
+              dismissAllHints();
+              hintObserver.disconnect();
+            }
+          }
+        });
+      });
+
+      hintObserver.observe(shell, { attributes: true, attributeFilter: ['data-drawer'] });
+
+    }
+  }
+
+  function dismissAllHints() {
+    if (swipeHintContainer) swipeHintContainer.hidden = true;
+
+    // Show edge handles if they were hidden for touch
+    if (edgeHandleLeft) edgeHandleLeft.hidden = false;
+    if (edgeHandleRight) edgeHandleRight.hidden = false;
+  }
 
   // ========================
   // Archive Banner Dismiss

@@ -2095,3 +2095,232 @@ html, body {
     white-space: normal;
   }
 }
+
+/* -------------------- */
+/* # Swipe Hint Overlay */
+
+.c-swipe-hint {
+  position: fixed;
+  bottom: 5rem;
+  left: 0;
+  right: 0;
+  z-index: 300;
+  pointer-events: none;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: var(--space-lg);
+}
+
+.c-swipe-hint[hidden] {
+  display: none;
+}
+
+.c-swipe-hint__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  opacity: 0;
+}
+
+.c-swipe-hint__item--left {
+  align-items: flex-start;
+}
+
+/* The animated circle + trail */
+.c-swipe-hint__graphic {
+  position: relative;
+  width: 80px;
+  height: 44px;
+}
+
+.c-swipe-hint__circle {
+  position: absolute;
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--color-ink-weak);
+  background: transparent;
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+.c-swipe-hint__trail {
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  background: var(--color-ink-weakest);
+  transform: translateY(-50%);
+  opacity: 0;
+  border-radius: 1px;
+}
+
+/* Left hint: circle starts at left edge, slides right */
+.c-swipe-hint__item--left .c-swipe-hint__circle {
+  left: 0;
+}
+
+.c-swipe-hint__item--left .c-swipe-hint__trail {
+  left: 0;
+  width: 0;
+}
+
+.c-swipe-hint__label {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-sm);
+  color: var(--color-text-weak);
+  white-space: nowrap;
+}
+
+/* Fade-in for hint items */
+@keyframes swipeHintFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Left hint: circle slides right, trail extends */
+@keyframes swipeCircleRight {
+  0%   { left: 0; opacity: 0.7; }
+  60%  { left: calc(100% - 44px); opacity: 1; }
+  80%  { left: calc(100% - 44px); opacity: 0.6; }
+  100% { left: 0; opacity: 0; }
+}
+
+@keyframes swipeTrailRight {
+  0%   { left: 0; width: 0; opacity: 0; }
+  60%  { left: 0; width: calc(100% - 44px); opacity: 0.6; }
+  80%  { width: 0; left: calc(100% - 44px); opacity: 0; }
+  100% { width: 0; left: 0; opacity: 0; }
+}
+
+@keyframes swipeHintFadeOut {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+/* Active animation states — applied via JS */
+.c-swipe-hint__item.is-animating {
+  animation: swipeHintFadeIn 0.4s ease forwards;
+}
+
+.c-swipe-hint__item--left.is-animating .c-swipe-hint__circle {
+  animation: swipeCircleRight 1.4s ease-in-out 3;
+}
+
+.c-swipe-hint__item--left.is-animating .c-swipe-hint__trail {
+  animation: swipeTrailRight 1.4s ease-in-out 3;
+}
+
+.c-swipe-hint__item.is-fading-out {
+  animation: swipeHintFadeOut 0.4s ease forwards;
+}
+
+/* ----------------------- */
+/* # Desktop Edge Handles  */
+
+.c-edge-handle {
+  position: fixed;
+  bottom: var(--space-xxl);
+  width: 8px;
+  z-index: 110;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-ink-weak);
+  color: var(--color-surface);
+  border: none;
+  padding: var(--space-lg) 0;
+  cursor: pointer;
+  transition: width 0.25s var(--transition-easing),
+              background 0.25s var(--transition-easing),
+              color 0.25s var(--transition-easing);
+}
+
+.c-edge-handle[hidden] {
+  display: none;
+}
+
+.c-edge-handle--left {
+  left: 0;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.c-edge-handle--right {
+  right: 0;
+  border-radius: var(--radius-md) 0 0 var(--radius-md);
+}
+
+.c-edge-handle__indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  transition: opacity 0.25s ease;
+}
+
+/* The thin vertical line */
+.c-edge-handle__line {
+  width: 3px;
+  height: 40px;
+  border-radius: 2px;
+  background: currentColor;
+  transition: height 0.25s ease;
+}
+
+.c-edge-handle__label {
+  font-family: var(--font-family-ui);
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.2s ease 0.05s, max-height 0.25s ease;
+}
+
+/* Hover & focus states */
+.c-edge-handle:hover,
+.c-edge-handle:focus-visible {
+  width: 24px;
+  background: var(--color-ink);
+}
+
+.c-edge-handle:hover .c-edge-handle__indicator,
+.c-edge-handle:focus-visible .c-edge-handle__indicator {
+  opacity: 1;
+}
+
+.c-edge-handle:hover .c-edge-handle__line,
+.c-edge-handle:focus-visible .c-edge-handle__line {
+  height: 28px;
+}
+
+.c-edge-handle:hover .c-edge-handle__label,
+.c-edge-handle:focus-visible .c-edge-handle__label {
+  opacity: 1;
+  max-height: 80px;
+}
+
+.c-edge-handle:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: -2px;
+}
+
+/* Hide edge handles when a drawer is open */
+.l-shell[data-drawer="left"] .c-edge-handle,
+.l-shell[data-drawer="right"] .c-edge-handle {
+  display: none;
+}
+
+/* -------------------------------- */
+/* # Reduced Motion: Swipe Hints   */
+
+@media (prefers-reduced-motion: reduce) {
+  .c-swipe-hint {
+    display: none !important;
+  }
+
+}
