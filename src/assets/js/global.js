@@ -22,6 +22,11 @@ document.addEventListener('DOMContentLoaded', function() {
     shell.dataset.drawer = direction;
     document.body.style.overflow = 'hidden';
 
+    // Set drawer progress for dim overlays
+    var drawer = direction === 'left' ? leftDrawer : rightDrawer;
+    drawer.style.setProperty('--drawer-progress', 1);
+    mainContent.style.setProperty('--drawer-progress', 1);
+
     // Focus management: only the open drawer should be interactive
     mainContent.setAttribute('inert', '');
     var activeDrawer;
@@ -42,6 +47,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function closeDrawers() {
     shell.dataset.drawer = '';
     document.body.style.overflow = '';
+
+    // Reset drawer progress for dim overlays
+    leftDrawer.style.removeProperty('--drawer-progress');
+    rightDrawer.style.removeProperty('--drawer-progress');
+    mainContent.style.removeProperty('--drawer-progress');
 
     // Restore normal focus: main content interactive, drawers inert
     mainContent.removeAttribute('inert');
@@ -118,6 +128,10 @@ document.addEventListener('DOMContentLoaded', function() {
       drawer.style.zIndex = '';
     }
 
+    // Drive dim overlays on drawer and main content
+    drawer.style.setProperty('--drawer-progress', progress);
+    mainContent.style.setProperty('--drawer-progress', progress);
+
     overlay.style.opacity = progress;
   }
 
@@ -127,8 +141,10 @@ document.addEventListener('DOMContentLoaded', function() {
     [leftDrawer, rightDrawer].forEach(function(d) {
       d.style.transform = '';
       d.style.zIndex = '';
+      d.style.removeProperty('--drawer-progress');
     });
     mainContent.style.transform = '';
+    mainContent.style.removeProperty('--drawer-progress');
     overlay.style.opacity = '';
     overlay.style.visibility = '';
   }

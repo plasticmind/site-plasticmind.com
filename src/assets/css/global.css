@@ -627,6 +627,46 @@ hr {
   visibility: visible;
 }
 
+/* Drawer/content dim overlays driven by --drawer-progress (0 = closed, 1 = open) */
+/* Drawer dim: dark overlay that starts at 50% and fades to 0% as drawer opens */
+.l-drawer--left::after,
+.l-drawer--right::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: black;
+  opacity: calc(0.25 * (1 - var(--drawer-progress, 1)));
+  pointer-events: none;
+  z-index: 201;
+  transition: opacity 0.3s ease;
+}
+
+/* Main content wash: white overlay that fades from 0% to 50% as drawer opens */
+.l-main::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: white;
+  opacity: calc(0.25 * var(--drawer-progress, 0));
+  pointer-events: none;
+  z-index: 101;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s;
+}
+
+.l-shell[data-drawer="left"] .l-main::after,
+.l-shell[data-drawer="right"] .l-main::after,
+.is-dragging .l-main::after {
+  visibility: visible;
+}
+
+/* Suppress transitions on dim overlays during drag */
+.is-dragging .l-drawer--left::after,
+.is-dragging .l-drawer--right::after,
+.is-dragging .l-main::after {
+  transition: none !important;
+}
+
 /* Drag mode: disable transitions during touch gesture */
 .is-dragging,
 .is-dragging .l-drawer--left,
