@@ -641,7 +641,7 @@ hr {
   transition: opacity 0.3s ease;
 }
 
-/* Main content wash: white overlay that fades from 0% to 50% as drawer opens */
+/* Main content wash: lightens in light mode, darkens in dark mode */
 .l-main::after {
   content: '';
   position: fixed;
@@ -658,6 +658,10 @@ hr {
 .l-shell[data-drawer="right"] .l-main::after,
 .is-dragging .l-main::after {
   visibility: visible;
+}
+
+[data-theme="dark"] .l-main::after {
+  background: black;
 }
 
 /* Suppress transitions on dim overlays during drag */
@@ -840,6 +844,25 @@ hr {
 .l-bottom-drawer.is-open {
   transform: translateY(0);
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Dark overlay behind open bottom drawers */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: black;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s;
+  z-index: 199;
+  pointer-events: none;
+}
+
+body:has(.l-bottom-drawer.is-open)::before {
+  opacity: 0.25;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .l-bottom-drawer__header {
