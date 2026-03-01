@@ -1225,6 +1225,16 @@ body:has(.c-archive-banner:not(.is-dismissed)) .l-main {
   height: 35px;
 }
 
+.c-site-header__logo svg .logo-solid {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.c-site-header__logo:hover svg .logo-solid,
+.c-site-header__logo:focus-visible svg .logo-solid {
+  opacity: 1;
+}
+
 /* Menu Button */
 .c-menu-button {
   width: 35px;
