@@ -1,9 +1,18 @@
 {# Site Header - Fixed logo and menu button #}
 <header class="c-site-header">
-  {# Site Logo - Fixed, stays above drawers #}
-  <a href="/" class="c-site-header__logo" title="Home">
-    {% include "svg/logo-plasticmind-pill.svg" %}
-  </a>
+  {# Site Logo with dropdown mini-menu #}
+  <div class="c-site-header__logo-wrap">
+    <a href="/" class="c-site-header__logo" title="Home">
+      {% include "svg/logo-plasticmind-pill.svg" %}
+    </a>
+    <nav class="c-mini-menu" aria-label="Quick navigation">
+      <ul class="c-mini-menu__list">
+        <li class="c-mini-menu__item"><a href="/blog">Blog</a></li>
+        <li class="c-mini-menu__item"><a href="/work">Work</a></li>
+        <li class="c-mini-menu__item"><a href="/archives">Archives</a></li>
+      </ul>
+    </nav>
+  </div>
 
   {# Menu button to toggle left drawer #}
   <button class="c-menu-button" aria-label="Open menu" data-action="toggle-menu">

@@ -563,6 +563,14 @@ document.addEventListener('DOMContentLoaded', function() {
     if (e.key === 'Escape') {
       closeDrawers();
       closeAllBottomDrawers();
+
+      // Close mini-menu if open
+      var miniMenu = document.querySelector('.c-mini-menu');
+      if (miniMenu && miniMenu.classList.contains('is-open')) {
+        miniMenu.classList.remove('is-open');
+        var logo = document.querySelector('.c-site-header__logo');
+        if (logo) logo.focus();
+      }
     }
 
     // [ and ] toggle drawers (only when not in an input/textarea/contenteditable)
