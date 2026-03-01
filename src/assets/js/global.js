@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const DIRECTION_LOCK_DISTANCE = 10;
   const SNAP_THRESHOLD = 0.35;
   const VELOCITY_THRESHOLD = 0.3;  // px/ms
-  const EDGE_ZONE = 80;            // Wide enough to catch on mobile without fighting browser back-swipe
+  const EDGE_ZONE = 120;           // Wide enough to catch on mobile without fighting browser back-swipe
 
   let isDragging = false;
   let directionLocked = false;
