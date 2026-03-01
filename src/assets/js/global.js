@@ -47,6 +47,8 @@ document.addEventListener('DOMContentLoaded', function() {
   function closeDrawers() {
     shell.dataset.drawer = '';
     document.body.style.overflow = '';
+    shell.style.height = '';
+    window.scrollTo(0, savedScrollY);
 
     // Reset drawer progress for dim overlays
     leftDrawer.style.removeProperty('--drawer-progress');
@@ -100,6 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const VELOCITY_THRESHOLD = 0.3;  // px/ms
   const EDGE_ZONE = 120;           // Wide enough to catch on mobile without fighting browser back-swipe
 
+  let savedScrollY = 0;
   let isDragging = false;
   let directionLocked = false;
   let dragDirection = null;        // 'left' or 'right'
@@ -225,6 +228,7 @@ document.addEventListener('DOMContentLoaded', function() {
       isDragging = true;
       shell.classList.add('is-dragging');
       overlay.style.visibility = 'visible';
+      savedScrollY = window.scrollY;
     }
 
     // Track velocity
@@ -292,6 +296,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Snap to final state
     if (shouldOpen) {
       openDrawer(dragDirection);
+      // Prevent CSS height:100vh from clamping scroll to 0
+      shell.style.height = 'auto';
+      window.scrollTo(0, savedScrollY);
     } else {
       closeDrawers();
     }
@@ -310,6 +317,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Restore pre-gesture state
     if (dragStartedOpen && dragDirection) {
       openDrawer(dragDirection);
+      shell.style.height = 'auto';
+      window.scrollTo(0, savedScrollY);
     } else {
       closeDrawers();
     }
