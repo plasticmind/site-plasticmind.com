@@ -2366,7 +2366,7 @@ html, body {
 .c-edge-handle {
   position: fixed;
   bottom: var(--space-xxl);
-  width: 8px;
+  width: 12px;
   z-index: 110;
   display: flex;
   align-items: center;
