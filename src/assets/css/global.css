@@ -406,7 +406,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: var(--color-surface);
+  background: var(--color-surface-alt);
   position: relative;
 }
 
@@ -417,7 +417,7 @@ hr {
   right: 0;
   bottom: 0;
   width: 24px;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.12), transparent);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.06), transparent);
   pointer-events: none;
   z-index: 200;
 }
@@ -435,11 +435,11 @@ hr {
 
 .l-drawer--left .c-nav__item {
   list-style: none;
-  border-top: 1px solid var(--color-ink-faint);
+  border-top: 1px solid var(--color-ink-weakest);
 }
 
 .l-drawer--left .c-nav__item:last-child {
-  border-bottom: 1px solid var(--color-ink-faint);
+  border-bottom: 1px solid var(--color-ink-weakest);
 }
 
 .l-drawer--left .c-nav__item a {
@@ -453,7 +453,7 @@ hr {
 }
 
 .l-drawer--left .c-nav__item a:hover {
-  background: var(--color-surface-alt);
+  background: var(--color-surface);
   color: var(--color-text);
 }
 
@@ -465,12 +465,12 @@ hr {
   height: 100vh;
   height: 100dvh;
   width: 280px;
-  background: var(--color-surface-dark);
+  background: var(--color-surface-alt);
   transform: translateX(100%);
   transition: transform 0.3s ease;
   z-index: 100;
   padding: 0;
-  color: var(--color-text-light);
+  color: var(--color-text);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -483,7 +483,7 @@ hr {
   left: 0;
   bottom: 0;
   width: 24px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.12), transparent);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.06), transparent);
   pointer-events: none;
   z-index: 200;
 }
@@ -491,7 +491,7 @@ hr {
 /* Author Bio */
 .c-author-bio {
   padding: var(--space-xl);
-  border-bottom: 1px solid var(--color-ink-light-faint);
+  border-bottom: 1px solid var(--color-ink-faint);
 }
 
 .c-author-bio__photo {
@@ -504,14 +504,14 @@ hr {
 .c-author-bio__text {
   font-size: var(--font-sm);
   line-height: 1.5;
-  color: var(--color-text-light-weak);
+  color: var(--color-text-weak);
   margin: 0;
 }
 
 /* Related Posts */
 .c-related-posts {
   padding: var(--space-lg) 0;
-  border-bottom: 1px solid var(--color-ink-light-faint);
+  border-bottom: 1px solid var(--color-ink-faint);
 }
 
 .c-related-posts__heading {
@@ -520,7 +520,7 @@ hr {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: var(--color-text-light-weak);
+  color: var(--color-text-weak);
   padding: 0 var(--space-xl) var(--space-md);
   margin: 0;
   border: none;
@@ -532,21 +532,21 @@ hr {
 }
 
 .c-related-posts__list li {
-  border-top: 1px solid var(--color-ink-light-faint);
+  border-top: 1px solid var(--color-ink-faint);
 }
 
 .c-related-posts__list a {
   display: block;
   padding: var(--space-lg) var(--space-xl);
   font-size: var(--font-md);
-  color: var(--color-text-light-weak);
+  color: var(--color-text-weak);
   text-decoration: none;
   transition: background var(--transition-sm) ease, color var(--transition-sm) ease;
 }
 
 .c-related-posts__list a:hover {
-  background: var(--color-surface-alt-reverse);
-  color: var(--color-text-light);
+  background: var(--color-surface);
+  color: var(--color-text);
 }
 
 /* Drawer Tags */
@@ -560,7 +560,7 @@ hr {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: var(--color-text-light-weak);
+  color: var(--color-text-weak);
   padding: 0 0 var(--space-md);
   margin: 0;
   border: none;
@@ -579,14 +579,14 @@ hr {
 }
 
 .c-drawer-tag a {
-  color: var(--coral-400);
+  color: var(--color-text);
   text-decoration: none;
   text-transform: lowercase;
   transition: color var(--transition-sm) ease;
 }
 
 .c-drawer-tag a:hover {
-  color: var(--coral-300);
+  color: var(--color-text-weak);
   text-decoration: underline;
 }
 
@@ -2227,14 +2227,22 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-ink-weak);
-  color: var(--color-surface);
+  background: var(--color-surface-alt);
+  color: var(--color-text);
   border: none;
   padding: var(--space-lg) 0;
   cursor: pointer;
   transition: width 0.25s var(--transition-easing),
               background 0.25s var(--transition-easing),
               color 0.25s var(--transition-easing);
+}
+
+.c-edge-handle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 16px;
 }
 
 .c-edge-handle[hidden] {
@@ -2244,11 +2252,21 @@ html, body {
 .c-edge-handle--left {
   left: 0;
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  border-left: 1px solid var(--color-ink-weakest);
+}
+
+.c-edge-handle--left::before {
+  left: 100%;
 }
 
 .c-edge-handle--right {
   right: 0;
   border-radius: var(--radius-md) 0 0 var(--radius-md);
+  border-right: 1px solid var(--color-ink-weakest);
+}
+
+.c-edge-handle--right::before {
+  right: 100%;
 }
 
 .c-edge-handle__indicator {
@@ -2285,7 +2303,7 @@ html, body {
 .c-edge-handle:hover,
 .c-edge-handle:focus-visible {
   width: 24px;
-  background: var(--color-ink);
+  background: var(--color-ink-faint);
 }
 
 .c-edge-handle:hover .c-edge-handle__indicator,
@@ -2309,10 +2327,42 @@ html, body {
   outline-offset: -2px;
 }
 
-/* Hide edge handles when a drawer is open */
-.l-shell[data-drawer="left"] .c-edge-handle,
+/* Slide edge handles with main content when drawer opens */
+.c-edge-handle {
+  transition: width 0.25s var(--transition-easing),
+              background 0.25s var(--transition-easing),
+              color 0.25s var(--transition-easing),
+              transform 0.3s ease;
+}
+
+.l-shell[data-drawer="left"] .c-edge-handle {
+  transform: translateX(calc(var(--drawer-bar-width) + var(--drawer-nav-width)));
+}
+
 .l-shell[data-drawer="right"] .c-edge-handle {
-  display: none;
+  transform: translateX(-280px);
+}
+
+/* Keep the active drawer's tab expanded */
+.l-shell[data-drawer="left"] .c-edge-handle--left,
+.l-shell[data-drawer="right"] .c-edge-handle--right {
+  width: 24px;
+}
+
+.l-shell[data-drawer="left"] .c-edge-handle--left .c-edge-handle__indicator,
+.l-shell[data-drawer="right"] .c-edge-handle--right .c-edge-handle__indicator {
+  opacity: 1;
+}
+
+.l-shell[data-drawer="left"] .c-edge-handle--left .c-edge-handle__line,
+.l-shell[data-drawer="right"] .c-edge-handle--right .c-edge-handle__line {
+  height: 28px;
+}
+
+.l-shell[data-drawer="left"] .c-edge-handle--left .c-edge-handle__label,
+.l-shell[data-drawer="right"] .c-edge-handle--right .c-edge-handle__label {
+  opacity: 1;
+  max-height: 80px;
 }
 
 /* -------------------------------- */
