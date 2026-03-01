@@ -47,12 +47,14 @@
 
 {# Info Drawer #}
 <div id="info-drawer" class="l-bottom-drawer" aria-hidden="true" inert>
-  <div class="l-bottom-drawer__content">
+  <div class="l-bottom-drawer__header">
     <button class="l-bottom-drawer__close" aria-label="Close">
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
     </button>
+  </div>
+  <div class="l-bottom-drawer__content">
     <h2>Colophon</h2>
     <p>I'm Jesse Gardner — a technologist, writer, and humanist exploring ways to empower people with technology.</p>
     <dl class="c-colophon">
@@ -70,12 +72,14 @@
 
 {# Text Settings Drawer #}
 <div id="text-drawer" class="l-bottom-drawer" aria-hidden="true" inert>
-  <div class="l-bottom-drawer__content">
+  <div class="l-bottom-drawer__header">
     <button class="l-bottom-drawer__close" aria-label="Close">
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
     </button>
+  </div>
+  <div class="l-bottom-drawer__content">
     <div class="c-text-controls">
       {# Theme Mode - Segmented Control #}
       <fieldset class="c-text-controls__group c-theme-picker" role="radiogroup" aria-label="Color theme">
@@ -144,12 +148,14 @@
 
 {# Search Drawer #}
 <div id="search-drawer" class="l-bottom-drawer" aria-hidden="true" inert>
-  <div class="l-bottom-drawer__content">
+  <div class="l-bottom-drawer__header">
     <button class="l-bottom-drawer__close" aria-label="Close">
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
     </button>
+  </div>
+  <div class="l-bottom-drawer__content">
     <h2>Search</h2>
     <form class="c-search-form" role="search">
       <input type="search" placeholder="Search posts..." aria-label="Search posts" class="c-search-form__input">

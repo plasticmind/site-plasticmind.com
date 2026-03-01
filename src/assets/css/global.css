@@ -800,15 +800,17 @@ hr {
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
 }
 
+.l-bottom-drawer__header {
+  display: flex;
+  justify-content: flex-end;
+  padding: var(--space-md) var(--space-xl) 0;
+}
+
 .l-bottom-drawer__content {
-  padding: var(--space-xl);
-  position: relative;
+  padding: 0 var(--space-xl) var(--space-xl);
 }
 
 .l-bottom-drawer__close {
-  position: absolute;
-  top: var(--space-lg);
-  right: var(--space-lg);
   width: 32px;
   height: 32px;
   display: flex;

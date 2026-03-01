@@ -346,10 +346,9 @@ document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener('click', (e) => {
     const openDrawer = document.querySelector('.l-bottom-drawer.is-open');
     if (openDrawer) {
-      const content = openDrawer.querySelector('.l-bottom-drawer__content');
       const trigger = e.target.closest('[data-drawer-target]');
-      // Close if click is outside drawer content and not on a trigger
-      if (!content.contains(e.target) && !trigger) {
+      // Close if click is outside the drawer and not on a trigger
+      if (!openDrawer.contains(e.target) && !trigger) {
         closeBottomDrawer(openDrawer);
       }
     }
@@ -534,13 +533,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (edgeHandleLeft) {
     edgeHandleLeft.addEventListener('click', function() {
-      openDrawer('left');
+      if (shell.dataset.drawer === 'left') {
+        closeDrawers();
+      } else {
+        openDrawer('left');
+      }
     });
   }
 
   if (edgeHandleRight) {
     edgeHandleRight.addEventListener('click', function() {
-      openDrawer('right');
+      if (shell.dataset.drawer === 'right') {
+        closeDrawers();
+      } else {
+        openDrawer('right');
+      }
     });
   }
 
