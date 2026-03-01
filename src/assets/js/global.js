@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const DIRECTION_LOCK_DISTANCE = 10;
   const SNAP_THRESHOLD = 0.35;
   const VELOCITY_THRESHOLD = 0.3;  // px/ms
-  const EDGE_ZONE = 44;            // WCAG 2.5.5 AAA touch target
+  const EDGE_ZONE = 80;            // Wide enough to catch on mobile without fighting browser back-swipe
 
   let isDragging = false;
   let directionLocked = false;
