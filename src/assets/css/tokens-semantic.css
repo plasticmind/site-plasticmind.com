@@ -15,7 +15,7 @@
 
     --color-ink: var(--neutral-900);
     --color-ink-weak: var(--neutral-600);
-    --color-ink-weakest: var(--neutral-300);
+    --color-ink-weakest: var(--neutral-100);
     --color-ink-faint: var(--neutral-100);
 
     --color-ink-reverse: var(--neutral-0);
@@ -27,7 +27,7 @@
     --color-surface: var(--neutral-0);
     --color-surface-reverse: var(--neutral-900);
     --color-surface-dark: var(--neutral-900); /* Fixed dark - never swaps */
-    --color-surface-alt: var(--neutral-100);
+    --color-surface-alt: var(--neutral-50);
     --color-surface-alt-reverse: var(--neutral-800);
 
     --color-link: var(--color-coral-500);

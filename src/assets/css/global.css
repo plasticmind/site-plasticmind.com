@@ -2400,7 +2400,9 @@ html, body {
 }
 
 .c-edge-handle--left::before {
-  left: 100%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.06), transparent);
 }
 
 .c-edge-handle--right {
@@ -2410,7 +2412,9 @@ html, body {
 }
 
 .c-edge-handle--right::before {
-  right: 100%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.06), transparent);
 }
 
 .c-edge-handle__indicator {
