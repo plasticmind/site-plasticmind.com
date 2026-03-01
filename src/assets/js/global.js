@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Defer focus until the browser has processed the inert removal
     requestAnimationFrame(function() {
       var firstFocusable = activeDrawer.querySelector(focusableSelector);
-      if (firstFocusable) firstFocusable.focus();
+      if (firstFocusable) firstFocusable.focus({ focusVisible: false });
     });
   }
 
@@ -382,7 +382,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Defer focus until the browser has processed the inert removal
       requestAnimationFrame(function() {
         var firstFocusable = drawer.querySelector(focusableSelector);
-        if (firstFocusable) firstFocusable.focus();
+        if (firstFocusable) firstFocusable.focus({ focusVisible: false });
       });
     }
   }
