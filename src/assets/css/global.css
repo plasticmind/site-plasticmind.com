@@ -1225,13 +1225,13 @@ body:has(.c-archive-banner:not(.is-dismissed)) .l-main {
   height: 35px;
 }
 
-.c-site-header__logo svg .logo-solid {
+.c-site-header__logo svg .logo-hover {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
-.c-site-header__logo:hover svg .logo-solid,
-.c-site-header__logo:focus-visible svg .logo-solid {
+.c-site-header__logo:hover svg .logo-hover,
+.c-site-header__logo:focus-visible svg .logo-hover {
   opacity: 1;
 }
 
