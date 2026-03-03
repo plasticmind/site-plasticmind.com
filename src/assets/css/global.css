@@ -191,6 +191,10 @@ figcaption {
   text-align: center;
 }
 
+figure img {
+  margin-block: 0;
+}
+
 /* Horizontal rule */
 hr {
   margin-block: var(--space-xl);

@@ -74,7 +74,10 @@ But things took a turn for the worst last fall. During harvest, I got stung... a
 
 <img class="alignnone size-large wp-image-5890" src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_8603-copy-1024x768.jpg" alt="" width="1024" height="768" />
 
-[caption id="attachment_5801" align="alignnone" width="739"]<img class="wp-image-5801 size-large" src="https://plasticmind.com/wp-content/uploads/2019/12/45829465_10155497578902202_7530434003380207616_o-739x1024.jpg" alt="" width="739" height="1024" /> "HB" stands for "Honey Bee"[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/45829465_10155497578902202_7530434003380207616_o-739x1024.jpg" alt="&quot;HB&quot; stands for &quot;Honey Bee&quot;">
+  <figcaption>"HB" stands for "Honey Bee"</figcaption>
+</figure>
 
 However, a week later, while picking up some equipment I’d left down by the hive, I got stung once on the top of my head and went into anaphylactic shock. After a trip to urgent care, the ER, and an allergist, it was confirmed: I’m now *really* allergic to bees. I debated about what to do with my hive, especially since I was hoping to purchase a few more and place them in our orchard. I planned to donate the hive to a local beekeeper in exchange for some of the honey, but when spring rolled around, we checked the hive and they had all died. It was unfortunate, but probably for the best.
 
@@ -87,11 +90,20 @@ The chickens also surprised us. In 2016, we procured a rooster from the side of 
 
 If you've been following along with <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my December "31 Days of Making" project</a>, you've seen some of the major work we've done over our house in 2019.
 
-[caption id="attachment_5870" align="alignnone" width="1024"]<img class="wp-image-5870 size-large" src="https://plasticmind.com/wp-content/uploads/2019/12/old-deck-1024x768.jpg" alt="" width="1024" height="768" /> Desperately in need of a new deck[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/old-deck-1024x768.jpg" alt="Desperately in need of a new deck">
+  <figcaption>Desperately in need of a new deck</figcaption>
+</figure>
 
-[caption id="attachment_5871" align="alignnone" width="1024"]<img class="size-large wp-image-5871" src="https://plasticmind.com/wp-content/uploads/2019/12/deck-renovation-1024x768.jpg" alt="" width="1024" height="768" /> New deck, mid-renovation.[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/deck-renovation-1024x768.jpg" alt="New deck, mid-renovation.">
+  <figcaption>New deck, mid-renovation.</figcaption>
+</figure>
 
-[caption id="attachment_5873" align="alignnone" width="1024"]<img class="size-large wp-image-5873" src="https://plasticmind.com/wp-content/uploads/2019/12/new-deck-2-1024x683.jpg" alt="" width="1024" height="683" /> New deck, featuring this obscenely wide staircase.[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/new-deck-2-1024x683.jpg" alt="New deck, featuring this obscenely wide staircase.">
+  <figcaption>New deck, featuring this obscenely wide staircase.</figcaption>
+</figure>
 
 Earlier this year (after one of our kids stepped through a rotted board), we decided it was time to replace our deck. We hired out the project to some great contractors since I was mid-project for my own consulting business.  They really did a fantastic job on the deck, and we decided to take advantage of them being here and have them take care of some substantial changes we had been wanting to make inside the house.
 
@@ -103,9 +115,15 @@ So we asked them to tear down the wall between the dining room and the kitchen i
 
 You can get a sense of the new flow from these renderings I created early on in the project.
 
-[caption id="attachment_5874" align="alignnone" width="1020"]<img class="size-full wp-image-5874" src="https://plasticmind.com/wp-content/uploads/2019/12/dining-room-side.jpg" alt="" width="1020" height="765" /> The old dining room was walled off from the kitchen.[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/dining-room-side.jpg" alt="The old dining room was walled off from the kitchen.">
+  <figcaption>The old dining room was walled off from the kitchen.</figcaption>
+</figure>
 
-[caption id="attachment_5875" align="alignnone" width="1024"]<img class="size-large wp-image-5875" src="https://plasticmind.com/wp-content/uploads/2019/12/open-space-kitchen-1024x683.jpg" alt="" width="1024" height="683" /> The open floor plan is more in line with how we like to spend time at home.[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/open-space-kitchen-1024x683.jpg" alt="The open floor plan is more in line with how we like to spend time at home.">
+  <figcaption>The open floor plan is more in line with how we like to spend time at home.</figcaption>
+</figure>
 
 <img class="alignnone size-large wp-image-5879" src="https://plasticmind.com/wp-content/uploads/2019/12/dining-room-wall-1024x683.jpg" alt="" width="1024" height="683" />
 
@@ -126,7 +144,10 @@ Speaking of memories — we've made some incredible memories over the last few y
 
 *This is day 20 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
-[caption id="attachment_5884" align="alignnone" width="1024"]<img class="wp-image-5884 size-large" src="https://plasticmind.com/wp-content/uploads/2019/12/gardner-gang-2-1024x683.jpg" alt="" width="1024" height="683" /> Thanks for reading![/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/gardner-gang-2-1024x683.jpg" alt="Thanks for reading!">
+  <figcaption>Thanks for reading!</figcaption>
+</figure>
 
 <div style="display: none;"></div>
 

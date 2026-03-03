@@ -24,9 +24,15 @@ Royal blue carpet with teal walls in the living room? Teal carpet in a dining ro
 
 Trouble is, there's nearly 1,200 square feet of floor space, and any flooring price multiplied by 1,200 is substantial. We knew this was going to be a big project, especially since before we laid flooring we planned to redesign the floorplan. So this summer, we started work by hiring a contractor to tear out a wall and put up a new one. Then, earlier this month, I <a href="https://plasticmind.com/30-day-challenge/december-making-day5-home-renovation-plans/">planned out some of the other renovations</a> and <a href="https://plasticmind.com/30-day-challenge/december-making-day11-build-that-wall/">got to work</a>.
 
-[caption id="attachment_5836" align="alignnone" width="768"]<img class="wp-image-5836 size-large" src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6530-768x1024.jpg" alt="" width="768" height="1024" /> Linoleum sandwich: linoleum, luan, linoleum, luan, linoleum[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6530-768x1024.jpg" alt="Linoleum sandwich: linoleum, luan, linoleum, luan, linoleum">
+  <figcaption>Linoleum sandwich: linoleum, luan, linoleum, luan, linoleum</figcaption>
+</figure>
 
-[caption id="attachment_5838" align="alignnone" width="1024"]<img class="wp-image-5838 size-large" src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6538-1024x768.jpg" alt="" width="1024" height="768" /> Tacks... thousands of tacks...[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6538-1024x768.jpg" alt="Tacks... thousands of tacks...">
+  <figcaption>Tacks... thousands of tacks...</figcaption>
+</figure>
 
 With the floorplan complete, I called around for quotes to remove the old flooring and install new vinyl plank flooring. On any given day in our house, we've got animals running around and children rollerblading, so we felt like vinyl was a good, durable choice. However, once contractors saw much of our floor was a sandwich of linoleum, luan, linoleum, luan, and linoleum, our quotes moved easily into 5-figure price range.
 

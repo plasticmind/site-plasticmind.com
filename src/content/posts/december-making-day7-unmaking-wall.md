@@ -22,15 +22,30 @@ On day 5, <a href="https://plasticmind.com/30-day-challenge/december-making-day5
 
 When building out the renderings, I noticed just how much that little wall impacted the overall feel of the room. I'm amazed at how such a small change could open things up so much, and pleasantly surprised at how that openness worked in real life as well as it did in the renderings.
 
-[caption id="attachment_5708" align="alignnone" width="1024"]<img class="size-large wp-image-5708" src="https://plasticmind.com/wp-content/uploads/2019/12/renovations-1-1024x768.jpg" alt="" width="1024" height="768" /> Our existing entry and redundant hallway.[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/renovations-1-1024x768.jpg" alt="Our existing entry and redundant hallway.">
+  <figcaption>Our existing entry and redundant hallway.</figcaption>
+</figure>
 
-[caption id="attachment_5722" align="alignnone" width="1024"]<img class="wp-image-5722 size-large" src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6044-1024x768.jpg" alt="" width="1024" height="768" /> Amazing how this short wall made the space feel so closed up.[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6044-1024x768.jpg" alt="Amazing how this short wall made the space feel so closed up.">
+  <figcaption>Amazing how this short wall made the space feel so closed up.</figcaption>
+</figure>
 
-[caption id="attachment_5724" align="alignnone" width="1024"]<img class="wp-image-5724 size-large" src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6046-1024x768.jpg" alt="" width="1024" height="768" /> It's clobbering time![/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6046-1024x768.jpg" alt="It's clobbering time!">
+  <figcaption>It's clobbering time!</figcaption>
+</figure>
 
-[caption id="attachment_5725" align="alignnone" width="1024"]<img class="wp-image-5725 size-large" src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6052-1024x768.jpg" alt="" width="1024" height="768" /> &#x1f469;&#x1f3fc;||&#x1f44d;&#x1f3fb;[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6052-1024x768.jpg" alt="Family approves!">
+  <figcaption>Family approves!</figcaption>
+</figure>
 
-[caption id="attachment_5727" align="alignnone" width="1024"]<img class="wp-image-5727 size-large" src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6075-1024x768.jpg" alt="" width="1024" height="768" /> Needs some patching and paint, but very happy with the outcome overall.[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6075-1024x768.jpg" alt="Needs some patching and paint, but very happy with the outcome overall.">
+  <figcaption>Needs some patching and paint, but very happy with the outcome overall.</figcaption>
+</figure>
 
 <div style="display: none;"></div>
 

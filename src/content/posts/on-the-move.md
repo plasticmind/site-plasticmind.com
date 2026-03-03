@@ -24,6 +24,9 @@ Thus begins the roller-coaster. As the clock ticks down to April 15th (closing 
 
 *Note: If all goes as expected, we'll have a packing party on Saturday, April 11th, closing on the house down in PA on April 15th, driving up to NY, and closing on the house up there on April 16th. Check <a title="Jesse Gardner on Facebook" href="https://facebook.com/plasticmind">my Facebook page</a> for more up-to-date details.*
 
-[caption id="attachment_5227" align="alignnone" width="725"]<img class="wp-image-5227 size-full" src="https://plasticmind.com/wp-content/uploads/2015/03/driveway.jpg" alt="driveway" width="725" height="1024" /> Now that's a driveway![/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2015/03/driveway.jpg" alt="Now that's a driveway!">
+  <figcaption>Now that's a driveway!</figcaption>
+</figure>
 
 &nbsp;

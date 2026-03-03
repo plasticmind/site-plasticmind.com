@@ -40,9 +40,15 @@ Tomorrow, we build the wall!
 
 *This is day 10 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
-[caption id="attachment_5728" align="alignnone" width="1024"]<img class="size-large wp-image-5728" src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_5916-1024x768.jpg" alt="" width="1024" height="768" /> The "before" shot.[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_5916-1024x768.jpg" alt="The &quot;before&quot; shot.">
+  <figcaption>The "before" shot.</figcaption>
+</figure>
 
-[caption id="attachment_5706" align="alignnone" width="1024"]<img class="size-large wp-image-5706" src="https://plasticmind.com/wp-content/uploads/2019/12/2019-12-06-at-9.47-PM-1-1024x747.png" alt="" width="1024" height="747" /> The planned renovations to the entryway, with a coat closet on the front and the small wall removed between the entry and the living room.[/caption]
+<figure>
+  <img src="https://plasticmind.com/wp-content/uploads/2019/12/2019-12-06-at-9.47-PM-1-1024x747.png" alt="The planned renovations to the entryway, with a coat closet on the front and the small wall removed between the entry and the living room.">
+  <figcaption>The planned renovations to the entryway, with a coat closet on the front and the small wall removed between the entry and the living room.</figcaption>
+</figure>
 
 <div style="display: none;"></div>
 
