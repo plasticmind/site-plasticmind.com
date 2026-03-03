@@ -22,6 +22,7 @@ const excludeDrafts = require("./src/_11ty/filters/excludeDrafts.js");
 const excludeFuture = require("./src/_11ty/filters/excludeFuture.js");
 const excludeNoIndex = require("./src/_11ty/filters/excludeNoIndex.js");
 const relatedPosts = require("./src/_11ty/filters/relatedPosts.js");
+const postsByMonthYear = require("./src/_11ty/filters/postsByMonthYear.js");
 
 // collections
 const posts = require("./src/_11ty/collections/posts.js");
@@ -46,6 +47,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addFilter("excludeFuture", excludeFuture);
     eleventyConfig.addFilter("excludeNoIndex", excludeNoIndex);
     eleventyConfig.addFilter("relatedPosts", relatedPosts);
+    eleventyConfig.addFilter("postsByMonthYear", postsByMonthYear);
 
     // collections
     eleventyConfig.addCollection("posts", posts);
@@ -72,6 +74,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy("./src/assets/js/");
     // eleventyConfig.addPassthroughCopy("./src/admin/"); // Decap CMS
     eleventyConfig.addPassthroughCopy("./src/robots.txt"); // Decap CMS
+    eleventyConfig.addPassthroughCopy("./src/_redirects"); // Netlify redirects
     
 
     // base config

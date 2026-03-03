@@ -46,7 +46,12 @@ permalink: /category/{{ category.slug }}/
               {% for post in group.posts %}
                 <li class="c-year-timeline__item">
                   <time class="c-year-timeline__date">{{ post.date | dateShort }}</time>
-                  <a href="{{ post.url }}" class="c-year-timeline__link">{{ post.data.title }}</a>
+                  <div class="c-year-timeline__details">
+                    <a href="{{ post.url }}" class="c-year-timeline__link">{{ post.data.title }}</a>
+                    {% if post.data.subtitle %}
+                      <span class="c-year-timeline__subtitle">{{ post.data.subtitle }}</span>
+                    {% endif %}
+                  </div>
                 </li>
               {% endfor %}
             </ul>

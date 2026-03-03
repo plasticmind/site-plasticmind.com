@@ -1,0 +1,318 @@
+---
+title: "Archives"
+description: "Two decades of thinking out loud on the internet."
+section: "daily"
+permalink: /archives/
+eleventyExcludeFromCollections: true
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+
+{% set monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"] %}
+{% set monthNamesFull = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %}
+
+{# ============================================================
+   Section A: Stats + Heatmap
+   ============================================================ #}
+
+{% set totalPosts = collections.posts.length %}
+{% set heatmapData = collections.posts | postsByMonthYear %}
+{% set uniqueYears = heatmapData.years.length %}
+{% set totalCategories = collections.categoryList.length %}
+
+<section class="c-section">
+  <div class="l-container--lg">
+
+    <header class="c-archive-header">
+      <h1 class="c-archive-header__title">{{ title }}</h1>
+      <p class="c-archive-header__description">{{ description }}</p>
+    </header>
+
+    <div class="c-archive-stats">
+      <p>{{ totalPosts }} posts &middot; {{ uniqueYears }} years &middot; {{ totalCategories }} categories</p>
+    </div>
+
+    <div class="c-heatmap__scroll">
+      <div class="c-heatmap" role="img" aria-label="Post frequency heatmap showing writing activity across all years">
+        <div class="c-heatmap__tooltip" hidden></div>
+
+        <div class="c-heatmap__grid" style="--heatmap-cols: {{ heatmapData.years.length }}">
+          {# Empty top-left corner cell #}
+          <div class="c-heatmap__corner"></div>
+
+          {# Year labels across the top row #}
+          {% for year in heatmapData.years %}
+            <div class="c-heatmap__year-label">{{ year }}</div>
+          {% endfor %}
+
+          {# Month rows #}
+          {% for month in heatmapData.months %}
+            {# Month label #}
+            <div class="c-heatmap__month-label">{{ monthNames[month - 1] }}</div>
+
+            {# Cells for each year in this month row #}
+            {% for year in heatmapData.years %}
+              {% set count = 0 %}
+              {% if heatmapData.data[year] and heatmapData.data[year][month] %}
+                {% set count = heatmapData.data[year][month] %}
+              {% endif %}
+
+              {% if count == 0 %}
+                {% set level = 0 %}
+              {% elif count <= 2 %}
+                {% set level = 1 %}
+              {% elif count <= 5 %}
+                {% set level = 2 %}
+              {% else %}
+                {% set level = 3 %}
+              {% endif %}
+
+              <a href="#year-{{ year }}"
+                 class="c-heatmap__cell"
+                 data-count="{{ count }}"
+                 data-level="{{ level }}"
+                 data-year="{{ year }}"
+                 aria-label="{{ monthNamesFull[month - 1] }} {{ year }}: {{ count }} post{% if count != 1 %}s{% endif %}">
+              </a>
+            {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+{# ============================================================
+   Section B: Topic Explorer
+   ============================================================ #}
+
+<section class="c-section">
+  <div class="l-container--lg">
+
+    <h2 class="c-section__heading">Topics</h2>
+
+    {# Build array of categories with post counts, sorted by count descending #}
+    {% set cats = [] %}
+    {% for category in collections.categoryList %}
+      {% set catCount = 0 %}
+      {% for post in collections.posts %}
+        {% if post.data.primary_category == category.name %}
+          {% set catCount = catCount + 1 %}
+        {% endif %}
+      {% endfor %}
+      {% set catDesc = "" %}
+      {% if categoryDescriptions[category.slug] %}
+        {% set catDesc = categoryDescriptions[category.slug].description %}
+      {% endif %}
+      {% set cats = (cats.push({
+        name: category.name,
+        slug: category.slug,
+        description: catDesc,
+        count: catCount
+      }), cats) %}
+    {% endfor %}
+
+    {# Sort by count descending using a simple bubble sort in Nunjucks #}
+    {% for i in range(0, cats.length) %}
+      {% for j in range(0, cats.length - 1 - i) %}
+        {% if cats[j].count < cats[j + 1].count %}
+          {% set temp = cats[j] %}
+          {% set cats = cats %}
+          {% set _ = cats.splice(j, 2, cats[j + 1], temp) %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    <div class="c-topic-grid">
+      {% for cat in cats %}
+        <div class="c-topic-card">
+          <h3 class="c-topic-card__name">
+            <a href="/category/{{ cat.slug }}/">{{ cat.name }}</a>
+          </h3>
+          {% if cat.description %}
+            <p class="c-topic-card__description">{{ cat.description }}</p>
+          {% endif %}
+          <span class="c-topic-card__count">{{ cat.count }} post{% if cat.count != 1 %}s{% endif %}</span>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+
+{# ============================================================
+   Section C: Year-by-Year Chronology
+   ============================================================ #}
+
+{% set yearGroups = collections.posts | groupByYear %}
+{% set currentYear = 2026 %}
+{% set collapseThreshold = currentYear - 5 %}
+
+<section class="c-section">
+  <div class="l-container--lg">
+
+    <h2 class="c-section__heading">Year by Year</h2>
+
+    {% if yearGroups.length %}
+    <div class="c-year-timeline">
+      {% for group in yearGroups %}
+
+        {% if group.year <= collapseThreshold %}
+          {# Older years: collapsed by default #}
+          <div class="c-year-timeline__group" id="year-{{ group.year }}">
+            <div class="c-year-timeline__bar"></div>
+            <div class="c-year-timeline__content">
+              <details class="c-year-timeline__details-wrapper">
+                <summary>
+                  <h3 class="c-year-timeline__year">
+                    {{ group.year }}
+                    <span class="c-year-timeline__count">{{ group.posts.length }} entr{{ "y" if group.posts.length == 1 else "ies" }}</span>
+                    <svg class="c-year-timeline__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                      <path d="M6 8l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </h3>
+                </summary>
+                <ul class="c-year-timeline__posts">
+                  {% for post in group.posts %}
+                    <li class="c-year-timeline__item">
+                      <time class="c-year-timeline__date">{{ post.date | dateShort }}</time>
+                      <div class="c-year-timeline__details">
+                        <a href="{{ post.url }}" class="c-year-timeline__link">{{ post.data.title }}</a>
+                        {% if post.data.subtitle %}
+                          <span class="c-year-timeline__subtitle">{{ post.data.subtitle }}</span>
+                        {% endif %}
+                      </div>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </details>
+            </div>
+          </div>
+
+        {% else %}
+          {# Recent years: expanded normally #}
+          <div class="c-year-timeline__group" id="year-{{ group.year }}">
+            <div class="c-year-timeline__bar"></div>
+            <div class="c-year-timeline__content">
+              <h3 class="c-year-timeline__year">
+                {{ group.year }}
+                <span class="c-year-timeline__count">{{ group.posts.length }} entr{{ "y" if group.posts.length == 1 else "ies" }}</span>
+              </h3>
+              <ul class="c-year-timeline__posts">
+                {% for post in group.posts %}
+                  <li class="c-year-timeline__item">
+                    <time class="c-year-timeline__date">{{ post.date | dateShort }}</time>
+                    <div class="c-year-timeline__details">
+                      <a href="{{ post.url }}" class="c-year-timeline__link">{{ post.data.title }}</a>
+                      {% if post.data.subtitle %}
+                        <span class="c-year-timeline__subtitle">{{ post.data.subtitle }}</span>
+                      {% endif %}
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endif %}
+
+      {% endfor %}
+    </div>
+    {% else %}
+    <p>No posts found.</p>
+    {% endif %}
+
+  </div>
+</section>
+
+{# ============================================================
+   Section D: Serendipity / Random Posts
+   ============================================================ #}
+
+{% set randomPosts = collections.posts | shuffle | limit(3) %}
+
+<section class="c-section">
+  <div class="l-container--lg">
+
+    <div class="c-random-posts">
+      <h2 class="c-random-posts__heading">Feeling adventurous?</h2>
+      <p class="c-random-posts__description">Three random posts from the archive.</p>
+
+      <div class="c-random-posts__grid">
+        {% for post in randomPosts %}
+          <div class="c-random-posts__card">
+            <h3 class="c-random-posts__title">
+              <a href="{{ post.url }}">{{ post.data.title }}</a>
+            </h3>
+            {% if post.data.subtitle %}
+              <p class="c-random-posts__subtitle">{{ post.data.subtitle }}</p>
+            {% endif %}
+            <div class="c-random-posts__meta">
+              <time class="c-random-posts__date">{{ post.date | dateShort }}</time>
+              {% if post.data.primary_category %}
+                <span class="c-random-posts__category">{{ post.data.primary_category }}</span>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+
+      <button class="c-random-posts__shuffle" onclick="location.reload()">Shuffle</button>
+    </div>
+
+  </div>
+</section>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+  var tooltip = document.querySelector('.c-heatmap__tooltip');
+  var cells = document.querySelectorAll('.c-heatmap__cell');
+
+  // Click: scroll to year section, opening <details> if needed
+  cells.forEach(function (cell) {
+    cell.addEventListener('click', function (e) {
+      e.preventDefault();
+      var year = cell.getAttribute('data-year');
+      var target = document.getElementById('year-' + year);
+      if (!target) return;
+
+      // If the target contains a <details> element, open it first
+      var details = target.querySelector('details');
+      if (details && !details.open) {
+        details.open = true;
+      }
+
+      // Smooth scroll to the year section
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // Hover: show tooltip
+  cells.forEach(function (cell) {
+    cell.addEventListener('mouseenter', function (e) {
+      var label = cell.getAttribute('aria-label');
+      if (!label) return;
+
+      tooltip.textContent = label;
+      tooltip.removeAttribute('hidden');
+      tooltip.classList.add('c-heatmap__tooltip--visible');
+
+      var cellRect = cell.getBoundingClientRect();
+      tooltip.style.left = cellRect.left + (cellRect.width / 2) + 'px';
+      tooltip.style.top = (cellRect.top - 8) + 'px';
+      tooltip.style.transform = 'translate(-50%, -100%)';
+    });
+
+    cell.addEventListener('mouseleave', function () {
+      tooltip.setAttribute('hidden', '');
+      tooltip.classList.remove('c-heatmap__tooltip--visible');
+    });
+  });
+})();
+</script>
+{% endblock %}

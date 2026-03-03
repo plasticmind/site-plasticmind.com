@@ -1,0 +1,187 @@
+# =============================================================================
+# Netlify Redirects — WordPress to 11ty Migration
+# =============================================================================
+# Generated from WordPress sitemap audit (March 2026).
+# Rules are processed top-to-bottom; first match wins.
+# Without the ! (force) suffix, redirects only fire when no file exists at the
+# requested path — so existing 11ty pages (e.g. /accessibility/) are safe.
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+# 1. RSS / Feed
+# -----------------------------------------------------------------------------
+/feed/            /feed.xml   301
+/feed              /feed.xml   301
+/comments/feed/   /feed.xml   301
+
+
+# -----------------------------------------------------------------------------
+# 2. Tag Pages — /tag/{slug}/ -> /tags/{slug}/
+# -----------------------------------------------------------------------------
+# WordPress uses singular /tag/; 11ty uses plural /tags/.
+# ~471 WP tags; ~170 exist in 11ty. Missing tags will naturally 404.
+# WP deduplication suffixes (css-2, design-2, etc.) will also 404.
+
+/tag/*   /tags/:splat   301
+
+
+# -----------------------------------------------------------------------------
+# 3. Category Pages — /{wp-category-slug}/ -> /category/{11ty-slug}/
+# -----------------------------------------------------------------------------
+# WordPress categories sit at root level; 11ty nests under /category/.
+# These MUST come before the per-category post splat rules (section 4).
+#
+# NOTE: /accessibility/ also exists as a static 11ty page. Because this
+# redirect lacks the ! (force) flag, the static page wins. The WP
+# /accessibility/ category (2 posts) will not redirect to its category page.
+# This is acceptable — the accessibility statement is more important.
+#
+# If categories are renamed in the future, update the target slugs below
+# and in section 4 accordingly.
+
+# Categories with matching 11ty posts
+/0s-and-1s/           /category/0-s-and-1-s/       301
+/30-day-challenge/    /category/30-day-challenge/   301
+/accessibility/       /category/accessibility/      301
+/america/             /category/america/            301
+/announcements/       /category/announcements/      301
+/app/                 /category/app/                301
+/apple/               /category/apple/              301
+/blogging/            /category/blogging/           301
+/cms/                 /category/cms/                301
+/code/                /category/code/               301
+/css/                 /category/css/                301
+/design/              /category/design/             301
+/diy/                 /category/diy/                301
+/ears/                /category/ears/               301
+/eyes/                /category/eyes/               301
+/family-ties/         /category/family-ties/        301
+/freebies/            /category/freebies/           301
+/friends/             /category/friends/            301
+/gadgets/             /category/gadgets/            301
+/games/               /category/games/              301
+/heart/               /category/heart/              301
+/intercessional/      /category/intercessional/     301
+/interviews/          /category/interviews/         301
+/journeys/            /category/journeys/           301
+/kicks-and-giggles/   /category/kicks-and-giggles/  301
+/mind/                /category/mind/               301
+/miscellany/          /category/miscellany/         301
+/mobile/              /category/mobile/             301
+/movable-type/        /category/movable-type/       301
+/movies/              /category/movies/             301
+/podcasts/            /category/podcasts/           301
+/projects/            /category/projects/           301
+/retrospection/       /category/retrospection/      301
+/reviews/             /category/reviews/            301
+/savior/              /category/savior/             301
+/seo/                 /category/seo/                301
+/social-networking/   /category/social-networking/  301
+/tech-tips/           /category/tech-tips/          301
+/the-pen/             /category/the-pen/            301
+/uncategorized/       /category/uncategorized/      301
+/users/               /category/users/              301
+/wedding/             /category/wedding/            301
+/wordpress/           /category/wordpress/          301
+/world/               /category/world/              301
+/writing/             /category/writing/            301
+
+# WP-only categories (no posts in 11ty) — redirect to homepage
+/beginners/           /   301
+/downloads/           /   301
+/great-grandmother/   /   301
+/javascript/          /   301
+/photography/         /   301
+/plugins/             /   301
+/print/               /   301
+
+
+# -----------------------------------------------------------------------------
+# 4. Blog Post Redirects — /{wp-category}/{post-slug}/ -> /journal/{post-slug}/
+# -----------------------------------------------------------------------------
+# WordPress nests posts under their category; 11ty uses a flat /journal/ prefix.
+# One splat rule per WP category covers all ~872 post URLs.
+# Posts that don't exist in 11ty (~272) will land on /journal/{slug}/ and 404.
+
+/0s-and-1s/*           /journal/:splat   301
+/30-day-challenge/*    /journal/:splat   301
+/accessibility/*       /journal/:splat   301
+/america/*             /journal/:splat   301
+/announcements/*       /journal/:splat   301
+/app/*                 /journal/:splat   301
+/apple/*               /journal/:splat   301
+/beginners/*           /journal/:splat   301
+/blogging/*            /journal/:splat   301
+/cms/*                 /journal/:splat   301
+/code/*                /journal/:splat   301
+/css/*                 /journal/:splat   301
+/design/*              /journal/:splat   301
+/diy/*                 /journal/:splat   301
+/downloads/*           /journal/:splat   301
+/ears/*                /journal/:splat   301
+/eyes/*                /journal/:splat   301
+/family-ties/*         /journal/:splat   301
+/freebies/*            /journal/:splat   301
+/friends/*             /journal/:splat   301
+/gadgets/*             /journal/:splat   301
+/games/*               /journal/:splat   301
+/great-grandmother/*   /journal/:splat   301
+/heart/*               /journal/:splat   301
+/intercessional/*      /journal/:splat   301
+/interviews/*          /journal/:splat   301
+/javascript/*          /journal/:splat   301
+/journeys/*            /journal/:splat   301
+/kicks-and-giggles/*   /journal/:splat   301
+/mind/*                /journal/:splat   301
+/miscellany/*          /journal/:splat   301
+/mobile/*              /journal/:splat   301
+/movable-type/*        /journal/:splat   301
+/movies/*              /journal/:splat   301
+/photography/*         /journal/:splat   301
+/plugins/*             /journal/:splat   301
+/podcasts/*            /journal/:splat   301
+/print/*               /journal/:splat   301
+/projects/*            /journal/:splat   301
+/retrospection/*       /journal/:splat   301
+/reviews/*             /journal/:splat   301
+/savior/*              /journal/:splat   301
+/seo/*                 /journal/:splat   301
+/social-networking/*   /journal/:splat   301
+/tech-tips/*           /journal/:splat   301
+/the-pen/*             /journal/:splat   301
+/uncategorized/*       /journal/:splat   301
+/users/*               /journal/:splat   301
+/wedding/*             /journal/:splat   301
+/wordpress/*           /journal/:splat   301
+/world/*               /journal/:splat   301
+/writing/*             /journal/:splat   301
+
+
+# -----------------------------------------------------------------------------
+# 5. Static Pages
+# -----------------------------------------------------------------------------
+/about/                /work/   301
+/posts/                /blog/   301
+/contact/              /        301
+/search/               /        301
+/lab/                  /        301
+/faithtech/            /        301
+/livestreaming-101/    /        301
+/learning-web-design/  /        301
+
+
+# -----------------------------------------------------------------------------
+# 6. Series, Author, Newsletter
+# -----------------------------------------------------------------------------
+/series/*       /   301
+/author/*       /   301
+/newsletter/*   /   301
+
+
+# -----------------------------------------------------------------------------
+# 7. WordPress Infrastructure
+# -----------------------------------------------------------------------------
+# Let most WP infrastructure URLs 404 naturally. Only redirect common ones.
+/wp-admin/       /   301
+/wp-login.php    /   301

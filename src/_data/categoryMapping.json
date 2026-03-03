@@ -1,0 +1,272 @@
+{
+  "0's and 1's": {
+    "wpSlug": "0s-and-1s",
+    "proposed": "Technology",
+    "postCount": 29,
+    "notes": "Absorbs: App (3), Apple (1), CMS (6), Gadgets (2), Games (1), Mobile (2), Tech Tips (1), Users (1), WordPress (1)"
+  },
+  "30 Day Challenge": {
+    "wpSlug": "30-day-challenge",
+    "proposed": "30 Day Challenge",
+    "postCount": 30,
+    "notes": ""
+  },
+  "Accessibility": {
+    "wpSlug": "accessibility",
+    "proposed": "Accessibility",
+    "postCount": 2,
+    "notes": "Low count — could merge into Technology or Web Development"
+  },
+  "America": {
+    "wpSlug": "america",
+    "proposed": "America",
+    "postCount": 24,
+    "notes": ""
+  },
+  "Announcements": {
+    "wpSlug": "announcements",
+    "proposed": "Updates",
+    "postCount": 6,
+    "notes": ""
+  },
+  "App": {
+    "wpSlug": "app",
+    "proposed": "Technology",
+    "postCount": 3,
+    "notes": "Merges into Technology"
+  },
+  "Apple": {
+    "wpSlug": "apple",
+    "proposed": "Technology",
+    "postCount": 1,
+    "notes": "Merges into Technology"
+  },
+  "Blogging": {
+    "wpSlug": "blogging",
+    "proposed": "Writing",
+    "postCount": 34,
+    "notes": "Merges with Writing (3 posts)"
+  },
+  "CMS": {
+    "wpSlug": "cms",
+    "proposed": "Technology",
+    "postCount": 6,
+    "notes": "Merges into Technology"
+  },
+  "Code": {
+    "wpSlug": "code",
+    "proposed": "Code",
+    "postCount": 7,
+    "notes": ""
+  },
+  "CSS": {
+    "wpSlug": "css",
+    "proposed": "Web Development",
+    "postCount": 3,
+    "notes": "Merges with SEO (4) into Web Development"
+  },
+  "Design": {
+    "wpSlug": "design",
+    "proposed": "Design",
+    "postCount": 14,
+    "notes": ""
+  },
+  "DIY": {
+    "wpSlug": "diy",
+    "proposed": "DIY",
+    "postCount": 1,
+    "notes": "Low count — could merge into Projects or Miscellany"
+  },
+  "Ears": {
+    "wpSlug": "ears",
+    "proposed": "Music",
+    "postCount": 12,
+    "notes": ""
+  },
+  "Eyes": {
+    "wpSlug": "eyes",
+    "proposed": "Visual Arts",
+    "postCount": 11,
+    "notes": "Mix of photography and film/TV — too broad for Film & TV alone. Movies (1) could merge here or stay separate."
+  },
+  "Family Ties": {
+    "wpSlug": "family-ties",
+    "proposed": "Family",
+    "postCount": 22,
+    "notes": ""
+  },
+  "Freebies": {
+    "wpSlug": "freebies",
+    "proposed": "Resources",
+    "postCount": 2,
+    "notes": "Low count — could merge into Miscellany"
+  },
+  "Friends": {
+    "wpSlug": "friends",
+    "proposed": "Community",
+    "postCount": 12,
+    "notes": ""
+  },
+  "Gadgets": {
+    "wpSlug": "gadgets",
+    "proposed": "Technology",
+    "postCount": 2,
+    "notes": "Merges into Technology"
+  },
+  "Games": {
+    "wpSlug": "games",
+    "proposed": "Technology",
+    "postCount": 1,
+    "notes": "Merges into Technology"
+  },
+  "Heart": {
+    "wpSlug": "heart",
+    "proposed": "Personal",
+    "postCount": 55,
+    "notes": ""
+  },
+  "Intercessional": {
+    "wpSlug": "intercessional",
+    "proposed": "Religion",
+    "postCount": 3,
+    "notes": "Merges with Savior (45) into Religion"
+  },
+  "Interviews": {
+    "wpSlug": "interviews",
+    "proposed": "Interviews",
+    "postCount": 3,
+    "notes": "Low count — could merge into Community or Miscellany"
+  },
+  "Journeys": {
+    "wpSlug": "journeys",
+    "proposed": "Life",
+    "postCount": 67,
+    "notes": ""
+  },
+  "Kicks and Giggles": {
+    "wpSlug": "kicks-and-giggles",
+    "proposed": "Humor",
+    "postCount": 9,
+    "notes": ""
+  },
+  "Mind": {
+    "wpSlug": "mind",
+    "proposed": "Ideas",
+    "postCount": 34,
+    "notes": ""
+  },
+  "Miscellany": {
+    "wpSlug": "miscellany",
+    "proposed": "Miscellany",
+    "postCount": 14,
+    "notes": "Absorbs Uncategorized (3)"
+  },
+  "Mobile": {
+    "wpSlug": "mobile",
+    "proposed": "Technology",
+    "postCount": 2,
+    "notes": "Merges into Technology"
+  },
+  "Movable Type": {
+    "wpSlug": "movable-type",
+    "proposed": "Movable Type",
+    "postCount": 38,
+    "notes": "Specific platform — could merge into Technology but has significant post count"
+  },
+  "Movies": {
+    "wpSlug": "movies",
+    "proposed": "Visual Arts",
+    "postCount": 1,
+    "notes": "Merges with Eyes (11) into Visual Arts"
+  },
+  "Podcasts": {
+    "wpSlug": "podcasts",
+    "proposed": "Podcasts",
+    "postCount": 1,
+    "notes": "Low count — could merge into Miscellany"
+  },
+  "Projects": {
+    "wpSlug": "projects",
+    "proposed": "Projects",
+    "postCount": 3,
+    "notes": ""
+  },
+  "Retrospection": {
+    "wpSlug": "retrospection",
+    "proposed": "Reflection",
+    "postCount": 30,
+    "notes": ""
+  },
+  "Reviews": {
+    "wpSlug": "reviews",
+    "proposed": "Reviews",
+    "postCount": 3,
+    "notes": "Low count — could merge into Miscellany"
+  },
+  "Savior": {
+    "wpSlug": "savior",
+    "proposed": "Religion",
+    "postCount": 45,
+    "notes": "Absorbs Intercessional (3)"
+  },
+  "SEO": {
+    "wpSlug": "seo",
+    "proposed": "Web Development",
+    "postCount": 4,
+    "notes": "Merges with CSS (3) into Web Development"
+  },
+  "Social Networking": {
+    "wpSlug": "social-networking",
+    "proposed": "Social Media",
+    "postCount": 9,
+    "notes": ""
+  },
+  "Tech Tips": {
+    "wpSlug": "tech-tips",
+    "proposed": "Technology",
+    "postCount": 1,
+    "notes": "Merges into Technology"
+  },
+  "The Pen": {
+    "wpSlug": "the-pen",
+    "proposed": "Poetry",
+    "postCount": 36,
+    "notes": ""
+  },
+  "Uncategorized": {
+    "wpSlug": "uncategorized",
+    "proposed": "Miscellany",
+    "postCount": 3,
+    "notes": "Merges into Miscellany"
+  },
+  "Users": {
+    "wpSlug": "users",
+    "proposed": "Technology",
+    "postCount": 1,
+    "notes": "Merges into Technology"
+  },
+  "Wedding": {
+    "wpSlug": "wedding",
+    "proposed": "Wedding",
+    "postCount": 4,
+    "notes": "Low count — could merge into Personal or Family"
+  },
+  "WordPress": {
+    "wpSlug": "wordpress",
+    "proposed": "Technology",
+    "postCount": 1,
+    "notes": "Merges into Technology"
+  },
+  "World": {
+    "wpSlug": "world",
+    "proposed": "Culture",
+    "postCount": 11,
+    "notes": ""
+  },
+  "Writing": {
+    "wpSlug": "writing",
+    "proposed": "Writing",
+    "postCount": 3,
+    "notes": "Absorbs Blogging (34)"
+  }
+}

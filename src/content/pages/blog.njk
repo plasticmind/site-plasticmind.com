@@ -1,0 +1,121 @@
+---
+title: "Blog"
+description: "The latest from the blog."
+section: "daily"
+pagination:
+  data: collections.posts
+  size: 30
+eleventyExcludeFromCollections: true
+permalink: /blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+
+{# ============================================================
+   Section A: Featured Post (first page only)
+   ============================================================ #}
+{% if pagination.pageNumber == 0 and featuredPost and featuredPost.slug %}
+  {% set featured = null %}
+  {% for post in collections.posts %}
+    {% if post.data.slug == featuredPost.slug %}
+      {% set featured = post %}
+    {% endif %}
+  {% endfor %}
+
+  {% if featured %}
+  <section class="c-section">
+    <div class="l-container--lg">
+      <div class="c-featured-post">
+        <span class="c-featured-post__badge">Featured</span>
+        <h2 class="c-featured-post__title">
+          <a href="{{ featured.url }}">{{ featured.data.title }}</a>
+        </h2>
+        {% if featured.data.subtitle %}
+          <p class="c-featured-post__subtitle">{{ featured.data.subtitle }}</p>
+        {% endif %}
+        <p class="c-featured-post__meta">
+          <time>{{ featured.date | dateFull }}</time>
+          <span>{{ featured.content | timeToRead }}</span>
+        </p>
+        <p class="c-featured-post__excerpt">
+          {{ featured.data.excerpt or featured.data.subtitle }}
+        </p>
+        <a href="{{ featured.url }}" class="c-featured-post__read">Read &rarr;</a>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+{% endif %}
+
+{# ============================================================
+   Section B: Recent Posts Feed
+   ============================================================ #}
+
+<section class="c-section">
+  <div class="l-container--lg">
+    <header class="c-archive-header">
+      <h1 class="c-archive-header__title">Blog</h1>
+      <p class="c-archive-header__description">The latest from the blog.</p>
+    </header>
+
+    {% if pagination.items.length %}
+    <ul class="c-post-feed">
+      {% for post in pagination.items %}
+        <li class="c-post-feed__item">
+          <a href="{{ post.url }}" class="c-post-feed__link">
+            <div class="c-post-feed__content">
+              <h2 class="c-post-feed__title">{{ post.data.title }}</h2>
+              {% if post.data.subtitle %}
+                <p class="c-post-feed__subtitle">{{ post.data.subtitle }}</p>
+              {% endif %}
+            </div>
+            <div class="c-post-feed__meta">
+              {% if post.data.primary_category %}
+                <span class="c-post-feed__category">{{ post.data.primary_category }}</span>
+              {% endif %}
+              <time class="c-post-feed__date" datetime="{{ post.date | dateISO }}">{{ post.date | dateFull }}</time>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>No posts found.</p>
+    {% endif %}
+  </div>
+</section>
+
+{# ============================================================
+   Section C: Pagination
+   ============================================================ #}
+{% if pagination.pages.length > 1 %}
+<section class="c-section">
+  <div class="l-container--lg">
+    <nav aria-label="Blog pagination" class="c-pagination">
+      {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}" class="c-pagination__link c-pagination__link--prev">&larr; Newer</a>
+      {% endif %}
+      <span class="c-pagination__indicator">Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }}</span>
+      {% if pagination.href.next %}
+        <a href="{{ pagination.href.next }}" class="c-pagination__link c-pagination__link--next">Older &rarr;</a>
+      {% endif %}
+    </nav>
+  </div>
+</section>
+{% endif %}
+
+{# ============================================================
+   Section D: Quick Links
+   ============================================================ #}
+<section class="c-section">
+  <div class="l-container--lg">
+    <div class="c-quick-links">
+      <a href="/archives/">Explore the full archives &rarr;</a>
+      <a href="/feed/">Subscribe via RSS</a>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
