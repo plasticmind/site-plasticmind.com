@@ -30,6 +30,12 @@
       {{ content | safe }}
     </div>
 
+    {# = Article Meta #}
+    <div class="c-article-meta">
+      <time class="c-article-meta__date" datetime="{{ date | dateISO }}">{{ date | dateFull }}</time>
+      <span class="c-article-meta__byline">by Jesse Gardner</span>
+    </div>
+
     {# = Article Tags #}
     {% if primary_category or tags %}
       <ul class="c-tag-list" aria-label="Post tags">

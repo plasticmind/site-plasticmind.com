@@ -242,24 +242,24 @@ eleventyExcludeFromCollections: true
 
       <div class="c-random-posts__grid">
         {% for post in randomPosts %}
-          <div class="c-random-posts__card">
-            <h3 class="c-random-posts__title">
+          <div class="c-featured-post c-featured-post--compact">
+            <h3 class="c-featured-post__title">
               <a href="{{ post.url }}">{{ post.data.title }}</a>
             </h3>
             {% if post.data.subtitle %}
-              <p class="c-random-posts__subtitle">{{ post.data.subtitle }}</p>
+              <p class="c-featured-post__subtitle">{{ post.data.subtitle }}</p>
             {% endif %}
-            <div class="c-random-posts__meta">
-              <time class="c-random-posts__date">{{ post.date | dateShort }}</time>
+            <p class="c-featured-post__meta">
+              <time>{{ post.date | dateMedium }}</time>
               {% if post.data.primary_category %}
-                <span class="c-random-posts__category">{{ post.data.primary_category }}</span>
+                <span class="c-category-badge">{{ post.data.primary_category }}</span>
               {% endif %}
-            </div>
+            </p>
           </div>
         {% endfor %}
       </div>
 
-      <button class="c-random-posts__shuffle" onclick="location.reload()">Shuffle</button>
+      {# <button class="c-random-posts__shuffle" onclick="location.reload()">Shuffle</button> #}
     </div>
 
   </div>

@@ -15,6 +15,7 @@ const dateFeed = require("./src/_11ty/filters/date.js").dateFeed;
 const dateYear = require("./src/_11ty/filters/date.js").dateYear;
 const dateShort = require("./src/_11ty/filters/date.js").dateShort;
 const dateWork = require("./src/_11ty/filters/date.js").dateWork;
+const dateMedium = require("./src/_11ty/filters/date.js").dateMedium;
 const shuffle = require("./src/_11ty/filters/shuffle.js");
 const groupByYear = require("./src/_11ty/filters/groupByYear.js");
 const slugify = require("./src/_11ty/filters/slugify.js");
@@ -39,6 +40,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addFilter("dateYear", dateYear);
     eleventyConfig.addFilter("dateShort", dateShort);
     eleventyConfig.addFilter("dateWork", dateWork);
+    eleventyConfig.addFilter("dateMedium", dateMedium);
     eleventyConfig.addFilter("groupByYear", groupByYear);
     eleventyConfig.addFilter("slugify", slugify);
     eleventyConfig.addFilter("limit", limit);

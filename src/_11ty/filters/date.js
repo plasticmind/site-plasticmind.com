@@ -93,4 +93,17 @@ const dateWork = function(dateStr) {
     return dt.toFormat("LLL yyyy");
 }
 
-module.exports = { dateISO, dateFull, dateFullWeekday, dateFeed, dateYear, dateShort, dateWork };
+/**
+ * Format date as medium format (e.g., "Jan 03, 2023")
+ *
+ * @param {Date} date - JS date
+ * @return {String} formatted date as "MMM DD, YYYY"
+ */
+
+const dateMedium = function(date) {
+    const jsDate = new Date(date);
+    const dt = DateTime.fromJSDate(jsDate);
+    return dt.toFormat("LLL dd, yyyy");
+}
+
+module.exports = { dateISO, dateFull, dateFullWeekday, dateFeed, dateYear, dateShort, dateWork, dateMedium };

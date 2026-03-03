@@ -75,7 +75,7 @@ permalink: /blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 
               {% if post.data.primary_category %}
                 <span class="c-post-feed__category">{{ post.data.primary_category }}</span>
               {% endif %}
-              <time class="c-post-feed__date" datetime="{{ post.date | dateISO }}">{{ post.date | dateFull }}</time>
+              <time class="c-post-feed__date" datetime="{{ post.date | dateISO }}">{{ post.date | dateMedium }}</time>
             </div>
           </a>
         </li>

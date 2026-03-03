@@ -1,5 +1,5 @@
 ---
-title: "I Hate Verizon, Vonage and Comcast, or <em>Erego Ergo Sum</em>"
+title: "I Hate Verizon, Vonage and Comcast, or Erego Ergo Sum"
 date: 2005-12-12 11:50:44
 archive: true
 excerpt: 
