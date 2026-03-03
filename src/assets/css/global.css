@@ -1857,9 +1857,9 @@ html, body {
 
 .c-work-entry {
   display: grid;
-  grid-template-columns: 48px 1fr;
-  gap: var(--space-md);
-  padding: var(--space-lg) 0;
+  grid-template-columns: 56px 1fr;
+  gap: var(--space-lg);
+  padding: var(--space-xl) 0;
   border-bottom: 1px solid var(--color-ink-faint);
 }
 
@@ -1869,23 +1869,24 @@ html, body {
 
 /* Logo */
 .c-work-entry__logo {
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
   flex-shrink: 0;
 }
 
 .c-work-entry__logo img {
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
   border-radius: var(--radius-md);
   object-fit: contain;
   background: var(--color-surface-alt);
+  border: 1px solid var(--color-ink-faint);
   margin: 0;
 }
 
 .c-work-entry__logo-placeholder {
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
   border-radius: var(--radius-md);
   background: var(--color-surface-alt);
   display: flex;
@@ -1898,7 +1899,7 @@ html, body {
 .c-work-entry__content {
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
+  gap: var(--space-md);
 }
 
 .c-work-entry__header {
@@ -1989,6 +1990,9 @@ html, body {
 
 /* Related posts */
 .c-work-entry__related {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
   margin-top: var(--space-sm);
 }
 
@@ -1998,7 +2002,6 @@ html, body {
   gap: var(--space-md);
   text-decoration: none;
   padding: var(--space-sm);
-  margin: calc(-1 * var(--space-sm));
   border-radius: var(--radius-sm);
   transition: background var(--transition-sm) ease;
 }
@@ -2046,6 +2049,7 @@ html, body {
     width: 40px;
     height: 40px;
   }
+
 }
 
 /* ---------------------- */
@@ -2786,18 +2790,15 @@ html, body {
 }
 
 .c-year-timeline__details-wrapper .c-year-timeline__posts {
-  overflow: hidden;
   animation: timeline-reveal 0.3s ease forwards;
 }
 
 @keyframes timeline-reveal {
   from {
     opacity: 0;
-    max-height: 0;
   }
   to {
     opacity: 1;
-    max-height: 2000px;
   }
 }
 
