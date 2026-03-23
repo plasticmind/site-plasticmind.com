@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "I think it’s important to be patient with people."
 slug: on-being-patient
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/05/IMG_40811.jpg
+featured_image_url: /assets/i/IMG_40811.jpg
 alt_text: ""
-primary_category: "Heart"
-categories: ["Heart"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal

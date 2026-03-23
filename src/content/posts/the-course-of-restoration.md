@@ -7,8 +7,8 @@ subtitle:
 slug: the-course-of-restoration
 featured_image_url: 
 alt_text: 
-primary_category: "Podcasts"
-categories: ["Podcasts"]
+primary_category: "Reviews"
+categories: ["Reviews"]
 tags: []
 meta_description: 
 context: personal

@@ -7,9 +7,9 @@ subtitle:
 slug: movable-type-fluid
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging", "Downloads", "Movable Type"]
-tags: ["Fluid", "icon", "instructions"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "Downloads"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -40,7 +40,7 @@ Trouble is, when you've got your Gmail, Facebook, Google Calendar, Basecamp, Fli
 
 
 
-Enter: <a href="https://fluidapp.com/">Fluid</a>.  According to the site, Fluid is a free, site-specific browser for Mac OS X Leopard that lets you use the Safari Webkit to create applications out of your favorite sites.  &#8220;Why bother?&#8221; you may ask.  Simple: Fluid lets your web browsing be web browsing while your tools get a special place in your dock.  You can hide them at will, give them their own icons; Fluid even recognizes some popular sites like Gmail and puts up a badge when you have a new message.  There's even a handy API for <a href="https://www.youtube.com/watch?v=xz0q36Qwrdw">mashing up things like Gmail and Flickr</a> as well as built in Userscript support (<a href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey</a>).
+Enter: <a href="https://fluidapp.com/">Fluid</a>.  According to the site, Fluid is a free, site-specific browser for Mac OS X Leopard that lets you use the Safari Webkit to create applications out of your favorite sites.  “Why bother?” you may ask.  Simple: Fluid lets your web browsing be web browsing while your tools get a special place in your dock.  You can hide them at will, give them their own icons; Fluid even recognizes some popular sites like Gmail and puts up a badge when you have a new message.  There's even a handy API for <a href="https://www.youtube.com/watch?v=xz0q36Qwrdw">mashing up things like Gmail and Flickr</a> as well as built in Userscript support (<a href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey</a>).
 
 
 
@@ -64,7 +64,7 @@ I immediately thought of Movable Type.  I have one Movable Type install on my se
 
 
 
-How do you turn Movable Type into a &#8220;desktop app&#8221;.  It's surprisingly easy.
+How do you turn Movable Type into a “desktop app”.  It's surprisingly easy.
 
 
 
@@ -106,7 +106,7 @@ In the first field, put in the url of your Movable Type install.  For instance, 
 
 
 
-One final note: if you can't seem to log in or if Fluid keeps sending you over to your default browser, you may need to go under Preferences » Advanced and Select &#8220;Allow browsing to any URL&#8221; in order to get it working correctly.'
+One final note: if you can't seem to log in or if Fluid keeps sending you over to your default browser, you may need to go under Preferences » Advanced and Select “Allow browsing to any URL” in order to get it working correctly.'
 
 
 

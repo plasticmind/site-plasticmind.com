@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: 
 slug: the-life-of-jason
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/07/life-of-jason.jpg
+featured_image_url: /assets/i/life-of-jason.jpg
 alt_text: ""
-primary_category: "Family Ties"
-categories: ["Family Ties"]
+primary_category: "People"
+categories: ["People"]
 tags: []
 meta_description: "Every night, my kids ask me to tell them story about Jason. Let me introduce you to him…"
 context: personal

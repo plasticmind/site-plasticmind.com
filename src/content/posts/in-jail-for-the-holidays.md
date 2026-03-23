@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: in-jail-for-the-holidays
-featured_image_url: https://plasticmind.com/wp-content/uploads/2008/12/jail.jpg
+featured_image_url: /assets/i/jail.jpg
 alt_text: 
-primary_category: "Savior"
-categories: ["Savior"]
-tags: ["ministry", "prison"]
+primary_category: "Faith"
+categories: ["Faith"]
+tags: []
 meta_description: 
 context: personal
 fix: false

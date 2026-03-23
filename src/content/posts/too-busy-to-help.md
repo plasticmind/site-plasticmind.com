@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: 
 slug: too-busy-to-help
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/08/821223231_28018ded2a_b.jpg
+featured_image_url: /assets/i/821223231_28018ded2a_b.jpg
 alt_text: 
-primary_category: "Heart"
-categories: ["Heart"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: "Looking for needs, stopping to help, and doing what you can with what you have."
 context: personal

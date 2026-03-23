@@ -7,9 +7,9 @@ subtitle:
 slug: t-mobile-hotspot-home-troubles
 featured_image_url: 
 alt_text: 
-primary_category: "Gadgets"
-categories: ["Gadgets"]
-tags: ["dd-wrt", "linksys", "t-mobile", "tomato", "troubleshooting", "uma", "wifi"]
+primary_category: "Reviews"
+categories: ["Reviews"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -19,7 +19,7 @@ hits: 241
 
 			
 
-<img src="https://plasticmind.com/assets/tmobile.jpg" alt="" />
+<img src="/assets/i/tmobile.jpg" alt="" />
 
 
 
@@ -37,7 +37,7 @@ Suddenly, I'm talking with my T-Mobile rep and he's telling me about this <a hre
 
 
 
-**All was well, until the router started dropping my calls.  Often.**  This was extremely puzzling and frustrating, especially since I've read nothing but <a href="https://gadgets.boingboing.net/2008/01/11/tmobile-hotspothome.html">rave reviews</a> for the service <a href="https://www.oreillynet.com/etel/blog/2007/08/review_tmobile_hotspothome_thu.html">all over the place</a>.  I'd answer the phone and I couldn't hear the person on the other end, even though they could hear me.  I'd constantly have to the phone off and back on again.  Often it stated the security code was wrong even though it worked again 5 minutes later.  Sometimes, I'd even be in the middle of a phone call and it would just turn off completely, without warning&#8212;up to 7 or 8 times a day.  Completely unacceptable, especially with a business.
+**All was well, until the router started dropping my calls.  Often.**  This was extremely puzzling and frustrating, especially since I've read nothing but <a href="https://gadgets.boingboing.net/2008/01/11/tmobile-hotspothome.html">rave reviews</a> for the service <a href="https://www.oreillynet.com/etel/blog/2007/08/review_tmobile_hotspothome_thu.html">all over the place</a>.  I'd answer the phone and I couldn't hear the person on the other end, even though they could hear me.  I'd constantly have to the phone off and back on again.  Often it stated the security code was wrong even though it worked again 5 minutes later.  Sometimes, I'd even be in the middle of a phone call and it would just turn off completely, without warning—up to 7 or 8 times a day.  Completely unacceptable, especially with a business.
 
 
 
@@ -49,13 +49,13 @@ Suddenly, I'm talking with my T-Mobile rep and he's telling me about this <a hre
 
 
 
-But after <a href="https://hardware.mcse.ms/message14506.html">a little research</a>, I discovered that I was running the Linksys WRK54G, an &#8220;economy&#8221; version of their famous blue-black router with a reduced chipset and less memory that's prone to locking up and needing to be rebooted.  Turns out that you can't even install third-party firmware (like <a href="https://www.polarcloud.com/tomato">Polarcloud's Tomato</a>) onto it.  **In a nutshell, I had a lousy router.**
+But after <a href="https://hardware.mcse.ms/message14506.html">a little research</a>, I discovered that I was running the Linksys WRK54G, an “economy” version of their famous blue-black router with a reduced chipset and less memory that's prone to locking up and needing to be rebooted.  Turns out that you can't even install third-party firmware (like <a href="https://www.polarcloud.com/tomato">Polarcloud's Tomato</a>) onto it.  **In a nutshell, I had a lousy router.**
 
 
 
 
 
-**So I went back to the T-Mobile store and picked up their router.**  I checked the product version on it: WRT54G-TM, which is actually just a custom T-Mobile off-shoot of their beefy WRT54G line.  In fact, a little forum diving revealed that <a href="https://www.dd-wrt.com/phpBB2/viewtopic.php?t=17817&amp;postdays=0&amp;postorder=asc&amp;start=0">most hackers are ga-ga over the new TM model</a> because it's got a whopping 32MB of RAM and 8MB of flash ROM.  Unfortunately, it's got built-in protection against third-party firmware&#8230; if you try to upload something like <a href="https://www.polarcloud.com/tomato">Tomato</a> or <a href="https://www.dd-wrt.com/dd-wrtv2/index.php">dd-wrt</a>, it pulls a backup from the flash memory and resets everything to defaults.  The only way to get around this and install your own custom firmware is to actually create a jtag cable that you solder in to clear the flash out to prevent it from reseting to the default (though there is <a href="https://www.dd-wrt.com/phpBB2/viewtopic.php?p=131424#131424">talk of a non-jtag solution</a>).
+**So I went back to the T-Mobile store and picked up their router.**  I checked the product version on it: WRT54G-TM, which is actually just a custom T-Mobile off-shoot of their beefy WRT54G line.  In fact, a little forum diving revealed that <a href="https://www.dd-wrt.com/phpBB2/viewtopic.php?t=17817&amp;postdays=0&amp;postorder=asc&amp;start=0">most hackers are ga-ga over the new TM model</a> because it's got a whopping 32MB of RAM and 8MB of flash ROM.  Unfortunately, it's got built-in protection against third-party firmware… if you try to upload something like <a href="https://www.polarcloud.com/tomato">Tomato</a> or <a href="https://www.dd-wrt.com/dd-wrtv2/index.php">dd-wrt</a>, it pulls a backup from the flash memory and resets everything to defaults.  The only way to get around this and install your own custom firmware is to actually create a jtag cable that you solder in to clear the flash out to prevent it from reseting to the default (though there is <a href="https://www.dd-wrt.com/phpBB2/viewtopic.php?p=131424#131424">talk of a non-jtag solution</a>).
 
 
 

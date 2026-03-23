@@ -7,8 +7,8 @@ subtitle:
 slug: expectations-liberalism-and-donuts
 featured_image_url: 
 alt_text: 
-primary_category: "America"
-categories: ["America", "Miscellany"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics", "Miscellany"]
 tags: []
 meta_description: 
 context: personal

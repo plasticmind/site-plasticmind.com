@@ -7,8 +7,8 @@ subtitle:
 slug: elusive-rich-snippets
 featured_image_url: 
 alt_text: 
-primary_category: "SEO"
-categories: ["SEO"]
+primary_category: "Social Media & SEO"
+categories: ["Social Media & SEO"]
 tags: []
 meta_description: 
 context: professional
@@ -31,7 +31,7 @@ We recently noticed that instead of food photos next to the results, Elise's ava
 
 
 
-<img alt="missing-thumb.jpg" src="https://plasticmind.com/assets/missing-thumb.jpg" width="527" height="347" class="mt-image-none">
+<img alt="missing-thumb.jpg" src="/assets/i/missing-thumb.jpg" width="527" height="347" class="mt-image-none">
 
 
 
@@ -61,13 +61,13 @@ I wasn't sure exactly where to start (any SEO talk requires a bit of black magic
 
 
 
-However, I decided to strip out all of the microformatting.  I removed the <code>.hrecipe</code> class and most of the &#8220;Google-specific&#8221; microformatting they require and left just the semantic stuff (like <code>.ingredient</code> and <code>.photo</code>).  I used only the microdata approach and included some of the data I has missed before like <code>interactionCount</code> and <code>datePublished</code>.  After a few days, the thumbnails were back.
+However, I decided to strip out all of the microformatting.  I removed the <code>.hrecipe</code> class and most of the “Google-specific” microformatting they require and left just the semantic stuff (like <code>.ingredient</code> and <code>.photo</code>).  I used only the microdata approach and included some of the data I has missed before like <code>interactionCount</code> and <code>datePublished</code>.  After a few days, the thumbnails were back.
 
 
 
 
 
-<img alt="all-is-well.png" src="https://plasticmind.com/wp-content/uploads/2013/07/all-is-well.png" width="666" height="303" class="mt-image-none" style="">
+<img alt="all-is-well.png" src="/assets/i/all-is-well.png" width="666" height="303" class="mt-image-none" style="">
 
 
 

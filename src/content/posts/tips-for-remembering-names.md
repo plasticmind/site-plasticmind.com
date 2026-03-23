@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: tips-for-remembering-names
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/11/hello-my-name-is.jpg
+featured_image_url: /assets/i/hello-my-name-is.jpg
 alt_text: 
 primary_category: "Mind"
 categories: ["Mind"]
-tags: ["memory", "names"]
+tags: []
 meta_description: 
 context: personal
 fix: false

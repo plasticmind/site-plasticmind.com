@@ -7,8 +7,8 @@ subtitle:
 slug: these-are-a-few-of-my-unfavorite-things
 featured_image_url: 
 alt_text: 
-primary_category: "0's and 1's"
-categories: ["0's and 1's"]
+primary_category: "Technology"
+categories: ["Technology"]
 tags: []
 meta_description: 
 context: professional

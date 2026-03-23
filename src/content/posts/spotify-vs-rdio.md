@@ -40,7 +40,7 @@ So, after reading through <a href="https://www.macgasm.net/2012/05/03/rdio-vs-mo
 
 
 
-I was immediately impressed by the UI.  Much cleaner and less antiquated than Spotify.  I was especially struck with how well they've nailed the social aspect of music listening.  The &#8220;Heavy Rotation&#8221; startup screen was especially useful because I could see what was most popular among my friends and jump right into the listening.  I was also glad to see a history tab.  I can't tell you how many times I've wanted to go back to what I had been listening to earlier in the day on Spotify, only to find myself trying to recreate the search that brought me to discover the music in the first place.  Frustrating.
+I was immediately impressed by the UI.  Much cleaner and less antiquated than Spotify.  I was especially struck with how well they've nailed the social aspect of music listening.  The “Heavy Rotation” startup screen was especially useful because I could see what was most popular among my friends and jump right into the listening.  I was also glad to see a history tab.  I can't tell you how many times I've wanted to go back to what I had been listening to earlier in the day on Spotify, only to find myself trying to recreate the search that brought me to discover the music in the first place.  Frustrating.
 
 
 
@@ -73,7 +73,7 @@ I've got an ambient playlist in Spotify with about 270 songs in it, with artists
 
 
 
-So I decided instead to start with some of my favorite artists.  I looked up Jon Hopkins.  I listen to his three albums Monsters, Insides and Opalescent almost every day.  Spotify has five of his albums.  Rdio only has three, and the two missing are my favorites: Opalescent, his oldest and Monsters, his newest.  So I attempt to add albums from another artist I enjoy, Helios.  Rdio has 3; Spotify has 11.  Granted, some of the albums on Spotify are compilations; but they have none of the albums before 2008, which are some of his best.  I looked for Minecraft - Volume Alpha by C418, a great ambient album&#8212;not on Rdio.  I looked for the Braid soundtrack, a gorgeous instrumental album from the game of the same name&#8212;not on Rdio.  This was just my first day of searching.
+So I decided instead to start with some of my favorite artists.  I looked up Jon Hopkins.  I listen to his three albums Monsters, Insides and Opalescent almost every day.  Spotify has five of his albums.  Rdio only has three, and the two missing are my favorites: Opalescent, his oldest and Monsters, his newest.  So I attempt to add albums from another artist I enjoy, Helios.  Rdio has 3; Spotify has 11.  Granted, some of the albums on Spotify are compilations; but they have none of the albums before 2008, which are some of his best.  I looked for Minecraft - Volume Alpha by C418, a great ambient album—not on Rdio.  I looked for the Braid soundtrack, a gorgeous instrumental album from the game of the same name—not on Rdio.  This was just my first day of searching.
 
 
 
@@ -91,7 +91,7 @@ Put off, but not undeterred, I decided to stick with it for a week.  During that
 
 
 
-I noticed a lot of other little nuisances with Rdio.  When listening to a song in the context of a playlist on the mobile app, you can't play more from that album; Spotify shows you the album the song your listening to is from and lets you jump into the album to start listening.  While listening in the car, my wife and I both kept noticing little audio blips every 15 or 20 minutes during playback, almost like a bad CD rip.  The audio quality was also noticeably lower&#8212;noticeable enough that my wife asked me to switch back to Spotify.
+I noticed a lot of other little nuisances with Rdio.  When listening to a song in the context of a playlist on the mobile app, you can't play more from that album; Spotify shows you the album the song your listening to is from and lets you jump into the album to start listening.  While listening in the car, my wife and I both kept noticing little audio blips every 15 or 20 minutes during playback, almost like a bad CD rip.  The audio quality was also noticeably lower—noticeable enough that my wife asked me to switch back to Spotify.
 
 
 

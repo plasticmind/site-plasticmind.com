@@ -7,9 +7,9 @@ subtitle:
 slug: the-raised-bed-that-wasnt
 featured_image_url: 
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
-tags: ["blindmanproject", "freewrite", "gardening"]
+primary_category: "Writing"
+categories: ["Writing"]
+tags: ["freewrite"]
 meta_description: 
 context: 
 fix: false

@@ -7,9 +7,9 @@ subtitle:
 slug: plasticmind-haas-edition
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging"]
-tags: ["reboot"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -25,7 +25,7 @@ hits: 124
 
 
 
-Thank you all for patience, and *welcome* to the new Plasticmind Journal.  Now, for those of you long time readers of my &#8220;blog&#8221;, let me clarify what just happened here.  Plasticmind: Food for Thought just became <a href="https://plasticmind.com">plasticmind.com</a>.  And the thing that lives over at <a href="https://plasticmind.com">plasticmind.com</a> is now my tech blog.  
+Thank you all for patience, and *welcome* to the new Plasticmind Journal.  Now, for those of you long time readers of my “blog”, let me clarify what just happened here.  Plasticmind: Food for Thought just became <a href="https://plasticmind.com">plasticmind.com</a>.  And the thing that lives over at <a href="https://plasticmind.com">plasticmind.com</a> is now my tech blog.  
 
 
 

@@ -7,8 +7,8 @@ subtitle:
 slug: dear-readers-please-comment
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: personal
@@ -30,7 +30,7 @@ But that's not what this post is about.  As much as I like shameless self-promot
 
 
 
-<img alt="savetheforums.gif" src="https://plasticmind.com/assets/savetheforums.gif" width="450" height="128" style="border:none;"/>
+<img alt="savetheforums.gif" src="/assets/i/savetheforums.gif" width="450" height="128" style="border:none;"/>
 
 
 

@@ -7,9 +7,9 @@ subtitle:
 slug: the-boy-and-the-girl-part-2
 featured_image_url: 
 alt_text: 
-primary_category: "Heart"
-categories: ["Heart"]
-tags: ["engagement", "Jesse", "Jessica"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: ["engagement"]
 meta_description: 
 context: personal
 fix: false
@@ -32,11 +32,11 @@ Then the boy had to do one of the hardest things that any boy anywhere has to do
 
 Four hours later, the boy was smiling even though his hands were sweaty. The girl's parents were smiling, too. They had said yes. They all laughed when the girl came home and was upset because she had a bad day at work. If only she knew!
 
-The boy asked the girl to go to Maine with him, but he didn't say why. She said yes, of course, because that's what a girl in love does &#8211; spends time with her boy.
+The boy asked the girl to go to Maine with him, but he didn't say why. She said yes, of course, because that's what a girl in love does – spends time with her boy.
 
-As the day grew closer, the boy began to worry that the girl knew about the secret. He had to find a way to make sure she didn't know. So the boy tried something so brave but so risky that everyone he told said &#8220;Oh my!&#8221; He took the girl to the jewelry store to look at rings. &#8220;But he already bought the ring!&#8221; you say. That is true. But the boy had to be sure she didn't know. &#8220;But what if she picked out a different ring?&#8221; you ask. She might. But the boy was certain that he knew her well enough to know what ring she wanted. Sure enough, she picked almost the same ring as the one he already bought.
+As the day grew closer, the boy began to worry that the girl knew about the secret. He had to find a way to make sure she didn't know. So the boy tried something so brave but so risky that everyone he told said “Oh my!” He took the girl to the jewelry store to look at rings. “But he already bought the ring!” you say. That is true. But the boy had to be sure she didn't know. “But what if she picked out a different ring?” you ask. She might. But the boy was certain that he knew her well enough to know what ring she wanted. Sure enough, she picked almost the same ring as the one he already bought.
 
-When they went home that night, the girl told her parents about their visit to the jewelry store. Her parents (who knew the secret, of course) pretended like they were surprised that the boy took the girl to the jewelry store. &#8220;You need to ask us before you start to think about getting married!&#8221; her mother exclaimed. She winked at the boy. The girl had no idea.
+When they went home that night, the girl told her parents about their visit to the jewelry store. Her parents (who knew the secret, of course) pretended like they were surprised that the boy took the girl to the jewelry store. “You need to ask us before you start to think about getting married!” her mother exclaimed. She winked at the boy. The girl had no idea.
 
 Then the day finally arrived to leave for Maine. The boy and the girl climbed into the car and drove a long, long way until finally they came up over the last hill and saw the lake where they were staying. After a glowing orange sunset with dark blue striped clouds, the girl went to a friends house and the boy fell asleep in an old camper.
 
@@ -44,4 +44,4 @@ This was it! Today was the day! They were supposed to get up at five thirty and 
 
 They made it into the water at six, with the sun already coming up and a beautiful morning already starting. As they paddled out to the middle of the lake, two motor boats raced along the north shore. The girl did not notice. The two boats stopped at the cliffs and after about five minutes, one took off back up the north shore. The girl did not notice, but the boy did. He headed the kayak toward the cliffs.
 
-**<a href="https://plasticmind.com/heart/the-boy-and-the-3/">on to chapter 3&#8230;</a>**
+**<a href="https://plasticmind.com/heart/the-boy-and-the-3/">on to chapter 3…</a>**

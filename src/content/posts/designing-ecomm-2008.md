@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Design"
 categories: ["Design", "Print"]
-tags: ["artwork", "design", "eComm", "eComm2008", "logo", "photos"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -43,7 +43,7 @@ Because of ETel's last minute cancelation, Lee needed an tremendous amount of de
 
 
 
-The key concept for the conference was connectivity&#8212;social and technological.  So I wanted that to be a prominent theme in the logo.  You can see I started early (top left) with that concept.  The next iteration (top right) was more a cross section of pipes, but didn't communicate connectivity well.  The dots in draft 3 brought us back to the idea of connectivity, but with the concept of packets.  However, the broken lines in drafts 3 and 4 carried too much negative connotation (sporadic, spotty).  Draft four did introduce a very pleasing perspective that I melded with the swoop from draft one to get the finished logo that you can see in <a href="https://www.flickr.com/photos/x180/sets/72157604105659581/">the great photos that James Davidson took of the conference</a>.
+The key concept for the conference was connectivity—social and technological.  So I wanted that to be a prominent theme in the logo.  You can see I started early (top left) with that concept.  The next iteration (top right) was more a cross section of pipes, but didn't communicate connectivity well.  The dots in draft 3 brought us back to the idea of connectivity, but with the concept of packets.  However, the broken lines in drafts 3 and 4 carried too much negative connotation (sporadic, spotty).  Draft four did introduce a very pleasing perspective that I melded with the swoop from draft one to get the finished logo that you can see in <a href="https://www.flickr.com/photos/x180/sets/72157604105659581/">the great photos that James Davidson took of the conference</a>.
 
 
 

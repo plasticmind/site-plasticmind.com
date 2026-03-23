@@ -7,8 +7,8 @@ subtitle: "An old friend reached out to me recently with sad news that his mothe
 slug: through-the-valley-of-the-shadow-of-death
 featured_image_url: 
 alt_text: 
-primary_category: "Heart"
-categories: ["Heart"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal
@@ -37,7 +37,7 @@ We knew for a month that Nancy didn't have long; but the waiting was perhaps the
 
 
 
-Finding out a loved one has died unexpectedly is shocking and upsetting and often accompanied by a sense of regret: &#8220;I never had a chance to say goodbye.&#8221;  However, knowing that someone is going to die weeks in advance is difficult in different ways, especially with an illness like cancer that slowly wrings the life out of someone until they're just a shell of who they once were.
+Finding out a loved one has died unexpectedly is shocking and upsetting and often accompanied by a sense of regret: “I never had a chance to say goodbye.”  However, knowing that someone is going to die weeks in advance is difficult in different ways, especially with an illness like cancer that slowly wrings the life out of someone until they're just a shell of who they once were.
 
 
 
@@ -67,7 +67,7 @@ I don't know if she heard me as I played, and sometimes I wondered if I was just
 
 
 
-Nancy believed, as do I, that her last breath on earth would be her first breath in heaven.  Her faith in Christ gave her great comfort in the weeks before her death and us great comfort in the years after.  However, even if you think there's nothing after this life, that heaven isn't real and that there is no God, to comfort someone when they're afraid and dying, to hold their hand as they take those last few steps through the valley of the shadow of death and to let them know that they are not alone&#8212;
+Nancy believed, as do I, that her last breath on earth would be her first breath in heaven.  Her faith in Christ gave her great comfort in the weeks before her death and us great comfort in the years after.  However, even if you think there's nothing after this life, that heaven isn't real and that there is no God, to comfort someone when they're afraid and dying, to hold their hand as they take those last few steps through the valley of the shadow of death and to let them know that they are not alone—
 
 
 

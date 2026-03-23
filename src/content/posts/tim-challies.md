@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: 
 slug: tim-challies
-featured_image_url: https://plasticmind.com/wp-content/uploads/2011/07/challies.jpg
+featured_image_url: /assets/i/challies.jpg
 alt_text: 
-primary_category: "Interviews"
-categories: ["Interviews"]
+primary_category: "People"
+categories: ["People"]
 tags: []
 meta_description: 
 context: professional
@@ -61,7 +61,7 @@ T: I grew up in a Christian home.  My parents had been converted in their colleg
 
 
 
-They raised us in the Presbyterian and Reformed tradition; but they raised us very much with the knowledge that we needed to personally turn to Christ and couldn't just depend on them or just be &#8220;church people&#8221; but had to be true believers.  
+They raised us in the Presbyterian and Reformed tradition; but they raised us very much with the knowledge that we needed to personally turn to Christ and couldn't just depend on them or just be “church people” but had to be true believers.  
 
 
 
@@ -79,7 +79,7 @@ They both loved to read and read a lot, and that was certainly modeled from day 
 
 
 
-T: Yeah.  My parents read voraciously; but mostly they read either the Bible or commentary or biography.  <span class="pullquote rightpullquote">My parents were never into Christian-living type books.  They're not into the kind of books I write actually.</span>  They tend to digest biography and history and things like that&#8212;a lot of church history&#8212;and just draw lessons from there, which is a great way of doing it, I think.  So I didn't grow up watching them read Sproul or MacArthur; I grew up watching them read history, read biography and then try to take those lessons and apply them to their lives and help us apply them to our lives.
+T: Yeah.  My parents read voraciously; but mostly they read either the Bible or commentary or biography.  <span class="pullquote rightpullquote">My parents were never into Christian-living type books.  They're not into the kind of books I write actually.</span>  They tend to digest biography and history and things like that—a lot of church history—and just draw lessons from there, which is a great way of doing it, I think.  So I didn't grow up watching them read Sproul or MacArthur; I grew up watching them read history, read biography and then try to take those lessons and apply them to their lives and help us apply them to our lives.
 
 
 
@@ -103,13 +103,13 @@ T:  They have, yes.  And well, of course they like them.  They're proud and all 
 
 
 
-T:  My parents were good at preaching the gospel to us and making sure that we knew that we needed to personally trust in Christ.  They never pushed us that way, never shoved us saying: &#8220;you've got to do this.&#8221;  They just kind of waited for each one of us to come around.  I've got three sisters and a brother and each one has at one point made a very credible profession of faith and is now living as if that were true.  So my parents did something right there I think.
+T:  My parents were good at preaching the gospel to us and making sure that we knew that we needed to personally trust in Christ.  They never pushed us that way, never shoved us saying: “you've got to do this.”  They just kind of waited for each one of us to come around.  I've got three sisters and a brother and each one has at one point made a very credible profession of faith and is now living as if that were true.  So my parents did something right there I think.
 
 
 
 
 
-I think my conversion probably happened when I was about fifteen.  Up to that time I had always been a good kid; I had never gotten into much trouble.  None of us kids had ever really rebelled and did the whole drinking and partying scene&#8212;nothing like that.  But it was around fifteen or so when I started to see that I had just been following along behind my parents and&#8212;I've always said that this was me making the faith of my parents my own.  Which is to say that I had always been raised as a Christian, I'd always been raised to believe that God existed.  But here I was suddenly becoming independent&#8212;or maybe at last becoming independent&#8212;and thinking &#8220;Well, I now have to make this decision for myself.  <span class="pullquote">Am I going to keep living my parents faith or do I actually believe it enough to live it on my own?</span>&#8221; 
+I think my conversion probably happened when I was about fifteen.  Up to that time I had always been a good kid; I had never gotten into much trouble.  None of us kids had ever really rebelled and did the whole drinking and partying scene—nothing like that.  But it was around fifteen or so when I started to see that I had just been following along behind my parents and—I've always said that this was me making the faith of my parents my own.  Which is to say that I had always been raised as a Christian, I'd always been raised to believe that God existed.  But here I was suddenly becoming independent—or maybe at last becoming independent—and thinking “Well, I now have to make this decision for myself.  <span class="pullquote">Am I going to keep living my parents faith or do I actually believe it enough to live it on my own?</span>” 
 
 
 
@@ -127,13 +127,13 @@ So it was around fifteen or so that I think I was truly converted.
 
 
 
-T:  You know, I never did.  I never had any doubts that God existed.  Never had&#8212;or at least not that I can remember&#8212;any serious doubts of God's existence or of His love for me or of His desire for me to turn and repent and follow Him.  All those things were taught to me from a young age and I never had any cause.  I guess the Lord was gracious and I never really wrestled with those sorts of doubts that a lot of people do.  My college years were&#8212;I can't say that I was an exemplary Christian at the time, but certainly I never deviated there from my Christian commitment.  Not in a serious way.  
+T:  You know, I never did.  I never had any doubts that God existed.  Never had—or at least not that I can remember—any serious doubts of God's existence or of His love for me or of His desire for me to turn and repent and follow Him.  All those things were taught to me from a young age and I never had any cause.  I guess the Lord was gracious and I never really wrestled with those sorts of doubts that a lot of people do.  My college years were—I can't say that I was an exemplary Christian at the time, but certainly I never deviated there from my Christian commitment.  Not in a serious way.  
 
 
 
 
 
-**J:  That's great&#8230; that's a good testimony.  So you are the father of three beautiful children.**
+**J:  That's great… that's a good testimony.  So you are the father of three beautiful children.**
 
 
 
@@ -145,7 +145,7 @@ T:  Correct.  Well, two beautiful ones and one that's just kind of average.
 
 
 
-**J:  *[Laughs]* I won't ask you to tell us which one that is.  Last month, you wrote <a href="https://www.challies.com/resources/how-i-lead-my-children-in-personal-devotions">a blog post about leading your children in personal devotions</a>.  I found it extremely helpful.  What else are you doing to help make it easy for your children to follow God&#8212;because it sounds like you had very good example set by your own parents?**
+**J:  *[Laughs]* I won't ask you to tell us which one that is.  Last month, you wrote <a href="https://www.challies.com/resources/how-i-lead-my-children-in-personal-devotions">a blog post about leading your children in personal devotions</a>.  I found it extremely helpful.  What else are you doing to help make it easy for your children to follow God—because it sounds like you had very good example set by your own parents?**
 
 
 
@@ -157,7 +157,7 @@ T:  Yeah, I think I'm learning a lot of lessons from my parents.  My kids go to 
 
 
 
-Another thing: <span class="pullquote rightpullquote">I try to have my kids be friends with other adults in the church.</span>  I've gone to the point of asking certain guys in our church, &#8220;Would you just spend a bit of time with my son?  Would you invite him over some time?  Would you be in his life?  Would you be a friend to him?&#8221;  And I think that's been very valuable as well, to ask some of those older guys to have serious conversation with him and to ask about the state of his soul and things like that.  That can be very valuable.  
+Another thing: <span class="pullquote rightpullquote">I try to have my kids be friends with other adults in the church.</span>  I've gone to the point of asking certain guys in our church, “Would you just spend a bit of time with my son?  Would you invite him over some time?  Would you be in his life?  Would you be a friend to him?”  And I think that's been very valuable as well, to ask some of those older guys to have serious conversation with him and to ask about the state of his soul and things like that.  That can be very valuable.  
 
 
 
@@ -169,13 +169,13 @@ Because you remember what it was like?  You remember back to your childhood?  Yo
 
 
 
-**J:  Absolutely&#8212;and it's biblical.  The elder teaching the younger.**
+**J:  Absolutely—and it's biblical.  The elder teaching the younger.**
 
 
 
 
 
-T:  Yeah, and another thing I found is when my children have big questions, I like to say, &#8220;Why don't you go talk to <a href="https://www.gfcto.com/2006/04/biography_of_pastor_paul_marti.php">Pastor Paul</a> about that?&#8221;  I'm their father, I'm a pastor, but I love it if they get in the habit of&#8230; I say to them, &#8220;<span class="pullquote">If you're sick in your body, you go to the doctor.  If you're sick in your heart, go talk to a pastor</span>.  Let him talk to you about that.  So that's been very valuable, helping them see the value of getting used to speaking to pastors when they're wrestling with big questions.
+T:  Yeah, and another thing I found is when my children have big questions, I like to say, “Why don't you go talk to <a href="https://www.gfcto.com/2006/04/biography_of_pastor_paul_marti.php">Pastor Paul</a> about that?”  I'm their father, I'm a pastor, but I love it if they get in the habit of… I say to them, “<span class="pullquote">If you're sick in your body, you go to the doctor.  If you're sick in your heart, go talk to a pastor</span>.  Let him talk to you about that.  So that's been very valuable, helping them see the value of getting used to speaking to pastors when they're wrestling with big questions.
 
 
 
@@ -187,7 +187,7 @@ T:  Yeah, and another thing I found is when my children have big questions, I li
 
 
 
-T:  I'm an associate pastor&#8212;a pastor without a title right now.  But just recently I was asked to come on as a full-time pastor there, so I'm the pastor of everything the other pastor doesn't want to do.  So that leaves him doing most of the preaching, and I'm doing a fair bit of administration stuff and some counseling and I love that work.  And I love the writing.  So those two things, for me, really go hand in hand.  One really feeds the other and then it cycles back.  
+T:  I'm an associate pastor—a pastor without a title right now.  But just recently I was asked to come on as a full-time pastor there, so I'm the pastor of everything the other pastor doesn't want to do.  So that leaves him doing most of the preaching, and I'm doing a fair bit of administration stuff and some counseling and I love that work.  And I love the writing.  So those two things, for me, really go hand in hand.  One really feeds the other and then it cycles back.  
 
 
 
@@ -199,7 +199,7 @@ I want to be a good father.  I want to be a good pastor.  I want to keep writing
 
 
 
-So I've just tried, over the last little while&#8230; I've just seen the value of simplifying, trying to do a few things very well.  For a long time I was doing a lot of things very poorly, and that's just no better.
+So I've just tried, over the last little while… I've just seen the value of simplifying, trying to do a few things very well.  For a long time I was doing a lot of things very poorly, and that's just no better.
 
 
 
@@ -211,13 +211,13 @@ So I've just tried, over the last little while&#8230; I've just seen the value o
 
 
 
-T:  That would probably be John MacArthur's *<a href="https://www.amazon.com/gp/product/1433509296/ref=as_li_ss_tl?ie=UTF8&amp;tag=plasticmind-20&amp;linkCode=as2&amp;camp=217145&amp;creative=399369&amp;creativeASIN=1433509296">Ashamed of the Gospel</a>*.  I read that quite a few years ago.  After Aileen and I got married, we moved out of the town we had grown up in and found a Baptist church.  Here we became Baptists along the way having lost Presbyterian roots.  So I ended up in this church that I later found out I could describe as a &#8220;church growth&#8221; kind of church.  Along the way I picked up MacArthur's *Ashamed of the Gospel*.  I'd never really heard of MacArthur before, so this was a new thing for me.  
+T:  That would probably be John MacArthur's *<a href="https://www.amazon.com/gp/product/1433509296/ref=as_li_ss_tl?ie=UTF8&amp;tag=plasticmind-20&amp;linkCode=as2&amp;camp=217145&amp;creative=399369&amp;creativeASIN=1433509296">Ashamed of the Gospel</a>*.  I read that quite a few years ago.  After Aileen and I got married, we moved out of the town we had grown up in and found a Baptist church.  Here we became Baptists along the way having lost Presbyterian roots.  So I ended up in this church that I later found out I could describe as a “church growth” kind of church.  Along the way I picked up MacArthur's *Ashamed of the Gospel*.  I'd never really heard of MacArthur before, so this was a new thing for me.  
 
 
 
 
 
-And that book just completely undid me.  It showed me the church I was in&#8212;it described it very, very clearly.  Then it called me to something more, called me to a church that was really founded upon the gospel and completely unashamed of the gospel.  That book was really the start of my journey back towards a more Reformed faith.  It really gave me a whole lot to think about and eventually to write about.
+And that book just completely undid me.  It showed me the church I was in—it described it very, very clearly.  Then it called me to something more, called me to a church that was really founded upon the gospel and completely unashamed of the gospel.  That book was really the start of my journey back towards a more Reformed faith.  It really gave me a whole lot to think about and eventually to write about.
 
 
 
@@ -235,19 +235,19 @@ T:  I love the writings of <a href="https://en.wikipedia.org/wiki/R._C._Sproul">
 
 
 
-Then in terms of writing style&#8212;if I could write like <a href="https://en.wikipedia.org/wiki/Malcolm_Gladwell">Malcolm Gladwell</a>, I would be very, very happy.  I just love his way of taking seemingly obscure things and small examples and making them so readable and so brilliant.
+Then in terms of writing style—if I could write like <a href="https://en.wikipedia.org/wiki/Malcolm_Gladwell">Malcolm Gladwell</a>, I would be very, very happy.  I just love his way of taking seemingly obscure things and small examples and making them so readable and so brilliant.
 
 
 
 
 
-**J:  I always get nervous taking a job doing something I love because I'm always afraid I'm going to grow tired of it.  It's the old &#8220;familiarity breeds contempt&#8221; dilemma.  It's obvious between <a href="https://challies.com">your blog</a>, <a href="https://www.discerningreader.com/">Discerning Reader</a> and your work with <a href="https://www.cruciformpress.com/">Cruciform Press</a> that you love books&#8212;have you gotten tired of books?  How do you avoid book fatigue?**
+**J:  I always get nervous taking a job doing something I love because I'm always afraid I'm going to grow tired of it.  It's the old “familiarity breeds contempt” dilemma.  It's obvious between <a href="https://challies.com">your blog</a>, <a href="https://www.discerningreader.com/">Discerning Reader</a> and your work with <a href="https://www.cruciformpress.com/">Cruciform Press</a> that you love books—have you gotten tired of books?  How do you avoid book fatigue?**
 
 
 
 
 
-T:  Yeah, <span class="pullquote">I do get tired of books and sometimes I'll go several weeks or months without picking one up</span> or barely reading.  That's difficult&#8212;books arrive here every day.  Most people want me to read their books, so it's a little difficult to just leave them for a while.  But I do get tired of reading, especially in a very narrow field, reading in the Christian living, spiritual-growth genre, it gets kind of tiresome pretty fast because there aren't a lot of people penning original thoughts, but there a lot of guys who are writing about those few penning those original thoughts.  A guy like Piper is pretty original, but then there are ten or fifteen people imitating him.  So it can be a little difficult that way.
+T:  Yeah, <span class="pullquote">I do get tired of books and sometimes I'll go several weeks or months without picking one up</span> or barely reading.  That's difficult—books arrive here every day.  Most people want me to read their books, so it's a little difficult to just leave them for a while.  But I do get tired of reading, especially in a very narrow field, reading in the Christian living, spiritual-growth genre, it gets kind of tiresome pretty fast because there aren't a lot of people penning original thoughts, but there a lot of guys who are writing about those few penning those original thoughts.  A guy like Piper is pretty original, but then there are ten or fifteen people imitating him.  So it can be a little difficult that way.
 
 
 
@@ -271,7 +271,7 @@ T:  Actually, my wife and I are more into mini-series than movies.  I don't have
 
 
 
-**J:  Well, mini-series feel like more of an investment&#8230; there's more payoff at the end.**
+**J:  Well, mini-series feel like more of an investment… there's more payoff at the end.**
 
 
 
@@ -283,13 +283,13 @@ T:  I guess so, yeah.
 
 
 
-**J:  At what point in your mind did you cross the line between blogger and book author?  I'm sure there a lot of people&#8212;vociferous bloggers&#8212;who are considering book authorship.  Did you have to be convinced or was it something you've had a desire for?**
+**J:  At what point in your mind did you cross the line between blogger and book author?  I'm sure there a lot of people—vociferous bloggers—who are considering book authorship.  Did you have to be convinced or was it something you've had a desire for?**
 
 
 
 
 
-T:  I never really had a desire to write a book, I don't think.  I never set out to be an author.  I never set out to be a blogger, either.  I just started writing and putting it out on the Internet and found out later on it was a blog.  So I didn't set out to write a book.  I think today the blogosphere is like the minor leagues for publishers.  They're looking out there and seeing who's gathering readers.  And if you can get an audience and show that they're going to read what you write, you'll get a book deal.  It's pretty simple.  The economics of it are such today that <span class="pullquote rightpullquote">publishers expect you to bring an audience</span>.  It used to be, I think, they'd find a good author and say, &#8220;You write a book and we'll find an audience.&#8221;  Today, they want you to bring the audience with you.  
+T:  I never really had a desire to write a book, I don't think.  I never set out to be an author.  I never set out to be a blogger, either.  I just started writing and putting it out on the Internet and found out later on it was a blog.  So I didn't set out to write a book.  I think today the blogosphere is like the minor leagues for publishers.  They're looking out there and seeing who's gathering readers.  And if you can get an audience and show that they're going to read what you write, you'll get a book deal.  It's pretty simple.  The economics of it are such today that <span class="pullquote rightpullquote">publishers expect you to bring an audience</span>.  It used to be, I think, they'd find a good author and say, “You write a book and we'll find an audience.”  Today, they want you to bring the audience with you.  
 
 
 
@@ -325,19 +325,19 @@ T:  Right.
 
 
 
-**J:  So tell me, when you held that book in your hand&#8212;the first printed copy of your first book for the first time.  How did you feel?  Did you want to take it out in the back and shoot it or were you overjoyed?**
+**J:  So tell me, when you held that book in your hand—the first printed copy of your first book for the first time.  How did you feel?  Did you want to take it out in the back and shoot it or were you overjoyed?**
 
 
 
 
 
-T:  <span class="pullquote">I thought it was going to be a real moment.  But in the end, it really didn't do much for me.</span>  I looked at it and I thought, &#8220;Eh, well there it is&#8221; and that was that.  I thought maybe angels were going to sing or something, but no it really wasn't that kind of experience.  I just kind of shrugged it off.
+T:  <span class="pullquote">I thought it was going to be a real moment.  But in the end, it really didn't do much for me.</span>  I looked at it and I thought, “Eh, well there it is” and that was that.  I thought maybe angels were going to sing or something, but no it really wasn't that kind of experience.  I just kind of shrugged it off.
 
 
 
 
 
-**J:  Be honest&#8230; did you read your book after it was printed?**
+**J:  Be honest… did you read your book after it was printed?**
 
 
 
@@ -373,7 +373,7 @@ T: *[Chuckles]*All over, yeah.  I was talking with an editor once who said she's
 
 
 
-**J:  In your latest book *The Next Story*&#8212;it's such a fascinating topic&#8212;you talk quite a bit about the intersection of faith and technology.  How do you think the recent surge of information available to us is changing us?  Specifically, do you think it's making us more intelligent individuals or just lazy thinkers?**
+**J:  In your latest book *The Next Story*—it's such a fascinating topic—you talk quite a bit about the intersection of faith and technology.  How do you think the recent surge of information available to us is changing us?  Specifically, do you think it's making us more intelligent individuals or just lazy thinkers?**
 
 
 
@@ -391,7 +391,7 @@ But yeah, I think we are becoming lazy thinkers, for sure.  We're not filing fac
 
 
 
-**J:  That's interesting.  I was reading an article recently&#8212;I can't recall where&#8212;about how true intelligence wasn't necessarily having information stored in your head, but knowing where to find that information.**
+**J:  That's interesting.  I was reading an article recently—I can't recall where—about how true intelligence wasn't necessarily having information stored in your head, but knowing where to find that information.**
 
 
 
@@ -439,7 +439,7 @@ T:  Oh, I realize there's great irony!  I'm not saying that we've got to jettiso
 
 
 
-**J:  One of the other byproducts of technology and living in an intensely multi-tasking society is this fragmentation of the mind, something I've been giving a lot of thought to.  In your own life&#8212;because you're on Twitter and Facebook&#8212;how do you handle this fragmentation&#8212;and I lion full would even call it distraction&#8212;in your own life, in your own mind?**
+**J:  One of the other byproducts of technology and living in an intensely multi-tasking society is this fragmentation of the mind, something I've been giving a lot of thought to.  In your own life—because you're on Twitter and Facebook—how do you handle this fragmentation—and I lion full would even call it distraction—in your own life, in your own mind?**
 
 
 
@@ -457,7 +457,7 @@ T:  I handle it with varying results, with varying success.  Sometimes I'm good 
 
 
 
-T:  Either way.  But you can go all out and full screen your screen writing app and when you're done with that you can full screen email and then full screen your reading app.  Maybe that will help a little, I'm not sure.  But I do think that we're fragmenting our minds and as time goes on, we really desire that fragmentation.  <span class="pullquote">After a while, the distraction is something we feel uncomfortable without</span> just like&#8230; you know, like if you're in a noisy room after a while and someone turns off the fan or the air conditioner and you almost want it back on because it was background noise.  I think that's kind of where we're at.  When all of the distraction disappears, we almost don't like it now.  We're so accustomed to it; it's so much a part of who and what we are.
+T:  Either way.  But you can go all out and full screen your screen writing app and when you're done with that you can full screen email and then full screen your reading app.  Maybe that will help a little, I'm not sure.  But I do think that we're fragmenting our minds and as time goes on, we really desire that fragmentation.  <span class="pullquote">After a while, the distraction is something we feel uncomfortable without</span> just like… you know, like if you're in a noisy room after a while and someone turns off the fan or the air conditioner and you almost want it back on because it was background noise.  I think that's kind of where we're at.  When all of the distraction disappears, we almost don't like it now.  We're so accustomed to it; it's so much a part of who and what we are.
 
 
 
@@ -469,7 +469,7 @@ T:  Either way.  But you can go all out and full screen your screen writing app 
 
 
 
-T:  I still love writing my blog every day.  I've been doing it every day for seven or eight years or something silly like that.  I always&#8212;almost always&#8212;look forward to it and love doing it.  And I'm getting to preach the next three weeks in a row and then a week off and a week on and a week off and a week on.  I'm really enjoying preaching.  I never thought I would.  I really do enjoy it.  It's a real thrill being able to sit in a scripture all week and then stand before a bunch of people and say, &#8220;Let me tell you what God's been teaching me this week.&#8221;
+T:  I still love writing my blog every day.  I've been doing it every day for seven or eight years or something silly like that.  I always—almost always—look forward to it and love doing it.  And I'm getting to preach the next three weeks in a row and then a week off and a week on and a week off and a week on.  I'm really enjoying preaching.  I never thought I would.  I really do enjoy it.  It's a real thrill being able to sit in a scripture all week and then stand before a bunch of people and say, “Let me tell you what God's been teaching me this week.”
 
 
 
@@ -523,7 +523,7 @@ T:  Teaching, maybe.
 
 
 
-T:  Mailman&#8230; as I watch the guy walk by here in the scalding heat.
+T:  Mailman… as I watch the guy walk by here in the scalding heat.
 
 
 
@@ -595,7 +595,7 @@ T:  Living deliberately outside of God's will.
 
 
 
-T:  Maybe I could go with Newton who said, &#8220;I don't know much but I know I'm a great sinner who is loved by a great Savior.&#8221;
+T:  Maybe I could go with Newton who said, “I don't know much but I know I'm a great sinner who is loved by a great Savior.”
 
 
 

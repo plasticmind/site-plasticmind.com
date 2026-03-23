@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: 
 slug: worst-week-ever
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/07/grass-1-2.jpg
+featured_image_url: /assets/i/grass-1-2.jpg
 alt_text: 
-primary_category: "Retrospection"
-categories: ["Retrospection"]
+primary_category: "Memories"
+categories: ["Memories"]
 tags: []
 meta_description: "Consider this a case in point for Mark Twain’s theory that humor is just tragedy plus time."
 context: personal

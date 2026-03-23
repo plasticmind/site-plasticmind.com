@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "Sufjan (Soofyan) Stevens. You either love him or you hate him. Or you're like me and you hated his music right smack dab up to the point when you fell in love with his music."
 slug: majesty-snowbird
-featured_image_url: https://plasticmind.com/wp-content/uploads/2007/04/songbird.jpg
+featured_image_url: /assets/i/songbird.jpg
 alt_text: 
-primary_category: "Ears"
-categories: ["Ears"]
+primary_category: "Music"
+categories: ["Music"]
 tags: []
 meta_description: 
 context: personal

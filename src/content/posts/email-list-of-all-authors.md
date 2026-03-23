@@ -7,9 +7,9 @@ subtitle:
 slug: email-list-of-all-authors
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
-tags: ["author", "email", "management"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -42,14 +42,14 @@ And the <a href="https://www.movabletype.org/documentation/appendices/tags/autho
 <li>lastn: Limits the selection of authors to the specified number.</li>
 <li>sort*by: Supported values: display*name, name, created_on.</li>
 <li>sort_order: Supported values: ascend, descend.</li>
-<li>roles: comma separated list of values. eg &#8220;Author, Commenter&#8221;</li>
+<li>roles: comma separated list of values. eg “Author, Commenter”</li>
 <li>need_entry: 1 | 0 (default is 1)</li>
 <li>status: Supported values: enabled, disabled. Default is enabled.</li>
 </ul>
 
 
 
-**Note:** Some people have asked about creating an email list of all the commenters on the system, and it's very simple.  The code stays the same, but you just need to specify roles=&#8221;Commenter&#8221; and need_entry=&#8221;0&#8221; (since most commenters won't have written an entry).  Here's the code to do it:
+**Note:** Some people have asked about creating an email list of all the commenters on the system, and it's very simple.  The code stays the same, but you just need to specify roles=”Commenter” and need_entry=”0” (since most commenters won't have written an entry).  Here's the code to do it:
 
 
 

@@ -7,8 +7,8 @@ subtitle:
 slug: plasticfield
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -28,7 +28,7 @@ Thanks to <a href="https://endevver.com">Jay</a> and <a href="https://movalog.co
 
 
 
-This plugin gives you a new custom field type (&#8216;Formatted Multi-Line Text Field') with familiar formatting buttons as well as resizing controls instead of the bare boxes that CustomFields provides by default.  Extremely handy if you're using Movable Type's Custom Fields extensively as a CMS.
+This plugin gives you a new custom field type (‘Formatted Multi-Line Text Field') with familiar formatting buttons as well as resizing controls instead of the bare boxes that CustomFields provides by default.  Extremely handy if you're using Movable Type's Custom Fields extensively as a CMS.
 
 
 
@@ -77,7 +77,7 @@ contents of /mt-static/ to your static directory.
 
 
 
-Look for changes to your Customfields » New Field screen.  If you've installed it correctly, the field type dropdown on the New Field screen should list &#8220;Formatted Multi-Line Text Area&#8221; as one of the choices.
+Look for changes to your Customfields » New Field screen.  If you've installed it correctly, the field type dropdown on the New Field screen should list “Formatted Multi-Line Text Area” as one of the choices.
 
 
 
@@ -86,7 +86,7 @@ Look for changes to your Customfields » New Field screen.  If you've installed 
 
 
 
-Some people have asked about enabling these formatting controls on existing fields.  To do that, you must specify a different field type for the field, and that's not something you can do from the application yet (I'd really like to address in a future release).  If you're feeling bold and have made a backup recently, you can edit the mt-fields table in your database and change the field-type from &#8216;textarea' to &#8216;formatted_field' in any of the fields you want converted.  **Do this at your own risk!**
+Some people have asked about enabling these formatting controls on existing fields.  To do that, you must specify a different field type for the field, and that's not something you can do from the application yet (I'd really like to address in a future release).  If you're feeling bold and have made a backup recently, you can edit the mt-fields table in your database and change the field-type from ‘textarea' to ‘formatted_field' in any of the fields you want converted.  **Do this at your own risk!**
 
 
 

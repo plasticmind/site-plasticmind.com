@@ -7,9 +7,9 @@ subtitle:
 slug: hyacinths-to-feed-thy-soul
 featured_image_url: 
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
-tags: ["hyacinths", "poetry"]
+primary_category: "Writing"
+categories: ["Writing"]
+tags: []
 meta_description: 
 context: personal
 fix: false

@@ -7,9 +7,9 @@ subtitle:
 slug: list-random-authors
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
-tags: ["author", "php", "random"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -63,7 +63,7 @@ Next, we loop through all the authors, stashing them all into an array.  Actuall
 
 
 
-Next up is displaying the authors.  We're going to loop through authors 25 times; remember, that's what we set up with the $show variable.  The <code>array_rand</code> function basically says &#8220;pull a random number from 1 to the number of items in our array&#8221;.  We had to put in a special <code>while</code> loop to make sure it didn't pick a number already used; this would result in duplicate listings of a single author.  The <code>array_push</code> then stores the new, non-duplicate random number in our displayed authors array to ensure we don't duplicate it next time through the loop.
+Next up is displaying the authors.  We're going to loop through authors 25 times; remember, that's what we set up with the $show variable.  The <code>array_rand</code> function basically says “pull a random number from 1 to the number of items in our array”.  We had to put in a special <code>while</code> loop to make sure it didn't pick a number already used; this would result in duplicate listings of a single author.  The <code>array_push</code> then stores the new, non-duplicate random number in our displayed authors array to ensure we don't duplicate it next time through the loop.
 
 
 

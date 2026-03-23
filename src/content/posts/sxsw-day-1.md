@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Journeys"
 categories: ["Journeys"]
-tags: ["austin", "Gary Vaynerchuk", "hilton", "sxsw", "texas"]
+tags: ["sxsw"]
 meta_description: 
 context: professional
 fix: false

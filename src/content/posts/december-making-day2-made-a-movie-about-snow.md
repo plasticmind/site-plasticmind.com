@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: 
 slug: december-making-day2-made-a-movie-about-snow
-featured_image_url: https://plasticmind.com/wp-content/uploads/2019/12/IMG_5833-scaled.jpg
+featured_image_url: /assets/i/IMG_5833-scaled.jpg
 alt_text: "Snowstorm + Stoplight"
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal

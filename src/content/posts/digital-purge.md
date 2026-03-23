@@ -7,8 +7,8 @@ subtitle:
 slug: digital-purge
 featured_image_url: 
 alt_text: 
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal
@@ -25,7 +25,7 @@ The first of my <a href="https://plasticmind.com/retrospection/30-day-change/">2
 
 
 
-As with each of these challenges, I have to set some parameters for it at the beginning of the month.  In other words, what does &#8220;no Facebook or Twitter&#8221; mean practically?  It requires a little more definition than just logging in to Twitter and Facebook to check or post updates.  Am I allowed to look over my shoulder as my wife checks her Facebook?  (Yes.)  Can I use apps like Instagram or Gowalla to push updates to Facebook?  (No.)  What about reading email notifications from Facebook?  (Fortunately, <a href="https://plasticmind.com/social-networking/facebook-friend-spam/">I turned those off</a>.)
+As with each of these challenges, I have to set some parameters for it at the beginning of the month.  In other words, what does “no Facebook or Twitter” mean practically?  It requires a little more definition than just logging in to Twitter and Facebook to check or post updates.  Am I allowed to look over my shoulder as my wife checks her Facebook?  (Yes.)  Can I use apps like Instagram or Gowalla to push updates to Facebook?  (No.)  What about reading email notifications from Facebook?  (Fortunately, <a href="https://plasticmind.com/social-networking/facebook-friend-spam/">I turned those off</a>.)
 
 
 
@@ -43,7 +43,7 @@ And these first few days have truly been that.  I'm not going to say that it's b
 
 
 
-I've also found that I think of things happening around me in terms of how I can tell other people about it.  &#8220;What would be a humorous, catchy way to say this?  Could I say it in 140 characters?&#8221;  I wonder if that mental tendency will wear off after 30 days?  Expect my first few February tweets to be irrelevant, banal, and cut off mid-sentence.
+I've also found that I think of things happening around me in terms of how I can tell other people about it.  “What would be a humorous, catchy way to say this?  Could I say it in 140 characters?”  I wonder if that mental tendency will wear off after 30 days?  Expect my first few February tweets to be irrelevant, banal, and cut off mid-sentence.
 
 
 

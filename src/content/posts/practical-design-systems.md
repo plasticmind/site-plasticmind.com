@@ -5,11 +5,11 @@ archive: false
 excerpt:
 subtitle: "A few weeks ago, I quietly launched my new design systems consulting company, Practical Design Systems."
 slug: practical-design-systems
-featured_image_url: https://plasticmind.com/wp-content/uploads/2023/05/pds-logo-open-graph.png
+featured_image_url: /assets/i/pds-logo-open-graph.png
 alt_text: "Practical Design Systems logo"
-primary_category: "Projects"
-categories: ["Projects"]
-tags: ["design systems", "newsletter", "product", "technology"]
+primary_category: "Miscellany"
+categories: ["Miscellany"]
+tags: []
 meta_description:
 context: professional
 fix: false

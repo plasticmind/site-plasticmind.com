@@ -7,9 +7,9 @@ subtitle:
 slug: marchs-30-day-challenge-failure
 featured_image_url: 
 alt_text: 
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
-tags: ["30 day challenge", "fail", "family"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: ["30 day challenge"]
 meta_description: 
 context: personal
 fix: false
@@ -37,7 +37,7 @@ Unfortunately, between deadlines at church and two big site relaunches at work, 
 
 
 
-The other thing I realized was how much the computer is an integral part of everything I do.  If I wanted to watch a movie in my bedroom, I did it on our laptop.  If I took a picture, it was usually on my iPhone.  Jess and I often play Word with Friends together&#8212;which happens on the iPhone.
+The other thing I realized was how much the computer is an integral part of everything I do.  If I wanted to watch a movie in my bedroom, I did it on our laptop.  If I took a picture, it was usually on my iPhone.  Jess and I often play Word with Friends together—which happens on the iPhone.
 
 
 

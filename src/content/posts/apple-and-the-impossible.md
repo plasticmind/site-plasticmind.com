@@ -7,8 +7,8 @@ subtitle:
 slug: apple-and-the-impossible
 featured_image_url: 
 alt_text: 
-primary_category: "0's and 1's"
-categories: ["0's and 1's"]
+primary_category: "Technology"
+categories: ["Technology"]
 tags: []
 meta_description: 
 context: professional
@@ -19,13 +19,13 @@ hits: 61
 
 			
 
-Everyone was guessing about what Apple's big announcement was this afternoon, and boy is it a shock! <img alt="ipodvideo.jpg" src="https://plasticmind.com/junk/ipodvideo.jpg" width="150" height="236" align="left"/>
+Everyone was guessing about what Apple's big announcement was this afternoon, and boy is it a shock! <img alt="ipodvideo.jpg" src="/assets/i/ipodvideo.jpg" width="150" height="236" align="left"/>
 
 
 
 
 
-With the release of the impossibly small iPod Nano just a few weeks ago, all of the geeks (including me) were saying it wasn't going to be the rumored video iPod.  Everyone's hunch was a brand new iMac G5.  Well, guess what boys and girls?  They did both! <img alt="macg5.jpg" src="https://plasticmind.com/junk/macg5.jpg" width="150" height="236" align="right"/>
+With the release of the impossibly small iPod Nano just a few weeks ago, all of the geeks (including me) were saying it wasn't going to be the rumored video iPod.  Everyone's hunch was a brand new iMac G5.  Well, guess what boys and girls?  They did both! <img alt="macg5.jpg" src="/assets/i/macg5.jpg" width="150" height="236" align="right"/>
 
 
 

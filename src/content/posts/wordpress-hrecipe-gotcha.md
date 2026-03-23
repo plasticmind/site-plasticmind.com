@@ -7,8 +7,8 @@ subtitle: "Help!  My recipe thumbnails aren't showing up in Google search result
 slug: wordpress-hrecipe-gotcha
 featured_image_url: 
 alt_text: ""
-primary_category: "WordPress"
-categories: ["WordPress"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: "Help! My recipe thumbnails aren't showing up in Google search results anymore!"
 context: professional
@@ -22,7 +22,7 @@ We recently migrated <a href="https://www.simplyrecipes.com/">Simply Recipes</a>
 
 However, one of the strange things that happened right away was that **nearly all of our <a href="https://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=99170">rich snippets</a> disappeared from Google’s search results**. If you don’t know what rich snippets are, here’s a quick summary: for certain types of pages, Google grabs structured information from your page so it can display it inline with its search results. For recipes, a thumbnail of the food along with some preparation information gets displayed. Losing these is a big deal for a food blog since people looking for recipes tend to search with their eyes which are connected to their bellies.
 
-<img class="mt-image-none" src="https://plasticmind.com/assets/Roast%20Turkey.png" alt="Roast Turkey.png" width="500" height="286" />
+<img class="mt-image-none" src="/assets/i/Roast Turkey.png" alt="Roast Turkey.png" width="500" height="286" />
 
 What confused me most is that I was using essentially the same HTML structure with the new WP site as I was with MT. How could it suddenly change—did Google change how they parsed recipes?
 
@@ -57,6 +57,6 @@ add_filter('post_class','sr_replace_hentry');
 
 In plain language, here’s what the code does: “When spitting out the list of classes on a post, if we’re on a recipe page, replace hentry with hrecipe.”
 
-<img class="alignnone size-full wp-image-5123" src="https://plasticmind.com/wp-content/uploads/2012/11/2014-09-11-at-10.19-AM.png" alt="Roast Turkey" width="547" height="144" />
+<img class="alignnone size-full wp-image-5123" src="/assets/i/2014-09-11-at-10.19-AM.png" alt="Roast Turkey" width="547" height="144" />
 
 Google Rich Snippet tool now displays the thumbnail alongside the recipe as expected.

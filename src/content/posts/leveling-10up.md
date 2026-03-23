@@ -5,7 +5,7 @@ archive: false
 excerpt: 
 subtitle: 
 slug: leveling-10up
-featured_image_url: https://plasticmind.com/wp-content/uploads/2018/01/10up-1.png
+featured_image_url: /assets/i/10up-1.png
 alt_text: ""
 primary_category: "Journeys"
 categories: ["Journeys"]

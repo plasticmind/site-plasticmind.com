@@ -5,7 +5,7 @@ archive: false
 excerpt: 
 subtitle: "Today is my last day at Simply Recipes."
 slug: farewell-simply-recipes
-featured_image_url: https://plasticmind.com/wp-content/uploads/2016/08/farewell-1-1.jpg
+featured_image_url: /assets/i/farewell-1-1.jpg
 alt_text: ""
 primary_category: "Journeys"
 categories: ["Journeys"]
@@ -16,7 +16,7 @@ fix: false
 hits: 1844
 ---
 
-For nearly a decade, I've had the pleasure of working with Elise Bauer on Simply Recipes. No seriously, I sent over <a href="https://plasticmind.com/wp-content/uploads/2016/08/simplyrecipes-mockup2.jpg">my first mockup for the site</a> 10 years ago, almost to the day.
+For nearly a decade, I've had the pleasure of working with Elise Bauer on Simply Recipes. No seriously, I sent over <a href="/assets/i/simplyrecipes-mockup2.jpg">my first mockup for the site</a> 10 years ago, almost to the day.
 
 I met Elise while collaborating on Learning Movable Type. She had been writing lots of helpful articles on the site, and I asked if I could help redesign it as a way of saying thanks. We enjoyed working together so much that she asked me to redesign her recipe blog, and I continued working with her for many years as a consultant.
 

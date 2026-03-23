@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: "Unfortunately, sex has gotten a bad rap in Christian circles."
 slug: a-biblical-view-of-sex
-featured_image_url: https://plasticmind.com/wp-content/uploads/2008/05/470371513_3ec797ff3e_b.jpg
+featured_image_url: /assets/i/470371513_3ec797ff3e_b.jpg
 alt_text: 
-primary_category: "Heart"
-categories: ["Heart", "Mind", "Savior"]
-tags: ["adultery", "intimacy", "marriage", "masturbation", "sex"]
+primary_category: "Personal"
+categories: ["Personal", "Mind", "Faith"]
+tags: []
 meta_description: "Unfortunately, sex has gotten a bad rap in Christian circles."
 context: personal
 fix: false

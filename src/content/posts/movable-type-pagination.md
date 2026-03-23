@@ -7,9 +7,9 @@ subtitle:
 slug: movable-type-pagination
 featured_image_url: 
 alt_text: 
-primary_category: "CMS"
-categories: ["CMS"]
-tags: ["pagination ajax archives comments"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: []
 meta_description: 
 context: professional
 fix: false

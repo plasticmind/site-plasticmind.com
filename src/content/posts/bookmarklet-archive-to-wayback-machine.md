@@ -7,9 +7,9 @@ subtitle:
 slug: bookmarklet-archive-to-wayback-machine
 featured_image_url: 
 alt_text: 
-primary_category: "0's and 1's"
-categories: ["0's and 1's"]
-tags: ["bookmarklet", "javascript"]
+primary_category: "Technology"
+categories: ["Technology"]
+tags: []
 meta_description: "A handy bookmarklet for requesting an archive of a web page by the Internet Archive Wayback Machine."
 context: professional
 fix: false

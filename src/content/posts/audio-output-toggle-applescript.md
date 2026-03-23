@@ -7,9 +7,9 @@ subtitle:
 slug: audio-output-toggle-applescript
 featured_image_url: 
 alt_text: 
-primary_category: "Code"
-categories: ["Code"]
-tags: ["applescript", "growl", "quicksilver"]
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -49,7 +49,7 @@ end tell
 
 
 
-This next part is a bit confusing, but it's important to understand as you may want to customize it.  First, we're targeting the Output tab (make sure &#8220;Enable Assistive Devices&#8221; is checked in the &#8220;Universal Access&#8221; preference pane) then we do a simple conditional statement.  If the second row on your sound output list (my Line Out) is currently selected, this tells your Mac to select the first row (my Headphones).  If not, it selects the second row.  You can easily customize this part to fit your specific needs.
+This next part is a bit confusing, but it's important to understand as you may want to customize it.  First, we're targeting the Output tab (make sure “Enable Assistive Devices” is checked in the “Universal Access” preference pane) then we do a simple conditional statement.  If the second row on your sound output list (my Line Out) is currently selected, this tells your Mac to select the first row (my Headphones).  If not, it selects the second row.  You can easily customize this part to fit your specific needs.
 
 
 
@@ -103,7 +103,7 @@ In this last bit we're <a href="https://growl.info/documentation/applescript-sup
 
 
 
-<a href="https://plasticmind.com/assets/Toggle_Sound_Output.zip" class="download-link">Download the full script here.</a>
+<a href="/assets/i/Toggle_Sound_Output.zip" class="download-link">Download the full script here.</a>
 
 
 

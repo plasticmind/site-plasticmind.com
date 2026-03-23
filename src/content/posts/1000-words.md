@@ -6,10 +6,10 @@ excerpt:
 subtitle: "Focus is the thing, and it's tough."
 
 slug: 1000-words
-featured_image_url: https://plasticmind.com/wp-content/uploads/2014/01/confusion.jpg
+featured_image_url: /assets/i/confusion.jpg
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
+primary_category: "Writing"
+categories: ["Writing"]
 tags: []
 meta_description: 
 context: personal
@@ -98,7 +98,7 @@ The most frustrating arguments are the ones in which the person I'm arguing with
 
 
 
-My brain likes to play the same game. Approach a meaningful resolution and my brain becomes a similar magnetic pole, pushing back and flipping itself to something else completely. I've come to recognize this tendency as a primary symptom of self-pity and loathing. It's a frustrated and self-aggrandizing emotionalism masked as intellectualism that feels like a pursuit of truth which is never really satisfied with truth, only with frustration. The biggest lie I tell myself in this mode of thinking is, &#8220;you obviously haven't thought through this like I have because here's another related thread that is also problematic.&#8221;
+My brain likes to play the same game. Approach a meaningful resolution and my brain becomes a similar magnetic pole, pushing back and flipping itself to something else completely. I've come to recognize this tendency as a primary symptom of self-pity and loathing. It's a frustrated and self-aggrandizing emotionalism masked as intellectualism that feels like a pursuit of truth which is never really satisfied with truth, only with frustration. The biggest lie I tell myself in this mode of thinking is, “you obviously haven't thought through this like I have because here's another related thread that is also problematic.”
 
 
 
@@ -110,7 +110,7 @@ I hate it, but I indulge in it from time to time.
 
 
 
-Thinking carefully about all aspects of a given topic is admirable. It's the emotional tendency to remain stuck in the frustration &#8220;status quo&#8221;&#8212;the inability to rise above angst and find answers&#8212;that I detest.
+Thinking carefully about all aspects of a given topic is admirable. It's the emotional tendency to remain stuck in the frustration “status quo”—the inability to rise above angst and find answers—that I detest.
 
 
 

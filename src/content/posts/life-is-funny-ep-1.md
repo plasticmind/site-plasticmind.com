@@ -7,9 +7,9 @@ subtitle:
 slug: life-is-funny-ep-1
 featured_image_url: 
 alt_text: 
-primary_category: "Kicks and Giggles"
-categories: ["Kicks and Giggles"]
-tags: ["Bill Cosby", "feces", "ghosts", "humor", "Vistaprint"]
+primary_category: "Humor"
+categories: ["Humor"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -31,7 +31,7 @@ How many silly, ridiculous things happen in life that get overlooked?  Well, by 
 
 
 
-First, I'm lying in bed in the middle of the night when suddenly my wife start pushing me for no apparent reason.  I started to ask her what was wrong when suddenly she says to me, &#8220;Ugh, you smell like poop.&#8221;  Now, I'm a pretty sensitive guy when it comes to smells, but for the life of me I wasn't picking up feces.  I tried to ask her what again and she just grunted and pushed me away.  &#8220;What is it?!&#8221;  I finally got out.  She stopped for a minute, looked around and then said, &#8220;Whoa, I had a dream I was changing diapers.&#8221;
+First, I'm lying in bed in the middle of the night when suddenly my wife start pushing me for no apparent reason.  I started to ask her what was wrong when suddenly she says to me, “Ugh, you smell like poop.”  Now, I'm a pretty sensitive guy when it comes to smells, but for the life of me I wasn't picking up feces.  I tried to ask her what again and she just grunted and pushed me away.  “What is it?!”  I finally got out.  She stopped for a minute, looked around and then said, “Whoa, I had a dream I was changing diapers.”
 
 
 
@@ -43,7 +43,7 @@ Something else weird: for whatever reason, our lights go on and off at random in
 
 
 
-Then I get this phone call from Vistaprint.  &#8220;We were just calling to see if you were satisfied with your recent purchase from Vistaprint.&#8221;  See, I had ordered neat-o business cards that match my new design.  &#8220;Well, actually, I've been meaning to call because the cards came and they look great, but there's a little hickey on the P where the foil shrank funny and I was wondering if I could get a&#8230;&#8221;  **CLICK**  That's one way to get 100% customer satisfaction!
+Then I get this phone call from Vistaprint.  “We were just calling to see if you were satisfied with your recent purchase from Vistaprint.”  See, I had ordered neat-o business cards that match my new design.  “Well, actually, I've been meaning to call because the cards came and they look great, but there's a little hickey on the P where the foil shrank funny and I was wondering if I could get a…”  **CLICK**  That's one way to get 100% customer satisfaction!
 
 
 

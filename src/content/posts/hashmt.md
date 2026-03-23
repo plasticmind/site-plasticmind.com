@@ -7,9 +7,9 @@ subtitle:
 slug: hashmt
 featured_image_url: 
 alt_text: 
-primary_category: "Announcements"
-categories: ["Announcements", "Movable Type", "Projects"]
-tags: ["hashmt", "movabletype", "Twitter"]
+primary_category: "Miscellany"
+categories: ["Miscellany", "Blogging & CMS"]
+tags: ["Movable Type", "Twitter"]
 meta_description: 
 context: professional
 fix: false
@@ -43,7 +43,7 @@ The answer was simple: Use what they're **already saying**.  So I design and bui
 
 
 
-Here's how it works: <a href="https://twitter.com/hashmt/">@hashmt</a> follows anyone who is an active contributor to the Movable Type community and displays any tweet they've marked with #mt.  This makes it easy to contribute since most are twittering already; now their existing conversation can be a part of this community &#8220;microblog&#8221; just by adding a hash tag to something they were already saying.
+Here's how it works: <a href="https://twitter.com/hashmt/">@hashmt</a> follows anyone who is an active contributor to the Movable Type community and displays any tweet they've marked with #mt.  This makes it easy to contribute since most are twittering already; now their existing conversation can be a part of this community “microblog” just by adding a hash tag to something they were already saying.
 
 
 

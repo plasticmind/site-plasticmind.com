@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: 
 slug: december-making-day5-home-renovation-plans
-featured_image_url: https://plasticmind.com/wp-content/uploads/2019/12/2019-12-06-at-9.47-PM.png
+featured_image_url: /assets/i/2019-12-06-at-9.47-PM.png
 alt_text: ""
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal
@@ -23,18 +23,18 @@ Earlier this year, we made some major changes to the layout of the first floor o
 If you came in the front door of our house, to the right was our dining room, to the left was our living room, and straight ahead was a hallway with a coat closet. The living room was huge, 15 feet wide by 30 feet long, but it was oddly shaped and hard to break up well, even with furniture. The back half went largely unused except as a wrestling arena or a catch-all for clutter, and the front half had our couches and a television, so it became a magnet for kids playing video games or watching YouTube. That meant that when we'd have guests over, we usually hung out in the kitchen. That's not a bad thing, especially since we love to gather over and about food, but it ended up being a lot of standing around.
 
 <figure>
-  <img src="https://plasticmind.com/wp-content/uploads/2019/12/renovation-1-1024x683.jpg" alt="You can see the footprint of the old wall. This new area is our favorite place in the house now.">
+  <img src="/assets/i/renovation-1-1024x683.jpg" alt="You can see the footprint of the old wall. This new area is our favorite place in the house now.">
   <figcaption>You can see the footprint of the old wall. This new area is our favorite place in the house now.</figcaption>
 </figure>
 
 So we tore down the wall between the dining room and the kitchen to create a large living area, perfect for conversational gatherings with friends. Then we cut the previous living area into two halves with a wall: the front area became our formal dining room and the back area became a den for more relaxed hanging out (and a place to send kids when guests visit). We kept a 6-foot opening in this wall and and hung barn doors.
 
 <figure>
-  <img src="https://plasticmind.com/wp-content/uploads/2019/12/renovation-1-2-1024x683.jpg" alt="The wall between our new dining room (where the tv is in this picture) and the den (in the foreground of the picture)">
+  <img src="/assets/i/renovation-1-2-1024x683.jpg" alt="The wall between our new dining room (where the tv is in this picture) and the den (in the foreground of the picture)">
   <figcaption>The wall between our new dining room (where the tv is in this picture) and the den (in the foreground of the picture)</figcaption>
 </figure>
 
-<img class="alignnone wp-image-5703 size-medium" src="https://plasticmind.com/wp-content/uploads/2019/12/2019-12-06-at-11.15-PM-300x199.png" alt="" width="300" height="199" /> <img class="alignnone size-medium wp-image-5698" src="https://plasticmind.com/wp-content/uploads/2019/12/thanksgiving-1-300x200.jpg" alt="" width="300" height="200" />
+<img class="alignnone wp-image-5703 size-medium" src="/assets/i/2019-12-06-at-11.15-PM-300x199.png" alt="" width="300" height="199" /> <img class="alignnone size-medium wp-image-5698" src="/assets/i/thanksgiving-1-300x200.jpg" alt="" width="300" height="200" />
 
 We couldn't be happier with the changes, but we've been realizing that the hallway is largely redundant without the wall between the dining room and kitchen. We decided to close off the hallway and make the front section a coat closet and the back section a walk-in pantry (much needed since we're using a standalone hutch as a pantry now).
 

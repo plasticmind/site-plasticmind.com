@@ -7,8 +7,8 @@ subtitle:
 slug: 10-ways-mt-4-will-rock-your-blog
 featured_image_url: 
 alt_text: 
-primary_category: "0's and 1's"
-categories: ["0's and 1's"]
+primary_category: "Technology"
+categories: ["Technology"]
 tags: []
 meta_description: 
 context: professional
@@ -19,7 +19,7 @@ hits: 307
 
 			
 
-<img src="https://plasticmind.com/assets/mt4.jpg" alt="" />
+<img src="/assets/i/mt4.jpg" alt="" />
 
 
 

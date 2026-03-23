@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Mind"
 categories: ["Mind"]
-tags: ["cats", "death", "emotions", "neighbors"]
+tags: ["death"]
 meta_description: 
 context: personal
 fix: false
@@ -25,14 +25,14 @@ In my mailbox today I found a slightly crumpled paper with the picture of a tabb
 
 
 
-<img alt="Goodbye Seven" src="https://plasticmind.com/assets/goodbyeseven.jpg" />
+<img alt="Goodbye Seven" src="/assets/i/goodbyeseven.jpg" />
 
 
 
 <blockquote>
   
 
-PLEASE KEEP AN [clipart of an eye] OPEN FOR MY LITTLE LOST CAT.  HIS NAME IS &#8220;SEVEN&#8221; AND HE IS ONLY ONE YEAR OLD!  IF FOUND OR SITED PLEASE CALL.
+PLEASE KEEP AN [clipart of an eye] OPEN FOR MY LITTLE LOST CAT.  HIS NAME IS “SEVEN” AND HE IS ONLY ONE YEAR OLD!  IF FOUND OR SITED PLEASE CALL.
 
 
 </blockquote>
@@ -63,7 +63,7 @@ About an hour later, an elderly lady came to the door and asked me if I was the 
 
 
 
-It reminded me of Tom Hank's relationship with Wilson in the movie *Castaway*.  &#8220;It's a volleyball for heaven's sake&#8221; our common sense was telling us, but our emotions understood the connection.  Emotions are funny, unpredictable things; they can latch on to people, animals, jobs and even possessions.  And though the objects of our affection may not hold any intrinsic value, the bonds we form often do.
+It reminded me of Tom Hank's relationship with Wilson in the movie *Castaway*.  “It's a volleyball for heaven's sake” our common sense was telling us, but our emotions understood the connection.  Emotions are funny, unpredictable things; they can latch on to people, animals, jobs and even possessions.  And though the objects of our affection may not hold any intrinsic value, the bonds we form often do.
 
 
 

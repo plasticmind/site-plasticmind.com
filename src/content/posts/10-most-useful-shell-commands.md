@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "I use most of these commands on a regular basis, so I thought I'd pass them along in the hope that others find them useful."
 slug: 10-most-useful-shell-commands
-featured_image_url: https://plasticmind.com/wp-content/uploads/2012/08/shell.jpg
+featured_image_url: /assets/i/shell.jpg
 alt_text: ""
-primary_category: "Code"
-categories: ["Code"]
+primary_category: "Web Development"
+categories: ["Web Development"]
 tags: []
 meta_description: 
 context: professional
@@ -105,7 +105,7 @@ An oldie but a goodie. Dump and zip a MySQL database. I use this so often, I’v
 ### CodeBox
 
 
-<img class="mt-image-none" style="width: 100%;" src="https://plasticmind.com/i/Codebox%20Library.jpg" alt="Codebox Library.jpg" />
+<img class="mt-image-none" style="width: 100%;" src="/assets/i/Codebox Library.jpg" alt="Codebox Library.jpg" />
 
 Since we’re talking code, I’d be remiss in not mentioning a super tool I use called <a href="https://www.shpakovski.com/codebox/">CodeBox</a>. It’s a Mac app for organizing code snippets. You can organize code snippets by folders, groups and tags, and you can attach assets and notes to each snippet. It’s even got code highlighting for over 100 syntaxes (and supports TextMate color themes). I save the CodeBox library file to Dropbox so I’ve got my code snippets on all of my machines. Incredibly handy.
 

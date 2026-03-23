@@ -5,7 +5,7 @@ archive: false
 excerpt:
 subtitle: "This has been in the works for a few weeks now, but I’m happy to announce that today was my first day as Vice President of Technology for Consumer Products and Engineering at Fox."
 slug: fox
-featured_image_url: https://plasticmind.com/wp-content/uploads/2021/04/Slide-16_9-white.png
+featured_image_url: /assets/i/Slide-16_9-white.png
 alt_text:
 primary_category: "Journeys"
 categories: ["Journeys"]

@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: "The stories we choose to tell and choose to believe are just as powerful now as when we were children."
 slug: magical-play-spaces
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/07/magical-1-3.jpg
+featured_image_url: /assets/i/magical-1-3.jpg
 alt_text: 
-primary_category: "Retrospection"
-categories: ["Retrospection"]
-tags: ["childhood", "imagination", "story"]
+primary_category: "Memories"
+categories: ["Memories"]
+tags: []
 meta_description: "The stories we choose to tell and choose to believe are just as powerful now as when we were children."
 context: personal
 fix: false

@@ -7,9 +7,9 @@ subtitle:
 slug: twitster-twitter-groups
 featured_image_url: 
 alt_text: 
-primary_category: "Social Networking"
-categories: ["Social Networking"]
-tags: ["community", "twitster", "Twitter"]
+primary_category: "Social Media & SEO"
+categories: ["Social Media & SEO"]
+tags: ["Twitter"]
 meta_description: 
 context: professional
 fix: false
@@ -19,7 +19,7 @@ hits: 252
 
 			
 
-<a href="https://plasticmind.com/twitster/"><img src="https://plasticmind.com/assets//twitster-20090330-155744.png" alt="Twitster" title="" /></a>
+<a href="https://plasticmind.com/twitster/"><img src="/assets/i/twitster-20090330-155744.png" alt="Twitster" title="" /></a>
 
 
 
@@ -37,7 +37,7 @@ I'm really psyched to release the first public beta of <a href="https://plasticm
 
 
 
-I work a lot with the Movable Type community.  It's a small community, but there are some really talented developers and designers doing some really cool stuff.  One day I sat back and realized that the community actually *felt* smaller than it was.  The cool stuff that everyone was doing was happening in all different places, so it was hard to see the &#8220;bigger picture&#8221;&#8212;to get a finger on the pulse of the community.  
+I work a lot with the Movable Type community.  It's a small community, but there are some really talented developers and designers doing some really cool stuff.  One day I sat back and realized that the community actually *felt* smaller than it was.  The cool stuff that everyone was doing was happening in all different places, so it was hard to see the “bigger picture”—to get a finger on the pulse of the community.  
 
 
 
@@ -55,13 +55,13 @@ The obvious key was to track these conversations using hash tags.  I checked out
 
 
 
-You may also be thinking &#8220;Can't this can be done with a Twitter app like TweetDeck or EventBox?&#8221;  For the most part, yes. The problem is that those things aren't being published on your site&#8212;they're great for individual users to follow hash tags, but they make mass publication of these groups really difficult.  I saw this first hand at SXSW &#8216;09 when presenters were running TweetDeck maximized on the big screen&#8230; not exactly ideal execution.
+You may also be thinking “Can't this can be done with a Twitter app like TweetDeck or EventBox?”  For the most part, yes. The problem is that those things aren't being published on your site—they're great for individual users to follow hash tags, but they make mass publication of these groups really difficult.  I saw this first hand at SXSW ‘09 when presenters were running TweetDeck maximized on the big screen… not exactly ideal execution.
 
 
 
 
 
-So I set out to build Twitster, an application that would let you publish the tweets of everyone you're following on your own site and&#8212;perhaps more importantly&#8212;let you filter that feed for particular topics.  I began work and built out much of the design and basic development, but I'm no codemonkey, so I asked my good friend <a href="https://www.majordojo.com">Byrne Reese</a> to help spearhead the technical development of Twitster.
+So I set out to build Twitster, an application that would let you publish the tweets of everyone you're following on your own site and—perhaps more importantly—let you filter that feed for particular topics.  I began work and built out much of the design and basic development, but I'm no codemonkey, so I asked my good friend <a href="https://www.majordojo.com">Byrne Reese</a> to help spearhead the technical development of Twitster.
 
 
 

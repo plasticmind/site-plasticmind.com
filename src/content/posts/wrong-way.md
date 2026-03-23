@@ -7,8 +7,8 @@ subtitle:
 slug: wrong-way
 featured_image_url: 
 alt_text: 
-primary_category: "Eyes"
-categories: ["Eyes"]
+primary_category: "Visual"
+categories: ["Visual"]
 tags: []
 meta_description: 
 context: personal
@@ -19,7 +19,7 @@ hits: 133
 
                         
 
-<a href="https://www.flickr.com/photos/plasticmind/sets/72157600115984552/"><img src="https://plasticmind.com/assets/wrongway.jpg" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/sets/72157600115984552/"><img src="/assets/i/wrongway.jpg" alt="" /></a>
 
 
 

@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: "TL;DR — This is the best iPad case I've ever owned."
 slug: pad-quill-contega-case
-featured_image_url: https://plasticmind.com/wp-content/uploads/2014/01/pad-and-quill-1.jpg
+featured_image_url: /assets/i/pad-and-quill-1.jpg
 alt_text: 
 primary_category: "Reviews"
 categories: ["Reviews"]
-tags: ["Apple", "case", "ipad"]
+tags: ["Apple"]
 meta_description: 
 context: professional
 fix: false
@@ -22,7 +22,7 @@ The Mini is small enough to fit easily in my coat pocket, and certainly fits eas
 
 But this review isn’t about the iPad Mini, it’s about <a href="https://www.padandquill.com/cases-for-ipad/cases-for-ipad-ipad-mini/the-contega-for-ipad-mini-retina.html">the lovely Contega case</a> from <a href="https://www.padandquill.com/">Pad &amp; Quill</a>. Tim Challies turned me on to Pad &amp; Quill in <a href="https://www.challies.com/articles/10-steps-to-preach-from-your-ipad">a post he wrote about using an iPad for preaching</a>.
 
-<a href="https://plasticmind.com/assets/pad-and-quill-4.jpg"><img src="https://plasticmind.com/assets/pad-and-quill-4-thumb-700x466-401.jpg" alt="pad-and-quill-4.jpg" width="700" height="466" /></a>
+<a href="/assets/i/pad-and-quill-4.jpg"><img src="/assets/i/pad-and-quill-4-thumb-700x466-401.jpg" alt="pad-and-quill-4.jpg" width="700" height="466" /></a>
 
 Let me begin with the first hangup some might have with Pad &amp; Quill: the price. These are hand-made cases, and you definitely pay the price for the uniqueness and quality. The case that I purchased was $89. Price aside, this is easily the best iPad case I’ve owned.
 
@@ -34,14 +34,14 @@ First, the iPad turns on immediately. The case has a magnetic sleep switch, so i
 
 The inside of the case is covered in bound linen cloth. You can choose between six different interior colors. I chose praline tan.
 
-<a href="https://plasticmind.com/assets/pad-and-quill-2.jpg"><img src="https://plasticmind.com/assets/pad-and-quill-2-thumb-700x505-397.jpg" alt="pad-and-quill-2.jpg" width="700" height="505" /></a>
+<a href="/assets/i/pad-and-quill-2.jpg"><img src="/assets/i/pad-and-quill-2-thumb-700x505-397.jpg" alt="pad-and-quill-2.jpg" width="700" height="505" /></a>
 
 The wooden cradle that holds the iPad seems impossible, in a good way. It’s much lighter than you might think, primarily because it’s made from laminate Baltic birch wood; but there doesn’t seem to be any trade off for durability. The wood is hard and has resisted dings or scratches even though my 5-year-old and 2-year-old use (and drop) it frequently.
-<div style="align: right;"><a href="https://plasticmind.com/assets/pad-and-quill-5.jpg"><img src="https://plasticmind.com/assets/pad-and-quill-5-thumb-700x387-403.jpg" alt="pad-and-quill-5.jpg" width="700" height="387" /></a></div>
+<div style="align: right;"><a href="/assets/i/pad-and-quill-5.jpg"><img src="/assets/i/pad-and-quill-5-thumb-700x387-403.jpg" alt="pad-and-quill-5.jpg" width="700" height="387" /></a></div>
 The cradle is ingeniously designed so that friction keeps the iPad snug in place without any adhesive and without covering the face of the device at all. The bookmark functions like the strip of fabric often placed beneath batteries in hard-to-reach battery compartments; give it a firm tug to pop the iPad out of the cradle. Channels are carved in the wood for the charge port, volume rocker, power button, headphone jack and cameras; there’s also a channel carved out beneath the speakers that really help carry the sound.
 
 One of my favorite features, however, is the multi-position cover. The entire case is bound like a book, which means you can fold the front cover back at the spine and it folds completely flat under the wood cradle. The cradle itself is slightly hinged, and there’s a groove pressed in the cover that the cradle can flip out and rest in. This means that you can either flip it open and read it like a notebook, or you can tip out the wooden cradle and set it up in landscape mode for reading or use beside a laptop. Lots of cases have similar functionality, but it’s really nice to have something that by all appearances looks like a book, yet manages to be so versatile.
-<div style="align: right;"><a href="https://plasticmind.com/assets/pad-and-quill-3.jpg"><img src="https://plasticmind.com/assets/pad-and-quill-3-thumb-700x418-399.jpg" alt="pad-and-quill-3.jpg" width="700" height="418" /></a></div>
+<div style="align: right;"><a href="/assets/i/pad-and-quill-3.jpg"><img src="/assets/i/pad-and-quill-3-thumb-700x418-399.jpg" alt="pad-and-quill-3.jpg" width="700" height="418" /></a></div>
 Final verdict? If you’ve got the money to spend on the case. It’s well worth it.
 
 <!--more-->

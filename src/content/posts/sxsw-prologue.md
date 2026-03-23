@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Journeys"
 categories: ["Journeys"]
-tags: ["happy cog", "sxsw"]
+tags: ["sxsw"]
 meta_description: 
 context: professional
 fix: false
@@ -19,7 +19,7 @@ hits: 91
 
 			
 
-Well, if I could boil the last few days down into a word: DELAYED.  Our flight was rerouted from Dallas to Louisiana, where we had to spend the night because of a ice storm.  We finally made it to Dallas, but we missed the new connecting flight they scheduled for us.  Finally got there, only to find that our hotel reservations were cancelled because we didn't get there the day we were supposed to.  Blame it on mother nature.  They gave the money back and now we're staying at the Hilton across the street from the Austin Convention Center&#8230; so it's better off.
+Well, if I could boil the last few days down into a word: DELAYED.  Our flight was rerouted from Dallas to Louisiana, where we had to spend the night because of a ice storm.  We finally made it to Dallas, but we missed the new connecting flight they scheduled for us.  Finally got there, only to find that our hotel reservations were cancelled because we didn't get there the day we were supposed to.  Blame it on mother nature.  They gave the money back and now we're staying at the Hilton across the street from the Austin Convention Center… so it's better off.
 
 
 

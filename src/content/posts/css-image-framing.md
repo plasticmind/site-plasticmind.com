@@ -7,9 +7,9 @@ subtitle:
 slug: css-image-framing
 featured_image_url: 
 alt_text: 
-primary_category: "CSS"
-categories: ["CSS"]
-tags: ["css", "frames", "images"]
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -17,7 +17,7 @@ hits: 4625
 ---
 
 
-### Images and Frames&#8230; What's a Blog To Do?
+### Images and Frames… What's a Blog To Do?
 
 
 
@@ -43,7 +43,7 @@ First, the concept:
 
 
 
-<img src="/assets/css-tips2.png" alt="CSS Image Framing, Tips" />
+<img src="/assets/i/css-tips2.png" alt="CSS Image Framing, Tips" />
 
 
 
@@ -140,13 +140,13 @@ Next, <code>.thumbs li</code>.  We're going for a grid of thumbnails, so we're g
 
 
 
-Finally, <code>.thumbs a span</code>.  Here's where the magic happens.  First, we set the position to absolute and specify the top and left placement.  In laymen's terms, this is basically, &#8220;put this in the top left most corner of the container it's in.&#8221;  Because it's in a relatively placed list item, this span will get placed in the upper-left-most corner of said list item.  Then we specify the width and height and set the background image and voila!  Our frames are laid over top of our images.  (We use overflow:hidden to make sure nothing gets spilled out of the frame.)
+Finally, <code>.thumbs a span</code>.  Here's where the magic happens.  First, we set the position to absolute and specify the top and left placement.  In laymen's terms, this is basically, “put this in the top left most corner of the container it's in.”  Because it's in a relatively placed list item, this span will get placed in the upper-left-most corner of said list item.  Then we specify the width and height and set the background image and voila!  Our frames are laid over top of our images.  (We use overflow:hidden to make sure nothing gets spilled out of the frame.)
 
 
 
 
 
-The only thing left is our mouseover.  What I've found works best for image rollovers is background positioning.  The idea is this: my frame image is actually 176 pixels high (88 x 2).  The top half of my frame image is the normal state of the frame.  The bottom half is the rollover state of the frame.  Then in my stylesheet, I specify &#8216;top' in my background-image declaration for <code>.thumbs a</code> and and &#8216;bottom' for <code>.thumbs a:hover</code>.  Now, the browser doesn't have to fetch another image when you mouse over something, it's already loaded.  (Please note that while most browsers support :hover for all elements, Internet Explorer only supports :hover with the anchor tag.)
+The only thing left is our mouseover.  What I've found works best for image rollovers is background positioning.  The idea is this: my frame image is actually 176 pixels high (88 x 2).  The top half of my frame image is the normal state of the frame.  The bottom half is the rollover state of the frame.  Then in my stylesheet, I specify ‘top' in my background-image declaration for <code>.thumbs a</code> and and ‘bottom' for <code>.thumbs a:hover</code>.  Now, the browser doesn't have to fetch another image when you mouse over something, it's already loaded.  (Please note that while most browsers support :hover for all elements, Internet Explorer only supports :hover with the anchor tag.)
 
 
 
@@ -175,7 +175,7 @@ Your IE stylesheet would look something like this:
 
 
 
-What we end up with is a semantically correct, search-engine friendly list of thumbnails that look fantastic.  And the design possibilities are endless.  There's <a href="https://www.digital-web.com/articles/web_standards_creativity_png/">a whole lot you can do</a> with alpha transparency.  White out your images.  Create translucent overlays.  Gradients, copyrights, watermarks, masks&#8230; go crazy.
+What we end up with is a semantically correct, search-engine friendly list of thumbnails that look fantastic.  And the design possibilities are endless.  There's <a href="https://www.digital-web.com/articles/web_standards_creativity_png/">a whole lot you can do</a> with alpha transparency.  White out your images.  Create translucent overlays.  Gradients, copyrights, watermarks, masks… go crazy.
 
 
 

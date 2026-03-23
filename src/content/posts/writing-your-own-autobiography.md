@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: writing-your-own-autobiography
-featured_image_url: https://plasticmind.com/wp-content/uploads/2007/12/autobiography.png
+featured_image_url: /assets/i/autobiography.png
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging"]
-tags: ["autobiography", "facebook", "Google", "identity", "persistent media", "writing"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: ["facebook", "Google"]
 meta_description: 
 context: personal
 fix: false
@@ -28,7 +28,7 @@ When someone sets out to write a biography, they don't just pick up a pen and st
 
 
 
-An autobiography, on the other hand, doesn't take nearly as much research.  In fact, the most difficult part of an autobiography is organization and brevity.  Deciding which life experiences are most valuable, most defining, most characteristic of your life&#8212;that's the really difficult part.
+An autobiography, on the other hand, doesn't take nearly as much research.  In fact, the most difficult part of an autobiography is organization and brevity.  Deciding which life experiences are most valuable, most defining, most characteristic of your life—that's the really difficult part.
 
 
 
@@ -64,7 +64,7 @@ So how do you talk about reality without going off into platitudes?  One way is 
 
 
 
-On the other hand, be sure to ground your greatest moments in reality.  For one thing, no one likes a person who has never struggled.  In fact, most people don't even believe a person who has never struggled.  What inspires people is realizing that they're not alone; it gives them hope and the ability to press on through their struggles.  I think that's one of the reason people are obsessed with tabloids.  Seeing the picture-perfect <a href="https://www.tmz.com/2007/01/21/yikes-no-makeup/">Hollywood queen without makeup and Photoshop</a> lets us breathe a sigh of relief and empathize with her for a moment.  &#8220;She really is just one of us.&#8221;
+On the other hand, be sure to ground your greatest moments in reality.  For one thing, no one likes a person who has never struggled.  In fact, most people don't even believe a person who has never struggled.  What inspires people is realizing that they're not alone; it gives them hope and the ability to press on through their struggles.  I think that's one of the reason people are obsessed with tabloids.  Seeing the picture-perfect <a href="https://www.tmz.com/2007/01/21/yikes-no-makeup/">Hollywood queen without makeup and Photoshop</a> lets us breathe a sigh of relief and empathize with her for a moment.  “She really is just one of us.”
 
 
 
@@ -73,13 +73,13 @@ On the other hand, be sure to ground your greatest moments in reality.  For one 
 
 
 
-Let's speak practically for a moment.  How does this work out?  Do I wait for significant moments in my life before writing&#8212;<a href="https://plasticmind.com/friends/eternal-sunrise/">the death of a loved one</a>, <a href="https://plasticmind.com/family-ties/emma-ariel-gardner/">the birth of a child</a>, <a href="https://plasticmind.com/journeys/field-of-sugar-cane/">a world adventure</a>?  Or should I write constantly and record all the <a href="https://plasticmind.com/miscellany/sigh/">petty details of life</a>, hoping to substitute <a href="https://plasticmind.com/journeys/the-hillside/">quality</a> for <a href="https://plasticmind.com/miscellany/ten-random-thin/">quantity</a>?  Yes.
+Let's speak practically for a moment.  How does this work out?  Do I wait for significant moments in my life before writing—<a href="https://plasticmind.com/friends/eternal-sunrise/">the death of a loved one</a>, <a href="https://plasticmind.com/family-ties/emma-ariel-gardner/">the birth of a child</a>, <a href="https://plasticmind.com/journeys/field-of-sugar-cane/">a world adventure</a>?  Or should I write constantly and record all the <a href="https://plasticmind.com/miscellany/sigh/">petty details of life</a>, hoping to substitute <a href="https://plasticmind.com/journeys/the-hillside/">quality</a> for <a href="https://plasticmind.com/miscellany/ten-random-thin/">quantity</a>?  Yes.
 
 
 
 
 
-I think there is a place for both of these, so long as you are able to organize them well.  My initial answer was &#8220;the first&#8221; because unfortunately most people don't organize and as a result what we had for dinner last Thursday gets the same treatment as the funeral of a close friend.  If one is truly more significant and meaningful than the other, how do we make the distinction?  I've not been completely successful, but I have attempted to create a system of weighted journaling using various tools.
+I think there is a place for both of these, so long as you are able to organize them well.  My initial answer was “the first” because unfortunately most people don't organize and as a result what we had for dinner last Thursday gets the same treatment as the funeral of a close friend.  If one is truly more significant and meaningful than the other, how do we make the distinction?  I've not been completely successful, but I have attempted to create a system of weighted journaling using various tools.
 
 
 
@@ -94,7 +94,7 @@ Email usually addresses highly specific and individual issues.  Much like letter
 
 
 
-One last thought: you are now writing your autobiography.  While we were left to fill in the blanks about the lives of our great grandparents&#8212;to peruse old letters, make conclusions from hastily scrawled notes&#8212;our great grandchildren, however, will not have that problem.  If things continue as they have been, what you are writing today on your blog, in your email, publishing out to the Internet, will become your autobiography when you are gone.  With that in mind, perhaps you should stop and think a minute before you pick up your pen?
+One last thought: you are now writing your autobiography.  While we were left to fill in the blanks about the lives of our great grandparents—to peruse old letters, make conclusions from hastily scrawled notes—our great grandchildren, however, will not have that problem.  If things continue as they have been, what you are writing today on your blog, in your email, publishing out to the Internet, will become your autobiography when you are gone.  With that in mind, perhaps you should stop and think a minute before you pick up your pen?
 
 
 

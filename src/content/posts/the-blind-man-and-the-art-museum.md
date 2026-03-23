@@ -7,9 +7,9 @@ subtitle:
 slug: the-blind-man-and-the-art-museum
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging", "The Pen"]
-tags: ["art", "blindmanproject", "freewrite"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "Writing"]
+tags: ["freewrite"]
 meta_description: 
 context: professional
 fix: false

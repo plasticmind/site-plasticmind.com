@@ -7,8 +7,8 @@ subtitle: "In case you were handcuffed to a pole in Jesse Pinkman's basement and
 slug: from-google-reader-to-fever
 featured_image_url: 
 alt_text: 
-primary_category: "App"
-categories: ["App"]
+primary_category: "Web Development"
+categories: ["Web Development"]
 tags: []
 meta_description: 
 context: professional
@@ -25,7 +25,7 @@ I visit my RSS feeds rather faithfully, so I immediately started thinking about 
 
 
 
-That's the big sticking point for most people though, I think&#8212;you have to host it yourself on your own server.  It may seem intimidating, but I put together a 7-minute long video that walks you through the whole process of setting up Fever on your server and moving all your feeds over from Google.  You could literally do it in 15 minutes&#8212;7 to watch the video and 8 to do it yourself.  (Before you do, be sure to read <a href="https://shauninman.com/archive/2013/03/14/fire">this note by Shaun</a>.)
+That's the big sticking point for most people though, I think—you have to host it yourself on your own server.  It may seem intimidating, but I put together a 7-minute long video that walks you through the whole process of setting up Fever on your server and moving all your feeds over from Google.  You could literally do it in 15 minutes—7 to watch the video and 8 to do it yourself.  (Before you do, be sure to read <a href="https://shauninman.com/archive/2013/03/14/fire">this note by Shaun</a>.)
 
 
 

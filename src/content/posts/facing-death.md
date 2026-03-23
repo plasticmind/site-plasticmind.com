@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: facing-death
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/10/embrace-full.jpg
+featured_image_url: /assets/i/embrace-full.jpg
 alt_text: "photo by Arthur Weill"
-primary_category: "Heart"
-categories: ["Heart"]
-tags: ["death", "spoken"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: ["death"]
 meta_description: 
 context: personal
 fix: false

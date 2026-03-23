@@ -7,9 +7,9 @@ subtitle:
 slug: my-confession
 featured_image_url: 
 alt_text: 
-primary_category: "Ears"
-categories: ["Ears"]
-tags: ["motorcycles", "pet peeves"]
+primary_category: "Music"
+categories: ["Music"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -37,7 +37,7 @@ Those motorcycles make me instantaneously hate the people driving them.  Oh, the
 
 
 
-Now don't pull the whole, &#8220;it's a safety feature&#8221; argument.  That's a load right there.  There are plenty of other safety features that don't involve coming into my house and pulverizing my tympanic membrane.
+Now don't pull the whole, “it's a safety feature” argument.  That's a load right there.  There are plenty of other safety features that don't involve coming into my house and pulverizing my tympanic membrane.
 
 
 

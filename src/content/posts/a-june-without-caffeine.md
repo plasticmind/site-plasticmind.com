@@ -7,9 +7,9 @@ subtitle:
 slug: a-june-without-caffeine
 featured_image_url: 
 alt_text: 
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
-tags: ["30 day challenge", "caffeine"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: ["30 day challenge"]
 meta_description: 
 context: personal
 fix: false
@@ -19,7 +19,7 @@ hits: 210
 
 			
 
-The premise of May's 30-day challenge was pretty simple: get my finances in order. However, I barely touched them. I'm sure this is just an excuse for my laziness, but non-specific goals don't fare well on my todo list.  Maybe if I had defined it better, say 30 days to set up individual credit cards for church, work and personal expenses.  Either way, this is a goal I can't just toss on the heap failed goals&#8212;my bills and bank accounts aren't going away.
+The premise of May's 30-day challenge was pretty simple: get my finances in order. However, I barely touched them. I'm sure this is just an excuse for my laziness, but non-specific goals don't fare well on my todo list.  Maybe if I had defined it better, say 30 days to set up individual credit cards for church, work and personal expenses.  Either way, this is a goal I can't just toss on the heap failed goals—my bills and bank accounts aren't going away.
 
 
 

@@ -8,8 +8,8 @@ slug: sxsw-a-critical-look-at-openid
 featured_image_url: 
 alt_text: 
 primary_category: "Journeys"
-categories: ["Journeys", "Social Networking"]
-tags: ["openid", "sxsw", "sxsw08"]
+categories: ["Journeys", "Social Media & SEO"]
+tags: ["sxsw"]
 meta_description: 
 context: professional
 fix: false
@@ -25,13 +25,13 @@ Arguably one of the more interesting panels here at SXSW, *A Critical Look at Op
 
 
 
-The panel opened with a helpful comparison of OpenID to email.  Your email address tells people something about you.  (@gmail.com tells people you use Gmail, @sun.com tells people you're a Sun employee.)  You can also use external services for email (Hotmail, Gmail, etc.) or you can run your own mail server.  Email is also essentially a single-sign on point of failure; if people get access to your email address, the can essentially use &#8220;Send a password reminder&#8221; emails and get access to your accounts. 
+The panel opened with a helpful comparison of OpenID to email.  Your email address tells people something about you.  (@gmail.com tells people you use Gmail, @sun.com tells people you're a Sun employee.)  You can also use external services for email (Hotmail, Gmail, etc.) or you can run your own mail server.  Email is also essentially a single-sign on point of failure; if people get access to your email address, the can essentially use “Send a password reminder” emails and get access to your accounts. 
 
 
 
 
 
-There are some business risks around OpenID.  People can create a virtually unlimited number of OpenID accounts; the solution seems to be around shared whitelisting.  For example, your blog could be set to allow only people with Twitter, Yahoo or AOL OpenID accounts.  You would be essentially saying, &#8220;I trust only Twitter, Yahoo and AOL logins.&#8221;  I'm still not sure that this is within the decentralized spirit of the protocol, but it's a realistic solution.
+There are some business risks around OpenID.  People can create a virtually unlimited number of OpenID accounts; the solution seems to be around shared whitelisting.  For example, your blog could be set to allow only people with Twitter, Yahoo or AOL OpenID accounts.  You would be essentially saying, “I trust only Twitter, Yahoo and AOL logins.”  I'm still not sure that this is within the decentralized spirit of the protocol, but it's a realistic solution.
 
 
 

@@ -7,8 +7,8 @@ subtitle:
 slug: plugin-concept-mtpages
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -48,7 +48,7 @@ In the template section, another Tab would be added for "Page Templates".  Multi
 
 
 
-<a href="/assets/mtpages-pagetemplates.png"><img src="/assets/mtpages-pagetemplates-thumb.png" alt="" /></a>
+<a href="/assets/i/mtpages-pagetemplates.png"><img src="/assets/i/mtpages-pagetemplates-thumb.png" alt="" /></a>
 
 
 
@@ -60,7 +60,7 @@ In the main menu, we now see a section called "Pages".
 
 
 
-<a href="/assets/mtpages-mainmenu.png"><img src="/assets/mtpages-mainmenu-thumb.png" alt="" /></a>
+<a href="/assets/i/mtpages-mainmenu.png"><img src="/assets/i/mtpages-mainmenu-thumb.png" alt="" /></a>
 
 
 
@@ -72,7 +72,7 @@ Clicking on it brings us to our "Page Listing" screen where have a list of all o
 
 
 
-<a href="/assets/mtpages-pagelisting.png"><img src="/assets/mtpages-pagelisting-thumb.png" alt="" /></a>
+<a href="/assets/i/mtpages-pagelisting.png"><img src="/assets/i/mtpages-pagelisting-thumb.png" alt="" /></a>
 
 
 
@@ -84,7 +84,7 @@ Clicking on "New Page" brings us to what is essentially a new entry screen with 
 
 
 
-<a href="/assets/mtpages-editpage.png"><img src="/assets/mtpages-editpage-thumb.png" alt="" /></a>
+<a href="/assets/i/mtpages-editpage.png"><img src="/assets/i/mtpages-editpage-thumb.png" alt="" /></a>
 
 
 

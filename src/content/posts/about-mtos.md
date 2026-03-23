@@ -7,9 +7,9 @@ subtitle:
 slug: about-mtos
 featured_image_url: 
 alt_text: 
-primary_category: "CMS"
-categories: ["CMS", "Social Networking"]
-tags: ["Movable Type", "MTOS", "Six Apart"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "Social Media & SEO"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false

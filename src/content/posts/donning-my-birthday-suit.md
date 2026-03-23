@@ -7,8 +7,8 @@ subtitle:
 slug: donning-my-birthday-suit
 featured_image_url: 
 alt_text: 
-primary_category: "0's and 1's"
-categories: ["0's and 1's", "Blogging", "Retrospection"]
+primary_category: "Technology"
+categories: ["Technology", "Blogging & CMS", "Memories"]
 tags: []
 meta_description: 
 context: professional

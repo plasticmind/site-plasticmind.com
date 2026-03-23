@@ -5,11 +5,11 @@ archive: false
 excerpt: "A rewarding personal experience, tremendous teams, and a bittersweet goodbye."
 subtitle:
 slug: farewell-fox
-featured_image_url: https://plasticmind.com/wp-content/uploads/2022/08/IMG_8438-scaled.jpg
+featured_image_url: /assets/i/IMG_8438-scaled.jpg
 alt_text: "Sunset over Egg Harbor Bay"
 primary_category: "Journeys"
 categories: ["Journeys"]
-tags: ["career", "fox"]
+tags: []
 meta_description:
 context: personal
 fix: false

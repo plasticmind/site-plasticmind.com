@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: "For day 11, I finally made something instead of just tearing stuff down."
 slug: december-making-day11-build-that-wall
-featured_image_url: https://plasticmind.com/wp-content/uploads/2019/12/IMG_6168-scaled.jpg
+featured_image_url: /assets/i/IMG_6168-scaled.jpg
 alt_text: ""
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal
@@ -31,7 +31,7 @@ Things I still need to do:
 
 *This is day 11 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
-<img class="alignnone size-large wp-image-5772" src="https://plasticmind.com/wp-content/uploads/2019/12/framed-wall-1024x768.jpg" alt="" width="1024" height="768" /> <img class="alignnone size-large wp-image-5773" src="https://plasticmind.com/wp-content/uploads/2019/12/hallway-wall-1024x766.jpg" alt="" width="1024" height="766" />
+<img class="alignnone size-large wp-image-5772" src="/assets/i/framed-wall-1024x768.jpg" alt="" width="1024" height="768" /> <img class="alignnone size-large wp-image-5773" src="/assets/i/hallway-wall-1024x766.jpg" alt="" width="1024" height="766" />
 
 <div style="display: none;"></div>
 

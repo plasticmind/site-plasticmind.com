@@ -7,9 +7,9 @@ subtitle:
 slug: updates-on-ethan
 featured_image_url: 
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
-tags: ["breastfeeding", "CHOP", "cleft lip", "cleft palate", "Ethan"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -25,7 +25,7 @@ Thanks to everyone who had us in your thoughts and prayers yesterday as we met w
 
 
 
-Here's a brief update; keep in mind, a lot of the surgery scheduling will depend on the severity of cleft, and we won't really know that until our little guy is born.  This is just our &#8220;best guess&#8221;.
+Here's a brief update; keep in mind, a lot of the surgery scheduling will depend on the severity of cleft, and we won't really know that until our little guy is born.  This is just our “best guess”.
 
 
 
@@ -61,7 +61,7 @@ The really reassuring part is that we'll be meeting each year with the entire cl
 
 
 
-So, probably the next bit of news you'll read about our little guy will be a birth announcement&#8230;  Stay tuned, **August 22nd**!  (If Jess had her way, it would be tomorrow.)
+So, probably the next bit of news you'll read about our little guy will be a birth announcement…  Stay tuned, **August 22nd**!  (If Jess had her way, it would be tomorrow.)
 
 
 

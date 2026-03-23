@@ -7,9 +7,9 @@ subtitle:
 slug: the-urge-to-create-something-meaningful
 featured_image_url: 
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
-tags: ["blindmanproject", "childhood", "creation", "creativeprocess", "freewrite"]
+primary_category: "Writing"
+categories: ["Writing"]
+tags: ["freewrite"]
 meta_description: 
 context: personal
 fix: false

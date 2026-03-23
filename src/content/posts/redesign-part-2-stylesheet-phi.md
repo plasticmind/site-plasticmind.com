@@ -7,9 +7,9 @@ subtitle: "I am not a developer."
 slug: redesign-part-2-stylesheet-phi
 featured_image_url: 
 alt_text: 
-primary_category: "CSS"
-categories: ["CSS"]
-tags: ["css", "grid", "redundancy", "reset", "stylesheets"]
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -64,7 +64,7 @@ Next, I decided to take a dual stylesheet approach.  My site has a common layout
 
 
 
-<img src="https://plasticmind.com/assets/stylesheetphilosophy.gif" width="507" height="185" alt="stylesheetphilosophy.gif"/>
+<img src="/assets/i/stylesheetphilosophy.gif" width="507" height="185" alt="stylesheetphilosophy.gif"/>
 
 
 
@@ -73,7 +73,7 @@ Next, I decided to take a dual stylesheet approach.  My site has a common layout
 
 
 
-Finally, using <a href="https://www.quirksmode.org/css/condcom.html">condition comments</a> in the header of all the sections, I include a &#8220;fix&#8221; stylesheet for Internet Explorer.  This helps the pathetic browser render like every other browser out there (or at least as best it can).  Most of my fixes were small, so I opted to keep them all in one stylesheet.  You may want to break them up into sections if they're large; but I'd warn against making too many exceptions for Internet Explorer&#8212;they're a headache to maintain.  
+Finally, using <a href="https://www.quirksmode.org/css/condcom.html">condition comments</a> in the header of all the sections, I include a “fix” stylesheet for Internet Explorer.  This helps the pathetic browser render like every other browser out there (or at least as best it can).  Most of my fixes were small, so I opted to keep them all in one stylesheet.  You may want to break them up into sections if they're large; but I'd warn against making too many exceptions for Internet Explorer—they're a headache to maintain.  
 
 
 
@@ -87,8 +87,8 @@ Also, be sure to give your body tag an id, especially if you're using one styles
 
 
 <pre><code>&lt;body id="journal"&gt;
-&#160;&#160;&#160;&#160;&lt;div class="entries"&gt;
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;...</code></pre>
+    &lt;div class="entries"&gt;
+        ...</code></pre>
 
 
 
@@ -97,7 +97,7 @@ This lets you then do something like:
 
 
 <pre><code>#journal .entries {
-&#160;&#160;&#160;&#160;color: red;
+    color: red;
 }</code></pre>
 
 

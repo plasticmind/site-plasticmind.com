@@ -7,9 +7,9 @@ subtitle:
 slug: simple-translation-tool
 featured_image_url: 
 alt_text: 
-primary_category: "Accessibility"
-categories: ["Accessibility"]
-tags: ["Google", "localization", "translation"]
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: ["Google"]
 meta_description: 
 context: professional
 fix: true
@@ -57,7 +57,7 @@ That being said, it's a whole lot of fun.  Here's the code:
 
 
 
-You really don't have to do much beside replace &#8220;https://yoursite.com&#8221; with the page you want translated.  If you're especially keen on giving people the option to translate each page on your site, you could have your content management system fill in that field with an entry's permalink.
+You really don't have to do much beside replace “https://yoursite.com” with the page you want translated.  If you're especially keen on giving people the option to translate each page on your site, you could have your content management system fill in that field with an entry's permalink.
 
 
 
@@ -94,7 +94,7 @@ Now, before you ask: **no**.  You can't seem link directly to a page without Goo
 
 
 
-**Note:** This doesn't play nice with Flash.  It *sort of* works with sIFR (Flash Replacement technique for headlines).  Google must catch the text before sending it to Flash because both the translated and untranslated text show up.  Also, it seems to have some issues with certain positioned elements; it seems to have made my logo go away.  I suspect it has something to do with the way it places it's translation hints that get revealed on hover.  (Confirmed: it breaks elements with &#8220;position: absolute&#8221;.)  Anyhow, consider yourself warned.
+**Note:** This doesn't play nice with Flash.  It *sort of* works with sIFR (Flash Replacement technique for headlines).  Google must catch the text before sending it to Flash because both the translated and untranslated text show up.  Also, it seems to have some issues with certain positioned elements; it seems to have made my logo go away.  I suspect it has something to do with the way it places it's translation hints that get revealed on hover.  (Confirmed: it breaks elements with “position: absolute”.)  Anyhow, consider yourself warned.
 
 
 

@@ -7,9 +7,9 @@ subtitle:
 slug: 30-day-change
 featured_image_url: 
 alt_text: 
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge", "Retrospection"]
-tags: ["2011", "30 day challenge", "new year"]
+primary_category: "Personal"
+categories: ["Personal", "Memories"]
+tags: ["30 day challenge"]
 meta_description: 
 context: personal
 fix: false
@@ -25,7 +25,7 @@ hits: 580
 
 
 
-I have a tendency to make grand, sweeping resolutions that never seem to pan out. Last year, in the hopes of doing something more manageable, I took the <a href="https://plasticmind.com/writing/p52/" title="The P52 Blogging Challenge">P52 challenge</a>&#8212;write one blog post a week for 52 weeks&#8212;but only made it to <a href="https://plasticmind.com/retrospection/death-on-the-tracks/" title="Death on the Tracks">July</a>.  Even though 52 blog posts amount to only 52 days of actual resolution-keeping, it's still 365 days of the same challenge.  
+I have a tendency to make grand, sweeping resolutions that never seem to pan out. Last year, in the hopes of doing something more manageable, I took the <a href="https://plasticmind.com/writing/p52/" title="The P52 Blogging Challenge">P52 challenge</a>—write one blog post a week for 52 weeks—but only made it to <a href="https://plasticmind.com/retrospection/death-on-the-tracks/" title="Death on the Tracks">July</a>.  Even though 52 blog posts amount to only 52 days of actual resolution-keeping, it's still 365 days of the same challenge.  
 
 
 
@@ -47,20 +47,18 @@ Here's a tentative list of what I've got planned for 2011:
 
 
 
-<ul>
-<li><a href="https://plasticmind.com/30-day-challenge/30-days-without-facebook-and-twitter-what-i-learned/">**January:** 30 days with no Twitter or Facebook</a></li>
-<li><a href="https://plasticmind.com/30-day-challenge/28-days-of-photos-what-i-learned/">**February:** Take one picture a day for 30 days</a></li>
-<li><a href="https://plasticmind.com/30-day-challenge/marchs-30-day-challenge-failure/">**March:** 30 days with no computer after 9 p.m.</a> </li>
-<li><a href="https://plasticmind.com/journeys/new-things-and-blessings/">**April:** Try one new thing a day for 30 days</a></li>
-<li><a href="https://plasticmind.com/30-day-challenge/a-june-without-caffeine/">**May:** 30 days to get my finances in order</a></li>
-<li><a href="https://plasticmind.com/30-day-challenge/30-days-without-caffeine/">**June:** 30 days with no caffeine</a></li>
-<li>**July:** Draw something everyday for 30 days</li>
-<li><a href="https://plasticmind.com/30-day-challenge/no-television/">**August:** 30 days with no TV</a></li>
-<li>**September:** Write down one thing I'm thankful for each day for 30 days</li>
-<li>**October:** Read the New Testament in 30 days</li>
-<li>**November:** Write a novel/book in 30 days</li>
-<li>**December:** Learn one new word a day for 30 days</li>
-</ul>
+- <a href="https://plasticmind.com/30-day-challenge/30-days-without-facebook-and-twitter-what-i-learned/">**January:** 30 days with no Twitter or Facebook</a>
+- <a href="https://plasticmind.com/30-day-challenge/28-days-of-photos-what-i-learned/">**February:** Take one picture a day for 30 days</a>
+- <a href="https://plasticmind.com/30-day-challenge/marchs-30-day-challenge-failure/">**March:** 30 days with no computer after 9 p.m.</a>
+- <a href="https://plasticmind.com/journeys/new-things-and-blessings/">**April:** Try one new thing a day for 30 days</a>
+- <a href="https://plasticmind.com/30-day-challenge/a-june-without-caffeine/">**May:** 30 days to get my finances in order</a>
+- <a href="https://plasticmind.com/30-day-challenge/30-days-without-caffeine/">**June:** 30 days with no caffeine</a>
+- **July:** Draw something everyday for 30 days
+- <a href="https://plasticmind.com/30-day-challenge/no-television/">**August:** 30 days with no TV</a>
+- **September:** Write down one thing I'm thankful for each day for 30 days
+- **October:** Read the New Testament in 30 days
+- **November:** Write a novel/book in 30 days
+- **December:** Learn one new word a day for 30 days
 
 
 

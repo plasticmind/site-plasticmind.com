@@ -7,8 +7,8 @@ subtitle:
 slug: narnia-a-journey-into-the-imagination
 featured_image_url: 
 alt_text: 
-primary_category: "Movies"
-categories: ["Movies"]
+primary_category: "Reviews"
+categories: ["Reviews"]
 tags: []
 meta_description: 
 context: personal

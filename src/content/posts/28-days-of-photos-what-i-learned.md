@@ -7,8 +7,8 @@ subtitle:
 slug: 28-days-of-photos-what-i-learned
 featured_image_url: 
 alt_text: 
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge", "Eyes"]
+primary_category: "Personal"
+categories: ["Personal", "Visual"]
 tags: ["30 day challenge"]
 meta_description: 
 context: personal
@@ -49,7 +49,7 @@ As a sidenote, I had a lot of fun building the challenge site.  I piggy-backed o
 
 
 
-All in all, though, it was a good experience and certainly one I'd like to try again.  Did any of you do a photo challenge for February?  Some other challenge?  I'm going to post another update in the next few days about my March challenge (<a href="https://plasticmind.com/retrospection/30-day-change/">no computer after 9pm!</a>), but I'd love to hear about how you're making out on these 30 day challenges&#8230;
+All in all, though, it was a good experience and certainly one I'd like to try again.  Did any of you do a photo challenge for February?  Some other challenge?  I'm going to post another update in the next few days about my March challenge (<a href="https://plasticmind.com/retrospection/30-day-change/">no computer after 9pm!</a>), but I'd love to hear about how you're making out on these 30 day challenges…
 
 
 

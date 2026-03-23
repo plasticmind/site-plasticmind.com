@@ -5,7 +5,7 @@ archive: false
 excerpt: 
 subtitle: "The river of life is twisting, unexpected and wild."
 slug: simply-recipes
-featured_image_url: https://plasticmind.com/wp-content/uploads/2012/02/sr.jpg
+featured_image_url: /assets/i/sr.jpg
 alt_text: ""
 primary_category: "Journeys"
 categories: ["Journeys"]
@@ -19,7 +19,7 @@ hits: 1015
 
 			
 
-Two years ago, almost to the day, I <a href="https://plasticmind.com/journeys/rainbow/">made the decision</a> to leave independent contracting and take a director position at <a href="https://amcnetworks.com">AMC Networks</a> (Rainbow Media at the time) in New York City.  At the time, I was doing a rather terrible job of balancing everything: a dozen or so clients, a new family, church.  I used to joke: &#8220;Why work 8 hours a day for someone else when you can work 16 hours a day for yourself!&#8221;
+Two years ago, almost to the day, I <a href="https://plasticmind.com/journeys/rainbow/">made the decision</a> to leave independent contracting and take a director position at <a href="https://amcnetworks.com">AMC Networks</a> (Rainbow Media at the time) in New York City.  At the time, I was doing a rather terrible job of balancing everything: a dozen or so clients, a new family, church.  I used to joke: “Why work 8 hours a day for someone else when you can work 16 hours a day for yourself!”
 
 
 
@@ -31,7 +31,7 @@ The new job offered several benefits: better structure, better pay, and the chan
 
 
 
-It was truly that.  I have very little formal computer training, so to be dropped into a world of load balanced servers, multiple layers of caching, version control and high scalability was like an ice bath of Miracle Gro&#8212;and that was just the technical side of things.  The transition from working in a home office all day by myself to working with intelligent, thoughtful people challenging every assumption was both frightening and illuminating.  In particular, my boss modeled well that elusive balance between diplomacy and action and helped stretch me into a better developer, a better diplomat, a better person.
+It was truly that.  I have very little formal computer training, so to be dropped into a world of load balanced servers, multiple layers of caching, version control and high scalability was like an ice bath of Miracle Gro—and that was just the technical side of things.  The transition from working in a home office all day by myself to working with intelligent, thoughtful people challenging every assumption was both frightening and illuminating.  In particular, my boss modeled well that elusive balance between diplomacy and action and helped stretch me into a better developer, a better diplomat, a better person.
 
 
 
@@ -61,7 +61,7 @@ I spent a few hours the other day reading through the interviews over at <a href
 
 
 
-So&#8230; here's to food blogging, here's to new horizons, and here's to family!
+So… here's to food blogging, here's to new horizons, and here's to family!
 
 
 

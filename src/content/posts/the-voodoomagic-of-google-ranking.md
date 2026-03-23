@@ -7,8 +7,8 @@ subtitle:
 slug: the-voodoomagic-of-google-ranking
 featured_image_url: 
 alt_text: 
-primary_category: "0's and 1's"
-categories: ["0's and 1's"]
+primary_category: "Technology"
+categories: ["Technology"]
 tags: []
 meta_description: 
 context: professional
@@ -19,7 +19,7 @@ hits: 157
 
 			
 
-<img alt="voodoo.jpg" src="https://plasticmind.com/assets/voodoo.jpg" width="340" height="238" />
+<img alt="voodoo.jpg" src="/assets/i/voodoo.jpg" width="340" height="238" />
 
 
 

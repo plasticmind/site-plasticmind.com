@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: 
 slug: the-secret-life-of-children
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/10/eye.jpg
+featured_image_url: /assets/i/eye.jpg
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
+primary_category: "People"
+categories: ["People"]
 tags: []
 meta_description: 
 context: personal

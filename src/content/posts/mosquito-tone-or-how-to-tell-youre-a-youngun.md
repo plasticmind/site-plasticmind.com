@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "Note: I've been informed that if you're not careful and have your volume up too high, this could damage your speakers.  Consider yourself warned!"
 slug: mosquito-tone-or-how-to-tell-youre-a-youngun
-featured_image_url: https://plasticmind.com/wp-content/uploads/2007/04/skeeter2.png
+featured_image_url: /assets/i/skeeter2.png
 alt_text: 
-primary_category: "Ears"
-categories: ["Ears"]
+primary_category: "Music"
+categories: ["Music"]
 tags: []
 meta_description: "Are you still young enough to hear the high frequency mosquito tones?"
 context: personal
@@ -18,7 +18,7 @@ hits: 144188
 
 My friend Karen got me intrigued by a recent blog post in which she describes hearing KFC's strategically placed "mosquito tone" in <a href="https://www.youtube.com/watch?v=KMWqIeb7b6g">one of their recent ads</a>.
 
-Now for those of you who don't follow pop culture and web trends, et. al, a "mosquito tone" is simply a 17KHz sine wave that geeky youngsters have been known to use on their cell phone to alert them when they've got a text message so the teachers can't hear it. See, studies say that most of us old folks (I'm over 30 now) can't hear much above the 13-14KHz range. (<a href="https://plasticmind.com/assets/12ring-graphic.gif">See the full chart of who can hear what.</a>)
+Now for those of you who don't follow pop culture and web trends, et. al, a "mosquito tone" is simply a 17KHz sine wave that geeky youngsters have been known to use on their cell phone to alert them when they've got a text message so the teachers can't hear it. See, studies say that most of us old folks (I'm over 30 now) can't hear much above the 13-14KHz range. (<a href="/assets/i/12ring-graphic.gif">See the full chart of who can hear what.</a>)
 
 Of course, when someone says most people can't do [x], everyone tries it. Sort of like when I read the Snapple cap that said no one can lick their elbow. Now that's a conversation starter. Anyhow, I fired up Audacity and generated a 17kHz tone, and wouldn't you know--I couldn't hear it. So I bumped it down to 14kHz and heard it. At 15kHz, I could hear it so long as I didn't tilt my head funny. At 16kHz, I could still hear it, but it was really faint. Then I actually decided that I could only hear it if I knew it was playing, but I haven't been able to test that until I have someone else press play.
 

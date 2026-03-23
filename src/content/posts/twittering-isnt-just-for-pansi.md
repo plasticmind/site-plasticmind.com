@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: 
 slug: twittering-isnt-just-for-pansi
-featured_image_url: https://plasticmind.com/wp-content/uploads/2007/11/3079284352_d65bc89d2c_b.jpg
+featured_image_url: /assets/i/3079284352_d65bc89d2c_b.jpg
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging", "Social Networking"]
-tags: ["Jott", "Twitter"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "Social Media & SEO"]
+tags: ["Twitter"]
 meta_description: 
 context: professional
 fix: false

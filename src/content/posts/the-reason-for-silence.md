@@ -7,8 +7,8 @@ subtitle:
 slug: the-reason-for-silence
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: personal

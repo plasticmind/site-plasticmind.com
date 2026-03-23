@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: "I woke up before the sunrise this morning and decided to take a walk instead of tossing in bed."
 slug: startled-fawn
-featured_image_url: https://plasticmind.com/wp-content/uploads/2012/08/fawn.jpg
+featured_image_url: /assets/i/fawn.jpg
 alt_text: ""
-primary_category: "Eyes"
-categories: ["Eyes"]
+primary_category: "Visual"
+categories: ["Visual"]
 tags: []
 meta_description: 
 context: personal

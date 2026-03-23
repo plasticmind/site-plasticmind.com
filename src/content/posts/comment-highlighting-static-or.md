@@ -7,8 +7,8 @@ subtitle:
 slug: comment-highlighting-static-or
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -155,7 +155,7 @@ Dynamic publishing translates Template Tags into PHP code, using Smarty. So, if 
 it would translate to something like this:<br />
 <br />
 <?php include('<?php echo<br />
-&#160;&#160; smarty_modifier_dirify(smarty_function_Author()), "1"); ?>.html'); ?>
+   smarty_modifier_dirify(smarty_function_Author()), "1"); ?>.html'); ?>
 <br />
 which makes no sense and would not compile.
 </code>

@@ -5,7 +5,7 @@ archive: true
 excerpt: 
 subtitle: "We've got a Simply Recipes redesign on the horizon, and one of the priorities for this new design will be making it responsive."
 slug: 4-responsive-designs
-featured_image_url: https://plasticmind.com/wp-content/uploads/2013/01/rwd1.jpg
+featured_image_url: /assets/i/rwd1.jpg
 alt_text: ""
 primary_category: "Design"
 categories: ["Design"]

@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "The story begins and ends with a Christmas tree."
 slug: my-first-business-venture
-featured_image_url: https://plasticmind.com/wp-content/uploads/2012/11/336941842_8ce5df7cf7_o.jpg
+featured_image_url: /assets/i/336941842_8ce5df7cf7_o.jpg
 alt_text: 
-primary_category: "Retrospection"
-categories: ["Retrospection"]
+primary_category: "Memories"
+categories: ["Memories"]
 tags: []
 meta_description: 
 context: personal
@@ -31,19 +31,19 @@ My childhood Christmases were filled with real trees: sticky sap, shedding needl
 
 
 
-Recreating this tradition again for the first time in a long time brought to mind a flood of memories and reminded me of my very first taste of entrepreneurship.  Bill Blake, a man in our church had approached me with the idea&#8212;drive up into the Adirondacks with a truck, buy as many as we could fit in the truck at bulk pricing, haul them back down to civilization and sell them for a profit.  I was 16 at the time, and the whole idea seemed impossibly large, especially since I had my hands full trying to beat Super Mario World.  He provided the truck, the contact with the tree farm and the prodding.  I had to do all the rest: pick out and pay for the trees, set them up at home and sell them throughout the holiday season.
+Recreating this tradition again for the first time in a long time brought to mind a flood of memories and reminded me of my very first taste of entrepreneurship.  Bill Blake, a man in our church had approached me with the idea—drive up into the Adirondacks with a truck, buy as many as we could fit in the truck at bulk pricing, haul them back down to civilization and sell them for a profit.  I was 16 at the time, and the whole idea seemed impossibly large, especially since I had my hands full trying to beat Super Mario World.  He provided the truck, the contact with the tree farm and the prodding.  I had to do all the rest: pick out and pay for the trees, set them up at home and sell them throughout the holiday season.
 
 
 
 
 
-I brought home nearly 40 trees in all: a mix of Scotch Pine and Blue Spruce.  I can't recall the exact prices, but think I charged $10 or $15 more for Blue Spruce because they had better &#8220;needle retention&#8221;.  I built some tree supports, decorated them with Christmas lights, then set up the trees in our large front yard.  Fortunately, we lived on Route 9 just north of Saratoga Springs, NY, so traffic was always heavy&#8212;a big asset when you're selling Christmas trees on your front lawn.  As they say in business: location, location, location.
+I brought home nearly 40 trees in all: a mix of Scotch Pine and Blue Spruce.  I can't recall the exact prices, but think I charged $10 or $15 more for Blue Spruce because they had better “needle retention”.  I built some tree supports, decorated them with Christmas lights, then set up the trees in our large front yard.  Fortunately, we lived on Route 9 just north of Saratoga Springs, NY, so traffic was always heavy—a big asset when you're selling Christmas trees on your front lawn.  As they say in business: location, location, location.
 
 
 
 
 
-Most of the experience is a blur in my mind; I can only recall bits and pieces.  Keeping vigil at the front window, running outside when a car would pull up, making best the &#8220;I'm a young entrepreneur&#8221; sales pitch a young thespian could muster.  I vaguely remember tiring of the responsibility at times (more often than not, I'm sure), and mom or dad dutifully bundling up to collect money for me.  I remember wondering what to do with the extra trees that were left over.  I don't even think I made very much off the whole thing&#8212;maybe $100 or $200 for the season.
+Most of the experience is a blur in my mind; I can only recall bits and pieces.  Keeping vigil at the front window, running outside when a car would pull up, making best the “I'm a young entrepreneur” sales pitch a young thespian could muster.  I vaguely remember tiring of the responsibility at times (more often than not, I'm sure), and mom or dad dutifully bundling up to collect money for me.  I remember wondering what to do with the extra trees that were left over.  I don't even think I made very much off the whole thing—maybe $100 or $200 for the season.
 
 
 

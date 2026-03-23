@@ -7,8 +7,8 @@ subtitle:
 slug: in-the-shallow-ocean-water
 featured_image_url: 
 alt_text: 
-primary_category: "World"
-categories: ["World"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics"]
 tags: []
 meta_description: 
 context: personal
@@ -19,7 +19,7 @@ hits: 252
 
 			
 
-<img alt="shallowocean.jpg" src="https://plasticmind.com/assets/shallowocean.jpg" width="450" height="337" />
+<img alt="shallowocean.jpg" src="/assets/i/shallowocean.jpg" width="450" height="337" />
 
 
 

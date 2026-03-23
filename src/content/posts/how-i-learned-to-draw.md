@@ -7,9 +7,9 @@ subtitle:
 slug: how-i-learned-to-draw
 featured_image_url: 
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
-tags: ["drawing", "perspective", "secret city"]
+primary_category: "Writing"
+categories: ["Writing"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -25,7 +25,7 @@ To be fair, I must admit I learned a lot from my dad about perspective and horiz
 
 
 
-But it was <a href="https://markkistler.com">Mark Kistler</a> and his show on PBS that most influenced my drawing.  You remember, the guy with the afro and mustache who dressed up in jumpsuits and wore the Garth Brooks boom mic?  Sure, he looks like he should be selling cigarettes in some convenience store or filling in as Cousin Larry on *Perfect Strangers*, but that didn't seem to faze me back then.  His &#8220;secret city&#8221; mural helped transform my doodles into fantastic worlds and taught me a lot about escapism in art.
+But it was <a href="https://markkistler.com">Mark Kistler</a> and his show on PBS that most influenced my drawing.  You remember, the guy with the afro and mustache who dressed up in jumpsuits and wore the Garth Brooks boom mic?  Sure, he looks like he should be selling cigarettes in some convenience store or filling in as Cousin Larry on *Perfect Strangers*, but that didn't seem to faze me back then.  His “secret city” mural helped transform my doodles into fantastic worlds and taught me a lot about escapism in art.
 
 
 

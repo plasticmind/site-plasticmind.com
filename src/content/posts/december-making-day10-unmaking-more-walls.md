@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: "For day 10 of my December making project, I tore down an old hallway closet in order to build a new closet and a walk-in pantry."
 slug: december-making-day10-unmaking-more-walls
-featured_image_url: https://plasticmind.com/wp-content/uploads/2019/12/timelapse-cropped.gif
+featured_image_url: /assets/i/timelapse-cropped.gif
 alt_text: ""
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
-tags: ["build", "closet", "home", "house", "make", "renovation", "wall"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -41,12 +41,12 @@ Tomorrow, we build the wall!
 *This is day 10 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 <figure>
-  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_5916-1024x768.jpg" alt="The &quot;before&quot; shot.">
+  <img src="/assets/i/IMG_5916-1024x768.jpg" alt="The &quot;before&quot; shot.">
   <figcaption>The "before" shot.</figcaption>
 </figure>
 
 <figure>
-  <img src="https://plasticmind.com/wp-content/uploads/2019/12/2019-12-06-at-9.47-PM-1-1024x747.png" alt="The planned renovations to the entryway, with a coat closet on the front and the small wall removed between the entry and the living room.">
+  <img src="/assets/i/2019-12-06-at-9.47-PM-1-1024x747.png" alt="The planned renovations to the entryway, with a coat closet on the front and the small wall removed between the entry and the living room.">
   <figcaption>The planned renovations to the entryway, with a coat closet on the front and the small wall removed between the entry and the living room.</figcaption>
 </figure>
 

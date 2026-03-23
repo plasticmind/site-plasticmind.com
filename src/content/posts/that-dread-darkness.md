@@ -7,9 +7,9 @@ subtitle:
 slug: that-dread-darkness
 featured_image_url: 
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
-tags: ["cancer uncertainty fear"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: 
 context: personal
 fix: false

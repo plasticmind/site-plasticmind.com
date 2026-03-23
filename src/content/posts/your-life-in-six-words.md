@@ -7,9 +7,9 @@ subtitle:
 slug: your-life-in-six-words
 featured_image_url: 
 alt_text: 
-primary_category: "Announcements"
-categories: ["Announcements", "Writing"]
-tags: ["six-word memoirs"]
+primary_category: "Miscellany"
+categories: ["Miscellany", "Writing"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -19,13 +19,13 @@ hits: 659
 
 			
 
-<img src="/assets/ashes.jpg" alt="" />
+<img src="/assets/i/ashes.jpg" alt="" />
 
 
 
 
 
-Inspired by Hemmingway's powerful six-word short story (&#8220;For sale: baby shoes, never worn.&#8221;) and SmithMag's *Six Word Memoirs*, I ran <a href="https://twitter.com/plasticmind/statuses/812820380">a contest</a> to see who could give me the most original and clever six-word autobiography.
+Inspired by Hemmingway's powerful six-word short story (“For sale: baby shoes, never worn.”) and SmithMag's *Six Word Memoirs*, I ran <a href="https://twitter.com/plasticmind/statuses/812820380">a contest</a> to see who could give me the most original and clever six-word autobiography.
 
 
 

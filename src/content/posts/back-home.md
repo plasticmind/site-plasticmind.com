@@ -5,7 +5,7 @@ archive: false
 excerpt: 
 subtitle: 
 slug: back-home
-featured_image_url: https://plasticmind.com/wp-content/uploads/2007/07/855390177_b01354c156_z.jpg
+featured_image_url: /assets/i/855390177_b01354c156_z.jpg
 alt_text: 
 primary_category: "Journeys"
 categories: ["Journeys"]

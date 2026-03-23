@@ -7,9 +7,9 @@ subtitle:
 slug: virtual-movable-type-impressions
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging", "Movable Type"]
-tags: ["movabletype", "parallels", "virtualization"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false
@@ -22,7 +22,7 @@ hits: 396
 
 
 
-Ok, the first question that nearly everyone asks when they hear about **Virtual Movable Type** is: &#8220;What's the virtual part all about?&#8221;  From the readme file:
+Ok, the first question that nearly everyone asks when they hear about **Virtual Movable Type** is: “What's the virtual part all about?”  From the readme file:
 
 
 
@@ -87,7 +87,7 @@ Ok, that subtitle sucks, but the installation sure didn't.
 
 
 
-**4. Log into Virtual Movable Type.**  One thing they don't point on well enough in the docs is that **your username is &#8216;admin'** and **your password is your Jumpbox password**.  One you're in, everything should look familiar.  Now enjoy the new blog smell for a moment.
+**4. Log into Virtual Movable Type.**  One thing they don't point on well enough in the docs is that **your username is ‘admin'** and **your password is your Jumpbox password**.  One you're in, everything should look familiar.  Now enjoy the new blog smell for a moment.
 
 
 

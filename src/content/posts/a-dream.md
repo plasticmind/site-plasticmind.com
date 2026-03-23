@@ -7,9 +7,9 @@ subtitle:
 slug: a-dream
 featured_image_url: 
 alt_text: 
-primary_category: "Retrospection"
-categories: ["Retrospection"]
-tags: ["dreams"]
+primary_category: "Memories"
+categories: ["Memories"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -31,7 +31,7 @@ The air is warm and the ash gray road feels like day old embers against my bare 
 
 
 
-Then come voices of old friends in the dark, talking to their children on front porches in the early morning hours before responsibility sets in.  For a moment I stop and thank them for motivating me, trying I suppose to reforge old friendships or simply experience again acquaintances that once were.  But the visits don't last long.  It becomes quickly apparent&#8212;photos on the wall, a note on the table, someone unexpected walks in the room&#8212;that their lives are different now.  So I turn back to the road.
+Then come voices of old friends in the dark, talking to their children on front porches in the early morning hours before responsibility sets in.  For a moment I stop and thank them for motivating me, trying I suppose to reforge old friendships or simply experience again acquaintances that once were.  But the visits don't last long.  It becomes quickly apparent—photos on the wall, a note on the table, someone unexpected walks in the room—that their lives are different now.  So I turn back to the road.
 
 
 

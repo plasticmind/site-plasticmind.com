@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: 
 slug: tools-of-the-web-design-trade
-featured_image_url: https://plasticmind.com/wp-content/uploads/2008/07/tools-of-my-trade.png
+featured_image_url: /assets/i/tools-of-my-trade.png
 alt_text: 
 primary_category: "Design"
 categories: ["Design"]
-tags: ["reference", "resources", "tutorial", "web design"]
+tags: []
 meta_description: 
 context: professional
 fix: false

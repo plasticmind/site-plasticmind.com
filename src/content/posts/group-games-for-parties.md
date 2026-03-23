@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "Looking for some crazy fun games to play when you’ve got a bunch of people over? Here are a few time-tested gems from our family’s game trove."
 slug: group-games-for-parties
-featured_image_url: https://plasticmind.com/wp-content/uploads/2008/12/games.jpg
+featured_image_url: /assets/i/games.jpg
 alt_text: 
-primary_category: "Games"
-categories: ["Games"]
+primary_category: "Reviews"
+categories: ["Reviews"]
 tags: []
 meta_description: "Looking for some crazy fun games to play when you’ve got a bunch of people over? Here are a few time-tested gems from our family’s game trove."
 context: personal

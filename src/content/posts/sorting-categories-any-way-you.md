@@ -7,8 +7,8 @@ subtitle:
 slug: sorting-categories-any-way-you
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -19,11 +19,11 @@ hits: 176
 
 			
 
-Strange adding a category called categories&#8230; but I digress.
+Strange adding a category called categories… but I digress.
 
 
 
-### Two Roads Diverged&#8230;
+### Two Roads Diverged…
 
 
 
@@ -37,7 +37,7 @@ I've been working on a new blog in which I want to sort the categories in order 
 
 
 
-Create first category for Washington, only call it 01:Washington.  Create second category for Adams&#8230; name it 02:Adams.  So and so on through the U.S. Presidents.  When Movable Type builds your page, it catches those initial numbers and puts them in order by number.  A solution, but an ugly one, because you're list is uglied by those darn digit prefixes.
+Create first category for Washington, only call it 01:Washington.  Create second category for Adams… name it 02:Adams.  So and so on through the U.S. Presidents.  When Movable Type builds your page, it catches those initial numbers and puts them in order by number.  A solution, but an ugly one, because you're list is uglied by those darn digit prefixes.
 
 
 
@@ -46,7 +46,7 @@ Create first category for Washington, only call it 01:Washington.  Create second
 
 
 
-The second, cleaner solution requires you to install Brad Choate's <a href="https://bradchoate.com/weblog/2002/07/27/mtregex">MT-Regex plugin</a>.  It's a simple plugin that's oh-so-powerful because it gives you the ability to search and replace <a href="https://en.wikipedia.org/wiki/Regular_expression">using Unix-style regular expressions</a>.  In laymen's terms it's going to allow us to find the <span class="red">01:</span> before Washington and <span class="red">02:</span> before Adams and get rid of them.  &#8220;So why put them in there in the first place if they're just going to be deleted?&#8221;  Because it removes it *after* Movable Type has processed the category, meaning it sorts by the 01:, 02:, but erases them before they appear on the page, giving you the power to sort the way you like.
+The second, cleaner solution requires you to install Brad Choate's <a href="https://bradchoate.com/weblog/2002/07/27/mtregex">MT-Regex plugin</a>.  It's a simple plugin that's oh-so-powerful because it gives you the ability to search and replace <a href="https://en.wikipedia.org/wiki/Regular_expression">using Unix-style regular expressions</a>.  In laymen's terms it's going to allow us to find the <span class="red">01:</span> before Washington and <span class="red">02:</span> before Adams and get rid of them.  “So why put them in there in the first place if they're just going to be deleted?”  Because it removes it *after* Movable Type has processed the category, meaning it sorts by the 01:, 02:, but erases them before they appear on the page, giving you the power to sort the way you like.
 
 
 
@@ -61,7 +61,7 @@ Now to the time-consuming (unless you copy-and-paste, which is really why you're
 
 
 
-You'll probably want to put this right before your categories code on your page so it doesn't get lost. What you're doing is defining a pattern named &#8220;patt2&#8221;.  The &#8216;s' indicates that you are performing a search, after which you would place a forward slash (/) followed by your what you're searching for.  In this example, we want to search for two digits followed by a colon.  In regex, you can use a period (.) as a wildcard for any single digit.  So the &#8216;..' will find 01 as well as 99.  If you have more digits preceeding, just be sure to have one period for each digit.  Next we place another forward slash followed by it's replacement.  In this example we're just erasing them, so we have nothing, not even a space.  We close the replacement with a final forward slash followed by &#8216;gi',  indicating that we want the search to be global and case insensitive (neither of which really matter too much in this example).  Next we need to call to the search pattern in our template.  Let's use the front page category module for our example:
+You'll probably want to put this right before your categories code on your page so it doesn't get lost. What you're doing is defining a pattern named “patt2”.  The ‘s' indicates that you are performing a search, after which you would place a forward slash (/) followed by your what you're searching for.  In this example, we want to search for two digits followed by a colon.  In regex, you can use a period (.) as a wildcard for any single digit.  So the ‘..' will find 01 as well as 99.  If you have more digits preceeding, just be sure to have one period for each digit.  Next we place another forward slash followed by it's replacement.  In this example we're just erasing them, so we have nothing, not even a space.  We close the replacement with a final forward slash followed by ‘gi',  indicating that we want the search to be global and case insensitive (neither of which really matter too much in this example).  Next we need to call to the search pattern in our template.  Let's use the front page category module for our example:
 
 
 
@@ -101,7 +101,7 @@ When your category directories are built, they will contain those first two digi
 
 
 
-All it does is take the entire category off and put the individual archives in the root directory.  If anyone else has had luck with this, please leave me a content and let me know the trick&#8230;
+All it does is take the entire category off and put the individual archives in the root directory.  If anyone else has had luck with this, please leave me a content and let me know the trick…
 
 
 
@@ -110,7 +110,7 @@ All it does is take the entire category off and put the individual archives in t
 
 
 
-Also, with the new way that beta-4 handles archive file templates, I'm not sure that this old trick will work.  They've provided &#8216;pre-dirifeed' archive file path specifiers (see <a href="https://www.sixapart.com/movabletype/docs/3.2/e_archive_file_path_specifiers/">manual</a>) such as <code>%f</code> (archive filename with the specified extension) and <code>%c</code> (the entry's primary category/subcategory path passed through the dirify global filter).  I still haven't determined if mixing and matching these with normal MTTags is kosher&#8230;
+Also, with the new way that beta-4 handles archive file templates, I'm not sure that this old trick will work.  They've provided ‘pre-dirifeed' archive file path specifiers (see <a href="https://www.sixapart.com/movabletype/docs/3.2/e_archive_file_path_specifiers/">manual</a>) such as <code>%f</code> (archive filename with the specified extension) and <code>%c</code> (the entry's primary category/subcategory path passed through the dirify global filter).  I still haven't determined if mixing and matching these with normal MTTags is kosher…
 
 
 

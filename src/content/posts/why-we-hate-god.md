@@ -7,8 +7,8 @@ subtitle:
 slug: why-we-hate-god
 featured_image_url: 
 alt_text: 
-primary_category: "Savior"
-categories: ["Savior"]
+primary_category: "Faith"
+categories: ["Faith"]
 tags: []
 meta_description: 
 context: personal

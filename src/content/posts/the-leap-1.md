@@ -7,8 +7,8 @@ subtitle:
 slug: the-leap-1
 featured_image_url: 
 alt_text: 
-primary_category: "Ears"
-categories: ["Ears", "Wedding"]
+primary_category: "Music"
+categories: ["Music", "People"]
 tags: []
 meta_description: 
 context: personal

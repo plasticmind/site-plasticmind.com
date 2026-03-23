@@ -43,7 +43,7 @@ I must, for the record, make it known that **if you call me and you are using th
 
 
 
-I'm alright with you sending an instant message whilst on the can or even you participating in a hearty IRC chat while relieving yourself.  Just not the phone.  The &#8220;ambient noises&#8221;&#8212;grunts, gurgles, splashes, sprinkles and the like&#8212;are more than I can bear.  It doesn't matter how controlled you are, everyone grunts a little.
+I'm alright with you sending an instant message whilst on the can or even you participating in a hearty IRC chat while relieving yourself.  Just not the phone.  The “ambient noises”—grunts, gurgles, splashes, sprinkles and the like—are more than I can bear.  It doesn't matter how controlled you are, everyone grunts a little.
 
 
 

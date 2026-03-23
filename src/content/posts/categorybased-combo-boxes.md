@@ -7,8 +7,8 @@ subtitle:
 slug: categorybased-combo-boxes
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -22,7 +22,7 @@ hits: 87
 
 
 
-One key principle of interface design is not to overload your users by dumping every choice available on your site right there on the front page.  Users don't mind drilling for information that needs to be drilled for.  Important stuff should be readily and easily accessible, and category archives falls into the category of important stuff, especially since they're one of the primary ways someone navigates your site.  But for anyone who posts on a regular basis, your category section can become rather large and unwieldy, very quickly falling under the category of &#8220;choice dumping&#8221;.  ***Fifty-one categories and seventy-two months listed on your sidebar may be intellectually impressive, but certainly aren't going to help the newcomer figure out your site.***
+One key principle of interface design is not to overload your users by dumping every choice available on your site right there on the front page.  Users don't mind drilling for information that needs to be drilled for.  Important stuff should be readily and easily accessible, and category archives falls into the category of important stuff, especially since they're one of the primary ways someone navigates your site.  But for anyone who posts on a regular basis, your category section can become rather large and unwieldy, very quickly falling under the category of “choice dumping”.  ***Fifty-one categories and seventy-two months listed on your sidebar may be intellectually impressive, but certainly aren't going to help the newcomer figure out your site.***
 
 
 
@@ -37,7 +37,7 @@ The category-based combo box really solves a lot of problems, because the inform
 
 
 
-What we're going to do, essentially, is create a combo box that uses a bit of javascript to load the URL from the <code>value</code> of the selected option.  The options are generated just like you'd generate list items (<code>&lt;li&gt;</code>) inside of an unordered list (<code>&lt;ul&gt;</code>), using the <code>&lt;MTArchiveList&gt;</code> tag with the archive_type qualifier set to &#8220;Category&#8221;:
+What we're going to do, essentially, is create a combo box that uses a bit of javascript to load the URL from the <code>value</code> of the selected option.  The options are generated just like you'd generate list items (<code>&lt;li&gt;</code>) inside of an unordered list (<code>&lt;ul&gt;</code>), using the <code>&lt;MTArchiveList&gt;</code> tag with the archive_type qualifier set to “Category”:
 
 
 
@@ -60,13 +60,13 @@ Let me point out the most important part of this code:  The <code>&lt;$MTArchive
 
 
 
-You can also change the flavor of this combo box to &#8220;Monthly&#8221; simply by changing the archive_type qualifier in the <code>&lt;MTArchiveList&gt;</code> tag to &#8220;Monthly&#8221;.  Movable Type will do the rest. 
+You can also change the flavor of this combo box to “Monthly” simply by changing the archive_type qualifier in the <code>&lt;MTArchiveList&gt;</code> tag to “Monthly”.  Movable Type will do the rest. 
 
 
 
 
 
-An important note:  The first option I've set up is &#8220;Browse by Category&#8221; and cannot be chosen (or rather, it is the default state so you cannot change *to* it).  However, if a user visits a category and uses the browser back button, some browsers will have that category option still selected.  So if they (for whatever reason) choose &#8220;Browse by category:&#8221; it's going to send the value &#8220;#&#8221; to the browser, basically telling it to stay on the current page.
+An important note:  The first option I've set up is “Browse by Category” and cannot be chosen (or rather, it is the default state so you cannot change *to* it).  However, if a user visits a category and uses the browser back button, some browsers will have that category option still selected.  So if they (for whatever reason) choose “Browse by category:” it's going to send the value “#” to the browser, basically telling it to stay on the current page.
 
 
 

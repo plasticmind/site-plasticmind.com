@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: 
 slug: december-making-day8-logo-treatment
-featured_image_url: https://plasticmind.com/wp-content/uploads/2019/12/plasticmind-logo.jpg
+featured_image_url: /assets/i/plasticmind-logo.jpg
 alt_text: ""
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal
@@ -26,7 +26,7 @@ To that end, I created this logo refresh that I quite like. I envision creating 
 
 I'll also need to create an SVG of this so I can use it for print. Trying to figure out how to best handle the gradients and opacity in a vector format should be an interesting challenge!
 
-<img class="alignnone size-full wp-image-5734" src="https://plasticmind.com/wp-content/uploads/2019/12/pmd-1.png" alt="" width="928" height="242" />
+<img class="alignnone size-full wp-image-5734" src="/assets/i/pmd-1.png" alt="" width="928" height="242" />
 
 <div style="display: none;"></div>
 

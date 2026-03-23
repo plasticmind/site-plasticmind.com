@@ -7,9 +7,9 @@ subtitle:
 slug: comment-policy
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging", "Tech Tips", "The Pen"]
-tags: ["blindmanproject", "commenting", "freewrite", "psychology"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "Web Development", "Writing"]
+tags: ["freewrite"]
 meta_description: 
 context: professional
 fix: false
@@ -19,7 +19,7 @@ hits: 160
 
 			
 
-All of the trains out of Penn Station today were delayed an hour.  I knew something was wrong when the amount of people on the street and around the station was nearly triple an average day.  It was actually quite humorous, watching the teeming masses of people, all visibly annoyed and some let it escape verbally, like the pop and whistle of wet log on a fire.  &#8220;Good thing they're raising the rates next month!&#8221; &#8220;Why did you just hit me?&#8221; &#8220;Dude, watch where you're going.&#8221; &#8220;Seriously?&#8221;  Expletives, ad nauseum.
+All of the trains out of Penn Station today were delayed an hour.  I knew something was wrong when the amount of people on the street and around the station was nearly triple an average day.  It was actually quite humorous, watching the teeming masses of people, all visibly annoyed and some let it escape verbally, like the pop and whistle of wet log on a fire.  “Good thing they're raising the rates next month!” “Why did you just hit me?” “Dude, watch where you're going.” “Seriously?”  Expletives, ad nauseum.
 
 
 
@@ -37,7 +37,7 @@ Earlier today, I <a href="https://plasticmind.com/social-networking/a-lesson-in-
 
 
 
-In a nutshell, Gawker decided to display by default only comments from people designated as trusted community leaders.  Untrusted commenters can still post to the various sites, but their comments are hidden by default and need to be clicked to be read.  The community leaders are given the ability to moderate comments and to &#8220;trust&#8221; commenters.
+In a nutshell, Gawker decided to display by default only comments from people designated as trusted community leaders.  Untrusted commenters can still post to the various sites, but their comments are hidden by default and need to be clicked to be read.  The community leaders are given the ability to moderate comments and to “trust” commenters.
 
 
 

@@ -7,8 +7,8 @@ subtitle: "Extemporaneous piano... the kind of music that soothes my soul."
 slug: december-making-day12-piano-improv
 featured_image_url: 
 alt_text: ""
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal
@@ -24,7 +24,7 @@ https://soundcloud.com/jesse-gardner/piano-improv-12-16-19
 
 *This is day 12 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
-<img class="alignnone size-large wp-image-5783" src="https://plasticmind.com/wp-content/uploads/2019/12/2019-12-16-at-11.12-PM-1024x249.png" alt="" width="1024" height="249" />
+<img class="alignnone size-large wp-image-5783" src="/assets/i/2019-12-16-at-11.12-PM-1024x249.png" alt="" width="1024" height="249" />
 
 <div style="display: none;"></div>
 

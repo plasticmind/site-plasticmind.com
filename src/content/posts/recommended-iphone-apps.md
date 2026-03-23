@@ -7,9 +7,9 @@ subtitle:
 slug: recommended-iphone-apps
 featured_image_url: 
 alt_text: 
-primary_category: "Gadgets"
-categories: ["Gadgets", "Mobile"]
-tags: ["iphone apple"]
+primary_category: "Reviews"
+categories: ["Reviews", "Web Development"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -130,7 +130,7 @@ Non-guitarists can probably pass on by, but if you frequently play guitar, this 
 
 
 
-I'm one of those disturbed folks who reads wikipedia for fun, and Wikipanion is very conducive for casual reading.  Very streamlined browsing experience with several useful options you can set.  My favorite feature is the &#8220;random article&#8221; button.
+I'm one of those disturbed folks who reads wikipedia for fun, and Wikipanion is very conducive for casual reading.  Very streamlined browsing experience with several useful options you can set.  My favorite feature is the “random article” button.
 
 
 
@@ -142,7 +142,7 @@ I'm one of those disturbed folks who reads wikipedia for fun, and Wikipanion is 
 
 
 
-If you've not used Mint.com, you should&#8212;it's an unbelievably useful way to keep track of and stay notified about your money.  If you've used Mint.com, this app is just further extension of the site's usefulness.
+If you've not used Mint.com, you should—it's an unbelievably useful way to keep track of and stay notified about your money.  If you've used Mint.com, this app is just further extension of the site's usefulness.
 
 
 
@@ -166,7 +166,7 @@ Flickr's mobile site is pretty useful, but Darkslide integrates pretty seamlessl
 
 
 
-I use this far less now than before I got the Around Me app, but the whimsical &#8220;shake to choose&#8221; slot machine approach is fun so I'm keeping it around.
+I use this far less now than before I got the Around Me app, but the whimsical “shake to choose” slot machine approach is fun so I'm keeping it around.
 
 
 
@@ -178,7 +178,7 @@ I use this far less now than before I got the Around Me app, but the whimsical &
 
 
 
-Record a snippet of music that you hear playing and Shazam will tell you what it is and how to purchase it.  I use this less than I thought I would&#8212;probably because I don't get out much, but it's still worth mentioning (if you haven't already heard of it).  
+Record a snippet of music that you hear playing and Shazam will tell you what it is and how to purchase it.  I use this less than I thought I would—probably because I don't get out much, but it's still worth mentioning (if you haven't already heard of it).  
 
 
 
@@ -229,7 +229,7 @@ Fieldrunner meets Tron.  Stop the enemy onslaught by building guns, rockets and 
 
 
 
-Land planes with your fingers.  Sounds easy?  Beautiful graphics, three levels and fun bluetooth multiplayer modes (pass planes to your friends)&#8212;this is a must have.
+Land planes with your fingers.  Sounds easy?  Beautiful graphics, three levels and fun bluetooth multiplayer modes (pass planes to your friends)—this is a must have.
 
 
 

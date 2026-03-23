@@ -5,7 +5,7 @@ archive: false
 excerpt: 
 subtitle: 
 slug: to-tweet-or-not-to-tweet
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/11/tweet.jpeg
+featured_image_url: /assets/i/tweet.jpeg
 alt_text: "Photo by Buzac Marius"
 primary_category: "Writing"
 categories: ["Writing"]

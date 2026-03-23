@@ -5,7 +5,7 @@ archive: false
 excerpt: 
 subtitle: "Why do we constantly feel the need to tell people we’re busy?"
 slug: dont-tell-people-youre-busy
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/08/346730514_6cfacb197a_o.jpg
+featured_image_url: /assets/i/346730514_6cfacb197a_o.jpg
 alt_text: 
 primary_category: "Mind"
 categories: ["Mind"]

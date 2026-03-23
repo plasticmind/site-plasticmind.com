@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: new-things-every-day
-featured_image_url: https://plasticmind.com/wp-content/uploads/2011/04/2453368809_384e3d7446_b.jpg
+featured_image_url: /assets/i/2453368809_384e3d7446_b.jpg
 alt_text: 
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
-tags: ["30 day challenge", "newthings"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: ["30 day challenge"]
 meta_description: 
 context: personal
 fix: false

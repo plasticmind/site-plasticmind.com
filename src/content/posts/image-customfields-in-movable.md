@@ -7,9 +7,9 @@ subtitle:
 slug: image-customfields-in-movable
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type", "Plugins"]
-tags: ["assets", "customfields", "Professional Pack"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "Plugins"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -33,7 +33,7 @@ Many of the sites I build use CustomFields to place a masthead image at the top 
 
 
 
-Resulted not in a placement of the image, but rather the words &#8220;View Image&#8221; with a link to the photo.  Not exactly what I had in mind.  I want the actual photo itself.  
+Resulted not in a placement of the image, but rather the words “View Image” with a link to the photo.  Not exactly what I had in mind.  I want the actual photo itself.  
 
 
 

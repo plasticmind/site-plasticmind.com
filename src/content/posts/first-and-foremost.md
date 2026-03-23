@@ -7,9 +7,9 @@ subtitle:
 slug: first-and-foremost
 featured_image_url: 
 alt_text: 
-primary_category: "Announcements"
-categories: ["Announcements"]
-tags: ["design", "function", "reboot"]
+primary_category: "Miscellany"
+categories: ["Miscellany"]
+tags: []
 meta_description: 
 context: professional
 fix: false

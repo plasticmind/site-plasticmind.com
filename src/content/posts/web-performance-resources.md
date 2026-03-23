@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: "Resources from the 2013 Eat Write Retreat technical panel."
 slug: web-performance-resources
-featured_image_url: https://plasticmind.com/wp-content/uploads/2013/06/nova.jpg
+featured_image_url: /assets/i/nova.jpg
 alt_text: 
-primary_category: "Mobile"
-categories: ["Mobile"]
+primary_category: "Web Development"
+categories: ["Web Development"]
 tags: []
 meta_description: 
 context: professional
@@ -21,7 +21,7 @@ hits: 392
 
 
 <ul>
-<li>April 2010, <a href="https://plas.tc/6r">Google announces</a>: &#8220;new signal in our search ranking algorithms: site speed&#8221;.</li>
+<li>April 2010, <a href="https://plas.tc/6r">Google announces</a>: “new signal in our search ranking algorithms: site speed”.</li>
 <li>Google also offers <a href="https://developers.google.com/speed/pagespeed/">Page Speed tools</a> to help diagnose and improve your site's performance.</li>
 <li>How long does your site take to load? <a href="https://webpagetest.org/">https://webpagetest.org/</a></li>
 <li>Slower sites have been proven to cause negative psychological effects on users. (<a href="https://www.websiteoptimization.com/speed/tweak/psychology-web-performance/">Source</a>)</li>

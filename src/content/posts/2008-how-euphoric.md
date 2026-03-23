@@ -7,9 +7,9 @@ subtitle:
 slug: 2008-how-euphoric
 featured_image_url: 
 alt_text: 
-primary_category: "Retrospection"
-categories: ["Retrospection"]
-tags: ["celebration", "church", "Jeopardy", "new year"]
+primary_category: "Memories"
+categories: ["Memories"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -37,13 +37,13 @@ Glad to see you made your way back to the present with our good pal Rudolph and 
 
 
 
-Ahh, what a welcoming celebration we had!  (At our church?  A good time?!  Wha&#8230;?)  We kicked it off with Christmas Jeopardy (thanks Nate) and T# nearly stole the victory from GramB &#8230; but she got Bob Cratchit and risked enough to put her in first.  A recount and she won!  Then came the talent show.  A big jerk, a little magician, some well-boiled Santa and some good old-fashioned folk music to get everyone feelin' alright.
+Ahh, what a welcoming celebration we had!  (At our church?  A good time?!  Wha…?)  We kicked it off with Christmas Jeopardy (thanks Nate) and T# nearly stole the victory from GramB … but she got Bob Cratchit and risked enough to put her in first.  A recount and she won!  Then came the talent show.  A big jerk, a little magician, some well-boiled Santa and some good old-fashioned folk music to get everyone feelin' alright.
 
 
 
 
 
-Next we did something you never really get to do at church: whatever you want.  People downstairs lounging around chatting.  People upstairs lounging around chatting.  Other more energetic people playing Spoons with forks.  And the ones that wanted to pretend like they were &#8220;getting into the spirit of the evening&#8221; while still catching some Zzz's were hunkered down in the auditorium, lights off, eyes closed, &#8220;watching the movie&#8221; being played on the big screen.
+Next we did something you never really get to do at church: whatever you want.  People downstairs lounging around chatting.  People upstairs lounging around chatting.  Other more energetic people playing Spoons with forks.  And the ones that wanted to pretend like they were “getting into the spirit of the evening” while still catching some Zzz's were hunkered down in the auditorium, lights off, eyes closed, “watching the movie” being played on the big screen.
 
 
 

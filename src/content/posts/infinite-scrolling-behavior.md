@@ -7,8 +7,8 @@ subtitle: "After several days of trying to integrate the Infinite Scroll plugin 
 slug: infinite-scrolling-behavior
 featured_image_url: 
 alt_text: 
-primary_category: "Code"
-categories: ["Code", "Javascript", "Mobile"]
+primary_category: "Web Development"
+categories: ["Web Development", "Javascript"]
 tags: []
 meta_description: 
 context: professional
@@ -31,13 +31,13 @@ The Infinite Scroll plugin lets you define custom behaviors.  There's a <a href=
 
 
 
-<img alt="A Better Infinite Scrolling Behavior" src="https://plasticmind.com/assets/infinitescrollbehavior.png" width="670" height="377" class="mt-image-none" style="">
+<img alt="A Better Infinite Scrolling Behavior" src="/assets/i/infinitescrollbehavior.png" width="670" height="377" class="mt-image-none" style="">
 
 
 
 
 
-What we wanted was simple.  Present the user with a &#8220;more posts&#8221; button at the bottom of the page.  Once that's tapped, infinite scrolling engages and continues until there are either no more posts or until the max threshold is reached.  That way users who want to get to the footer are able to, and those who register their intention to read more posts are able to.
+What we wanted was simple.  Present the user with a “more posts” button at the bottom of the page.  Once that's tapped, infinite scrolling engages and continues until there are either no more posts or until the max threshold is reached.  That way users who want to get to the footer are able to, and those who register their intention to read more posts are able to.
 
 
 
@@ -101,7 +101,7 @@ To use this behavior, save this code as a file and include this in your site hea
 
 
 
-Then, wherever you're initializing Infinite Scroll (probably in your document ready function), set the behavior option to &#8220;simplyrecipes&#8221;.  Something like this:
+Then, wherever you're initializing Infinite Scroll (probably in your document ready function), set the behavior option to “simplyrecipes”.  Something like this:
 
 
 
@@ -125,7 +125,7 @@ Don't forget to style your pagination links.  We styled ours like a big button b
 
 
 
-<img alt="more-button.jpg" src="https://plasticmind.com/wp-content/uploads/2013/06/more-button.jpg" width="347" height="357" class="mt-image-none" style="">
+<img alt="more-button.jpg" src="/assets/i/more-button.jpg" width="347" height="357" class="mt-image-none" style="">
 
 
 
@@ -140,7 +140,7 @@ With just a little extra code you can use Google Analytics events to better eval
 
 
 
-We've added two Google Analytics event pushes to the code, one inside the <code>options.loading.start</code> function and one inside the <code>options.loading.finished</code> function.  The idea is that we want to send GA an event the first time infinite scroll is engaged (which is why we're binding it to the initial click event) and another event each time a new page is loaded automatically by the plugin.  I'm assigning the label &#8220;Mobile&#8221; to these events, but you can use whatever makes sense for your GA set up.
+We've added two Google Analytics event pushes to the code, one inside the <code>options.loading.start</code> function and one inside the <code>options.loading.finished</code> function.  The idea is that we want to send GA an event the first time infinite scroll is engaged (which is why we're binding it to the initial click event) and another event each time a new page is loaded automatically by the plugin.  I'm assigning the label “Mobile” to these events, but you can use whatever makes sense for your GA set up.
 
 
 

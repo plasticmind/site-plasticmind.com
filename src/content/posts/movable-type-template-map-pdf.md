@@ -7,9 +7,9 @@ subtitle:
 slug: movable-type-template-map-pdf
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
-tags: ["modules", "resources", "templates"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -31,13 +31,13 @@ For those of you just upgrading to <a href="https://www.movabletype.com/products
 
 
 
-I won't go into too much detail on this modular approach, because <a href="https://www.movabletweak.com/architecture/mt3_vs_mt4_templates.php">I've already dealt with it previously on this site</a>.  The gist of it is this: instead of having dozens of copies of the same code strewn across all your templates, the new approach is having all the code snippets you're likely to use more than once&#8212;headers, sidebars, entry lists&#8212;stored in template modules and called to from each individual template.  So instead of changing your sidebar in seven different templates, you only have to change it once.
+I won't go into too much detail on this modular approach, because <a href="https://www.movabletweak.com/architecture/mt3_vs_mt4_templates.php">I've already dealt with it previously on this site</a>.  The gist of it is this: instead of having dozens of copies of the same code strewn across all your templates, the new approach is having all the code snippets you're likely to use more than once—headers, sidebars, entry lists—stored in template modules and called to from each individual template.  So instead of changing your sidebar in seven different templates, you only have to change it once.
 
 
 
 
 
-A great big thanks to <a href="https://www.thenorwoodhome.com/">Mark Norwood</a> for putting this together.  There are a few changes I'd like to make as well as a giant &#8220;cheat sheet&#8221; that might prove handy.  But I figure I'd get it out there now for anyone struggling with the new template structure.
+A great big thanks to <a href="https://www.thenorwoodhome.com/">Mark Norwood</a> for putting this together.  There are a few changes I'd like to make as well as a giant “cheat sheet” that might prove handy.  But I figure I'd get it out there now for anyone struggling with the new template structure.
 
 
 

@@ -7,9 +7,9 @@ subtitle:
 slug: simply-recipes-gets-iphone-simple
 featured_image_url: 
 alt_text: 
-primary_category: "Announcements"
-categories: ["Announcements", "Design"]
-tags: ["clients", "design", "iphone"]
+primary_category: "Miscellany"
+categories: ["Miscellany", "Design"]
+tags: []
 meta_description: 
 context: professional
 fix: false

@@ -1,38 +1,56 @@
 {
-  "journeys": {
-    "description": "The travelogue of someone who likes to travel. A journal of journeys, if you will."
+  "faith": {
+    "description": "Spirituality, doubt, church culture, and the questions that don't have easy answers."
   },
-  "savior": {
-    "description": "I am a Christ-follower. This is where I write about my journey."
+  "technology": {
+    "description": "Stray thoughts on the tools we use and the ones that use us."
   },
-  "heart": {
-    "description": "Posts full of passion and emotion."
-  },
-  "0-s-and-1-s": {
-    "description": "A collection of posts about technology and how it affects us. Beware: many of these articles don't age well."
+  "personal": {
+    "description": "The stuff that doesn't fit neatly into a category — anger, joy, hard seasons, and the occasional breakthrough."
   },
   "mind": {
-    "description": "Exploring the life of the mind, how people think and behave."
+    "description": "Trying to make sense of things — how people think, why systems work the way they do, and what happens when they don't."
   },
-  "kicks-and-giggles": {
-    "description": "A little nonsense, now and then, is relished by the wisest men."
+  "writing": {
+    "description": "Poems, stories, freewrites, and the occasional attempt to put something real on the page."
   },
-  "eyes": {
-    "description": "Everything from Photoshop to Picasso, Dreamweaver to Dali."
+  "blogging-cms": {
+    "description": "Two decades of tinkering with publishing platforms — mostly Movable Type, but I never could sit still."
   },
-  "america": {
-    "description": "A once-blessed people now in a steady state of paradox: material increase, moral decline."
+  "web-development": {
+    "description": "Building things for the web — code, stylesheets, accessibility, and the occasional deep rabbit hole."
   },
-  "retrospection": {
-    "description": "A look back at the days that used to be tomorrow."
+  "culture-politics": {
+    "description": "Thinking out loud about America — elections, media, civil discourse, and the gaps between what we say and what we do."
   },
-  "ears": {
-    "description": "Music, composition, mixing, tracking and anything else that makes the ears tingle."
+  "people": {
+    "description": "The people who've shaped me — family, friends, and the communities I've been lucky enough to stumble into."
+  },
+  "social-media-seo": {
+    "description": "What happens when we build our lives on platforms we don't control."
+  },
+  "journeys": {
+    "description": "Places I've been, career turns I didn't expect, and the occasional road trip that changed how I see things."
+  },
+  "memories": {
+    "description": "Looking back — year-end recaps, old stories, and the things that stick with you longer than they should."
+  },
+  "visual": {
+    "description": "Things that caught my eye — photos, art, film, and the occasional fog-soaked morning."
+  },
+  "music": {
+    "description": "What I'm listening to and why it matters to me."
+  },
+  "humor": {
+    "description": "The funny stuff."
+  },
+  "design": {
+    "description": "The craft side of my work — branding, interfaces, design systems, and the messy process behind all of it."
+  },
+  "reviews": {
+    "description": "Opinions about things I've used, watched, played, or listened to."
   },
   "miscellany": {
-    "description": "When I'm lazy, I file things here."
-  },
-  "family-ties": {
-    "description": "This is where I chronicle the stories of my family."
+    "description": "The junk drawer. Every blog needs one."
   }
 }

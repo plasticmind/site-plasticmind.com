@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: december-challenge-make-something-every-day
-featured_image_url: https://plasticmind.com/wp-content/uploads/2019/12/jesse-gardner-2IhPwAm5FVI-unsplash.jpg
+featured_image_url: /assets/i/jesse-gardner-2IhPwAm5FVI-unsplash.jpg
 alt_text: ""
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
-tags: ["facebook", "making", "socialmedia"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: ["facebook"]
 meta_description: 
 context: personal
 fix: false

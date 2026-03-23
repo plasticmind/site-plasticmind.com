@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: election-day-2016
-featured_image_url: https://plasticmind.com/wp-content/uploads/2016/11/FLAG-1.jpg
+featured_image_url: /assets/i/FLAG-1.jpg
 alt_text: ""
-primary_category: "America"
-categories: ["America"]
-tags: ["election", "vote"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics"]
+tags: []
 meta_description: "A few final thoughts before I head into the voting booth."
 context: personal
 fix: false
@@ -53,7 +53,7 @@ Third, Republican-appointed justices have had the majority in the Supreme Court 
 
 I put together this graph that shows the decline in the overall abortion rate in this country along with the President and the Supreme Court Justices in office since Roe v. Wade.
 
-<img src="https://plasticmind.com/wp-content/uploads/2016/11/rates.jpg" alt="Abortion Rates in the US" width="638" height="782" class="alignnone size-full wp-image-5406" />
+<img src="/assets/i/rates.jpg" alt="Abortion Rates in the US" width="638" height="782" class="alignnone size-full wp-image-5406" />
 
 I still want to bring that abortion rate WAY down, but I'm not convinced that voting for Trump (or Hillary, for that matter) is the way to do it.
 

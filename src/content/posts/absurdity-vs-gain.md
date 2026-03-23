@@ -7,9 +7,9 @@ subtitle:
 slug: absurdity-vs-gain
 featured_image_url: 
 alt_text: 
-primary_category: "Retrospection"
-categories: ["Retrospection"]
-tags: ["dream postmodernism"]
+primary_category: "Memories"
+categories: ["Memories"]
+tags: []
 meta_description: 
 context: personal
 fix: false

@@ -7,9 +7,9 @@ subtitle:
 slug: psychological-implications-social-networking
 featured_image_url: 
 alt_text: 
-primary_category: "Social Networking"
-categories: ["Social Networking"]
-tags: ["children", "community", "social networking"]
+primary_category: "Social Media & SEO"
+categories: ["Social Media & SEO"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -45,31 +45,31 @@ I often wonder whether real conversation in real time may eventually give way to
 
 
 
-Let me first say that I am not a scientist, a psychologist or even a social networking guru; but I am a father and a member of the human race, so addressing these concerns&#8212;whether real or imagined&#8212;is significant to me.
+Let me first say that I am not a scientist, a psychologist or even a social networking guru; but I am a father and a member of the human race, so addressing these concerns—whether real or imagined—is significant to me.
 
 
 
 			<!--more-->
 
-To be completely fair, I don't think the fault rests solely on social networking; it's symptomatic of a larger concern. Instant communication technologies like IRC, IM and texting are low-resolution communication &#8220;proxies&#8221;. Instead of learning how to interact directly with human beings, we learn how to interact through these proxies.
+To be completely fair, I don't think the fault rests solely on social networking; it's symptomatic of a larger concern. Instant communication technologies like IRC, IM and texting are low-resolution communication “proxies”. Instead of learning how to interact directly with human beings, we learn how to interact through these proxies.
 
 
 
 
 
-The big difference between relating to humans and relating to humans through a proxy, I believe, is how we learn to deal with disparity. With these proxies in place, it's so easy to sever the connection with little consequence because it's just a machine; the proxy keeps us from considering the human being on the other side of the connection. Real life human interaction makes it much harder to just &#8220;ignore&#8221; someone we don't like or don't agree with.
+The big difference between relating to humans and relating to humans through a proxy, I believe, is how we learn to deal with disparity. With these proxies in place, it's so easy to sever the connection with little consequence because it's just a machine; the proxy keeps us from considering the human being on the other side of the connection. Real life human interaction makes it much harder to just “ignore” someone we don't like or don't agree with.
 
 
 
 
 
-The other concern that seems especially relevant for children is that if they learn to relate to other humans through a proxy, when facing times of difficulty or extreme loneliness, the human care and support will feel very unreal or empty. What computer can give a child a hug? Receiving a text message that says &#8220;I love you&#8221; is encouraging but only valuable because of the human being on the other side of that connection.
+The other concern that seems especially relevant for children is that if they learn to relate to other humans through a proxy, when facing times of difficulty or extreme loneliness, the human care and support will feel very unreal or empty. What computer can give a child a hug? Receiving a text message that says “I love you” is encouraging but only valuable because of the human being on the other side of that connection.
 
 
 
 
 
-The science is still out on much of this, but it seems like the more I think about it, the more concerns come to mind&#8230;
+The science is still out on much of this, but it seems like the more I think about it, the more concerns come to mind…
 
 
 

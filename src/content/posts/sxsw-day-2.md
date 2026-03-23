@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Design"
 categories: ["Design", "Journeys"]
-tags: ["BBQ", "Coudal", "Gruber", "happy cog", "kick08", "Screen Burn", "sxsw", "sxsw08", "valleywag"]
+tags: ["sxsw"]
 meta_description: 
 context: professional
 fix: false
@@ -17,12 +17,12 @@ hits: 140
 ---
 
 
-### Kick &#8216;08
+### Kick ‘08
 
 
 
 
-The day started out well with Kick &#8216;08.  (It didn't hurt that we crashed early the night before.)  About 150 people showed up in Palm Park, and almost everyone played.  True to Anil's word, no one was picked last.  Team 1 picked some odd name and Team 2 (my team) stuck with &#8216;Team 2'.  It made for great cheers later on as we dominated the game: &#8220;Team 2, We're number one!&#8221;  Despite the fact that corrupt scorekeepers kept putting the other team in the lead (**coughJaycough**), we managed to come from behind in the final inning.  Check out <a href="https://valleywag.com/365529/sxsws-a-real-kick">some of the pics on Valleywag</a>.  Oh, and <a href="https://valleywag.com/photogallery/kick08/1000896951">this ridiculous action shot</a>.
+The day started out well with Kick ‘08.  (It didn't hurt that we crashed early the night before.)  About 150 people showed up in Palm Park, and almost everyone played.  True to Anil's word, no one was picked last.  Team 1 picked some odd name and Team 2 (my team) stuck with ‘Team 2'.  It made for great cheers later on as we dominated the game: “Team 2, We're number one!”  Despite the fact that corrupt scorekeepers kept putting the other team in the lead (**coughJaycough**), we managed to come from behind in the final inning.  Check out <a href="https://valleywag.com/365529/sxsws-a-real-kick">some of the pics on Valleywag</a>.  Oh, and <a href="https://valleywag.com/photogallery/kick08/1000896951">this ridiculous action shot</a>.
 
 
 
@@ -31,7 +31,7 @@ The day started out well with Kick &#8216;08.  (It didn't hurt that we crashed e
 
 
 
-After that, I had to pay an obligatory visit to Screen Burn to satisfy my inner child.  Screen Burn is basically an enormous arcade made up of all the newest games and gaming technology.  Case in point: four mega HP machines hooked up to 30&#8221; widescreen monitors running Unreal 2007 in some ridiculously high resolution.  I disappeared in the game for about an hour and a half, walking away with a respectable second place.  (Three frags behind the winner.)
+After that, I had to pay an obligatory visit to Screen Burn to satisfy my inner child.  Screen Burn is basically an enormous arcade made up of all the newest games and gaming technology.  Case in point: four mega HP machines hooked up to 30” widescreen monitors running Unreal 2007 in some ridiculously high resolution.  I disappeared in the game for about an hour and a half, walking away with a respectable second place.  (Three frags behind the winner.)
 
 
 
@@ -49,7 +49,7 @@ Ask anyone walking the streets of Austin what you should do/see when you're visi
 
 
 
-The panels were more hit and miss.  I got to nearly all of them late which meant standing for half an hour in the back of a crowded hall.  Hard to really focus back there.  Jess wasn't feeling well and headed back to the room and I caught the tail end of <a href="https://daringfireball.com">John Gruber's</a> panel, &#8220;Great Design Hurts&#8221;.  A very interesting panel (does John remind anyone else of Josh Groban) but I'm not sure I completely agree with his premise: great design can only come by using the word &#8220;no&#8221;.  He argued that all the great artists are jerks, and that this is a requirement for you to retain artistic integrity and to achieve creative purity.
+The panels were more hit and miss.  I got to nearly all of them late which meant standing for half an hour in the back of a crowded hall.  Hard to really focus back there.  Jess wasn't feeling well and headed back to the room and I caught the tail end of <a href="https://daringfireball.com">John Gruber's</a> panel, “Great Design Hurts”.  A very interesting panel (does John remind anyone else of Josh Groban) but I'm not sure I completely agree with his premise: great design can only come by using the word “no”.  He argued that all the great artists are jerks, and that this is a requirement for you to retain artistic integrity and to achieve creative purity.
 
 
 

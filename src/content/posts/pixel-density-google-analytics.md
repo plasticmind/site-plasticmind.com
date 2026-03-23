@@ -7,9 +7,9 @@ subtitle: "Google Analytics lets you see how many of your users are on mobile de
 slug: pixel-density-google-analytics
 featured_image_url: 
 alt_text: 
-primary_category: "Mobile"
-categories: ["Mobile"]
-tags: ["analytics", "retina"]
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -25,7 +25,7 @@ Andy Rossi put together <a href="https://gist.github.com/andrewrocco/3130217">a 
 
 
 
-The only trouble with it is that <a href="https://www.matanich.com/2012/11/06/picture-polyfill/">not all browsers support</a> <code>devicePixelRatio</code> consistently, IE10 being the primary culprit.  The other problem is that it lumps all pixel densities above 1.5 into &#8220;high&#8221; and anything below that into &#8220;low&#8221;.  We've been discovering that a lot of devices reporting 1.3, so we decided we wanted a more specific look at what ratios people were using.
+The only trouble with it is that <a href="https://www.matanich.com/2012/11/06/picture-polyfill/">not all browsers support</a> <code>devicePixelRatio</code> consistently, IE10 being the primary culprit.  The other problem is that it lumps all pixel densities above 1.5 into “high” and anything below that into “low”.  We've been discovering that a lot of devices reporting 1.3, so we decided we wanted a more specific look at what ratios people were using.
 
 
 

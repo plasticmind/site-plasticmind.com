@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "I've been blogging on and off for almost fifteen years now, and one of the recurring problems I've struggled with is the stifling thought that what I'm writing had to be meaningful and cohesive. "
 slug: love-the-blog
-featured_image_url: https://plasticmind.com/wp-content/uploads/2013/12/1426001157_a4fa083e65_b.jpg
+featured_image_url: /assets/i/1426001157_a4fa083e65_b.jpg
 alt_text: ""
-primary_category: "The Pen"
-categories: ["The Pen"]
+primary_category: "Writing"
+categories: ["Writing"]
 tags: []
 meta_description: 
 context: personal
@@ -22,7 +22,7 @@ I didn’t always feel this pressure.
 
 In the early days, my blog (I just called it my website in those days) was more of a showcase of the stuff that worked. Throughout college and early in my teaching career, I filled dozens of notebooks with half-formed ideas: poems, songs, stories, sketches, doodles. Opening one of those notebooks is like peering into the seething cauldron that is my brain. Posting something to my site meant pulling something halfway decent from the bedlam and just tidying it up.
 
-<img class="alignnone wp-image-390 size-large" src="https://plasticmind.com/wp-content/uploads/2013/12/plasticmind-online-1024x504.png" alt="How I Learned To Stop Worrying and Love the Blog (photo)" width="1024" height="504" />
+<img class="alignnone wp-image-390 size-large" src="/assets/i/plasticmind-online-1024x504.png" alt="How I Learned To Stop Worrying and Love the Blog (photo)" width="1024" height="504" />
 
 Things are different now. Now, I write specifically for my blog. I maintain a list of topics I’d like to write about, and when I have the time, I pick something off the list and… write.
 

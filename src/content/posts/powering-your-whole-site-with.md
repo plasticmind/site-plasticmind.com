@@ -7,8 +7,8 @@ subtitle:
 slug: powering-your-whole-site-with
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -19,7 +19,7 @@ hits: 94
 
 			
 
-A question that is raised by serious professionals considering Movable Type for their CMS needs is &#8220;What about static page?&#8221;  Obviously MT was made for dynamic pages.  Turning a list of entries into well organized websites is what MT does best.  But it's those individual, doesn't-quite-fit-in-the-flow, static pages that can cause grief, consternation and if nothing else, confusion.
+A question that is raised by serious professionals considering Movable Type for their CMS needs is “What about static page?”  Obviously MT was made for dynamic pages.  Turning a list of entries into well organized websites is what MT does best.  But it's those individual, doesn't-quite-fit-in-the-flow, static pages that can cause grief, consternation and if nothing else, confusion.
 
 
 
@@ -43,7 +43,7 @@ This only works well in certain situations, and you'll see why as we go along.  
 
 
 
-If your put the word &#8216;steakhouse' in the keywords field and set the category to portfolio, your entry would be saved in /portfolio/steakhouse.html &#8212; So just put your site &#8220;skeleton&#8221; in the individual entry archive template, the file name you want this page named in the keywords field and the category (directory) you want it placed in.  Obviously if you don't specify a category, it will be published in the root.  So an entry with no category and &#8216;index' in the keywords field gets published as your front page.  This allows you to keep headers, footers and sidebars in the individual entry archive template and the content (whatever you deem that to be) as individual entries.  You can even be creative with the leftover fields and the &lt;MTIfNonEmpty> tag.  I've used the entry title as the page title, the extended entry as an additional part of the page.  Lots you can do here.
+If your put the word ‘steakhouse' in the keywords field and set the category to portfolio, your entry would be saved in /portfolio/steakhouse.html — So just put your site “skeleton” in the individual entry archive template, the file name you want this page named in the keywords field and the category (directory) you want it placed in.  Obviously if you don't specify a category, it will be published in the root.  So an entry with no category and ‘index' in the keywords field gets published as your front page.  This allows you to keep headers, footers and sidebars in the individual entry archive template and the content (whatever you deem that to be) as individual entries.  You can even be creative with the leftover fields and the &lt;MTIfNonEmpty> tag.  I've used the entry title as the page title, the extended entry as an additional part of the page.  Lots you can do here.
 
 
 
@@ -70,7 +70,7 @@ And also, as a side note, I usually create a blog for the main structure of the 
 
 
 
-This isn't quite as beautiful, but it sure is simple and can seriously cut back on HTML in your archives.  Download and install <a href="https://www.rayners.org/2003/05/mtentry.php">David <strike>Rayner's</strike> Raynes' MTEntry Plugin</a>.  This allows you to use a &lt;MTEntry id=&#8221;###&#8221;&gt; container tag in place of &lt;MTEntries&gt;.  So it should then be obvious how to use it.  Create index pages for each of your &#8220;static&#8221; pages with just the structure (header, footer, sidebar, whatever) of that page.  Then create the content you want on that page in a new entry.  Save it and check the entry ID (you can usually find this in your URL bar at the top).  Now go back to the index page you just created and where you want your content to appear, just use a &lt;MTEntry&gt;&lt;/MTEntry&gt; container to include just like you would a &lt;MTEntries&gt; container.
+This isn't quite as beautiful, but it sure is simple and can seriously cut back on HTML in your archives.  Download and install <a href="https://www.rayners.org/2003/05/mtentry.php">David <strike>Rayner's</strike> Raynes' MTEntry Plugin</a>.  This allows you to use a &lt;MTEntry id=”###”&gt; container tag in place of &lt;MTEntries&gt;.  So it should then be obvious how to use it.  Create index pages for each of your “static” pages with just the structure (header, footer, sidebar, whatever) of that page.  Then create the content you want on that page in a new entry.  Save it and check the entry ID (you can usually find this in your URL bar at the top).  Now go back to the index page you just created and where you want your content to appear, just use a &lt;MTEntry&gt;&lt;/MTEntry&gt; container to include just like you would a &lt;MTEntries&gt; container.
 
 
 

@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: death-on-the-tracks
-featured_image_url: https://plasticmind.com/wp-content/uploads/2010/07/death.jpg
+featured_image_url: /assets/i/death.jpg
 alt_text: 
-primary_category: "Retrospection"
-categories: ["Retrospection"]
-tags: ["death", "njtransit", "suicide", "train"]
+primary_category: "Memories"
+categories: ["Memories"]
+tags: ["death"]
 meta_description: 
 context: personal
 fix: false

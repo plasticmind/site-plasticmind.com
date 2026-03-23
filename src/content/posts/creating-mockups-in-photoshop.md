@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Design"
 categories: ["Design"]
-tags: ["antialiasing", "blending options", "fonts", "goodies", "jpg", "layers", "photoshop", "resources", "shape layers"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -40,7 +40,7 @@ Here are some things I've discovered while creating website mockups in Photoshop
 
 
 
-**2. Blending options are your friend.** Double click a shape layer and you can do all sorts of effects: gradients, shadows, color overlay.  They're much easier to make changes to later on when a client says: &#8220;Can I see that gradient in blue?&#8221;
+**2. Blending options are your friend.** Double click a shape layer and you can do all sorts of effects: gradients, shadows, color overlay.  They're much easier to make changes to later on when a client says: “Can I see that gradient in blue?”
 
 
 
@@ -64,7 +64,7 @@ Here are some things I've discovered while creating website mockups in Photoshop
 
 
 
-**4. Use <a href="https://www.ampsoft.net/webdesign-l/WindowsMacFonts.html">web safe fonts</a> on any parts of the site with live text.**  You might be able to wow the client by using <a href="https://www.typography.com/fonts/font_overview.php?productLineID=100009">Verlag</a> for the body text of your mockup, but you'll have a rough time turning that into CSS/XHTML.  While logos and other static text can be replaced with images fairly easily, you should use those web safe fonts as often as possible.  Search engines index browser text, screen readers can read browser text for visually impaired folks and browser text is much easier to translate.  (And if you've &#8220;just gotta have that font&#8221;, take a look at <a href="https://novemberborn.net/sifr3">sIFR</a>. Use sparingly.) 
+**4. Use <a href="https://www.ampsoft.net/webdesign-l/WindowsMacFonts.html">web safe fonts</a> on any parts of the site with live text.**  You might be able to wow the client by using <a href="https://www.typography.com/fonts/font_overview.php?productLineID=100009">Verlag</a> for the body text of your mockup, but you'll have a rough time turning that into CSS/XHTML.  While logos and other static text can be replaced with images fairly easily, you should use those web safe fonts as often as possible.  Search engines index browser text, screen readers can read browser text for visually impaired folks and browser text is much easier to translate.  (And if you've “just gotta have that font”, take a look at <a href="https://novemberborn.net/sifr3">sIFR</a>. Use sparingly.) 
 
 
 
@@ -118,7 +118,7 @@ And then just toggle their visibility when saving multiple drafts.
 
 
 
-<img src="https://plasticmind.com/assets/ele_winvista_firefox_pulldown_1.jpg" alt="" />
+<img src="/assets/i/ele_winvista_firefox_pulldown_1.jpg" alt="" />
 
 
 

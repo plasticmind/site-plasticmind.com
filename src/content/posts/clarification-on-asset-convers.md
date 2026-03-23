@@ -7,9 +7,9 @@ subtitle:
 slug: clarification-on-asset-convers
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
-tags: ["conversion", "Custom Fields", "Rightfields", "upgrade"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -37,13 +37,13 @@ I hope you'll forgive the long, intimidating title.  It's just that there has be
 
 
 
-A Rightfield's file field let you choose a file from your computer.  On save, this file would then be uploaded to a location on your server that you specified in the settings for that particular field along with miscellaneous upload options like naming and overwrite.  Rightfields stored the preset upload folder separately from the entry filename.  Then it offered a tag (i.e. <code>&lt;MTFileURLPath field="document"&gt;</code> which basically &#8220;built&#8221; your file's location by combining the preset folder and the name it gave it when it uploaded.  This was extremely useful because a developer could preset all of the location, naming and overwrite defaults and the client didn't have to think about it. 
+A Rightfield's file field let you choose a file from your computer.  On save, this file would then be uploaded to a location on your server that you specified in the settings for that particular field along with miscellaneous upload options like naming and overwrite.  Rightfields stored the preset upload folder separately from the entry filename.  Then it offered a tag (i.e. <code>&lt;MTFileURLPath field="document"&gt;</code> which basically “built” your file's location by combining the preset folder and the name it gave it when it uploaded.  This was extremely useful because a developer could preset all of the location, naming and overwrite defaults and the client didn't have to think about it. 
 
 
 
 
 
-Custom Field asset fields work differently.  You click an &#8220;Upload&#8221; button which triggers the asset manager.  All of the options for naming, location and overwriting are presented to the user through the asset manager interface.  It's a somewhat bulky process, especially for developers looking to streamline the image uploading experience for their users.  The upside is that other plugins can manipulate the asset manager, like Dan's Better File Uploader.
+Custom Field asset fields work differently.  You click an “Upload” button which triggers the asset manager.  All of the options for naming, location and overwriting are presented to the user through the asset manager interface.  It's a somewhat bulky process, especially for developers looking to streamline the image uploading experience for their users.  The upside is that other plugins can manipulate the asset manager, like Dan's Better File Uploader.
 
 
 
@@ -55,7 +55,7 @@ Custom Field asset fields work differently.  You click an &#8220;Upload&#8221; b
 
 
 
-As was mentioned before, Rightfield separates the filename from the location. This dissection of the URL makes converting into a system asset a pain.  Also, keep in mind RF really knew nothing about the asset other than it's filename&#8212;it is, essentially, a textfield with the filename.  So converting it to a text field in CF makes the most sense from an developmental standpoint.  That's exactly what Chad Everett's <a href="https://cxliv.org/2008/05/09/converting_rightfields_to_customfields_now_with_sql_goodness.php">RF2CF plugin</a> does.  Obviously, it's not the perfect solution, but it works. 
+As was mentioned before, Rightfield separates the filename from the location. This dissection of the URL makes converting into a system asset a pain.  Also, keep in mind RF really knew nothing about the asset other than it's filename—it is, essentially, a textfield with the filename.  So converting it to a text field in CF makes the most sense from an developmental standpoint.  That's exactly what Chad Everett's <a href="https://cxliv.org/2008/05/09/converting_rightfields_to_customfields_now_with_sql_goodness.php">RF2CF plugin</a> does.  Obviously, it's not the perfect solution, but it works. 
 
 
 

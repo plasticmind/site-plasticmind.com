@@ -7,9 +7,9 @@ subtitle: "I created a PHP script that archives a specific folder and database t
 slug: cheap-site-backups-amazon-s3
 featured_image_url: 
 alt_text: 
-primary_category: "Code"
-categories: ["Code"]
-tags: ["amazon", "s3"]
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: []
 meta_description: 
 context: professional
 fix: false

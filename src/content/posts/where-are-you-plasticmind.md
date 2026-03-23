@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: 
 slug: where-are-you-plasticmind
-featured_image_url: https://plasticmind.com/wp-content/uploads/2007/06/664872087_763bd47840_b.jpg
+featured_image_url: /assets/i/664872087_763bd47840_b.jpg
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: personal

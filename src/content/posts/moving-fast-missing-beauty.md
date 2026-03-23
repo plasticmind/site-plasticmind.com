@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: moving-fast-missing-beauty
-featured_image_url: https://plasticmind.com/wp-content/uploads/2010/03/477982551_81c8e3f1d6_b.jpg
+featured_image_url: /assets/i/477982551_81c8e3f1d6_b.jpg
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging", "Journeys", "The Pen"]
-tags: ["beauty", "blindmanproject", "freewrite", "journey"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "Journeys", "Writing"]
+tags: ["freewrite"]
 meta_description: 
 context: personal
 fix: false

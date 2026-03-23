@@ -7,9 +7,9 @@ subtitle:
 slug: a-gift-worth-remembering
 featured_image_url: 
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
-tags: ["blindmanproject", "freewrite", "giving", "relatives"]
+primary_category: "Writing"
+categories: ["Writing"]
+tags: ["freewrite"]
 meta_description: 
 context: personal
 fix: false
@@ -31,7 +31,7 @@ She's had a few spells recently where she's not been herself: afraid of things t
 
 
 
-Her greatest legacy was her uncanny ability to give gifts that were exactly right.  So many times at Christmas she would give me a gift that I hadn't ask for, hadn't even considered&#8212;but absolutely enjoyed.  And you know how most relatives lose their edge as they get older?  The interesting gifts began to fade into the not-quite-so-exciting gifts like handkerchieves or peanut brittle.  Alice never lost her edge.  Year after year she surprised me with her gifts.
+Her greatest legacy was her uncanny ability to give gifts that were exactly right.  So many times at Christmas she would give me a gift that I hadn't ask for, hadn't even considered—but absolutely enjoyed.  And you know how most relatives lose their edge as they get older?  The interesting gifts began to fade into the not-quite-so-exciting gifts like handkerchieves or peanut brittle.  Alice never lost her edge.  Year after year she surprised me with her gifts.
 
 
 
@@ -49,7 +49,7 @@ Alice represents a generation of folks who gave a lot of thought to the gifts th
 
 
 
-One of the most meaningful gifts I ever received was a set of baseball gloves from my brother, given to me not long after the birth of our son: one glove for me, one for Ethan.  That nearly reduced me to tears&#8212;not because it was expensive and trendy or because I was dying for a baseball glove&#8212;but because it tapped into something that was so meaningful and relevant to me at the time.
+One of the most meaningful gifts I ever received was a set of baseball gloves from my brother, given to me not long after the birth of our son: one glove for me, one for Ethan.  That nearly reduced me to tears—not because it was expensive and trendy or because I was dying for a baseball glove—but because it tapped into something that was so meaningful and relevant to me at the time.
 
 
 

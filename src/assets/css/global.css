@@ -299,7 +299,7 @@ hr {
   --color-surface-alt-reverse: var(--neutral-100);
 
   --color-link: var(--coral-400);
-  --color-hover: var(--coral-300);
+  --color-hover: var(--coral-500);
   --color-focus: var(--coral-300);
   --color-press: var(--coral-0);
 }
@@ -1977,7 +1977,7 @@ html, body {
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
-  color: inherit;
+  color: var(--color-link);
   text-decoration: underline;
   background: none;
   border: none;
@@ -1988,11 +1988,11 @@ html, body {
 
 .c-work-entry__toggle:hover,
 .c-work-entry__toggle:focus {
-  color: var(--coral-500);
+  color: var(--color-hover);
 }
 
 .c-work-entry__toggle:focus-visible {
-  outline: 2px solid var(--coral-500);
+  outline: 2px solid var(--color-link);
   outline-offset: 2px;
 }
 
@@ -2024,11 +2024,16 @@ html, body {
   text-decoration: none;
   padding: var(--space-sm);
   border-radius: var(--radius-sm);
-  transition: background var(--transition-sm) ease;
+  transition: background var(--transition-sm) ease, color var(--transition-sm) ease;
 }
 
 .c-work-entry__post:hover {
   background: var(--color-surface-alt);
+}
+
+.c-work-entry__post:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
 }
 
 .c-work-entry__post-thumb {
@@ -3103,6 +3108,7 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 0;
+  padding-inline-start: 0;
 }
 
 .c-post-feed__item {

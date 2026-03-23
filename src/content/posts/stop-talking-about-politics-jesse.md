@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "Why do you write so much about faith and politics?"
 slug: stop-talking-about-politics-jesse
-featured_image_url: https://plasticmind.com/wp-content/uploads/2019/12/2019-12-19-at-8.38-AM.jpg
+featured_image_url: /assets/i/2019-12-19-at-8.38-AM.jpg
 alt_text: 
-primary_category: "America"
-categories: ["America"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics"]
 tags: []
 meta_description: 
 context: personal

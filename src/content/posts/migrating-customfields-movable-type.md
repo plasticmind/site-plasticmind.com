@@ -7,9 +7,9 @@ subtitle:
 slug: migrating-customfields-movable-type
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
-tags: ["bugs", "customfields", "database", "upgrade"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -44,7 +44,7 @@ I tried logging into Movable Type, but I kept getting the following error:
 <blockquote>
   
 
-A Error during upgrade: Can't call method &#8220;can&#8221; on an undefined value at /var/www/dev/html/mt/addons/Commercial.pack/lib/CustomFields/Util.pm line 260
+A Error during upgrade: Can't call method “can” on an undefined value at /var/www/dev/html/mt/addons/Commercial.pack/lib/CustomFields/Util.pm line 260
 
 
 </blockquote>
@@ -57,7 +57,7 @@ I first thought that the MTP upgrade and the CF Upgrade Assistant could not be r
 
 
 
-**Important note for Safari users:**  *If the upgrade is throwing errors, you won't see them if you're using Safari.  I'm not sure why, but when the upgrade fails, it gives no feedback or error message in the log window, returns an &#8220;Upgrade Complete!&#8221; and throws you right back into an upgrade loop.  I suspect it has something to do with the javascript.*
+**Important note for Safari users:**  *If the upgrade is throwing errors, you won't see them if you're using Safari.  I'm not sure why, but when the upgrade fails, it gives no feedback or error message in the log window, returns an “Upgrade Complete!” and throws you right back into an upgrade loop.  I suspect it has something to do with the javascript.*
 
 
 
@@ -130,7 +130,7 @@ All your orphans should be gone.  But there's a minor bug in CustomFields that w
 <blockquote>
   
 
-Error during upgrade: Can't call method &#8220;text&#8221; on an undefined value at /var/www/dev/html/mt/addons/Commercial.pack/lib/CustomFields/Util.pm line 322.
+Error during upgrade: Can't call method “text” on an undefined value at /var/www/dev/html/mt/addons/Commercial.pack/lib/CustomFields/Util.pm line 322.
 
 
 </blockquote>

@@ -7,9 +7,9 @@ subtitle:
 slug: meet-ethan-gardner
 featured_image_url: 
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
-tags: ["ethanscott"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -25,7 +25,7 @@ hits: 622
 
 
 
-Well, in case you missed <a href="https://ethanscottgardner.com">the announcement</a>, we had a son!  **Ethan Scott Gardner came into the world on Friday, August 22, 2008 at 2:26pm weighing in at a whopping 9 pounds, three ounces!**  And now he's almost two weeks old&#8230; how time flies.
+Well, in case you missed <a href="https://ethanscottgardner.com">the announcement</a>, we had a son!  **Ethan Scott Gardner came into the world on Friday, August 22, 2008 at 2:26pm weighing in at a whopping 9 pounds, three ounces!**  And now he's almost two weeks old… how time flies.
 
 
 
@@ -43,7 +43,7 @@ Today we visited Children's Hospital of Philadelphia for Ethan's initial evaluat
 
 
 
-The doctor will perform the first surgery&#8212;a lip adhesion&#8212;in November just before Thanksgiving.  This will essentially recreate Ethan's right nostril which will in turn help shape the cartilage of the nose and begin to guide the cleft palate together.  This is a short surgery that should only take an hour or so and keep him in overnight.
+The doctor will perform the first surgery—a lip adhesion—in November just before Thanksgiving.  This will essentially recreate Ethan's right nostril which will in turn help shape the cartilage of the nose and begin to guide the cleft palate together.  This is a short surgery that should only take an hour or so and keep him in overnight.
 
 
 
@@ -55,7 +55,7 @@ The doctor will perform the first surgery&#8212;a lip adhesion&#8212;in November
 
 
 
-The second surgery will take place in February and will actually close the cleft lip.  This surgery will probably have the most dramatic effect on his appearance as the cleft palate is far less noticeable, and it will also continue to help guide the two halves of the palate together.  (Much like braces do for teeth.)  It will take a bit longer than the previous surgery&#8212;2 or 3 hours&#8212;and will also keep him in the hospital overnight.  Full recovery takes about a week or so, though he will be able to begin eating again the next day.
+The second surgery will take place in February and will actually close the cleft lip.  This surgery will probably have the most dramatic effect on his appearance as the cleft palate is far less noticeable, and it will also continue to help guide the two halves of the palate together.  (Much like braces do for teeth.)  It will take a bit longer than the previous surgery—2 or 3 hours—and will also keep him in the hospital overnight.  Full recovery takes about a week or so, though he will be able to begin eating again the next day.
 
 
 

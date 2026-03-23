@@ -7,8 +7,8 @@ subtitle:
 slug: house-of-cards
 featured_image_url: 
 alt_text: 
-primary_category: "Heart"
-categories: ["Heart"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal

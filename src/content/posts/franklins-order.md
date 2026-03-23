@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Mind"
 categories: ["Mind"]
-tags: ["Benjamin Franklin", "order", "scheduling"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -40,37 +40,37 @@ I've always struggled with *Order*, so as an experiment in betterment I'll attem
 
 
 
-**5am&#8212;8am** Morning.  *The Question*: What good shall I do this day? Rise, wash and address *Powerful Goodness!* Contrive day's business, and take the resolution of the day; prosecute the present study, and breakfast.
+**5am—8am** Morning.  *The Question*: What good shall I do this day? Rise, wash and address *Powerful Goodness!* Contrive day's business, and take the resolution of the day; prosecute the present study, and breakfast.
 
 
 
 
 
-**8am&#8212;12pm** Work.
+**8am—12pm** Work.
 
 
 
 
 
-**12pm&#8212;2pm** Noon. Read or look over my accounts, and dine.
+**12pm—2pm** Noon. Read or look over my accounts, and dine.
 
 
 
 
 
-**2pm&#8212;6pm**    Work.
+**2pm—6pm**    Work.
 
 
 
 
 
-**6pm&#8212;10pm** Evening. *The Question*: What good have I done today? Put things in their places. Supper. Music or diversion, or conversation. Examination of the day.
+**6pm—10pm** Evening. *The Question*: What good have I done today? Put things in their places. Supper. Music or diversion, or conversation. Examination of the day.
 
 
 
 
 
-**10pm&#8212;5am** Night. Sleep.
+**10pm—5am** Night. Sleep.
 
 
 
@@ -100,7 +100,7 @@ But he shared a humorously candid illustration about his struggle:
 <blockquote>
   
 
-Like the man, who, in buying an axe of a smith, my neighbor desired to have the whole of its surface as bright as the edge.  The smith consented to grind it bright for him, if he would turn the wheel; he turned, while the smith pressed the broad face of the axe hard and heavily on the stone, which made the turning of it very fatiguing.  The man came every now and then from the wheel to see how the work went on; and at length would take his axe as it was, without further grinding.  &#8220;No,&#8221; said the smith, &#8220;turn on, turn on; we shall have it bright by and by; as yet it is only speckled.&#8221; &#8220;Yes,&#8221; said the man, &#8220;but **I think I like a speckled axe best.**&#8221;
+Like the man, who, in buying an axe of a smith, my neighbor desired to have the whole of its surface as bright as the edge.  The smith consented to grind it bright for him, if he would turn the wheel; he turned, while the smith pressed the broad face of the axe hard and heavily on the stone, which made the turning of it very fatiguing.  The man came every now and then from the wheel to see how the work went on; and at length would take his axe as it was, without further grinding.  “No,” said the smith, “turn on, turn on; we shall have it bright by and by; as yet it is only speckled.” “Yes,” said the man, “but **I think I like a speckled axe best.**”
 
 
 </blockquote>

@@ -5,11 +5,11 @@ archive: false
 excerpt: "I'm joining New York State's Office of Information Technology Services, tasked with building out a user research team, focused on improving the usability and accessibility of NYS’s digital services and applications."
 subtitle: "Guess what? I'm starting a new job with the state of New York!"
 slug: empire-state-of-ux
-featured_image_url: https://plasticmind.com/wp-content/uploads/2023/05/i-love-ny-1.jpg
+featured_image_url: /assets/i/i-love-ny-1.jpg
 alt_text:
 primary_category: "Journeys"
 categories: ["Journeys"]
-tags: ["career", "civic tech", "New York", "user research"]
+tags: ["New York"]
 meta_description:
 context: professional
 fix: false

@@ -5,7 +5,7 @@ archive: false
 excerpt: 
 subtitle: "We're hardwired to crave feedback.  We're always looking to improve, to refine, to gauge our words and actions against the response of other human beings."
 slug: being-unpopular
-featured_image_url: https://plasticmind.com/wp-content/uploads/2012/09/unpopular.png
+featured_image_url: /assets/i/unpopular.png
 alt_text: 
 primary_category: "Writing"
 categories: ["Writing"]
@@ -37,7 +37,7 @@ It's also no wonder most people get perturbed when they don't get the kind of fe
 
 
 
-You know what I mean.  You labor for hours over each word of your carefully thought out blog post only to find that the link to the inane video you gave no thought to is getting ten times the traffic.  You post the perfect picture, carefully cropped and edited, and twenty-four hours later only three people have liked it.  You post a witty, acerbic observation about the world and not a single response.  I've even had people express this frustration to me in face-to-face conversations: &#8220;Why didn't you like my picture?&#8221; or &#8220;How come you didn't you comment on my post?&#8221;  We reload our analytics, refresh our social network notifications, and track the overall engagement with our ideas at a level that borders on narcissism.
+You know what I mean.  You labor for hours over each word of your carefully thought out blog post only to find that the link to the inane video you gave no thought to is getting ten times the traffic.  You post the perfect picture, carefully cropped and edited, and twenty-four hours later only three people have liked it.  You post a witty, acerbic observation about the world and not a single response.  I've even had people express this frustration to me in face-to-face conversations: “Why didn't you like my picture?” or “How come you didn't you comment on my post?”  We reload our analytics, refresh our social network notifications, and track the overall engagement with our ideas at a level that borders on narcissism.
 
 
 
@@ -61,7 +61,7 @@ Consider Henry David Thoreau.  He could not find a publisher for his first book,
 
 
 
-Consider Anne Frank.  &#8220;Will I ever be able to write something great, will I ever become a journalist or a writer?&#8221;  She penned these words just months before she was captured by Nazis and taken to a prison camp where she suffered greatly and died, not realizing that the very words she penned in her diary would go on to become immortalized as a message of resistance against tyrannical persecution.
+Consider Anne Frank.  “Will I ever be able to write something great, will I ever become a journalist or a writer?”  She penned these words just months before she was captured by Nazis and taken to a prison camp where she suffered greatly and died, not realizing that the very words she penned in her diary would go on to become immortalized as a message of resistance against tyrannical persecution.
 
 
 
@@ -73,7 +73,7 @@ Consider Emily Dickinson.  Of the 1800 poems she wrote, fewer than a dozen were 
 
 
 
-There are many others.  People who wrote with conviction without an audience.  People with transformative ideas that the world discovered too late.  People with little hope in this life that their message would gain traction or their ideas would being lauded for their merit.  People with no Facebook Like button, no inflated comment count, no Mount Everest page view graph&#8212;just something important to say and the conviction, the discipline, and the wherewithal to say it.
+There are many others.  People who wrote with conviction without an audience.  People with transformative ideas that the world discovered too late.  People with little hope in this life that their message would gain traction or their ideas would being lauded for their merit.  People with no Facebook Like button, no inflated comment count, no Mount Everest page view graph—just something important to say and the conviction, the discipline, and the wherewithal to say it.
 
 
 
@@ -91,7 +91,7 @@ So the next time you contribute something to the annals of Internet history and 
 
 
 
-*&#8220;Be not astonished at new ideas; for it is well known to you that a thing does not therefore cease to be true because it is not accepted by many.&#8221; &#8212;Spinoza*
+*“Be not astonished at new ideas; for it is well known to you that a thing does not therefore cease to be true because it is not accepted by many.” —Spinoza*
 
 
 

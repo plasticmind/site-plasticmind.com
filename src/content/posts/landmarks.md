@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: "People change, but people often have a hard time dealing with other people’s change. Is it possible to sustain vibrant relationships through the process?"
 slug: landmarks
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/02/trail.jpg
+featured_image_url: /assets/i/trail.jpg
 alt_text: 
 primary_category: "Mind"
 categories: ["Mind"]
-tags: ["change", "companionship", "questions", "relationships"]
+tags: []
 meta_description: "People change, but people often have a hard time dealing with other people’s change."
 context: personal
 fix: false

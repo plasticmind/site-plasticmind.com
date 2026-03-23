@@ -7,9 +7,9 @@ subtitle:
 slug: a-brief-review-of-movable-type
 featured_image_url: 
 alt_text: 
-primary_category: "Announcements"
-categories: ["Announcements", "Movable Type"]
-tags: ["Movable Type", "templates"]
+primary_category: "Miscellany"
+categories: ["Miscellany", "Blogging & CMS"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false

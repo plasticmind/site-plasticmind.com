@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Design"
 categories: ["Design"]
-tags: ["logo award blog"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -25,7 +25,7 @@ hits: 1164
 
 
 
-<img src="/assets/simply-recipes.gif" alt="Simply Recipes" />
+<img src="/assets/i/simply-recipes.gif" alt="Simply Recipes" />
 
 
 
@@ -38,19 +38,19 @@ The judges shared their thoughts <a href="https://www.logodesignlove.com/logo-de
 <blockquote>
   
 
-&#8220;This logo has a very classic, Martha Stewart feel and tells me that I should expect a well-curated selection of traditional recipes with a modern twist. The contemporary asterisk also suggests the form of measuring spoons, which creates a pleasant visual pun.&#8221; Megan Patrick (2 points awarded)
+“This logo has a very classic, Martha Stewart feel and tells me that I should expect a well-curated selection of traditional recipes with a modern twist. The contemporary asterisk also suggests the form of measuring spoons, which creates a pleasant visual pun.” Megan Patrick (2 points awarded)
 
 
 
   
 
-&#8220;The sheer simplicity of this concept is what makes it stand out. Using the spoons to create a symbol really works. As a fan of serif style typefaces, I find the typography legible and well suited to the overall concept. The colour palette uses earthy spice tones, which is homely and representative of food&#8230;mouthwatering!&#8221; David Pache (1 point awarded)
+“The sheer simplicity of this concept is what makes it stand out. Using the spoons to create a symbol really works. As a fan of serif style typefaces, I find the typography legible and well suited to the overall concept. The colour palette uses earthy spice tones, which is homely and representative of food…mouthwatering!” David Pache (1 point awarded)
 
 
 
   
 
-&#8220;This logo wins in my opinion because it's warm color palette and clean yet evocative style made me hungry! Though the icon doesn't denote &#8220;food&#8221; or &#8220;recipes&#8221;, I still find the mark a success overall.&#8221; Jeff Andrews (1 point awarded)
+“This logo wins in my opinion because it's warm color palette and clean yet evocative style made me hungry! Though the icon doesn't denote “food” or “recipes”, I still find the mark a success overall.” Jeff Andrews (1 point awarded)
 
 
 </blockquote>

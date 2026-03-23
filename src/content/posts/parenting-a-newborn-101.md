@@ -7,9 +7,9 @@ subtitle:
 slug: parenting-a-newborn-101
 featured_image_url: 
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
-tags: ["baby", "parenting"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: 
 context: personal
 fix: false

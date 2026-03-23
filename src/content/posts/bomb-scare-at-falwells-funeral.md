@@ -7,8 +7,8 @@ subtitle:
 slug: bomb-scare-at-falwells-funeral
 featured_image_url: 
 alt_text: 
-primary_category: "America"
-categories: ["America"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics"]
 tags: []
 meta_description: 
 context: political

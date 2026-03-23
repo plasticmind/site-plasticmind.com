@@ -4,12 +4,12 @@
       "id": "nys-its",
       "company": "New York State Office of Information Technology Services",
       "companyLogo": "/assets/i/logos/nys.svg",
-      "title": "Director, Accessibility and Design Systems",
+      "title": "Director, Design Systems and Accessibility",
       "type": "full-time",
-      "startDate": "2023-05",
+      "startDate": "2023-04",
       "endDate": null,
-      "summary": "Leading two teams that help 45+ state agencies build digital services that work for all 20 million New Yorkers.",
-      "description": "I lead two teams at the heart of New York State's push to modernize its digital services: the NYS Design System team and the Digital Accessibility team. The design system is a shared component library built on web components, serving dozens of agencies and thousands of users. The accessibility team is helping the state meet its DOJ Title II compliance obligations — a massive coordination effort across agencies with very different tech stacks and levels of maturity. The work was called out in both the 2023 and 2024 State of the State addresses, which is surreal and motivating in equal measure.",
+      "summary": "Proposed the NYS Design System to executive leadership. Hired a cross-discipline team of 14. Built the component library, the token architecture, and the accessibility compliance program.",
+      "description": "The design system was included in the Governor's 2024 State of the State address. I built the initial component library — 25+ web components in Lit and TypeScript, a token architecture on the DTCG standard, and a custom elements manifest that serves as the single source of truth for design, code, docs, and AI tooling. Built and published an MCP server that exposes component specs, tokens, and validation rules to LLMs — turns out structured context makes AI-generated code consistent and accessible without relying on probabilistic generation. On the accessibility side, I led the formation of NYS's Central Accessibility Team ahead of federal (2026) and state (2027) WCAG deadlines. Co-authored updates to the state's accessibility policy and contributed to revisions of State Technology Law. I still review PRs and write code daily.",
       "relatedSlugs": ["empire-state-of-ux"]
     },
     {
@@ -20,8 +20,8 @@
       "type": "consulting",
       "startDate": "2005-07",
       "endDate": null,
-      "summary": "A small design studio helping people build things for the web that are useful, usable, and well-crafted.",
-      "description": "I started Plasticmind in 2005 as a way to do the kind of work I cared about: helping people create web experiences that were thoughtful, well-built, and easy to maintain. Over the years, that's meant everything from brand identity and creative direction to front-end architecture and design strategy. Clients have included Harvard Business School, the Committee to Protect Journalists, Boeing, Asurion, Marc Andreessen, and many others. The through-line has always been the same — figure out what's actually needed, then build it well."
+      "summary": "Design and engineering consultancy — bridging the gap between design and development for organizations that care about getting it right.",
+      "description": "Hello Patient: design system strategy for a health startup — aligned Figma variables with Tailwind architecture, ran workshops with designers, developers, and leadership to establish component APIs and a governance process. Asurion: embedded with content and product teams for six months during a company-wide CMS and design system build. Harvard Business School's Digital Initiative: helped the team articulate its mission, then designed and built an edition-based content platform and an interactive learning experience. Additional clients include Boeing, Delta, Fox, the Committee to Protect Journalists, and others."
     },
     {
       "id": "fox",
@@ -30,9 +30,9 @@
       "title": "VP, Technology",
       "type": "full-time",
       "startDate": "2021-04",
-      "endDate": "2022-08",
-      "summary": "Focused on making engineers and stakeholders happier by finding efficiencies and getting things unstuck.",
-      "description": "My role at Fox was less about building things directly and more about making the building easier — looking for friction in how teams communicated, how decisions got made, and how the tech stack scaled. I spent a lot of time in the space between engineering and product, trying to help both sides feel heard and move faster. It was a short stint but a rewarding one, with tremendous teams and a bittersweet goodbye.",
+      "endDate": "2022-09",
+      "summary": "Technical docs and training for Fox's composable content platform. Directed front-end teams building for the Super Bowl and World Cup.",
+      "description": "Built documentation and onboarding systems for Spark, Fox's proprietary composable content platform on AWS. Directed front-end engineering teams building applications for global live events. Managed the launch of Fox Weather. Ran week-long planning sessions with 80+ people and standardized processes between back-end and front-end teams across Sports, News, Weather, and Entertainment.",
       "relatedSlugs": ["farewell-fox", "fox"]
     },
     {
@@ -43,8 +43,8 @@
       "type": "full-time",
       "startDate": "2018-01",
       "endDate": "2018-08",
-      "summary": "Meeting with prospective clients, understanding their needs, and putting together creative ways of solving them.",
-      "description": "A brief but formative chapter. I spent my time at 10up on the business development side — meeting with prospective clients, listening to their challenges, and figuring out how to bring technology, strategy, and empathy together into something that actually helped. It sharpened how I think about scoping work and building trust with stakeholders.",
+      "summary": "Talking to prospective clients, figuring out what they actually needed, and scoping the work to get them there.",
+      "description": "Eight months on the business development side — meeting with prospective clients, listening to their problems, and putting together proposals that made sense for both sides. It changed how I think about scoping work. You learn a lot about what matters to people when your job is to listen before you pitch.",
       "relatedSlugs": ["leveling-10up"]
     },
     {
@@ -53,10 +53,10 @@
       "companyLogo": "/assets/i/logos/simplyrecipes.svg",
       "title": "VP, Technology",
       "type": "full-time",
-      "startDate": "2012-04",
+      "startDate": "2012-03",
       "endDate": "2016-08",
-      "summary": "Helped grow a food blog to 15 million monthly pageviews with a team of two, then watched it get acquired.",
-      "description": "This was the job where I learned to do everything. With a staff of two, I handled web design, mobile app development, server infrastructure, CDN configuration, SEO, video production, social media strategy, and analytics — basically anything that touched a screen. I designed and built a fully responsive site focused on performance, created an iOS app that Apple featured in the App Store, migrated the entire platform from Movable Type to WordPress, and helped grow the site to over 15 million monthly pageviews. Simply Recipes was acquired by Fexy Media in 2016.",
+      "summary": "Sole engineer. Built and maintained the entire stack — branding, UX, CMS, mobile app, infrastructure. Grew the site from 1M to 20M monthly pageviews before acquisition.",
+      "description": "I handled everything that touched a screen: branding, UX, custom development, mobile app, server infrastructure, caching, CDN. Conducted user interviews and used those insights to update designs and run experiments. Built an iOS app that Apple featured in the App Store. Migrated the platform from Movable Type to WordPress. Simply Recipes was acquired by Fexy Media in 2016.",
       "relatedSlugs": ["simply-recipes"]
     },
     {
@@ -67,8 +67,8 @@
       "type": "full-time",
       "startDate": "2010-03",
       "endDate": "2012-03",
-      "summary": "Consolidated a fragmented web platform across AMC, IFC, WEtv, and other channel brands.",
-      "description": "I was brought on to help solve a messy problem: every channel at AMC Networks was running a different CMS with a different tech strategy. I met with stakeholders across each brand, listened to what they actually needed, and helped define and build a unified site framework that all of the major channels eventually migrated to. The sites were getting millions of pageviews a day, so everything we built had to be fast — which meant complex caching policies, custom analytics, and a lot of careful coordination.",
+      "summary": "Consolidated four divergent CMS platforms — AMC, WEtv, IFC, Sundance — into a unified composable site architecture.",
+      "description": "Every channel was running its own CMS with its own tech strategy. I met with stakeholders across each brand, defined the requirements for a shared framework, and built it. Created and deployed a comprehensive analytics strategy across all business units.",
       "relatedSlugs": ["rainbow"]
     },
     {
@@ -79,8 +79,8 @@
       "type": "volunteer",
       "startDate": "2009-06",
       "endDate": "2012-01",
-      "summary": "Served on the board of the open-source community behind Movable Type.",
-      "description": "I was active in the Movable Type community for years, and serving on the Open Melody board was a way to give back to a platform and community that had shaped a lot of my early career. It was my first real experience with open-source governance and community stewardship.",
+      "summary": "Served on the board of Melody, a community-governed fork of Movable Type focused on open-source publishing.",
+      "description": "Melody was a fork of Movable Type Open Source — same foundation, but governed by the community instead of a corporation. The idea was to build something nimble: take risks faster, incorporate a wider range of contributions, and let the people who actually use the software steer where it goes. I joined the board because I trusted the people involved and believed in making publishing tools that anyone could freely benefit from.",
       "relatedSlugs": ["melody"]
     }
   ]

@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: my-greatest-failing
-featured_image_url: https://plasticmind.com/wp-content/uploads/2016/02/IMG_2505.jpg
+featured_image_url: /assets/i/IMG_2505.jpg
 alt_text: ""
-primary_category: "Heart"
-categories: ["Heart"]
-tags: ["focus", "generalist", "specialist"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: []
 meta_description: 
 context: personal
 fix: false

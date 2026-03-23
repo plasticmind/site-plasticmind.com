@@ -7,9 +7,9 @@ subtitle:
 slug: twitter-nutrition-facts
 featured_image_url: 
 alt_text: 
-primary_category: "Freebies"
-categories: ["Freebies"]
-tags: ["twitter wallpaper resources"]
+primary_category: "Miscellany"
+categories: ["Miscellany"]
+tags: []
 meta_description: 
 context: professional
 fix: true
@@ -19,7 +19,7 @@ hits: 300
 
 			
 
-***Every time a person visits your Twitter page, they make a split second judgment call.  &#8220;Should I follow this person?&#8221;**
+***Every time a person visits your Twitter page, they make a split second judgment call.  “Should I follow this person?”**
 
 
 

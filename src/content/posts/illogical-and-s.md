@@ -7,8 +7,8 @@ subtitle:
 slug: illogical-and-s
 featured_image_url: 
 alt_text: 
-primary_category: "America"
-categories: ["America", "Mind"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics", "Mind"]
 tags: []
 meta_description: 
 context: personal

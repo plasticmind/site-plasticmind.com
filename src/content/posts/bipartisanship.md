@@ -7,9 +7,9 @@ subtitle:
 slug: bipartisanship
 featured_image_url: 
 alt_text: 
-primary_category: "CMS"
-categories: ["CMS", "Design"]
-tags: ["icon", "Movable Type", "WordPress"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "Design"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false
@@ -58,7 +58,7 @@ Cheers!
 
 
 
-The post made it clear that &#8220;to be taken seriously, you'll need to show a background in icon design&#8221; and that &#8220;someone with experience (and possibly existing work they can leverage) is going to be the best candidate.&#8221;  I've done fairly extensive icon work (having designed icons for several Movable Type plugins) so I thought it would be a good fit.
+The post made it clear that “to be taken seriously, you'll need to show a background in icon design” and that “someone with experience (and possibly existing work they can leverage) is going to be the best candidate.”  I've done fairly extensive icon work (having designed icons for several Movable Type plugins) so I thought it would be a good fit.
 
 
 

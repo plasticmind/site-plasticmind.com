@@ -7,8 +7,8 @@ subtitle:
 slug: telling-their-stories
 featured_image_url: 
 alt_text: 
-primary_category: "Interviews"
-categories: ["Interviews"]
+primary_category: "People"
+categories: ["People"]
 tags: []
 meta_description: 
 context: personal
@@ -37,7 +37,7 @@ When I first thought of doing these interviews, I really just had a single goal 
 
 
 
-However, I realized very quickly&#8212;even while preparing questions for my first interview&#8212;that I needed some kind of point of view.  I was interviewing myself, asking the most important question: &#8220;Why do you want to interview these folks?&#8221;
+However, I realized very quickly—even while preparing questions for my first interview—that I needed some kind of point of view.  I was interviewing myself, asking the most important question: “Why do you want to interview these folks?”
 
 
 

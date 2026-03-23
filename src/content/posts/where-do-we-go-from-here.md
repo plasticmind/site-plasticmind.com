@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: where-do-we-go-from-here
-featured_image_url: https://plasticmind.com/wp-content/uploads/2016/11/reflect.jpg
+featured_image_url: /assets/i/reflect.jpg
 alt_text: 
-primary_category: "America"
-categories: ["America"]
-tags: ["2016", "america", "election", "trump"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics"]
+tags: []
 meta_description: 
 context: personal
 fix: false

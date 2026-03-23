@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: 
 slug: tools-of-the-web-design-trade-2
-featured_image_url: https://plasticmind.com/wp-content/uploads/2008/07/tools-of-my-trade.png
+featured_image_url: /assets/i/tools-of-my-trade.png
 alt_text: 
 primary_category: "Design"
 categories: ["Design", "Downloads"]
-tags: ["cost", "portfolios", "proposals", "social networking", "trust", "web design"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -40,7 +40,7 @@ The better part of design is art, and art often eludes process.  Still, this is 
 
 
 
-The process begins when a prospective client contacts me, interested in work.  Actually, I think I've jumped too far ahead.  You're probably asking: &#8220;Yeah, all of these resources are great, but how do I actually get work?&#8221;  Well, let's start there.
+The process begins when a prospective client contacts me, interested in work.  Actually, I think I've jumped too far ahead.  You're probably asking: “Yeah, all of these resources are great, but how do I actually get work?”  Well, let's start there.
 
 
 
@@ -67,7 +67,7 @@ When I first started my web design business, I set out to accomplish two broad g
 
 
 
-If you're just getting started, all of this talk of networking might seem so insubstantial; **it's not**.  The up-front benefit may be insubstantial, but this is a *loss leader*&#8212;an investment that costs you now but ultimately pays off.  
+If you're just getting started, all of this talk of networking might seem so insubstantial; **it's not**.  The up-front benefit may be insubstantial, but this is a *loss leader*—an investment that costs you now but ultimately pays off.  
 
 
 
@@ -104,7 +104,7 @@ Once the requests for work start coming in, they'll come in all shapes and sizes
 
 
 
-**Do I have time?**  If I had it to do over again, this is the one thing I'd do differently.  In the beginning, all you'll have is time; but you probably won't have a good idea how long something is going to take.  Time yourself.  Seriously, record a log of everything you do and after three months, group together common activities and average out the time they take.  As you get more competent and more people are asking for quotes, this becomes especially important for the sake of scheduling.  You can't promise a month and take six&#8212;not and give warm fuzzies anyhow.
+**Do I have time?**  If I had it to do over again, this is the one thing I'd do differently.  In the beginning, all you'll have is time; but you probably won't have a good idea how long something is going to take.  Time yourself.  Seriously, record a log of everything you do and after three months, group together common activities and average out the time they take.  As you get more competent and more people are asking for quotes, this becomes especially important for the sake of scheduling.  You can't promise a month and take six—not and give warm fuzzies anyhow.
 
 
 
@@ -128,7 +128,7 @@ If you are an independent contractor, you have to factor in non-billable work.  
 
 
 
-It always takes longer than you think it will.  Scotty taught us this principle, didn't he?  Tell the captain it'll take four hours and deliver it in two.  Come up with a time estimate and then double it before handing it to the client&#8212;if it takes less time, you're a hero.  If you tell them two and it takes four, you're now a liar, a sincere, well-intentioned liar.
+It always takes longer than you think it will.  Scotty taught us this principle, didn't he?  Tell the captain it'll take four hours and deliver it in two.  Come up with a time estimate and then double it before handing it to the client—if it takes less time, you're a hero.  If you tell them two and it takes four, you're now a liar, a sincere, well-intentioned liar.
 
 
 
@@ -173,7 +173,7 @@ Sometimes it's just easier to see an example, so I've created a sample proposal 
 
 
 
-**Next Up: Tools of the Web Design Trade, Part 3 &#8212; The Design Process**
+**Next Up: Tools of the Web Design Trade, Part 3 — The Design Process**
 
 
 

@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: 
 slug: clubhouse-app-tips-and-first-impression
-featured_image_url: https://plasticmind.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-05-at-2.42.14-PM.png
+featured_image_url: /assets/i/Screen-Shot-2021-02-05-at-2.42.14-PM.png
 alt_text: "me holding up a phone with the Clubhouse app on screen"
-primary_category: "0's and 1's"
-categories: ["0's and 1's"]
-tags: ["clubhouse", "first-impressions", "tips"]
+primary_category: "Technology"
+categories: ["Technology"]
+tags: []
 meta_description: 
 context: professional
 fix: false

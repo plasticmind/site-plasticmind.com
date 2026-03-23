@@ -7,8 +7,8 @@ subtitle:
 slug: yours
 featured_image_url: 
 alt_text: 
-primary_category: "Heart"
-categories: ["Heart", "Savior"]
+primary_category: "Personal"
+categories: ["Personal", "Faith"]
 tags: []
 meta_description: 
 context: personal

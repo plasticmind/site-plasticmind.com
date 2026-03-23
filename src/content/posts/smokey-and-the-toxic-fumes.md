@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: smokey-and-the-toxic-fumes
-featured_image_url: https://plasticmind.com/wp-content/uploads/2008/01/QrXgXMhCSouyhU7idq7g_IMG_8402.jpg
+featured_image_url: /assets/i/QrXgXMhCSouyhU7idq7g_IMG_8402.jpg
 alt_text: 
 primary_category: "Miscellany"
 categories: ["Miscellany"]
-tags: ["accidents", "fire", "smoke", "West Wing"]
+tags: []
 meta_description: 
 context: personal
 fix: false

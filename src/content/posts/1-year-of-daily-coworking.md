@@ -5,11 +5,11 @@ archive: false
 excerpt:
 subtitle:
 slug: 1-year-of-daily-coworking
-featured_image_url: https://plasticmind.com/wp-content/uploads/2021/03/coworking-1year-copy-scaled.jpg
+featured_image_url: /assets/i/coworking-1year-copy-scaled.jpg
 alt_text: "a collage of lots of Zoom screenshots"
-primary_category: "Friends"
-categories: ["Friends"]
-tags: ["cowrok", "pandemic", "virtualcoworking", "zoom"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description:
 context: professional
 fix: false
@@ -27,6 +27,7 @@ So I tweeted:
 <blockquote class="twitter-tweet">
   <a href="https://twitter.com/plasticmind/status/1237751340975165442">View tweet from @plasticmind</a>
 </blockquote>
+
 <script async src="https://platform.twitter.com/widgets.js"></script>
 
 The first few days, only a few people joined. But over the course of a few months (and thanks to some friends sharing it with their friends), the number of people who joined continued to grow. I hosted a virtual coworking session (lovingly dubbed "cowrok") almost every weekday for the last year — about 260 sessions or so.
@@ -45,83 +46,83 @@ In no particular order:
 
 ---
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/clare-1024x1019.png)](https://instagram.com/clarebotanica)
+[![](/assets/i/clare-1024x1019.png)](https://instagram.com/clarebotanica)
 
 ### <a href="https://instagram.com/clarebotanica">Clare Freeman</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/dustin-1024x1024.png)](https://www.instagram.com/leerdustin/)
+[![](/assets/i/dustin-1024x1024.png)](https://www.instagram.com/leerdustin/)
 
 ### <a href="https://www.instagram.com/leerdustin/">Dustin Leer</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/andrew.jpg)](https://www.instagram.com/bullet_and_whiskey/)
+[![](/assets/i/andrew.jpg)](https://www.instagram.com/bullet_and_whiskey/)
 
 ### <a href="https://www.instagram.com/bullet_and_whiskey/">Andrew Colclough</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/snook.jpg)](https://twitter.com/snookca)
+[![](/assets/i/snook.jpg)](https://twitter.com/snookca)
 
 ### <a href="https://twitter.com/snookca">Jonathan Snook</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/taylor.jpg)](https://twitter.com/taylordunham_)
+[![](/assets/i/taylor.jpg)](https://twitter.com/taylordunham_)
 
 ### <a href="https://twitter.com/taylordunham_">Taylor Dunham</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/kinsey.jpg)](https://www.facebook.com/kinsey.dickey)
+[![](/assets/i/kinsey.jpg)](https://www.facebook.com/kinsey.dickey)
 
 ### <a href="https://www.facebook.com/kinsey.dickey">Kinsey Dickey</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/ericmeyer280.jpg)](https://twitter.com/meyerweb)
+[![](/assets/i/ericmeyer280.jpg)](https://twitter.com/meyerweb)
 
 ### <a href="https://twitter.com/meyerweb">Eric Meyer</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/dave-1024x1024.jpg)](https://www.facebook.com/daveshack)
+[![](/assets/i/dave-1024x1024.jpg)](https://www.facebook.com/daveshack)
 
 ### <a href="https://www.facebook.com/daveshack">Dave Shackelford</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/chuck-edited.png)](https://twitter.com/chuckwoj)
+[![](/assets/i/chuck-edited.png)](https://twitter.com/chuckwoj)
 
 ### <a href="https://twitter.com/chuckwoj">Chuck Wojack</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/anton.jpg)](https://twitter.com/antonpeck)
+[![](/assets/i/anton.jpg)](https://twitter.com/antonpeck)
 
 ### <a href="https://twitter.com/antonpeck">Anton Peck</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/tatiana.jpg)](https://twitter.com/darumacreative)
+[![](/assets/i/tatiana.jpg)](https://twitter.com/darumacreative)
 
 ### <a href="https://twitter.com/darumacreative">Tatiana Bischak</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/chris-edited.png)](https://twitter.com/chrisfrueh)
+[![](/assets/i/chris-edited.png)](https://twitter.com/chrisfrueh)
 
 ### <a href="https://twitter.com/chrisfrueh">Chris Frueh</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/arjen-1024x1024.jpg)](https://twitter.com/callmearjen)
+[![](/assets/i/arjen-1024x1024.jpg)](https://twitter.com/callmearjen)
 
 ### <a href="https://twitter.com/callmearjen">Arjen Elliot</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/rob.jpg)](https://twitter.com/SomethingRobS)
+[![](/assets/i/rob.jpg)](https://twitter.com/SomethingRobS)
 
 ### <a href="https://twitter.com/SomethingRobS">Rob Stewart</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/jody.jpg)](https://twitter.com/jodyheavener)
+[![](/assets/i/jody.jpg)](https://twitter.com/jodyheavener)
 
 ### <a href="https://twitter.com/jodyheavener">Jody Heavener</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/tyler.jpg)](https://twitter.com/tyler_paulson)
+[![](/assets/i/tyler.jpg)](https://twitter.com/tyler_paulson)
 
 ### <a href="https://twitter.com/tyler_paulson">Tyler Paulson</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/josh.jpg)](https://twitter.com/joshking)
+[![](/assets/i/josh.jpg)](https://twitter.com/joshking)
 
 ### <a href="https://twitter.com/joshking">Josh King</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/jacob.jpg)](https://twitter.com/jacobatruman)
+[![](/assets/i/jacob.jpg)](https://twitter.com/jacobatruman)
 
 ### <a href="https://twitter.com/jacobatruman">Jacob Truman</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/matt.jpg)](https://twitter.com/matto)
+[![](/assets/i/matt.jpg)](https://twitter.com/matto)
 
 ### <a href="https://twitter.com/matto">Matthew Oliphant</a>
 
-[![](https://plasticmind.com/wp-content/uploads/2021/03/jeff.jpg)](https://twitter.com/JeffLancaster6)
+[![](/assets/i/jeff.jpg)](https://twitter.com/JeffLancaster6)
 
 ### <a href="https://twitter.com/JeffLancaster6">Jeffrey Lancaster</a>
 
@@ -221,4 +222,4 @@ It's hard to pick out all the meaningful memories from 300+ hours of conversatio
 
 *Cowrok calls happen Monday - Friday from 10a-11:30a ET.  All are welcome. Follow <a href="https://twitter.com/plasticmind">@plasticmind</a> to get notified when a new session starts. *
 
-![](https://plasticmind.com/wp-content/uploads/2021/03/cowrokAsset-2@2x-1024x1024.png)
+![](/assets/i/cowrokAsset-2@2x-1024x1024.png)

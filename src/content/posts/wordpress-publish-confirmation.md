@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: 
 slug: wordpress-publish-confirmation
-featured_image_url: https://plasticmind.com/wp-content/uploads/2012/12/mollyguard.png
+featured_image_url: /assets/i/mollyguard.png
 alt_text: 
-primary_category: "Code"
-categories: ["Code", "WordPress"]
+primary_category: "Web Development"
+categories: ["Web Development", "Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -25,7 +25,7 @@ I don't typically like confirmation dialog boxes.  In nearly all cases, <a href=
 
 
 
-However, because of our existing WordPress set up, publishing an entry sets off a whole chain of events involving RSS feed readers, caches and a CDN that make it difficult to undo.  So I put together a simple WordPress function&#8212;a <a href="https://en.wikipedia.org/wiki/Big_red_button#Molly-guard">molly-guard</a>, if you will&#8212;that will trigger an &#8220;Are you sure you want to publish this?&#8221; confirmation alert before firing the actual publish event.
+However, because of our existing WordPress set up, publishing an entry sets off a whole chain of events involving RSS feed readers, caches and a CDN that make it difficult to undo.  So I put together a simple WordPress function—a <a href="https://en.wikipedia.org/wiki/Big_red_button#Molly-guard">molly-guard</a>, if you will—that will trigger an “Are you sure you want to publish this?” confirmation alert before firing the actual publish event.
 
 
 
@@ -60,7 +60,7 @@ EOT;
 
 
 
-**Note:** This affects only the initial &#8220;Publish&#8221; event, not successive &#8220;Update&#8221; events.  It's easy enough to modify it to include both.  Be sure to check out the <a href="https://gist.github.com/4337952">gist</a>&#8212;there are some revisions in there that might give you some ideas of how to tweak this to better suit your needs.
+**Note:** This affects only the initial “Publish” event, not successive “Update” events.  It's easy enough to modify it to include both.  Be sure to check out the <a href="https://gist.github.com/4337952">gist</a>—there are some revisions in there that might give you some ideas of how to tweak this to better suit your needs.
 
 
 

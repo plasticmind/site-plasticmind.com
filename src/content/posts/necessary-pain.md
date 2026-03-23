@@ -7,8 +7,8 @@ subtitle:
 slug: necessary-pain
 featured_image_url: 
 alt_text: 
-primary_category: "Uncategorized"
-categories: ["Uncategorized"]
+primary_category: "Miscellany"
+categories: ["Miscellany"]
 tags: []
 meta_description: 
 context: personal

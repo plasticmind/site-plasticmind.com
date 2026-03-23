@@ -7,9 +7,9 @@ subtitle:
 slug: how-to-improve-your-communication
 featured_image_url: 
 alt_text: 
-primary_category: "Heart"
-categories: ["Heart"]
-tags: ["anger", "communication", "counseling", "relationships"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -34,7 +34,7 @@ Dishonesty can take several forms.  Outright deceit is fairly straightforward: s
 
 
 
-The more important the message you need to convey to someone, the more thought you need to give to how it will be received.  Loving communication acts with another person's best interests in mind, asking the question: &#8220;What can I do to make this easier for someone to hear?&#8221;
+The more important the message you need to convey to someone, the more thought you need to give to how it will be received.  Loving communication acts with another person's best interests in mind, asking the question: “What can I do to make this easier for someone to hear?”
 
 
 

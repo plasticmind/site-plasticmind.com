@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: the-lonely-man-of-winter
-featured_image_url: https://plasticmind.com/wp-content/uploads/2010/07/sufjan1.jpg
+featured_image_url: /assets/i/sufjan1.jpg
 alt_text: 
-primary_category: "Ears"
-categories: ["Ears", "Journeys"]
-tags: ["alec duffy", "brooklyn", "music", "sufjan"]
+primary_category: "Music"
+categories: ["Music", "Journeys"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -39,10 +39,12 @@ The Lonely Man of Winter contains all the best elements of both Sufjan’s *Mich
 Have you ever driven down a road with snowbanks so high that you can’t see over them? White, winter canyons that muffle all sound and make you feel isolated. That is the distinct emotional picture the song left me with: cold, towering snowbanks on either side of you with bright, bright sunshine warming the top of your head.
 
 I tried my best to remember all of the lyrics, but I’m left only with fragments: “Hoppington’s hat”, “a world with unicorns and buffalo packs”, “everything that’s happened to us was someone else’s carpenter kiss.” But one stanza in particular was especially meaningful and stayed with me:
+
 <blockquote>I would rate the future
 If I could put my finger on it
 But I’m not sure that what I want
 Is better than what I would get.</blockquote>
+
 The song ends as it began, with the meandering piano providing a short reprise. The final chord is held for a moment and then, Sufjan’s foot comes off the sustain pedal a moment too soon and the song ends abruptly.
 
 <!--more-->

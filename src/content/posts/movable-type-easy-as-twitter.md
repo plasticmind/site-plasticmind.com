@@ -7,9 +7,9 @@ subtitle:
 slug: movable-type-easy-as-twitter
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
-tags: ["blogging", "Fluid", "Movable Type", "Twitter"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: ["Movable Type", "Twitter"]
 meta_description: 
 context: professional
 fix: true
@@ -25,7 +25,7 @@ In the previous article, I explained how to <a href="https://plasticmind.com/mov
 
 
 
-But <a href="https://movalog.com">Arvind</a> suggested one better: why not install the iMT plugin and have Movable Type run as a MenuExtra?  For those of you that don't know, MenuExtras are the little icons on the right-hand side of your OS X menu.  Putting Movable Type up there as a simple dropdown menu would make it almost as easy as&#8230; dare I say, Twitter?
+But <a href="https://movalog.com">Arvind</a> suggested one better: why not install the iMT plugin and have Movable Type run as a MenuExtra?  For those of you that don't know, MenuExtras are the little icons on the right-hand side of your OS X menu.  Putting Movable Type up there as a simple dropdown menu would make it almost as easy as… dare I say, Twitter?
 
 
 
@@ -58,7 +58,7 @@ Next, follow the instructions from <a href="https://plasticmind.com/movable-type
 
 
 
-**1.** On your application menu, change your User Agent to **Mobile Safari 1.13 &#8212; iPhone**.  This will trigger the display of the iMT interface for MT.
+**1.** On your application menu, change your User Agent to **Mobile Safari 1.13 — iPhone**.  This will trigger the display of the iMT interface for MT.
 
 
 
@@ -76,7 +76,7 @@ Next, follow the instructions from <a href="https://plasticmind.com/movable-type
 
 
 
-**3.** Again, on the application menu, select **Convert to MenuExtra.**  Fluid will ask to relaunch your instance and when it does&#8230;
+**3.** Again, on the application menu, select **Convert to MenuExtra.**  Fluid will ask to relaunch your instance and when it does…
 
 
 
@@ -100,7 +100,7 @@ Next, follow the instructions from <a href="https://plasticmind.com/movable-type
 
 
 
-<a href="https://plasticmind.com/assets/mt4-icon-small.png" title="Movable Type Fluid Icon, Small"><img src="https://plasticmind.com/assets/mt4-icon-small.png" alt="Movable Type Fluid Icon, Small" /></a>
+<a href="/assets/i/mt4-icon-small.png" title="Movable Type Fluid Icon, Small"><img src="/assets/i/mt4-icon-small.png" alt="Movable Type Fluid Icon, Small" /></a>
 
 
 

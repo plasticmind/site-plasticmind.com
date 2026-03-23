@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: with-a-little-help-from-my-friends
-featured_image_url: https://plasticmind.com/wp-content/uploads/2018/03/lina-silivanova-570244-unsplash.jpg
+featured_image_url: /assets/i/lina-silivanova-570244-unsplash.jpg
 alt_text: 
-primary_category: "Friends"
-categories: ["Friends"]
-tags: ["discovery", "explore", "friends"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: 
 context: personal
 fix: false

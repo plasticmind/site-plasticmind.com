@@ -7,8 +7,8 @@ subtitle:
 slug: to-whom-shall-we-go
 featured_image_url: 
 alt_text: 
-primary_category: "Ears"
-categories: ["Ears"]
+primary_category: "Music"
+categories: ["Music"]
 tags: []
 meta_description: 
 context: personal

@@ -7,9 +7,9 @@ subtitle:
 slug: six-apart-yo
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
-tags: ["Movable Type", "Six Apart", "tshirt"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false

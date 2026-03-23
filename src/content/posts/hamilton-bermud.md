@@ -7,8 +7,8 @@ subtitle:
 slug: hamilton-bermud
 featured_image_url: 
 alt_text: 
-primary_category: "Wedding"
-categories: ["Wedding"]
+primary_category: "People"
+categories: ["People"]
 tags: []
 meta_description: 
 context: personal

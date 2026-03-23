@@ -7,9 +7,9 @@ subtitle:
 slug: dropbox-rocks
 featured_image_url: 
 alt_text: 
-primary_category: "App"
-categories: ["App"]
-tags: ["backup", "blindmanproject", "dropbox", "freewrite", "mobileme", "sync"]
+primary_category: "Reviews"
+categories: ["Reviews"]
+tags: ["freewrite"]
 meta_description: 
 context: professional
 fix: false
@@ -43,7 +43,7 @@ There were a few hiccups.  The sync options were very confusing, and nonexistent
 
 
 
-But what really killed me was how slow file syncing was.  I used about 7Gb of my iDisk, and it literally took all night.  Understandable, but even incremental files being added after the initial sync took hours to show up on the other machines.  Worse yet, I kept coming across files that existed on my iDisk but had no data&#8212;something got lost in translation.
+But what really killed me was how slow file syncing was.  I used about 7Gb of my iDisk, and it literally took all night.  Understandable, but even incremental files being added after the initial sync took hours to show up on the other machines.  Worse yet, I kept coming across files that existed on my iDisk but had no data—something got lost in translation.
 
 
 
@@ -79,7 +79,7 @@ I can't tell you how useful it is to have all of my resource files everywhere I 
 
 
 
-But what really made me happy was when I got the iPhone app&#8212;now I can literally carry around all 40Gb of my personal files in my pocket.  You are limited to viewing only files the iPhone supports, but it's still terribly useful.  I can whip out my phone and pull up all my guitar chords, find a sermon I've preached, show off project progress to clients, even read PDF books I've got stored in my Dropbox.  And if there are certain active files you want to have available on your iPhone even if you're offline, just favorite it and you get a list of your favorite files, downloaded for instant access.
+But what really made me happy was when I got the iPhone app—now I can literally carry around all 40Gb of my personal files in my pocket.  You are limited to viewing only files the iPhone supports, but it's still terribly useful.  I can whip out my phone and pull up all my guitar chords, find a sermon I've preached, show off project progress to clients, even read PDF books I've got stored in my Dropbox.  And if there are certain active files you want to have available on your iPhone even if you're offline, just favorite it and you get a list of your favorite files, downloaded for instant access.
 
 
 
@@ -91,7 +91,7 @@ Dropbox is free if you use the 2Gb plan, but I felt like the 50Gb plan was worth
 
 
 
-Oh, and I almost forgot&#8230; For every person your refer to Dropbox, you get 500 MB and your friend gets 250 MB of bonus space (up to 16 GB).
+Oh, and I almost forgot… For every person your refer to Dropbox, you get 500 MB and your friend gets 250 MB of bonus space (up to 16 GB).
 
 
 

@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: 
 slug: december-making-day3-4-original-song-and-visualization
-featured_image_url: https://plasticmind.com/wp-content/uploads/2019/12/frame-001929.png
+featured_image_url: /assets/i/frame-001929.png
 alt_text: ""
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal

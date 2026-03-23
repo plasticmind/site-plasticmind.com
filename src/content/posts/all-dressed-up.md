@@ -7,9 +7,9 @@ subtitle:
 slug: all-dressed-up
 featured_image_url: 
 alt_text: 
-primary_category: "Eyes"
-categories: ["Eyes"]
-tags: ["artwork", "illustration"]
+primary_category: "Visual"
+categories: ["Visual"]
+tags: []
 meta_description: 
 context: personal
 fix: false

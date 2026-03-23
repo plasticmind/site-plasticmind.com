@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: "When I started this month, I knew this challenge was going to be a difficult one.  I'm not a rabid coffee drinker, but I do partake of it daily with a steady flow of soda throughout the day.  Let's just say it's enough caffeine that I notice when it's gone."
 slug: 30-days-without-caffeine
-featured_image_url: https://plasticmind.com/wp-content/uploads/2011/07/coffee.jpg
+featured_image_url: /assets/i/coffee.jpg
 alt_text: 
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
-tags: ["30 day challenge", "caffeine", "coffee"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: ["30 day challenge"]
 meta_description: 
 context: personal
 fix: false
@@ -25,7 +25,7 @@ The first day I had an awful migraine.  I was determined not even to take Excedr
 
 
 
-I did some research and discovered that two Excedrine tablets contain 130mg of caffeine.  To put this in perspective, a 16oz cup of drip-brew coffee (about the size I typically drink in the morning) contains just under 300mg of caffeine.  With this is mind, I tried to keep Excedrine as a last resort&#8212;though honestly I seemed to get migraines nearly twice a week.
+I did some research and discovered that two Excedrine tablets contain 130mg of caffeine.  To put this in perspective, a 16oz cup of drip-brew coffee (about the size I typically drink in the morning) contains just under 300mg of caffeine.  With this is mind, I tried to keep Excedrine as a last resort—though honestly I seemed to get migraines nearly twice a week.
 
 
 

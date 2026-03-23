@@ -67,7 +67,7 @@ But I left with so much more.  My mind was reeling the entire hour long ride bac
 
 
 
-And here I sit, reminding God how valuable I am.  Pointing out all the sacrifices I've made for Him.  Telling Him just how much I could do for Him if only&#8230;
+And here I sit, reminding God how valuable I am.  Pointing out all the sacrifices I've made for Him.  Telling Him just how much I could do for Him if only…
 
 
 

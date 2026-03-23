@@ -8,7 +8,7 @@ slug: the-responsibil
 featured_image_url: 
 alt_text: 
 primary_category: "Mind"
-categories: ["Mind", "Savior"]
+categories: ["Mind", "Faith"]
 tags: []
 meta_description: 
 context: personal

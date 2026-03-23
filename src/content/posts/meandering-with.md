@@ -7,8 +7,8 @@ subtitle:
 slug: meandering-with
 featured_image_url: 
 alt_text: 
-primary_category: "Retrospection"
-categories: ["Retrospection"]
+primary_category: "Memories"
+categories: ["Memories"]
 tags: []
 meta_description: 
 context: personal

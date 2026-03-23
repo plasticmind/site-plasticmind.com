@@ -7,8 +7,8 @@ subtitle:
 slug: movable-tweak
 featured_image_url: 
 alt_text: 
-primary_category: "0's and 1's"
-categories: ["0's and 1's"]
+primary_category: "Technology"
+categories: ["Technology"]
 tags: []
 meta_description: 
 context: professional
@@ -19,7 +19,7 @@ hits: 155
 
 			
 
-<a href="https://www.movabletweak.com"><img alt="movabletweak.gif" src="https://plasticmind.com/junk/movabletweak-thumb.gif" width="454" height="90" border="0" /></a>
+<a href="https://www.movabletweak.com"><img alt="movabletweak.gif" src="/assets/i/movabletweak-thumb.gif" width="454" height="90" border="0" /></a>
 
 
 

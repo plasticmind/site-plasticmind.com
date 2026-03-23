@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "How do you win an argument online?"
 slug: how-to-win-arguments-online
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/08/2453736816_074eb0420d_b.jpg
+featured_image_url: /assets/i/2453736816_074eb0420d_b.jpg
 alt_text: 
-primary_category: "Social Networking"
-categories: ["Social Networking"]
+primary_category: "Social Media & SEO"
+categories: ["Social Media & SEO"]
 tags: []
 meta_description: 
 context: personal

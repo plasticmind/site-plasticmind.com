@@ -7,9 +7,9 @@ subtitle:
 slug: shes-a-great-cook-its-just
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging", "Family Ties"]
-tags: ["cooking", "cornbread", "Jessica"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "People"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -25,7 +25,7 @@ My wife is a fantastic cook.  In fact, <a href="https://deliciousbits.com">her r
 
 
 
-<a href="https://deliciousbits.com"><img src="/assets/deliciousbits-analytics.png" alt="" /></a>
+<a href="https://deliciousbits.com"><img src="/assets/i/deliciousbits-analytics.png" alt="" /></a>
 
 
 

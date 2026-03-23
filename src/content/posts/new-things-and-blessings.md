@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: "This month's challenge to do something new every day has been difficult given my busy yet monotonous routine, but I've already found it to be profoundly rewarding."
 slug: new-things-and-blessings
-featured_image_url: https://plasticmind.com/wp-content/uploads/2011/04/877209842_7fc4dd77d3_b.jpg
+featured_image_url: /assets/i/877209842_7fc4dd77d3_b.jpg
 alt_text: 
 primary_category: "Journeys"
 categories: ["Journeys"]
-tags: ["30 day challenge", "giving"]
+tags: ["30 day challenge"]
 meta_description: 
 context: personal
 fix: false

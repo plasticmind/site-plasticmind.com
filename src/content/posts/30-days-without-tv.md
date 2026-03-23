@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: 
 slug: 30-days-without-tv
-featured_image_url: https://plasticmind.com/wp-content/uploads/2011/10/Splintered.png
+featured_image_url: /assets/i/Splintered.png
 alt_text: 
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal
@@ -31,7 +31,7 @@ My wife and I began our life together without television.  After her long days o
 
 
 
-Like any engrained habit, it was difficult to give up at first.  Not only did we have &#8220;our shows&#8221;, but we had our rituals (none worth recounting).  
+Like any engrained habit, it was difficult to give up at first.  Not only did we have “our shows”, but we had our rituals (none worth recounting).  
 
 
 
@@ -49,7 +49,7 @@ I am embarrassed to admit that kind of a reaction, given its relative insignific
 
 
 
-In fact, I found the whole exercise so fruitful that we decided to drop our cable altogether&#8212;saving about $70 monthly.  That's enough per year to pay for a weeklong camping trip.
+In fact, I found the whole exercise so fruitful that we decided to drop our cable altogether—saving about $70 monthly.  That's enough per year to pay for a weeklong camping trip.
 
 
 

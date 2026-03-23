@@ -7,8 +7,8 @@ subtitle:
 slug: dynamic-comment-previewing
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -54,7 +54,7 @@ Add the following code to the end of your mt-site.js and rebuild it:
 <code>// Dynamic Comment Preview - Kudos to Mike Industries for the inspiration!&lt;br /&gt;<br /><br />
 // D.C.P. - Comment Text&lt;br /&gt;<br /><br />
 function ReloadTextDiv() {&lt;br /&gt;<br /><br />
-&#160;&#160;&#160;&#160;document.getElementById('TextDisplay').innerHTML = '&lt;p&gt;'+document.getElementById('comment-text').value.replace(/(rn|n)/g,'&lt;br /&gt;').replace(/(&lt;br /&gt;){2,}/gi,'&lt;'+'/p&gt;&lt;p&gt;')+'&lt;'+'/p&gt;';&lt;br /&gt;<br /><br />
+    document.getElementById('TextDisplay').innerHTML = '&lt;p&gt;'+document.getElementById('comment-text').value.replace(/(rn|n)/g,'&lt;br /&gt;').replace(/(&lt;br /&gt;){2,}/gi,'&lt;'+'/p&gt;&lt;p&gt;')+'&lt;'+'/p&gt;';&lt;br /&gt;<br /><br />
 }&lt;br /&gt;<br /><br />
 // D.C.P. - Comment Author&lt;br /&gt;<br /><br />
 function ReloadNameDiv() {&lt;br /&gt;<br /><br />
@@ -81,22 +81,22 @@ We're now going to add the live preview "box" to your site.  Provided here is th
 
 
 
-<code>...&lt;/form&gt;&#160;&#160;&#160;&#160;<br /><br />
-&lt;div class="comments-content" id="preview"&gt;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&lt;h3 class="comments-preview"&gt;Comment Preview&lt;/h3&gt;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&lt;div class="comment"&gt;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;div id="TextDisplay"&gt;&lt;/div&gt;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;p class="comment-footer"&gt;Posted by:&#160;&#160;&#160;&#160; <br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;span class="author"&gt;&lt;a href="#" id="NameDisplay"&gt;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;script language="Javascript" type="text/javascript"&gt;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;!--&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var authname = getCookie("mtcmtauth");&#160;&#160;&#160;&#160; <br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;document.write(authname);&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//--&gt;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/script&gt;&lt;/a&gt;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/a&gt;&lt;/span&gt;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/p&gt;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&lt;/div&gt;&#160;&#160;&#160;&#160;<br /><br />
+<code>...&lt;/form&gt;    <br /><br />
+&lt;div class="comments-content" id="preview"&gt;    <br /><br />
+    &lt;h3 class="comments-preview"&gt;Comment Preview&lt;/h3&gt;    <br /><br />
+    &lt;div class="comment"&gt;    <br /><br />
+        &lt;div id="TextDisplay"&gt;&lt;/div&gt;    <br /><br />
+        &lt;p class="comment-footer"&gt;Posted by:     <br /><br />
+            &lt;span class="author"&gt;&lt;a href="#" id="NameDisplay"&gt;    <br /><br />
+                &lt;script language="Javascript" type="text/javascript"&gt;<br /><br />
+                &lt;!--    <br /><br />
+                var authname = getCookie("mtcmtauth");     <br /><br />
+                document.write(authname);    <br /><br />
+                //--&gt;    <br /><br />
+                &lt;/script&gt;&lt;/a&gt;    <br /><br />
+            &lt;/a&gt;&lt;/span&gt;    <br /><br />
+        &lt;/p&gt;    <br /><br />
+    &lt;/div&gt;    <br /><br />
 &lt;/div&gt;</code>
 
 

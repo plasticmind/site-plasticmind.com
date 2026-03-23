@@ -7,8 +7,8 @@ subtitle:
 slug: on-the-set-of-w
 featured_image_url: 
 alt_text: 
-primary_category: "Eyes"
-categories: ["Eyes", "Movies"]
+primary_category: "Visual"
+categories: ["Visual", "Reviews"]
 tags: []
 meta_description: 
 context: personal

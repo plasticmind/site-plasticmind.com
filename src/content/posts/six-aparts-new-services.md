@@ -7,9 +7,9 @@ subtitle:
 slug: six-aparts-new-services
 featured_image_url: 
 alt_text: 
-primary_category: "CMS"
-categories: ["CMS"]
-tags: ["acquisition", "Apperceptive", "media", "services", "Six Apart"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false
@@ -67,7 +67,7 @@ hits: 425
 
 
 
-**1.** There's plenty of work to go around.  No really&#8212;talk to any Movable Type developer and you'll probably find out that they're schedule is full. <br />
+**1.** There's plenty of work to go around.  No really—talk to any Movable Type developer and you'll probably find out that they're schedule is full. <br />
 **2.**  As Six Apart begins to showcase VIP websites that have been built with their products, the demand for similar sites will skyrocket.  That means more work for consultants! <br />
 **3.**  Six Apart cannot succeed by itself.  Just like Apple or Microsoft, they need a well-learned and well-equipped group of developers using their products in creative ways.  It's not in their best interest to poach customers because their ultimate goal is to promote the product. <br />
 **4.**  As Six Apart uses their own product, it's also in their best interest to streamline the process of development and promote best practices and useful APIs with exhaustive documentation.  In short, a better Movable Type is even more valuable to Six Apart than ever before.   

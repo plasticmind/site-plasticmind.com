@@ -7,8 +7,8 @@ subtitle:
 slug: the-silver-jellybean-part-1
 featured_image_url: 
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
+primary_category: "Writing"
+categories: ["Writing"]
 tags: []
 meta_description: 
 context: personal

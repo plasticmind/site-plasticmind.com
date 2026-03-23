@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: 
 slug: crush-images
-featured_image_url: https://plasticmind.com/wp-content/uploads/2014/09/crunch1.jpg
+featured_image_url: /assets/i/crunch1.jpg
 alt_text: ""
-primary_category: "Tech Tips"
-categories: ["Tech Tips"]
-tags: ["images", "performance"]
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -22,7 +22,7 @@ Aside: When we launched <a title="Simply Recipes Redesign" href="https://www.sim
 
 I use <a href="https://incident57.com/codekit/">CodeKit</a> for Sass preprocessing. It's great, it really is. However, the "Optimize Images" seems to be a bit lacking.  I clicked it, saw savings of 15-20% and went on my merry way, assuming my images had been sufficiently crunched.  However, Google's PageSpeed Test was still complaining:
 
-<img class="alignnone size-full wp-image-5090" src="https://plasticmind.com/wp-content/uploads/2014/09/optimize.png" alt="optimize" width="533" height="186" />
+<img class="alignnone size-full wp-image-5090" src="/assets/i/optimize.png" alt="optimize" width="533" height="186" />
 
 After a bit of research, I found several useful tools that helped optimize my image sizes even further.  I used <a href="https://tinypng.com/">TinyPNG</a> to crush the files even further, some files being reduced by up to 80%.  Keep in mind this is a lossy operation; though I did side-by-side tests on several of the important images and couldn't tell the difference.  After running them through TinyPNG I installed <a href="https://imageoptim.com/">ImageOptim</a> (free Mac app, try <a href="https://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer">FileOptimizer</a> if you're on PC) and ran them all through that app for further optimization.
 

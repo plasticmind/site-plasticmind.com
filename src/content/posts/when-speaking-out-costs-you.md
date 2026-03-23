@@ -7,8 +7,8 @@ subtitle: "A historical perspective on the political cost that often comes with 
 slug: when-speaking-out-costs-you
 featured_image_url: 
 alt_text: 
-primary_category: "Savior"
-categories: ["Savior"]
+primary_category: "Faith"
+categories: ["Faith"]
 tags: []
 meta_description: 
 context: personal

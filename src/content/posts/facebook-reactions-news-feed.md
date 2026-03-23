@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: facebook-reactions-news-feed
-featured_image_url: https://plasticmind.com/wp-content/uploads/2016/02/reactions-2.png
+featured_image_url: /assets/i/reactions-2.png
 alt_text: 
-primary_category: "Social Networking"
-categories: ["Social Networking"]
-tags: ["emotion", "facebook", "reactions"]
+primary_category: "Social Media & SEO"
+categories: ["Social Media & SEO"]
+tags: ["facebook"]
 meta_description: 
 context: professional
 fix: false

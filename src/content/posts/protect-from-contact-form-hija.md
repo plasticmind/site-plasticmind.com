@@ -7,8 +7,8 @@ subtitle:
 slug: protect-from-contact-form-hija
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -34,24 +34,24 @@ Initially, I had written a very basic PHP mailer script that slurped the data pa
 
 
 
-<code>&lt;?php&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;<br /><br />
-$sender = Trim(stripslashes($_POST['Email']));&#160;&#160;&#160;&#160;<br /><br />
-$recipient = "jesse@plasticmind.com";&#160;&#160;&#160;&#160;<br /><br />
-$subject = Trim(stripslashes($_POST['Subject']));&#160;&#160;&#160;&#160; <br /><br />
-$message = Trim(stripslashes($_POST['Message']));&#160;&#160;&#160;&#160; <br /><br />
-&#160;&#160;&#160;&#160;<br /><br />
-$body = "PlasticMind Designn";&#160;&#160;&#160;&#160;<br /><br />
-$body .= "You have a new message from " . $recipient;&#160;&#160;&#160;&#160;<br /><br />
-$body .= "Message: " . $message;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;<br /><br />
-$success = mail($recipient, $subject, $body, "From: &lt;$sender&gt;");&#160;&#160;&#160;&#160;<br /><br />
-if ($success){&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;echo "&lt;meta http-equiv="refresh" content="0;URL=/"&gt;";&#160;&#160;&#160;&#160;<br /><br />
-}&#160;&#160;&#160;&#160;<br /><br />
-else{&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;die("Something bad happened!");&#160;&#160;&#160;&#160;<br /><br />
-}&#160;&#160;&#160;&#160;<br /><br />
+<code>&lt;?php    <br /><br />
+    <br /><br />
+$sender = Trim(stripslashes($_POST['Email']));    <br /><br />
+$recipient = "jesse@plasticmind.com";    <br /><br />
+$subject = Trim(stripslashes($_POST['Subject']));     <br /><br />
+$message = Trim(stripslashes($_POST['Message']));     <br /><br />
+    <br /><br />
+$body = "PlasticMind Designn";    <br /><br />
+$body .= "You have a new message from " . $recipient;    <br /><br />
+$body .= "Message: " . $message;    <br /><br />
+    <br /><br />
+$success = mail($recipient, $subject, $body, "From: &lt;$sender&gt;");    <br /><br />
+if ($success){    <br /><br />
+    echo "&lt;meta http-equiv="refresh" content="0;URL=/"&gt;";    <br /><br />
+}    <br /><br />
+else{    <br /><br />
+    die("Something bad happened!");    <br /><br />
+}    <br /><br />
 ?&gt;</code> 
 
 
@@ -94,11 +94,11 @@ This code was functional, but customizing it was a pain, as well as it not being
 
 Worse yet, I found out that the evil SP-MMERS were trying to hijaack it by inserting false headers into the subject and sender fields and essentially use my contact form as a relay for their spam.  This is where the little 'n' varmint shows up again.  Obviously, they couldn't change the primary recipient of the email.  That is set up by the variable *$recipient* at the beginning of the code.  Ah, but let's not forget CC:, BCC:, etc.  In the email address field, for example, instead of entering *friendlyuser@plasticmind.com*, they'd enter *maliciousspammer@plasticmind.comnbcc:unsuspectingvictim@movabletweak.com*.  The new line character fooled my script into thinking we were sending the email to unsuspectingvictim@movabletweak.com as well as jesse@plasticmind.com.  Sometimes they'd even get elaborate and enter MIME types and other mail headers such as:<br />
     <br />
-<code>Content-Type: text/plain; charset="us-ascii"&#160;&#160;&#160;&#160;<br /><br />
-MIME-Version: 1.0&#160;&#160;&#160;&#160;<br /><br />
-Content-Transfer-Encoding: 7bit&#160;&#160;&#160;&#160;<br /><br />
-Subject: scornfully tis foolish. iver&#160;&#160;&#160;&#160;<br /><br />
-bcc: charleslegbe@aol.com&#160;&#160;&#160;&#160;<br /><br />
+<code>Content-Type: text/plain; charset="us-ascii"    <br /><br />
+MIME-Version: 1.0    <br /><br />
+Content-Transfer-Encoding: 7bit    <br /><br />
+Subject: scornfully tis foolish. iver    <br /><br />
+bcc: charleslegbe@aol.com    <br /><br />
 e3dfcabdd3ee3a1ac7f2668893284676</code>
 
 
@@ -122,15 +122,15 @@ Then I remembered a sage web proverb:  *Never trust a user's input.*
 
 We've got some serious PHP validation to do, but first things first.  Let's help our users out with a little javascript validation on the actual form page:<br />
   <br />
-<code>&lt;script Language="JavaScript"&gt;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;function CheckInput(contactform)&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;{&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if ((contactform.Email.value == "")||(contactform.Subject.value == "")||(contactform.Subject.value == ""))&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alert("You must fill in all required fields. (*)");&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return false;&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}&#160;&#160;&#160;&#160;<br /><br />
-&#160;&#160;&#160;&#160;}&#160;&#160;&#160;&#160;<br /><br />
+<code>&lt;script Language="JavaScript"&gt;    <br /><br />
+    function CheckInput(contactform)    <br /><br />
+    {    <br /><br />
+        if ((contactform.Email.value == "")||(contactform.Subject.value == "")||(contactform.Subject.value == ""))    <br /><br />
+        {    <br /><br />
+            alert("You must fill in all required fields. (*)");    <br /><br />
+            return false;    <br /><br />
+        }    <br /><br />
+    }    <br /><br />
 &lt;/script&gt;</code>
 
 

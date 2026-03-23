@@ -7,8 +7,8 @@ subtitle:
 slug: photo-a-day
 featured_image_url: 
 alt_text: 
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge", "Eyes"]
+primary_category: "Personal"
+categories: ["Personal", "Visual"]
 tags: ["30 day challenge"]
 meta_description: 
 context: personal
@@ -25,7 +25,7 @@ hits: 290
 
 
 
-Now before you start complaining that there are only 28 days in February&#8212;I realize that.  I'm using the term &#8220;30 Day Challenge&#8221; loosely, so settle down.
+Now before you start complaining that there are only 28 days in February—I realize that.  I'm using the term “30 Day Challenge” loosely, so settle down.
 
 
 
@@ -37,7 +37,7 @@ And no, I haven't forgotten about it.  You thought I had, didn't you?  You thoug
 
 
 
-Seriously, though, I've been taking at least a photo day and posting it to Flickr, but I realized that I didn't want the photos taken for the challenge getting mixed with all the other &#8220;stuff&#8221; I post to Flickr; so I created a <a href="https://photos.plasticmind.com/challenge/">special section on my photoblog for surfacing the 30 day challenge photos</a>.
+Seriously, though, I've been taking at least a photo day and posting it to Flickr, but I realized that I didn't want the photos taken for the challenge getting mixed with all the other “stuff” I post to Flickr; so I created a <a href="https://photos.plasticmind.com/challenge/">special section on my photoblog for surfacing the 30 day challenge photos</a>.
 
 
 

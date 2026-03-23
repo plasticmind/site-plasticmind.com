@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: 
 slug: following-jesus
-featured_image_url: https://plasticmind.com/wp-content/uploads/2008/01/road_edit.jpg
+featured_image_url: /assets/i/road_edit.jpg
 alt_text: 
-primary_category: "Savior"
-categories: ["Savior"]
-tags: ["faith", "Jesus", "religion", "Sermon on the Mount"]
+primary_category: "Faith"
+categories: ["Faith"]
+tags: []
 meta_description: "This isn't a systematic theology, just a simple breakdown of the basic teachings of Jesus, taken from his sermon in Matthew 5 through 7."
 context: personal
 fix: false

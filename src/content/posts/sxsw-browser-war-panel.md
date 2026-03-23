@@ -7,9 +7,9 @@ subtitle:
 slug: sxsw-browser-war-panel
 featured_image_url: 
 alt_text: 
-primary_category: "Accessibility"
-categories: ["Accessibility", "CSS"]
-tags: ["browsers", "interoperability", "standards", "sxsw", "sxsw08"]
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: ["sxsw"]
 meta_description: 
 context: professional
 fix: false
@@ -54,7 +54,7 @@ First point: Where is Apple?  They wouldn't send anyone to this panel.
 
 
 
-**What's going on with HTML5?**  Chris Wilson, Microsoft employee, is co-chair, but the HTML5 workgroup site specifically says that it will be an open standard, unlike Silverlight (Microsoft's proprietary &#8220;Flash-killer&#8221;).
+**What's going on with HTML5?**  Chris Wilson, Microsoft employee, is co-chair, but the HTML5 workgroup site specifically says that it will be an open standard, unlike Silverlight (Microsoft's proprietary “Flash-killer”).
 
 
 

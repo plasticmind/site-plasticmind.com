@@ -1,14 +1,14 @@
 ---
-title: "&#8220;Distracted With Much Serving&#8221;"
+title: "“Distracted With Much Serving”"
 date: 2012-08-14 07:39:53
 archive: false
 excerpt: 
 subtitle: "I just began a 6-week sabbatical from my ministry responsibilities at Oxford Valley Chapel.  I've been serving as associate pastor there for over six years, and this time away was much needed, for several reasons. "
 slug: sabbatical
-featured_image_url: https://plasticmind.com/wp-content/uploads/2012/08/harmony.png
+featured_image_url: /assets/i/harmony.png
 alt_text: 
-primary_category: "Heart"
-categories: ["Heart"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal
@@ -19,7 +19,7 @@ hits: 399|399
 
 			
 
-First, for spiritual renewal and refreshment.  As any pastor or ministry leader knows, the pressure and strain of ministry can be heavy at times.  Recently, the Lord has convicted me that while I've been very busy lately doing the work of the ministry, I haven't been focusing on spiritual growth as I should.  I was reminded in my Bible reading the other day of Martha. Luke 10:40 says that Martha was &#8220;distracted with much serving&#8221;.  She was cleaning house, taking care of business, doing some important things; but she was distracted from worshipping at the feet of Jesus, something that Jesus called &#8220;the better part&#8221;.  I've been so focused on serving that I haven't been sitting at the feet of Jesus like I should be.
+First, for spiritual renewal and refreshment.  As any pastor or ministry leader knows, the pressure and strain of ministry can be heavy at times.  Recently, the Lord has convicted me that while I've been very busy lately doing the work of the ministry, I haven't been focusing on spiritual growth as I should.  I was reminded in my Bible reading the other day of Martha. Luke 10:40 says that Martha was “distracted with much serving”.  She was cleaning house, taking care of business, doing some important things; but she was distracted from worshipping at the feet of Jesus, something that Jesus called “the better part”.  I've been so focused on serving that I haven't been sitting at the feet of Jesus like I should be.
 
 
 
@@ -37,7 +37,7 @@ We have a lot of things planned.  I'm still working every day for Simply Recipes
 
 
 
-I'm looking forward to this time away quite a lot&#8212;even the few days I've been gone so far have been restorative.  I love my church family, but we all need to steal away to the desert place sometimes for a respite.  Even Jesus escaped the crowds of people&#8212;many of whom were in desperate, genuine need&#8212;for a time of quietness and prayer.
+I'm looking forward to this time away quite a lot—even the few days I've been gone so far have been restorative.  I love my church family, but we all need to steal away to the desert place sometimes for a respite.  Even Jesus escaped the crowds of people—many of whom were in desperate, genuine need—for a time of quietness and prayer.
 
 
 

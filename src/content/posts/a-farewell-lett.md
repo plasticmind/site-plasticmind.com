@@ -7,8 +7,8 @@ subtitle:
 slug: a-farewell-lett
 featured_image_url: 
 alt_text: 
-primary_category: "Retrospection"
-categories: ["Retrospection"]
+primary_category: "Memories"
+categories: ["Memories"]
 tags: ["New York"]
 meta_description: 
 context: personal

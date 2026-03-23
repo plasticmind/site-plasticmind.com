@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: scream-tracker-made-me-love-electronica
-featured_image_url: https://plasticmind.com/wp-content/uploads/2008/04/st3.png
+featured_image_url: /assets/i/st3.png
 alt_text: 
-primary_category: "Ears"
-categories: ["Ears"]
-tags: ["electronica", "future crew", "impulse tracker", "mod", "music", "scream tracker", "second reality", "skaven", "tracking"]
+primary_category: "Music"
+categories: ["Music"]
+tags: []
 meta_description: 
 context: personal
 fix: false

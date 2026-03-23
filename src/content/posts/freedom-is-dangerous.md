@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: 
 slug: freedom-is-dangerous
-featured_image_url: https://plasticmind.com/wp-content/uploads/2010/04/10407376474_bd1d5eb619_k.jpg
+featured_image_url: /assets/i/10407376474_bd1d5eb619_k.jpg
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
-tags: ["blindmanproject", "freedom", "freewrite", "politics", "rights"]
+primary_category: "Writing"
+categories: ["Writing"]
+tags: ["freewrite"]
 meta_description: 
 context: personal
 fix: false

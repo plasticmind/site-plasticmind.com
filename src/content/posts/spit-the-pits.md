@@ -5,7 +5,7 @@ archive: false
 excerpt: 
 subtitle: "Have you ever had someone tell you something that was true, but you write it off because of who it’s coming from or how they’re telling you?"
 slug: spit-the-pits
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/09/grass-1.jpg
+featured_image_url: /assets/i/grass-1.jpg
 alt_text: 
 primary_category: "Mind"
 categories: ["Mind"]

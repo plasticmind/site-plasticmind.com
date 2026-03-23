@@ -8,7 +8,7 @@ slug: the-style-archive-with-mt4
 featured_image_url: 
 alt_text: 
 primary_category: "Design"
-categories: ["Design", "Movable Type"]
+categories: ["Design", "Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional

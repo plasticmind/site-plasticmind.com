@@ -7,9 +7,9 @@ subtitle:
 slug: using-htaccess-voodoo-for-unde
 featured_image_url: 
 alt_text: 
-primary_category: "SEO"
-categories: ["SEO"]
-tags: ["dashes", "htaccess", "mod rewrite", "redirects", "underscores"]
+primary_category: "Social Media & SEO"
+categories: ["Social Media & SEO"]
+tags: []
 meta_description: 
 context: professional
 fix: false

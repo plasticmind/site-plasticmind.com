@@ -5,7 +5,7 @@ archive: false
 excerpt: 
 subtitle: "Ok, get some popcorn. Here's my crazy NYC story about a tornado, a rented Mustang, 3 strangers, and a fracas involving a labradoodle and the NYPD."
 slug: nyc-ruckus
-featured_image_url: https://plasticmind.com/wp-content/uploads/2018/05/IMG_3569-2.jpg
+featured_image_url: /assets/i/IMG_3569-2.jpg
 alt_text: ""
 primary_category: "Journeys"
 categories: ["Journeys"]
@@ -30,7 +30,7 @@ We four strangers all made the crazy decision to leave the train together and gi
 
 We hailed a taxi outside Penn Station, loaded our stuff into the trunk, and begin to pile in. However, when the driver saw the dog, he told us to get out. A shouting match between N– and the driver ensued, which only grew louder when he begin to drive off (with our stuff in the trunk). We managed to get him to pull over and were able to retrieve our luggage. We decided the dog should go into the carrier to make our chances of getting a taxi better, and sure enough, we got one soon afterwards.
 
-<img class="alignnone size-large wp-image-5533" src="https://plasticmind.com/wp-content/uploads/2018/05/54812584472__9A2E0EC4-644D-4640-ADEE-3FBADF1258D2-769x1024.jpeg" alt="" width="769" height="1024" />
+<img class="alignnone size-large wp-image-5533" src="/assets/i/54812584472__9A2E0EC4-644D-4640-ADEE-3FBADF1258D2-769x1024.jpeg" alt="" width="769" height="1024" />
 
 Crammed into a taxi with strangers and now even more agitated than before, we headed north and arrived at the rental agency. We hurried inside and were surprised to find a relatively small line at the rental counter, so I waited with B–, I–, and the dog while N– got in line to secure the rental car. B took the dog out of the carrier and put it on a leash to stretch a bit and walk around (the poor thing had also been cooped up waiting for the train). The dog must have come a little too close to the security guard, because the guard growled “Get that dog away from me, or I’ll kick it.” Needless to stay, this started yet another profanity-laced confrontation centered around the dog. (Remember the recurring theme?)I decided to check on N– to see how the rental was coming along, and I told her about the guard’s threat, which in hindsight was a mistake, because upon hearing it, she stormed out into the garage and put on a charade (tears included) about how the dog was her service dog. This escalated the situation – which I was watching from the back office – even more.
 
@@ -40,7 +40,7 @@ The man waiting in line behind me found this all amusing — until the cops were
 
 I– left the office, which brought the temperature down, and the irate customer scribbled his name on the paperwork and disappeared into the angry New York City night. I stayed pretty much quiet, repeating over and over in my head: “cooler heads prevail.” I really wanted to get home – with or without this group – so I calmly asked the manager if he’d be willing to rent to me. I was just a stranded train passenger trying to make peace and get home to his family, no matter how crazy the strangers he just met tonight were. Cooler heads prevailed. The manager said yes.A few minutes later, an NYPD officer who seemed friendly with the manager came in and asked what was up. The manager told the officer that the group out there was making a scene and that he wasn’t going to rent to them. The officer and manager left the office to sort things out (presumably), and I continued to wait for that precious paperwork, which seemed to be taking a long, long time. Eventually, the manager and the officer returned, and the officer pulled me aside, “Look, they’ll rent to you, but only if you’re not a part of this group.” I assured him I only met these people tonight. “Okay, but the woman out there says you’re her friend and you’re lining up the rental.” I argued that while I was hoping to drive them home so we could split the cost, the rental was on my credit card, and I was taking the risk. He lowered his voice, “Fine. I’m just going to have them wait down the street. If you decide to pick them up after you rent the car, that’s your decision.” *Fair enough.*
 
-<img class="alignnone size-large wp-image-5534" src="https://plasticmind.com/wp-content/uploads/2018/05/54812777841__2045D251-921A-4049-9C9B-739086D7F63A-768x1024.jpeg" alt="" width="768" height="1024" />
+<img class="alignnone size-large wp-image-5534" src="/assets/i/54812777841__2045D251-921A-4049-9C9B-739086D7F63A-768x1024.jpeg" alt="" width="768" height="1024" />
 
 I signed the paperwork, thanked the manager, and courteously suggested that if his employee had *not* threatened the dog but simply asked them to step outside, this whole thing might have been avoided. Not surprisingly, everyone there tried to justify their own actions (including the security guard).
 
@@ -50,4 +50,4 @@ The rest of the story includes some additionally absurd highlights, like deep ph
 
 The upside of all of this? I got to take my kids joyriding last night before returning the car.
 
-<img class="alignnone size-large wp-image-5532" src="https://plasticmind.com/wp-content/uploads/2018/05/IMG_3129-2-756x1024.jpg" alt="" width="756" height="1024" />
+<img class="alignnone size-large wp-image-5532" src="/assets/i/IMG_3129-2-756x1024.jpg" alt="" width="756" height="1024" />

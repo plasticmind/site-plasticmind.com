@@ -7,9 +7,9 @@ subtitle:
 slug: movable-type-community-solutions
 featured_image_url: 
 alt_text: 
-primary_category: "CMS"
-categories: ["CMS"]
-tags: ["community", "documentation", "Movable Type", "MTCS", "reviews", "social networking"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false
@@ -55,7 +55,7 @@ I cracked open MTCS for the first time tonight for a project I'm working on.  He
 
 
 
-**6. User Profiles.**  Better than nothing, but still weak.  The only thing they've added is a &#8220;Userpic&#8221; field, but there are no dimensions listed for it.  Could we at least have a bio field (user description, in keeping with our naming schemes)?
+**6. User Profiles.**  Better than nothing, but still weak.  The only thing they've added is a “Userpic” field, but there are no dimensions listed for it.  Could we at least have a bio field (user description, in keeping with our naming schemes)?
 
 
 
@@ -67,7 +67,7 @@ I cracked open MTCS for the first time tonight for a project I'm working on.  He
 
 
 
-**8. Forums and Community Blogs.**  Well, after actually installing a forum and a blog, I realized that what I said earlier wasn't entirely true.  Even though the Community Solution seems to be primarily a set of templates, it does require mt-cp.cgi, which seems to be the file that handles posting a new blog item or a new forum topic.  It's almost like a simplified shell for MT.  Oh, and the forum UI is slightly confusing with a hint of 90's thrown in to boot: I had to click the number zero next to the word &#8220;favorite&#8221; to vote (after a manner) for a particular topic, and all the random icons are a bit disorienting.
+**8. Forums and Community Blogs.**  Well, after actually installing a forum and a blog, I realized that what I said earlier wasn't entirely true.  Even though the Community Solution seems to be primarily a set of templates, it does require mt-cp.cgi, which seems to be the file that handles posting a new blog item or a new forum topic.  It's almost like a simplified shell for MT.  Oh, and the forum UI is slightly confusing with a hint of 90's thrown in to boot: I had to click the number zero next to the word “favorite” to vote (after a manner) for a particular topic, and all the random icons are a bit disorienting.
 
 
 

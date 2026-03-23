@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: my-alien-abduction
-featured_image_url: https://plasticmind.com/wp-content/uploads/2007/11/2014568741_6d26d1d0b7_b.jpg
+featured_image_url: /assets/i/2014568741_6d26d1d0b7_b.jpg
 alt_text: 
-primary_category: "Eyes"
-categories: ["Eyes"]
-tags: ["fog", "gloom", "lights"]
+primary_category: "Visual"
+categories: ["Visual"]
+tags: []
 meta_description: 
 context: personal
 fix: false

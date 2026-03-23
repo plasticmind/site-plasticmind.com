@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: 
 slug: december-making-day5-music-art-processing
-featured_image_url: https://plasticmind.com/wp-content/uploads/2019/12/2019-12-09-at-11.47-PM-scaled.png
+featured_image_url: /assets/i/2019-12-09-at-11.47-PM-scaled.png
 alt_text: "Jesse Gardner screencast"
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
-tags: ["audio", "audiovisualization", "music", "processing", "processingjs"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: []
 meta_description: "Some things I learned about audio visualization, like evaluating FFT spectral analysis and translating those values into intensity scores for use with graphic elements and visual coordinates."
 context: personal
 fix: false

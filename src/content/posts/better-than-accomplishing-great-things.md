@@ -7,9 +7,9 @@ subtitle:
 slug: better-than-accomplishing-great-things
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging", "The Pen"]
-tags: ["blindmanproject", "freewrite", "leadership", "listening"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "Writing"]
+tags: ["freewrite"]
 meta_description: 
 context: personal
 fix: false
@@ -25,7 +25,7 @@ hits: 143
 
 
 
-This principle is especially important when you're new.  People are more likely to get behind someone they trust, and if you're new, that trust hasn't yet been established.  To put it plainly, the brilliance of your ideas matters very little to people who don't trust you.  Don't discount trust.  The early Greek democracy sentenced Plato to death because he asked to many questions and was considered a rabble-rouser&#8212;they didn't trust him.
+This principle is especially important when you're new.  People are more likely to get behind someone they trust, and if you're new, that trust hasn't yet been established.  To put it plainly, the brilliance of your ideas matters very little to people who don't trust you.  Don't discount trust.  The early Greek democracy sentenced Plato to death because he asked to many questions and was considered a rabble-rouser—they didn't trust him.
 
 
 

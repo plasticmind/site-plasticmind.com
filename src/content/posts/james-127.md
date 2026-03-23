@@ -7,8 +7,8 @@ subtitle:
 slug: james-127
 featured_image_url: 
 alt_text: 
-primary_category: "Savior"
-categories: ["Savior"]
+primary_category: "Faith"
+categories: ["Faith"]
 tags: []
 meta_description: 
 context: personal
@@ -43,7 +43,7 @@ Now that's religion right there.
 
 
 
-<a href="https://plasticmind.com/junk/pcchelp.php" onclick="window.open('https://plasticmind.com/junk/pcchelp.php','popup','width=675,height=597,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/junk/pcchelp-thumb.gif" width="100" height="88" alt="" /></a>
+<a href="https://plasticmind.com/junk/pcchelp.php" onclick="window.open('https://plasticmind.com/junk/pcchelp.php','popup','width=675,height=597,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="/assets/i/pcchelp-thumb.gif" width="100" height="88" alt="" /></a>
 
 
 

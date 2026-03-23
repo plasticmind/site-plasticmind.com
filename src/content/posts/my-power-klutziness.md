@@ -7,8 +7,8 @@ subtitle:
 slug: my-power-klutziness
 featured_image_url: 
 alt_text: 
-primary_category: "Kicks and Giggles"
-categories: ["Kicks and Giggles"]
+primary_category: "Humor"
+categories: ["Humor"]
 tags: []
 meta_description: 
 context: personal

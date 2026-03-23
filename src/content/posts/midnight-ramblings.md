@@ -7,8 +7,8 @@ subtitle:
 slug: midnight-ramblings
 featured_image_url: 
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
+primary_category: "Writing"
+categories: ["Writing"]
 tags: []
 meta_description: 
 context: personal
@@ -56,7 +56,7 @@ Ultimately I ended up with a passage from Emerson's *Nature* running through my 
 <blockquote>
   
 
-Crossing a bare common, in snow puddles, at twilight, under a clouded sky, without having in my thoughts any occurrence of special good fortune, I have enjoyed a perfect exhilaration. Almost I fear I think how glad I am. In the woods, too, a man casts off his years, as the snake his slough, and at what period soever of life is always a child. In the woods, is perpetual youth. Within these plantations of God, a decorum and a sanctity reign, a perennial festival is dressed,, and the guest sees not how he should tire of them in a thousand years. In the woods, we return to reason and faith. There I feel that nothing can befal me in life, &#8212; no disgrace, no calamity, (leaving me my eyes,) which nature cannot repair. Standing on the bare ground, &#8212; my head bathed by the blithe air, and uplifted into infinite space, &#8212; all mean egotism vanishes.**I become a transparent eye-ball. I am nothing. I see all.** The currents of the Universal Being circulate through me; I am part or particle of God.
+Crossing a bare common, in snow puddles, at twilight, under a clouded sky, without having in my thoughts any occurrence of special good fortune, I have enjoyed a perfect exhilaration. Almost I fear I think how glad I am. In the woods, too, a man casts off his years, as the snake his slough, and at what period soever of life is always a child. In the woods, is perpetual youth. Within these plantations of God, a decorum and a sanctity reign, a perennial festival is dressed,, and the guest sees not how he should tire of them in a thousand years. In the woods, we return to reason and faith. There I feel that nothing can befal me in life, — no disgrace, no calamity, (leaving me my eyes,) which nature cannot repair. Standing on the bare ground, — my head bathed by the blithe air, and uplifted into infinite space, — all mean egotism vanishes.**I become a transparent eye-ball. I am nothing. I see all.** The currents of the Universal Being circulate through me; I am part or particle of God.
 
 
 </blockquote>
@@ -69,7 +69,7 @@ Those words have always been so full of essence for me because they best describ
 
 
 
-But you're probably thinking that I skipped a part, so I need to go back and explain the transition from my religion to transcendentalism.  Trying to do so is like trying to recount yesterday's dream: some parts are so vivid and some parts are vague but the transitions are the really difficult parts to recall.  *&#8220;I was standing high atop a cliff, and I was studying algebra; then I was in our old house, I can't quite remember how I got there.&#8221;*
+But you're probably thinking that I skipped a part, so I need to go back and explain the transition from my religion to transcendentalism.  Trying to do so is like trying to recount yesterday's dream: some parts are so vivid and some parts are vague but the transitions are the really difficult parts to recall.  *“I was standing high atop a cliff, and I was studying algebra; then I was in our old house, I can't quite remember how I got there.”*
 
 
 
@@ -81,7 +81,7 @@ The reasonable part of my brain is telling me that this is an aggrandized cop-ou
 
 
 
-So my raging emotions must sit beneath the schoolmaster of reason yet again.  I picture my emotion at a chalkboard, writing out one hundred times: &#8220;I will accept responsibility for my beliefs and my actions.&#8221;, writing this while reason peers over his horn-rimmed spectacles.  But the eyes are not on the board, they are staring out the window, lost in imagination.
+So my raging emotions must sit beneath the schoolmaster of reason yet again.  I picture my emotion at a chalkboard, writing out one hundred times: “I will accept responsibility for my beliefs and my actions.”, writing this while reason peers over his horn-rimmed spectacles.  But the eyes are not on the board, they are staring out the window, lost in imagination.
 
 
 

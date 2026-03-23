@@ -7,9 +7,9 @@ subtitle:
 slug: the-joy-anchor
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging", "The Pen"]
-tags: ["blindmanproject", "faith", "freewrite", "joy"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "Writing"]
+tags: ["freewrite"]
 meta_description: 
 context: personal
 fix: false
@@ -31,7 +31,7 @@ What's got me particularly thoughtful is Paul's perspective on the source of joy
 
 
 
-So that perspective&#8212;that faith&#8212;acts as an anchor, wedged solidly against the rocks on the ocean floor.  The storms above the surface may toss the vessel violently, but there is an overall fixedness to it's position.  And it is exactly that fixedness that makes sense out of Jesus' words in Matthew 5: &#8220;Blessed are you when men revile you, and persecute you, and say all manner of evil against you falsely for my sake.  Rejoice and be exceeding glad, for great is your reward in heaven.&#8221;
+So that perspective—that faith—acts as an anchor, wedged solidly against the rocks on the ocean floor.  The storms above the surface may toss the vessel violently, but there is an overall fixedness to it's position.  And it is exactly that fixedness that makes sense out of Jesus' words in Matthew 5: “Blessed are you when men revile you, and persecute you, and say all manner of evil against you falsely for my sake.  Rejoice and be exceeding glad, for great is your reward in heaven.”
 
 
 

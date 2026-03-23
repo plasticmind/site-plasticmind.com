@@ -7,9 +7,9 @@ subtitle:
 slug: iphone-screen-replacement
 featured_image_url: 
 alt_text: 
-primary_category: "Apple"
-categories: ["Apple", "DIY", "Projects"]
-tags: ["3g", "Apple", "digitizer", "diy", "iphone", "lcd", "replacement", "screen"]
+primary_category: "Web Development"
+categories: ["Web Development", "Miscellany"]
+tags: ["Apple"]
 meta_description: 
 context: professional
 fix: false
@@ -37,7 +37,7 @@ A few weeks ago my wife dropped her barely a few months old iPhone 3G on the kit
 
 
 
-We took it to an Apple store and an AT&amp;T store and both places gave us a chuckle and &#8220;man, that sucks&#8221;.  Our friends at the AT&amp;T store told us it would cost $199 just to replace the glass and that was **only** if we had Apple care.  Since we didn't have Apple care on her phone, they told us they wouldn't even touch it.
+We took it to an Apple store and an AT&amp;T store and both places gave us a chuckle and “man, that sucks”.  Our friends at the AT&amp;T store told us it would cost $199 just to replace the glass and that was **only** if we had Apple care.  Since we didn't have Apple care on her phone, they told us they wouldn't even touch it.
 
 
 
@@ -97,7 +97,7 @@ Then I went through the following steps:
 
 
 
-**2.** Carefully unhook cables 1, 2 and 3&#8212;in that order.  The first two cables simply pop out, but for cable 3 you'll need to flip up the white clamp that holds the cable in place and then slide it out.  Set the back of the phone aside for now.
+**2.** Carefully unhook cables 1, 2 and 3—in that order.  The first two cables simply pop out, but for cable 3 you'll need to flip up the white clamp that holds the cable in place and then slide it out.  Set the back of the phone aside for now.
 
 
 

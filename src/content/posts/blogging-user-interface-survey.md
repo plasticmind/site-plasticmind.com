@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: 
 slug: blogging-user-interface-survey
-featured_image_url: https://plasticmind.com/wp-content/uploads/2008/07/2488023541_d82a633021_b.jpg
+featured_image_url: /assets/i/2488023541_d82a633021_b.jpg
 alt_text: 
 primary_category: "Design"
 categories: ["Design"]
-tags: ["blogging", "CMS", "interface", "Movable Type", "UI", "WordPress"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false

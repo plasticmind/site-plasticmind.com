@@ -1,10 +1,10 @@
 # =============================================================================
-# Netlify Redirects — WordPress to 11ty Migration
+# Netlify / Cloudflare Pages Redirects
 # =============================================================================
-# Generated from WordPress sitemap audit (March 2026).
+# Covers WordPress migration + category/tag consolidation (March 2026).
 # Rules are processed top-to-bottom; first match wins.
 # Without the ! (force) suffix, redirects only fire when no file exists at the
-# requested path — so existing 11ty pages (e.g. /accessibility/) are safe.
+# requested path — so existing static pages (e.g. /accessibility/) are safe.
 # =============================================================================
 
 
@@ -20,72 +20,156 @@
 # 2. Tag Pages — /tag/{slug}/ -> /tags/{slug}/
 # -----------------------------------------------------------------------------
 # WordPress uses singular /tag/; 11ty uses plural /tags/.
-# ~471 WP tags; ~170 exist in 11ty. Missing tags will naturally 404.
-# WP deduplication suffixes (css-2, design-2, etc.) will also 404.
+# After tag cleanup, only 11 tags survive. Missing tags will naturally 404.
 
 /tag/*   /tags/:splat   301
 
+# Removed tag archive pages — redirect to the most relevant surviving category
+/tags/blindmanproject/    /tags/freewrite/                          301
+/tags/social-networking/  /category/social-media-seo/           301
+/tags/jessica/            /category/people/                         301
+/tags/jesse/              /archives/                                301
+/tags/baby/               /category/people/                         301
+/tags/design/             /category/design/                         301
+/tags/family/             /category/people/                         301
+/tags/ethanscott/         /category/people/                         301
+/tags/customfields/       /tags/movable-type/                       301
+/tags/friendship/         /category/people/                         301
+/tags/wordpress/          /category/blogging-cms/               301
+/tags/ethan/              /category/people/                         301
+/tags/blogging/           /category/blogging-cms/               301
+/tags/hack/               /category/web-development/                301
+/tags/goodies/            /category/miscellany/                     301
+/tags/resources/          /archives/                                301
+/tags/children/           /category/people/                         301
+/tags/images/             /category/design/                         301
+/tags/music/              /category/music/                          301
+/tags/humor/              /category/humor/                          301
+/tags/community/          /category/social-media-seo/           301
+/tags/identity/           /archives/                                301
+
 
 # -----------------------------------------------------------------------------
-# 3. Category Pages — /{wp-category-slug}/ -> /category/{11ty-slug}/
+# 3. Old 11ty Category Pages → New Category Pages
+# -----------------------------------------------------------------------------
+# After category consolidation, old 11ty /category/ URLs need redirects.
+# These MUST come before the WP category rules (section 4) since both
+# may match the same paths.
+
+# Renames
+/category/30-day-challenge/    /category/personal/                 301
+/category/0-s-and-1-s/        /category/technology/               301
+/category/savior/              /category/faith/                    301
+/category/heart/               /category/personal/                 301
+/category/eyes/                /category/visual/                   301
+/category/ears/                /category/music/                    301
+/category/kicks-and-giggles/   /category/humor/                    301
+/category/america/             /category/culture-politics/     301
+/category/retrospection/       /category/memories/                 301
+
+# Merges into Blogging & CMS
+/category/movable-type/        /category/blogging-cms/         301
+/category/blogging/            /category/blogging-cms/         301
+/category/cms/                 /category/blogging-cms/         301
+/category/wordpress/           /category/blogging-cms/         301
+
+# Merges into Writing
+/category/the-pen/             /category/writing/                  301
+
+# Merges into Web Development
+/category/code/                /category/web-development/          301
+/category/css/                 /category/web-development/          301
+/category/app/                 /category/web-development/          301
+/category/mobile/              /category/web-development/          301
+/category/accessibility/       /category/web-development/          301
+/category/tech-tips/           /category/web-development/          301
+/category/apple/               /category/web-development/          301
+/category/users/               /category/web-development/          301
+
+# Merges into Social Media & SEO
+/category/social-networking/   /category/social-media-seo/     301
+/category/seo/                 /category/social-media-seo/     301
+
+# Merges into People
+/category/family-ties/         /category/people/                   301
+/category/friends/             /category/people/                   301
+/category/wedding/             /category/people/                   301
+
+# Merges into Faith
+/category/intercessional/      /category/faith/                    301
+
+# Merges into Reviews
+/category/movies/              /category/reviews/                  301
+/category/games/               /category/reviews/                  301
+/category/podcasts/            /category/reviews/                  301
+/category/gadgets/             /category/reviews/                  301
+
+# Merges into Miscellany
+/category/announcements/       /category/miscellany/               301
+/category/projects/            /category/miscellany/               301
+/category/freebies/            /category/miscellany/               301
+/category/interviews/          /category/miscellany/               301
+/category/uncategorized/       /category/miscellany/               301
+/category/diy/                 /category/miscellany/               301
+
+# World → Culture & Politics (not in original plan, 11 posts)
+/category/world/               /category/culture-politics/     301
+
+
+# -----------------------------------------------------------------------------
+# 4. WP Category Pages — /{wp-category-slug}/ -> /category/{new-11ty-slug}/
 # -----------------------------------------------------------------------------
 # WordPress categories sit at root level; 11ty nests under /category/.
-# These MUST come before the per-category post splat rules (section 4).
+# Points directly to the new consolidated category slugs.
 #
 # NOTE: /accessibility/ also exists as a static 11ty page. Because this
-# redirect lacks the ! (force) flag, the static page wins. The WP
-# /accessibility/ category (2 posts) will not redirect to its category page.
-# This is acceptable — the accessibility statement is more important.
-#
-# If categories are renamed in the future, update the target slugs below
-# and in section 4 accordingly.
+# redirect lacks the ! (force) flag, the static page wins.
 
-# Categories with matching 11ty posts
-/0s-and-1s/           /category/0-s-and-1-s/       301
-/30-day-challenge/    /category/30-day-challenge/   301
-/accessibility/       /category/accessibility/      301
-/america/             /category/america/            301
-/announcements/       /category/announcements/      301
-/app/                 /category/app/                301
-/apple/               /category/apple/              301
-/blogging/            /category/blogging/           301
-/cms/                 /category/cms/                301
-/code/                /category/code/               301
-/css/                 /category/css/                301
-/design/              /category/design/             301
-/diy/                 /category/diy/                301
-/ears/                /category/ears/               301
-/eyes/                /category/eyes/               301
-/family-ties/         /category/family-ties/        301
-/freebies/            /category/freebies/           301
-/friends/             /category/friends/            301
-/gadgets/             /category/gadgets/            301
-/games/               /category/games/              301
-/heart/               /category/heart/              301
-/intercessional/      /category/intercessional/     301
-/interviews/          /category/interviews/         301
-/journeys/            /category/journeys/           301
-/kicks-and-giggles/   /category/kicks-and-giggles/  301
-/mind/                /category/mind/               301
-/miscellany/          /category/miscellany/         301
-/mobile/              /category/mobile/             301
-/movable-type/        /category/movable-type/       301
-/movies/              /category/movies/             301
-/podcasts/            /category/podcasts/           301
-/projects/            /category/projects/           301
-/retrospection/       /category/retrospection/      301
-/reviews/             /category/reviews/            301
-/savior/              /category/savior/             301
-/seo/                 /category/seo/                301
-/social-networking/   /category/social-networking/  301
-/tech-tips/           /category/tech-tips/          301
-/the-pen/             /category/the-pen/            301
-/uncategorized/       /category/uncategorized/      301
-/users/               /category/users/              301
-/wedding/             /category/wedding/            301
-/wordpress/           /category/wordpress/          301
-/world/               /category/world/              301
-/writing/             /category/writing/            301
+/0s-and-1s/           /category/technology/               301
+/30-day-challenge/    /category/30-day-challenge/         301
+/accessibility/       /category/web-development/          301
+/america/             /category/culture-politics/     301
+/announcements/       /category/miscellany/               301
+/app/                 /category/web-development/          301
+/apple/               /category/web-development/          301
+/blogging/            /category/blogging-cms/         301
+/cms/                 /category/blogging-cms/         301
+/code/                /category/web-development/          301
+/css/                 /category/web-development/          301
+/design/              /category/design/                   301
+/diy/                 /category/miscellany/               301
+/ears/                /category/music/                    301
+/eyes/                /category/visual/                   301
+/family-ties/         /category/people/                   301
+/freebies/            /category/miscellany/               301
+/friends/             /category/people/                   301
+/gadgets/             /category/reviews/                  301
+/games/               /category/reviews/                  301
+/heart/               /category/personal/                 301
+/intercessional/      /category/faith/                    301
+/interviews/          /category/miscellany/               301
+/journeys/            /category/journeys/                 301
+/kicks-and-giggles/   /category/humor/                    301
+/mind/                /category/mind/                     301
+/miscellany/          /category/miscellany/               301
+/mobile/              /category/web-development/          301
+/movable-type/        /category/blogging-cms/         301
+/movies/              /category/reviews/                  301
+/podcasts/            /category/reviews/                  301
+/projects/            /category/miscellany/               301
+/retrospection/       /category/memories/                 301
+/reviews/             /category/reviews/                  301
+/savior/              /category/faith/                    301
+/seo/                 /category/social-media-seo/     301
+/social-networking/   /category/social-media-seo/     301
+/tech-tips/           /category/web-development/          301
+/the-pen/             /category/writing/                  301
+/uncategorized/       /category/miscellany/               301
+/users/               /category/web-development/          301
+/wedding/             /category/people/                   301
+/wordpress/           /category/blogging-cms/         301
+/world/               /category/culture-politics/     301
+/writing/             /category/writing/                  301
 
 # WP-only categories (no posts in 11ty) — redirect to homepage
 /beginners/           /   301
@@ -98,7 +182,7 @@
 
 
 # -----------------------------------------------------------------------------
-# 4. Blog Post Redirects — /{wp-category}/{post-slug}/ -> /journal/{post-slug}/
+# 5. Blog Post Redirects — /{wp-category}/{post-slug}/ -> /journal/{post-slug}/
 # -----------------------------------------------------------------------------
 # WordPress nests posts under their category; 11ty uses a flat /journal/ prefix.
 # One splat rule per WP category covers all ~872 post URLs.
@@ -159,7 +243,7 @@
 
 
 # -----------------------------------------------------------------------------
-# 5. Static Pages
+# 6. Static Pages
 # -----------------------------------------------------------------------------
 /about/                /work/   301
 /posts/                /blog/   301
@@ -172,7 +256,7 @@
 
 
 # -----------------------------------------------------------------------------
-# 6. Series, Author, Newsletter
+# 7. Series, Author, Newsletter
 # -----------------------------------------------------------------------------
 /series/*       /   301
 /author/*       /   301
@@ -180,7 +264,7 @@
 
 
 # -----------------------------------------------------------------------------
-# 7. WordPress Infrastructure
+# 8. WordPress Infrastructure
 # -----------------------------------------------------------------------------
 # Let most WP infrastructure URLs 404 naturally. Only redirect common ones.
 /wp-admin/       /   301

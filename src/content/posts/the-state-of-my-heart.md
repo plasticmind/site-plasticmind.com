@@ -7,8 +7,8 @@ subtitle:
 slug: the-state-of-my-heart
 featured_image_url: 
 alt_text: 
-primary_category: "Retrospection"
-categories: ["Retrospection"]
+primary_category: "Memories"
+categories: ["Memories"]
 tags: []
 meta_description: 
 context: personal
@@ -19,7 +19,7 @@ hits: 116
 
 			
 
-<img src="https://plasticmind.com/assets/myheart.jpg" alt="" />
+<img src="/assets/i/myheart.jpg" alt="" />
 
 
 

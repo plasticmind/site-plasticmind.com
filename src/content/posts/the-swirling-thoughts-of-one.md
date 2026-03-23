@@ -8,7 +8,7 @@ slug: the-swirling-thoughts-of-one
 featured_image_url: 
 alt_text: 
 primary_category: "Mind"
-categories: ["Mind", "Retrospection", "The Pen"]
+categories: ["Mind", "Memories", "Writing"]
 tags: []
 meta_description: 
 context: personal

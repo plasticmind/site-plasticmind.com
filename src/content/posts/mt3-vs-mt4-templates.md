@@ -7,8 +7,8 @@ subtitle:
 slug: mt3-vs-mt4-templates
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -17,7 +17,9 @@ hits: 572
 ---
 
 Adam Cleaveland from <a href="https://www.cleavedesign.com/">Cleave Design</a> sent over this question, and I thought it was particularly relevant, especially in light of the new approach Movable Type 4 takes with it's default templates:
+
 <blockquote>"I am having a very hard time understanding the "Templates" within MT. I'm used to just being able to make a change within the header.php in Wordpress that affects every page. However, with Movable Type, it seems that if I make any chance in the template, I have to make that change in every different template I have (Main Index, Master Archive, Search Template, Comment-Pending Template, Comment-Error Template, etc., etc.). Am I just completely missing something? Or is this the only way to go about doing it?"</blockquote>
+
 The question he raises is a good one. The first thing is not to confuse "template tags" with "template modules". As MT is currently bundled, each "template" has all of the code needed for a full page. The main index page has all of the html header information, the banner has all the banner information, sidebar, etc. Now, it's nice because most information like the blog name and description and meta tags are all stored in MT and get put into the page by using template tags (i.e. ). But essentially if you want to change the HTML for the header or the banner or anything else, you have to change it on that particular template. So, for example, adding a div above the banner would require opening each template and adding the div above the banner.
 
 Now, there are ways around this; in fact, that's one of the reasons Six Apart is changing it's approach with the new Movable Type 4. It makes a lot more sense (even though it's a bit more confusing for the beginner). The basic approach is this: commonly used chunks of code are stored as template "modules" and then called to from each template. Makes MUCH more sense because you don't repeat code. If the header code is the same for all of your pages, then the only thing you need on each page is a call to the template module () that holds your header code. It's all in one place.

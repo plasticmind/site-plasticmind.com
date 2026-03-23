@@ -7,9 +7,9 @@ subtitle:
 slug: obama-in-berlin-one-for-the-history-books
 featured_image_url: 
 alt_text: 
-primary_category: "America"
-categories: ["America"]
-tags: ["Berlin", "Obama", "politics"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics"]
+tags: []
 meta_description: 
 context: personal
 fix: false

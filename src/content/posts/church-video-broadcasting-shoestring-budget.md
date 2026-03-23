@@ -7,9 +7,9 @@ subtitle:
 slug: church-video-broadcasting-shoestring-budget
 featured_image_url: 
 alt_text: 
-primary_category: "DIY"
-categories: ["DIY"]
-tags: ["broadcasting", "church", "dropbox", "hack", "ustream", "video"]
+primary_category: "Technology"
+categories: ["Technology"]
+tags: []
 meta_description: 
 context: personal
 fix: false

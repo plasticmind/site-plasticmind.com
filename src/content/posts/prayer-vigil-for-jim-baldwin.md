@@ -7,8 +7,8 @@ subtitle:
 slug: prayer-vigil-for-jim-baldwin
 featured_image_url: 
 alt_text: 
-primary_category: "Intercessional"
-categories: ["Intercessional"]
+primary_category: "Faith"
+categories: ["Faith"]
 tags: []
 meta_description: 
 context: personal

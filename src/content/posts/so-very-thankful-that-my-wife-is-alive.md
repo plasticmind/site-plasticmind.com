@@ -7,8 +7,8 @@ subtitle:
 slug: so-very-thankful-that-my-wife-is-alive
 featured_image_url: 
 alt_text: 
-primary_category: "Heart"
-categories: ["Heart"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal
@@ -97,7 +97,7 @@ And a great big thank you to God, for knowing just how incomplete I would be wit
 
 
 
-<a href="https://plasticmind.com/junk/neckbrace.jpg"><img src="https://plasticmind.com/junk/neckbrace-thumb.jpg" alt=""></a>
+<a href="/assets/i/neckbrace.jpg"><img src="/assets/i/neckbrace-thumb.jpg" alt=""></a>
 
 
 

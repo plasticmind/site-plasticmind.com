@@ -755,4 +755,25 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // Syntax-highlight legacy <pre><code> blocks from WP migration
+  var legacy = document.querySelectorAll('pre > code:not([class*="language-"])');
+  if (legacy.length > 0) {
+    legacy.forEach(function(el) {
+      var text = el.textContent.trim();
+      if (/^\s*</.test(text) || /<\/\w+>/.test(text)) {
+        el.classList.add('language-markup');
+      } else if (/^\s*\/\*|^\s*\.|^\s*#[a-zA-Z]|^\s*@media|{\s*[\w-]+\s*:/.test(text)) {
+        el.classList.add('language-css');
+      } else {
+        el.classList.add('language-javascript');
+      }
+    });
+    window.Prism = window.Prism || {};
+    window.Prism.manual = true;
+    var s = document.createElement('script');
+    s.src = '/assets/js/prism-legacy.js';
+    s.onload = function() { Prism.highlightAll(); };
+    document.body.appendChild(s);
+  }
+
 });

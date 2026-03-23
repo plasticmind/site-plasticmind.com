@@ -5,11 +5,11 @@ archive: true
 excerpt: 
 subtitle: "Some code snippets to give you a nice looking Pinterest overlay for your images."
 slug: pinterest-image-overlays
-featured_image_url: https://plasticmind.com/wp-content/uploads/2013/02/pinterest_overlay.png
+featured_image_url: /assets/i/pinterest_overlay.png
 alt_text: 
-primary_category: "CSS"
-categories: ["CSS", "Social Networking"]
-tags: ["pinterest"]
+primary_category: "Web Development"
+categories: ["Web Development", "Social Media & SEO"]
+tags: []
 meta_description: "Some code snippets to give you a nice looking Pinterest overlay for your images."
 context: professional
 fix: false
@@ -102,7 +102,7 @@ position: relative;
 
 Here are the two images you’ll need. Drop them into your theme’s image directory (and be sure to update your stylesheet to point to them).
 
-<a class="download-link" href="https://plasticmind.com/wp-content/uploads/2013/02/pinterest_overlay.zip">Pinterest Overlay Images</a>
+<a class="download-link" href="/assets/i/pinterest_overlay.zip">Pinterest Overlay Images</a>
 
 If this all sounds foreign to you or you don’t need the customization I mentioned, you might want to check out the <a href="https://wordpress.org/extend/plugins/pinterest-plugin/">WordPress Pinterest plugin</a> which does something similar.
 

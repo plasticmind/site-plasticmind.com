@@ -34,7 +34,7 @@ Not surprisingly, it was beneficial.  Three particular things stood out: I had *
 
 
 
-One of the most surprising things about the fast was just how habitual Facebook had become to me.  The first day, before I blocked the URLs on my computer, at least ten times, I opened a new browser tab, typed in facebook.com and hit enter.  It was shockingly involuntary, and it's what prompted me to block all social media URLs from my computer.  If my day was a coin purse, my social media &#8220;habit&#8221; was a slit in the bottom. 
+One of the most surprising things about the fast was just how habitual Facebook had become to me.  The first day, before I blocked the URLs on my computer, at least ten times, I opened a new browser tab, typed in facebook.com and hit enter.  It was shockingly involuntary, and it's what prompted me to block all social media URLs from my computer.  If my day was a coin purse, my social media “habit” was a slit in the bottom. 
 
 
 
@@ -52,7 +52,7 @@ Twitter was the biggest culprit, leading me down a trail of fascinating stories,
 
 
 
-Disabling these distractions helped me focus more on the tasks at hand, which bring me to the next point&#8230;
+Disabling these distractions helped me focus more on the tasks at hand, which bring me to the next point…
 
 
 
@@ -76,7 +76,7 @@ All worthwhile things to consider, yes, but instead of being invited in for care
 
 
 
-Speaking of people in my life&#8230; 
+Speaking of people in my life… 
 
 
 
@@ -88,7 +88,7 @@ With social media out of the equation, I was less prone to seeing life through a
 
 
 
-We all need social engagement.  That's why social media has flourished the way it has.  But removing social broadcast platforms from the equation forced me to invest my time and energy into people in a less &#8220;efficient&#8221; yet much more intimate way.
+We all need social engagement.  That's why social media has flourished the way it has.  But removing social broadcast platforms from the equation forced me to invest my time and energy into people in a less “efficient” yet much more intimate way.
 
 
 
@@ -109,7 +109,7 @@ But they need limits.  I'm leaving the respective social media apps off my phone
 
 
 
-I'll try this new &#8220;limited&#8221; approach and report back in next week.
+I'll try this new “limited” approach and report back in next week.
 
 
 

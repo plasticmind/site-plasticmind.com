@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Design"
 categories: ["Design", "Downloads"]
-tags: ["Colloquy", "design", "free", "IRC", "Movable Type", "skins"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false
@@ -19,7 +19,7 @@ hits: 301
 
 			
 
-If you enjoy the feeling you get when you look at my website, and you're a Colloquy user, you're in luck!  As part of my &#8220;let's skin applications&#8221; kick, I've created Haas, a minimalist, Helvetica-based design for Colloquy.  Plenty of variants to make you happy.  
+If you enjoy the feeling you get when you look at my website, and you're a Colloquy user, you're in luck!  As part of my “let's skin applications” kick, I've created Haas, a minimalist, Helvetica-based design for Colloquy.  Plenty of variants to make you happy.  
 
 
 

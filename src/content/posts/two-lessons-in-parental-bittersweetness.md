@@ -7,9 +7,9 @@ subtitle:
 slug: two-lessons-in-parental-bittersweetness
 featured_image_url: 
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
-tags: ["blindmanproject", "freewrite", "humility", "parenting"]
+primary_category: "Writing"
+categories: ["Writing"]
+tags: ["freewrite"]
 meta_description: 
 context: personal
 fix: false
@@ -37,7 +37,7 @@ The second realization was that my son is an independent being.  I'm not sure I 
 
 
 
-Bittersweetness&#8230; giving up personal pleasure for the greater joy of my son; losing control for the greater independence of my son.
+Bittersweetness… giving up personal pleasure for the greater joy of my son; losing control for the greater independence of my son.
 
 
 

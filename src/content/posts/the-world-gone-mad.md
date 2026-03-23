@@ -7,8 +7,8 @@ subtitle:
 slug: the-world-gone-mad
 featured_image_url: 
 alt_text: 
-primary_category: "World"
-categories: ["World"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics"]
 tags: []
 meta_description: 
 context: personal
@@ -37,7 +37,7 @@ I ask you this: Has the world gone mad?!
 
 
 
-<img alt="outrage3.jpg" src="https://plasticmind.com/assets/outrage3.jpg" width="194" height="138" class="thumb-left" />
+<img alt="outrage3.jpg" src="/assets/i/outrage3.jpg" width="194" height="138" class="thumb-left" />
 
 
 
@@ -57,7 +57,7 @@ This is absolutely absurd.  Using explosive devices to protest accusations of vi
 
 
 
-<img alt="pakistanpope.jpg" src="https://plasticmind.com/assets/pakistanpope.jpg" width="290" height="196" />
+<img alt="pakistanpope.jpg" src="/assets/i/pakistanpope.jpg" width="290" height="196" />
 
 
 

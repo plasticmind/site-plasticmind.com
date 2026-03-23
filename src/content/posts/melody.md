@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: 
 slug: melody
-featured_image_url: https://plasticmind.com/wp-content/uploads/2009/06/3655465178_e2bc74d53c_o.png
+featured_image_url: /assets/i/3655465178_e2bc74d53c_o.png
 alt_text: 
-primary_category: "Announcements"
-categories: ["Announcements", "CMS"]
+primary_category: "Miscellany"
+categories: ["Miscellany", "Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -22,13 +22,13 @@ Since it's launch yesterday, there has been a lot of <a href="https://twitter.co
 
 As it stands today, Melody is primarily a movement started by a group of Movable Type community members.  Of course, movements mean nothing unless you know where they're headed.  So what's our roadmap?  The goal for Melody is to be an open-source application for site publishing and community building that's easy to use and really powerful.  And just as importantly, we want the creation process for Melody to be collective, transparent and open to anyone willing to jump in and help.
 
-If you were to download Melody today, you'd notice it looks a lot like Movable Type with some community fixes on top&#8212;that's because we're using Movable Type Open Source as the starting platform.  All of the power, stability and flexibility that Movable Type is known for is the foundation we're building Melody on.
+If you were to download Melody today, you'd notice it looks a lot like Movable Type with some community fixes on top—that's because we're using Movable Type Open Source as the starting platform.  All of the power, stability and flexibility that Movable Type is known for is the foundation we're building Melody on.
 
 While I can't speak for anyone else, let me say as plainly as I can why I got involved with Melody:
 
 **I wanted to help create a software platform that is governed by the community.**  I love the fact that both independant contractors as well as an official Six Apart employee are on the board of the Open Melody Software Group.  Bringing in many diverse perspectives of the web publishing industry is healthy for the project and ultimately for the application itself.
 
-**I wanted to help create a software platform that can take risks.**  Movable Type is enterprise grade software with a commercial company standing behind it.  In many contexts, that's a good thing&#8212;in fact, I'll still be using Movable Type for many of my clients.  But this reputation means things often move slowy and have to go through rigorous corporate QA before release.  Melody is about being nimble and incorporating a much wider range of contributions across the spectrum.
+**I wanted to help create a software platform that can take risks.**  Movable Type is enterprise grade software with a commercial company standing behind it.  In many contexts, that's a good thing—in fact, I'll still be using Movable Type for many of my clients.  But this reputation means things often move slowy and have to go through rigorous corporate QA before release.  Melody is about being nimble and incorporating a much wider range of contributions across the spectrum.
 
 **I wanted to help create open source software.**  While there's nothing wrong with creating software and charging people for it, I find a personal sense of satisfaction and joy in creating software that others can freely benefit from.
 

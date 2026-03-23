@@ -7,9 +7,9 @@ subtitle:
 slug: social-graph-defined
 featured_image_url: 
 alt_text: 
-primary_category: "Social Networking"
-categories: ["Social Networking"]
-tags: ["facebook", "openid", "opensnap", "portability", "social graph", "social networking", "standards"]
+primary_category: "Social Media & SEO"
+categories: ["Social Media & SEO"]
+tags: ["facebook"]
 meta_description: 
 context: professional
 fix: false
@@ -22,7 +22,7 @@ Have I lost you? Let’s start again.
 
 **Let’s talk about how annoying it is to have to remember new login information and find your friends all over again for each new social network you join.**
 
-<img src="https://plasticmind.com/assets/openid.png" alt="openid.png" width="508" height="276" />
+<img src="/assets/i/openid.png" alt="openid.png" width="508" height="276" />
 
 <!--more-->
 ### OpenID: Own Your Identity
@@ -35,7 +35,7 @@ Enter OpenID. Here’s how it works. You have a website that you trust with your
 
 Now, if only we could do that with all our social network information.
 
-<img src="https://plasticmind.com/assets/opensnap.png" alt="opensnap.png" width="508" height="276" />
+<img src="/assets/i/opensnap.png" alt="opensnap.png" width="508" height="276" />
 ### OpenSNAP: Own Your Connections
 
 Before I start, let me just say that since this technology doesn’t have a name, I’m picking one arbitrarily. OpenSNAP (Social Network Asset Portability) seems fitting, so I’ll go with that. Now, where were we?

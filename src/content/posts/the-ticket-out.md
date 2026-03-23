@@ -7,8 +7,8 @@ subtitle:
 slug: the-ticket-out
 featured_image_url: 
 alt_text: 
-primary_category: "America"
-categories: ["America", "Friends", "Mind"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics", "People", "Mind"]
 tags: []
 meta_description: 
 context: personal

@@ -7,9 +7,9 @@ subtitle:
 slug: anyone-want-my-box-lunch
 featured_image_url: 
 alt_text: 
-primary_category: "0's and 1's"
-categories: ["0's and 1's"]
-tags: ["Cardboard White", "consumption", "focus", "forums", "growth", "production"]
+primary_category: "Technology"
+categories: ["Technology"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -19,7 +19,7 @@ hits: 238
 
 			
 
-<img src="/assets/box.png" alt="" style="border:0;" />
+<img src="/assets/i/box.png" alt="" style="border:0;" />
 
 
 

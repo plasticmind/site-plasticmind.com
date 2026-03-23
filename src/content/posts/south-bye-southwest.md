@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Journeys"
 categories: ["Journeys"]
-tags: ["social networking", "sxsw"]
+tags: ["sxsw"]
 meta_description: 
 context: professional
 fix: false
@@ -43,7 +43,7 @@ Granted, that's partly because I'm leaving AMC Networks and losing my travel res
 
 
 
-You can learn about <a href="https://www.alistapart.com/articles/responsive-web-design/">responsive design</a> from a book or from a website.  You can catch a glimpse of what's next by watching a TED video.  What makes a conference meaningful and worthwhile is the personal interaction **you** have with other people that care about the same things you do and are working hard every day to do those things in better ways.  Finding out what makes people tick, what drives them to do what they do, discovering their passion and sharing your own&#8212;these are the defining moments of a conference.  Like life, the most meaningful parts are bi-directional.
+You can learn about <a href="https://www.alistapart.com/articles/responsive-web-design/">responsive design</a> from a book or from a website.  You can catch a glimpse of what's next by watching a TED video.  What makes a conference meaningful and worthwhile is the personal interaction **you** have with other people that care about the same things you do and are working hard every day to do those things in better ways.  Finding out what makes people tick, what drives them to do what they do, discovering their passion and sharing your own—these are the defining moments of a conference.  Like life, the most meaningful parts are bi-directional.
 
 
 
@@ -55,7 +55,7 @@ South by Southwest has become very uni-directional, sadly.  The past few years, 
 
 
 
-So, on many levels, I'm glad to be attending <a href="https://grok.cc/">Greenville Grok</a> this March.  It's a small, three-day gathering of creative folks.  You probably won't read about it in any newspapers, and that's ok.  It's simply a collection of talented folks coming together to interact&#8212;to have fun, to talk about/listen to motivation and to share/discover new ideas.  Everything that attracted me to South by Southwest early on basically summarizes the Grok.
+So, on many levels, I'm glad to be attending <a href="https://grok.cc/">Greenville Grok</a> this March.  It's a small, three-day gathering of creative folks.  You probably won't read about it in any newspapers, and that's ok.  It's simply a collection of talented folks coming together to interact—to have fun, to talk about/listen to motivation and to share/discover new ideas.  Everything that attracted me to South by Southwest early on basically summarizes the Grok.
 
 
 

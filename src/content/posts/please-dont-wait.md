@@ -7,9 +7,9 @@ subtitle:
 slug: please-dont-wait
 featured_image_url: 
 alt_text: 
-primary_category: "Friends"
-categories: ["Friends"]
-tags: ["communication", "death", "friendship"]
+primary_category: "People"
+categories: ["People"]
+tags: ["death"]
 meta_description: 
 context: personal
 fix: false

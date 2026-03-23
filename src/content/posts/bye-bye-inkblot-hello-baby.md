@@ -7,9 +7,9 @@ subtitle:
 slug: bye-bye-inkblot-hello-baby
 featured_image_url: 
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
-tags: ["baby", "ethanscott", "ultrasound"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: 
 context: personal
 fix: false

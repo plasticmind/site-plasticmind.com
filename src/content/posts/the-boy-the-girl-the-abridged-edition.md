@@ -7,9 +7,9 @@ subtitle:
 slug: the-boy-the-girl-the-abridged-edition
 featured_image_url: 
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties", "Kicks and Giggles"]
-tags: ["Grand Canyon", "humor", "Jesse", "Jessica"]
+primary_category: "People"
+categories: ["People", "Humor"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -19,7 +19,7 @@ hits: 550
 
 			
 
-**Speaking of birthdays&#8230;**
+**Speaking of birthdays…**
 
 
 

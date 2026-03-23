@@ -7,8 +7,8 @@ subtitle:
 slug: one-last-cup-of-kofi
 featured_image_url: 
 alt_text: 
-primary_category: "World"
-categories: ["World"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics"]
 tags: []
 meta_description: 
 context: personal

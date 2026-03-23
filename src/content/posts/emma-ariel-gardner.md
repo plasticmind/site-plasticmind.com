@@ -7,9 +7,9 @@ subtitle:
 slug: emma-ariel-gardner
 featured_image_url: 
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
-tags: ["baby"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -19,7 +19,7 @@ hits: 249
 
 			
 
-Last night, my very first niece was born&#8230; 8lbs., 3oz. and 20&#8221;.  Congratulations to <a href="https://www.flickr.com/photos/plasticmind/127064641/in/set-72057594104666612/">Nathan</a>, <a href="https://www.flickr.com/photos/plasticmind/337351085/in/set-72057594104666612/">Jessica</a>, <a href="https://www.flickr.com/photos/plasticmind/992862654/in/set-72057594104666612/">Gabe</a> and <a href="https://www.flickr.com/photos/plasticmind/337058427/in/set-72057594104666612/">Caleb</a> on the brand new addition to their family&#8212;and the very first Gardner baby girl!
+Last night, my very first niece was born… 8lbs., 3oz. and 20”.  Congratulations to <a href="https://www.flickr.com/photos/plasticmind/127064641/in/set-72057594104666612/">Nathan</a>, <a href="https://www.flickr.com/photos/plasticmind/337351085/in/set-72057594104666612/">Jessica</a>, <a href="https://www.flickr.com/photos/plasticmind/992862654/in/set-72057594104666612/">Gabe</a> and <a href="https://www.flickr.com/photos/plasticmind/337058427/in/set-72057594104666612/">Caleb</a> on the brand new addition to their family—and the very first Gardner baby girl!
 
 
 

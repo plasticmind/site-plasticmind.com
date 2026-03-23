@@ -5,7 +5,7 @@ archive: false
 excerpt: 
 subtitle: "Last year, when we announced that we were moving from Pennsylvania to Upstate New York, we weren't exactly sure where we were going."
 slug: on-the-move
-featured_image_url: https://plasticmind.com/wp-content/uploads/2015/03/102-dyer-1.jpg
+featured_image_url: /assets/i/102-dyer-1.jpg
 alt_text: ""
 primary_category: "Journeys"
 categories: ["Journeys"]
@@ -25,7 +25,7 @@ Thus begins the roller-coaster. As the clock ticks down to April 15th (closing 
 *Note: If all goes as expected, we'll have a packing party on Saturday, April 11th, closing on the house down in PA on April 15th, driving up to NY, and closing on the house up there on April 16th. Check <a title="Jesse Gardner on Facebook" href="https://facebook.com/plasticmind">my Facebook page</a> for more up-to-date details.*
 
 <figure>
-  <img src="https://plasticmind.com/wp-content/uploads/2015/03/driveway.jpg" alt="Now that's a driveway!">
+  <img src="/assets/i/driveway.jpg" alt="Now that's a driveway!">
   <figcaption>Now that's a driveway!</figcaption>
 </figure>
 

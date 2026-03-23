@@ -7,8 +7,8 @@ subtitle:
 slug: what-a-piece-of-work-are-meetings
 featured_image_url: 
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
+primary_category: "Writing"
+categories: ["Writing"]
 tags: []
 meta_description: 
 context: professional
@@ -49,19 +49,19 @@ I'm sure part of it physical: sitting for hours on end makes anybody lethargic. 
 
 
 
-But I think another part of the &#8220;meeting drain&#8221; is psychological.  We spend so much time talking about all the great things we're going to accomplish that we never have enough time to **actually** accomplish them.  We often leave our meetings with an excitement that quickly fades away once we realize it's almost time to go home.
+But I think another part of the “meeting drain” is psychological.  We spend so much time talking about all the great things we're going to accomplish that we never have enough time to **actually** accomplish them.  We often leave our meetings with an excitement that quickly fades away once we realize it's almost time to go home.
 
 
 
 
 
-I know meetings are important.  Or rather, the reasons we often have them is important: everyone needs to be on the same page; everyone needs to stay accountable to other team members; everyone needs to catch a glimpse of what's next.   These are very important goals&#8212;especially in large organizations where failure in these areas usually means a project trainwreck&#8212;that often need face-to-face interaction to accomplish
+I know meetings are important.  Or rather, the reasons we often have them is important: everyone needs to be on the same page; everyone needs to stay accountable to other team members; everyone needs to catch a glimpse of what's next.   These are very important goals—especially in large organizations where failure in these areas usually means a project trainwreck—that often need face-to-face interaction to accomplish
 
 
 
 
 
-But as soon as meetings become detached from practical action&#8212;actually doing stuff&#8212;creativity withers and dies.  &#8220;And thus the native hue of resolution is sicklied oe'r with the pale cast of thought, and enterprises of great pith and moment with this regard their currents turn awry, and lose the name of action.&#8221;
+But as soon as meetings become detached from practical action—actually doing stuff—creativity withers and dies.  “And thus the native hue of resolution is sicklied oe'r with the pale cast of thought, and enterprises of great pith and moment with this regard their currents turn awry, and lose the name of action.”
 
 
 

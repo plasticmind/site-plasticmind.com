@@ -7,9 +7,9 @@ subtitle:
 slug: birth-day
 featured_image_url: 
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
-tags: ["birth", "Ethan", "Jesse", "Jessica"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -19,13 +19,13 @@ hits: 121
 
 			
 
-Well, this is it, today is the big day.  It's an odd thing to know precisely when your baby is going to be born.  Not anything like I had anticipated, because you know.  I mean, you deal with strange questions like: how do I dress for a delivery?  Normally when things just &#8220;happen&#8221; you don't have as much time to ponder over such frivolities.
+Well, this is it, today is the big day.  It's an odd thing to know precisely when your baby is going to be born.  Not anything like I had anticipated, because you know.  I mean, you deal with strange questions like: how do I dress for a delivery?  Normally when things just “happen” you don't have as much time to ponder over such frivolities.
 
 
 
 
 
-Anyhow, I managed to find something to wear, as did Jessica, so it's now off to the hospital with us to meet our son.  I'm writing him a letter&#8212;some important things that I'll share with him when he gets much older.  The day is full of so much emotion: fear, excitement, anticipation, dreams.  People have been experiencing this for ages past, but today&#8212;today I'm experiencing it for the first time.
+Anyhow, I managed to find something to wear, as did Jessica, so it's now off to the hospital with us to meet our son.  I'm writing him a letter—some important things that I'll share with him when he gets much older.  The day is full of so much emotion: fear, excitement, anticipation, dreams.  People have been experiencing this for ages past, but today—today I'm experiencing it for the first time.
 
 
 

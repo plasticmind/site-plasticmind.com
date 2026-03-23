@@ -7,8 +7,8 @@ subtitle:
 slug: in-good-company
 featured_image_url: 
 alt_text: 
-primary_category: "Social Networking"
-categories: ["Social Networking", "Writing"]
+primary_category: "Social Media & SEO"
+categories: ["Social Media & SEO", "Writing"]
 tags: []
 meta_description: 
 context: personal
@@ -16,7 +16,7 @@ fix: false
 hits: 147
 ---
 
-<img class="mt-image-none" src="https://plasticmind.com/assets/company.jpg" alt="company.jpg" width="500" height="300" />
+<img class="mt-image-none" src="/assets/i/company.jpg" alt="company.jpg" width="500" height="300" />
 
 For reasons that I can neither understand nor explain, it seems that a good number of people are interested in what I have to say—I just recently crossed the 900 follower mark on Twitter.
 

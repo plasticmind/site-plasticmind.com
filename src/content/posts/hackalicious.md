@@ -7,8 +7,8 @@ subtitle:
 slug: hackalicious
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging"
-categories: ["Blogging"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -19,7 +19,7 @@ hits: 259
 
 			
 
-<a href="https://plasticmind.com/assets/hack-a-thon1.php" onclick="window.open('https://plasticmind.com/assets/hack-a-thon1.php','popup','width=640,height=427,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/assets/hack-a-thon-thumb.jpg" width="600" height="400" alt="" /></a>
+<a href="https://plasticmind.com/assets/hack-a-thon1.php" onclick="window.open('https://plasticmind.com/assets/hack-a-thon1.php','popup','width=640,height=427,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="/assets/i/hack-a-thon-thumb.jpg" width="600" height="400" alt="" /></a>
 
 
 

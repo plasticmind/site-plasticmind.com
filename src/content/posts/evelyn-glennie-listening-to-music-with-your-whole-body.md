@@ -7,8 +7,8 @@ subtitle:
 slug: evelyn-glennie-listening-to-music-with-your-whole-body
 featured_image_url: 
 alt_text: 
-primary_category: "Ears"
-categories: ["Ears"]
+primary_category: "Music"
+categories: ["Music"]
 tags: []
 meta_description: 
 context: professional

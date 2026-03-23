@@ -7,8 +7,8 @@ subtitle:
 slug: the-power-of-the-word
 featured_image_url: 
 alt_text: 
-primary_category: "Savior"
-categories: ["Savior"]
+primary_category: "Faith"
+categories: ["Faith"]
 tags: []
 meta_description: 
 context: personal

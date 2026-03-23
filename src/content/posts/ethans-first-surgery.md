@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: ethans-first-surgery
-featured_image_url: https://plasticmind.com/wp-content/uploads/2008/11/3055562481_6b610a267d_o.jpg
+featured_image_url: /assets/i/3055562481_6b610a267d_o.jpg
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
-tags: ["Ethan", "ethanscott"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: "A quick update about my son's first cleft palate surgery at Children's Hospital of Philadelphia."
 context: personal
 fix: false

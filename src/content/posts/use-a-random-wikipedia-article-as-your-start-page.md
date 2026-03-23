@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: use-a-random-wikipedia-article-as-your-start-page
-featured_image_url: https://plasticmind.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-10-at-1.47.58-PM.png
+featured_image_url: /assets/i/Screen-Shot-2021-02-10-at-1.47.58-PM.png
 alt_text: "screen shot of the url"
-primary_category: "0's and 1's"
-categories: ["0's and 1's"]
-tags: ["bookmark", "random", "serendipity", "wikipedia"]
+primary_category: "Technology"
+categories: ["Technology"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -19,6 +19,7 @@ hits: 435
 <div class="" data-block="true" data-editor="3keuh" data-offset-key="avviq-0-0">
 <div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr" data-offset-key="avviq-0-0"><span data-offset-key="avviq-0-0">I've been doing some research into randomness lately, and I came across the following excerpts in my reading, which praise the merits of introducing some randomness into our life and our work:
 </span></div>
+
 <blockquote>
 <div data-offset-key="avviq-0-0">
 
@@ -31,6 +32,7 @@ Being randomly jittered, thrown out of the frame and focused on a larger scale, 
 – Christian, Brian; Griffiths, Tom. *Algorithms to Live By*
 
 </div></blockquote>
+
 </div>
 
 <div class="" data-block="true" data-editor="3keuh" data-offset-key="4fe23-0-0">

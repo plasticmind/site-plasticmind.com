@@ -7,9 +7,9 @@ subtitle:
 slug: sharing-across-multiple-sites
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
-tags: ["htaccess", "movabletype", "multiblog"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false
@@ -22,7 +22,7 @@ hits: 495
 
 
 
-**We have several different sites that are powered by one Movable Type install.  These sites have common elements that need to be shared across all of the blogs&#8212;something like services, staff or course descriptions.**  Unlike global template modules, these shared items have lots of meta (like categories, tags, etc) and really need the framework a blog provides.  Not every one of our sites have the same services, staff or courses, so they need to be able to specify which resources get pulled from the pool.
+**We have several different sites that are powered by one Movable Type install.  These sites have common elements that need to be shared across all of the blogs—something like services, staff or course descriptions.**  Unlike global template modules, these shared items have lots of meta (like categories, tags, etc) and really need the framework a blog provides.  Not every one of our sites have the same services, staff or courses, so they need to be able to specify which resources get pulled from the pool.
 
 
 
@@ -49,7 +49,7 @@ More importantly, perhaps, is the fact that each of these items in our shared li
 
 			<!--more-->
 
-First, create this &#8220;shared blog&#8221; within the system.  Make note of the blog's id.  Publishing settings won't matter too much because this is really just storing data for the other sites to pull from.  In fact, you can save yourself some unnecessary rebuilding and delete all the templates in this shared blog.
+First, create this “shared blog” within the system.  Make note of the blog's id.  Publishing settings won't matter too much because this is really just storing data for the other sites to pull from.  In fact, you can save yourself some unnecessary rebuilding and delete all the templates in this shared blog.
 
 
 
@@ -100,19 +100,19 @@ You can publish the output file whatever you want, but make sure it's a .php fil
 
 
 
-Now, let's break down this script.  First, we're creating a variable called <code>this_blog_tag</code>.  Setting a variable here lets us define this particular site's private tag (more on that in a moment) in a module that gets included in the header of this particular blog.  That way the rest of the code can be moved into a global module if you want and it will still filter correctly on a per blog basis.  *If you don't understand that part, don't worry&#8212;you don't need it to get this working.*
+Now, let's break down this script.  First, we're creating a variable called <code>this_blog_tag</code>.  Setting a variable here lets us define this particular site's private tag (more on that in a moment) in a module that gets included in the header of this particular blog.  That way the rest of the code can be moved into a global module if you want and it will still filter correctly on a per blog basis.  *If you don't understand that part, don't worry—you don't need it to get this working.*
 
 
 
 
 
-Next, we're checking to see if any course was specified in the query string.  If not, the script dumps out a &#8220;No Course Selected&#8221; message, but that's probably not likely to get seen because we're going to let MT build the urls.  If something **is** specified in the query string, we run in through a PHP <code>switch</code> statement.
+Next, we're checking to see if any course was specified in the query string.  If not, the script dumps out a “No Course Selected” message, but that's probably not likely to get seen because we're going to let MT build the urls.  If something **is** specified in the query string, we run in through a PHP <code>switch</code> statement.
 
 
 
 
 
-Essentially, MT is providing PHP with all of the different valid &#8220;cases&#8221; that this query string could be and filling out the content for each of those &#8220;pages&#8221;.  Notice the <code>mt:Pages</code> loop.  Every page from your shared blog (be sure to replace ### with the blog id of the shared blog) that is tagged with this site's tag (e.g. @sitea) gets a case statement.  PHP compares the query string (e.g. ?course=microsoft_word) with the basename of the page.  If they match, that page's content is served up; if not, an error message is displayed.
+Essentially, MT is providing PHP with all of the different valid “cases” that this query string could be and filling out the content for each of those “pages”.  Notice the <code>mt:Pages</code> loop.  Every page from your shared blog (be sure to replace ### with the blog id of the shared blog) that is tagged with this site's tag (e.g. @sitea) gets a case statement.  PHP compares the query string (e.g. ?course=microsoft_word) with the basename of the page.  If they match, that page's content is served up; if not, an error message is displayed.
 
 
 
@@ -130,7 +130,7 @@ We type in the url <code>https://examplesite-a.com/courses/?course=microsoft_wor
 
 
 
-So how do we use this with our site?  I could, for instance, put a &#8220;Courses Offered&#8221; sidebar module that looked something like this:
+So how do we use this with our site?  I could, for instance, put a “Courses Offered” sidebar module that looked something like this:
 
 
 

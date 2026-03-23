@@ -7,8 +7,8 @@ subtitle:
 slug: toss-the-cane-and-take-the-mountain
 featured_image_url: 
 alt_text: 
-primary_category: "Friends"
-categories: ["Friends"]
+primary_category: "People"
+categories: ["People"]
 tags: []
 meta_description: 
 context: personal

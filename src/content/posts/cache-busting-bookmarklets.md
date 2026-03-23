@@ -7,9 +7,9 @@ subtitle: "One of the biggest hassles when trying to track down and squash bugs 
 slug: cache-busting-bookmarklets
 featured_image_url: 
 alt_text: 
-primary_category: "Freebies"
-categories: ["Freebies", "Javascript"]
-tags: ["bookmarklet", "javascript"]
+primary_category: "Miscellany"
+categories: ["Miscellany", "Javascript"]
+tags: []
 meta_description: 
 context: professional
 fix: false

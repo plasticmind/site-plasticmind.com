@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "No one likes talking about passwords.  No one wants to give away secrets to the bad guys, and no one wants people becoming lemmings and copying their system exactly.  I'm going out on a limb here and making some suggestions that will help you make your passwords more secure.  Don't be a lemming, please."
 slug: better-passwords
-featured_image_url: https://plasticmind.com/wp-content/uploads/2012/08/chain.jpg
+featured_image_url: /assets/i/chain.jpg
 alt_text: 
-primary_category: "Users"
-categories: ["Users"]
+primary_category: "Web Development"
+categories: ["Web Development"]
 tags: []
 meta_description: "A simple system for keeping passwords secure, unguessable, and most importantly, unique."
 context: professional

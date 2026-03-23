@@ -7,9 +7,9 @@ subtitle:
 slug: linux-disk-space-paradox
 featured_image_url: 
 alt_text: 
-primary_category: "Code"
-categories: ["Code"]
-tags: ["linux", "shell"]
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: []
 meta_description: 
 context: professional
 fix: false

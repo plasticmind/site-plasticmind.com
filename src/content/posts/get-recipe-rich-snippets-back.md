@@ -7,9 +7,9 @@ subtitle:
 slug: get-recipe-rich-snippets-back
 featured_image_url: 
 alt_text: ""
-primary_category: "SEO"
-categories: ["SEO"]
-tags: ["Google", "richsnippets"]
+primary_category: "Social Media & SEO"
+categories: ["Social Media & SEO"]
+tags: ["Google"]
 meta_description: 
 context: professional
 fix: false
@@ -18,7 +18,7 @@ hits: 1000
 
 Several months ago the photos for our recipes disappeared from Google's search result pages:
 
-<img class="alignnone size-full wp-image-5080" src="https://plasticmind.com/wp-content/uploads/2014/09/no-snippet.png" alt="no-snippet" width="542" height="399" />
+<img class="alignnone size-full wp-image-5080" src="/assets/i/no-snippet.png" alt="no-snippet" width="542" height="399" />
 
 Not great, since most people search visually, more so when they're hungry.
 
@@ -36,7 +36,7 @@ It seems as though Google was seeing both sets of markup on our pages and igno
 
 Removing all references to hrecipe seems to have forced Google to pick up the microdata markup, which seems to have brought back our pictures:
 
-<img class="alignnone size-full wp-image-5081" src="https://plasticmind.com/wp-content/uploads/2014/09/snippet.png" alt="snippet" width="541" height="476" />
+<img class="alignnone size-full wp-image-5081" src="/assets/i/snippet.png" alt="snippet" width="541" height="476" />
 
 ### Related Links:
 

@@ -7,8 +7,8 @@ subtitle:
 slug: the-fall-of-man
 featured_image_url: 
 alt_text: 
-primary_category: "Heart"
-categories: ["Heart", "Mind", "The Pen"]
+primary_category: "Personal"
+categories: ["Personal", "Mind", "Writing"]
 tags: []
 meta_description: 
 context: personal

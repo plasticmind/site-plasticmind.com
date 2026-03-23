@@ -7,9 +7,9 @@ subtitle:
 slug: creative-subcategories
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
-tags: ["archive", "breadcrumbs", "categories", "children", "parent", "subcategories"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -17,7 +17,7 @@ hits: 473
 ---
 
 
-### Create a &#8220;Breadcrumb&#8221; Trail In Movable Type Using Subcategories
+### Create a “Breadcrumb” Trail In Movable Type Using Subcategories
 
 
 
@@ -84,13 +84,13 @@ Essentially, we check to see if the category page we're on has a parent.  If it 
 
 
 
-The first chunk says, &#8220;If this category has subcategories (children), then run through the list of them and create a menu.&#8221;  This part targets the parent category pages, because they have children.
+The first chunk says, “If this category has subcategories (children), then run through the list of them and create a menu.”  This part targets the parent category pages, because they have children.
 
 
 
 
 
-The second chunk is similar, but it's meant for the subcategory pages themselves.  This code says, &#8220;If this category has a parent category, then give us a list of subcategories (children) that belong to that parent and make a menu.&#8221;  Since Movable Type doesn't have any type of sibling tags, we have to go back to a parent if it exists and then display that parent's children (those are the siblings).
+The second chunk is similar, but it's meant for the subcategory pages themselves.  This code says, “If this category has a parent category, then give us a list of subcategories (children) that belong to that parent and make a menu.”  Since Movable Type doesn't have any type of sibling tags, we have to go back to a parent if it exists and then display that parent's children (those are the siblings).
 
 
 

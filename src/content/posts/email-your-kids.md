@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "Children mark the passing of time.  I've never been as aware of the passing of time as I am now."
 slug: email-your-kids
-featured_image_url: https://plasticmind.com/wp-content/uploads/2012/08/letter.png
+featured_image_url: /assets/i/letter.png
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
+primary_category: "People"
+categories: ["People"]
 tags: []
 meta_description: 
 context: personal

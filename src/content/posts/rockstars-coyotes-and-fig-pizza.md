@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Journeys"
 categories: ["Journeys"]
-tags: ["Arvind Satyanarayan", "Atlantic Ocean", "Ben Trott", "blogging", "Elise Bauer", "friendship", "Golden Gate", "Marin Headlands", "Mena Trott", "San Francisco", "Six Apart"]
+tags: ["Movable Type"]
 meta_description: 
 context: personal
 fix: false
@@ -37,7 +37,7 @@ After that, Elise, Arvind and I headed up across the Golden Gate bridge to the <
 
 
 
-After basking a while in the sinking sun, we swooped back towards the city for a stunning view of the Bridge from <a href="https://flickr.com/photos/19218669@N00/240825591/">Fort Point </a>(right beneath the main support on the city side). We drove first through the Presidio and then the carefully manicured suburbs of <a href="https://flickr.com/photos/livenature/425564432/">Seacliff</a> (boasting such celebrity homes as Robin Williams and Sharon Stone).  We made our way down past the old baths and then stopped to watch from the Cliff House as surfers braved <a href="https://flickr.com/photos/ruthann/863140776/">the waves at Ocean Beach</a>.  A quick, disorienting drive through Golden Gate Park and then through the &#8220;beatific&#8221; Haight-Ashbury district and over to the Marina where Elise treated us all to supper at <a href="https://www.greensrestaurant.com/">Greens</a>, a vegetarian restaurant and one of the best meals I've ever had.
+After basking a while in the sinking sun, we swooped back towards the city for a stunning view of the Bridge from <a href="https://flickr.com/photos/19218669@N00/240825591/">Fort Point </a>(right beneath the main support on the city side). We drove first through the Presidio and then the carefully manicured suburbs of <a href="https://flickr.com/photos/livenature/425564432/">Seacliff</a> (boasting such celebrity homes as Robin Williams and Sharon Stone).  We made our way down past the old baths and then stopped to watch from the Cliff House as surfers braved <a href="https://flickr.com/photos/ruthann/863140776/">the waves at Ocean Beach</a>.  A quick, disorienting drive through Golden Gate Park and then through the “beatific” Haight-Ashbury district and over to the Marina where Elise treated us all to supper at <a href="https://www.greensrestaurant.com/">Greens</a>, a vegetarian restaurant and one of the best meals I've ever had.
 
 
 

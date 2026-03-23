@@ -5,10 +5,10 @@ archive: false
 excerpt: 
 subtitle: "After much thought and prayer, our family has decided to move back to Upstate New York."
 slug: farewell-pennsylvania
-featured_image_url: https://plasticmind.com/wp-content/uploads/2014/09/leaves1.jpg
+featured_image_url: /assets/i/leaves1.jpg
 alt_text: 
-primary_category: "Friends"
-categories: ["Friends", "Heart", "Journeys"]
+primary_category: "People"
+categories: ["People", "Personal", "Journeys"]
 tags: []
 meta_description: "The feeling in our home is bittersweet: excited for new horizons and sad for farewells. But we have been changed for the better by our time here."
 context: personal

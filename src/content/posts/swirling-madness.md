@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: 
 slug: swirling-madness
-featured_image_url: https://plasticmind.com/wp-content/uploads/2007/06/542983215_3df9655cfd_b.jpg
+featured_image_url: /assets/i/542983215_3df9655cfd_b.jpg
 alt_text: 
-primary_category: "Eyes"
-categories: ["Eyes"]
+primary_category: "Visual"
+categories: ["Visual"]
 tags: []
 meta_description: 
 context: personal

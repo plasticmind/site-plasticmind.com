@@ -5,11 +5,11 @@ archive: false
 excerpt: 
 subtitle: 
 slug: six-months
-featured_image_url: https://plasticmind.com/wp-content/uploads/2014/09/ethan.jpg
+featured_image_url: /assets/i/ethan.jpg
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
-tags: ["ethanscott"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: 
 context: personal
 fix: false

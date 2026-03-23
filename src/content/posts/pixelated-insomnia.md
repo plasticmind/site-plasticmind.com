@@ -7,9 +7,9 @@ subtitle:
 slug: pixelated-insomnia
 featured_image_url: 
 alt_text: 
-primary_category: "The Pen"
-categories: ["The Pen"]
-tags: ["blindmanproject", "freewrite", "insomnia", "irony", "pixels"]
+primary_category: "Writing"
+categories: ["Writing"]
+tags: ["freewrite"]
 meta_description: 
 context: personal
 fix: false
@@ -49,7 +49,7 @@ What's particularly odd is that what I envisioned was actually from one of the <
 
 
 
-It was that exact scene I'd picture, 16-color EGA graphics and all.  Down, across, down, across, *c'mon sleep*, down, across, down&#8230;
+It was that exact scene I'd picture, 16-color EGA graphics and all.  Down, across, down, across, *c'mon sleep*, down, across, down…
 
 
 

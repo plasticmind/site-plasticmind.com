@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: 
 slug: december-making-day1-drew-a-snowflake
-featured_image_url: https://plasticmind.com/wp-content/uploads/2019/12/Untitled_Artwork-4-scaled.jpg
+featured_image_url: /assets/i/Untitled_Artwork-4-scaled.jpg
 alt_text: "Hand-drawn Snowflake"
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: "Day 1 of my challenge to make something every day in December. #31daysofmaking"
 context: personal
@@ -22,7 +22,7 @@ I drew this snowflake with Procreate on the iPad. I used a textured brush to pai
 
 Process timelapse video:
 
-[video width="810" height="810" mp4="https://plasticmind.com/wp-content/uploads/2019/12/snowflake-process.mp4"][/video]
+[video width="810" height="810" mp4="/assets/i/snowflake-process.mp4"][/video]
 
 <div style="display: none;"></div>
 

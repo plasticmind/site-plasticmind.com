@@ -7,8 +7,8 @@ subtitle:
 slug: sneak-peek
 featured_image_url: 
 alt_text: 
-primary_category: "Eyes"
-categories: ["Eyes"]
+primary_category: "Visual"
+categories: ["Visual"]
 tags: []
 meta_description: 
 context: personal

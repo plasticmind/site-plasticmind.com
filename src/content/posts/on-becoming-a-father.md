@@ -7,9 +7,9 @@ subtitle:
 slug: on-becoming-a-father
 featured_image_url: 
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
-tags: ["children", "parenthood"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -31,7 +31,7 @@ I'm going to beg your indulgence for just a moment while I talk about my son.  I
 
 
 
-Something most parents wont tell you is that you don't love your children as much when they're first born as when you've spent some time with them.  Oh, it's still love, but it doesn't have nearly the same depth.  The newborn is a stranger, an alien to your family&#8212;you welcome him and feel a sense of care and duty; but as with any relationship, time makes that relationship grow, gives it depth and value.
+Something most parents wont tell you is that you don't love your children as much when they're first born as when you've spent some time with them.  Oh, it's still love, but it doesn't have nearly the same depth.  The newborn is a stranger, an alien to your family—you welcome him and feel a sense of care and duty; but as with any relationship, time makes that relationship grow, gives it depth and value.
 
 
 
@@ -49,7 +49,7 @@ There is a bittersweetness to this growth.  Jessica and I celebrate tiny milesto
 
 
 
-That is not this moment, however; this moment he is very dependent.  He is a helpless tangle of cord and blankets, his face swollen from the fluids being pumped into him.  Those piercing blue eyes, full of simplicity, seem to ask: &#8220;how could you let them do this to me?&#8221;  He knows enough to recognize his pain, but not enough to understand the long term benefits just yet.
+That is not this moment, however; this moment he is very dependent.  He is a helpless tangle of cord and blankets, his face swollen from the fluids being pumped into him.  Those piercing blue eyes, full of simplicity, seem to ask: “how could you let them do this to me?”  He knows enough to recognize his pain, but not enough to understand the long term benefits just yet.
 
 
 

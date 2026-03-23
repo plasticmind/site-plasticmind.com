@@ -43,7 +43,7 @@ We did so much during the week that I could ramble on and on about all the detai
 
 
 
-Jessica, Ethan and I made the trip down with my sister and her husband and one year old son.  Both of the boys were well behaved on the trip&#8212;probably because I fed Ethan a worm at a rest area.  (I swear I was just showing it to him and he stuck out his tongue!)
+Jessica, Ethan and I made the trip down with my sister and her husband and one year old son.  Both of the boys were well behaved on the trip—probably because I fed Ethan a worm at a rest area.  (I swear I was just showing it to him and he stuck out his tongue!)
 
 
 
@@ -67,7 +67,7 @@ The house was beautiful.  Unfortunately, I didn't take a video tour of the place
 
 
 
-It also had a heated pool (at times frigid and at other times scalding) where we discovered much to our surprise (you may recall <a href="https://www.flickr.com/photos/plasticmind/3486247840/">our kiddie pool adventure</a>) that Ethan is a water rat.  He's also a big connoisseur of sand&#8212;I think he ate four or five handfuls before we caught on.
+It also had a heated pool (at times frigid and at other times scalding) where we discovered much to our surprise (you may recall <a href="https://www.flickr.com/photos/plasticmind/3486247840/">our kiddie pool adventure</a>) that Ethan is a water rat.  He's also a big connoisseur of sand—I think he ate four or five handfuls before we caught on.
 
 
 
@@ -79,7 +79,7 @@ It also had a heated pool (at times frigid and at other times scalding) where we
 
 
 
-The shoreline was littered with crabs&#8212;mostly <a href="https://en.wikipedia.org/wiki/Blue_crab">blue crabs</a>&#8212;though they were usually tucked away in their holes.  At night, they'd come out in droves and you could see fifty to a hundred any where you shined a flashlight.
+The shoreline was littered with crabs—mostly <a href="https://en.wikipedia.org/wiki/Blue_crab">blue crabs</a>—though they were usually tucked away in their holes.  At night, they'd come out in droves and you could see fifty to a hundred any where you shined a flashlight.
 
 
 
@@ -103,7 +103,7 @@ We were surprisingly close to Kitty Hawk, so we decided to brave the foul weathe
 
 
 
-Pelicans and dolphins frequented the ocean just off the beach.  The pelicans would fly <a href="https://www.flickr.com/photos/plasticmind/3504886651/">in groups of three to six just above the water</a> looking for food, sometimes riding just under the crest of the wave like a surfer.  When several pods of dolphins came past the house, one of our friends swam out close and the dolphins responded by coming in close to the shore&#8212;within fifty feet or so&#8212;and began performing for us, flipping in the air and dancing with each other.  It was tough to guess where they would be jumping out the water, so that's why the pictures aren't nearly as stunning as being there.
+Pelicans and dolphins frequented the ocean just off the beach.  The pelicans would fly <a href="https://www.flickr.com/photos/plasticmind/3504886651/">in groups of three to six just above the water</a> looking for food, sometimes riding just under the crest of the wave like a surfer.  When several pods of dolphins came past the house, one of our friends swam out close and the dolphins responded by coming in close to the shore—within fifty feet or so—and began performing for us, flipping in the air and dancing with each other.  It was tough to guess where they would be jumping out the water, so that's why the pictures aren't nearly as stunning as being there.
 
 
 
@@ -133,7 +133,7 @@ Not only was the shore littered with crabs, but all sorts of bizarre sea treasur
 
 
 
-The weather was perhaps the biggest surprise of the week.  The weather report predicted rain all week, but I forgot that when you're near the ocean, the storms move in and out rather quickly.  So while each day had rain, it only lasted a few hours and the rest of the day was gorgeous&#8212;making for <a href="https://www.flickr.com/photos/plasticmind/3520903512/">beautiful kite flying weather</a>!
+The weather was perhaps the biggest surprise of the week.  The weather report predicted rain all week, but I forgot that when you're near the ocean, the storms move in and out rather quickly.  So while each day had rain, it only lasted a few hours and the rest of the day was gorgeous—making for <a href="https://www.flickr.com/photos/plasticmind/3520903512/">beautiful kite flying weather</a>!
 
 
 

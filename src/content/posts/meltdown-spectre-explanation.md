@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: 
 slug: meltdown-spectre-explanation
-featured_image_url: https://plasticmind.com/wp-content/uploads/2018/01/2018-01-05-at-5.38-PM.png
+featured_image_url: /assets/i/2018-01-05-at-5.38-PM.png
 alt_text: ""
-primary_category: "0's and 1's"
-categories: ["0's and 1's"]
+primary_category: "Technology"
+categories: ["Technology"]
 tags: []
 meta_description: 
 context: professional

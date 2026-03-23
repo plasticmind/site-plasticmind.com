@@ -7,9 +7,9 @@ subtitle:
 slug: custom-field-gotchas
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type"]
-tags: ["bugs", "customfields", "movabletype"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false
@@ -31,13 +31,13 @@ Consider this a public service announcement to anyone debating about using Movab
 
 
 
-**2. There are no formatting options for editing Custom Fields.**  If you're using Custom Fields for your primary entry data (i.e. no entry body, only custom field data), be aware that they have no formatting options for the editor&#8212;it's just an input field.  You can get around this with <a href="https://plasticmind.com/movable-type/plasticfield/">my PlasticField plugin</a>, but it's not the best solution because it requires you to create a new field, doesn't use the default editor, and doesn't support installed format types like Markdown or Textile.
+**2. There are no formatting options for editing Custom Fields.**  If you're using Custom Fields for your primary entry data (i.e. no entry body, only custom field data), be aware that they have no formatting options for the editor—it's just an input field.  You can get around this with <a href="https://plasticmind.com/movable-type/plasticfield/">my PlasticField plugin</a>, but it's not the best solution because it requires you to create a new field, doesn't use the default editor, and doesn't support installed format types like Markdown or Textile.
 
 
 
 
 
-**3. You cannot <a href="https://forums.sixapart.com/index.php?showtopic=65698&amp;pid=262539&amp;mode=threaded&amp;start=#entry262539">sort by Custom Fields</a>** despite the note about the &#8220;sort_by&#8221; attribute (below the basename) <a href="https://www.movabletype.org/documentation/images/screenshots/pull-down-options-thumb-500x257.png">on the Create Field screen</a>.
+**3. You cannot <a href="https://forums.sixapart.com/index.php?showtopic=65698&amp;pid=262539&amp;mode=threaded&amp;start=#entry262539">sort by Custom Fields</a>** despite the note about the “sort_by” attribute (below the basename) <a href="https://www.movabletype.org/documentation/images/screenshots/pull-down-options-thumb-500x257.png">on the Create Field screen</a>.
 
 
 

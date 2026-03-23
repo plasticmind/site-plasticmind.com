@@ -8,7 +8,7 @@ slug: helping-movable-type-get-along
 featured_image_url: 
 alt_text: 
 primary_category: "Design"
-categories: ["Design", "Movable Type"]
+categories: ["Design", "Blogging & CMS"]
 tags: []
 meta_description: 
 context: professional
@@ -134,13 +134,13 @@ Let's start simple.  We'll create a stripped down block of code that you can put
 
 
 <code>&lt;div class="entry"&gt;<br />
-&#160;&#160;&#160;&#160;&lt;h3&gt;&lt;a href="&lt;$MTEntryPermalink$&gt;"&gt;&lt;$MTEntryTitle$&gt;&lt;/a&gt;&lt;/h3&gt;<br />
-&#160;&#160;&#160;&#160;&lt;div class="entry-photo"&gt;<br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;MTEmbedImage basename="[MTBlogName]photos/[MTEntryKeywords]" width="425" thumbsuffix="-425"&gt;<br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;img src="&lt;$MTEmbedImageThumbFilename$&gt;" alt="&lt;$MTEntryTitle$&gt;" /&gt;<br />
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/MTEmbedImage&gt;<br />
-&#160;&#160;&#160;&#160;&lt;/div&gt;<br />
-&#160;&#160;&#160;&#160;&lt;$MTEntryBody$&gt;<br />
+    &lt;h3&gt;&lt;a href="&lt;$MTEntryPermalink$&gt;"&gt;&lt;$MTEntryTitle$&gt;&lt;/a&gt;&lt;/h3&gt;<br />
+    &lt;div class="entry-photo"&gt;<br />
+        &lt;MTEmbedImage basename="[MTBlogName]photos/[MTEntryKeywords]" width="425" thumbsuffix="-425"&gt;<br />
+        &lt;img src="&lt;$MTEmbedImageThumbFilename$&gt;" alt="&lt;$MTEntryTitle$&gt;" /&gt;<br />
+        &lt;/MTEmbedImage&gt;<br />
+    &lt;/div&gt;<br />
+    &lt;$MTEntryBody$&gt;<br />
 &lt;/div&gt;</code>
 
 

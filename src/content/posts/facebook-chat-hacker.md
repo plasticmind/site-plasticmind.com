@@ -7,9 +7,9 @@ subtitle:
 slug: facebook-chat-hacker
 featured_image_url: 
 alt_text: 
-primary_category: "Social Networking"
-categories: ["Social Networking"]
-tags: ["facebook", "hack", "london", "security"]
+primary_category: "Social Media & SEO"
+categories: ["Social Media & SEO"]
+tags: ["facebook"]
 meta_description: 
 context: personal
 fix: false
@@ -101,7 +101,7 @@ Thanks
 
 
 
-This was the nail in the coffin, I knew I was dealing with a hacker.  So I ended our chat with a bit of grandstanding: &#8220;I've notified Luke, his wife and the authorities. I've also tracked your IP address.&#8221;  At which point our hacker friend immediately disconnected.  I had a brief conversation with Luke later that day and he has since cleaned house and changed all his passwords.
+This was the nail in the coffin, I knew I was dealing with a hacker.  So I ended our chat with a bit of grandstanding: “I've notified Luke, his wife and the authorities. I've also tracked your IP address.”  At which point our hacker friend immediately disconnected.  I had a brief conversation with Luke later that day and he has since cleaned house and changed all his passwords.
 
 
 
@@ -124,8 +124,8 @@ You can <a href="https://pastie.org/587603">read the full transcript of our conv
 
 
 <ul>
-<li>Sky News: <a href="https://news.sky.com/skynews/Home/Technology/Facebook-Scam-Ive-Been-Mugged-In-London/Article/200908315363182">Facebook Scam: &#8216;I've Been Mugged In London' </a></li>
-<li>TechCrunch: <a href="https://www.techcrunch.com/2009/01/20/latest-facebook-scam-phishers-hit-up-friends-for-cash/">Latest Facebook Scam: Phishers Hit Up &#8220;Friends&#8221; for Cash</a></li>
+<li>Sky News: <a href="https://news.sky.com/skynews/Home/Technology/Facebook-Scam-Ive-Been-Mugged-In-London/Article/200908315363182">Facebook Scam: ‘I've Been Mugged In London' </a></li>
+<li>TechCrunch: <a href="https://www.techcrunch.com/2009/01/20/latest-facebook-scam-phishers-hit-up-friends-for-cash/">Latest Facebook Scam: Phishers Hit Up “Friends” for Cash</a></li>
 <li>News.com.au: <a href="https://www.news.com.au/technology/story/0,28348,24943531-5014239,00.html">Facebook accounts hacked by scammers seeking money in London</a></li>
 <li>Darkreading: <a href="https://www.darkreading.com/blog/archives/2009/06/facebook_419_im.html">Facebook Scam: I'm Stranded In London. Send Money!</a></li>
 </ul>

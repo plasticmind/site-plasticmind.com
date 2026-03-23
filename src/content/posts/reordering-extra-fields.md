@@ -7,9 +7,9 @@ subtitle:
 slug: reordering-extra-fields
 featured_image_url: 
 alt_text: 
-primary_category: "Movable Type"
-categories: ["Movable Type", "Plugins"]
-tags: ["RightFields hack"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS", "Plugins"]
+tags: []
 meta_description: 
 context: professional
 fix: false

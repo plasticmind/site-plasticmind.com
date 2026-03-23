@@ -5,10 +5,10 @@ archive: true
 excerpt: 
 subtitle: 
 slug: december-making-day7-unmaking-wall
-featured_image_url: https://plasticmind.com/wp-content/uploads/2019/12/IMG_6072-scaled.jpg
+featured_image_url: /assets/i/IMG_6072-scaled.jpg
 alt_text: ""
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal
@@ -23,27 +23,27 @@ On day 5, <a href="https://plasticmind.com/30-day-challenge/december-making-day5
 When building out the renderings, I noticed just how much that little wall impacted the overall feel of the room. I'm amazed at how such a small change could open things up so much, and pleasantly surprised at how that openness worked in real life as well as it did in the renderings.
 
 <figure>
-  <img src="https://plasticmind.com/wp-content/uploads/2019/12/renovations-1-1024x768.jpg" alt="Our existing entry and redundant hallway.">
+  <img src="/assets/i/renovations-1-1024x768.jpg" alt="Our existing entry and redundant hallway.">
   <figcaption>Our existing entry and redundant hallway.</figcaption>
 </figure>
 
 <figure>
-  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6044-1024x768.jpg" alt="Amazing how this short wall made the space feel so closed up.">
+  <img src="/assets/i/IMG_6044-1024x768.jpg" alt="Amazing how this short wall made the space feel so closed up.">
   <figcaption>Amazing how this short wall made the space feel so closed up.</figcaption>
 </figure>
 
 <figure>
-  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6046-1024x768.jpg" alt="It's clobbering time!">
+  <img src="/assets/i/IMG_6046-1024x768.jpg" alt="It's clobbering time!">
   <figcaption>It's clobbering time!</figcaption>
 </figure>
 
 <figure>
-  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6052-1024x768.jpg" alt="Family approves!">
+  <img src="/assets/i/IMG_6052-1024x768.jpg" alt="Family approves!">
   <figcaption>Family approves!</figcaption>
 </figure>
 
 <figure>
-  <img src="https://plasticmind.com/wp-content/uploads/2019/12/IMG_6075-1024x768.jpg" alt="Needs some patching and paint, but very happy with the outcome overall.">
+  <img src="/assets/i/IMG_6075-1024x768.jpg" alt="Needs some patching and paint, but very happy with the outcome overall.">
   <figcaption>Needs some patching and paint, but very happy with the outcome overall.</figcaption>
 </figure>
 

@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Mind"
 categories: ["Mind"]
-tags: ["blindmanproject", "civil disobedience", "freewrite"]
+tags: ["freewrite"]
 meta_description: 
 context: personal
 fix: false
@@ -19,19 +19,19 @@ hits: 138
 
 			
 
-**&#8220;I swear to tell the truth, the whole truth and nothing but the truth, so help me God.&#8221;**
+**“I swear to tell the truth, the whole truth and nothing but the truth, so help me God.”**
 
 
 
 
 
-I've only been to court a few times.  This was the first: I was in a small town courthouse in New Jersey, here to face the music for driving 47 MPH in a 30 MPH zone.  My transgression was unintentional; I was driving around on a dark, Saturday night, flustered at I-don't-remember-what and hadn't seen the sign.  Because this was my first offense, the prosecutor said I could plead guilty to a lesser charge.  I guess I didn't quite understand what that meant at first, because I suddenly found myself at a loss for words when the judge asked me, under oath, if I was guilty of driving much slower than I really had been.  No&#8212;I had been going 47 MPH!
+I've only been to court a few times.  This was the first: I was in a small town courthouse in New Jersey, here to face the music for driving 47 MPH in a 30 MPH zone.  My transgression was unintentional; I was driving around on a dark, Saturday night, flustered at I-don't-remember-what and hadn't seen the sign.  Because this was my first offense, the prosecutor said I could plead guilty to a lesser charge.  I guess I didn't quite understand what that meant at first, because I suddenly found myself at a loss for words when the judge asked me, under oath, if I was guilty of driving much slower than I really had been.  No—I had been going 47 MPH!
 
 
 
 
 
-**&#8220;Uh&#8230; Yes.&#8221;**
+**“Uh… Yes.”**
 
 
 
@@ -61,7 +61,7 @@ So what's the consensus?  Should we protest flawed systems by being inconvenient
 
 
 
-**Related reading:** <a href="https://www.dvorak.org/blog/2006/03/03/the-new-civil-disobedience-obeying-the-speed-limit/">&#8220;The New Civil Disobedience: Obeying The Speed Limit&#8221;</a> &#8212; A group of college students backed up I-285 in Atlanta for miles by going the speed limit.  Also, watch the <a href="https://www.youtube.com/watch?v=1B-Ox0ZmVIU">video</a>.
+**Related reading:** <a href="https://www.dvorak.org/blog/2006/03/03/the-new-civil-disobedience-obeying-the-speed-limit/">“The New Civil Disobedience: Obeying The Speed Limit”</a> — A group of college students backed up I-285 in Atlanta for miles by going the speed limit.  Also, watch the <a href="https://www.youtube.com/watch?v=1B-Ox0ZmVIU">video</a>.
 
 
 

@@ -7,9 +7,9 @@ subtitle:
 slug: 30-days-without-facebook-and-twitter-what-i-learned
 featured_image_url: 
 alt_text: 
-primary_category: "30 Day Challenge"
-categories: ["30 Day Challenge"]
-tags: ["digitalpurge", "family", "socialnetworking"]
+primary_category: "Personal"
+categories: ["Personal"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -43,7 +43,7 @@ First, I realized that for all of their flaws, these social sites provide a mean
 
 
 
-However, I also learned that a good deal of what I share on social sites is petty and inconsequential.  Not that that's a bad thing&#8212;a lot of our real-life socializing is made up of unimportant exchanges.  But I realized how much noise I really generate.  Everytime I felt the need to post something, I'd jot it down on a running list I was keeping. When reviewing the list, I noticed that much of what felt important and worth sharing with the world at the time really wasn't (who but Rogie King cares that I assigned an <a href="https://dagobah.net/flash/epic_sax_guy_NES.swf" title="Epic Sax Guy!">Epic Sax Guy ringtone</a> to Rogie King?)
+However, I also learned that a good deal of what I share on social sites is petty and inconsequential.  Not that that's a bad thing—a lot of our real-life socializing is made up of unimportant exchanges.  But I realized how much noise I really generate.  Everytime I felt the need to post something, I'd jot it down on a running list I was keeping. When reviewing the list, I noticed that much of what felt important and worth sharing with the world at the time really wasn't (who but Rogie King cares that I assigned an <a href="https://dagobah.net/flash/epic_sax_guy_NES.swf" title="Epic Sax Guy!">Epic Sax Guy ringtone</a> to Rogie King?)
 
 
 
@@ -67,9 +67,9 @@ Some are a bit longer than 140 characters, but these are some of the important l
 <li>How you feel is usually a product of how you act.</li>
 <li>Wondering why no one listens to your good ideas? Start making them happen and you'll have people's undivided attention.</li>
 <li>When you find yourself to be busier than you can bear, make a list of all of your responsibilities, organize them by genuine priority and work as hard as you can with the time you have. Then let go of the guilt of not completing the things of lesser importance.</li>
-<li>Spiritual lesson of the month?  We thank God for His forgiveness, but consider the person hardest for you to forgive.  Can you pray for his salvation?  The trespass against God seems sort of vague and generally forgivable, but a trespass against us&#8230; we understand how that hurts, what that costs us, the weight of the violation.</li>
-<li><a href="https://www.amazon.com/gp/product/B0047T86BU?ie=UTF8&amp;tag=plasticmind-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0047T86BU" title="The Net Delusion">The Net Delusion</a>, by Evgeny Morozov: &#8220;Social media has bred a generation of &#8216;slacktivists', lazy people with the illusion that clicking a mouse is a form of activism equal to real world donations of money and time.&#8221;</li>
-<li>&#8220;Children are innocent and love justice, while most adults are wicked and prefer mercy.&#8221; &#8212;Chesterton</li>
+<li>Spiritual lesson of the month?  We thank God for His forgiveness, but consider the person hardest for you to forgive.  Can you pray for his salvation?  The trespass against God seems sort of vague and generally forgivable, but a trespass against us… we understand how that hurts, what that costs us, the weight of the violation.</li>
+<li><a href="https://www.amazon.com/gp/product/B0047T86BU?ie=UTF8&amp;tag=plasticmind-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0047T86BU" title="The Net Delusion">The Net Delusion</a>, by Evgeny Morozov: “Social media has bred a generation of ‘slacktivists', lazy people with the illusion that clicking a mouse is a form of activism equal to real world donations of money and time.”</li>
+<li>“Children are innocent and love justice, while most adults are wicked and prefer mercy.” —Chesterton</li>
 </ul>
 
 ### Things I Missed
@@ -119,7 +119,7 @@ Lots of exciting things happened in January:
 <li>Saw The King's Speech and loved it.</li>
 <li>Preached three times.</li>
 <li>Celebrated as my friends Jason and Monica get married.</li>
-<li>Learned about the &#8220;dark side&#8221; of John Calvin.</li>
+<li>Learned about the “dark side” of John Calvin.</li>
 <li>Locked my keys in the car (yes, during the cold spell).</li>
 <li>Helped dig out an ambulance stuck on our unplowed road.</li>
 <li>Saw snow lightning for the first time.</li>

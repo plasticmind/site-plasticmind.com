@@ -7,9 +7,9 @@ subtitle:
 slug: the-ultimate-rorschach-test
 featured_image_url: 
 alt_text: 
-primary_category: "Family Ties"
-categories: ["Family Ties"]
-tags: ["baby", "rorschach", "ultrasound", "yolk sac"]
+primary_category: "People"
+categories: ["People"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -31,7 +31,7 @@ It didn't take nearly as long as I thought it would.
 
 
 
-But there I was, straining at what would be, in any other context, considered television static.  Dark, light and all the gray fuzz in between.  Then, with a little help from the nurse, I caught a little pacman-esque blip in the center of the white spot which was in the middle of the dark blob&#8212;her tiny heart beating at 169bpm.  (***Editors note:** Female gender pronouns a hunch.*)
+But there I was, straining at what would be, in any other context, considered television static.  Dark, light and all the gray fuzz in between.  Then, with a little help from the nurse, I caught a little pacman-esque blip in the center of the white spot which was in the middle of the dark blob—her tiny heart beating at 169bpm.  (***Editors note:** Female gender pronouns a hunch.*)
 
 
 

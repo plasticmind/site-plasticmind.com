@@ -7,9 +7,9 @@ subtitle:
 slug: why-you-should-upgrade-to-mt4
 featured_image_url: 
 alt_text: 
-primary_category: "CMS"
-categories: ["CMS"]
-tags: ["Movable Type", "WordPress"]
+primary_category: "Blogging & CMS"
+categories: ["Blogging & CMS"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false

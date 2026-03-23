@@ -19,7 +19,7 @@ hits: 134
 
 			
 
-<img src="https://plasticmind.com/assets/death.jpg" alt="" />
+<img src="/assets/i/9cd3e5-death.jpg" alt="" />
 
 
 

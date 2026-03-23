@@ -7,9 +7,9 @@ subtitle:
 slug: would-jesus-have-cared-about-the-cake
 featured_image_url: 
 alt_text: 
-primary_category: "Savior"
-categories: ["Savior"]
-tags: ["cake", "cynicism", "homeless", "poverty"]
+primary_category: "Faith"
+categories: ["Faith"]
+tags: []
 meta_description: 
 context: personal
 fix: false
@@ -25,13 +25,13 @@ hits: 225
 
 
 
-**&#8220;The poor you have with you always&#8230;&#8221; Matthew 26:11**
+**“The poor you have with you always…” Matthew 26:11**
 
 
 
 
 
-I must have missed the &#8220;always&#8221; somewhere in previous readings.  But <a href="https://plasticmind.com/heart/the-poor-dilemma-1/">they</a> came back today.  Yeah,<a href="https://plasticmind.com/heart/the-poor-dilemma-1/"> the couple living on disability I wrote about last year</a> who were sleeping on benches and needed food and money.  They scared me out of an email-induced stupor when they banged on my office window, calling me father and asking me to open the door.
+I must have missed the “always” somewhere in previous readings.  But <a href="https://plasticmind.com/heart/the-poor-dilemma-1/">they</a> came back today.  Yeah,<a href="https://plasticmind.com/heart/the-poor-dilemma-1/"> the couple living on disability I wrote about last year</a> who were sleeping on benches and needed food and money.  They scared me out of an email-induced stupor when they banged on my office window, calling me father and asking me to open the door.
 
 
 
@@ -61,7 +61,7 @@ In their hotel room, I had a hard time praying for them.  Kevin Dear once told m
 
 
 
-Before I left, I told them rather candidly: &#8220;About the cake.  If you really wanted it, all you had to do was ask.  I gave you so much food and yet you felt like you had to steal the cake?&#8221;  They again assured me that it was just a misunderstanding, and I went away feeling very cynical.  I can't help but wondering: **would Jesus have cared about the cake?**
+Before I left, I told them rather candidly: “About the cake.  If you really wanted it, all you had to do was ask.  I gave you so much food and yet you felt like you had to steal the cake?”  They again assured me that it was just a misunderstanding, and I went away feeling very cynical.  I can't help but wondering: **would Jesus have cared about the cake?**
 
 
 

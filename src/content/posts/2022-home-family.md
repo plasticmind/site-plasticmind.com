@@ -5,7 +5,7 @@ archive: false
 excerpt:
 subtitle:
 slug: 2022-home-family
-featured_image_url: https://plasticmind.com/wp-content/uploads/2023/01/IMG_1942.JPG-scaled.jpg
+featured_image_url: /assets/i/IMG_1942.JPG-scaled.jpg
 alt_text: ""
 primary_category: "Journeys"
 categories: ["Journeys"]
@@ -30,7 +30,7 @@ I mention this up front because of the impact this unhealthy cycle had on my fam
 
 That will change in 2023. More to come on that in a later post.
 
-![](https://plasticmind.com/wp-content/uploads/2023/01/IMG_1995-1-1024x767.jpg)
+![](/assets/i/IMG_1995-1-1024x767.jpg)
 
 ## The Family
 
@@ -48,7 +48,7 @@ And she still managed to win a chili-cook-off and finish reading 70 books this y
 
 We celebrated our 17th anniversary this year with a trip to NYC. We saw Wicked, took a food tour of Greenwich Village, and wandered around MoMA and the New York Public Library. We also took a private tour of the New York State Archives for Jessica’s birthday. I can’t stress this enough: what a glorious feeling when you find someone who enjoys the same unusual things you do. &#x1f495;
 
-![](https://plasticmind.com/wp-content/uploads/2023/01/IMG_3469-1024x613.jpg)
+![](/assets/i/IMG_3469-1024x613.jpg)
 
 ### Ethan
 
@@ -58,7 +58,7 @@ Karate is still a big part of his life. He’s now a 1st degree Shodan (初段) 
 
 He started <a href="https://www.youtube.com/channel/UCY31tcGh6NJ1hIrdqAOjwOw">a YouTube channel called Insight Unlocked</a> where he reviews tech gadgets and shares tech tips. This was all his own doing, and he’s shown a lot of drive keeping it going. Also, his editing and style is on point. &#x1f525;
 
-![](https://plasticmind.com/wp-content/uploads/2023/01/IMG_0559_jpg.JPG-1024x602.jpg)
+![](/assets/i/IMG_0559_jpg.JPG-1024x602.jpg)
 
 ### Anna
 
@@ -70,7 +70,7 @@ Gymnastics is still a big part of her life. One of her goals for 2022 was to get
 
 She’s also continued to improve her cooking and baking skills. Just a few weeks ago she made a chocolate babka from scratch, and it was delightful. I’m not sure I’m going to keep to my health goals if she keeps this up.
 
-![](https://plasticmind.com/wp-content/uploads/2023/01/IMG_1370-1024x768.jpg)
+![](/assets/i/IMG_1370-1024x768.jpg)
 
 ### Elijah
 
@@ -82,7 +82,7 @@ He loves to play Fortnite. It’s amazing to me how little he cares about the ga
 
 Another goal Elijah set for 2023 is to learn to ride a bike.
 
-![](https://plasticmind.com/wp-content/uploads/2023/01/IMG_0568-1024x568.jpg)
+![](/assets/i/IMG_0568-1024x568.jpg)
 
 ### Elliot
 
@@ -94,7 +94,7 @@ This is especially evident with music. He’s really taken to the piano lately. 
 
 Elliot’s (well, *mom’s)* big goal is to get him potty-trained this year.
 
-![](https://plasticmind.com/wp-content/uploads/2023/01/IMG_0913-1024x768.jpg)
+![](/assets/i/IMG_0913-1024x768.jpg)
 
 ## The Homestead
 
@@ -104,7 +104,7 @@ It wasn’t just family time that suffered this year. I invested very little tim
 
 I did cut down a few pine trees to make room for an expansion of our orchard and berry patch, but beyond the miracles Jessica performed with the large flower garden in the center of our circle driveway, our property went largely untended. We neglected our vegetable garden, and left quite a bit of work we had planned around the hobby farm unfinished.
 
-![](https://plasticmind.com/wp-content/uploads/2023/01/CleanShot-2023-01-01-at-22.11.04@2x-1024x625.png)
+![](/assets/i/CleanShot-2023-01-01-at-22.11.04@2x-1024x625.png)
 
 We’ve got a lot of plans for the next year. Put in a new retaining wall, walkway, and shade trees next to our back porch — the current wall is collapsing and the cedar have died. Install a shade sail over the back porch. Build a new chicken coop and pen further away from the garage. Move the raspberry to a dedicated area of the property and expand it significantly. Double the size of the orchard. Move the vegetable garden. Seal coat the driveway. Replace all the shutters. Fix spindles and columns on the front porch and repaint. Clearly, we’ve got our work cut out.
 
@@ -112,13 +112,13 @@ We’ve got a lot of plans for the next year. Put in a new retaining wall, walkw
 
 This year *was* a big one for work inside the house, primarily because I was able to hire someone to do it. In case you haven’t seen it, these bathroom transformations are &#x1f525;&#x1f525;&#x1f525;. My sister helped design the space, and my brother made it a reality. If you’re wondering, yes, you can <a href="https://funcycled.com/design-services/">hire Sarah to help you with your interior designs</a> and you can <a href="https://www.facebook.com/RevivalRenovationsNewYork">hire Nathan to remodel your bathroom</a> (if you’re in Upstate NY).
 
-![](https://plasticmind.com/wp-content/uploads/2023/01/Untitled-design.jpg)
+![](/assets/i/Untitled-design.jpg)
 
 We also considered the possibility of having family moving in with us for a time. Since we don’t have enough room in our house for anyone else to stay, we did drew up some plans and renderings to imagine what would it look like to finish part of our basement and turn it into a small standalone apartment. We didn’t end up needing it, but we’re still considering building this out to make it easier (thus, more likely) for friends and out-of-town family to visit.
 
 Given all we have planned for outside, this might have to wait until 2024.
 
-![](https://plasticmind.com/wp-content/uploads/2023/01/CleanShot-2023-01-01-at-21.52.11@2x-1024x595.png)
+![](/assets/i/CleanShot-2023-01-01-at-21.52.11@2x-1024x595.png)
 
 ## And So Much More…
 
@@ -128,4 +128,4 @@ Weekend dinners with our extended family. Trick-or-treating for the first time. 
 
 But I’ll end the post here. More to come in my next post: travel.
 
-![](https://plasticmind.com/wp-content/uploads/2023/01/IMG_1942.JPG-1024x406.jpg)
+![](/assets/i/IMG_1942.JPG-1024x406.jpg)

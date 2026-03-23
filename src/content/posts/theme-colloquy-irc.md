@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Design"
 categories: ["Design", "Downloads"]
-tags: ["Colloquy", "IRC", "Movable Type", "skins"]
+tags: ["Movable Type"]
 meta_description: 
 context: professional
 fix: false

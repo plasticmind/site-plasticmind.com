@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Writing"
 categories: ["Writing"]
-tags: ["angst", "cohesion", "project52", "writing"]
+tags: []
 meta_description: 
 context: professional
 fix: false
@@ -37,7 +37,7 @@ There's no doubt this impacts my productivity; but the greatest victim of this m
 
 			<!--more-->
 
-&#8220;But isn't writing communication? And isn't social networking all about communicating with others?&#8221;  Yes, undoubtedly; you could probably even argue that writing this article is a form of social networking.  But most of what we'd call social networking is missing something essential for meaningful writing: cohesion.
+“But isn't writing communication? And isn't social networking all about communicating with others?”  Yes, undoubtedly; you could probably even argue that writing this article is a form of social networking.  But most of what we'd call social networking is missing something essential for meaningful writing: cohesion.
 
 
 
