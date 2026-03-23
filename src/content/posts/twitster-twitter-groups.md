@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Social Media & SEO"
 categories: ["Social Media & SEO"]
-tags: ["Twitter"]
+tags: ["twitter"]
 meta_description: 
 context: professional
 fix: false

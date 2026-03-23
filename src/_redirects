@@ -246,7 +246,8 @@
 # 6. Static Pages
 # -----------------------------------------------------------------------------
 /about/                /work/   301
-/posts/                /blog/   301
+/posts/                /journal/   301
+/blog/                 /journal/   301
 /contact/              /        301
 /search/               /        301
 /lab/                  /        301

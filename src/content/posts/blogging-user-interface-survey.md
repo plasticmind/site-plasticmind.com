@@ -9,7 +9,7 @@ featured_image_url: /assets/i/2488023541_d82a633021_b.jpg
 alt_text: 
 primary_category: "Design"
 categories: ["Design"]
-tags: ["Movable Type"]
+tags: ["movable type"]
 meta_description: 
 context: professional
 fix: false

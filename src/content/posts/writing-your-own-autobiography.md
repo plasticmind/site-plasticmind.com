@@ -9,7 +9,7 @@ featured_image_url: /assets/i/autobiography.png
 alt_text: 
 primary_category: "Blogging & CMS"
 categories: ["Blogging & CMS"]
-tags: ["facebook", "Google"]
+tags: ["facebook", "google"]
 meta_description: 
 context: personal
 fix: false

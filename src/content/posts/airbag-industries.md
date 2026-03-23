@@ -9,7 +9,7 @@ featured_image_url: /assets/i/2020-03-04-at-10.09-AM.png
 alt_text: ""
 primary_category: "Miscellany"
 categories: ["Miscellany"]
-tags: ["Movable Type"]
+tags: ["movable type"]
 meta_description: 
 context: professional
 fix: false

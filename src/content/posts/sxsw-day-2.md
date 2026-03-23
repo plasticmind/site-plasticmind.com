@@ -7,8 +7,8 @@ subtitle:
 slug: sxsw-day-2
 featured_image_url: 
 alt_text: 
-primary_category: "Design"
-categories: ["Design", "Journeys"]
+primary_category: "Journeys"
+categories: ["Journeys"]
 tags: ["sxsw"]
 meta_description: 
 context: professional

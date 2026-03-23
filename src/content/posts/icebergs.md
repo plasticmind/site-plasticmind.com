@@ -7,8 +7,8 @@ subtitle: "It's like Pinterest and Evernote got together and had a good-looking 
 slug: icebergs
 featured_image_url: /assets/i/2013-03-21_at_1.21.00_PM.png
 alt_text: 
-primary_category: "Web Development"
-categories: ["Web Development"]
+primary_category: "Reviews"
+categories: ["Reviews"]
 tags: []
 meta_description: 
 context: professional

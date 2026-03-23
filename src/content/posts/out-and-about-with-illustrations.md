@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Journeys"
 categories: ["Journeys"]
-tags: ["New York"]
+tags: ["new york"]
 meta_description: 
 context: personal
 fix: false

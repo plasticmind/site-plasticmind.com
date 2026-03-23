@@ -7,8 +7,8 @@ subtitle:
 slug: a-christmas-hyp
 featured_image_url: 
 alt_text: 
-primary_category: "Visual"
-categories: ["Visual"]
+primary_category: "Memories"
+categories: ["Memories"]
 tags: []
 meta_description: 
 context: personal

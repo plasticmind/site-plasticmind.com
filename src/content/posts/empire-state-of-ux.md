@@ -9,7 +9,7 @@ featured_image_url: /assets/i/i-love-ny-1.jpg
 alt_text:
 primary_category: "Journeys"
 categories: ["Journeys"]
-tags: ["New York"]
+tags: ["new york", "design systems"]
 meta_description:
 context: professional
 fix: false

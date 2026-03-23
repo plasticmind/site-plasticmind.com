@@ -7,8 +7,8 @@ subtitle:
 slug: the-word-unspok
 featured_image_url: 
 alt_text: 
-primary_category: "Personal"
-categories: ["Personal"]
+primary_category: "Faith"
+categories: ["Faith"]
 tags: []
 meta_description: 
 context: personal

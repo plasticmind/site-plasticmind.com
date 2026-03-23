@@ -9,7 +9,7 @@ featured_image_url: /assets/i/3079284352_d65bc89d2c_b.jpg
 alt_text: 
 primary_category: "Blogging & CMS"
 categories: ["Blogging & CMS", "Social Media & SEO"]
-tags: ["Twitter"]
+tags: ["twitter"]
 meta_description: 
 context: professional
 fix: false

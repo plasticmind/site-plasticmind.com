@@ -7,8 +7,8 @@ subtitle:
 slug: the-responsibil
 featured_image_url: 
 alt_text: 
-primary_category: "Mind"
-categories: ["Mind", "Faith"]
+primary_category: "Faith"
+categories: ["Faith"]
 tags: []
 meta_description: 
 context: personal
@@ -22,9 +22,6 @@ hits: 130
 "There is no peace without justice," Cardinal Jean-Louis Tauran, secretary of the Vatican once said. "The force of law must prevail over the law of force." It has always been and will always continue to be the practice of good men to use the strength given them to protect those who have no strength. A father would be considered negligent if a burlgar were to enter his home and he allowed his wife and children to be taken. The pacifist would argue that noviolence is the answer. He would say along with Gandi: "I object to violence because when it appears to do good, the good is only temporary; the evil it does is permanent."
 
 
-			<!--more-->
-
-<br />
 But we have then forsaken the model given us by God. This loving, just and holy God who offers us grace but threatens us with hell. He does not abuse his power, but his position gives him great ability to reward or punish. The greatest threat is eternal damnation. The greatest act of love was the Incarnation, when the strongest Creature reached out to help the weakest Creature. So while the Creator demonstrated his gentleness, make no mistake that he will enact justice upon those who forsake him.
 
 

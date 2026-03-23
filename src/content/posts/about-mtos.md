@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Blogging & CMS"
 categories: ["Blogging & CMS", "Social Media & SEO"]
-tags: ["Movable Type"]
+tags: ["movable type"]
 meta_description: 
 context: professional
 fix: false

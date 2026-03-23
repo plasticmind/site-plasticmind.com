@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Web Development"
 categories: ["Web Development", "Miscellany"]
-tags: ["Apple"]
+tags: ["apple"]
 meta_description: 
 context: professional
 fix: false

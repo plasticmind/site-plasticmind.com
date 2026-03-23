@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Design"
 categories: ["Design"]
-tags: ["Twitter"]
+tags: ["twitter"]
 meta_description: "A little tool I built for adding characters (like ✌ and ♬) to your online conversations."
 context: professional
 fix: false

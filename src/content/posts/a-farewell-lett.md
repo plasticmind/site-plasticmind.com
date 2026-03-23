@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Memories"
 categories: ["Memories"]
-tags: ["New York"]
+tags: ["new york"]
 meta_description: 
 context: personal
 fix: true

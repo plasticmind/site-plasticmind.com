@@ -7,8 +7,8 @@ subtitle:
 slug: of-mice-and-men
 featured_image_url: 
 alt_text: 
-primary_category: "Mind"
-categories: ["Mind"]
+primary_category: "Culture & Politics"
+categories: ["Culture & Politics"]
 tags: []
 meta_description: 
 context: personal

@@ -2,12 +2,14 @@
   "30 day challenge": "Posts from month-long personal experiments — from quitting caffeine to daily photography.",
   "sxsw": "Notes, recaps, and reflections from South by Southwest conferences.",
   "facebook": "Commentary on Facebook as a platform, its features, and its cultural impact.",
-  "Twitter": "Observations about Twitter, its community dynamics, and its role in online discourse.",
-  "Google": "Posts touching on Google products, services, and their influence on the web.",
-  "Apple": "Writing about Apple hardware, software, and the ecosystem.",
+  "twitter": "Observations about Twitter, its community dynamics, and its role in online discourse.",
+  "google": "Posts touching on Google products, services, and their influence on the web.",
+  "apple": "Writing about Apple hardware, software, and the ecosystem.",
   "death": "Reflections on mortality, loss, and grief across different areas of life.",
-  "New York": "Life in and observations about New York.",
+  "new york": "Life in and observations about New York.",
   "engagement": "Posts about getting engaged and the journey toward marriage.",
-  "Movable Type": "Tips, tutorials, and commentary on the Movable Type publishing platform.",
-  "freewrite": "Stream-of-consciousness writing exercises — raw, unedited, time-boxed."
+  "movable type": "Tips, tutorials, and commentary on the Movable Type publishing platform.",
+  "freewrite": "Stream-of-consciousness writing exercises — raw, unedited, time-boxed.",
+  "design systems": "Component libraries, design tokens, governance, and the messy work of building shared systems at scale.",
+  "ai": "What happens when we give machines context — and what breaks when we don't."
 }

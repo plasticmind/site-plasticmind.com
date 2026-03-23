@@ -7,8 +7,8 @@ subtitle:
 slug: of-snowstorms-s
 featured_image_url: 
 alt_text: 
-primary_category: "Culture & Politics"
-categories: ["Culture & Politics"]
+primary_category: "Personal"
+categories: ["Personal"]
 tags: []
 meta_description: 
 context: personal

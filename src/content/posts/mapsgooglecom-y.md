@@ -7,8 +7,8 @@ subtitle:
 slug: mapsgooglecom-y
 featured_image_url: 
 alt_text: 
-primary_category: "Culture & Politics"
-categories: ["Culture & Politics"]
+primary_category: "Reviews"
+categories: ["Reviews"]
 tags: []
 meta_description: 
 context: professional

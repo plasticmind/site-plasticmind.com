@@ -9,7 +9,7 @@ featured_image_url:
 alt_text: 
 primary_category: "Design"
 categories: ["Design", "Downloads"]
-tags: ["Movable Type"]
+tags: ["movable type"]
 meta_description: 
 context: professional
 fix: false

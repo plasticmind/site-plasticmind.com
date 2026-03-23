@@ -3171,6 +3171,14 @@ html, body {
   transition: color var(--transition-sm) ease;
 }
 
+.c-post-feed__hashtag {
+  font-family: var(--font-family-ui);
+  font-size: var(--font-xs);
+  font-weight: 400;
+  color: var(--color-text-weakest);
+  letter-spacing: 0.02em;
+}
+
 .c-post-feed__link:hover .c-post-feed__title {
   color: var(--color-link);
 }

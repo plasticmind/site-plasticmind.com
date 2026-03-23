@@ -7,8 +7,8 @@ subtitle:
 slug: das-gimp-1
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS"]
+primary_category: "Reviews"
+categories: ["Reviews"]
 tags: []
 meta_description: 
 context: professional

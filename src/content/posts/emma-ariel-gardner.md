@@ -26,6 +26,7 @@ Last night, my very first niece was born… 8lbs., 3oz. and 20”.  Congratulati
 
 
 <img src="https://farm3.static.flickr.com/2330/2071783654_724b15d590.jpg?v=0" alt="" />
+
 **Emma Ariel Gardner, 11/27/07**
 
 

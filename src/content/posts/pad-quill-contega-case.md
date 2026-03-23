@@ -9,7 +9,7 @@ featured_image_url: /assets/i/pad-and-quill-1.jpg
 alt_text: 
 primary_category: "Reviews"
 categories: ["Reviews"]
-tags: ["Apple"]
+tags: ["apple"]
 meta_description: 
 context: professional
 fix: false
