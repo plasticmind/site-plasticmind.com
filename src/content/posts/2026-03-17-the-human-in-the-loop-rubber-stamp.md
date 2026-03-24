@@ -1,10 +1,10 @@
 ---
-title: "The \"Human in the Loop\" Rubber Stamp"
+title: "Rubber Stamp"
 date: 2026-03-17
 archive: false
 excerpt: "When AI accelerates tempo so much there's less time for reflection, \"human in the loop\" becomes a rubber stamp."
 subtitle: "Finding the balance between acceleration and introspection."
-slug: the-human-in-the-loop-rubber-stamp
+slug: rubber-stamp
 featured_image_url:
 alt_text:
 primary_category: "Technology"

@@ -1,15 +1,33 @@
 [
   {
-    "title": "Using a DSLR as a Webcam",
-    "url": "/journal/using-dslr-for-webcam/",
+    "title": "Rubber Stamp",
+    "url": "/journal/rubber-stamp/",
     "publication": "Technology",
-    "year": 2020
+    "year": 2026
+  },
+  {
+    "title": "Accessibility Review of America by Design",
+    "url": "/journal/accessibility-review-america-by-design/",
+    "publication": "Design",
+    "year": 2025
+  },
+  {
+    "title": "Saying It Out Loud",
+    "url": "/journal/saying-it-out-loud/",
+    "publication": "Personal",
+    "year": 2023
   },
   {
     "title": "Farewell, Fox",
     "url": "/journal/farewell-fox/",
     "publication": "Plasticmind",
     "year": 2022
+  },
+  {
+    "title": "Using a DSLR as a Webcam",
+    "url": "/journal/using-dslr-for-webcam/",
+    "publication": "Technology",
+    "year": 2020
   },
   {
     "title": "My Greatest Failing",
