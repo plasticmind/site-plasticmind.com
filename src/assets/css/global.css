@@ -787,14 +787,14 @@ hr {
 }
 
 .c-tag a {
-  color: var(--coral-500);
+  color: var(--color-link);
   text-decoration: none;
   text-transform: lowercase;
   transition: color var(--transition-sm) ease;
 }
 
 .c-tag a:hover {
-  color: var(--coral-700);
+  color: var(--color-hover);
   text-decoration: underline;
 }
 
