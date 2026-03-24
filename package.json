@@ -28,6 +28,7 @@
     },
     "dependencies": {
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-        "lodash": "^4.17.23"
+        "lodash": "^4.17.23",
+        "markdown-it": "^14.1.1"
     }
 }

@@ -47,9 +47,9 @@ permalink: /category/{{ category.slug }}/
                 <li class="c-year-timeline__item">
                   <time class="c-year-timeline__date">{{ post.date | dateShort }}</time>
                   <div class="c-year-timeline__details">
-                    <a href="{{ post.url }}" class="c-year-timeline__link">{{ post.data.title }}</a>
+                    <a href="{{ post.url }}" class="c-year-timeline__link">{{ post.data.title | smartquotes }}</a>
                     {% if post.data.subtitle %}
-                      <span class="c-year-timeline__subtitle">{{ post.data.subtitle }}</span>
+                      <span class="c-year-timeline__subtitle">{{ post.data.subtitle | smartquotes }}</span>
                     {% endif %}
                   </div>
                 </li>

@@ -32,7 +32,7 @@ permalink: false
               <div class="l-grid__item--xl">
                 <div class="c-post-list__title">
                   <a href="{{ post.url }}" class="c-post-list__link">
-                    {{ post.data.title }}
+                    {{ post.data.title | smartquotes }}
                   </a>
                 </div>
                 <div class="c-post-list__description">

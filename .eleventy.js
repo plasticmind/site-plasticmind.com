@@ -5,6 +5,7 @@ const eleventyPluginNavigation = require("@11ty/eleventy-navigation");
 const eleventyPluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const timeToRead = require('eleventy-plugin-time-to-read');
+const markdownIt = require("markdown-it");
 
 // filters
 const limit = require("./src/_11ty/filters/limit.js");
@@ -62,6 +63,34 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(timeToRead, {
         style: 'short'
+    });
+
+    // markdown-it with smart quotes / typographer
+    const md = markdownIt({
+        html: true,
+        typographer: true
+    });
+    eleventyConfig.setLibrary("md", md);
+
+    // smartquotes filter for frontmatter strings (titles, subtitles, etc.)
+    eleventyConfig.addFilter("smartquotes", (text) => {
+        if (!text) return text;
+        return text
+            .replace(/"(\s)/g, '\u201D$1')       // closing double quote before space
+            .replace(/(\s)"/g, '$1\u201C')        // opening double quote after space
+            .replace(/^"/g, '\u201C')             // opening double quote at start
+            .replace(/"$/g, '\u201D')             // closing double quote at end
+            .replace(/"([.,;:!?)\]])/g, '\u201D$1') // closing before punctuation
+            .replace(/(\w)"/g, '$1\u201D')        // closing after word char
+            .replace(/"(\w)/g, '\u201C$1')        // opening before word char
+            .replace(/'(\s)/g, '\u2019$1')        // closing single quote
+            .replace(/(\s)'/g, '$1\u2018')        // opening single quote after space
+            .replace(/^'/g, '\u2018')             // opening single quote at start
+            .replace(/'$/g, '\u2019')             // closing single quote at end
+            .replace(/(\w)'/g, '$1\u2019')        // apostrophe / closing after word
+            .replace(/'(\w)/g, '\u2018$1')        // opening before word char
+            .replace(/--/g, '\u2014')             // em dash
+            .replace(/\.\.\./g, '\u2026');        // ellipsis
     });
 
     // watch for changes to css

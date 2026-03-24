@@ -1631,13 +1631,13 @@ a:hover {
   list-style: none;
 }
 
-.c-article__body ul li {
+.c-article__body ul > li {
   position: relative;
   padding-inline-start: var(--space-sm);
   margin-block-end: var(--space-md);
 }
 
-.c-article__body ul li::before {
+.c-article__body ul > li::before {
   content: "";
   display: block;
   position: absolute;
@@ -1678,7 +1678,7 @@ a:hover {
   margin-block: var(--space-md) 0;
 }
 
-.c-article__body ul ul li::before {
+.c-article__body ul ul > li::before {
   width: 4px;
   height: 4px;
   background: var(--color-ink-weak);

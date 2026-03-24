@@ -183,9 +183,9 @@ eleventyExcludeFromCollections: true
                     <li class="c-year-timeline__item">
                       <time class="c-year-timeline__date">{{ post.date | dateShort }}</time>
                       <div class="c-year-timeline__details">
-                        <a href="{{ post.url }}" class="c-year-timeline__link">{{ post.data.title }}</a>
+                        <a href="{{ post.url }}" class="c-year-timeline__link">{{ post.data.title | smartquotes }}</a>
                         {% if post.data.subtitle %}
-                          <span class="c-year-timeline__subtitle">{{ post.data.subtitle }}</span>
+                          <span class="c-year-timeline__subtitle">{{ post.data.subtitle | smartquotes }}</span>
                         {% endif %}
                       </div>
                     </li>
@@ -209,9 +209,9 @@ eleventyExcludeFromCollections: true
                   <li class="c-year-timeline__item">
                     <time class="c-year-timeline__date">{{ post.date | dateShort }}</time>
                     <div class="c-year-timeline__details">
-                      <a href="{{ post.url }}" class="c-year-timeline__link">{{ post.data.title }}</a>
+                      <a href="{{ post.url }}" class="c-year-timeline__link">{{ post.data.title | smartquotes }}</a>
                       {% if post.data.subtitle %}
-                        <span class="c-year-timeline__subtitle">{{ post.data.subtitle }}</span>
+                        <span class="c-year-timeline__subtitle">{{ post.data.subtitle | smartquotes }}</span>
                       {% endif %}
                     </div>
                   </li>
@@ -247,10 +247,10 @@ eleventyExcludeFromCollections: true
         {% for post in randomPosts %}
           <div class="c-featured-post c-featured-post--compact">
             <h3 class="c-featured-post__title">
-              <a href="{{ post.url }}">{{ post.data.title }}</a>
+              <a href="{{ post.url }}">{{ post.data.title | smartquotes }}</a>
             </h3>
             {% if post.data.subtitle %}
-              <p class="c-featured-post__subtitle">{{ post.data.subtitle }}</p>
+              <p class="c-featured-post__subtitle">{{ post.data.subtitle | smartquotes }}</p>
             {% endif %}
             <p class="c-featured-post__meta">
               {% if post.data.primary_category %}

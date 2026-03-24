@@ -16,11 +16,11 @@
   <div class="l-container--lg">
 
     {# = Article Title #}
-    <h1 class="c-heading c-heading--lg" data-pagefind-meta="title">{{ title }}</h1>
+    <h1 class="c-heading c-heading--lg" data-pagefind-meta="title">{{ title | smartquotes }}</h1>
 
     {# = Article Subtitle (if exists) #}
     {% if subtitle %}
-      <p class="c-subtitle">{{ subtitle }}</p>
+      <p class="c-subtitle">{{ subtitle | smartquotes }}</p>
     {% elif description %}
       <p class="c-subtitle">{{ description }}</p>
     {% endif %}
@@ -56,13 +56,13 @@
       {% if previousPost %}
         <div class="l-article-nav__item l-article-nav__item--prev">
           <div class="c-eyebrow">Previously:</div>
-          <a href="{{ previousPost.url }}" class="c-link c-link--nav" aria-label="Previous post: {{ previousPost.data.title }}">{{ previousPost.data.title }}</a>
+          <a href="{{ previousPost.url }}" class="c-link c-link--nav" aria-label="Previous post: {{ previousPost.data.title | smartquotes }}">{{ previousPost.data.title | smartquotes }}</a>
         </div>
       {% endif %}
       {% if nextPost %}
         <div class="l-article-nav__item l-article-nav__item--next">
           <div class="c-eyebrow">Next:</div>
-          <a href="{{ nextPost.url }}" class="c-link c-link--nav" aria-label="Next post: {{ nextPost.data.title }}">{{ nextPost.data.title }}</a>
+          <a href="{{ nextPost.url }}" class="c-link c-link--nav" aria-label="Next post: {{ nextPost.data.title | smartquotes }}">{{ nextPost.data.title | smartquotes }}</a>
         </div>
       {% endif %}
     </nav>
