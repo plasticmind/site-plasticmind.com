@@ -46,7 +46,8 @@ eleventyExcludeFromCollections: true
 
           {# Year labels across the top row #}
           {% for year in heatmapData.years %}
-            <div class="c-heatmap__year-label">{{ year }}</div>
+            {% set yearStr = year | string %}
+            <div class="c-heatmap__year-label">'{{ yearStr.slice(2) }}</div>
           {% endfor %}
 
           {# Month rows #}

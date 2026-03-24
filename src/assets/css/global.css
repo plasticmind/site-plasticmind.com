@@ -2800,7 +2800,7 @@ a.c-home-list__link:hover .c-home-list__title {
 /* # Heatmap              */
 
 .c-heatmap {
-  margin-block-end: var(--space-xxl);
+  margin-block-end: var(--space-lg);
 }
 
 .c-heatmap__scroll {
