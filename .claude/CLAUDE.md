@@ -21,6 +21,18 @@ npm run build:prod # Production build
 - `.eleventy.js` - Build configuration with plugins
 - `public/` - Generated output (don't edit)
 
+## Layout & Navigation
+
+**Shell**: `base.njk` wraps everything in `.l-shell[data-drawer]` → left drawer + `main.l-main` + right drawer + footer.
+
+**Header** (`partials/site-header.njk`): Fixed header with Plasticmind pill logo. Mini-menu dropdown (Journal, Work, Archives). Menu button opens left drawer.
+
+**Drawers** (`partials/drawer-left.njk`, `drawer-right.njk`): Left drawer has nav links + search UI + theme/text controls. Right drawer is settings. Managed by `global.js` via `data-drawer-target` buttons, `inert` attribute, keyboard shortcuts (`[`/`]` to toggle, `Escape` to close).
+
+**Search UI** (already scaffolded, no backend): In `drawer-left.njk` — a bottom drawer (`#search-drawer`) with `<input type="search">`, submit button, and `#search-results` container. Styled as `.l-bottom-drawer` / `.c-search-form`. Needs a search engine wired up.
+
+**Post count**: ~599 posts as of March 2026.
+
 ## Key Patterns
 
 **Posts**: Set `draft: true` to hide from build. URLs publish to `/journal/[slug]/`.
@@ -67,6 +79,12 @@ Post images go flat in `src/assets/i/` (served at `/assets/i/`). No subdirectori
 
 **Redirects**: `src/_redirects` has 183 rules covering WP migration + category/tag consolidation. Cloudflare Pages and Netlify both support this format. Max 2000 rules.
 
+## Filters & Collections
+
+**Filters** (`src/_11ty/filters/`): `excludeDrafts`, `excludeFuture`, `excludeNoIndex` (crawl: "false"), `relatedPosts` (by tags/categories), `postsByMonthYear`, date formatters (`dateISO`, `dateFull`, `dateShort`).
+
+**Collections** (`src/_11ty/collections/`): `posts.js` (filtered, sorted newest-first), `tagList.js`, `categoryList.js`.
+
 ## Non-Obvious
 
 - `ELEVENTY_ENV` controls dev vs prod (affects site URL)
@@ -75,3 +93,6 @@ Post images go flat in `src/assets/i/` (served at `/assets/i/`). No subdirectori
 - Archive banner dismissal stored in localStorage as `archive-banner-dismissed-{slug}`
 - Header z-index 150, archive banner z-index 200
 - `.u-visually-hidden` hides visually but keeps accessible to screen readers
+- `global.js` handles drawer state, theme toggle, text size/line-height controls
+- Fonts: Bricolage Grotesque (headings), Instrument Sans (body), Roboto Mono (code)
+- Spacing tokens: `--space-xs` through `--space-xl`; border radius: `--radius-sm`, `--radius-lg`, `--radius-round`

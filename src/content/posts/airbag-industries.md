@@ -7,8 +7,8 @@ subtitle: "Helping Greg Storey get Airbag Industries off Movable Type and onto a
 slug: airbag-industries
 featured_image_url: /assets/i/2020-03-04-at-10.09-AM.png
 alt_text: ""
-primary_category: "Miscellany"
-categories: ["Miscellany"]
+primary_category: "Technology"
+categories: ["Technology"]
 tags: ["movable type"]
 meta_description: 
 context: professional

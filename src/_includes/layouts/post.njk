@@ -4,7 +4,7 @@
 {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.posts | getNextCollectionItem(page) %}
 
-<article class="c-article c-article--single">
+<article class="c-article c-article--single"{% if crawl != 'false' %} data-pagefind-body{% endif %}>
 
   {# = Feature Image #}
   {% if featured_image_url %}
@@ -16,7 +16,7 @@
   <div class="l-container--lg">
 
     {# = Article Title #}
-    <h1 class="c-heading c-heading--lg">{{ title }}</h1>
+    <h1 class="c-heading c-heading--lg" data-pagefind-meta="title">{{ title }}</h1>
 
     {# = Article Subtitle (if exists) #}
     {% if subtitle %}
@@ -32,7 +32,7 @@
 
     {# = Article Meta #}
     <div class="c-article-meta">
-      <time class="c-article-meta__date" datetime="{{ date | dateISO }}">{{ date | dateFull }}</time>
+      <time class="c-article-meta__date" datetime="{{ date | dateISO }}" data-pagefind-meta="date:{{ date | dateMedium }}">{{ date | dateFull }}</time>
       <span class="c-article-meta__byline">by Jesse Gardner</span>
     </div>
 

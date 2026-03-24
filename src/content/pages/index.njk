@@ -37,15 +37,35 @@ eleventyNavigation:
 
 <section class="c-section">
   <div class="l-container--lg">
-    <h2 class="c-heading c-heading--md">Selected Articles</h2>
-    <ul class="c-selected-articles">
-      {% for article in selectedArticles %}
-        <li class="c-selected-articles__item">
-          <a href="{{ article.url }}" class="c-selected-articles__link"{% if article.url.startsWith('http') %} rel="external"{% endif %}>
-            <span class="c-selected-articles__title">{{ article.title }}</span>
-            <span class="c-selected-articles__meta">
-              <span class="c-selected-articles__publication">{{ article.publication }}</span>
-              <span class="c-selected-articles__year">{{ article.year }}</span>
+    <h2 class="c-heading c-heading--md">Writing</h2>
+    <ul class="c-home-list">
+      {% for item in homeWriting %}
+        <li class="c-home-list__item">
+          <a href="{{ item.url }}" class="c-home-list__link"{% if item.url.startsWith('http') %} rel="external"{% endif %}>
+            <span class="c-home-list__title">{{ item.title }}</span>
+            <span class="c-home-list__meta">
+              <span class="c-home-list__source">{{ item.publication }}</span>
+              <span class="c-home-list__year">{{ item.year }}</span>
+            </span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    <a href="/journal/" class="c-link--more">More in the journal &rarr;</a>
+  </div>
+</section>
+
+<section class="c-section">
+  <div class="l-container--lg">
+    <h2 class="c-heading c-heading--md">Talks & Interviews</h2>
+    <ul class="c-home-list">
+      {% for item in homeTalks %}
+        <li class="c-home-list__item">
+          <a href="{{ item.url }}" class="c-home-list__link" rel="external">
+            <span class="c-home-list__title">{{ item.title }}</span>
+            <span class="c-home-list__meta">
+              <span class="c-home-list__source">{{ item.venue }}</span>
+              <span class="c-home-list__year">{{ item.year }}</span>
             </span>
           </a>
         </li>
@@ -56,15 +76,43 @@ eleventyNavigation:
 
 <section class="c-section">
   <div class="l-container--lg">
-    <h2 class="c-heading c-heading--md">Press & Mentions</h2>
-    <ul class="c-press-mentions">
-      {% for item in pressMentions %}
-        <li class="c-press-mentions__item">
-          <a href="{{ item.url }}" class="c-press-mentions__link" rel="external">
-            <span class="c-press-mentions__title">{{ item.title }}</span>
-            <span class="c-press-mentions__meta">
-              <span class="c-press-mentions__venue">{{ item.venue }}</span>
-              <span class="c-press-mentions__year">{{ item.year }}</span>
+    <h2 class="c-heading c-heading--md">Awards</h2>
+    <ul class="c-home-list">
+      {% for item in homeAwards %}
+        <li class="c-home-list__item">
+          {% if item.url %}
+            <a href="{{ item.url }}" class="c-home-list__link" rel="external">
+              <span class="c-home-list__title">{{ item.title }}</span>
+              <span class="c-home-list__meta">
+                <span class="c-home-list__source">{{ item.org }}</span>
+                <span class="c-home-list__year">{{ item.year }}</span>
+              </span>
+            </a>
+          {% else %}
+            <span class="c-home-list__link">
+              <span class="c-home-list__title">{{ item.title }}</span>
+              <span class="c-home-list__meta">
+                <span class="c-home-list__source">{{ item.org }}</span>
+                <span class="c-home-list__year">{{ item.year }}</span>
+              </span>
+            </span>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="c-section">
+  <div class="l-container--lg">
+    <h2 class="c-heading c-heading--md">Projects</h2>
+    <ul class="c-home-list c-home-list--projects">
+      {% for item in homeProjects %}
+        <li class="c-home-list__item">
+          <a href="{{ item.url }}" class="c-home-list__link" rel="external">
+            <span class="c-home-list__title">{{ item.title }}</span>
+            <span class="c-home-list__meta">
+              <span class="c-home-list__source">{{ item.description }}</span>
             </span>
           </a>
         </li>
@@ -73,15 +121,30 @@ eleventyNavigation:
   </div>
 </section>
 
-{# Blogroll - will be populated from OPML file later #}
-{#
-<section class="c-section">
+<section class="c-section c-section--testimonials">
   <div class="l-container--lg">
-    <h2 class="c-heading c-heading--md">Blogroll</h2>
-    <ul class="c-blogroll">
-    </ul>
+    <h2 class="c-heading c-heading--md">People I've Helped</h2>
+    <div class="c-testimonials" id="js-testimonials">
+      {# Server-renders all testimonials; JS randomly shows 2 on load #}
+      {% for item in homeTestimonials %}
+        <blockquote class="c-testimonial" data-testimonial>
+          <p class="c-testimonial__quote">{{ item.quote }}</p>
+          <footer class="c-testimonial__cite">— {% if item.link %}<a href="{{ item.link }}" rel="external">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}{% if item.organization %}, {{ item.organization }}{% endif %}</footer>
+        </blockquote>
+      {% endfor %}
+    </div>
   </div>
 </section>
-#}
 
+<aside class="c-home-coda">
+  <div class="l-container--lg">
+    <p class="c-home-coda__text">Two decades of thinking out loud on the internet.</p>
+    <a href="/archives/" class="c-home-coda__link">Explore the archives &rarr;</a>
+  </div>
+</aside>
+
+{% endblock %}
+
+{% block scripts %}
+  <script src="/assets/js/testimonials.js"></script>
 {% endblock %}

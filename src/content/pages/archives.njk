@@ -30,6 +30,8 @@ eleventyExcludeFromCollections: true
       <p class="c-archive-header__description">{{ description }}</p>
     </header>
 
+    <p class="c-archive-caveat">When you've been writing on the internet for over two decades, you're bound to change as much as the technology. A lot of what you'll find here is outdated — and some of it makes the older me wince the way old photos do. But that's the point. This is a document of the journey, not a highlight reel.</p>
+
     <div class="c-archive-stats">
       <p>{{ totalPosts }} posts &middot; {{ uniqueYears }} years &middot; {{ totalCategories }} categories</p>
     </div>
@@ -250,10 +252,10 @@ eleventyExcludeFromCollections: true
               <p class="c-featured-post__subtitle">{{ post.data.subtitle }}</p>
             {% endif %}
             <p class="c-featured-post__meta">
-              <time>{{ post.date | dateMedium }}</time>
               {% if post.data.primary_category %}
-                <span class="c-category-badge">{{ post.data.primary_category }}</span>
+                <span class="c-featured-post__category">{{ post.data.primary_category | lower }}</span>
               {% endif %}
+              <time>{{ post.date | dateMedium }}</time>
             </p>
           </div>
         {% endfor %}

@@ -66,12 +66,15 @@ permalink: /journal/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber +
         <li class="c-post-feed__item">
           <a href="{{ post.url }}" class="c-post-feed__link">
             <div class="c-post-feed__content">
-              <h2 class="c-post-feed__title">{{ post.data.title }}{% if post.data.primary_category %} <span class="c-post-feed__hashtag">#{{ post.data.primary_category | lower }}</span>{% endif %}</h2>
+              <h2 class="c-post-feed__title">{{ post.data.title }}</h2>
               {% if post.data.subtitle %}
                 <p class="c-post-feed__subtitle">{{ post.data.subtitle }}</p>
               {% endif %}
             </div>
             <div class="c-post-feed__meta">
+              {% if post.data.primary_category %}
+                <span class="c-post-feed__category">{{ post.data.primary_category | lower }}</span>
+              {% endif %}
               <time class="c-post-feed__date" datetime="{{ post.date | dateISO }}">{{ post.date | dateMedium }}</time>
             </div>
           </a>

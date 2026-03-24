@@ -156,10 +156,10 @@
   </div>
   <div class="l-bottom-drawer__content">
     <h2>Search</h2>
-    <form class="c-search-form" role="search">
-      <input type="search" placeholder="Search posts..." aria-label="Search posts" class="c-search-form__input">
-      <button type="submit" class="c-search-form__button">Search</button>
+    <form class="c-search-form" role="search" action="javascript:void(0)">
+      <input type="search" id="search-input" placeholder="Search posts..." aria-label="Search posts" class="c-search-form__input" autocomplete="off">
     </form>
+    <div id="search-status" class="u-visually-hidden" aria-live="polite" aria-atomic="true"></div>
     <div id="search-results" class="c-search-results"></div>
   </div>
 </div>
