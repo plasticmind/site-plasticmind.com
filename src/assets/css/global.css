@@ -1381,6 +1381,39 @@ body:has(.c-archive-banner:not(.is-dismissed)) .l-main {
 }
 
 /* ---------------------- */
+/* # Home Nav */
+
+.c-home-nav {
+  margin-block: var(--space-xl);
+}
+
+.c-home-nav__list {
+  display: flex;
+  gap: var(--space-lg);
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.c-home-nav__link {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-lg);
+  font-weight: 600;
+  color: var(--color-text);
+  text-decoration: none;
+  padding: var(--space-sm) var(--space-lg);
+  border: 1px solid var(--color-ink-faint);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-sm) ease;
+}
+
+.c-home-nav__link:hover {
+  background: var(--color-link);
+  border-color: var(--color-link);
+  color: var(--color-text-reverse);
+}
+
+/* ---------------------- */
 /* # Home Coda */
 
 .c-home-coda {
