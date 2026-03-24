@@ -5,11 +5,20 @@
 # Rules are processed top-to-bottom; first match wins.
 # Without the ! (force) suffix, redirects only fire when no file exists at the
 # requested path — so existing static pages (e.g. /accessibility/) are safe.
+#
+# IMPORTANT: Cloudflare Pages limits dynamic rules (with * or :splat) to 100.
+# Static rules that appear AFTER a dynamic rule count as dynamic.
+# Therefore, ALL static (exact-match) rules MUST come before ANY dynamic rules.
+# =============================================================================
+
+
+# =============================================================================
+# STATIC RULES (exact match — must come before any dynamic/splat rules)
 # =============================================================================
 
 
 # -----------------------------------------------------------------------------
-# 1. RSS / Feed
+# RSS / Feed
 # -----------------------------------------------------------------------------
 /feed/            /feed.xml   301
 /feed              /feed.xml   301
@@ -17,14 +26,8 @@
 
 
 # -----------------------------------------------------------------------------
-# 2. Tag Pages — /tag/{slug}/ -> /tags/{slug}/
+# Removed tag archive pages — redirect to most relevant surviving category
 # -----------------------------------------------------------------------------
-# WordPress uses singular /tag/; 11ty uses plural /tags/.
-# After tag cleanup, only 11 tags survive. Missing tags will naturally 404.
-
-/tag/*   /tags/:splat   301
-
-# Removed tag archive pages — redirect to the most relevant surviving category
 /tags/blindmanproject/    /tags/freewrite/                          301
 /tags/social-networking/  /category/social-media-seo/           301
 /tags/jessica/            /category/people/                         301
@@ -50,11 +53,8 @@
 
 
 # -----------------------------------------------------------------------------
-# 3. Old 11ty Category Pages → New Category Pages
+# Old 11ty Category Pages → New Category Pages
 # -----------------------------------------------------------------------------
-# After category consolidation, old 11ty /category/ URLs need redirects.
-# These MUST come before the WP category rules (section 4) since both
-# may match the same paths.
 
 # Renames
 /category/30-day-challenge/    /category/personal/                 301
@@ -112,19 +112,13 @@
 /category/uncategorized/       /category/miscellany/               301
 /category/diy/                 /category/miscellany/               301
 
-# World → Culture & Politics (not in original plan, 11 posts)
+# World → Culture & Politics
 /category/world/               /category/culture-politics/     301
 
 
 # -----------------------------------------------------------------------------
-# 4. WP Category Pages — /{wp-category-slug}/ -> /category/{new-11ty-slug}/
+# WP Category Pages — /{wp-category-slug}/ -> /category/{new-11ty-slug}/
 # -----------------------------------------------------------------------------
-# WordPress categories sit at root level; 11ty nests under /category/.
-# Points directly to the new consolidated category slugs.
-#
-# NOTE: /accessibility/ also exists as a static 11ty page. Because this
-# redirect lacks the ! (force) flag, the static page wins.
-
 /0s-and-1s/           /category/technology/               301
 /30-day-challenge/    /category/30-day-challenge/         301
 /accessibility/       /category/web-development/          301
@@ -171,7 +165,7 @@
 /world/               /category/culture-politics/     301
 /writing/             /category/writing/                  301
 
-# WP-only categories (no posts in 11ty) — redirect to homepage
+# WP-only categories (no posts in 11ty)
 /beginners/           /   301
 /downloads/           /   301
 /great-grandmother/   /   301
@@ -180,13 +174,38 @@
 /plugins/             /   301
 /print/               /   301
 
+# Static Pages
+/about/                /work/   301
+/posts/                /journal/   301
+/blog/                 /journal/   301
+/contact/              /        301
+/search/               /        301
+/lab/                  /        301
+/faithtech/            /        301
+/livestreaming-101/    /        301
+/learning-web-design/  /        301
+
+# WordPress Infrastructure
+/wp-admin/       /   301
+/wp-login.php    /   301
+
+
+# =============================================================================
+# DYNAMIC RULES (with * or :splat — max 100 on Cloudflare Pages)
+# =============================================================================
+
 
 # -----------------------------------------------------------------------------
-# 5. Blog Post Redirects — /{wp-category}/{post-slug}/ -> /journal/{post-slug}/
+# Tag Pages — /tag/{slug}/ -> /tags/{slug}/
+# -----------------------------------------------------------------------------
+/tag/*   /tags/:splat   301
+
+
+# -----------------------------------------------------------------------------
+# Blog Post Redirects — /{wp-category}/{post-slug}/ -> /journal/{post-slug}/
 # -----------------------------------------------------------------------------
 # WordPress nests posts under their category; 11ty uses a flat /journal/ prefix.
 # One splat rule per WP category covers all ~872 post URLs.
-# Posts that don't exist in 11ty (~272) will land on /journal/{slug}/ and 404.
 
 /0s-and-1s/*           /journal/:splat   301
 /30-day-challenge/*    /journal/:splat   301
@@ -243,30 +262,8 @@
 
 
 # -----------------------------------------------------------------------------
-# 6. Static Pages
-# -----------------------------------------------------------------------------
-/about/                /work/   301
-/posts/                /journal/   301
-/blog/                 /journal/   301
-/contact/              /        301
-/search/               /        301
-/lab/                  /        301
-/faithtech/            /        301
-/livestreaming-101/    /        301
-/learning-web-design/  /        301
-
-
-# -----------------------------------------------------------------------------
-# 7. Series, Author, Newsletter
+# Series, Author, Newsletter
 # -----------------------------------------------------------------------------
 /series/*       /   301
 /author/*       /   301
 /newsletter/*   /   301
-
-
-# -----------------------------------------------------------------------------
-# 8. WordPress Infrastructure
-# -----------------------------------------------------------------------------
-# Let most WP infrastructure URLs 404 naturally. Only redirect common ones.
-/wp-admin/       /   301
-/wp-login.php    /   301
