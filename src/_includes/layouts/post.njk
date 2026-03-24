@@ -9,7 +9,7 @@
   {# = Feature Image #}
   {% if featured_image_url %}
     <div class="c-feature-image">
-      <img src="{{ featured_image_url }}" alt="{{ title | safe }}">
+      <img src="{{ featured_image_url }}" alt="{{ alt_text if alt_text else title | safe }}">
     </div>
   {% endif %}
 
@@ -40,10 +40,10 @@
     {% if primary_category or tags %}
       <ul class="c-tag-list" aria-label="Post tags">
         {% if primary_category %}
-          <li class="c-tag c-tag--primary"><a href="/category/{{ primary_category | slugify }}/" rel="tag">#{{ primary_category | lower }}</a></li>
+          <li class="c-tag c-tag--primary"><a href="/category/{{ primary_category | slugify }}/" rel="tag"><span aria-hidden="true">#</span><span class="u-visually-hidden">Category: </span>{{ primary_category | lower }}</a></li>
         {% endif %}
         {% for tag in tags %}
-          <li class="c-tag"><a href="/tags/{{ tag | slugify }}/" rel="tag">#{{ tag }}</a></li>
+          <li class="c-tag"><a href="/tags/{{ tag | slugify }}/" rel="tag"><span aria-hidden="true">#</span><span class="u-visually-hidden">Tag: </span>{{ tag }}</a></li>
         {% endfor %}
       </ul>
     {% endif %}
@@ -56,13 +56,13 @@
       {% if previousPost %}
         <div class="l-article-nav__item l-article-nav__item--prev">
           <div class="c-eyebrow">Previously:</div>
-          <a href="{{ previousPost.url }}" class="c-link c-link--nav">{{ previousPost.data.title }}</a>
+          <a href="{{ previousPost.url }}" class="c-link c-link--nav" aria-label="Previous post: {{ previousPost.data.title }}">{{ previousPost.data.title }}</a>
         </div>
       {% endif %}
       {% if nextPost %}
         <div class="l-article-nav__item l-article-nav__item--next">
           <div class="c-eyebrow">Next:</div>
-          <a href="{{ nextPost.url }}" class="c-link c-link--nav">{{ nextPost.data.title }}</a>
+          <a href="{{ nextPost.url }}" class="c-link c-link--nav" aria-label="Next post: {{ nextPost.data.title }}">{{ nextPost.data.title }}</a>
         </div>
       {% endif %}
     </nav>

@@ -1,18 +1,18 @@
 {# Archive Banner - Shows caveat for older posts. Click anywhere to dismiss. #}
 {% if archive == true %}
-<div class="c-archive-banner" data-archive-banner data-post-slug="{{ slug or page.fileSlug }}" role="button" tabindex="0" aria-label="Dismiss archive notice">
+<aside class="c-archive-banner" data-archive-banner data-post-slug="{{ slug or page.fileSlug }}" role="note">
   <div class="c-archive-banner__content">
     <span class="c-archive-banner__text">
-      <svg class="c-archive-banner__icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg class="c-archive-banner__icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M12 8V12M12 16H12.01M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
       <span>{% if context == "personal" %}<strong>Older post.</strong> It may not reflect my current views or values.{% else %}<strong>Older post.</strong> It may reference outdated tech, tools, or practices.{% endif %}</span>
     </span>
-    <span class="c-archive-banner__dismiss" aria-hidden="true">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <button class="c-archive-banner__dismiss" aria-label="Dismiss archive notice">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
       </svg>
-    </span>
+    </button>
   </div>
-</div>
+</aside>
 {% endif %}

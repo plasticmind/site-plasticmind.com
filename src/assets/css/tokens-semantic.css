@@ -7,7 +7,7 @@
 
     --color-text: var(--neutral-900);
     --color-text-weak: var(--neutral-600);
-    --color-text-weakest: var(--neutral-300);
+    --color-text-weakest: var(--neutral-500);
     --color-text-reverse: var(--neutral-0);
     --color-text-reverse-weak: var(--neutral-300);
     --color-text-light: var(--neutral-0); /* Fixed light - never swaps */
@@ -30,10 +30,10 @@
     --color-surface-alt: var(--neutral-50);
     --color-surface-alt-reverse: var(--neutral-800);
 
-    --color-link: var(--color-coral-500);
-    --color-hover: var(--color-coral-700);
-    --color-focus: var(--color-coral-700);
-    --color-press: var(--color-coral-900);
+    --color-link: var(--coral-700);
+    --color-hover: var(--coral-800);
+    --color-focus: var(--coral-700);
+    --color-press: var(--coral-900);
 
     /* Gradients */
     --gradient-brand: linear-gradient(95deg, #fc0b45 2%, #fe608d 98%);

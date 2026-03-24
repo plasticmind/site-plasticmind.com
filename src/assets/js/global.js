@@ -2,6 +2,16 @@
 
 document.addEventListener('DOMContentLoaded', function() {
   // ========================
+  // Live Region for Status Announcements
+  // ========================
+
+  var liveRegion = document.createElement('div');
+  liveRegion.setAttribute('role', 'status');
+  liveRegion.setAttribute('aria-live', 'polite');
+  liveRegion.className = 'u-visually-hidden';
+  document.body.appendChild(liveRegion);
+
+  // ========================
   // Drawer Management
   // ========================
 
@@ -9,11 +19,13 @@ document.addEventListener('DOMContentLoaded', function() {
   const overlay = document.querySelector('.l-drawer-overlay');
   const menuButton = document.querySelector('[data-action="toggle-menu"]');
   const mainContent = document.querySelector('.l-main');
+  const siteHeader = document.querySelector('.c-site-header');
   const leftDrawer = document.getElementById('menu-drawer');
   const rightDrawer = document.getElementById('right-drawer');
 
   // Track which element opened the drawer so we can restore focus on close
   var drawerTrigger = null;
+  var drawerTrapHandler = null;
 
   var focusableSelector = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
@@ -29,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Focus management: only the open drawer should be interactive
     mainContent.setAttribute('inert', '');
+    if (siteHeader) siteHeader.setAttribute('inert', '');
     var activeDrawer;
     if (direction === 'left') {
       leftDrawer.removeAttribute('inert');
@@ -37,6 +50,18 @@ document.addEventListener('DOMContentLoaded', function() {
       rightDrawer.removeAttribute('inert');
       activeDrawer = rightDrawer;
     }
+    // Update aria-expanded on triggers
+    var edgeHandle = document.querySelector('[data-edge-handle="' + direction + '"]');
+    if (edgeHandle) edgeHandle.setAttribute('aria-expanded', 'true');
+    if (direction === 'left' && menuButton) menuButton.setAttribute('aria-expanded', 'true');
+
+    // Trap focus within the drawer
+    if (drawerTrapHandler) {
+      document.removeEventListener('keydown', drawerTrapHandler);
+    }
+    drawerTrapHandler = trapFocusIn(activeDrawer);
+    document.addEventListener('keydown', drawerTrapHandler);
+
     // Defer focus until the browser has processed the inert removal
     requestAnimationFrame(function() {
       var firstFocusable = activeDrawer.querySelector(focusableSelector);
@@ -57,8 +82,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Restore normal focus: main content interactive, drawers inert
     mainContent.removeAttribute('inert');
+    if (siteHeader) siteHeader.removeAttribute('inert');
     leftDrawer.setAttribute('inert', '');
     rightDrawer.setAttribute('inert', '');
+
+    // Reset aria-expanded on all drawer triggers
+    if (menuButton) menuButton.setAttribute('aria-expanded', 'false');
+    var allEdgeHandles = document.querySelectorAll('[data-edge-handle]');
+    allEdgeHandles.forEach(function(handle) { handle.setAttribute('aria-expanded', 'false'); });
+
+    // Remove focus trap
+    if (drawerTrapHandler) {
+      document.removeEventListener('keydown', drawerTrapHandler);
+      drawerTrapHandler = null;
+    }
 
     // Return focus to the element that opened the drawer
     if (drawerTrigger && typeof drawerTrigger.focus === 'function') {
@@ -120,9 +157,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (direction === 'left') {
       drawer.style.transform = 'translateX(' + (-width * (1 - progress)) + 'px)';
       mainContent.style.transform = 'translateX(' + (width * progress) + 'px)';
+      if (siteHeader) siteHeader.style.transform = 'translateX(' + (width * progress) + 'px)';
     } else {
       drawer.style.transform = 'translateX(' + (width * (1 - progress)) + 'px)';
       mainContent.style.transform = 'translateX(' + (-width * progress) + 'px)';
+      if (siteHeader) siteHeader.style.transform = 'translateX(' + (-width * progress) + 'px)';
     }
 
     if (progress > 0) {
@@ -148,6 +187,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     mainContent.style.transform = '';
     mainContent.style.removeProperty('--drawer-progress');
+    if (siteHeader) siteHeader.style.transform = '';
     overlay.style.opacity = '';
     overlay.style.visibility = '';
   }
@@ -372,6 +412,11 @@ document.addEventListener('DOMContentLoaded', function() {
       drawer.removeAttribute('inert');
       document.body.style.overflow = 'hidden';
 
+      // Update aria-expanded on trigger
+      bottomDrawerTriggers.forEach(function(btn) {
+        btn.setAttribute('aria-expanded', btn.dataset.drawerTarget === drawerId ? 'true' : 'false');
+      });
+
       // Trap focus within the bottom drawer
       if (bottomDrawerTrapHandler) {
         document.removeEventListener('keydown', bottomDrawerTrapHandler);
@@ -392,6 +437,11 @@ document.addEventListener('DOMContentLoaded', function() {
     drawer.setAttribute('aria-hidden', 'true');
     drawer.setAttribute('inert', '');
     document.body.style.overflow = '';
+
+    // Reset aria-expanded on all bottom drawer triggers
+    bottomDrawerTriggers.forEach(function(btn) {
+      btn.setAttribute('aria-expanded', 'false');
+    });
 
     // Remove focus trap
     if (bottomDrawerTrapHandler) {
@@ -477,6 +527,9 @@ document.addEventListener('DOMContentLoaded', function() {
     themeInputs.forEach(input => {
       input.checked = input.value === theme;
     });
+
+    // Announce theme change to screen readers
+    liveRegion.textContent = 'Theme set to ' + theme;
   }
 
   // Listen for system preference changes
@@ -531,6 +584,9 @@ document.addEventListener('DOMContentLoaded', function() {
       textSizeSlider.value = size;
       textSizeSlider.setAttribute('aria-valuetext', textSizeLabels[size - 1]);
     }
+
+    // Announce text size change to screen readers
+    liveRegion.textContent = 'Text size: ' + textSizeLabels[size - 1];
   }
 
   if (textSizeSlider) {
@@ -567,7 +623,9 @@ document.addEventListener('DOMContentLoaded', function() {
     localStorage.setItem('lineHeight', value);
 
     lineHeightButtons.forEach(btn => {
-      btn.classList.toggle('is-active', btn.dataset.lineHeight === value);
+      var isActive = btn.dataset.lineHeight === value;
+      btn.classList.toggle('is-active', isActive);
+      btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
     });
   }
 
@@ -743,16 +801,11 @@ document.addEventListener('DOMContentLoaded', function() {
       window.addEventListener('resize', updateBannerHeight);
     }
 
-    // Click anywhere on banner to dismiss
-    archiveBanner.addEventListener('click', dismissBanner);
-
-    // Keyboard support for accessibility
-    archiveBanner.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        dismissBanner();
-      }
-    });
+    // Dismiss button click
+    const dismissBtn = archiveBanner.querySelector('.c-archive-banner__dismiss');
+    if (dismissBtn) {
+      dismissBtn.addEventListener('click', dismissBanner);
+    }
   }
 
   // Syntax-highlight legacy <pre><code> blocks from WP migration

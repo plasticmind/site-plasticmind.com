@@ -8,6 +8,7 @@
     {% block styles %}{% endblock %}
   </head>
   <body class="{% if section  %}l--{{ section }}{% else %}l--home{% endif %}">
+    <a href="#main-content" class="u-skip-link">Skip to main content</a>
     <div class="l-shell" data-drawer="">
 
       {% include "partials/drawer-left.njk" %}
@@ -16,6 +17,7 @@
 
       <button class="c-edge-handle c-edge-handle--left" hidden
               aria-label="Open navigation menu"
+              aria-expanded="false"
               data-edge-handle="left">
         <span class="c-edge-handle__indicator">
           <span class="c-edge-handle__line"></span>
@@ -23,14 +25,15 @@
         </span>
       </button>
 
-      <main class="l-main" role="main" aria-label="Main content">
+      {% include "partials/site-header.njk" %}
+
+      <main id="main-content" class="l-main">
         {% include "partials/archive-banner.njk" %}
-        {% include "partials/site-header.njk" %}
 
         {# If featureImage is set but not post #}
         {% if featureImage and not page.inputPath.includes('/content/posts/') %}
           <div class="c-feature-image">
-            <img src="{{ featureImage }}" alt="{{ title }}">
+            <img src="{{ featureImage }}" alt="{{ alt_text if alt_text else title | safe }}">
           </div>
         {% endif %}
         {% block content %}
@@ -40,6 +43,7 @@
 
       <button class="c-edge-handle c-edge-handle--right" hidden
               aria-label="Open post details"
+              aria-expanded="false"
               data-edge-handle="right">
         <span class="c-edge-handle__indicator">
           <span class="c-edge-handle__line"></span>

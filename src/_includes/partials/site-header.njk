@@ -2,7 +2,7 @@
 <header class="c-site-header">
   {# Site Logo with dropdown mini-menu #}
   <div class="c-site-header__logo-wrap">
-    <a href="/" class="c-site-header__logo" title="Home">
+    <a href="/" class="c-site-header__logo" aria-label="Plasticmind — Home">
       {% include "svg/logo-plasticmind-pill.svg" %}
     </a>
     <nav class="c-mini-menu" aria-label="Quick navigation">
@@ -15,7 +15,7 @@
   </div>
 
   {# Menu button to toggle left drawer #}
-  <button class="c-menu-button" aria-label="Open menu" data-action="toggle-menu">
+  <button class="c-menu-button" aria-label="Open menu" aria-expanded="false" data-action="toggle-menu">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M3 6H21M3 12H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>

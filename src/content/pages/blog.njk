@@ -16,6 +16,16 @@ permalink: /journal/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber +
 {# ============================================================
    Section A: Featured Post (first page only)
    ============================================================ #}
+
+<section class="c-section">
+  <div class="l-container--lg">
+    <header class="c-archive-header">
+      <h1 class="c-archive-header__title">Journal</h1>
+      <p class="c-archive-header__description">The latest from the journal.</p>
+    </header>
+  </div>
+</section>
+
 {% if pagination.pageNumber == 0 and featuredPost and featuredPost.slug %}
   {% set featured = null %}
   {% for post in collections.posts %}
@@ -42,7 +52,7 @@ permalink: /journal/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber +
         <p class="c-featured-post__excerpt">
           {{ featured.data.excerpt or featured.data.subtitle }}
         </p>
-        <a href="{{ featured.url }}" class="c-featured-post__read">Read &rarr;</a>
+        <a href="{{ featured.url }}" class="c-featured-post__read" aria-label="Read {{ featured.data.title }}">Read &rarr;</a>
       </div>
     </div>
   </section>
@@ -55,10 +65,6 @@ permalink: /journal/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber +
 
 <section class="c-section">
   <div class="l-container--lg">
-    <header class="c-archive-header">
-      <h1 class="c-archive-header__title">Journal</h1>
-      <p class="c-archive-header__description">The latest from the journal.</p>
-    </header>
 
     {% if pagination.items.length %}
     <ul class="c-post-feed">

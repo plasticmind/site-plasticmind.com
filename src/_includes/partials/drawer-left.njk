@@ -2,7 +2,7 @@
 
 <aside id="menu-drawer" class="l-drawer l-drawer--left" inert>
   {# Navigation Panel — first in DOM for tab order, visually second via CSS order #}
-  <nav class="c-nav" aria-label="Site Navigation">
+  <nav class="c-nav" aria-label="Main navigation">
     <ul class="c-nav__list">
       <li class="c-nav__item"><a href="/archives">Archives</a></li>
       <li class="c-nav__item"><a href="/work">Work</a></li>
@@ -22,9 +22,9 @@
 
     {# Option buttons at bottom - these toggle bottom drawers #}
     <ul class="c-toolbar__list">
-      <li><button class="c-button" aria-label="About me" data-drawer-target="info-drawer">{% include "svg/icon-info.svg" %}</button></li>
-      <li><button class="c-button" aria-label="Text settings" data-drawer-target="text-drawer">{% include "svg/icon-text.svg" %}</button></li>
-      <li><button class="c-button" aria-label="Search" data-drawer-target="search-drawer">{% include "svg/icon-search.svg" %}</button></li>
+      <li><button class="c-button" aria-label="About me" aria-expanded="false" data-drawer-target="info-drawer">{% include "svg/icon-info.svg" %}</button></li>
+      <li><button class="c-button" aria-label="Text settings" aria-expanded="false" data-drawer-target="text-drawer">{% include "svg/icon-text.svg" %}</button></li>
+      <li><button class="c-button" aria-label="Search" aria-expanded="false" data-drawer-target="search-drawer">{% include "svg/icon-search.svg" %}</button></li>
       <li><button class="c-button c-theme-toggle" aria-label="Toggle color mode" data-action="toggle-theme">
         <svg class="c-theme-toggle__icon c-theme-toggle__icon--light" width="20" height="20" viewBox="0 0 16 16" fill="none" aria-hidden="true">
           <circle cx="8" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/>
@@ -45,7 +45,7 @@
 {# Bottom Drawers for toolbar options #}
 
 {# Info Drawer #}
-<div id="info-drawer" class="l-bottom-drawer" aria-hidden="true" inert>
+<div id="info-drawer" class="l-bottom-drawer" aria-hidden="true" inert role="dialog" aria-modal="true" aria-labelledby="info-drawer-title">
   <div class="l-bottom-drawer__header">
     <button class="l-bottom-drawer__close" aria-label="Close">
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,7 +54,7 @@
     </button>
   </div>
   <div class="l-bottom-drawer__content">
-    <h2>Colophon</h2>
+    <h2 id="info-drawer-title">Colophon</h2>
     <p>I'm Jesse Gardner — a technologist, writer, and humanist exploring ways to empower people with technology.</p>
     <dl class="c-colophon">
       <dt class="c-colophon__term">Built with</dt>
@@ -70,7 +70,7 @@
 </div>
 
 {# Text Settings Drawer #}
-<div id="text-drawer" class="l-bottom-drawer" aria-hidden="true" inert>
+<div id="text-drawer" class="l-bottom-drawer" aria-hidden="true" inert role="dialog" aria-modal="true" aria-labelledby="text-drawer-title">
   <div class="l-bottom-drawer__header">
     <button class="l-bottom-drawer__close" aria-label="Close">
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,6 +79,7 @@
     </button>
   </div>
   <div class="l-bottom-drawer__content">
+    <h2 id="text-drawer-title" class="u-visually-hidden">Text Settings</h2>
     <div class="c-text-controls">
       {# Theme Mode - Segmented Control #}
       <fieldset class="c-text-controls__group c-theme-picker" role="radiogroup" aria-label="Color theme">
@@ -124,17 +125,17 @@
       <div class="c-text-controls__group c-line-height-picker">
         <span class="c-text-controls__label u-visually-hidden">Line Spacing</span>
         <div class="c-line-height-picker__options">
-          <button type="button" data-line-height="compact" class="c-line-height-picker__option" aria-label="Compact line spacing">
+          <button type="button" data-line-height="compact" class="c-line-height-picker__option" aria-label="Compact line spacing" aria-pressed="false">
             <svg width="24" height="16" viewBox="0 0 24 16" fill="none" aria-hidden="true">
               <path d="M0 2h24M0 8h24M0 14h24" stroke="currentColor" stroke-width="1.5"/>
             </svg>
           </button>
-          <button type="button" data-line-height="normal" class="c-line-height-picker__option is-active" aria-label="Normal line spacing">
+          <button type="button" data-line-height="normal" class="c-line-height-picker__option is-active" aria-label="Normal line spacing" aria-pressed="true">
             <svg width="24" height="20" viewBox="0 0 24 20" fill="none" aria-hidden="true">
               <path d="M0 2h24M0 10h24M0 18h24" stroke="currentColor" stroke-width="1.5"/>
             </svg>
           </button>
-          <button type="button" data-line-height="relaxed" class="c-line-height-picker__option" aria-label="Relaxed line spacing">
+          <button type="button" data-line-height="relaxed" class="c-line-height-picker__option" aria-label="Relaxed line spacing" aria-pressed="false">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <path d="M0 2h24M0 12h24M0 22h24" stroke="currentColor" stroke-width="1.5"/>
             </svg>
@@ -146,7 +147,7 @@
 </div>
 
 {# Search Drawer #}
-<div id="search-drawer" class="l-bottom-drawer" aria-hidden="true" inert>
+<div id="search-drawer" class="l-bottom-drawer" aria-hidden="true" inert role="dialog" aria-modal="true" aria-labelledby="search-drawer-title">
   <div class="l-bottom-drawer__header">
     <button class="l-bottom-drawer__close" aria-label="Close">
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -155,7 +156,7 @@
     </button>
   </div>
   <div class="l-bottom-drawer__content">
-    <h2>Search</h2>
+    <h2 id="search-drawer-title">Search</h2>
     <form class="c-search-form" role="search" action="javascript:void(0)">
       <input type="search" id="search-input" placeholder="Search posts..." aria-label="Search posts" class="c-search-form__input" autocomplete="off">
     </form>

@@ -44,7 +44,7 @@ permalink: /work/
                 </p>
               </header>
 
-              <p class="c-work-entry__summary">{{ entry.summary }}{% if entry.description %} <button class="c-work-entry__toggle" aria-expanded="false" aria-controls="details-{{ entry.id }}">More</button>{% endif %}</p>
+              <p class="c-work-entry__summary">{{ entry.summary }}{% if entry.description %} <button class="c-work-entry__toggle" aria-expanded="false" aria-controls="details-{{ entry.id }}" aria-label="Show more about {{ entry.title }}">More</button>{% endif %}</p>
 
               {% if entry.description %}
                 <div class="c-work-entry__details" id="details-{{ entry.id }}" hidden>
@@ -91,6 +91,7 @@ permalink: /work/
           var detailsId = this.getAttribute('aria-controls');
           var details = document.getElementById(detailsId);
           if (details) {
+            this.setAttribute('aria-expanded', 'true');
             details.removeAttribute('hidden');
             this.style.display = 'none';
           }

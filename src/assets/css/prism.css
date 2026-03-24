@@ -16,7 +16,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: var(--neutral-500);
+  color: var(--neutral-600);
 }
 
 .token.punctuation {
@@ -24,7 +24,7 @@ pre[class*="language-"] {
 }
 
 .token.namespace {
-  opacity: 0.7;
+  color: var(--neutral-600);
 }
 
 .token.property,
@@ -89,7 +89,7 @@ pre[class*="language-"] {
 [data-theme="dark"] .token.prolog,
 [data-theme="dark"] .token.doctype,
 [data-theme="dark"] .token.cdata {
-  color: var(--neutral-400);
+  color: var(--neutral-200);
 }
 
 [data-theme="dark"] .token.punctuation {
