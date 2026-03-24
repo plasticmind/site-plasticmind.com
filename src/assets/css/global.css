@@ -1247,12 +1247,25 @@ body:has(.l-bottom-drawer.is-open)::before {
   padding: var(--space-lg) 0;
 }
 
-.c-search-results__more {
-  font-family: var(--font-family-body);
+.c-search-results__load-more {
+  display: block;
+  width: 100%;
+  padding: var(--space-md) var(--space-lg);
+  margin-top: var(--space-sm);
+  font-family: var(--font-family-ui);
   font-size: var(--font-sm);
-  color: var(--color-text-weak);
-  text-align: center;
-  padding: var(--space-md) 0;
+  font-weight: 600;
+  color: var(--color-link);
+  background: none;
+  border: 1px solid var(--color-ink-faint);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background var(--transition-sm) ease, border-color var(--transition-sm) ease;
+}
+
+.c-search-results__load-more:hover {
+  background: var(--color-surface-alt);
+  border-color: var(--color-link);
 }
 
 /* ---------------------- */

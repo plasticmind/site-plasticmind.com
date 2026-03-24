@@ -7,6 +7,9 @@
   var resultsContainer = document.getElementById('search-results');
   var statusEl = document.getElementById('search-status');
   var debounceTimer = null;
+  var currentSearch = null;
+  var currentShown = 0;
+  var PAGE_SIZE = 10;
 
   if (!searchInput || !resultsContainer) return;
 
@@ -47,6 +50,8 @@
     if (!query) {
       resultsContainer.innerHTML = '';
       statusEl.textContent = '';
+      currentSearch = null;
+      currentShown = 0;
       return;
     }
 
@@ -62,6 +67,8 @@
     resultsContainer.innerHTML = '<p class="c-search-results__loading">Searching\u2026</p>';
 
     var search = await pf.search(query);
+    currentSearch = search;
+    currentShown = 0;
 
     if (!search.results.length) {
       resultsContainer.innerHTML =
@@ -73,32 +80,50 @@
     var countText = search.results.length + ' result' + (search.results.length === 1 ? '' : 's') + ' found';
     statusEl.textContent = countText;
 
-    // Load the first 10 results
-    var limit = Math.min(search.results.length, 10);
-    var items = await Promise.all(search.results.slice(0, limit).map(function (r) { return r.data(); }));
+    resultsContainer.innerHTML = '<p class="c-search-results__count">' + escapeHtml(countText) + '</p>'
+      + '<ul class="c-search-results__list"></ul>';
 
-    var html = '<p class="c-search-results__count">' + escapeHtml(countText) + '</p>';
-    html += '<ul class="c-search-results__list">';
+    await loadMore();
+  }
+
+  async function loadMore() {
+    if (!currentSearch) return;
+
+    var end = Math.min(currentShown + PAGE_SIZE, currentSearch.results.length);
+    var batch = currentSearch.results.slice(currentShown, end);
+    var items = await Promise.all(batch.map(function (r) { return r.data(); }));
+
+    var list = resultsContainer.querySelector('.c-search-results__list');
     items.forEach(function (item) {
-      html += '<li class="c-search-results__item">';
-      html += '<a href="' + escapeHtml(item.url) + '" class="c-search-results__link">';
-      html += '<span class="c-search-results__header">';
-      html += '<span class="c-search-results__title">' + escapeHtml(item.meta.title || 'Untitled') + '</span>';
-      if (item.meta.date) {
-        html += '<span class="c-search-results__meta">' + escapeHtml(item.meta.date) + '</span>';
-      }
-      html += '</span>';
-      html += '<span class="c-search-results__excerpt">' + item.excerpt + '</span>';
-      html += '</a>';
-      html += '</li>';
+      var li = document.createElement('li');
+      li.className = 'c-search-results__item';
+      li.innerHTML = '<a href="' + escapeHtml(item.url) + '" class="c-search-results__link">'
+        + '<span class="c-search-results__header">'
+        + '<span class="c-search-results__title">' + escapeHtml(item.meta.title || 'Untitled') + '</span>'
+        + (item.meta.date ? '<span class="c-search-results__meta">' + escapeHtml(item.meta.date) + '</span>' : '')
+        + '</span>'
+        + '<span class="c-search-results__excerpt">' + item.excerpt + '</span>'
+        + '</a>';
+      list.appendChild(li);
     });
-    html += '</ul>';
 
-    if (search.results.length > limit) {
-      html += '<p class="c-search-results__more">Showing ' + limit + ' of ' + search.results.length + ' results</p>';
+    currentShown = end;
+
+    // Remove existing load-more button if present
+    var existing = resultsContainer.querySelector('.c-search-results__load-more');
+    if (existing) existing.remove();
+
+    if (currentShown < currentSearch.results.length) {
+      var remaining = currentSearch.results.length - currentShown;
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'c-search-results__load-more';
+      btn.textContent = 'Load more (' + remaining + ' remaining)';
+      btn.addEventListener('click', function () {
+        loadMore();
+      });
+      resultsContainer.appendChild(btn);
     }
-
-    resultsContainer.innerHTML = html;
   }
 
   function escapeHtml(str) {
