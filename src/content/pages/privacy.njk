@@ -1,36 +1,58 @@
 ---
+permalink: /privacy/
 title: "Privacy Policy"
-description: "What information do we collect?" 
+description: "How plasticmind.com handles your data — explained in plain language."
+section: "privacy"
 eleventyExcludeFromCollections: true
-permalink: false
 ---
 
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-  <section class="c-section">
-    <div class="l-container--lg">
-      <h1 class="c-section__title">{{title}}</h1>
-      <p>I understand the importance of privacy and the responsibility that comes with handling your personal information. This privacy policy explains the ways I collect, use, and protect your data on <code>practicaldesignsystems.com</code>.</p>
-      
-      <h2>What information is collected?</h2>
-      <p>When you use this website, I may collect personal information such as your name, email address, phone number, and company name. I may also collect non-personal information such as your IP address, browser type, and pages visited on our website for analytics purposes.</p>
 
-      <h2>How is your information used?</h2>
-      <p>This information is used to evaluate broad user trends and enhance the user experience. This may include contacting you about your inquiries, sending you newsletters or other promotional materials, and analyzing user behavior to improve the site.</p>
-      <p>I don't share your personal information with any third parties except for the service providers who help us operate our this site (Netlify, GitForm, Fathom, ConvertKit). We require our service providers to maintain the same level of privacy and security standards as we do.</p>
+<article class="c-article">
+  <div class="l-container--lg">
 
-      <h2>How do we protect your information?</h2>
-      <p>I take the security of your personal information seriously and have implemented appropriate measures to protect it. This includes using industry-standard encryption technology, limiting access to your personal information, and regularly monitoring the various systems that power this site for vulnerabilities.</p>
+    <h1 class="c-heading c-heading--lg">Privacy Policy</h1>
 
-      <h2>What are your rights?</h2>
-      <p>You have the right to access and update your personal information, as well as request that I delete it. If you have any questions or concerns about our privacy policy or the way your personal information is handles, please <a href="/contact/" title="Contact me with any questions.">send me a message</a>.</p>
+    <div class="c-article__body">
 
-      <h2>Changes to this policy</h2>
-      <p>I may update this privacy policy from time to time, so please review it periodically. Any changes will be posted on this page and will be effective immediately.</p>
-      <p>Thank you for trusting me with your personal information. I'm committed to protecting your privacy and ensuring that your information is handled responsibly.</p>
+      <p>This is my personal website. I respect your privacy and want to be upfront about what data is involved when you visit. No legalese — just a plain explanation of how things work.</p>
 
+      <h2>Analytics</h2>
+      <p>I use <strong>Cloudflare Web Analytics</strong> to understand how people use this site — things like which pages get visited and what countries visitors come from. Cloudflare collects this data on the server side through request logs. It doesn't use cookies or track you across the web, but it does process standard request information like your IP address, browser type, and the pages you visit. Cloudflare uses this data to provide me with aggregate statistics and does not sell it or use it for advertising.</p>
+
+      <h2>Fonts</h2>
+      <p>This site loads typefaces from <strong>Google Fonts</strong>. When your browser requests these fonts, Google receives your IP address and standard connection information. Google's <a href="https://developers.google.com/fonts/faq/privacy">font privacy policy</a> states that this data is not used for tracking or combined with other Google services.</p>
+
+      <h2>Newsletter</h2>
+      <p>If you sign up for my newsletter, I collect your email address through <strong>Kit</strong> (formerly ConvertKit). Your email is stored by Kit and used only to send you the newsletter. You can unsubscribe at any time using the link in every email. I won't sell or share your email with anyone.</p>
+
+      <h2>Embedded content</h2>
+      <p>Some posts may include embedded content from third-party services like YouTube, CodePen, or social media platforms. These embeds may set their own cookies and collect data according to their own privacy policies. This only happens on the specific posts that contain those embeds — not across the site.</p>
+
+      <h2>Local storage</h2>
+      <p>This site uses your browser's local storage (not cookies) to remember your preferences — things like your preferred color theme, text size, and line height. This data stays on your device and is never sent to me or anyone else. You can clear it any time through your browser settings.</p>
+
+      <h2>Cookies</h2>
+      <p>This site does not set any cookies. Cloudflare's CDN may set a minimal cookie for security and performance purposes (such as bot detection). These are not used for tracking or advertising.</p>
+
+      <h2>Your data</h2>
+      <p>If you've given me your email through the newsletter signup and want it removed, you can unsubscribe directly or email me and I'll take care of it. If you have any questions about how your data is handled, I'm happy to help.</p>
+
+      <h2>Contact</h2>
+      <p>For any privacy-related questions, reach out at <a href="mailto:privacy@plasticmind.com">privacy@plasticmind.com</a>.</p>
+
+      <h2>Changes</h2>
+      <p>I may update this policy as the site evolves. Any changes will be posted here.</p>
+
+      <p>Last updated: March 25, 2026.</p>
+
+    </div>
+
+    {% include "partials/end-mark.njk" %}
 
   </div>
-</section>
+</article>
+
 {% endblock %}
