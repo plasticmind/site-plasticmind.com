@@ -106,7 +106,6 @@ module.exports = (eleventyConfig) => {
     // eleventyConfig.addPassthroughCopy("./src/admin/"); // Decap CMS
     eleventyConfig.addPassthroughCopy("./src/robots.txt"); // Decap CMS
     eleventyConfig.addPassthroughCopy("./src/_redirects"); // Cloudflare Pages redirects
-    eleventyConfig.addPassthroughCopy("./src/_headers"); // Cloudflare Pages headers
     
 
     // base config
