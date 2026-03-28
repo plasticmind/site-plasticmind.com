@@ -7,9 +7,9 @@ subtitle:
 slug: moving-fast-missing-beauty
 featured_image_url: /assets/i/477982551_81c8e3f1d6_b.jpg
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS", "Journeys", "Writing"]
-tags: ["freewrite"]
+primary_category: "Web Development"
+categories: ["Web Development", "Journeys", "Writing"]
+tags: ["freewrite", "cms"]
 meta_description: 
 context: personal
 fix: false

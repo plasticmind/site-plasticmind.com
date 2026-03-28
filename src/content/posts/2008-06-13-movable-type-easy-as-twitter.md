@@ -7,9 +7,9 @@ subtitle:
 slug: movable-type-easy-as-twitter
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS"]
-tags: ["movable type", "twitter"]
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: ["movable type", "twitter", "cms"]
 meta_description: 
 context: professional
 fix: true

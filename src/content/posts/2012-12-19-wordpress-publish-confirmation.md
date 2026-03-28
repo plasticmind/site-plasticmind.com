@@ -8,8 +8,8 @@ slug: wordpress-publish-confirmation
 featured_image_url: /assets/i/mollyguard.png
 alt_text: 
 primary_category: "Web Development"
-categories: ["Web Development", "Blogging & CMS"]
-tags: []
+categories: ["Web Development"]
+tags: ["cms"]
 meta_description: 
 context: professional
 fix: false

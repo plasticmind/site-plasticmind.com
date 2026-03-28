@@ -7,9 +7,9 @@ subtitle:
 slug: lovable-type-aww
 featured_image_url: /assets/i/1127590370_6379c04677_b.jpg
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS"]
-tags: []
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: ["cms"]
 meta_description: 
 context: professional
 fix: false

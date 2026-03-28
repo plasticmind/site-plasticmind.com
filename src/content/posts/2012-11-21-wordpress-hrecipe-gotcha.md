@@ -7,9 +7,9 @@ subtitle: "Help!  My recipe thumbnails aren't showing up in Google search result
 slug: wordpress-hrecipe-gotcha
 featured_image_url: 
 alt_text: ""
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS"]
-tags: []
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: ["cms"]
 meta_description: "Help! My recipe thumbnails aren't showing up in Google search results anymore!"
 context: professional
 fix: false

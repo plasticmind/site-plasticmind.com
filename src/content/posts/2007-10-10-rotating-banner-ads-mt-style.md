@@ -7,9 +7,9 @@ subtitle:
 slug: rotating-banner-ads-mt-style
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS"]
-tags: []
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: ["cms"]
 meta_description: 
 context: professional
 fix: false

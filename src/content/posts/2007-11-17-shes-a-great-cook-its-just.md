@@ -7,9 +7,9 @@ subtitle:
 slug: shes-a-great-cook-its-just
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS", "People"]
-tags: []
+primary_category: "Web Development"
+categories: ["Web Development", "People"]
+tags: ["cms"]
 meta_description: 
 context: personal
 fix: false

@@ -8,8 +8,8 @@ slug: a-brief-review-of-movable-type
 featured_image_url: 
 alt_text: 
 primary_category: "Miscellany"
-categories: ["Miscellany", "Blogging & CMS"]
-tags: ["movable type"]
+categories: ["Miscellany", "Web Development"]
+tags: ["movable type", "cms"]
 meta_description: 
 context: professional
 fix: false

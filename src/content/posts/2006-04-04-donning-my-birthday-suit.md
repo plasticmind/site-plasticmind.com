@@ -8,8 +8,8 @@ slug: donning-my-birthday-suit
 featured_image_url: 
 alt_text: 
 primary_category: "Technology"
-categories: ["Technology", "Blogging & CMS", "Memories"]
-tags: []
+categories: ["Technology", "Web Development", "Memories"]
+tags: ["cms"]
 meta_description: 
 context: professional
 fix: true

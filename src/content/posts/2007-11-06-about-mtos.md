@@ -7,9 +7,9 @@ subtitle:
 slug: about-mtos
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS", "Social Media & SEO"]
-tags: ["movable type"]
+primary_category: "Web Development"
+categories: ["Web Development", "Social Media & SEO"]
+tags: ["movable type", "cms"]
 meta_description: 
 context: professional
 fix: false

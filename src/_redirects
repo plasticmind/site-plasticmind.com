@@ -38,9 +38,9 @@
 /tags/ethanscott/         /category/people/                         301
 /tags/customfields/       /tags/movable-type/                       301
 /tags/friendship/         /category/people/                         301
-/tags/wordpress/          /category/blogging-cms/               301
+/tags/wordpress/          /category/web-development/               301
 /tags/ethan/              /category/people/                         301
-/tags/blogging/           /category/blogging-cms/               301
+/tags/blogging/           /category/web-development/               301
 /tags/hack/               /category/web-development/                301
 /tags/goodies/            /category/miscellany/                     301
 /tags/resources/          /archives/                                301
@@ -67,16 +67,15 @@
 /category/america/             /category/culture-politics/     301
 /category/retrospection/       /category/memories/                 301
 
-# Merges into Blogging & CMS
-/category/movable-type/        /category/blogging-cms/         301
-/category/blogging/            /category/blogging-cms/         301
-/category/cms/                 /category/blogging-cms/         301
-/category/wordpress/           /category/blogging-cms/         301
-
 # Merges into Writing
 /category/the-pen/             /category/writing/                  301
 
 # Merges into Web Development
+/category/blogging-cms/        /category/web-development/          301
+/category/movable-type/        /category/web-development/          301
+/category/blogging/            /category/web-development/          301
+/category/cms/                 /category/web-development/          301
+/category/wordpress/           /category/web-development/          301
 /category/code/                /category/web-development/          301
 /category/css/                 /category/web-development/          301
 /category/app/                 /category/web-development/          301
@@ -126,8 +125,8 @@
 /announcements/       /category/miscellany/               301
 /app/                 /category/web-development/          301
 /apple/               /category/web-development/          301
-/blogging/            /category/blogging-cms/         301
-/cms/                 /category/blogging-cms/         301
+/blogging/            /category/web-development/         301
+/cms/                 /category/web-development/         301
 /code/                /category/web-development/          301
 /css/                 /category/web-development/          301
 /design/              /category/design/                   301
@@ -147,7 +146,7 @@
 /mind/                /category/mind/                     301
 /miscellany/          /category/miscellany/               301
 /mobile/              /category/web-development/          301
-/movable-type/        /category/blogging-cms/         301
+/movable-type/        /category/web-development/         301
 /movies/              /category/reviews/                  301
 /podcasts/            /category/reviews/                  301
 /projects/            /category/miscellany/               301
@@ -161,7 +160,7 @@
 /uncategorized/       /category/miscellany/               301
 /users/               /category/web-development/          301
 /wedding/             /category/people/                   301
-/wordpress/           /category/blogging-cms/         301
+/wordpress/           /category/web-development/         301
 /world/               /category/culture-politics/     301
 /writing/             /category/writing/                  301
 

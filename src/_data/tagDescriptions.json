@@ -11,5 +11,6 @@
   "movable type": "Tips, tutorials, and commentary on the Movable Type publishing platform.",
   "freewrite": "Stream-of-consciousness writing exercises — raw, unedited, time-boxed.",
   "design systems": "Component libraries, design tokens, governance, and the messy work of building shared systems at scale.",
-  "ai": "What happens when we give machines context — and what breaks when we don't."
+  "ai": "What happens when we give machines context — and what breaks when we don't.",
+  "cms": "Posts about blogging platforms, content management systems, and the culture of publishing online."
 }

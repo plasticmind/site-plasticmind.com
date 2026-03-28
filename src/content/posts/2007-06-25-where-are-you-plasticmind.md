@@ -7,9 +7,9 @@ subtitle:
 slug: where-are-you-plasticmind
 featured_image_url: /assets/i/664872087_763bd47840_b.jpg
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS"]
-tags: []
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: ["cms"]
 meta_description: 
 context: personal
 fix: false

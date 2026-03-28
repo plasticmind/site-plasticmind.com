@@ -8,8 +8,8 @@ slug: helping-movable-type-get-along
 featured_image_url: 
 alt_text: 
 primary_category: "Design"
-categories: ["Design", "Blogging & CMS"]
-tags: []
+categories: ["Design", "Web Development"]
+tags: ["cms"]
 meta_description: 
 context: professional
 fix: false

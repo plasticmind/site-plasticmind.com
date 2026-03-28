@@ -7,9 +7,9 @@ subtitle:
 slug: writing-your-own-autobiography
 featured_image_url: /assets/i/autobiography.png
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS"]
-tags: ["facebook", "google"]
+primary_category: "Web Development"
+categories: ["Web Development"]
+tags: ["facebook", "google", "cms"]
 meta_description: 
 context: personal
 fix: false

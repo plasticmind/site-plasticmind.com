@@ -7,9 +7,9 @@ subtitle:
 slug: bipartisanship
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS", "Design"]
-tags: ["movable type"]
+primary_category: "Web Development"
+categories: ["Web Development", "Design"]
+tags: ["movable type", "cms"]
 meta_description: 
 context: professional
 fix: false

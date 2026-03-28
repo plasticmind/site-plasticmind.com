@@ -7,9 +7,9 @@ subtitle:
 slug: reordering-extra-fields
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS", "Plugins"]
-tags: []
+primary_category: "Web Development"
+categories: ["Web Development", "Plugins"]
+tags: ["cms"]
 meta_description: 
 context: professional
 fix: false

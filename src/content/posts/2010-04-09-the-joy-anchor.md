@@ -7,9 +7,9 @@ subtitle:
 slug: the-joy-anchor
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS", "Writing"]
-tags: ["freewrite"]
+primary_category: "Web Development"
+categories: ["Web Development", "Writing"]
+tags: ["freewrite", "cms"]
 meta_description: 
 context: personal
 fix: false

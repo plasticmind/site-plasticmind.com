@@ -7,9 +7,9 @@ subtitle:
 slug: movable-type-fluid
 featured_image_url: 
 alt_text: 
-primary_category: "Blogging & CMS"
-categories: ["Blogging & CMS", "Downloads"]
-tags: []
+primary_category: "Web Development"
+categories: ["Web Development", "Downloads"]
+tags: ["cms"]
 meta_description: 
 context: professional
 fix: false
