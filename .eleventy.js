@@ -9,20 +9,10 @@ const markdownIt = require("markdown-it");
 
 // filters
 const limit = require("./src/_11ty/filters/limit.js");
-const dateISO = require("./src/_11ty/filters/date.js").dateISO;
-const dateFull = require("./src/_11ty/filters/date.js").dateFull;
-const dateFullWeekday = require("./src/_11ty/filters/date.js").dateFullWeekday;
-const dateFeed = require("./src/_11ty/filters/date.js").dateFeed;
-const dateYear = require("./src/_11ty/filters/date.js").dateYear;
-const dateShort = require("./src/_11ty/filters/date.js").dateShort;
-const dateWork = require("./src/_11ty/filters/date.js").dateWork;
-const dateMedium = require("./src/_11ty/filters/date.js").dateMedium;
+const { dateISO, dateFull, dateFullWeekday, dateFeed, dateYear, dateShort, dateWork, dateMedium } = require("./src/_11ty/filters/date.js");
 const shuffle = require("./src/_11ty/filters/shuffle.js");
 const groupByYear = require("./src/_11ty/filters/groupByYear.js");
 const slugify = require("./src/_11ty/filters/slugify.js");
-const excludeDrafts = require("./src/_11ty/filters/excludeDrafts.js");
-const excludeFuture = require("./src/_11ty/filters/excludeFuture.js");
-const excludeNoIndex = require("./src/_11ty/filters/excludeNoIndex.js");
 const relatedPosts = require("./src/_11ty/filters/relatedPosts.js");
 const postsByMonthYear = require("./src/_11ty/filters/postsByMonthYear.js");
 
@@ -46,9 +36,6 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addFilter("slugify", slugify);
     eleventyConfig.addFilter("limit", limit);
     eleventyConfig.addFilter("shuffle", shuffle);
-    eleventyConfig.addFilter("excludeDrafts", excludeDrafts);
-    eleventyConfig.addFilter("excludeFuture", excludeFuture);
-    eleventyConfig.addFilter("excludeNoIndex", excludeNoIndex);
     eleventyConfig.addFilter("relatedPosts", relatedPosts);
     eleventyConfig.addFilter("postsByMonthYear", postsByMonthYear);
 
@@ -93,9 +80,6 @@ module.exports = (eleventyConfig) => {
             .replace(/\.\.\./g, '\u2026');        // ellipsis
     });
 
-    // watch for changes to css
-    eleventyConfig.addWatchTarget("./src/css/");
-
     // passthrough copy
     eleventyConfig.addPassthroughCopy({ "./src/static/": "/" });
     eleventyConfig.addPassthroughCopy("./src/assets/img/"); // Theme images
@@ -103,10 +87,8 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy("./src/assets/fonts/");
     eleventyConfig.addPassthroughCopy("./src/assets/css/");
     eleventyConfig.addPassthroughCopy("./src/assets/js/");
-    // eleventyConfig.addPassthroughCopy("./src/admin/"); // Decap CMS
-    eleventyConfig.addPassthroughCopy("./src/robots.txt"); // Decap CMS
+    eleventyConfig.addPassthroughCopy("./src/robots.txt");
     eleventyConfig.addPassthroughCopy("./src/_redirects"); // Cloudflare Pages redirects
-    
 
     // base config
     return {
@@ -119,13 +101,5 @@ module.exports = (eleventyConfig) => {
         templateFormats: ["njk", "md"],
         htmlTemplateEngine: "njk",
         markdownTemplateEngine: "njk"
-    };
-
-    // Routes
-    return {
-        dir: {
-            input: "src",
-            output: "public",
-        },
     };
 };

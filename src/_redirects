@@ -119,7 +119,7 @@
 # WP Category Pages — /{wp-category-slug}/ -> /category/{new-11ty-slug}/
 # -----------------------------------------------------------------------------
 /0s-and-1s/           /category/technology/               301
-/30-day-challenge/    /category/30-day-challenge/         301
+/30-day-challenge/    /category/personal/                 301
 /accessibility/       /category/web-development/          301
 /america/             /category/culture-politics/     301
 /announcements/       /category/miscellany/               301

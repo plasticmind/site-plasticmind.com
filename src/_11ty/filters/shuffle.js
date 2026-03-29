@@ -1,13 +1,14 @@
 /**
- * Shuffle arrays
+ * Shuffle an array (Fisher-Yates)
  *
  * @param {Array} arr - array to shuffle
- * @return {Array} - shuffled array
+ * @return {Array} - shuffled copy
  */
-
-const lodash = require("lodash");
-
 module.exports = function(arr) {
-    const shuffled = lodash.shuffle(arr);
+    const shuffled = [...arr];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
     return shuffled;
 };

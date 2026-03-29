@@ -1,3 +1,5 @@
+const slugify = require("../filters/slugify.js");
+
 /**
  * Extract unique primary_category values from all posts
  *
@@ -21,13 +23,3 @@ module.exports = function(collection) {
         }))
         .sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 };
-
-/**
- * Convert a string to a URL-friendly slug
- */
-function slugify(str) {
-    return str
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-+|-+$/g, '');
-}
