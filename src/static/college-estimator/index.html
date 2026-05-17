@@ -1,0 +1,1710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>College Financing Calculator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel" data-type="module">
+    const { useState, useMemo, useEffect, useCallback } = React;
+
+    /* ─── ICONS ────────────────────────────────────────────────── */
+    const Icon = ({ d, size = 24, style, className }) => (
+      <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" style={style} className={className}><path d={d} /></svg>
+    );
+    const AlertTriangle = (props) => <Icon {...props} d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0zM12 9v4M12 17h.01" />;
+    const ChevronDown = (props) => <Icon {...props} d="M6 9l6 6 6-6" />;
+    const ChevronUp = (props) => <Icon {...props} d="M18 15l-6-6-6 6" />;
+    const Home = (props) => <Icon {...props} d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z M9 22V12h6v10" />;
+    const Users = (props) => <Icon {...props} d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2 M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8z M23 21v-2a4 4 0 0 0-3-3.87 M16 3.13a4 4 0 0 1 0 7.75" />;
+    const Plus = (props) => <Icon {...props} d="M12 5v14M5 12h14" />;
+    const X = (props) => <Icon {...props} d="M18 6L6 18M6 6l12 12" />;
+    const ArrowUp = (props) => <Icon {...props} d="M12 19V5M5 12l7-7 7 7" />;
+    const ArrowDown = (props) => <Icon {...props} d="M12 5v14M19 12l-7 7-7-7" />;
+    const Edit = (props) => <Icon {...props} d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7 M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />;
+
+    /* ─── FORMATTERS ───────────────────────────────────────────── */
+    const fmt = (n) => (isNaN(n) || n === null ? "\u2014" : `$${Math.round(n).toLocaleString("en-US")}`);
+    const fmt0 = (n) => (isNaN(n) || n === null ? "\u2014" : Math.round(n).toLocaleString("en-US"));
+    const pct = (n) => `${(n * 100).toFixed(1)}%`;
+    const uid = () => crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).slice(2);
+
+    /* ─── PRESETS ──────────────────────────────────────────────── */
+    const LOAN_PRESETS = {
+      plus: { name: "Parent PLUS", rate: 9.08, origination: 4.228, annualCap: 20000, lifetimeCap: 65000, borrower: "parent", paysInterestInSchool: false },
+      salliemae: { name: "Sallie Mae", rate: 6.37, origination: 0, annualCap: 0, lifetimeCap: 0, borrower: "student", paysInterestInSchool: false },
+      sofi: { name: "SoFi", rate: 5.99, origination: 0, annualCap: 0, lifetimeCap: 0, borrower: "student", paysInterestInSchool: false },
+      custom: { name: "Custom Loan", rate: 7.0, origination: 0, annualCap: 0, lifetimeCap: 0, borrower: "student", paysInterestInSchool: false },
+    };
+
+    const AID_PRESETS = [
+      { name: "Merit Scholarship", type: "merit" },
+      { name: "Need-Based Grant", type: "need" },
+      { name: "Federal Pell Grant", type: "federal" },
+      { name: "State Aid (e.g. TAP, MAP, Cal Grant)", type: "state" },
+      { name: "External Scholarship", type: "external" },
+    ];
+
+    const DEFAULT_COSTS = [
+      { id: uid(), name: "Tuition", amount: 0, inflates: true, isHousing: false },
+      { id: uid(), name: "Fees", amount: 0, inflates: true, isHousing: false },
+      { id: uid(), name: "Housing & Food", amount: 0, inflates: true, isHousing: true },
+      { id: uid(), name: "Books & Supplies", amount: 0, inflates: true, isHousing: false },
+      { id: uid(), name: "Personal & Misc", amount: 0, inflates: true, isHousing: false },
+      { id: uid(), name: "Transportation", amount: 0, inflates: true, isHousing: false },
+    ];
+
+    const DEFAULT_FED_LOANS = [
+      { sub: 3500, unsub: 2000 },
+      { sub: 4500, unsub: 2000 },
+      { sub: 5500, unsub: 2000 },
+      { sub: 5500, unsub: 2000 },
+      { sub: 5500, unsub: 2000 },
+      { sub: 5500, unsub: 2000 },
+    ];
+
+    /* ─── THEME ────────────────────────────────────────────────── */
+    const lightTheme = {
+      bg: "#F7F2E9",
+      surface: "#FFFFFF",
+      surfaceAlt: "#EFE8DB",
+      ink: "#1C1714",
+      inkSoft: "#5C5044",
+      inkFaint: "#8A7E71",
+      border: "#D9CFBE",
+      accent: "#A8472C",
+      accentDim: "#C88B6A",
+      positive: "#4F6B3F",
+      positiveDim: "#A8BB99",
+      warn: "#7A2312",
+      warnBg: "#F3DFD6",
+      student: "#2F5D6E",
+      studentDim: "#8AA9B5",
+      parent: "#A8472C",
+      parentDim: "#C88B6A",
+      inputBg: "#FFFFFF",
+    };
+
+    const darkTheme = {
+      bg: "#1C1917",
+      surface: "#292524",
+      surfaceAlt: "#3D3835",
+      ink: "#F5F5F4",
+      inkSoft: "#D6D3D1",
+      inkFaint: "#A8A29E",
+      border: "#57534E",
+      accent: "#E87A5C",
+      accentDim: "#C88B6A",
+      positive: "#86B366",
+      positiveDim: "#5A8A3F",
+      warn: "#EF6B4A",
+      warnBg: "#3D2520",
+      student: "#6BBAD0",
+      studentDim: "#3D8A9E",
+      parent: "#E87A5C",
+      parentDim: "#B85A3C",
+      inputBg: "#1C1917",
+    };
+
+    function useSystemTheme() {
+      const [isDark, setIsDark] = useState(() =>
+        window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+      );
+      useEffect(() => {
+        const mq = window.matchMedia("(prefers-color-scheme: dark)");
+        const handler = (e) => setIsDark(e.matches);
+        mq.addEventListener("change", handler);
+        return () => mq.removeEventListener("change", handler);
+      }, []);
+      return isDark ? darkTheme : lightTheme;
+    }
+
+    const LOAN_COLORS_LIGHT = ["#A8472C", "#7B6830", "#2F5D6E", "#6B4F7A", "#3D7A5C", "#8A5A3C"];
+    const LOAN_COLORS_DARK = ["#E87A5C", "#C4A84D", "#6BBAD0", "#B080CC", "#5CC49A", "#D4956A"];
+
+    /* ─── LOCALSTORAGE ─────────────────────────────────────────── */
+    const STORAGE_KEY = "college-calc:profiles";
+    const ACTIVE_KEY = "college-calc:activeId";
+
+    function loadProfiles() {
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
+      catch { return []; }
+    }
+    function saveProfiles(profiles) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(profiles));
+    }
+    function getActiveId() {
+      return localStorage.getItem(ACTIVE_KEY);
+    }
+    function setActiveId(id) {
+      localStorage.setItem(ACTIVE_KEY, id);
+    }
+    function saveProfile(profile) {
+      const profiles = loadProfiles();
+      const idx = profiles.findIndex((p) => p.id === profile.id);
+      if (idx >= 0) profiles[idx] = profile;
+      else profiles.push(profile);
+      saveProfiles(profiles);
+    }
+    function deleteProfileById(id) {
+      const profiles = loadProfiles().filter((p) => p.id !== id);
+      saveProfiles(profiles);
+      if (getActiveId() === id) {
+        localStorage.removeItem(ACTIVE_KEY);
+      }
+    }
+
+    /* ─── MATH ─────────────────────────────────────────────────── */
+    function monthlyPayment(principal, annualRate, years) {
+      if (!principal || principal <= 0) return 0;
+      const r = annualRate / 100 / 12;
+      const n = years * 12;
+      if (r === 0) return principal / n;
+      return (principal * (r * Math.pow(1 + r, n))) / (Math.pow(1 + r, n) - 1);
+    }
+
+    function maxPrincipalForPayment(monthly, annualRate, years) {
+      if (!monthly || monthly <= 0) return 0;
+      const r = annualRate / 100 / 12;
+      const n = years * 12;
+      if (r === 0) return monthly * n;
+      return (monthly * (Math.pow(1 + r, n) - 1)) / (r * Math.pow(1 + r, n));
+    }
+
+    /* ─── SHARED UI COMPONENTS ─────────────────────────────────── */
+    const NumberInput = ({ value, onChange, prefix, suffix, step = 1, min, max, width = "7rem", disabled, theme }) => (
+      <div className="inline-flex items-center" style={{ background: theme.inputBg, border: `1px solid ${theme.border}`, borderRadius: 4, opacity: disabled ? 0.5 : 1 }}>
+        {prefix && <span className="pl-2 pr-1 text-sm" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Mono', monospace" }}>{prefix}</span>}
+        <input
+          type="number"
+          value={value}
+          step={step}
+          min={min}
+          max={max}
+          disabled={disabled}
+          onChange={(e) => onChange(e.target.value === "" ? 0 : parseFloat(e.target.value))}
+          className="py-1.5 bg-transparent outline-none text-sm"
+          style={{ width, color: theme.ink, fontFamily: "'IBM Plex Mono', monospace", paddingLeft: prefix ? "0" : "0.5rem", paddingRight: suffix ? "0.25rem" : "0.5rem" }}
+        />
+        {suffix && <span className="pr-2 pl-1 text-sm" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Mono', monospace" }}>{suffix}</span>}
+      </div>
+    );
+
+    const Section = ({ title, children, defaultOpen = false, subtitle, theme }) => {
+      const [open, setOpen] = useState(defaultOpen);
+      return (
+        <div style={{ borderTop: `1px solid ${theme.border}` }}>
+          <button onClick={() => setOpen(!open)} className="w-full flex items-center justify-between py-4 text-left" style={{ color: theme.ink }}>
+            <div>
+              <div className="text-sm tracking-wide uppercase" style={{ color: theme.inkSoft, letterSpacing: "0.08em" }}>{title}</div>
+              {subtitle && <div className="text-xs mt-1" style={{ color: theme.inkFaint }}>{subtitle}</div>}
+            </div>
+            {open ? <ChevronUp size={18} style={{ color: theme.inkSoft }} /> : <ChevronDown size={18} style={{ color: theme.inkSoft }} />}
+          </button>
+          {open && <div className="pb-6">{children}</div>}
+        </div>
+      );
+    };
+
+    const MetricCard = ({ label, value, sublabel, tone = "default", theme }) => {
+      const color = tone === "positive" ? theme.positive : tone === "warn" ? theme.warn : theme.ink;
+      return (
+        <div className="p-5" style={{ background: theme.surface, border: `1px solid ${theme.border}` }}>
+          <div className="text-xs uppercase tracking-wider mb-3" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>{label}</div>
+          <div style={{ fontFamily: "'Fraunces', Georgia, serif", fontWeight: 400, fontSize: "2rem", lineHeight: 1.05, color, letterSpacing: "-0.02em" }}>{value}</div>
+          {sublabel && <div className="text-xs mt-2" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Mono', monospace" }}>{sublabel}</div>}
+        </div>
+      );
+    };
+
+    /* ─── ONBOARDING WIZARD ────────────────────────────────────── */
+    function OnboardingWizard({ onComplete, initialData, theme }) {
+      const currentYear = new Date().getFullYear();
+      const defaultStartYear = new Date().getMonth() >= 6 ? currentYear + 1 : currentYear;
+
+      const [step, setStep] = useState(0);
+      const [data, setData] = useState(initialData || {
+        studentName: "",
+        parentName: "",
+        collegeName: "",
+        programName: "",
+        programYears: 4,
+        startYear: defaultStartYear,
+        costs: DEFAULT_COSTS.map((c) => ({ ...c, id: uid() })),
+        atHomeEnabled: false,
+        atHomeStartYear: 3,
+        atHomeAnnualCost: 3600,
+        inflationRate: 4,
+        aidPrograms: [],
+        fedLoansByYear: DEFAULT_FED_LOANS.map((f) => ({ ...f })),
+        fedRate: 6.53,
+        fedOrigination: 1.057,
+        studentPaysUnsubInSchool: true,
+        gapLoans: [{ ...LOAN_PRESETS.plus, id: 1 }],
+        parentIncome: 0,
+        studentStartingSalary: 0,
+        studentSalaryGrowth: 4.5,
+        targetMonthlyPayment: 1500,
+        repaymentYears: 10,
+        handoffYearsPostGrad: 3,
+      });
+
+      const update = (key, val) => setData((prev) => ({ ...prev, [key]: val }));
+
+      const steps = [
+        "Welcome",
+        "College & Program",
+        "Cost of Attendance",
+        "Living Situation",
+        "Grants & Aid",
+        "Federal Loans",
+        "Gap Financing",
+        "Family Finances",
+        "Review & Save",
+      ];
+
+      const canAdvance = () => {
+        if (step === 0) return data.studentName.trim() && data.parentName.trim();
+        if (step === 1) return data.collegeName.trim();
+        return true;
+      };
+
+      const handleSave = () => {
+        const profile = {
+          ...data,
+          id: initialData?.id || uid(),
+          name: `${data.studentName} - ${data.collegeName}`,
+          version: 1,
+          updatedAt: new Date().toISOString(),
+        };
+        saveProfile(profile);
+        setActiveId(profile.id);
+        onComplete(profile);
+      };
+
+      const renderStep = () => {
+        switch (step) {
+          case 0: return (
+            <div className="space-y-6">
+              <div>
+                <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "2rem", fontWeight: 400, color: theme.ink }}>Plan your college financing</h2>
+                <p className="mt-3 text-sm" style={{ color: theme.inkSoft, lineHeight: 1.7, maxWidth: "36rem" }}>
+                  This tool models the full cost of a college education and shows who pays what over time.
+                  We'll walk you through a few questions to set up your scenario.
+                </p>
+              </div>
+              <div>
+                <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Student's first name *</label>
+                <input type="text" value={data.studentName} onChange={(e) => update("studentName", e.target.value)}
+                  className="w-full max-w-xs px-3 py-2 text-sm outline-none" placeholder="e.g. Alex"
+                  style={{ background: theme.inputBg, border: `1px solid ${theme.border}`, borderRadius: 4, color: theme.ink }} />
+              </div>
+              <div>
+                <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Parent/guardian name *</label>
+                <input type="text" value={data.parentName} onChange={(e) => update("parentName", e.target.value)}
+                  className="w-full max-w-xs px-3 py-2 text-sm outline-none" placeholder="e.g. Mom & Dad"
+                  style={{ background: theme.inputBg, border: `1px solid ${theme.border}`, borderRadius: 4, color: theme.ink }} />
+              </div>
+            </div>
+          );
+
+          case 1: return (
+            <div className="space-y-6">
+              <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.75rem", fontWeight: 400, color: theme.ink }}>College & Program</h2>
+              <div>
+                <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>College/university name *</label>
+                <input type="text" value={data.collegeName} onChange={(e) => update("collegeName", e.target.value)}
+                  className="w-full max-w-md px-3 py-2 text-sm outline-none" placeholder="e.g. University of Michigan"
+                  style={{ background: theme.inputBg, border: `1px solid ${theme.border}`, borderRadius: 4, color: theme.ink }} />
+              </div>
+              <div>
+                <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Program/major</label>
+                <input type="text" value={data.programName} onChange={(e) => update("programName", e.target.value)}
+                  className="w-full max-w-md px-3 py-2 text-sm outline-none" placeholder="e.g. Computer Science"
+                  style={{ background: theme.inputBg, border: `1px solid ${theme.border}`, borderRadius: 4, color: theme.ink }} />
+              </div>
+              <div>
+                <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Program duration</label>
+                <div className="flex gap-3">
+                  {[4, 5, 6].map((n) => (
+                    <button key={n} onClick={() => update("programYears", n)}
+                      className="px-4 py-2 text-sm"
+                      style={{
+                        background: data.programYears === n ? theme.accent : theme.surface,
+                        color: data.programYears === n ? "white" : theme.ink,
+                        border: `1px solid ${data.programYears === n ? theme.accent : theme.border}`,
+                        borderRadius: 4, cursor: "pointer",
+                      }}>
+                      {n} years
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Start year</label>
+                <input type="number" value={data.startYear} onChange={(e) => update("startYear", parseInt(e.target.value) || defaultStartYear)}
+                  className="px-3 py-2 text-sm outline-none w-24"
+                  style={{ background: theme.inputBg, border: `1px solid ${theme.border}`, borderRadius: 4, color: theme.ink, fontFamily: "'IBM Plex Mono', monospace" }} />
+              </div>
+              <div className="text-xs" style={{ color: theme.inkFaint, lineHeight: 1.6 }}>
+                Research costs at <a href="https://collegescorecard.ed.gov/" target="_blank" rel="noopener" style={{ color: theme.accent, textDecoration: "underline" }}>College Scorecard</a>
+              </div>
+            </div>
+          );
+
+          case 2: return (
+            <div className="space-y-6">
+              <div>
+                <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.75rem", fontWeight: 400, color: theme.ink }}>Cost of Attendance</h2>
+                <p className="text-sm mt-2" style={{ color: theme.inkSoft, lineHeight: 1.6 }}>
+                  Enter Year 1 costs from your award letter or the school's published Cost of Attendance.
+                </p>
+              </div>
+              <div className="space-y-3">
+                {data.costs.map((item, idx) => (
+                  <div key={item.id} className="flex items-center gap-3 flex-wrap">
+                    <input type="text" value={item.name} onChange={(e) => {
+                      const costs = [...data.costs];
+                      costs[idx] = { ...costs[idx], name: e.target.value };
+                      update("costs", costs);
+                    }} className="text-sm px-2 py-1.5 outline-none flex-1 min-w-[10rem]"
+                      style={{ background: theme.inputBg, border: `1px solid ${theme.border}`, borderRadius: 4, color: theme.ink }} />
+                    <NumberInput value={item.amount} onChange={(val) => {
+                      const costs = [...data.costs];
+                      costs[idx] = { ...costs[idx], amount: val };
+                      update("costs", costs);
+                    }} prefix="$" step={100} theme={theme} />
+                    {data.costs.length > 1 && (
+                      <button onClick={() => update("costs", data.costs.filter((_, i) => i !== idx))}
+                        className="p-1" style={{ cursor: "pointer" }}><X size={14} style={{ color: theme.warn }} /></button>
+                    )}
+                  </div>
+                ))}
+              </div>
+              <button onClick={() => update("costs", [...data.costs, { id: uid(), name: "", amount: 0, inflates: true, isHousing: false }])}
+                className="flex items-center gap-2 px-3 py-2 text-sm"
+                style={{ color: theme.accent, background: "transparent", border: `1px solid ${theme.border}`, borderRadius: 4, cursor: "pointer" }}>
+                <Plus size={14} /> Add line item
+              </button>
+            </div>
+          );
+
+          case 3: return (
+            <div className="space-y-6">
+              <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.75rem", fontWeight: 400, color: theme.ink }}>Living Situation</h2>
+              <div>
+                <label className="flex items-center gap-3 cursor-pointer">
+                  <input type="checkbox" checked={data.atHomeEnabled} onChange={(e) => update("atHomeEnabled", e.target.checked)} className="w-4 h-4" style={{ accentColor: theme.accent }} />
+                  <span className="text-sm" style={{ color: theme.ink }}>Student will live at home during part of the program</span>
+                </label>
+              </div>
+              {data.atHomeEnabled && (
+                <div className="pl-7 space-y-4">
+                  <div>
+                    <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Starting which year?</label>
+                    <input type="number" min={2} max={data.programYears} value={data.atHomeStartYear}
+                      onChange={(e) => update("atHomeStartYear", parseInt(e.target.value) || 3)}
+                      className="px-3 py-2 text-sm outline-none w-16"
+                      style={{ background: theme.inputBg, border: `1px solid ${theme.border}`, borderRadius: 4, color: theme.ink, fontFamily: "'IBM Plex Mono', monospace" }} />
+                  </div>
+                  <div>
+                    <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Annual food/misc cost at home</label>
+                    <NumberInput value={data.atHomeAnnualCost} onChange={(val) => update("atHomeAnnualCost", val)} prefix="$" step={300} theme={theme} />
+                  </div>
+                </div>
+              )}
+              <div>
+                <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Annual cost inflation rate</label>
+                <NumberInput value={data.inflationRate} onChange={(val) => update("inflationRate", val)} suffix="%" step={0.5} width="5rem" theme={theme} />
+                <div className="text-xs mt-1" style={{ color: theme.inkFaint }}>Typically 3-5% for college tuition</div>
+              </div>
+            </div>
+          );
+
+          case 4: return (
+            <div className="space-y-6">
+              <div>
+                <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.75rem", fontWeight: 400, color: theme.ink }}>Grants & Aid</h2>
+                <p className="text-sm mt-2" style={{ color: theme.inkSoft, lineHeight: 1.6 }}>
+                  Add grants, scholarships, and aid from your award letter. These reduce the amount you need to borrow.
+                </p>
+              </div>
+              <div className="space-y-3">
+                {data.aidPrograms.map((aid, idx) => (
+                  <div key={aid.id} className="flex items-center gap-3 flex-wrap">
+                    <input type="text" value={aid.name} onChange={(e) => {
+                      const aids = [...data.aidPrograms];
+                      aids[idx] = { ...aids[idx], name: e.target.value };
+                      update("aidPrograms", aids);
+                    }} className="text-sm px-2 py-1.5 outline-none flex-1 min-w-[10rem]"
+                      style={{ background: theme.inputBg, border: `1px solid ${theme.border}`, borderRadius: 4, color: theme.ink }} />
+                    <NumberInput value={aid.annualAmount} onChange={(val) => {
+                      const aids = [...data.aidPrograms];
+                      aids[idx] = { ...aids[idx], annualAmount: val };
+                      update("aidPrograms", aids);
+                    }} prefix="$" step={500} theme={theme} />
+                    <span className="text-xs px-2 py-0.5" style={{ background: theme.surfaceAlt, color: theme.inkFaint, borderRadius: 3 }}>{aid.type}</span>
+                    <button onClick={() => update("aidPrograms", data.aidPrograms.filter((_, i) => i !== idx))}
+                      className="p-1" style={{ cursor: "pointer" }}><X size={14} style={{ color: theme.warn }} /></button>
+                  </div>
+                ))}
+              </div>
+              <div>
+                <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Quick add:</div>
+                <div className="flex flex-wrap gap-2">
+                  {AID_PRESETS.map((preset) => (
+                    <button key={preset.name} onClick={() => update("aidPrograms", [...data.aidPrograms, { id: uid(), name: preset.name, annualAmount: 0, type: preset.type }])}
+                      className="px-3 py-1.5 text-xs"
+                      style={{ background: theme.surface, border: `1px solid ${theme.border}`, borderRadius: 4, cursor: "pointer", color: theme.ink }}>
+                      + {preset.name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div className="text-xs" style={{ color: theme.inkFaint, lineHeight: 1.6 }}>
+                Apply for federal aid at <a href="https://studentaid.gov/h/apply-for-aid/fafsa" target="_blank" rel="noopener" style={{ color: theme.accent, textDecoration: "underline" }}>studentaid.gov (FAFSA)</a>
+              </div>
+            </div>
+          );
+
+          case 5: return (
+            <div className="space-y-6">
+              <div>
+                <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.75rem", fontWeight: 400, color: theme.ink }}>Federal Student Loans</h2>
+                <p className="text-sm mt-2" style={{ color: theme.inkSoft, lineHeight: 1.6 }}>
+                  Federal Direct loans have fixed annual limits. <strong>Subsidized</strong> loans don't accrue interest while in school.
+                  <strong> Unsubsidized</strong> loans accrue interest from day one.
+                </p>
+              </div>
+              <div className="space-y-3">
+                {data.fedLoansByYear.slice(0, data.programYears).map((yr, i) => (
+                  <div key={i} className="flex items-center gap-4 flex-wrap">
+                    <div className="text-sm w-16" style={{ fontFamily: "'Fraunces', serif", color: theme.ink }}>Year {i + 1}</div>
+                    <div className="flex items-center gap-2"><span className="text-xs" style={{ color: theme.inkSoft }}>Sub</span><NumberInput value={yr.sub} onChange={(val) => {
+                      const f = [...data.fedLoansByYear]; f[i] = { ...f[i], sub: val }; update("fedLoansByYear", f);
+                    }} prefix="$" step={500} width="6rem" theme={theme} /></div>
+                    <div className="flex items-center gap-2"><span className="text-xs" style={{ color: theme.inkSoft }}>Unsub</span><NumberInput value={yr.unsub} onChange={(val) => {
+                      const f = [...data.fedLoansByYear]; f[i] = { ...f[i], unsub: val }; update("fedLoansByYear", f);
+                    }} prefix="$" step={500} width="6rem" theme={theme} /></div>
+                  </div>
+                ))}
+              </div>
+              <div className="flex items-center gap-6 flex-wrap">
+                <div className="flex items-center gap-2"><span className="text-sm" style={{ color: theme.ink }}>Interest rate</span><NumberInput value={data.fedRate} onChange={(val) => update("fedRate", val)} suffix="%" step={0.01} width="5rem" theme={theme} /></div>
+                <div className="flex items-center gap-2"><span className="text-sm" style={{ color: theme.ink }}>Origination</span><NumberInput value={data.fedOrigination} onChange={(val) => update("fedOrigination", val)} suffix="%" step={0.01} width="5rem" theme={theme} /></div>
+              </div>
+              <label className="flex items-center gap-2 cursor-pointer">
+                <input type="checkbox" checked={data.studentPaysUnsubInSchool} onChange={(e) => update("studentPaysUnsubInSchool", e.target.checked)} className="w-3.5 h-3.5" style={{ accentColor: theme.accent }} />
+                <span className="text-sm" style={{ color: theme.ink }}>Student pays unsubsidized interest during school</span>
+              </label>
+              <div className="text-xs" style={{ color: theme.inkFaint, lineHeight: 1.6 }}>
+                Learn about limits at <a href="https://studentaid.gov/understand-aid/types/loans/subsidized-unsubsidized" target="_blank" rel="noopener" style={{ color: theme.accent, textDecoration: "underline" }}>Federal Student Aid</a>
+              </div>
+            </div>
+          );
+
+          case 6: return (
+            <div className="space-y-6">
+              <div>
+                <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.75rem", fontWeight: 400, color: theme.ink }}>Gap Financing</h2>
+                <p className="text-sm mt-2" style={{ color: theme.inkSoft, lineHeight: 1.6 }}>
+                  After grants and federal loans, these fill the remaining gap. Add loan types you're considering.
+                </p>
+              </div>
+              <div className="space-y-3">
+                {data.gapLoans.map((loan, idx) => (
+                  <div key={loan.id} className="p-4" style={{ background: theme.surface, border: `1px solid ${theme.border}`, borderRadius: 4 }}>
+                    <div className="flex items-center justify-between gap-2 mb-3">
+                      <input type="text" value={loan.name} onChange={(e) => {
+                        const loans = [...data.gapLoans]; loans[idx] = { ...loans[idx], name: e.target.value }; update("gapLoans", loans);
+                      }} className="text-sm font-medium bg-transparent outline-none"
+                        style={{ color: theme.ink, borderBottom: `1px solid ${theme.border}`, paddingBottom: 2, width: "12rem" }} />
+                      {data.gapLoans.length > 0 && (
+                        <button onClick={() => update("gapLoans", data.gapLoans.filter((_, i) => i !== idx))}
+                          className="p-1" style={{ cursor: "pointer" }}><X size={14} style={{ color: theme.warn }} /></button>
+                      )}
+                    </div>
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+                      <div><div className="text-xs mb-1" style={{ color: theme.inkSoft }}>Rate</div><NumberInput value={loan.rate} onChange={(val) => {
+                        const loans = [...data.gapLoans]; loans[idx] = { ...loans[idx], rate: val }; update("gapLoans", loans);
+                      }} suffix="%" step={0.01} width="5rem" theme={theme} /></div>
+                      <div><div className="text-xs mb-1" style={{ color: theme.inkSoft }}>Annual cap (0=none)</div><NumberInput value={loan.annualCap} onChange={(val) => {
+                        const loans = [...data.gapLoans]; loans[idx] = { ...loans[idx], annualCap: val }; update("gapLoans", loans);
+                      }} prefix="$" step={1000} width="6rem" theme={theme} /></div>
+                      <div><div className="text-xs mb-1" style={{ color: theme.inkSoft }}>Borrower</div>
+                        <select value={loan.borrower} onChange={(e) => {
+                          const loans = [...data.gapLoans]; loans[idx] = { ...loans[idx], borrower: e.target.value }; update("gapLoans", loans);
+                        }} style={{ background: theme.inputBg, border: `1px solid ${theme.border}`, borderRadius: 4, padding: "6px 10px", fontSize: "0.875rem", color: theme.ink }}>
+                          <option value="parent">Parent</option>
+                          <option value="student">Student</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {Object.entries(LOAN_PRESETS).map(([key, preset]) => (
+                  <button key={key} onClick={() => {
+                    const maxId = data.gapLoans.reduce((m, l) => Math.max(m, l.id || 0), 0);
+                    update("gapLoans", [...data.gapLoans, { ...preset, id: maxId + 1 }]);
+                  }} className="px-3 py-1.5 text-xs"
+                    style={{ background: theme.surface, border: `1px solid ${theme.border}`, borderRadius: 4, cursor: "pointer", color: theme.ink }}>
+                    + {preset.name}
+                  </button>
+                ))}
+              </div>
+            </div>
+          );
+
+          case 7: return (
+            <div className="space-y-6">
+              <div>
+                <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.75rem", fontWeight: 400, color: theme.ink }}>Family Finances</h2>
+                <p className="text-sm mt-2" style={{ color: theme.inkSoft, lineHeight: 1.6 }}>
+                  These numbers power the "who pays what" analysis and affordability calculations.
+                </p>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Parent household income</label>
+                  <NumberInput value={data.parentIncome} onChange={(val) => update("parentIncome", val)} prefix="$" step={5000} width="8rem" theme={theme} />
+                </div>
+                <div>
+                  <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>{data.studentName || "Student"}'s expected starting salary</label>
+                  <NumberInput value={data.studentStartingSalary} onChange={(val) => update("studentStartingSalary", val)} prefix="$" step={1000} width="8rem" theme={theme} />
+                  <div className="text-xs mt-1" style={{ color: theme.inkFaint }}>
+                    Research salaries at <a href="https://www.bls.gov/ooh/" target="_blank" rel="noopener" style={{ color: theme.accent, textDecoration: "underline" }}>BLS Occupational Outlook</a>
+                  </div>
+                </div>
+                <div>
+                  <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Annual salary growth</label>
+                  <NumberInput value={data.studentSalaryGrowth} onChange={(val) => update("studentSalaryGrowth", val)} suffix="%" step={0.5} width="5rem" theme={theme} />
+                </div>
+                <div>
+                  <label className="block text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Target max monthly payment</label>
+                  <NumberInput value={data.targetMonthlyPayment} onChange={(val) => update("targetMonthlyPayment", val)} prefix="$" step={50} width="7rem" theme={theme} />
+                </div>
+              </div>
+            </div>
+          );
+
+          case 8: return (
+            <div className="space-y-6">
+              <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.75rem", fontWeight: 400, color: theme.ink }}>Review & Save</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="p-4" style={{ background: theme.surfaceAlt, borderRadius: 4 }}>
+                  <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft }}>Student</div>
+                  <div className="text-sm" style={{ color: theme.ink }}>{data.studentName} &middot; {data.collegeName}</div>
+                  <div className="text-xs mt-1" style={{ color: theme.inkFaint }}>{data.programName || "Undeclared"} &middot; {data.programYears} years starting {data.startYear}</div>
+                </div>
+                <div className="p-4" style={{ background: theme.surfaceAlt, borderRadius: 4 }}>
+                  <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft }}>Annual Costs</div>
+                  <div className="text-sm" style={{ color: theme.ink }}>{fmt(data.costs.reduce((s, c) => s + c.amount, 0))}/yr</div>
+                  <div className="text-xs mt-1" style={{ color: theme.inkFaint }}>{data.costs.filter((c) => c.amount > 0).length} line items</div>
+                </div>
+                <div className="p-4" style={{ background: theme.surfaceAlt, borderRadius: 4 }}>
+                  <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.positive }}>Annual Aid</div>
+                  <div className="text-sm" style={{ color: theme.positive }}>{fmt(data.aidPrograms.reduce((s, a) => s + a.annualAmount, 0))}/yr</div>
+                  <div className="text-xs mt-1" style={{ color: theme.inkFaint }}>{data.aidPrograms.length} program{data.aidPrograms.length !== 1 ? "s" : ""}</div>
+                </div>
+                <div className="p-4" style={{ background: theme.surfaceAlt, borderRadius: 4 }}>
+                  <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft }}>Gap Loans</div>
+                  <div className="text-sm" style={{ color: theme.ink }}>{data.gapLoans.length} configured</div>
+                  <div className="text-xs mt-1" style={{ color: theme.inkFaint }}>{data.gapLoans.map((l) => l.name).join(", ") || "None"}</div>
+                </div>
+              </div>
+              <button onClick={handleSave}
+                className="px-6 py-3 text-sm font-medium"
+                style={{ background: theme.accent, color: "white", border: "none", borderRadius: 4, cursor: "pointer" }}>
+                Save & Start Calculating
+              </button>
+            </div>
+          );
+        }
+      };
+
+      return (
+        <div style={{ background: theme.bg, minHeight: "100vh", color: theme.ink, fontFamily: "'IBM Plex Sans', -apple-system, sans-serif" }}>
+          <style>{`
+            @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+            input[type="checkbox"] { accent-color: ${theme.accent}; }
+          `}</style>
+          <div className="max-w-3xl mx-auto px-6 py-10">
+            {/* Step indicator */}
+            <div className="flex items-center gap-1 mb-8">
+              {steps.map((_, i) => (
+                <div key={i} className="h-1 flex-1" style={{ background: i <= step ? theme.accent : theme.border, borderRadius: 2, transition: "background 0.2s" }} />
+              ))}
+            </div>
+            <div className="text-xs uppercase tracking-wider mb-6" style={{ color: theme.inkFaint, letterSpacing: "0.1em" }}>
+              Step {step + 1} of {steps.length} &middot; {steps[step]}
+            </div>
+
+            {renderStep()}
+
+            {/* Navigation */}
+            <div className="flex items-center justify-between mt-10 pt-6" style={{ borderTop: `1px solid ${theme.border}` }}>
+              <button onClick={() => setStep(Math.max(0, step - 1))} disabled={step === 0}
+                className="px-4 py-2 text-sm"
+                style={{ color: step === 0 ? theme.inkFaint : theme.ink, cursor: step === 0 ? "default" : "pointer", background: "transparent", border: `1px solid ${step === 0 ? theme.border : theme.border}`, borderRadius: 4, opacity: step === 0 ? 0.5 : 1 }}>
+                Back
+              </button>
+              <div className="flex gap-3">
+                {step >= 3 && step < 8 && (
+                  <button onClick={() => setStep(step + 1)}
+                    className="px-4 py-2 text-sm"
+                    style={{ color: theme.inkSoft, cursor: "pointer", background: "transparent", border: `1px solid ${theme.border}`, borderRadius: 4 }}>
+                    Skip
+                  </button>
+                )}
+                {step < 8 && (
+                  <button onClick={() => setStep(step + 1)} disabled={!canAdvance()}
+                    className="px-4 py-2 text-sm"
+                    style={{ background: canAdvance() ? theme.accent : theme.border, color: canAdvance() ? "white" : theme.inkFaint, cursor: canAdvance() ? "pointer" : "default", border: "none", borderRadius: 4 }}>
+                    Next
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    /* ─── CALCULATOR ───────────────────────────────────────────── */
+    function Calculator({ profile, onEditProfile, onNewProfile, onDeleteProfile, onSwitchProfile, allProfiles, theme }) {
+      const [s, setS] = useState(profile);
+      const [addMenuOpen, setAddMenuOpen] = useState(false);
+      const [aidMenuOpen, setAidMenuOpen] = useState(false);
+
+      // Auto-save to localStorage on changes (debounced)
+      useEffect(() => {
+        const timer = setTimeout(() => {
+          saveProfile({ ...s, updatedAt: new Date().toISOString() });
+        }, 500);
+        return () => clearTimeout(timer);
+      }, [s]);
+
+      const set = (key) => (val) => setS((prev) => ({ ...prev, [key]: val }));
+      const setFedLoan = (yearIdx, field) => (val) =>
+        setS((prev) => {
+          const next = [...prev.fedLoansByYear];
+          next[yearIdx] = { ...next[yearIdx], [field]: val };
+          return { ...prev, fedLoansByYear: next };
+        });
+
+      const updateGapLoan = (id, field) => (val) =>
+        setS((prev) => ({
+          ...prev,
+          gapLoans: prev.gapLoans.map((l) => (l.id === id ? { ...l, [field]: val } : l)),
+        }));
+
+      const addGapLoan = (preset) => {
+        setS((prev) => {
+          const maxId = prev.gapLoans.reduce((m, l) => Math.max(m, l.id), 0);
+          return { ...prev, gapLoans: [...prev.gapLoans, { ...preset, id: maxId + 1 }] };
+        });
+        setAddMenuOpen(false);
+      };
+
+      const removeGapLoan = (id) =>
+        setS((prev) => ({ ...prev, gapLoans: prev.gapLoans.filter((l) => l.id !== id) }));
+
+      const moveGapLoan = (index, direction) =>
+        setS((prev) => {
+          const loans = [...prev.gapLoans];
+          const newIdx = index + direction;
+          if (newIdx < 0 || newIdx >= loans.length) return prev;
+          [loans[index], loans[newIdx]] = [loans[newIdx], loans[index]];
+          return { ...prev, gapLoans: loans };
+        });
+
+      const updateAid = (idx, field, val) =>
+        setS((prev) => {
+          const aids = [...prev.aidPrograms];
+          aids[idx] = { ...aids[idx], [field]: val };
+          return { ...prev, aidPrograms: aids };
+        });
+
+      const addAidProgram = (preset) => {
+        setS((prev) => ({
+          ...prev,
+          aidPrograms: [...prev.aidPrograms, { id: uid(), name: preset.name, annualAmount: 0, type: preset.type }],
+        }));
+        setAidMenuOpen(false);
+      };
+
+      const removeAid = (idx) =>
+        setS((prev) => ({ ...prev, aidPrograms: prev.aidPrograms.filter((_, i) => i !== idx) }));
+
+      const updateCost = (idx, field, val) =>
+        setS((prev) => {
+          const costs = [...prev.costs];
+          costs[idx] = { ...costs[idx], [field]: val };
+          return { ...prev, costs: costs };
+        });
+
+      const gradYear = s.startYear + s.programYears;
+      const totalAnnualAid = s.aidPrograms.reduce((sum, a) => sum + a.annualAmount, 0);
+
+      const LOAN_COLORS = theme === darkTheme ? LOAN_COLORS_DARK : LOAN_COLORS_LIGHT;
+
+      const yearBreakdown = useMemo(() => {
+        const cumByLoan = {};
+        const rows = [];
+        for (let i = 0; i < s.programYears; i++) {
+          const infl = Math.pow(1 + s.inflationRate / 100, i);
+          const atHome = s.atHomeEnabled && i + 1 >= s.atHomeStartYear;
+          let cost = 0;
+          for (const item of s.costs) {
+            if (item.isHousing && atHome) {
+              cost += s.atHomeAnnualCost;
+            } else {
+              cost += item.amount * (item.inflates ? infl : 1);
+            }
+          }
+          const grantAid = totalAnnualAid;
+          const fed = s.fedLoansByYear[i] || { sub: 0, unsub: 0 };
+          const fedTotal = fed.sub + fed.unsub;
+          let remaining = Math.max(0, cost - grantAid - fedTotal);
+          const gapAllocs = [];
+          for (const loan of s.gapLoans) {
+            if (remaining <= 0) {
+              gapAllocs.push({ loanId: loan.id, gross: 0, net: 0 });
+              continue;
+            }
+            const cumUsed = cumByLoan[loan.id] || 0;
+            const effAnnual = loan.annualCap || Infinity;
+            const effLifetime = loan.lifetimeCap || Infinity;
+            const lifetimeLeft = Math.max(0, effLifetime - cumUsed);
+            let gross = 0;
+            if (loan.origination < 100) {
+              gross = remaining / (1 - (loan.origination || 0) / 100);
+              gross = Math.min(gross, effAnnual, lifetimeLeft);
+            }
+            const net = gross * (1 - (loan.origination || 0) / 100);
+            cumByLoan[loan.id] = cumUsed + gross;
+            gapAllocs.push({ loanId: loan.id, gross, net });
+            remaining = Math.max(0, remaining - net);
+          }
+          rows.push({ year: i + 1, atHome, cost, grantAid, fedSub: fed.sub, fedUnsub: fed.unsub, gapAllocs, unfunded: remaining });
+        }
+        return rows;
+      }, [s]);
+
+      const totals = useMemo(() => {
+        const t = { cost: 0, aid: 0, fedSub: 0, fedUnsub: 0, gap: {}, unfunded: 0 };
+        yearBreakdown.forEach((y) => {
+          t.cost += y.cost;
+          t.aid += y.grantAid;
+          t.fedSub += y.fedSub;
+          t.fedUnsub += y.fedUnsub;
+          t.unfunded += y.unfunded;
+          y.gapAllocs.forEach((a) => {
+            t.gap[a.loanId] = (t.gap[a.loanId] || 0) + a.gross;
+          });
+        });
+        t.gapTotal = Object.values(t.gap).reduce((a, b) => a + b, 0);
+        t.allBorrowed = t.fedSub + t.fedUnsub + t.gapTotal;
+        return t;
+      }, [yearBreakdown]);
+
+      const inSchoolInterest = useMemo(() => {
+        let studentUnsub = 0;
+        let runningUnsub = 0;
+        const gapInt = {};
+        const runningGap = {};
+        yearBreakdown.forEach((y) => {
+          runningUnsub += y.fedUnsub;
+          studentUnsub += runningUnsub * (s.fedRate / 100);
+          y.gapAllocs.forEach((a) => {
+            const loan = s.gapLoans.find((l) => l.id === a.loanId);
+            if (!loan) return;
+            runningGap[a.loanId] = (runningGap[a.loanId] || 0) + a.gross;
+            gapInt[a.loanId] = (gapInt[a.loanId] || 0) + runningGap[a.loanId] * (loan.rate / 100);
+          });
+        });
+        return { studentUnsub, gapInt };
+      }, [yearBreakdown, s]);
+
+      const balances = useMemo(() => {
+        let fedSub = 0, fedUnsub = 0;
+        const gapBal = {};
+        yearBreakdown.forEach((y, i) => {
+          const yrs = Math.max(0, s.programYears - i - 0.5);
+          fedSub += y.fedSub;
+          if (s.studentPaysUnsubInSchool) fedUnsub += y.fedUnsub;
+          else fedUnsub += y.fedUnsub * Math.pow(1 + s.fedRate / 100, yrs);
+          y.gapAllocs.forEach((a) => {
+            const loan = s.gapLoans.find((l) => l.id === a.loanId);
+            if (!loan) return;
+            if (loan.paysInterestInSchool) {
+              gapBal[a.loanId] = (gapBal[a.loanId] || 0) + a.gross;
+            } else {
+              gapBal[a.loanId] = (gapBal[a.loanId] || 0) + a.gross * Math.pow(1 + loan.rate / 100, yrs);
+            }
+          });
+        });
+        const gapTotal = Object.values(gapBal).reduce((a, b) => a + b, 0);
+        const studentGap = s.gapLoans.filter((l) => l.borrower === "student").reduce((a, l) => a + (gapBal[l.id] || 0), 0);
+        const parentGap = s.gapLoans.filter((l) => l.borrower === "parent").reduce((a, l) => a + (gapBal[l.id] || 0), 0);
+        return { fedSub, fedUnsub, gapBal, gapTotal, total: fedSub + fedUnsub + gapTotal, studentTotal: fedSub + fedUnsub + studentGap, parentTotal: parentGap };
+      }, [yearBreakdown, s]);
+
+      const payments = useMemo(() => {
+        const fedSub = monthlyPayment(balances.fedSub, s.fedRate, s.repaymentYears);
+        const fedUnsub = monthlyPayment(balances.fedUnsub, s.fedRate, s.repaymentYears);
+        const gapPay = {};
+        let studentGap = 0, parentGap = 0;
+        s.gapLoans.forEach((loan) => {
+          const bal = balances.gapBal[loan.id] || 0;
+          const mp = monthlyPayment(bal, loan.rate, s.repaymentYears);
+          gapPay[loan.id] = mp;
+          if (loan.borrower === "student") studentGap += mp;
+          else parentGap += mp;
+        });
+        const student = fedSub + fedUnsub + studentGap;
+        const parent = parentGap;
+        return { fedSub, fedUnsub, gapPay, student, parent, total: student + parent };
+      }, [balances, s]);
+
+      const lifetimeInterest = useMemo(() => {
+        const totalPaid = payments.total * s.repaymentYears * 12;
+        let schoolInt = s.studentPaysUnsubInSchool ? inSchoolInterest.studentUnsub : 0;
+        s.gapLoans.forEach((loan) => {
+          if (loan.paysInterestInSchool) schoolInt += inSchoolInterest.gapInt[loan.id] || 0;
+        });
+        return Math.max(0, totalPaid - balances.total) + schoolInt;
+      }, [payments, balances, s, inSchoolInterest]);
+
+      const affordability = useMemo(() => {
+        const total = balances.total || 1;
+        let weightedRate = (balances.fedSub * s.fedRate + balances.fedUnsub * s.fedRate) / total;
+        s.gapLoans.forEach((loan) => {
+          weightedRate += ((balances.gapBal[loan.id] || 0) * loan.rate) / total;
+        });
+        const maxPrincipal = maxPrincipalForPayment(s.targetMonthlyPayment, weightedRate, s.repaymentYears);
+        const shortfall = balances.total - maxPrincipal;
+        return { weightedRate, maxPrincipal, shortfall };
+      }, [balances, s]);
+
+      const studentIncomeAt = (yearsPostGrad) => s.studentStartingSalary * Math.pow(1 + s.studentSalaryGrowth / 100, yearsPostGrad);
+
+      const phases = useMemo(() => {
+        const h = Math.max(0, Math.min(s.handoffYearsPostGrad, s.repaymentYears));
+        const afterHandoffYears = s.repaymentYears - h;
+        const studentAnnualInSchool = s.studentPaysUnsubInSchool ? inSchoolInterest.studentUnsub / s.programYears : 0;
+        let studentGapSchool = 0, parentGapSchool = 0;
+        s.gapLoans.forEach((loan) => {
+          if (loan.paysInterestInSchool) {
+            const amt = (inSchoolInterest.gapInt[loan.id] || 0) / s.programYears;
+            if (loan.borrower === "student") studentGapSchool += amt;
+            else parentGapSchool += amt;
+          }
+        });
+        return {
+          school: {
+            years: s.programYears,
+            parentMonthly: parentGapSchool / 12,
+            studentMonthly: (studentAnnualInSchool + studentGapSchool) / 12,
+            parentTotal: parentGapSchool * s.programYears,
+            studentTotal: (studentAnnualInSchool + studentGapSchool) * s.programYears,
+          },
+          preHandoff: {
+            years: h,
+            parentMonthly: payments.parent,
+            studentMonthly: payments.student,
+            parentTotal: payments.parent * 12 * h,
+            studentTotal: payments.student * 12 * h,
+          },
+          postHandoff: {
+            years: afterHandoffYears,
+            parentMonthly: 0,
+            studentMonthly: payments.total,
+            parentTotal: 0,
+            studentTotal: payments.total * 12 * afterHandoffYears,
+          },
+        };
+      }, [s, payments, inSchoolInterest]);
+
+      const lifetimeParentContribution = phases.school.parentTotal + phases.preHandoff.parentTotal + phases.postHandoff.parentTotal;
+      const lifetimeStudentContribution = phases.school.studentTotal + phases.preHandoff.studentTotal + phases.postHandoff.studentTotal;
+      const lifetimeTotal = lifetimeParentContribution + lifetimeStudentContribution || 1;
+
+      const hasUnfunded = totals.unfunded > 1;
+      const maxLoanBar = Math.max(balances.fedSub, balances.fedUnsub, ...s.gapLoans.map((l) => balances.gapBal[l.id] || 0), 1);
+
+      const loanColor = (idx) => LOAN_COLORS[idx % LOAN_COLORS.length];
+      const studentName = s.studentName || "Student";
+      const parentName = s.parentName || "Parent";
+
+      return (
+        <div style={{ background: theme.bg, minHeight: "100vh", color: theme.ink, fontFamily: "'IBM Plex Sans', -apple-system, sans-serif" }}>
+          <style>{`
+            @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+            input[type="range"] { -webkit-appearance: none; appearance: none; height: 4px; background: ${theme.border}; border-radius: 2px; outline: none; }
+            input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 20px; height: 20px; border-radius: 50%; background: ${theme.accent}; cursor: pointer; border: 3px solid ${theme.bg}; box-shadow: 0 0 0 1px ${theme.accent}; }
+            input[type="range"]::-moz-range-thumb { width: 20px; height: 20px; border-radius: 50%; background: ${theme.accent}; cursor: pointer; border: 3px solid ${theme.bg}; box-shadow: 0 0 0 1px ${theme.accent}; }
+            input[type="checkbox"] { accent-color: ${theme.accent}; }
+            select { appearance: none; background: ${theme.inputBg} url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238A7E71' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 8px center; border: 1px solid ${theme.border}; border-radius: 4px; padding: 6px 28px 6px 10px; font-size: 0.875rem; color: ${theme.ink}; font-family: 'IBM Plex Sans', sans-serif; outline: none; cursor: pointer; }
+          `}</style>
+
+          <div className="max-w-6xl mx-auto px-6 py-10">
+            {/* HEADER */}
+            <header className="mb-10">
+              <div className="flex items-center justify-between flex-wrap gap-4 mb-3">
+                <div className="text-xs uppercase tracking-widest" style={{ color: theme.accent, letterSpacing: "0.15em" }}>
+                  {s.collegeName} &middot; Class of {gradYear}
+                </div>
+                <div className="flex items-center gap-3">
+                  {allProfiles.length > 1 && (
+                    <select value={s.id} onChange={(e) => onSwitchProfile(e.target.value)}
+                      style={{ fontSize: "0.75rem", padding: "4px 24px 4px 8px" }}>
+                      {allProfiles.map((p) => <option key={p.id} value={p.id}>{p.name}</option>)}
+                    </select>
+                  )}
+                  <button onClick={onEditProfile} className="flex items-center gap-1 text-xs" style={{ color: theme.accent, cursor: "pointer", background: "transparent", border: "none" }}>
+                    <Edit size={12} /> Edit
+                  </button>
+                  <button onClick={onNewProfile} className="flex items-center gap-1 text-xs" style={{ color: theme.inkSoft, cursor: "pointer", background: "transparent", border: "none" }}>
+                    <Plus size={12} /> New
+                  </button>
+                </div>
+              </div>
+              <h1 style={{ fontFamily: "'Fraunces', Georgia, serif", fontWeight: 400, fontSize: "2.5rem", lineHeight: 1.1, letterSpacing: "-0.02em", color: theme.ink }}>
+                {s.programYears}-year program, split between<br />parent and student.
+              </h1>
+              <p className="mt-4 max-w-2xl" style={{ color: theme.inkSoft, fontSize: "0.95rem", lineHeight: 1.6 }}>
+                Costs inflate {s.inflationRate}%. Aid renews flat.{s.atHomeEnabled && ` After year ${s.atHomeStartYear - 1}, housing drops to a food supplement.`}
+                {" "}Configure loan types below to model different financing strategies.
+              </p>
+            </header>
+
+            {/* METRIC CARDS */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+              <MetricCard label={`${s.programYears}-Year Cost`} value={fmt(totals.cost)} sublabel={`${s.inflationRate}% infl${s.atHomeEnabled ? ` \u00b7 home Y${s.atHomeStartYear}+` : ""}`} theme={theme} />
+              <MetricCard label="Grant Aid" value={fmt(totals.aid)} sublabel={`${fmt(totalAnnualAid)}/yr`} tone="positive" theme={theme} />
+              <MetricCard label="Principal Borrowed" value={fmt(totals.allBorrowed)} sublabel="at graduation" tone="warn" theme={theme} />
+              <MetricCard label="Peak Family /mo" value={fmt(payments.total)} sublabel={`pre-handoff \u00b7 ${s.repaymentYears}-yr term`} tone="warn" theme={theme} />
+            </div>
+
+            {/* WARNINGS */}
+            {hasUnfunded && (
+              <div className="p-5 mb-8 flex gap-4 items-start" style={{ background: theme.warnBg, border: `1px solid ${theme.accent}` }}>
+                <AlertTriangle size={22} style={{ color: theme.warn, flexShrink: 0, marginTop: 2 }} />
+                <div style={{ color: theme.warn }}>
+                  <div style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.25rem", marginBottom: "0.5rem" }}>
+                    Unfunded gap: {fmt(totals.unfunded)}
+                  </div>
+                  <p className="text-sm" style={{ color: theme.ink, lineHeight: 1.6 }}>
+                    After all configured loans, <strong>{fmt(totals.unfunded)}</strong> remains uncovered over {s.programYears} years.
+                    Add another loan type below, increase caps on existing loans, or look into additional aid
+                    (institutional appeals, outside scholarships, work-study).
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {/* TOP CONTROLS */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 p-6 mb-8" style={{ background: theme.surfaceAlt, border: `1px solid ${theme.border}` }}>
+              <div>
+                <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Program length</div>
+                <div className="flex items-center gap-3">
+                  {[4, 5, 6].map((n) => (
+                    <button key={n} onClick={() => set("programYears")(n)}
+                      className="px-3 py-1.5 text-sm"
+                      style={{
+                        background: s.programYears === n ? theme.accent : theme.surface,
+                        color: s.programYears === n ? "white" : theme.ink,
+                        border: `1px solid ${s.programYears === n ? theme.accent : theme.border}`,
+                        borderRadius: 4, cursor: "pointer", fontFamily: "'IBM Plex Mono', monospace",
+                      }}>
+                      {n} yr
+                    </button>
+                  ))}
+                </div>
+                <div className="text-xs mt-2" style={{ color: theme.inkFaint }}>{s.programName || (s.programYears === 4 ? "Standard bachelor's" : s.programYears === 5 ? "5-year program" : "Extended program")}</div>
+              </div>
+              <div>
+                <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Cost inflation</div>
+                <NumberInput value={s.inflationRate} onChange={set("inflationRate")} suffix="%" step={0.1} width="5rem" theme={theme} />
+              </div>
+              <div>
+                <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>
+                  <Home size={12} className="inline mr-1" /> Live at home
+                </div>
+                <label className="flex items-center gap-2 cursor-pointer mb-2">
+                  <input type="checkbox" checked={s.atHomeEnabled} onChange={(e) => set("atHomeEnabled")(e.target.checked)} className="w-4 h-4" />
+                  <span className="text-sm" style={{ color: theme.ink }}>Starting Y
+                    <input type="number" min={2} max={s.programYears} value={Math.min(s.atHomeStartYear, s.programYears)} onChange={(e) => set("atHomeStartYear")(parseInt(e.target.value) || 3)} className="w-10 px-1 py-0.5 mx-1 text-center" style={{ background: theme.inputBg, border: `1px solid ${theme.border}`, borderRadius: 3, fontFamily: "'IBM Plex Mono', monospace", color: theme.ink }} disabled={!s.atHomeEnabled} />
+                  </span>
+                </label>
+                <div className="flex items-center gap-2">
+                  <NumberInput value={s.atHomeAnnualCost} onChange={set("atHomeAnnualCost")} prefix="$" step={300} width="6rem" disabled={!s.atHomeEnabled} theme={theme} />
+                  <span className="text-xs" style={{ color: theme.inkFaint }}>/yr</span>
+                </div>
+              </div>
+              <div>
+                <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Fed unsub interest</div>
+                <label className="flex items-center gap-2 cursor-pointer" style={{ color: theme.ink }}>
+                  <input type="checkbox" checked={s.studentPaysUnsubInSchool} onChange={(e) => set("studentPaysUnsubInSchool")(e.target.checked)} className="w-3.5 h-3.5" />
+                  <span className="text-sm">{studentName} pays in school</span>
+                </label>
+                <div className="text-xs mt-1" style={{ color: theme.inkFaint }}>~{fmt(inSchoolInterest.studentUnsub / s.programYears)}/yr</div>
+              </div>
+            </div>
+
+            {/* AWARD LETTER */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 mb-8" style={{ background: theme.surface, border: `1px solid ${theme.border}` }}>
+              <div>
+                <div className="text-xs uppercase tracking-wider mb-3" style={{ color: theme.positive, letterSpacing: "0.1em" }}>Annual grant aid</div>
+                <div className="space-y-2">
+                  {s.aidPrograms.map((aid, idx) => (
+                    <div key={aid.id} className="flex justify-between items-center gap-2">
+                      <input type="text" value={aid.name} onChange={(e) => updateAid(idx, "name", e.target.value)}
+                        className="text-sm bg-transparent outline-none flex-1 min-w-[8rem]"
+                        style={{ color: theme.ink, borderBottom: `1px solid ${theme.border}`, paddingBottom: 2 }} />
+                      <div className="flex items-center gap-2">
+                        <NumberInput value={aid.annualAmount} onChange={(val) => updateAid(idx, "annualAmount", val)} prefix="$" step={500} theme={theme} />
+                        <span className="text-xs" style={{ color: theme.inkFaint }}>/yr</span>
+                        <button onClick={() => removeAid(idx)} className="p-0.5" style={{ cursor: "pointer" }}><X size={12} style={{ color: theme.warn }} /></button>
+                      </div>
+                    </div>
+                  ))}
+                  {s.aidPrograms.length === 0 && (
+                    <div className="text-sm" style={{ color: theme.inkFaint }}>No aid programs configured</div>
+                  )}
+                  <div className="relative pt-2">
+                    <button onClick={() => setAidMenuOpen(!aidMenuOpen)}
+                      className="flex items-center gap-1 text-xs" style={{ color: theme.accent, cursor: "pointer", background: "transparent", border: "none" }}>
+                      <Plus size={12} /> Add aid
+                    </button>
+                    {aidMenuOpen && (
+                      <div className="absolute top-full left-0 mt-1 z-10 py-1" style={{ background: theme.surface, border: `1px solid ${theme.border}`, borderRadius: 4, boxShadow: "0 4px 12px rgba(0,0,0,0.1)", minWidth: "14rem" }}>
+                        {AID_PRESETS.map((preset) => (
+                          <button key={preset.name} onClick={() => addAidProgram(preset)}
+                            className="w-full text-left px-4 py-2 text-sm"
+                            style={{ color: theme.ink, cursor: "pointer", display: "block", border: "none", background: "transparent" }}>
+                            {preset.name}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                  {s.aidPrograms.length > 0 && (
+                    <div className="flex justify-between items-center pt-2" style={{ borderTop: `1px solid ${theme.border}` }}>
+                      <span className="text-sm font-medium" style={{ color: theme.positive }}>Total grant aid</span>
+                      <span style={{ fontFamily: "'IBM Plex Mono', monospace", color: theme.positive, fontWeight: 500 }}>{fmt(totalAnnualAid)}/yr</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+              <div>
+                <div className="text-xs uppercase tracking-wider mb-3" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Year 1 federal loans</div>
+                <div className="space-y-2">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm" style={{ color: theme.ink }}>Federal Direct Sub</span>
+                    <NumberInput value={s.fedLoansByYear[0].sub} onChange={setFedLoan(0, "sub")} prefix="$" step={500} width="6rem" theme={theme} />
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm" style={{ color: theme.ink }}>Federal Direct Unsub</span>
+                    <NumberInput value={s.fedLoansByYear[0].unsub} onChange={setFedLoan(0, "unsub")} prefix="$" step={500} width="6rem" theme={theme} />
+                  </div>
+                  <div className="flex justify-between items-center pt-2" style={{ borderTop: `1px solid ${theme.border}` }}>
+                    <span className="text-sm font-medium" style={{ color: theme.ink }}>Total federal</span>
+                    <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontWeight: 500, color: theme.ink }}>{fmt(s.fedLoansByYear[0].sub + s.fedLoansByYear[0].unsub)}/yr</span>
+                  </div>
+                </div>
+                <div className="text-xs mt-3" style={{ color: theme.inkFaint, lineHeight: 1.5 }}>
+                  Year 2+ amounts adjustable below in "Federal Direct loans"
+                </div>
+              </div>
+            </div>
+
+            {/* GAP FINANCING */}
+            <h2 className="mb-2" style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.5rem", fontWeight: 400, color: theme.ink }}>Gap financing</h2>
+            <p className="text-sm mb-4" style={{ color: theme.inkSoft, maxWidth: "48rem", lineHeight: 1.6 }}>
+              After grants and federal loans, these fill the remaining gap in priority order (top first).
+              Add loan types to compare strategies.
+            </p>
+
+            <div className="space-y-3 mb-4">
+              {s.gapLoans.map((loan, idx) => (
+                <div key={loan.id} className="p-5" style={{ background: theme.surface, border: `1px solid ${theme.border}`, borderLeft: `4px solid ${loanColor(idx)}` }}>
+                  <div className="flex items-start justify-between gap-4 mb-4 flex-wrap">
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs px-1.5 py-0.5" style={{ background: theme.surfaceAlt, color: theme.inkFaint, borderRadius: 3, fontFamily: "'IBM Plex Mono', monospace" }}>#{idx + 1}</span>
+                      <input type="text" value={loan.name}
+                        onChange={(e) => updateGapLoan(loan.id, "name")(e.target.value)}
+                        className="text-sm font-medium bg-transparent outline-none"
+                        style={{ color: theme.ink, borderBottom: `1px solid ${theme.border}`, paddingBottom: 2, width: "12rem" }}
+                      />
+                      <span className="text-xs px-2 py-0.5" style={{
+                        color: loan.borrower === "student" ? theme.student : theme.parent,
+                        background: (loan.borrower === "student" ? theme.studentDim : theme.parentDim) + "33",
+                        borderRadius: 3,
+                      }}>{loan.borrower === "student" ? "Student" : "Parent"}</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      {s.gapLoans.length > 1 && (
+                        <>
+                          <button onClick={() => moveGapLoan(idx, -1)} disabled={idx === 0}
+                            className="p-1" style={{ opacity: idx === 0 ? 0.3 : 1, cursor: idx === 0 ? "default" : "pointer" }}>
+                            <ArrowUp size={14} style={{ color: theme.inkFaint }} />
+                          </button>
+                          <button onClick={() => moveGapLoan(idx, 1)} disabled={idx === s.gapLoans.length - 1}
+                            className="p-1" style={{ opacity: idx === s.gapLoans.length - 1 ? 0.3 : 1, cursor: idx === s.gapLoans.length - 1 ? "default" : "pointer" }}>
+                            <ArrowDown size={14} style={{ color: theme.inkFaint }} />
+                          </button>
+                          <button onClick={() => removeGapLoan(loan.id)} className="p-1 ml-1" style={{ cursor: "pointer" }}>
+                            <X size={14} style={{ color: theme.warn }} />
+                          </button>
+                        </>
+                      )}
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                    <div>
+                      <div className="text-xs mb-1" style={{ color: theme.inkSoft }}>Rate</div>
+                      <NumberInput value={loan.rate} onChange={updateGapLoan(loan.id, "rate")} suffix="%" step={0.01} width="5rem" theme={theme} />
+                    </div>
+                    <div>
+                      <div className="text-xs mb-1" style={{ color: theme.inkSoft }}>Origination</div>
+                      <NumberInput value={loan.origination} onChange={updateGapLoan(loan.id, "origination")} suffix="%" step={0.01} width="5rem" theme={theme} />
+                    </div>
+                    <div>
+                      <div className="text-xs mb-1" style={{ color: theme.inkSoft }}>Annual cap <span style={{ color: theme.inkFaint }}>(0=none)</span></div>
+                      <NumberInput value={loan.annualCap} onChange={updateGapLoan(loan.id, "annualCap")} prefix="$" step={1000} width="6rem" theme={theme} />
+                    </div>
+                    <div>
+                      <div className="text-xs mb-1" style={{ color: theme.inkSoft }}>Lifetime cap <span style={{ color: theme.inkFaint }}>(0=none)</span></div>
+                      <NumberInput value={loan.lifetimeCap} onChange={updateGapLoan(loan.id, "lifetimeCap")} prefix="$" step={5000} width="6rem" theme={theme} />
+                    </div>
+                    <div>
+                      <div className="text-xs mb-1" style={{ color: theme.inkSoft }}>Borrower</div>
+                      <select value={loan.borrower} onChange={(e) => updateGapLoan(loan.id, "borrower")(e.target.value)}>
+                        <option value="parent">Parent</option>
+                        <option value="student">Student (cosigned)</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div className="mt-3 flex items-center justify-between flex-wrap gap-2">
+                    <label className="flex items-center gap-2 cursor-pointer text-sm" style={{ color: theme.ink }}>
+                      <input type="checkbox" checked={loan.paysInterestInSchool} onChange={(e) => updateGapLoan(loan.id, "paysInterestInSchool")(e.target.checked)} className="w-3.5 h-3.5" />
+                      <span>Pay interest during school <span style={{ color: theme.inkFaint, fontSize: "0.75rem" }}>(~{fmt((inSchoolInterest.gapInt[loan.id] || 0) / s.programYears)}/yr)</span></span>
+                    </label>
+                    <div className="text-xs" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Mono', monospace" }}>
+                      Fills: {fmt(totals.gap[loan.id] || 0)} gross &middot; Bal at grad: {fmt(balances.gapBal[loan.id] || 0)}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="relative mb-10">
+              <button onClick={() => setAddMenuOpen(!addMenuOpen)}
+                className="flex items-center gap-2 px-4 py-2.5 text-sm"
+                style={{ background: theme.surface, border: `1px solid ${theme.border}`, borderRadius: 4, cursor: "pointer", color: theme.accent }}>
+                <Plus size={16} /> Add loan type
+              </button>
+              {addMenuOpen && (
+                <div className="absolute top-full left-0 mt-1 z-10 py-1" style={{ background: theme.surface, border: `1px solid ${theme.border}`, borderRadius: 4, boxShadow: "0 4px 12px rgba(0,0,0,0.15)", minWidth: "14rem" }}>
+                  {Object.entries(LOAN_PRESETS).map(([key, preset]) => (
+                    <button key={key} onClick={() => addGapLoan(preset)}
+                      className="w-full text-left px-4 py-2.5 text-sm"
+                      style={{ color: theme.ink, cursor: "pointer", display: "block", border: "none", background: "transparent" }}>
+                      <div style={{ fontWeight: 500 }}>{preset.name}</div>
+                      <div className="text-xs" style={{ color: theme.inkFaint }}>
+                        {preset.rate}% &middot; {preset.borrower === "student" ? "in student's name" : "parent's loan"}{preset.origination > 0 ? ` \u00b7 ${preset.origination}% orig` : ""}
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* YEAR BY YEAR */}
+            <h2 className="mb-4" style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.5rem", fontWeight: 400, color: theme.ink }}>Year by year</h2>
+            <div className="overflow-x-auto mb-10" style={{ background: theme.surface, border: `1px solid ${theme.border}` }}>
+              <table className="w-full text-sm" style={{ fontFamily: "'IBM Plex Mono', monospace" }}>
+                <thead>
+                  <tr style={{ background: theme.surfaceAlt, borderBottom: `1px solid ${theme.border}` }}>
+                    <th className="text-left py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: theme.inkSoft }}>Year</th>
+                    <th className="text-right py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: theme.inkSoft }}>Cost</th>
+                    <th className="text-right py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: theme.positive }}>Grant</th>
+                    <th className="text-right py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: theme.inkSoft }}>Fed Sub</th>
+                    <th className="text-right py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: theme.inkSoft }}>Fed Unsub</th>
+                    {s.gapLoans.map((loan, idx) => (
+                      <th key={loan.id} className="text-right py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: loanColor(idx) }}>{loan.name}</th>
+                    ))}
+                    {hasUnfunded && <th className="text-right py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: theme.warn }}>Unfunded</th>}
+                  </tr>
+                </thead>
+                <tbody>
+                  {yearBreakdown.map((y) => (
+                    <tr key={y.year} style={{ borderBottom: `1px solid ${theme.border}` }}>
+                      <td className="py-3 px-4" style={{ color: theme.ink, fontFamily: "'Fraunces', serif", fontSize: "1rem" }}>
+                        {y.year}
+                        {y.atHome && <span className="ml-2" style={{ fontSize: "0.7rem", color: theme.positive, fontFamily: "'IBM Plex Sans', sans-serif" }}>{"\u2302"} home</span>}
+                      </td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.ink }}>{fmt(y.cost)}</td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.positive }}>{"\u2212"}{fmt0(y.grantAid)}</td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.ink }}>{fmt(y.fedSub)}</td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.ink }}>{fmt(y.fedUnsub)}</td>
+                      {s.gapLoans.map((loan, idx) => {
+                        const alloc = y.gapAllocs.find((a) => a.loanId === loan.id);
+                        const v = alloc ? alloc.gross : 0;
+                        return <td key={loan.id} className="text-right py-3 px-4" style={{ color: v > 0 ? loanColor(idx) : theme.inkFaint }}>{fmt(v)}</td>;
+                      })}
+                      {hasUnfunded && <td className="text-right py-3 px-4" style={{ color: y.unfunded > 0 ? theme.warn : theme.inkFaint }}>{fmt(y.unfunded)}</td>}
+                    </tr>
+                  ))}
+                  <tr style={{ background: theme.surfaceAlt }}>
+                    <td className="py-3 px-4 text-xs uppercase tracking-wider" style={{ color: theme.inkSoft }}>Total</td>
+                    <td className="text-right py-3 px-4" style={{ fontWeight: 500, color: theme.ink }}>{fmt(totals.cost)}</td>
+                    <td className="text-right py-3 px-4" style={{ color: theme.positive, fontWeight: 500 }}>{"\u2212"}{fmt0(totals.aid)}</td>
+                    <td className="text-right py-3 px-4" style={{ fontWeight: 500, color: theme.ink }}>{fmt(totals.fedSub)}</td>
+                    <td className="text-right py-3 px-4" style={{ fontWeight: 500, color: theme.ink }}>{fmt(totals.fedUnsub)}</td>
+                    {s.gapLoans.map((loan, idx) => (
+                      <td key={loan.id} className="text-right py-3 px-4" style={{ fontWeight: 500, color: loanColor(idx) }}>{fmt(totals.gap[loan.id] || 0)}</td>
+                    ))}
+                    {hasUnfunded && <td className="text-right py-3 px-4" style={{ color: theme.warn, fontWeight: 500 }}>{fmt(totals.unfunded)}</td>}
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            {/* DEBT AT GRADUATION */}
+            <h2 className="mb-4" style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.5rem", fontWeight: 400, color: theme.ink }}>Debt at graduation</h2>
+            <div className="p-6 mb-10" style={{ background: theme.surface, border: `1px solid ${theme.border}` }}>
+              {[
+                { label: "Federal Direct Subsidized", amount: balances.fedSub, rate: s.fedRate, owner: studentName, note: "gov pays interest in school", barColor: theme.student },
+                { label: "Federal Direct Unsubsidized", amount: balances.fedUnsub, rate: s.fedRate, owner: studentName, note: s.studentPaysUnsubInSchool ? `${studentName} paid interest during school` : "interest capitalized", barColor: theme.student },
+              ].map((loan) => (
+                <div key={loan.label} className="mb-5">
+                  <div className="flex justify-between items-baseline mb-2 flex-wrap gap-2">
+                    <div>
+                      <span className="text-sm font-medium" style={{ color: theme.ink }}>{loan.label}</span>
+                      <span className="text-xs ml-2 px-2 py-0.5" style={{ color: theme.student, background: theme.studentDim + "33", borderRadius: 3 }}>{loan.owner}</span>
+                      <span className="text-xs ml-3" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Mono', monospace" }}>{loan.rate.toFixed(2)}% &middot; {loan.note}</span>
+                    </div>
+                    <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: "0.9rem", color: theme.ink }}>{fmt(loan.amount)}</div>
+                  </div>
+                  <div style={{ height: 8, background: theme.surfaceAlt, borderRadius: 2, overflow: "hidden" }}>
+                    <div style={{ height: "100%", width: `${(loan.amount / maxLoanBar) * 100}%`, background: loan.barColor, transition: "width 0.3s ease" }} />
+                  </div>
+                </div>
+              ))}
+              {s.gapLoans.map((loan, idx) => {
+                const bal = balances.gapBal[loan.id] || 0;
+                const ownerLabel = loan.borrower === "student" ? `${studentName} (cosigned)` : parentName;
+                const isStudent = loan.borrower === "student";
+                return (
+                  <div key={loan.id} className="mb-5">
+                    <div className="flex justify-between items-baseline mb-2 flex-wrap gap-2">
+                      <div>
+                        <span className="text-sm font-medium" style={{ color: theme.ink }}>{loan.name}</span>
+                        <span className="text-xs ml-2 px-2 py-0.5" style={{
+                          color: isStudent ? theme.student : theme.parent,
+                          background: (isStudent ? theme.studentDim : theme.parentDim) + "33",
+                          borderRadius: 3,
+                        }}>{ownerLabel}</span>
+                        <span className="text-xs ml-3" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Mono', monospace" }}>
+                          {loan.rate.toFixed(2)}% &middot; {loan.paysInterestInSchool ? "interest paid in school" : "interest capitalized"}
+                        </span>
+                      </div>
+                      <div style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: "0.9rem", color: theme.ink }}>{fmt(bal)}</div>
+                    </div>
+                    <div style={{ height: 8, background: theme.surfaceAlt, borderRadius: 2, overflow: "hidden" }}>
+                      <div style={{ height: "100%", width: `${(bal / maxLoanBar) * 100}%`, background: loanColor(idx), transition: "width 0.3s ease" }} />
+                    </div>
+                  </div>
+                );
+              })}
+              <div className="mt-6 pt-5 flex justify-between items-baseline flex-wrap gap-2" style={{ borderTop: `1px solid ${theme.border}` }}>
+                <div>
+                  <div className="text-xs uppercase tracking-wider" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Total principal at graduation</div>
+                  <div className="text-xs mt-1" style={{ color: theme.inkFaint }}>
+                    {studentName}'s: {fmt(balances.studentTotal)} &middot; {parentName}'s: {fmt(balances.parentTotal)}
+                  </div>
+                </div>
+                <div style={{ fontFamily: "'Fraunces', serif", fontSize: "1.75rem", color: theme.warn, letterSpacing: "-0.02em" }}>{fmt(balances.total)}</div>
+              </div>
+              {balances.parentTotal > 0 && (
+                <div className="text-xs mt-3" style={{ color: theme.inkFaint, lineHeight: 1.5 }}>
+                  Parent-borrower loans stay legally in the parent's name. The "handoff" below is {studentName} reimbursing parents &mdash; not a legal transfer.
+                  Cosigned loans in {studentName}'s name are their legal responsibility.
+                </div>
+              )}
+            </div>
+
+            {/* REPAYMENT TERM */}
+            <h2 className="mb-4" style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.5rem", fontWeight: 400, color: theme.ink }}>Repayment term</h2>
+            <div className="p-6 mb-10" style={{ background: theme.surface, border: `1px solid ${theme.border}` }}>
+              <div className="flex justify-between items-baseline mb-3">
+                <label className="text-xs uppercase tracking-wider" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Length</label>
+                <div style={{ fontFamily: "'Fraunces', serif", fontSize: "1.5rem", color: theme.accent }}>{s.repaymentYears} years</div>
+              </div>
+              <input type="range" min={5} max={25} step={1} value={s.repaymentYears} onChange={(e) => set("repaymentYears")(parseInt(e.target.value))} className="w-full" />
+              <div className="flex justify-between text-xs mt-1" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Mono', monospace" }}>
+                <span>5 yrs</span><span>15 yrs</span><span>25 yrs</span>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-2 mt-6 text-sm" style={{ fontFamily: "'IBM Plex Mono', monospace" }}>
+                <div><div className="text-xs" style={{ color: theme.inkSoft }}>Fed Sub</div><div style={{ color: theme.ink }}>{fmt(payments.fedSub)}/mo</div></div>
+                <div><div className="text-xs" style={{ color: theme.inkSoft }}>Fed Unsub</div><div style={{ color: theme.ink }}>{fmt(payments.fedUnsub)}/mo</div></div>
+                {s.gapLoans.map((loan, idx) => (
+                  <div key={loan.id}>
+                    <div className="text-xs" style={{ color: loanColor(idx) }}>{loan.name}</div>
+                    <div style={{ color: loanColor(idx) }}>{fmt(payments.gapPay[loan.id] || 0)}/mo</div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-4 pt-4 flex justify-between flex-wrap gap-2" style={{ borderTop: `1px solid ${theme.border}`, fontFamily: "'IBM Plex Mono', monospace" }}>
+                <span className="text-sm" style={{ color: theme.inkSoft }}>Combined &middot; Total interest over life</span>
+                <span className="text-sm" style={{ color: theme.ink }}><strong>{fmt(payments.total)}/mo</strong> &middot; <span style={{ color: theme.warn }}>{fmt(lifetimeInterest)}</span></span>
+              </div>
+            </div>
+
+            {/* WHO PAYS WHAT */}
+            <div className="mb-4 flex items-center gap-3">
+              <Users size={24} style={{ color: theme.accent }} />
+              <h2 style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.75rem", fontWeight: 400, color: theme.ink }}>Who pays what</h2>
+            </div>
+            <p className="text-sm mb-6" style={{ color: theme.inkSoft, maxWidth: "48rem", lineHeight: 1.6 }}>
+              Timeline of obligations for the family. {studentName}'s loans (federal + cosigned) start after the 6-month grace.
+              {balances.parentTotal > 0 && ` The handoff represents when ${studentName} starts reimbursing parents for parent-borrower loans.`}
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6 p-5" style={{ background: theme.surfaceAlt, border: `1px solid ${theme.border}` }}>
+              <div>
+                <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Parent household income</div>
+                <NumberInput value={s.parentIncome} onChange={set("parentIncome")} prefix="$" step={5000} width="8rem" theme={theme} />
+              </div>
+              <div>
+                <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>{studentName}'s starting salary</div>
+                <NumberInput value={s.studentStartingSalary} onChange={set("studentStartingSalary")} prefix="$" step={1000} width="8rem" theme={theme} />
+              </div>
+              <div>
+                <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Annual salary growth</div>
+                <NumberInput value={s.studentSalaryGrowth} onChange={set("studentSalaryGrowth")} suffix="%" step={0.5} width="5rem" theme={theme} />
+              </div>
+            </div>
+
+            {balances.parentTotal > 0 && (
+              <div className="p-5 mb-6" style={{ background: theme.surface, border: `1px solid ${theme.border}` }}>
+                <div className="flex justify-between items-baseline mb-3 flex-wrap gap-2">
+                  <label className="text-xs uppercase tracking-wider" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>
+                    {studentName} starts reimbursing parents at
+                  </label>
+                  <div style={{ fontFamily: "'Fraunces', serif", fontSize: "1.5rem", color: theme.accent }}>Year {s.handoffYearsPostGrad} post-grad</div>
+                </div>
+                <input type="range" min={0} max={s.repaymentYears} step={1} value={s.handoffYearsPostGrad} onChange={(e) => set("handoffYearsPostGrad")(parseInt(e.target.value))} className="w-full" />
+                <div className="flex justify-between text-xs mt-1" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Mono', monospace" }}>
+                  <span>Immediately</span><span>Mid-career</span><span>Never</span>
+                </div>
+              </div>
+            )}
+
+            <div className="overflow-x-auto mb-6" style={{ background: theme.surface, border: `1px solid ${theme.border}` }}>
+              <table className="w-full text-sm">
+                <thead>
+                  <tr style={{ background: theme.surfaceAlt, borderBottom: `1px solid ${theme.border}` }}>
+                    <th className="text-left py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: theme.inkSoft }}>Phase</th>
+                    <th className="text-right py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: theme.parent }}>{parentName} /mo</th>
+                    <th className="text-right py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: theme.student }}>{studentName} /mo</th>
+                    <th className="text-right py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: theme.inkSoft }}>{parentName} % inc</th>
+                    <th className="text-right py-3 px-4 font-normal text-xs uppercase tracking-wider" style={{ color: theme.inkSoft }}>{studentName} % inc</th>
+                  </tr>
+                </thead>
+                <tbody style={{ fontFamily: "'IBM Plex Mono', monospace" }}>
+                  <tr style={{ borderBottom: `1px solid ${theme.border}` }}>
+                    <td className="py-3 px-4">
+                      <div style={{ fontFamily: "'Fraunces', serif", fontSize: "1rem", color: theme.ink }}>During school</div>
+                      <div className="text-xs" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Sans', sans-serif" }}>{s.startYear}&ndash;{gradYear} &middot; interest only</div>
+                    </td>
+                    <td className="text-right py-3 px-4" style={{ color: theme.parent }}>{fmt(phases.school.parentMonthly)}</td>
+                    <td className="text-right py-3 px-4" style={{ color: theme.student }}>{fmt(phases.school.studentMonthly)}</td>
+                    <td className="text-right py-3 px-4" style={{ color: theme.ink }}>{pct((phases.school.parentMonthly * 12) / s.parentIncome)}</td>
+                    <td className="text-right py-3 px-4" style={{ color: theme.ink }}>&mdash;</td>
+                  </tr>
+                  {phases.preHandoff.years > 0 && (
+                    <tr style={{ borderBottom: `1px solid ${theme.border}` }}>
+                      <td className="py-3 px-4">
+                        <div style={{ fontFamily: "'Fraunces', serif", fontSize: "1rem", color: theme.ink }}>Early career</div>
+                        <div className="text-xs" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Sans', sans-serif" }}>{gradYear}&ndash;{gradYear + phases.preHandoff.years} &middot; before handoff</div>
+                      </td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.parent }}>{fmt(phases.preHandoff.parentMonthly)}</td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.student }}>{fmt(phases.preHandoff.studentMonthly)}</td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.ink }}>{pct((phases.preHandoff.parentMonthly * 12) / s.parentIncome)}</td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.ink }}>{pct((phases.preHandoff.studentMonthly * 12) / studentIncomeAt(phases.preHandoff.years / 2))}</td>
+                    </tr>
+                  )}
+                  {phases.postHandoff.years > 0 && (
+                    <tr>
+                      <td className="py-3 px-4">
+                        <div style={{ fontFamily: "'Fraunces', serif", fontSize: "1rem", color: theme.ink }}>After handoff</div>
+                        <div className="text-xs" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Sans', sans-serif" }}>{gradYear + s.handoffYearsPostGrad}&ndash;{gradYear + s.repaymentYears} &middot; {studentName} covers all</div>
+                      </td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.positive }}>$0</td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.student }}>{fmt(phases.postHandoff.studentMonthly)}</td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.positive }}>0%</td>
+                      <td className="text-right py-3 px-4" style={{ color: theme.ink }}>{pct((phases.postHandoff.studentMonthly * 12) / studentIncomeAt(s.handoffYearsPostGrad + phases.postHandoff.years / 2))}</td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+              {[
+                { year: 0, label: "Graduation" },
+                { year: 3, label: `+3 years` },
+                { year: 7, label: `+7 years` },
+                { year: 10, label: "End of term" },
+              ].map(({ year, label }) => {
+                const inPre = year < s.handoffYearsPostGrad;
+                const inTerm = year <= s.repaymentYears;
+                const studentPays = !inTerm ? 0 : inPre ? payments.student : payments.total;
+                const parentPays = !inTerm ? 0 : inPre ? payments.parent : 0;
+                const salary = studentIncomeAt(year);
+                return (
+                  <div key={year} className="p-4" style={{ background: theme.surface, border: `1px solid ${theme.border}` }}>
+                    <div className="text-xs uppercase tracking-wider mb-1" style={{ color: theme.accent, letterSpacing: "0.1em" }}>{label}</div>
+                    <div className="text-xs mb-3" style={{ color: theme.inkFaint }}>{gradYear + year}</div>
+                    <div className="space-y-1.5 text-sm" style={{ fontFamily: "'IBM Plex Mono', monospace" }}>
+                      <div className="flex justify-between"><span style={{ color: theme.parent }}>{parentName}</span><span style={{ color: theme.ink }}>{fmt(parentPays)}/mo</span></div>
+                      <div className="flex justify-between"><span style={{ color: theme.student }}>{studentName}</span><span style={{ color: theme.ink }}>{fmt(studentPays)}/mo</span></div>
+                      <div className="flex justify-between text-xs pt-1.5" style={{ color: theme.inkFaint, borderTop: `1px solid ${theme.border}` }}><span>Income</span><span>{fmt(salary)}</span></div>
+                      <div className="flex justify-between text-xs" style={{ color: theme.inkFaint }}><span>{studentName} % gross</span><span>{salary > 0 ? pct((studentPays * 12) / salary) : "\u2014"}</span></div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* LIFETIME SPLIT */}
+            <div className="p-6 mb-10" style={{ background: theme.surface, border: `1px solid ${theme.border}` }}>
+              <div className="text-xs uppercase tracking-wider mb-4" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Lifetime cashflow split</div>
+              <div className="flex h-8 mb-3 overflow-hidden" style={{ borderRadius: 2 }}>
+                <div style={{ width: `${(lifetimeParentContribution / lifetimeTotal) * 100}%`, background: theme.parent, display: "flex", alignItems: "center", paddingLeft: "0.75rem", color: "white", fontSize: "0.75rem", fontFamily: "'IBM Plex Mono', monospace", minWidth: lifetimeParentContribution > 0 ? "3rem" : 0 }}>
+                  {lifetimeParentContribution > 0 && pct(lifetimeParentContribution / lifetimeTotal)}
+                </div>
+                <div style={{ width: `${(lifetimeStudentContribution / lifetimeTotal) * 100}%`, background: theme.student, display: "flex", alignItems: "center", paddingLeft: "0.75rem", color: "white", fontSize: "0.75rem", fontFamily: "'IBM Plex Mono', monospace", minWidth: lifetimeStudentContribution > 0 ? "3rem" : 0 }}>
+                  {lifetimeStudentContribution > 0 && pct(lifetimeStudentContribution / lifetimeTotal)}
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-4 text-sm">
+                <div>
+                  <div style={{ color: theme.parent, fontFamily: "'Fraunces', serif", fontSize: "1.5rem" }}>{fmt(lifetimeParentContribution)}</div>
+                  <div className="text-xs" style={{ color: theme.inkFaint }}>{parentName}'s lifetime out-of-pocket</div>
+                </div>
+                <div className="text-right">
+                  <div style={{ color: theme.student, fontFamily: "'Fraunces', serif", fontSize: "1.5rem" }}>{fmt(lifetimeStudentContribution)}</div>
+                  <div className="text-xs" style={{ color: theme.inkFaint }}>{studentName}'s lifetime out-of-pocket</div>
+                </div>
+              </div>
+            </div>
+
+            {/* AFFORDABILITY */}
+            <h2 className="mb-4" style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.75rem", fontWeight: 400, color: theme.ink }}>What can you actually afford?</h2>
+            <p className="text-sm mb-6" style={{ color: theme.inkSoft, maxWidth: "48rem", lineHeight: 1.6 }}>
+              Set the max monthly payment the household can carry. The tool works backward to show the max total debt that fits,
+              and the gap between that and what this plan requires.
+            </p>
+            <div className="p-6 mb-10" style={{ background: theme.surface, border: `1px solid ${theme.border}` }}>
+              <div className="flex justify-between items-baseline mb-3 flex-wrap gap-2">
+                <label className="text-xs uppercase tracking-wider" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Target max monthly payment</label>
+                <div className="flex items-center gap-2">
+                  <NumberInput value={s.targetMonthlyPayment} onChange={set("targetMonthlyPayment")} prefix="$" step={50} width="7rem" theme={theme} />
+                  <span className="text-xs" style={{ color: theme.inkFaint }}>/month</span>
+                </div>
+              </div>
+              <input type="range" min={500} max={5000} step={50} value={s.targetMonthlyPayment} onChange={(e) => set("targetMonthlyPayment")(parseInt(e.target.value))} className="w-full mt-2" />
+              <div className="flex justify-between text-xs mt-1" style={{ color: theme.inkFaint, fontFamily: "'IBM Plex Mono', monospace" }}>
+                <span>$500</span><span>$2,750</span><span>$5,000</span>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+                <div style={{ background: theme.surfaceAlt, padding: "1rem" }}>
+                  <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>Max debt supported</div>
+                  <div style={{ fontFamily: "'Fraunces', serif", fontSize: "1.75rem", color: theme.ink, lineHeight: 1 }}>{fmt(affordability.maxPrincipal)}</div>
+                  <div className="text-xs mt-2" style={{ color: theme.inkFaint }}>at {affordability.weightedRate.toFixed(2)}% blended &middot; {s.repaymentYears} yrs</div>
+                </div>
+                <div style={{ background: theme.surfaceAlt, padding: "1rem" }}>
+                  <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.inkSoft, letterSpacing: "0.1em" }}>This plan requires</div>
+                  <div style={{ fontFamily: "'Fraunces', serif", fontSize: "1.75rem", color: theme.ink, lineHeight: 1 }}>{fmt(balances.total)}</div>
+                  <div className="text-xs mt-2" style={{ color: theme.inkFaint }}>at graduation, all loans</div>
+                </div>
+                <div style={{ background: affordability.shortfall > 0 ? theme.warnBg : (theme === darkTheme ? "#1E3320" : "#E3ECDB"), padding: "1rem" }}>
+                  <div className="text-xs uppercase tracking-wider mb-2" style={{ color: affordability.shortfall > 0 ? theme.warn : theme.positive, letterSpacing: "0.1em" }}>
+                    {affordability.shortfall > 0 ? "Gap to close" : "Headroom"}
+                  </div>
+                  <div style={{ fontFamily: "'Fraunces', serif", fontSize: "1.75rem", color: affordability.shortfall > 0 ? theme.warn : theme.positive, lineHeight: 1 }}>
+                    {fmt(Math.abs(affordability.shortfall))}
+                  </div>
+                  <div className="text-xs mt-2" style={{ color: theme.inkFaint }}>
+                    {affordability.shortfall > 0 ? "from aid, cuts, or scholarships" : "debt fits under target"}
+                  </div>
+                </div>
+              </div>
+              {affordability.shortfall > 0 && (
+                <div className="mt-6 p-4" style={{ background: theme.warnBg, borderLeft: `3px solid ${theme.warn}` }}>
+                  <div className="text-xs uppercase tracking-wider mb-2" style={{ color: theme.warn, letterSpacing: "0.1em" }}>Ways to close the gap</div>
+                  <div className="text-sm" style={{ color: theme.ink, lineHeight: 1.6 }}>
+                    <strong>{fmt(affordability.shortfall)}</strong> is any one of:
+                    <ul className="list-disc pl-5 mt-2 space-y-1 text-sm">
+                      <li>{fmt(affordability.shortfall / s.programYears)}/yr in additional scholarships or aid appeals</li>
+                      <li>{fmt(affordability.shortfall / s.programYears)}/yr in cost reduction (co-op, earlier move home, transfer path)</li>
+                      <li>Extending repayment term (lowers monthly, raises total interest)</li>
+                    </ul>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* ADJUST INPUTS */}
+            <h2 className="mb-2" style={{ fontFamily: "'Fraunces', Georgia, serif", fontSize: "1.5rem", fontWeight: 400, color: theme.ink }}>Adjust the inputs</h2>
+            <p className="text-sm mb-4" style={{ color: theme.inkSoft }}>Every number below is editable. The model recalculates live.</p>
+            <div style={{ background: theme.surface, border: `1px solid ${theme.border}`, padding: "0 1.5rem" }}>
+              <Section title="Year 1 cost components" subtitle="From the award letter — inflated forward; housing replaced while at home" theme={theme}>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {s.costs.map((item, idx) => (
+                    <div key={item.id} className="flex justify-between items-center py-1 gap-2">
+                      <input type="text" value={item.name} onChange={(e) => updateCost(idx, "name", e.target.value)}
+                        className="text-sm bg-transparent outline-none flex-1"
+                        style={{ color: theme.ink, borderBottom: `1px solid ${theme.border}`, paddingBottom: 2 }} />
+                      <NumberInput value={item.amount} onChange={(val) => updateCost(idx, "amount", val)} prefix="$" step={100} theme={theme} />
+                    </div>
+                  ))}
+                </div>
+                <button onClick={() => setS((prev) => ({ ...prev, costs: [...prev.costs, { id: uid(), name: "New Item", amount: 0, inflates: true, isHousing: false }] }))}
+                  className="flex items-center gap-1 mt-4 text-xs" style={{ color: theme.accent, cursor: "pointer", background: "transparent", border: "none" }}>
+                  <Plus size={12} /> Add cost item
+                </button>
+              </Section>
+              <Section title="Federal Direct loans" subtitle="Amounts by year and interest rate" theme={theme}>
+                <div className="space-y-3 mb-4">
+                  {s.fedLoansByYear.slice(0, s.programYears).map((yr, i) => (
+                    <div key={i} className="flex items-center gap-4 flex-wrap">
+                      <div className="text-sm w-16" style={{ fontFamily: "'Fraunces', serif", color: theme.ink }}>Year {i + 1}</div>
+                      <div className="flex items-center gap-2"><span className="text-xs" style={{ color: theme.inkSoft }}>Sub</span><NumberInput value={yr.sub} onChange={setFedLoan(i, "sub")} prefix="$" step={500} width="6rem" theme={theme} /></div>
+                      <div className="flex items-center gap-2"><span className="text-xs" style={{ color: theme.inkSoft }}>Unsub</span><NumberInput value={yr.unsub} onChange={setFedLoan(i, "unsub")} prefix="$" step={500} width="6rem" theme={theme} /></div>
+                    </div>
+                  ))}
+                </div>
+                <div className="flex items-center gap-4 pt-3" style={{ borderTop: `1px solid ${theme.border}` }}>
+                  <div className="flex items-center gap-2"><span className="text-sm" style={{ color: theme.ink }}>Interest rate</span><NumberInput value={s.fedRate} onChange={set("fedRate")} suffix="%" step={0.01} width="5rem" theme={theme} /></div>
+                  <div className="flex items-center gap-2"><span className="text-sm" style={{ color: theme.ink }}>Origination</span><NumberInput value={s.fedOrigination} onChange={set("fedOrigination")} suffix="%" step={0.01} width="5rem" theme={theme} /></div>
+                </div>
+              </Section>
+            </div>
+
+            <div className="mt-10 text-xs" style={{ color: theme.inkFaint, lineHeight: 1.6 }}>
+              <p className="mb-2"><strong style={{ color: theme.inkSoft }}>Modeling notes:</strong></p>
+              <ul className="space-y-1 list-disc pl-5">
+                <li>Parent-borrower loans (e.g. PLUS) stay legally with parents. "Handoff" = {studentName} reimbursing. Cosigned student loans are {studentName}'s legal responsibility.</li>
+                <li>In-school interest approximated on running balance; actual accrues daily &mdash; within ~2% of real.</li>
+                <li>At-home scenario drops housing cost; transportation unchanged by default.</li>
+                <li>Gap loans fill in priority order. First loan absorbs the gap up to its caps, overflow goes to the next.</li>
+                <li>Private loan rates shown are indicative &mdash; actual rates depend on credit, cosigner, and term.</li>
+                <li>Affordability uses a blended rate across loan types; actual allocation could shift the real supported amount.</li>
+                <li>This tool does math, not financial advice.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    /* ─── APP SHELL ────────────────────────────────────────────── */
+    function App() {
+      const theme = useSystemTheme();
+      const [view, setView] = useState(() => {
+        const profiles = loadProfiles();
+        const activeId = getActiveId();
+        if (profiles.length === 0) return "onboarding";
+        if (activeId && profiles.find((p) => p.id === activeId)) return "calculator";
+        if (profiles.length > 0) {
+          setActiveId(profiles[0].id);
+          return "calculator";
+        }
+        return "onboarding";
+      });
+      const [editProfile, setEditProfile] = useState(null);
+      const [_, forceUpdate] = useState(0);
+
+      const getActive = () => {
+        const profiles = loadProfiles();
+        const activeId = getActiveId();
+        return profiles.find((p) => p.id === activeId) || profiles[0];
+      };
+
+      const handleOnboardingComplete = (profile) => {
+        setEditProfile(null);
+        setView("calculator");
+        forceUpdate((n) => n + 1);
+      };
+
+      const handleEditProfile = () => {
+        setEditProfile(getActive());
+        setView("onboarding");
+      };
+
+      const handleNewProfile = () => {
+        setEditProfile(null);
+        setView("onboarding");
+      };
+
+      const handleSwitchProfile = (id) => {
+        setActiveId(id);
+        forceUpdate((n) => n + 1);
+      };
+
+      const handleDeleteProfile = () => {
+        const active = getActive();
+        if (active && confirm(`Delete profile "${active.name}"?`)) {
+          deleteProfileById(active.id);
+          const remaining = loadProfiles();
+          if (remaining.length === 0) {
+            setView("onboarding");
+          } else {
+            setActiveId(remaining[0].id);
+            forceUpdate((n) => n + 1);
+          }
+        }
+      };
+
+      if (view === "onboarding") {
+        return <OnboardingWizard onComplete={handleOnboardingComplete} initialData={editProfile} theme={theme} />;
+      }
+
+      const activeProfile = getActive();
+      if (!activeProfile) {
+        return <OnboardingWizard onComplete={handleOnboardingComplete} theme={theme} />;
+      }
+
+      return (
+        <Calculator
+          key={activeProfile.id + activeProfile.updatedAt}
+          profile={activeProfile}
+          allProfiles={loadProfiles()}
+          onEditProfile={handleEditProfile}
+          onNewProfile={handleNewProfile}
+          onDeleteProfile={handleDeleteProfile}
+          onSwitchProfile={handleSwitchProfile}
+          theme={theme}
+        />
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(<App />);
+  </script>
+</body>
+</html>
