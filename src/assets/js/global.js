@@ -549,6 +549,7 @@ document.addEventListener('DOMContentLoaded', function() {
     input.addEventListener('change', () => {
       if (input.checked) {
         setTheme(input.value);
+        if (typeof gtag === 'function') gtag('event', 'theme_change', { theme: input.value });
       }
     });
   });
@@ -561,6 +562,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const currentIndex = themes.indexOf(currentTheme);
       const nextTheme = themes[(currentIndex + 1) % themes.length];
       setTheme(nextTheme);
+      if (typeof gtag === 'function') gtag('event', 'theme_change', { theme: nextTheme });
     });
   }
 
@@ -589,9 +591,16 @@ document.addEventListener('DOMContentLoaded', function() {
     liveRegion.textContent = 'Text size: ' + textSizeLabels[size - 1];
   }
 
+  function trackTextSize(size) {
+    if (typeof gtag === 'function') {
+      gtag('event', 'text_size_change', { size: textSizeLabels[Math.max(1, Math.min(5, parseInt(size))) - 1] });
+    }
+  }
+
   if (textSizeSlider) {
     textSizeSlider.addEventListener('input', () => {
       setTextSize(textSizeSlider.value);
+      trackTextSize(textSizeSlider.value);
     });
   }
 
@@ -599,6 +608,7 @@ document.addEventListener('DOMContentLoaded', function() {
     textSizeDecreaseBtn.addEventListener('click', () => {
       const current = parseInt(localStorage.getItem('textSize') || '3');
       setTextSize(current - 1);
+      trackTextSize(current - 1);
     });
   }
 
@@ -606,6 +616,7 @@ document.addEventListener('DOMContentLoaded', function() {
     textSizeIncreaseBtn.addEventListener('click', () => {
       const current = parseInt(localStorage.getItem('textSize') || '3');
       setTextSize(current + 1);
+      trackTextSize(current + 1);
     });
   }
 

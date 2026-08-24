@@ -74,11 +74,14 @@
       resultsContainer.innerHTML =
         '<p class="c-search-results__empty">No results for \u201c' + escapeHtml(query) + '\u201d</p>';
       statusEl.textContent = 'No results found';
+      if (typeof gtag === 'function') gtag('event', 'search', { search_term: query, result_count: 0 });
       return;
     }
 
     var countText = search.results.length + ' result' + (search.results.length === 1 ? '' : 's') + ' found';
     statusEl.textContent = countText;
+
+    if (typeof gtag === 'function') gtag('event', 'search', { search_term: query, result_count: search.results.length });
 
     resultsContainer.innerHTML = '<p class="c-search-results__count">' + escapeHtml(countText) + '</p>'
       + '<ul class="c-search-results__list"></ul>';

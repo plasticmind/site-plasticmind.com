@@ -3,5 +3,6 @@ module.exports = {
     url: process.env.ELEVENTY_ENV === 'development' ? 'http://localhost:8080' : 'https://plasticmind.com',
     title: process.env.ELEVENTY_ENV === 'development' ? '🔴 Plasticmind' : 'Plasticmind',
     description: "Helping people flourish with technology.",
-    twitter: "@plasticmind"
+    twitter: "@plasticmind",
+    googleAnalyticsId: process.env.ELEVENTY_ENV === 'development' ? null : 'G-CZEFV7V3C1'
 };
