@@ -4,7 +4,7 @@ date: 2026-11-11
 archive: false
 excerpt: "We built an open-source playground for building, presenting, and sharing live NYS Design System examples in the browser."
 subtitle: "Introducing the NYS Design System Playground."
-slug: google-slides-meets-codepen
+slug: nysds-playground
 featured_image_url:
 alt_text:
 primary_category: "Design"
