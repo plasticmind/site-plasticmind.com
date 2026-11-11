@@ -5,6 +5,16 @@
     "description": "Open-source design system for 45+ state agencies"
   },
   {
+    "title": "NYS Design System Playground",
+    "url": "https://its-hcd.github.io/nysds-playground/",
+    "description": "Build, present, and share live NYSDS examples in the browser"
+  },
+  {
+    "title": "Stay Pinned",
+    "url": "https://chromewebstore.google.com/detail/stay-pinned/lnebhnimkngkamclhlhahalafedpbjmh",
+    "description": "Chrome extension that opens your pinned tabs in every new window"
+  },
+  {
     "title": "Practical Design Systems",
     "url": "https://practicaldesignsystems.com/",
     "description": "Newsletter bridging design and engineering"
