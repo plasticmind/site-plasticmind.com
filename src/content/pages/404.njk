@@ -3,12 +3,17 @@ permalink: 404.html
 title: "This is not a page."
 description: "The treachery of hyperlinks."
 crawl: "false"
-featureImage: "/assets/img/treachery.jpg"
 ---
 
 {% extends "layouts/base.njk" %}
 
+{% block styles %}
+<link rel="stylesheet" href="/assets/css/treachery.css">
+{% endblock %}
+
 {% block content %}
+{% include "partials/treachery.njk" %}
+
 <article class="c-article c-article--single">
   <div class="l-container--lg">
 
@@ -25,4 +30,8 @@ featureImage: "/assets/img/treachery.jpg"
 
   </div>
 </article>
+{% endblock %}
+
+{% block scripts %}
+<script src="/assets/js/treachery.js" defer></script>
 {% endblock %}

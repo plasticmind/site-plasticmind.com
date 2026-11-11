@@ -1,0 +1,354 @@
+/* ---------------------- */
+/* # Ceci n'est pas une page (404 painting) */
+
+/*
+ * An homage to Magritte's "The Treachery of Images," rebuilt from the
+ * original 1820x1024 painting. Every size inside the stage uses container
+ * units: 1cqw is 1% of the painting's width, so the whole composition scales
+ * together. Geometry values come from measuring the original image.
+ */
+
+@property --x { syntax: "<number>"; inherits: true; initial-value: 32.03; }
+@property --y { syntax: "<number>"; inherits: true; initial-value: 5.77; }
+@property --w { syntax: "<number>"; inherits: true; initial-value: 36.76; }
+@property --h { syntax: "<number>"; inherits: true; initial-value: 30.93; }
+
+.c-treachery {
+  --treachery-ground: #c9a867;
+  --treachery-chrome: #b3a589;
+  --treachery-chrome-edge: #a7987b;
+  --treachery-paper: #e2cda3;
+  --treachery-edge: #a89a7a;
+  --treachery-edge-dark: #92815f;
+  --treachery-pill: #e6d3aa;
+  --treachery-headline: #35342a;
+  --treachery-line: #b5a88a;
+  --treachery-red: #ab4f33;
+  --treachery-yellow: #cf9724;
+  --treachery-green: #5f8346;
+  --treachery-ink: #2e281c;
+  --treachery-shadow: rgb(74 58 26 / 0.4);
+
+  /* Keeps the composition clear of the fixed header. */
+  --treachery-offset: 3.5rem;
+  /* The composition is 16:9. Its height is capped on wide screens so the
+     page title stays above the fold, and it never gets smaller than
+     22.5rem tall, so phones crop the ground instead of shrinking the window. */
+  --treachery-h: min(max(56.25cqw, 22.5rem), 54vh);
+
+  container-type: inline-size;
+  overflow: hidden;
+  background: var(--treachery-ground);
+}
+
+.c-treachery__frame {
+  position: relative;
+  height: calc(var(--treachery-h) + var(--treachery-offset));
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.c-treachery__defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.c-treachery__canvas,
+.c-treachery__varnish {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* A fixed layer of canvas grain over everything, so the window and the
+   caption read as paint on the same canvas. */
+.c-treachery__varnish {
+  z-index: 4;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  opacity: 0.35;
+}
+
+.c-treachery__stage {
+  position: absolute;
+  top: var(--treachery-offset);
+  left: 50%;
+  width: calc(var(--treachery-h) * 16 / 9);
+  height: var(--treachery-h);
+  translate: -50% 0;
+  container-type: size;
+  z-index: 1;
+}
+
+/* ---- The window ---- */
+
+.c-treachery__window {
+  --chrome-h: 4.23cqw;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: calc(var(--w) * 1cqw);
+  height: calc(var(--h) * 1cqw);
+  translate: calc(var(--x) * 1cqw) calc(var(--y) * 1cqw);
+  will-change: translate;
+}
+
+.c-treachery__window[hidden] {
+  display: none;
+}
+
+.c-treachery__window.is-animating {
+  transition:
+    --x 0.28s cubic-bezier(0.2, 0.7, 0.2, 1),
+    --y 0.28s cubic-bezier(0.2, 0.7, 0.2, 1),
+    --w 0.28s cubic-bezier(0.2, 0.7, 0.2, 1),
+    --h 0.28s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* Everything you see is painted in this layer. The interactive controls sit
+   on top, unfiltered, so focus rings stay crisp. */
+.c-treachery__paint {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 1.2cqw;
+  background: var(--treachery-paper);
+  box-shadow:
+    0.25cqw 0.5cqw 0.4cqw rgb(84 70 40 / 0.6),
+    0.45cqw 1cqw 1.5cqw var(--treachery-shadow);
+  filter: url("#treachery-paint");
+}
+
+.c-treachery__paint::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 0.3cqw solid var(--treachery-edge);
+  border-bottom-color: var(--treachery-edge-dark);
+  border-right-color: var(--treachery-edge-dark);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.c-treachery__chrome {
+  position: absolute;
+  inset: 0 0 auto;
+  height: var(--chrome-h);
+  background: linear-gradient(to bottom, #b9ab8f, var(--treachery-chrome) 60%);
+  border-bottom: 0.14cqw solid var(--treachery-chrome-edge);
+}
+
+.c-treachery__light {
+  position: absolute;
+  top: 1.43cqw;
+  width: 1.54cqw;
+  height: 1.54cqw;
+  border-radius: 50%;
+}
+
+.c-treachery__light--close { left: 1.37cqw; background: var(--treachery-red); }
+.c-treachery__light--minimize { left: 3.96cqw; background: var(--treachery-yellow); }
+.c-treachery__light--zoom { left: 6.54cqw; background: var(--treachery-green); }
+
+.c-treachery__address {
+  position: absolute;
+  top: 1.37cqw;
+  left: 10cqw;
+  width: min(49.6%, calc(100% - 12cqw));
+  height: 1.65cqw;
+  border-radius: 1cqw;
+  background: var(--treachery-pill);
+}
+
+.c-treachery__doc > * {
+  position: absolute;
+  left: 3.68cqw;
+  display: block;
+}
+
+.c-treachery__headline {
+  top: 6.81cqw;
+  width: 77%;
+  height: 2.14cqw;
+  border-radius: 0.2cqw;
+  background: var(--treachery-headline);
+}
+
+.c-treachery__line {
+  height: 0.88cqw;
+  border-radius: 0.5cqw;
+  background: var(--treachery-line);
+}
+
+.c-treachery__line:nth-child(2) { top: 11.48cqw; width: 40%; }
+.c-treachery__line:nth-child(3) { top: 13.85cqw; width: 62.8%; }
+.c-treachery__line:nth-child(4) { top: 16.15cqw; width: 32%; }
+
+.c-treachery__cta {
+  top: 20.1cqw;
+  width: 39.6%;
+  height: 3.4cqw;
+  border: 0.36cqw solid var(--treachery-line);
+  border-radius: 0.55cqw;
+}
+
+/* ---- Controls ---- */
+
+.c-treachery__move,
+.c-treachery__control,
+.c-treachery__grip,
+.c-treachery__dock {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c-treachery__move {
+  position: absolute;
+  inset: 0 0 auto;
+  height: var(--chrome-h);
+  border-radius: 1.2cqw 1.2cqw 0 0;
+}
+
+.c-treachery__control {
+  position: absolute;
+  top: 1.43cqw;
+  width: 1.54cqw;
+  height: 1.54cqw;
+  border-radius: 50%;
+}
+
+/* A larger, invisible hit area around each light. */
+.c-treachery__control::before {
+  content: "";
+  position: absolute;
+  inset: -0.5cqw;
+}
+
+.c-treachery__control--close { left: 1.37cqw; }
+.c-treachery__control--minimize { left: 3.96cqw; }
+.c-treachery__control--zoom { left: 6.54cqw; }
+
+.c-treachery__control svg {
+  position: absolute;
+  inset: 22%;
+  width: 56%;
+  height: 56%;
+  stroke: rgb(52 26 10 / 0.75);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  fill: none;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+
+.c-treachery__controls:hover svg,
+.c-treachery__controls:focus-within svg {
+  opacity: 1;
+}
+
+.c-treachery__grip {
+  position: absolute;
+  width: 1.8cqw;
+  height: 1.8cqw;
+  min-width: 14px;
+  min-height: 14px;
+}
+
+.c-treachery__grip--nw { top: -0.6cqw; left: -0.6cqw; }
+.c-treachery__grip--ne { top: -0.6cqw; right: -0.6cqw; }
+.c-treachery__grip--sw { bottom: -0.6cqw; left: -0.6cqw; }
+.c-treachery__grip--se { bottom: -0.6cqw; right: -0.6cqw; }
+
+/* Pointer affordances only once the script is running. */
+.c-treachery.is-ready .c-treachery__move,
+.c-treachery.is-ready .c-treachery__grip,
+.c-treachery.is-ready .c-treachery__control,
+.c-treachery.is-ready .c-treachery__dock {
+  touch-action: none;
+}
+
+.c-treachery.is-ready .c-treachery__move { cursor: grab; }
+.c-treachery.is-ready .c-treachery__window.is-dragging .c-treachery__move { cursor: grabbing; }
+.c-treachery.is-ready .c-treachery__control,
+.c-treachery.is-ready .c-treachery__dock { cursor: pointer; }
+.c-treachery.is-ready .c-treachery__grip--nw,
+.c-treachery.is-ready .c-treachery__grip--se { cursor: nwse-resize; }
+.c-treachery.is-ready .c-treachery__grip--ne,
+.c-treachery.is-ready .c-treachery__grip--sw { cursor: nesw-resize; }
+
+.c-treachery__move:focus-visible,
+.c-treachery__control:focus-visible,
+.c-treachery__dock:focus-visible {
+  outline: 2px solid var(--color-focus, #b3261e);
+  outline-offset: 2px;
+}
+
+/* ---- Caption ---- */
+
+.c-treachery__caption {
+  position: absolute;
+  top: 42cqw;
+  left: 27.4cqw;
+  z-index: 1;
+  width: 46cqw;
+  height: auto;
+  overflow: visible;
+  fill: var(--treachery-ink);
+}
+
+/* ---- Dock (appears after you close or minimize the window) ---- */
+
+.c-treachery__dock {
+  position: absolute;
+  top: 50.4cqw;
+  left: 50cqw;
+  z-index: 3;
+  width: 4.6cqw;
+  height: 3.4cqw;
+  min-width: 2.75rem;
+  min-height: 2rem;
+  translate: -50% 0;
+  border-radius: 0.5cqw;
+  transition: translate 0.15s ease;
+}
+
+.c-treachery__dock[hidden] {
+  display: none;
+}
+
+.c-treachery__dock:hover {
+  translate: -50% -0.3cqw;
+}
+
+.c-treachery__dock-art {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border: 0.15cqw solid var(--treachery-edge-dark);
+  border-radius: inherit;
+  background:
+    linear-gradient(var(--treachery-headline), var(--treachery-headline)) 18% 46% / 64% 14% no-repeat,
+    linear-gradient(var(--treachery-line), var(--treachery-line)) 18% 70% / 40% 7% no-repeat,
+    linear-gradient(to bottom, var(--treachery-chrome) 0 22%, var(--treachery-paper) 22%);
+  box-shadow: 0.15cqw 0.35cqw 0.5cqw var(--treachery-shadow);
+  filter: url("#treachery-paint");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .c-treachery__window.is-animating,
+  .c-treachery__dock,
+  .c-treachery__control svg {
+    transition: none;
+  }
+}
