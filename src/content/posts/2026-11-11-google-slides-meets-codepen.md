@@ -14,101 +14,92 @@ meta_description: "The NYS Design System Playground is an open-source tool for b
 context: professional
 ---
 
-You want to try the New York State Design System, but you haven't set up a project. Maybe the engineering side feels intimidating. Either way, you shouldn't need a build pipeline to see what a card looks like.
+Helping people in a large org understand what a design system is is still one of the key challenges behind adoption. That's why we built the [NYS Design System Playground](https://its-hcd.github.io/nysds-playground/). Think of it like Google Slides meets CodePen. Anyone can jump into a CodePen like experience and start playing around with code, only it has the New York State Design System components, tokens, and utilities installed by default. People can see the code, make changes, and watch the results update in realtime.
 
-So we built the [NYS Design System Playground](https://its-hcd.github.io/nysds-playground/). The shortest description I've found: Google Slides meets CodePen.
+If I'm being honest... as I said before, a big part of design system adoption is education and awareness. Our team is often putting together presentations for videos, workshops, or office hours that help explain design system concepts to folks, so we built this as a first-class presentation tool.
 
-You build a deck of slides. Each slide is a live editor — HTML, CSS, and JavaScript on the bottom, a preview on top — running real NYSDS components. We made it for our internal teams, but it's open source, so anyone can use it.
+You build a deck of slides, where each slide is a live editor on the bottom (HTML, CSS, and JavaScript) and a rendered preview on top (the "slide"). The CodePen part should feel familiar, and the Google Slides part is there because it makes presenting easy. When I record a walkthrough for another team or post a demo on LinkedIn, I love having the code and the result on screen together and being able to drive the whole thing from the keyboard.
+
+ We created it for our internal teams, but since it's open source, I wanted to share more broadly for others to try!
 
 ![The NYS Design System Playground showing a slide of three park cards built with the nys-card component, with the HTML, CSS, and JS editors below the preview.](/assets/i/nysds-playground-card-slide.png)
+## Starter packs
 
-The CodePen half is familiar. The Google Slides half is there because I designed the playground around the way I present. When I record a walkthrough for another team or post a demo on LinkedIn, I want the code and the result on screen together, and I want to drive the whole thing from the keyboard.
+The Playground ships with a few starter decks. 
 
-## Poke at it
+The **Component library** deck has a slide for every part of the design system. Open the card slide and you can edit our `nys-code` examples and see the results right away. Change the heading and the preview updates as you type. It's a more interactive version of [our NYS Design System reference site](https://designsystem.ny.gov).
 
-The playground ships with a few starter decks. Start with **Component library**, which has a slide for every part of the design system. Open the card slide and you'll find no CSS at all. Those are our cards, straight out of the box. Change the heading and the preview updates as you type.
+The **Customizing components** deck walks through the different ways a design system can handle customization: locked down components, configurable, or write guidance and pray. But it goes on to explain how _we_ handle customization with the NYS Design System.
 
-That works for one component at a time. But what about an idea that takes a few steps to explain?
+We built our component library with [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components), which are encapsulated and prevent most CSS from leaking through. That means a component like our `nys-globalheader` is locked down and can only be modified using the API we've designed for it: application name, agency name, links, etc. — but not its styles. 
 
-## Lock it down, or make it configurable?
+But some of our components are designed to be a bit more flexible. What if your team needs a red button? We don't ship one, but we do support some [CSS overrides](https://designsystem.ny.gov/about/updates/css-variables/#public-vs-private-tokens) for the `nys-button` that lets you extend the buttons in a predefined way. That's the whole agreement between a design system and the downstream teams using it, demonstrated in one slide. 
 
-That's where decks come in. My favorite starter deck is **Customizing components**. It walks through three ways a design system can handle customization: lock it down, make it configurable, or write guidance and hope.
+Teams get a sanctioned way to change something, and the system keeps evolving underneath them without breaking it. It's a complicated concept we explain in our documentation, but the concept makes a lot more sense when people watch it happen.
+## Version access
 
-Start with our global header. It's a web component, so you can change its content — the app name, the agency, the links — but not its styles. On the slide, I wrote CSS to turn it crimson, set it in Comic Sans, and give the links yellow wavy underlines.
+Another key feature of the Playground is the ability to load specific release versions. A version picker in the toolbar switches the design system underneath whatever you're working on.
 
-Nothing happens.
+Go to the card slide and pick a release from before the card component existed. The cards disappear. You're left with the buttons and images that used to live inside them. It may seem like a small thing, but it makes the design system's history visible and makes debugging easier because teams can quickly test on any version (including pre-releases!)
+## Don't forget to play
 
-So what if your team needs a red button? We don't ship one, but we do support [style overrides](https://designsystem.ny.gov/components/button/): a handful of CSS variables, documented at the bottom of the button page. Set them and you get a red button. Delete them and you're back to the default.
+The starter decks are good, but playgrounds are for playing! 
 
-That override is a promise, and the next slide puts it to the test. It pretends the next release has landed: the UI font switches from Proxima Nova to a serif, and the corners get rounder. Both buttons pick up the new font and radius.
+- Create new slides with titles, groups, presenter notes, and editor defaults. 
+- Edit decks to rearrange slides or apply global CSS applied to every slide. 
+- Present full screen and use the arrow keys to move between slides, `c` to toggle the code editors, and `n` to show your presenter notes. 
+- Customize a dark or light editor, side-by-side or tabbed editors, and live/manual preview updates, etc.
 
-The red one stays red.
+One thing to understand... for this early version, decks live in your browser's local storage, not on a server. But we've made it easy to share decks with a link or export decks as JSON. 
 
-That's the whole agreement between a design system and the teams using it, in one slide. Teams get a sanctioned way to change something, and the system keeps evolving underneath them without breaking it. You can explain that in documentation. It lands faster when people watch it happen.
-
-## Any version, on demand
-
-That next release was pretend — a few lines of CSS on the slide. But the playground can load real releases, too. A version picker in the toolbar switches the design system underneath whatever you're working on.
-
-Go back to the card slide and pick a release from before the card component existed. The cards disappear. You're left with the buttons and images that used to live inside them. It's a small thing, but it makes the design system's history visible.
-
-## Make your own
-
-The starter decks are a good way in, but the playground is built for your own. Slides have titles, groups, presenter notes, and a default set of open editors. Decks share base CSS across every slide. Present mode goes full screen: the arrow keys move between slides, `c` toggles the code, and `n` shows your notes. You can switch between a dark or light editor, side-by-side or tabbed editors, and live or manual preview updates.
-
-Decks live in your browser, not on a server. Share one as a link, or export it as JSON and send it to a colleague. The [source is on GitHub](https://github.com/ITS-HCD/nysds-playground), and if you dig into it, you'll notice we built the playground itself with NYSDS components. Where the design system didn't have what we needed — a code editor, for one — we built it custom on top of our design tokens.
+And we're drinking our own champagne here... the [source is on GitHub](https://github.com/ITS-HCD/nysds-playground). If you dig into it, you'll notice we built the playground itself with NYSDS components. Where the design system didn't have what we needed (e.g. a code editor), we built it using [our tokens](https://designsystem.ny.gov/tokens/).
 
 ## Beyond the browser
 
-Everything so far happens in a browser tab. But the playground is also an [npm package](https://www.npmjs.com/package/@nysds/playground) with a command-line tool, and that's where some of the most useful workflows live.
+Everything I've described so far is about the Playground in a browser. But we also publish an [npm package](https://www.npmjs.com/package/@nysds/playground) with a command-line tool, and that's where some of the most interesting and useful workflows can happen.
 
-Remember the version picker? The CLI has the same idea built in. It can open the playground with local files already loaded into the editors, or print a shareable link to them without starting a server. Both take a `--version` flag. Here are a few ways we put that to work.
+The CLI supports version selecting, so it can open the playground with local files already loaded into the editors, or print a shareable link to them without needing to start a server. Both take a `--version` flag. 
 
-### Reproduce a bug on the reporter's version
+Here are a few ways I'm using the CLI:
+### Reproduce a bug on a specific version
 
-Somebody reports a bug. The first thing I need to know is which version they're on. Save their markup to a file and open it against that release:
+Let's say somebody reports a bug to our internal NYSDS troubleshooting channel. I can pass in the code and version they're using:
 
 ```bash
 npx @nysds/playground --html their-snippet.html --version 1.21.0
 ```
 
-Their code lands in the scratch pad, on their version. If it misbehaves, switch the version picker to the latest release and see whether we've already fixed it.
+Their code lands in the Playground's scratch pad, on their version. It's a great way to quickly check reproductions. If it's truly broken, I can just switch the version picker to the latest release and see whether we've already fixed it.
+### Supercharged bug reporting
 
-### File it with Gemini CLI
+We can take this one step further. 
 
-Our team keeps a small workspace for filing design system bugs with [Gemini CLI](https://github.com/google-gemini/gemini-cli), the coding agent we officially support. It connects Gemini to the NYSDS MCP server, Chrome DevTools, GitHub, and the playground CLI, along with a shared set of instructions for what a good bug report looks like.
+Our team keeps a small workspace for filing design system bugs with [Gemini CLI](https://github.com/google-gemini/gemini-cli), a coding agent we officially have access to. The workspace connects Gemini to the NYSDS MCP server, Chrome DevTools, GitHub, and the Playground CLI, along with a shared set of instructions for what a good bug report looks like.
 
-You describe the problem in a sentence:
-
+And with a skill, you can describe the problem in a sentence:
 ```
 /file-bug In the datepicker calendar popup, Tab goes to the Today and Clear buttons before the month controls.
 ```
 
-Gemini reads the component's source, reproduces the defect in a browser, and saves a minimal reproduction. Then it uses the playground CLI to turn that reproduction into a link, pinned to the version it tested against:
-
+Gemini reads the component's source, reproduces the defect in a browser, creates a minimal reproduction, then uses the Playground CLI to turn that reproduction into a link, pinned to the version it tested against:
 ```bash
 nysds-playground link --html repros/nys-datepicker.html --version 1.21.0 \
   --base https://its-hcd.github.io/nysds-playground/
 ```
 
-Next, it searches GitHub for duplicates. If it finds one, it tells you instead of filing. (That datepicker bug, as it happens, is already filed. We use it to test the workspace.) Otherwise, it drafts the issue with the playground link in the Repro section and waits for someone to say "go."
+It makes quick work of sense-making, and every issue filed can be accompanied with a live reproduction. Whoever picks up the issue doesn't have to rebuild the bug from a paragraph of steps. 
 
-Every issue filed this way carries a live reproduction. Whoever picks it up doesn't have to rebuild the bug from a paragraph of steps. They click the link and see it.
-
-### Sweep for bugs, then click through
-
-The same setup scales from one bug to a batch. Ask for a sweep across a group of components, and instead of one report, you get a folder of suspects. Each one comes with a minimal reproduction and a Playwright script that proves it, and the playground CLI turns each reproduction into a link.
-
-A sweep of our form components is how our checkbox group bug surfaced. Click the checkboxes with a mouse and everything looks fine. Tab to them and press the space bar, and the form data comes out wrong. I didn't have to take anyone's word for it. I clicked the link and watched it happen — right next to the code, on the exact version.
-
+They click the link and see it.
 ### Let the agent check its own work
 
-The CLI works in the other direction, too. When Gemini writes NYSDS markup — say, a form for a new service — it can save the snippet and open it in the playground:
+The CLI can work in the other direction, too. 
+
+When Gemini writes NYSDS markup, e.g. to test out a new interaction, it can save the snippet and open it in the playground to share with other teams:
 
 ```bash
 npx @nysds/playground --html form.html
 ```
 
-Now you're both looking at real components, not a guess at what the markup will do. Or Gemini can run `link` instead and hand you a URL to review, rather than a wall of markup.
+Now you're both looking at real components in a browser, not a guess at what the markup will do. 
 
-If you find the playground useful, great. If you have feedback, I'd love to hear it.
+If you have feedback about the NYSDS Playground, [I'd love to hear it](https://linkedin.com/in/plasticmind)!
