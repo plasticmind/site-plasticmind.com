@@ -9,6 +9,25 @@ npm start          # Dev server at localhost:8080
 npm run build:prod # Production build
 ```
 
+## Hosting and deploys
+
+**Cloudflare Pages serves plasticmind.com.** It's the Pages project `plasticmind-com`. In Cloudflare DNS, `plasticmind.com` and `www` are proxied CNAMEs to `plasticmind-com.pages.dev` (confirmed November 11, 2026).
+
+**Netlify doesn't serve this site,** even though it looks like it might:
+- A Netlify project named "plasticmind" builds every push to `main` and labels each build "Production." Those builds only update `plasticmind.netlify.app`. No DNS record sends plasticmind.com traffic there.
+- `netlify.toml` and `.netlify/` only configure that Netlify project.
+- Cloudflare does proxy to Netlify for other subdomains (`books.`, `kiosk.`). That's the source of the "Cloudflare in front of Netlify" mix-up.
+- Plan as of November 11, 2026: disconnect the Netlify "plasticmind" project from GitHub so each push builds once.
+
+**Publishing:** commit to `main` and push. Pages usually goes live in about 70 seconds.
+
+**Checking a deploy:**
+- Read the "Cloudflare Pages" check on the commit in GitHub, or run `npx wrangler pages deployment list --project-name plasticmind-com`. If Wrangler says "Failed to fetch auth token," run `npx wrangler login`.
+- The "pages-build-deployment" GitHub Pages check fails on every commit (Jekyll can't build Nunjucks). Ignore it.
+- To confirm which host answers a URL, request `/.netlify/images?url=/assets/i/jesse-gardner.jpg&w=20` on it. Pages returns 404; Netlify returns an image.
+
+**Before you push a renamed file:** `git mv` stages the rename but not edits you made to the file before the move. Run `git add` on the new path, or check `git show HEAD:<path>` after committing.
+
 ## Structure
 
 - `src/content/posts/*.md` - Blog posts
