@@ -4,11 +4,11 @@
       "id": "nys-its",
       "company": "New York State Office of Information Technology Services",
       "companyLogo": "/assets/i/logos/nys.svg",
-      "title": "Director, Design Systems and Accessibility",
+      "title": "Director, Product Engineering",
       "type": "full-time",
       "startDate": "2023-04",
       "endDate": null,
-      "summary": "Proposed the NYS Design System to executive leadership. Hired a cross-discipline team of 14. Built the component library, the token architecture, and the accessibility compliance program.",
+      "summary": "Joined as Director, User Research. Proposed the NYS Design System to executive leadership. Hired a cross-discipline team of 14. Built the component library, the token architecture, and the accessibility compliance program.",
       "description": "The design system was included in the Governor's 2024 State of the State address. I built the initial component library — 25+ web components in Lit and TypeScript, a token architecture on the DTCG standard, and a custom elements manifest that serves as the single source of truth for design, code, docs, and AI tooling. Built and published an MCP server that exposes component specs, tokens, and validation rules to LLMs — turns out structured context makes AI-generated code consistent and accessible without relying on probabilistic generation. On the accessibility side, I led the formation of NYS's Central Accessibility Team ahead of federal (2026) and state (2027) WCAG deadlines. Co-authored updates to the state's accessibility policy and contributed to revisions of State Technology Law. I still review PRs and write code daily.",
       "relatedSlugs": ["empire-state-of-ux"]
     },

@@ -1,5 +1,6 @@
 ---
 title: "House of Cards"
+seo_title: "House of Cards (2000) → Plasticmind"
 date: 2000-04-16 17:02:20
 archive: false
 excerpt: 

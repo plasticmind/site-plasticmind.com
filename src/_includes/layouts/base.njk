@@ -4,6 +4,8 @@
     {% include "partials/head-meta.njk" %}
     {% if crawl == 'false' %}
     <meta name="robots" content="noindex">
+    {% elif noindex %}
+    <meta name="robots" content="noindex, follow">
     {% endif %}
     {% block styles %}{% endblock %}
   </head>

@@ -1,0 +1,74 @@
+{#- Schema.org structured data. Uses metaDescription, canonicalUrl, and
+    shareImage from head-meta.njk, which includes this partial. -#}
+{%- set personRef = { "@type": "Person", "@id": site.url ~ "/#jesse", "name": site.author.name, "url": site.url ~ "/" } %}
+{%- set person = {
+  "@type": "Person",
+  "@id": site.url ~ "/#jesse",
+  "name": site.author.name,
+  "url": site.url ~ "/",
+  "image": site.url ~ site.author.image,
+  "jobTitle": site.author.jobTitle,
+  "description": site.author.bio,
+  "worksFor": { "@type": "GovernmentOrganization", "name": site.author.worksFor },
+  "knowsAbout": site.author.knowsAbout,
+  "sameAs": site.author.sameAs
+} %}
+{%- set website = {
+  "@type": "WebSite",
+  "@id": site.url ~ "/#website",
+  "name": site.title,
+  "url": site.url ~ "/",
+  "description": site.description,
+  "inLanguage": "en-US",
+  "author": personRef,
+  "publisher": personRef
+} %}
+
+{%- if isPost %}
+  {%- set graph = [{
+    "@type": "BlogPosting",
+    "@id": canonicalUrl ~ "#article",
+    "headline": title | striptags,
+    "description": metaDescription,
+    "url": canonicalUrl,
+    "mainEntityOfPage": canonicalUrl,
+    "datePublished": date | dateISO,
+    "image": shareImage,
+    "inLanguage": "en-US",
+    "author": personRef,
+    "publisher": personRef,
+    "isPartOf": { "@id": site.url ~ "/#website" },
+    "articleSection": primary_category or undefined,
+    "keywords": tags if (tags and tags.length) else undefined
+  }] %}
+{%- elif section == 'home' %}
+  {%- set graph = [website, {
+    "@type": "ProfilePage",
+    "@id": canonicalUrl ~ "#webpage",
+    "url": canonicalUrl,
+    "name": shareTitle,
+    "isPartOf": { "@id": site.url ~ "/#website" },
+    "mainEntity": person
+  }] %}
+{%- elif page.url == '/work/' %}
+  {%- set graph = [{
+    "@type": "ProfilePage",
+    "@id": canonicalUrl ~ "#webpage",
+    "url": canonicalUrl,
+    "name": shareTitle,
+    "description": metaDescription,
+    "isPartOf": { "@id": site.url ~ "/#website" },
+    "mainEntity": person
+  }] %}
+{%- else %}
+  {%- set graph = [{
+    "@type": "CollectionPage" if pagination else "WebPage",
+    "@id": canonicalUrl ~ "#webpage",
+    "url": canonicalUrl,
+    "name": shareTitle,
+    "description": metaDescription,
+    "isPartOf": { "@id": site.url ~ "/#website" },
+    "author": personRef
+  }] %}
+{%- endif %}
+    <script type="application/ld+json">{{ { "@context": "https://schema.org", "@graph": graph } | dump | safe }}</script>

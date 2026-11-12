@@ -5,6 +5,9 @@ pagination:
   alias: category
 eleventyExcludeFromCollections: true
 permalink: /category/{{ category.slug }}/
+eleventyComputed:
+  title: "{{ category.name | tagLabel | safe }}: posts by Jesse Gardner"
+  description: "{{ (categoryDescriptions[category.slug].description if categoryDescriptions[category.slug] else ('Posts filed under ' + category.name + ' from Plasticmind, the journal of Jesse Gardner.')) | safe }}"
 ---
 
 {% extends "layouts/base.njk" %}

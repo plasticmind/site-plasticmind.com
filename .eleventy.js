@@ -15,11 +15,13 @@ const groupByYear = require("./src/_11ty/filters/groupByYear.js");
 const slugify = require("./src/_11ty/filters/slugify.js");
 const relatedPosts = require("./src/_11ty/filters/relatedPosts.js");
 const postsByMonthYear = require("./src/_11ty/filters/postsByMonthYear.js");
+const describe = require("./src/_11ty/filters/describe.js");
 
 // collections
 const posts = require("./src/_11ty/collections/posts.js");
 const tagList = require("./src/_11ty/collections/tagList.js");
 const categoryList = require("./src/_11ty/collections/categoryList.js");
+const sitemapHubs = require("./src/_11ty/collections/sitemapHubs.js");
 
 module.exports = (eleventyConfig) => {
 
@@ -38,11 +40,24 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addFilter("shuffle", shuffle);
     eleventyConfig.addFilter("relatedPosts", relatedPosts);
     eleventyConfig.addFilter("postsByMonthYear", postsByMonthYear);
+    eleventyConfig.addFilter("describe", describe);
+    eleventyConfig.addFilter("firstImage", describe.firstImage);
+    // Display form of a lowercase tag or category name, for titles.
+    eleventyConfig.addFilter("tagLabel", (name = "") => {
+        const acronyms = { ai: "AI", sxsw: "SXSW", cms: "CMS", seo: "SEO", ux: "UX" };
+        return name
+            .split(" ")
+            .map((word, i) => acronyms[word.toLowerCase()] || (i === 0 ? word.charAt(0).toUpperCase() + word.slice(1) : word))
+            .join(" ")
+            .replace(/^New york$/, "New York")
+            .replace(/^Movable type$/, "Movable Type");
+    });
 
     // collections
     eleventyConfig.addCollection("posts", posts);
     eleventyConfig.addCollection("tagList", tagList);
     eleventyConfig.addCollection("categoryList", categoryList);
+    eleventyConfig.addCollection("sitemapHubs", sitemapHubs);
 
     // plugins
     eleventyConfig.addPlugin(eleventyPluginNavigation);
@@ -89,6 +104,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy("./src/assets/js/");
     eleventyConfig.addPassthroughCopy("./src/robots.txt");
     eleventyConfig.addPassthroughCopy("./src/_redirects"); // Cloudflare Pages redirects
+    eleventyConfig.addPassthroughCopy("./src/_headers"); // Cloudflare Pages headers
 
     // base config
     return {

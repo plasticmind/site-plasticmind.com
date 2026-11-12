@@ -308,7 +308,7 @@ hr {
 [data-theme="dark"] {
   --color-text: var(--neutral-0);
   --color-text-weak: var(--neutral-200);
-  --color-text-weakest: var(--neutral-400);
+  --color-text-weakest: var(--neutral-300); /* 5.6:1 on the dark surface */
   --color-text-reverse: var(--neutral-900);
   --color-text-reverse-weak: var(--neutral-600);
 

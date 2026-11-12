@@ -5,14 +5,17 @@ pagination:
   alias: tag
 eleventyExcludeFromCollections: true
 permalink: /tags/{{ tag.slug }}/
+eleventyComputed:
+  title: "{{ tag.name | tagLabel | safe }}: posts by Jesse Gardner"
+  description: "{{ (tagDescriptions[tag.name] or ('Posts tagged ' + tag.name + ' from Plasticmind, the journal of Jesse Gardner.')) | safe }}"
 ---
 
 {% extends "layouts/base.njk" %}
 
 {% block content %}
 
-{# Get tag metadata from data file if it exists #}
-{% set tagMeta = tagDescriptions[tag.slug] %}
+{# Tag descriptions are keyed by tag name #}
+{% set tagDescription = tagDescriptions[tag.name] %}
 
 {# Filter posts that have this tag #}
 {% set taggedPosts = [] %}
@@ -29,8 +32,8 @@ permalink: /tags/{{ tag.slug }}/
   <div class="l-container--lg">
     <header class="c-archive-header">
       <h1 class="c-archive-header__title">{{ tag.name }}</h1>
-      {% if tagMeta and tagMeta.description %}
-        <p class="c-archive-header__description">{{ tagMeta.description }}</p>
+      {% if tagDescription %}
+        <p class="c-archive-header__description">{{ tagDescription }}</p>
       {% endif %}
       <p class="c-archive-header__count">{{ taggedPosts.length }} post{% if taggedPosts.length != 1 %}s{% endif %}</p>
     </header>

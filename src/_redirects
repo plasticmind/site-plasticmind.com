@@ -26,6 +26,12 @@
 
 
 # -----------------------------------------------------------------------------
+# Duplicate posts removed (November 2026)
+# -----------------------------------------------------------------------------
+/journal/a-few-of-my-unfavorite-things/   /journal/these-are-a-few-of-my-unfavorite-things/   301
+
+
+# -----------------------------------------------------------------------------
 # Removed tag archive pages — redirect to most relevant surviving category
 # -----------------------------------------------------------------------------
 /tags/blindmanproject/    /tags/freewrite/                          301
