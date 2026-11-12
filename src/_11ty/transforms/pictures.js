@@ -63,9 +63,11 @@ module.exports = function pictures(content, outputPath) {
         const fullBleed = before.includes("c-feature-image");
         const shown = Number(width);
         const sizes = fullBleed ? "100vw" : shown && shown < 768 ? `(min-width: ${shown}px) ${shown}px, 100vw` : BODY_SIZES;
+        // srcset splits on spaces and commas, so encode them in file names.
+        const url = (path) => encodeURI(path).replace(/,/g, "%2C");
         const srcset = image.small
-            ? `${image.small} 800w, ${image.webp} ${image.webpWidth}w`
-            : image.webp;
+            ? `${url(image.small)} 800w, ${url(image.webp)} ${image.webpWidth}w`
+            : url(image.webp);
         const sizesAttr = image.small ? ` sizes="${sizes}"` : "";
 
         return `<picture><source type="image/webp" srcset="${srcset}"${sizesAttr}>${img}</picture>`;
