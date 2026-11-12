@@ -24,7 +24,7 @@ I forgot to snap a photo of the finished sign, but there's a photo below of a si
 
 *This is day 15 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
-<img class="alignnone size-large wp-image-5810" src="/assets/i/signs2-768x1024.jpg" alt="" width="768" height="1024" />
+<img class="alignnone size-large wp-image-5810" src="/assets/i/signs2-768x1024.jpg" alt="Barn boards leaning against a wall, one lettered CANDLES, while a person traces letters on another" width="768" height="1024" />
 
 <img class="alignnone size-large wp-image-5812" src="/assets/i/candles-1024x768.jpg" alt="Thoughtful Gardner Farmer's Market Display" width="1024" height="768" />
 

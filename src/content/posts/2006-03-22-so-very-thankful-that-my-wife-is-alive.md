@@ -97,7 +97,7 @@ And a great big thank you to God, for knowing just how incomplete I would be wit
 
 
 
-<a href="/assets/i/neckbrace.jpg"><img src="/assets/i/neckbrace-thumb.jpg" alt=""></a>
+<a href="/assets/i/neckbrace.jpg"><img src="/assets/i/neckbrace-thumb.jpg" alt="My wife holding up the yellow and blue neck brace she wore at the hospital, looking unhappy"></a>
 
 
 

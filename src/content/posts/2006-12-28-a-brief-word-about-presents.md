@@ -18,7 +18,7 @@ hits: 108
 
 
 
-<a href="https://www.flickr.com/photos/plasticmind/336199050/"><img src="https://farm1.static.flickr.com/143/336199050_1176906591.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/336199050/"><img src="https://farm1.static.flickr.com/143/336199050_1176906591.jpg?v=0" alt="Blurred multicolored Christmas lights glowing as soft circles against a dark background" /></a>
 
 
 

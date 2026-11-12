@@ -31,7 +31,7 @@ We had to leave early Saturday morning to make it up in time for Sarah's baby sh
 
 
 
-<a href="https://flickr.com/photos/plasticmind/"><img src="https://farm4.static.flickr.com/3158/2453374229_32a6fb972a.jpg?v=0" alt="" /></a>
+<a href="https://flickr.com/photos/plasticmind/"><img src="https://farm4.static.flickr.com/3158/2453374229_32a6fb972a.jpg?v=0" alt="Fog-shrouded road lined with bare trees under a green-tinted glow" /></a>
 
 
 
@@ -49,7 +49,7 @@ It was also fun watching Sarah and John's puppy Melody roughhousing with my pare
 
 
 
-<a href="https://flickr.com/photos/plasticmind/sets/72157604806596313/"><img src="https://farm3.static.flickr.com/2380/2452908317_d7ace550dc.jpg?v=0" alt="" /></a>
+<a href="https://flickr.com/photos/plasticmind/sets/72157604806596313/"><img src="https://farm3.static.flickr.com/2380/2452908317_d7ace550dc.jpg?v=0" alt="Black-and-white photo of two dogs playfully wrestling in front of a dresser" /></a>
 
 
 
@@ -61,7 +61,7 @@ The day we drove to Jessica's parent's house, the weather was stunning.  There w
 
 
 
-<a href="https://flickr.com/photos/plasticmind/"><img src="https://farm3.static.flickr.com/2261/2454193220_c002a643b4.jpg?v=0" alt="" /></a>
+<a href="https://flickr.com/photos/plasticmind/"><img src="https://farm3.static.flickr.com/2261/2454193220_c002a643b4.jpg?v=0" alt="Weathered farmhouse and barn on a hill behind tall dry grass under a cloudy blue sky" /></a>
 
 
 
@@ -73,7 +73,7 @@ And just before we reached the Clum's house, I stopped by what I consider to be 
 
 
 
-<a href="https://flickr.com/photos/plasticmind/"><img src="https://farm4.static.flickr.com/3231/2453368809_384e3d7446.jpg?v=0" alt="" /></a>
+<a href="https://flickr.com/photos/plasticmind/"><img src="https://farm4.static.flickr.com/3231/2453368809_384e3d7446.jpg?v=0" alt="Green grassy hillside under a blue sky with scattered clouds" /></a>
 
 
 

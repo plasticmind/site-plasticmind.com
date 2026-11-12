@@ -19,7 +19,7 @@ hits: 130
 
 			
 
-<a href="https://www.flickr.com/photos/plasticmind/119471498/"><img src="https://farm1.static.flickr.com/48/119471498_3b50dc39f4.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/119471498/"><img src="https://farm1.static.flickr.com/48/119471498_3b50dc39f4.jpg?v=0" alt="Sun breaking through dark, glowing clouds over a calm sea at dawn" /></a>
 
 
 

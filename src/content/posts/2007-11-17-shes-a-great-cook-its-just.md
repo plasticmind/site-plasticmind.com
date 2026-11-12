@@ -14,6 +14,8 @@ meta_description:
 context: personal
 fix: false
 hits: 241
+# Short personal post: kept on the site, left out of search results.
+noindex: true
 ---
 
 
@@ -25,7 +27,7 @@ My wife is a fantastic cook.  In fact, <a href="https://deliciousbits.com">her r
 
 
 
-<a href="https://deliciousbits.com"><img src="/assets/i/deliciousbits-analytics.png" alt="" /></a>
+<a href="https://deliciousbits.com"><img src="/assets/i/deliciousbits-analytics.png" alt="Analytics keyword report with &#x27;moist cornbread&#x27; as the top search term at 45 visits, 8.81 percent" /></a>
 
 
 

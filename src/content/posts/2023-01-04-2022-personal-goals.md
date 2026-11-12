@@ -24,7 +24,7 @@ These were my 2022 goals (and new 2023 goals at the end):
 
 In 2013, I visited the Rockies for the first time and fell immediately in love. I attended a CSS conference at the Stanley Hotel in Estes Park. I can’t remember a thing about the conference, but I can remember the way being small made me feel. Hiking up to Chasm Lake at the base of Long’s Peak’s eastern face. Ever since then, I’ve wanted to take my family out to the Rockies so they could experience it for themselves.
 
-![](/assets/i/park-1024x683.jpeg)
+![Black-and-white view of Chasm Lake, partly frozen, below the sheer rock face of Long's Peak](/assets/i/park-1024x683.jpeg)
 *Chasm Lake at the base of Long's Peak (near Estes Park, CO)*
 
 We weren't able to make it to the Rockies this year, for a few reasons that I alluded to this <a href="/journal/2022-home-family/">in a previous post</a>. In short, when I was working a full-time job, I didn’t have the time; and when I left my job, I didn’t have the money. I’ve set some specific financial goals to make this happen in 2023.
@@ -33,14 +33,14 @@ We weren't able to make it to the Rockies this year, for a few reasons that I al
 
 I actually made some progress toward this goal. I started doing this as a shared challenge between me and friend, but I didn’t have much of a plan. I wanted to get into the habit of creating video content, to flex those content-creation muscles and get comfortable with coming up with ideas, speaking to a camera, and editing quickly. I created quite a few educational short 1-3 minute videos and posted them to <a rel="noreferrer noopener" href="https://www.tiktok.com/@theplasticmind" target="_blank">my TikTok channel</a>. I’m going to continue this as part of the content creation I’ve got planned for my consulting business. Follow along if you're interested in design, technology, and human behavior!
 
-[![](/assets/i/me-1024x576.jpeg)](https://www.tiktok.com/@theplasticmind/video/7170219010003356974)
+[![Jesse on a couch in a TikTok video with the caption QWERTY Phenomenon](/assets/i/me-1024x576.jpeg)](https://www.tiktok.com/@theplasticmind/video/7170219010003356974)
 *<a href="https://www.tiktok.com/@theplasticmind/video/7170219010003356974">The QWERTY Phenomenon</a>: When design decisions stick around long after the reason they were made.*
 
 ### Exercise more.
 
 Some success, some failure. See that big spike? That’s when I hiked part of the Appalachian Trail with my friend Arjen. After that hike, I kept up a pretty healthy walking regimen throughout the summer, walking several miles each day with my son. When the weather got cold, I really fell off. I don’t have any better ideas going forward, so I’m just going to keep plugging along.
 
-![](/assets/i/IMG_2298-1024x448.jpg)
+![Bar chart of weekly exercise data with a tall spike in May from the 80 mile hike](/assets/i/IMG_2298-1024x448.jpg)
 *The bump in May was my big 80 mile hike.*
 
 ### Feel better about work. Either get a new job or figure out how to make the current one better.
@@ -59,7 +59,7 @@ After reviewing last year's goals, I wrote out new goals for 2023.
 
 I mean come on. Look at this.
 
-![](/assets/i/jesse-gardner-0h4LzK9uwAE-unsplash-1024x354.jpg)
+![Granite peaks and cliffs rising over evergreen forest in the Rockies](/assets/i/jesse-gardner-0h4LzK9uwAE-unsplash-1024x354.jpg)
 
 I’m determined to make this a reality in 2023.
 

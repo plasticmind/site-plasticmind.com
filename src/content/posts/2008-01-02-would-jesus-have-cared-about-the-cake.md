@@ -19,7 +19,7 @@ hits: 225
 
 			
 
-<a href="https://www.flickr.com/photo_zoom.gne?id=2160683157&amp;size=o"><img src="https://farm3.static.flickr.com/2266/2160683157_d4def4e16a.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photo_zoom.gne?id=2160683157&amp;size=o"><img src="https://farm3.static.flickr.com/2266/2160683157_d4def4e16a.jpg?v=0" alt="Illustration of a frosted cake with a glowing halo floating on clouds" /></a>
 
 
 

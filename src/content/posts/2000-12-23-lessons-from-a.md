@@ -14,6 +14,8 @@ meta_description:
 context: personal
 fix: false
 hits: 80
+# Short personal post: kept on the site, left out of search results.
+noindex: true
 ---
 
 "It took the wise men longer to find through wisdom what the shepherds found through revelation." -Keith Gardner

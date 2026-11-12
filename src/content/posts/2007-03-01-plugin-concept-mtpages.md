@@ -48,7 +48,7 @@ In the template section, another Tab would be added for "Page Templates".  Multi
 
 
 
-<a href="/assets/i/mtpages-pagetemplates.png"><img src="/assets/i/mtpages-pagetemplates-thumb.png" alt="" /></a>
+<a href="/assets/i/mtpages-pagetemplates.png"><img src="/assets/i/mtpages-pagetemplates-thumb.png" alt="Movable Type Page Templates screen for the DeliciousBits blog listing Default Page Template and Full Width Page Template" /></a>
 
 
 
@@ -60,7 +60,7 @@ In the main menu, we now see a section called "Pages".
 
 
 
-<a href="/assets/i/mtpages-mainmenu.png"><img src="/assets/i/mtpages-mainmenu-thumb.png" alt="" /></a>
+<a href="/assets/i/mtpages-mainmenu.png"><img src="/assets/i/mtpages-mainmenu-thumb.png" alt="Movable Type main menu showing the DeliciousBits weblog with a new Pages (4) link beside Entries and Comments" /></a>
 
 
 
@@ -72,7 +72,7 @@ Clicking on it brings us to our "Page Listing" screen where have a list of all o
 
 
 
-<a href="/assets/i/mtpages-pagelisting.png"><img src="/assets/i/mtpages-pagelisting-thumb.png" alt="" /></a>
+<a href="/assets/i/mtpages-pagelisting.png"><img src="/assets/i/mtpages-pagelisting-thumb.png" alt="Movable Type Pages listing for DeliciousBits showing About, Contact, Quick Tips and Search Results with their publish locations" /></a>
 
 
 
@@ -84,7 +84,7 @@ Clicking on "New Page" brings us to what is essentially a new entry screen with 
 
 
 
-<a href="/assets/i/mtpages-editpage.png"><img src="/assets/i/mtpages-editpage-thumb.png" alt="" /></a>
+<a href="/assets/i/mtpages-editpage.png"><img src="/assets/i/mtpages-editpage-thumb.png" alt="Movable Type Edit Page screen for About with a Page Template drop-down set to Default Page and a content editor" /></a>
 
 
 

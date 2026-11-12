@@ -19,7 +19,7 @@ hits: 609
 
 			
 
-<img src="https://farm3.static.flickr.com/2234/2200112346_2c0d99862e.jpg?v=0" alt="" />
+<img src="https://farm3.static.flickr.com/2234/2200112346_2c0d99862e.jpg?v=0" alt="Ultrasound image with arrows labeling the yolk sac and &#x27;our baby&#x27;" />
 
 
 

@@ -14,7 +14,7 @@ meta_description: "Why a well-built design system is critical infrastructure for
 context: professional
 ---
 
-![](/assets/i/nysds-welcome.jpg)
+![Welcome slide of the New York State Design System Figma file with links to a video series, Figma guidance for beginners, and the reference website](/assets/i/nysds-welcome.jpg)
 
 The more I do this work, the more firmly I believe that a well-built design system is critical infrastructure for AI. I'm presenting a [talk at Into Design Systems](https://www.intodesignsystems.com/agenda/design-systems-ai-infrastructure) next week about that topic, and it's chock-full of insights from over 8 months of building out a design system and making it understandable for LLMs.
 

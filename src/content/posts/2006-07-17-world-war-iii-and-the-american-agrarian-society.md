@@ -37,7 +37,7 @@ Anyone else really looking forward to a return to <a href="https://en.wikipedia.
 
 
 
-<img src="https://www.archives.gov/education/lessons/homestead-act/images/homesteading-family.gif" width="450px" />
+<img alt="Black and white photo of a pioneer family beside a horse-drawn covered wagon on the prairie" src="https://www.archives.gov/education/lessons/homestead-act/images/homesteading-family.gif" width="450px" />
 
 
 

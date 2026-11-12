@@ -19,7 +19,7 @@ hits: 116
 
 			
 
-<img src="/assets/i/myheart.jpg" alt="" />
+<img src="/assets/i/myheart.jpg" alt="Blue banner graphic with black dots at left and a pink splash at right" />
 
 
 

@@ -19,7 +19,7 @@ hits: 106
 
 			
 
-<img src="https://farm1.static.flickr.com/223/446927921_504cd9eaac.jpg?v=0" alt="" />
+<img src="https://farm1.static.flickr.com/223/446927921_504cd9eaac.jpg?v=0" alt="Sepia close-up of a weathered wooden door with a keyhole lock and round doorknob beside a stone wall" />
 
 
 

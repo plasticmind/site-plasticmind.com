@@ -18,7 +18,7 @@ hits: 144
 
 
 
-<img src="https://static.flickr.com/108/262249935_5515a6ae5c_o.jpg" alt="" />
+<img src="https://static.flickr.com/108/262249935_5515a6ae5c_o.jpg" alt="Dark storm clouds over a line of trees at dusk" />
 
 
 

@@ -34,7 +34,7 @@ So we tore down the wall between the dining room and the kitchen to create a lar
   <figcaption>The wall between our new dining room (where the tv is in this picture) and the den (in the foreground of the picture)</figcaption>
 </figure>
 
-<img class="alignnone wp-image-5703 size-medium" src="/assets/i/2019-12-06-at-11.15-PM-300x199.png" alt="" width="300" height="199" /> <img class="alignnone size-medium wp-image-5698" src="/assets/i/thanksgiving-1-300x200.jpg" alt="" width="300" height="200" />
+<img class="alignnone wp-image-5703 size-medium" src="/assets/i/2019-12-06-at-11.15-PM-300x199.png" alt="3D rendering of a planned dining room with a wooden table, black chairs, and white shiplap walls" width="300" height="199" /> <img class="alignnone size-medium wp-image-5698" src="/assets/i/thanksgiving-1-300x200.jpg" alt="Large family gathering around a long dining table crowded with food and smiling people" width="300" height="200" />
 
 We couldn't be happier with the changes, but we've been realizing that the hallway is largely redundant without the wall between the dining room and kitchen. We decided to close off the hallway and make the front section a coat closet and the back section a walk-in pantry (much needed since we're using a standalone hutch as a pantry now).
 

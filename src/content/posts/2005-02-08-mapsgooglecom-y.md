@@ -43,7 +43,7 @@ The information giant puts forward it contender in the map market and as always,
 
 
 
-<img src="https://www.google.com/help/maps/tour/local.jpg">
+<img alt="Google Maps search for 1600 Amphitheatre Pkwy, Mountain View, with an address bubble on the map" src="https://www.google.com/help/maps/tour/local.jpg">
 
 
 
@@ -60,19 +60,19 @@ I'm going to go now.  This is fun.
 
 			<!--more-->
 
-<img src="https://www.google.com/help/maps/tour/wifi.jpg">
+<img alt="Google Maps results for a pizza search in San Francisco, with a list of restaurants and a marker bubble for North Beach Pizza" src="https://www.google.com/help/maps/tour/wifi.jpg">
 
 
 
 
 
-<img src="https://www.google.com/help/maps/tour/directions.jpg">
+<img alt="Google Maps driving directions from Mountain View to San Francisco, with a step list and the route drawn on the map" src="https://www.google.com/help/maps/tour/directions.jpg">
 
 
 
 
 
-<img src="https://www.google.com/help/maps/tour/sushi.jpg">
+<img alt="Google Maps results for sushi in New York, with listed restaurants and lettered markers on the Manhattan map" src="https://www.google.com/help/maps/tour/sushi.jpg">
 
 
 		

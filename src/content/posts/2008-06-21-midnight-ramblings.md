@@ -19,7 +19,7 @@ hits: 114
 
 			
 
-<a href="https://www.flickr.com/photos/plasticmind/385287225/"><img src="https://farm1.static.flickr.com/183/385287225_7386261a80.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/385287225/"><img src="https://farm1.static.flickr.com/183/385287225_7386261a80.jpg?v=0" alt="View looking straight up at tall dark trees against a pale sky" /></a>
 
 
 

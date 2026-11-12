@@ -19,7 +19,7 @@ hits: 99
 
 			
 
-<img src="/assets/i/southwesternmacbook.jpg" alt="" />
+<img src="/assets/i/southwesternmacbook.jpg" alt="Illustration of a MacBook plus a jar of Arizona Gunslinger salsa equals a crying emoticon" />
 
 
 

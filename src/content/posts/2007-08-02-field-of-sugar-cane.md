@@ -31,7 +31,7 @@ The man who taught me the most was a man named Pastor Rey.  While we were in the
 
 
 
-<a href="https://www.flickr.com/photos/plasticmind/852140027/"><img src="https://farm2.static.flickr.com/1134/852140027_069a109bee.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/852140027/"><img src="https://farm2.static.flickr.com/1134/852140027_069a109bee.jpg?v=0" alt="Pastor Rey in a white shirt and glasses looking toward a white vehicle" /></a>
 
 
 
@@ -43,7 +43,7 @@ What I've failed to mention is that Pastor Rey is an amazing artist.  The night 
 
 
 
-<a href="https://www.flickr.com/photos/plasticmind/992964417/"><img src="https://farm2.static.flickr.com/1047/992964417_775fc0485a.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/992964417/"><img src="https://farm2.static.flickr.com/1047/992964417_775fc0485a.jpg?v=0" alt="Wooden model of a church made from bamboo and sugar cane, which Pastor Rey gave me" /></a>
 
 
 
@@ -55,7 +55,7 @@ I wanted it.  Why buy a mass-produced souvenir when you can help support someone
 
 
 
-<a href="https://www.flickr.com/photo_zoom.gne?id=992959977&amp;size=l"><img src="https://farm2.static.flickr.com/1406/992959977_840e1b2add.jpg" alt="" /></a>
+<a href="https://www.flickr.com/photo_zoom.gne?id=992959977&amp;size=l"><img src="https://farm2.static.flickr.com/1406/992959977_840e1b2add.jpg" alt="Wall-hanging of a cathedral facade built from bamboo, shells, sugar cane and coral in a wooden frame" /></a>
 
 
 

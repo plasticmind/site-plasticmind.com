@@ -14,6 +14,8 @@ meta_description:
 context: personal
 fix: false
 hits: 92
+# Short personal post: kept on the site, left out of search results.
+noindex: true
 ---
 
 So <a href="https://www.flickr.com/photos/plasticmind/sets/72157603161260034/">this</a> is what the people who wander the streets at 4am see.

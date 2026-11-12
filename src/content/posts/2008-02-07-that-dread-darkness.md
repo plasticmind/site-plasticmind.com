@@ -19,7 +19,7 @@ hits: 132
 
 			
 
-<img src="https://farm3.static.flickr.com/2061/2250380832_3f0d26ef64.jpg" alt="" />
+<img src="https://farm3.static.flickr.com/2061/2250380832_3f0d26ef64.jpg" alt="Sketch of a lone dark figure standing beside a large tree on a gray, rainy field" />
 
 
 

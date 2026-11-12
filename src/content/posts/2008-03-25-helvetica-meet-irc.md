@@ -31,7 +31,7 @@ If you enjoy the feeling you get when you look at my website, and you're a Collo
 
 
 
-<img src="https://farm3.static.flickr.com/2357/2361808662_3e9f91a53e.jpg?v=0" alt="" />
+<img src="https://farm3.static.flickr.com/2357/2361808662_3e9f91a53e.jpg?v=0" alt="Colloquy IRC window in the light Haas theme, showing a #movabletype-talk chat" />
 
 
 
@@ -43,7 +43,7 @@ If you enjoy the feeling you get when you look at my website, and you're a Collo
 
 
 
-<img src="https://farm4.static.flickr.com/3293/2360978973_44b70db3e4.jpg?v=0" alt="" />
+<img src="https://farm4.static.flickr.com/3293/2360978973_44b70db3e4.jpg?v=0" alt="Colloquy IRC window in the dark Haas variant, showing a #movabletype-talk chat" />
 
 
 

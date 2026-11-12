@@ -18,7 +18,7 @@ hits: 107
 
 
 
-<img src="https://static.flickr.com/127/323657128_9eb6f167b8_o.jpg" alt="" />
+<img src="https://static.flickr.com/127/323657128_9eb6f167b8_o.jpg" alt="Mirror self-portrait with my new Canon camera raised to one eye" />
 
 
 
@@ -42,7 +42,7 @@ The long and short of this post is, look for lots of photos in coming days.  I'm
 
 
 
-<a href="https://www.flickr.com/photos/plasticmind/323657112/"><img src="https://static.flickr.com/144/323657112_d1b5401fde_t.jpg" alt="" /></a> <a href="https://www.flickr.com/photos/plasticmind/323657080/"><img src="https://static.flickr.com/124/323657066_01c49491da_t.jpg" alt="" /></a> <a href="https://www.flickr.com/photos/plasticmind/323657039/"><img src="https://static.flickr.com/132/323657039_1d311b30e2_t.jpg" alt="" /></a> <a href="https://www.flickr.com/photos/plasticmind/323657008/"><img src="https://static.flickr.com/123/323657008_eaa26ec664_t.jpg" alt="" /></a> <a href="https://www.flickr.com/photos/plasticmind/323656993/"><img src="https://static.flickr.com/137/323656993_1ebb4893b2_t.jpg" alt="" /></a> <a href="https://www.flickr.com/photos/plasticmind/323656974/"><img src="https://static.flickr.com/142/323656974_ec9c0ce921_t.jpg" alt="" /></a> <a href="https://www.flickr.com/photos/plasticmind/323656946/"><img src="https://static.flickr.com/143/323656946_419ce5f2b9_t.jpg" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/323657112/"><img src="https://static.flickr.com/144/323657112_d1b5401fde_t.jpg" alt="Close-up of a white and tabby kitten gazing toward the camera against a dark background" /></a> <a href="https://www.flickr.com/photos/plasticmind/323657080/"><img src="https://static.flickr.com/124/323657066_01c49491da_t.jpg" alt="Kitten lying on a person&#x27;s lap, with its ear and face in soft focus" /></a> <a href="https://www.flickr.com/photos/plasticmind/323657039/"><img src="https://static.flickr.com/132/323657039_1d311b30e2_t.jpg" alt="Black and white cat sitting upright on a bed, shown in a cool blue-green tint" /></a> <a href="https://www.flickr.com/photos/plasticmind/323657008/"><img src="https://static.flickr.com/123/323657008_eaa26ec664_t.jpg" alt="White and gray cat lounging on a red blanket looking to the side" /></a> <a href="https://www.flickr.com/photos/plasticmind/323656993/"><img src="https://static.flickr.com/137/323656993_1ebb4893b2_t.jpg" alt="Close-up of a red Christmas ornament with ribbon among tree lights" /></a> <a href="https://www.flickr.com/photos/plasticmind/323656974/"><img src="https://static.flickr.com/142/323656974_ec9c0ce921_t.jpg" alt="Abstract close-up of autumn leaves and dry grass in warm orange and brown tones" /></a> <a href="https://www.flickr.com/photos/plasticmind/323656946/"><img src="https://static.flickr.com/143/323656946_419ce5f2b9_t.jpg" alt="Dark grass silhouette against a pale blue sky with a single tall stalk angled upward" /></a>
 
 
 

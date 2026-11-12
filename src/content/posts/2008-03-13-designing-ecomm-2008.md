@@ -19,7 +19,7 @@ hits: 259
 
 			
 
-<a href="https://www.flickr.com/photos/x180/sets/72157604105659581/"><img src="https://farm3.static.flickr.com/2272/2329586954_0a9fd145e3.jpg?v=0" alt=""></a>
+<a href="https://www.flickr.com/photos/x180/sets/72157604105659581/"><img src="https://farm3.static.flickr.com/2272/2329586954_0a9fd145e3.jpg?v=0" alt="Speaker on stage at eComm 2008 with the eComm logo projected behind him and a crowded conference hall"></a>
 
 
 
@@ -37,7 +37,7 @@ Because of ETel's last minute cancelation, Lee needed an tremendous amount of de
 
 
 
-<img src="https://farm3.static.flickr.com/2397/2332721004_81fd7e7700.jpg?v=0" alt="" />
+<img src="https://farm3.static.flickr.com/2397/2332721004_81fd7e7700.jpg?v=0" alt="Four eComm 2008 logo drafts with different swoops and dots above a final version on orange" />
 
 
 
@@ -49,7 +49,7 @@ The key concept for the conference was connectivity—social and technological. 
 
 
 
-<img src="https://farm4.static.flickr.com/3091/2330926365_0aa53c6943_m.jpg" class="thumb-left"> <img src="https://farm4.static.flickr.com/3288/2331754832_a2354a0ea1_m.jpg" class="thumb-left"> <img src="https://farm3.static.flickr.com/2215/2328765895_9d1a5ebe01_m.jpg" class="thumb-left">
+<img alt="Man with curly hair speaking on stage at eComm 2008, wearing a lanyard badge" src="https://farm4.static.flickr.com/3091/2330926365_0aa53c6943_m.jpg" class="thumb-left"> <img alt="Man in a dark button-up shirt gesturing while speaking at eComm 2008" src="https://farm4.static.flickr.com/3288/2331754832_a2354a0ea1_m.jpg" class="thumb-left"> <img alt="Man in a white shirt speaking at an eComm 2008 podium that carries the conference logo" src="https://farm3.static.flickr.com/2215/2328765895_9d1a5ebe01_m.jpg" class="thumb-left">
 
 
 

@@ -18,7 +18,7 @@ hits: 122
 
 
 
-<img src="https://static.flickr.com/116/294997049_4ca06637ca_o.jpg" alt="" />
+<img src="https://static.flickr.com/116/294997049_4ca06637ca_o.jpg" alt="Yellow-green maple leaves against a clear blue sky" />
 
 
 

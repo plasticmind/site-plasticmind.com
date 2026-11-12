@@ -14,6 +14,8 @@ meta_description:
 context: personal
 fix: false
 hits: 138
+# Short personal post: kept on the site, left out of search results.
+noindex: true
 ---
 
 

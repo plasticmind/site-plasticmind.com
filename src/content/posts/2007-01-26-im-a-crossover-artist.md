@@ -19,7 +19,7 @@ hits: 117
 
 			
 
-<a href="https://www.flickr.com/photos/plasticmind/370511617/in/photostream/"><img src="https://farm1.static.flickr.com/129/370511758_9caa351edc.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/370511617/in/photostream/"><img src="https://farm1.static.flickr.com/129/370511758_9caa351edc.jpg?v=0" alt="Silver laptop open on a wooden table, plugged in with a glowing yellow power light" /></a>
 
 
 

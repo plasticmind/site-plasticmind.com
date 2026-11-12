@@ -18,7 +18,7 @@ hits: 687
 
 Since we bought our house in 2015, we've wanted to replace the flooring on the first floor. The bones of the house were good, but some of the interior cosmetic choices were... well, they just didn't really match our style.
 
-<img class="alignnone size-medium wp-image-5843" src="/assets/i/dining-room-300x225.jpg" alt="" width="300" height="225" /> <img class="alignnone size-medium wp-image-5844" src="/assets/i/kitchen-300x225.jpg" alt="" width="300" height="225" /> <img class="alignnone size-medium wp-image-5845" src="/assets/i/living-room-rear-300x225.jpg" alt="" width="300" height="225" /> <img class="alignnone size-medium wp-image-5846" src="/assets/i/living-room-300x225.jpg" alt="" width="300" height="225" />
+<img class="alignnone size-medium wp-image-5843" src="/assets/i/dining-room-300x225.jpg" alt="Dining room before renovation with a wood table, chairs, and teal carpet" width="300" height="225" /> <img class="alignnone size-medium wp-image-5844" src="/assets/i/kitchen-300x225.jpg" alt="Kitchen before renovation with oak cabinets, yellow walls, and a peninsula counter" width="300" height="225" /> <img class="alignnone size-medium wp-image-5845" src="/assets/i/living-room-rear-300x225.jpg" alt="Dining nook before renovation with teal walls, white chairs, and blue carpet" width="300" height="225" /> <img class="alignnone size-medium wp-image-5846" src="/assets/i/living-room-300x225.jpg" alt="Living room before renovation with teal walls, blue carpet, and a beige sofa" width="300" height="225" />
 
 Royal blue carpet with teal walls in the living room? Teal carpet in a dining room? Eggplant, taupe, and orange wood in the kitchen? A few years ago, we painted the walls and the kitchen cabinets to help bring a little more sense of "us" to the house, but we knew the big change would come when we replaced the floor.
 
@@ -36,25 +36,25 @@ Trouble is, there's nearly 1,200 square feet of floor space, and any flooring pr
 
 With the floorplan complete, I called around for quotes to remove the old flooring and install new vinyl plank flooring. On any given day in our house, we've got animals running around and children rollerblading, so we felt like vinyl was a good, durable choice. However, once contractors saw much of our floor was a sandwich of linoleum, luan, linoleum, luan, and linoleum, our quotes moved easily into 5-figure price range.
 
-<img class="alignnone size-large wp-image-5835" src="/assets/i/IMG_6516-1024x768.jpg" alt="" width="1024" height="768" />
+<img class="alignnone size-large wp-image-5835" src="/assets/i/IMG_6516-1024x768.jpg" alt="Kitchen eating area with the old gray linoleum floor before any demolition begins" width="1024" height="768" />
 
 After a bit of deliberation, Jessica and I decided we'd do the project ourselves.
 
 It's been a lot of hard physical work. No surprise... the linoleum sandwich took a lot of effort to remove, but I found that cutting long strips across the floor using the circular saw with the blade depth set exactly the height of the 5 layers made things a lot easier.
 
-<img class="alignnone size-large wp-image-5848" src="/assets/i/IMG_6527-1024x768.jpg" alt="" width="1024" height="768" />
+<img class="alignnone size-large wp-image-5848" src="/assets/i/IMG_6527-1024x768.jpg" alt="Kitchen floor partly torn up, showing layers of linoleum and luan stripped away in long strips" width="1024" height="768" />
 
 Do I regret doing the project ourselves? No. Though money factored into our decision somewhat, the main reason we chose to do it ourselves was because we wanted our children to gain a sense of ownership in their home.
 
-<img class="alignnone wp-image-5842 size-large" src="/assets/i/IMG_6807-768x1024.jpg" alt="" width="768" height="1024" />
+<img class="alignnone wp-image-5842 size-large" src="/assets/i/IMG_6807-768x1024.jpg" alt="Jessica and a daughter kneeling on the bare subfloor, prying up old flooring in the kitchen doorway" width="768" height="1024" />
 
-<img class="alignnone wp-image-5837 size-large" src="/assets/i/IMG_6535-1024x768.jpg" alt="" width="1024" height="768" />
+<img class="alignnone wp-image-5837 size-large" src="/assets/i/IMG_6535-1024x768.jpg" alt="Kitchen and living room stripped down to bare plywood subfloor after the old flooring came out" width="1024" height="768" />
 
 Many years ago, I read an enlightening article about how important it is that people feel a sense of ownership in the places where they live. The article was broad, addressing large environmental design issues like how the shift from plaza to mall and city to suburbs has reduced our sense of community and belonging; but the key principle was this: when people have a hand in designing the spaces where they live, that agency breeds a sense of ownership and belonging.
 
 An important part of feeling like you're home is having a hand in making it your home. I wanted that sense of belonging and camaraderie for my kids. So we put them to work, and they we're so happy to help (and truly helpful!)
 
-<img class="alignnone size-large wp-image-5839" src="/assets/i/IMG_6550-1024x768.jpg" alt="" width="1024" height="768" /><img class="alignnone size-large wp-image-5840" src="/assets/i/IMG_6553-1024x768.jpg" alt="" width="1024" height="768" />
+<img class="alignnone size-large wp-image-5839" src="/assets/i/IMG_6550-1024x768.jpg" alt="Three children and an adult pulling up old carpet along the edge of the raised living room floor" width="1024" height="768" /><img class="alignnone size-large wp-image-5840" src="/assets/i/IMG_6553-1024x768.jpg" alt="Kids and an adult kneeling on the plywood subfloor, vacuuming and pulling nails after the flooring removal" width="1024" height="768" />
 
 In one full day, we removed all the flooring from the kitchen and the new living room. We'd already removed the flooring from the new dining room and entryway a few weeks ago. All that's left is to remove the carpet from our back den, but we're saving that until the very last so the kids have a place to spend time while the work is going on.
 

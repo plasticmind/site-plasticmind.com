@@ -19,7 +19,7 @@ hits: 238
 
 			
 
-<img src="/assets/i/box.png" alt="" style="border:0;" />
+<img src="/assets/i/box.png" alt="Faded drawing of a coffin-style box full of flowers, labeled R.I.P., for the Cardboard White site" style="border:0;" />
 
 
 

@@ -31,7 +31,7 @@ Things I still need to do:
 
 *This is day 11 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
-<img class="alignnone size-large wp-image-5772" src="/assets/i/framed-wall-1024x768.jpg" alt="" width="1024" height="768" /> <img class="alignnone size-large wp-image-5773" src="/assets/i/hallway-wall-1024x766.jpg" alt="" width="1024" height="766" />
+<img class="alignnone size-large wp-image-5772" src="/assets/i/framed-wall-1024x768.jpg" alt="Wood framing for a new wall laid out on a subfloor next to the stairs" width="1024" height="768" /> <img class="alignnone size-large wp-image-5773" src="/assets/i/hallway-wall-1024x766.jpg" alt="Framed wall of studs in a hallway, seen from the stairs" width="1024" height="766" />
 
 <div style="display: none;"></div>
 

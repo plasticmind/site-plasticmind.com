@@ -19,7 +19,7 @@ hits: 659
 
 			
 
-<img src="/assets/i/ashes.jpg" alt="" />
+<img src="/assets/i/ashes.jpg" alt="Blurred green grass with the text &#x27;i&#x27;d rather be ashes than dust&#x27;" />
 
 
 

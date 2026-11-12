@@ -31,7 +31,7 @@ Then it was off to Lehigh Gorge State Park where we hiked a fairly short way to 
 
 
 
-<a href="https://flickr.com/photos/plasticmind/albums/72157594181460448/">Carbon County, PA<br/><img src="https://static.flickr.com/53/137403894_1eb3f59504_s.jpg" alt="" /></a>
+<a href="https://flickr.com/photos/plasticmind/albums/72157594181460448/">Carbon County, PA<br/><img src="https://static.flickr.com/53/137403894_1eb3f59504_s.jpg" alt="Close-up of a yellow train locomotive nose against a deep blue sky, numbered 56 and 57" /></a>
 
 
 

@@ -30,9 +30,9 @@ Before I dive into how I got everything working together, here's a bullet list o
 
 This setup is about $750 if you buy everything new.
 
-![](/assets/i/post-4-1024x683.jpg)
+![Mirrorless camera on a tripod, its screen showing the room, set up as a webcam](/assets/i/post-4-1024x683.jpg)
 
-![](/assets/i/post-5-1024x683.jpg)
+![Elgato Cam Link capture device plugged into a USB cable and a drive on a desk](/assets/i/post-5-1024x683.jpg)
 
 ### Setting It Up
 
@@ -40,7 +40,7 @@ After <a href="https://danmall.me/articles/better-webcam-video/">Dan Mall turned
 
 I purchased the Cam Link and a Micro-HDMI to HDMI, but I quickly discovered a problem: the Canon 5D Mark II doesn't have clean HDMI output. In other words, when I plugged it in, I got what you'd see on the viewfinder:
 
-![](/assets/i/TS560x560.jpg)
+![Canon camera screen showing viewfinder overlays and a histogram over a coastal cliff photo, so HDMI output is not clean](/assets/i/TS560x560.jpg)
 
 You can check if your camera outputs clean HDMI with <a href="https://www.elgato.com/en/gaming/cam-link/camera-check">Elgato's compatibility checking tool</a>.
 
@@ -48,13 +48,13 @@ I wish I'd have checked that tool first: the 5D Mark II doesn't have clean HDMI 
 
 But I had a lot of problems with the M50.
 
-![](/assets/i/download.jpg)
+![The M50's video output with an autofocus box drawn over a person's face](/assets/i/download.jpg)
 
 It was a decent standalone camera, but the output wasn't *exactly* clean. Even with all the viewfinder displays turned off, if you left the autofocus on, a box would appear over your face every time AF kicked in.  There was no way to disable it, so I had to use it in Manual Focus mode — which is a pain if you move around. Also, the M50 has a 3/4 sensor, so I had to purchase a lens conversion kit in order to use my EF lenses, which caused some unwanted cropping and made it so I couldn't really use my good lenses as a webcam anyway. I even tried the <a href="https://www.amazon.com/gp/product/B07K7CQCCN/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1">Viltrox speed booster</a> to offset the cropping, but that caused all sort of lens distortion and messed with the autofocus. There's even more complication here I'm leaving out: possibly using USB to grab video but needing a paid subscription to Ecamm. Long story short: I was almost $1000 into this and had no satisfying solution.
 
-![](/assets/i/post-3-1024x683.jpg)
+![Sony camera on a small tripod behind the top of a monitor, used as a webcam](/assets/i/post-3-1024x683.jpg)
 
-![](/assets/i/post-6-1024x683.jpg)
+![Back of a mirrorless camera on a tripod with its LCD screen and control dials](/assets/i/post-6-1024x683.jpg)
 
 About the same time as I was having all these issues, a friend posted a used <a href="https://www.amazon.com/Sony-Mirrorless-Digitial-3-0-Inch-16-50mm/dp/B00I8BICB2/ref=sr_1_3?dchild=1&keywords=sony+a6000&qid=1584117604&s=electronics&sr=1-3">Sony A6000</a> for sale at a really reasonable price. I had read lots of good things about the A6000 for vlogging, and I knew it supported clean HDMI out, so I decided to return all the Canon items I had purchased back and go the much less expensive used-Sony route.
 
@@ -76,7 +76,7 @@ My lighting setup is simple.  I actually tried several different lighting option
 
 If you're looking for something more adjustable/flexible, take a look at the <a href="https://lumecube.com/">Lume Cube</a>.
 
-![](/assets/i/post-2-1024x720.jpg)
+![Home office desk with an iMac, a Sony camera on top, two LED lamps, and a Rode microphone on a boom arm](/assets/i/post-2-1024x720.jpg)
 
 ## Audio
 
@@ -96,12 +96,12 @@ So far, I've been happy with the quality. It doesn't pick up nearly as much of t
 
 Also — if you're thinking about any boom arm, save yourself the headache and get the Rode PSA1. I've gone through many mic stands, and this one really is worth the money.
 
-![](/assets/i/post-1-2-1024x683.jpg)
+![Close-up of the Rode Podcaster microphone in a shock mount](/assets/i/post-1-2-1024x683.jpg)
 
 ## Result?
 
 Pretty nice looking Zoom calls.
 
-![](/assets/i/Screen-Shot-2021-04-13-at-9.48.28-AM-1024x548.png)
+![Screenshot of me smiling and waving on a Zoom call, with the DSLR webcam setup producing a sharp image](/assets/i/Screen-Shot-2021-04-13-at-9.48.28-AM-1024x548.png)
 
 **Bonus tip:** If you ever need a high-resolution recording of a presentation you're giving over Zoom, you can use your DSLR camera for Zoom and record it via QuickTime at the same time.

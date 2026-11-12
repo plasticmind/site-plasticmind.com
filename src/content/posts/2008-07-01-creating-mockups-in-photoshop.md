@@ -118,7 +118,7 @@ And then just toggle their visibility when saving multiple drafts.
 
 
 
-<img src="/assets/i/ele_winvista_firefox_pulldown_1.jpg" alt="" />
+<img src="/assets/i/ele_winvista_firefox_pulldown_1.jpg" alt="Dropdown form element reading &#x27;Select One&#x27;" />
 
 
 
@@ -147,7 +147,7 @@ And then just toggle their visibility when saving multiple drafts.
 
 
 
-<a href="https://www.flickr.com/photos/plasticmind/2629879855/"><img src="https://farm4.static.flickr.com/3029/2629879855_b96e472d15.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/2629879855/"><img src="https://farm4.static.flickr.com/3029/2629879855_b96e472d15.jpg?v=0" alt="Sample website mockup of a blog called Mortal Coil with category and monthly archive sidebars" /></a>
 
 
 

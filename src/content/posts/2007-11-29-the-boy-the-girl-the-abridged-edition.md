@@ -31,7 +31,7 @@ When Jessica and I got engaged, I wrote <a href="/journal/the-boy-and-the-girl-p
 
 
 
-<a href="https://www.flickr.com/photo_zoom.gne?id=2073955845&amp;size=l"><img src="https://farm3.static.flickr.com/2062/2073955845_61d751ced9.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photo_zoom.gne?id=2073955845&amp;size=l"><img src="https://farm3.static.flickr.com/2062/2073955845_61d751ced9.jpg?v=0" alt="Four-panel photo of Jessica and Jesse at the Grand Canyon, from frowning apart to shaking hands, hugging, and arms spread wide" /></a>
 
 
 

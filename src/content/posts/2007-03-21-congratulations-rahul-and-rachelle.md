@@ -14,12 +14,14 @@ meta_description:
 context: personal
 fix: false
 hits: 135
+# Short personal post: kept on the site, left out of search results.
+noindex: true
 ---
 
 
 			
 
-<a href="https://www.flickr.com/photos/plasticmind/sets/72157600014107419/"><img src="https://farm1.static.flickr.com/161/429661073_b908aff59e_m.jpg" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/sets/72157600014107419/"><img src="https://farm1.static.flickr.com/161/429661073_b908aff59e_m.jpg" alt="Bride in a veil facing the groom during their outdoor wedding ceremony as the officiant reads between them" /></a>
 
 
 

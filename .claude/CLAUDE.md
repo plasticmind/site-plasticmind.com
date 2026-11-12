@@ -81,12 +81,17 @@ npm run build:prod # Production build
 - `tags` - Array of tags, always lowercase
 - `context` - "personal" or "professional" (affects archive banner)
 - `archive` - Set `true` for older posts needing caveat banner
-- `featured_image_url` - Hero image
-- `crawl: "false"` - Excludes from search indexes
+- `featured_image_url` - Hero image, also the share-card image (falls back to the post's first image, then the logo)
+- `meta_description` - Search snippet. Falls back to `excerpt`, then `subtitle`, then the post's opening text
+- `seo_title` - Overrides the whole `<title>` (use it to tell apart posts that share a title)
+- `noindex: true` - Keeps the post on the site and in site search, but out of search engines and the sitemap. Set on 81 short personal posts from 2015 and earlier
+- `crawl: "false"` - Hides the page from search engines, the sitemap, and site search
 
 ## Assets
 
-Post images go flat in `src/assets/i/` (served at `/assets/i/`). No subdirectories except `logos/`. WP assets dump at `/tmp/plasticmind-com-assets/` for reference. Run `node scripts/asset-check.js --missing-only` to find broken image refs.
+Post images go flat in `src/assets/i/` (served at `/assets/i/`). No subdirectories except `logos/`.
+
+**After adding a JPEG or PNG, run `node scripts/optimize-images.js`** and commit what it writes. It makes WebP copies (full size and `-800w`) and updates `src/_11ty/image-manifest.json`. The `pictures` transform in `.eleventy.js` uses the manifest to wrap images in `<picture>` and set width and height. An image missing from the manifest still works, without WebP. Give every content image alt text. WP assets dump at `/tmp/plasticmind-com-assets/` for reference. Run `node scripts/asset-check.js --missing-only` to find broken image refs.
 
 ## Gotchas
 
@@ -102,7 +107,7 @@ Post images go flat in `src/assets/i/` (served at `/assets/i/`). No subdirectori
 
 **Filters** (`src/_11ty/filters/`): `excludeDrafts`, `excludeFuture`, `excludeNoIndex` (crawl: "false"), `relatedPosts` (by tags/categories), `postsByMonthYear`, date formatters (`dateISO`, `dateFull`, `dateShort`).
 
-**Collections** (`src/_11ty/collections/`): `posts.js` (filtered, sorted newest-first), `tagList.js`, `categoryList.js`.
+**Collections** (`src/_11ty/collections/`): `posts.js` (filtered, sorted newest-first), `tagList.js`, `categoryList.js`, `sitemapHubs.js` (tag, category, and section pages for the sitemap).
 
 ## Non-Obvious
 
@@ -113,5 +118,7 @@ Post images go flat in `src/assets/i/` (served at `/assets/i/`). No subdirectori
 - Header z-index 150, archive banner z-index 200
 - `.u-visually-hidden` hides visually but keeps accessible to screen readers
 - `global.js` handles drawer state, theme toggle, text size/line-height controls
-- Fonts: Bricolage Grotesque (headings), Instrument Sans (body), Roboto Mono (code)
+- Fonts: Bricolage Grotesque (headings), Instrument Sans (body), Roboto Mono (code). Self-hosted in `src/assets/fonts/` (`fonts.css`), not loaded from Google Fonts
+- Structured data (Person, BlogPosting, ProfilePage) lives in `partials/structured-data.njk`; the bio and profile links it uses are `site.author` in `src/_data/site.js`
+- Google Analytics loads after the page's `load` event (see `head-meta.njk`)
 - Spacing tokens: `--space-xs` through `--space-xl`; border radius: `--radius-sm`, `--radius-lg`, `--radius-round`

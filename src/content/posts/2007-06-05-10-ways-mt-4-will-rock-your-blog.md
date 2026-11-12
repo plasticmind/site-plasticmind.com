@@ -19,7 +19,7 @@ hits: 307
 
 			
 
-<img src="/assets/i/mt4.jpg" alt="" />
+<img src="/assets/i/mt4.jpg" alt="MT 4 logo on a dark stage-lit background, the Movable Type 4 beta graphic" />
 
 
 
@@ -102,7 +102,7 @@ Go ahead, try it out.  You can pick it up at <a href="https://www.movabletype.or
 
 
 
-<a href="https://www.flickr.com/photos/plasticmind/532053320/"><img src="https://farm1.static.flickr.com/222/513189349_5f19028c4a_m.jpg" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/532053320/"><img src="https://farm1.static.flickr.com/222/513189349_5f19028c4a_m.jpg" alt="Movable Type logo with a wrench icon on a dark background, the desktop wallpaper offered as swag" /></a>
 
 
 		

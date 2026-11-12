@@ -18,7 +18,7 @@ hits: 111
 
 
 
-<img src="https://static.flickr.com/6/183363824_c8579ea091_o.jpg" alt="" />
+<img src="https://static.flickr.com/6/183363824_c8579ea091_o.jpg" alt="An Amish horse and buggy on a country road at sunset" />
 
 
 

@@ -19,7 +19,7 @@ hits: 142
 
 			
 
-<img src="https://farm3.static.flickr.com/2218/2324995252_207e8f1c0a.jpg?v=0" alt="" />
+<img src="https://farm3.static.flickr.com/2218/2324995252_207e8f1c0a.jpg?v=0" alt="Four panelists seated at a table under an SXSW Interactive banner, with audience heads in the foreground" />
 
 
 

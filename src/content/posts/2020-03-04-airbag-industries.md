@@ -59,7 +59,7 @@ The challenge is that if we wanted to track updates to the site, we’d need to 
 
 We eventually decided a setup like this was most flexible: <a href="https://gohugo.io/">Hugo</a> (installed a local machine) for rapid site design and development, <a href="https://forestry.io/">Forestry</a> (a hosted service) for day-to-day content creation/editing, <a href="https://github.com/">Github</a> to store it all (endless backups, basically), and <a href="https://www.netlify.com/">Netlify</a> to watch Github for any changes and build/deploy as needed.
 
-<img class="alignnone size-large wp-image-5967" src="/assets/i/hugo-setup-1024x538.png" alt="" width="1024" height="538" />
+<img class="alignnone size-large wp-image-5967" src="/assets/i/hugo-setup-1024x538.png" alt="Diagram of the new site workflow: Forestry.io for writing and Hugo for design, both saving to GitHub, which Netlify builds with Hugo and serves" width="1024" height="538" />
 
 Though it was a little harder to set up and a bit more complicated than the old Movable Type setup, this approach was flexible (you could blog from Github if you wanted to), portable (the site can be quickly checked out on any computer or server), and pretty darn reliable (full site backups on Github and redundancy on every machine where it’s checked out.)
 
@@ -80,7 +80,7 @@ After we settled on a platform and a host, I sent Greg a high level project plan
 
 A few days after I sent Greg a project plan for the migration, I received this email:
 
-<img class="alignnone size-large wp-image-5968" src="/assets/i/2020-03-04-at-6.54-AM-1024x399.png" alt="" width="1024" height="399" />
+<img class="alignnone size-large wp-image-5968" src="/assets/i/2020-03-04-at-6.54-AM-1024x399.png" alt="Email from Greg Storey with the subject &#x27;The Mac mini is no longer with us&#x27;, reporting his Mac mini died after almost 13 years" width="1024" height="399" />
 
 For years, Greg had been running his site with Movable Type on a Mac Mini in his living room, and — just our luck — right as we were ready to begin, the Mac died.
 
@@ -118,11 +118,11 @@ To make this easier, I imported the spreadsheet from OpenRefine into Google Shee
 
 Once Greg had selected the posts he wanted to keep, I put together a script that would export the Google Sheets as individual Markdown files in my Google Drive:
 
-<img class="alignnone size-large wp-image-5969" src="/assets/i/unnamed-1024x690.png" alt="" width="1024" height="690" />
+<img class="alignnone size-large wp-image-5969" src="/assets/i/unnamed-1024x690.png" alt="Screenshot of a Google Apps Script named Export Airbag Spreadsheet that creates a Markdown file for each spreadsheet row" width="1024" height="690" />
 
 In short, it loops through all the rows in the spreadsheet and creates a file for each in my Google drive with a filename based on the date and slug and the file contents based on the spreadsheet contents.
 
-<img class="alignnone size-large wp-image-5970" src="/assets/i/unnamed-2-1024x741.png" alt="" width="1024" height="741" />
+<img class="alignnone size-large wp-image-5970" src="/assets/i/unnamed-2-1024x741.png" alt="Google Drive listing of exported Markdown files named by date and slug, such as 2002-02-15-helping-america-jr.md" width="1024" height="741" />
 
 Basically, this script outputs the flat Markdown files our static site generator needs. I was able to drop these files into the <code>content/posts</code> folder and Hugo processed them with no trouble.
 
@@ -150,7 +150,7 @@ However, since we had moved everything into flat files, I found that it was much
 
 Because Greg tends to quote external articles, I also ran a few regular expressions to transform a quote class for block quotes into Markdown’s block quote syntax.
 
-<img class="alignnone size-large wp-image-5971" src="/assets/i/2020-03-04-at-9.49-AM-1024x615.png" alt="" width="1024" height="615" />
+<img class="alignnone size-large wp-image-5971" src="/assets/i/2020-03-04-at-9.49-AM-1024x615.png" alt="Code comparison of a div with class &#x27;quote&#x27; versus the same text converted to a Markdown block quote" width="1024" height="615" />
 
 #### Asset references
 

@@ -26,7 +26,7 @@ To that end, I created this logo refresh that I quite like. I envision creating 
 
 I'll also need to create an SVG of this so I can use it for print. Trying to figure out how to best handle the gradients and opacity in a vector format should be an interesting challenge!
 
-<img class="alignnone size-full wp-image-5734" src="/assets/i/pmd-1.png" alt="" width="928" height="242" />
+<img class="alignnone size-full wp-image-5734" src="/assets/i/pmd-1.png" alt="Plasticmind logo in pink and white lettering over a red and purple watercolor texture" width="928" height="242" />
 
 <div style="display: none;"></div>
 

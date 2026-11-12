@@ -19,7 +19,7 @@ hits: 1413
 
 			
 
-<img src="https://farm3.static.flickr.com/2120/2156721865_919ba368a9.jpg?v=0" alt="" />
+<img src="https://farm3.static.flickr.com/2120/2156721865_919ba368a9.jpg?v=0" alt="Digital painting of a pink hyacinth bloom against a dark background" />
 
 
 

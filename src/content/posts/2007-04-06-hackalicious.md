@@ -19,7 +19,7 @@ hits: 259
 
 			
 
-<img src="/assets/i/hack-a-thon-thumb.jpg" width="600" height="400" alt="" />
+<img src="/assets/i/hack-a-thon-thumb.jpg" width="600" height="400" alt="Three men at a conference table at Six Apart&#x27;s Hack-a-thon, two seated looking at a laptop and one standing" />
 
 
 

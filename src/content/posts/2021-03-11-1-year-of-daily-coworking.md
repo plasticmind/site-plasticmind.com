@@ -46,83 +46,83 @@ In no particular order:
 
 ---
 
-[![](/assets/i/clare-1024x1019.png)](https://instagram.com/clarebotanica)
+[![Portrait of Clare Freeman, with short blonde hair and glasses against a sparkly pink backdrop](/assets/i/clare-1024x1019.png)](https://instagram.com/clarebotanica)
 
 ### <a href="https://instagram.com/clarebotanica">Clare Freeman</a>
 
-[![](/assets/i/dustin-1024x1024.png)](https://www.instagram.com/leerdustin/)
+[![Black and white portrait of Dustin Leer in a dark t-shirt](/assets/i/dustin-1024x1024.png)](https://www.instagram.com/leerdustin/)
 
 ### <a href="https://www.instagram.com/leerdustin/">Dustin Leer</a>
 
-[![](/assets/i/andrew.jpg)](https://www.instagram.com/bullet_and_whiskey/)
+[![Portrait of Andrew Colclough in a colonial-style costume shirt at his desk](/assets/i/andrew.jpg)](https://www.instagram.com/bullet_and_whiskey/)
 
 ### <a href="https://www.instagram.com/bullet_and_whiskey/">Andrew Colclough</a>
 
-[![](/assets/i/snook.jpg)](https://twitter.com/snookca)
+[![Portrait of Jonathan Snook with a beard, glasses, and a Twitter logo t-shirt](/assets/i/snook.jpg)](https://twitter.com/snookca)
 
 ### <a href="https://twitter.com/snookca">Jonathan Snook</a>
 
-[![](/assets/i/taylor.jpg)](https://twitter.com/taylordunham_)
+[![Portrait of Taylor Dunham smiling and holding a gray and white puppy](/assets/i/taylor.jpg)](https://twitter.com/taylordunham_)
 
 ### <a href="https://twitter.com/taylordunham_">Taylor Dunham</a>
 
-[![](/assets/i/kinsey.jpg)](https://www.facebook.com/kinsey.dickey)
+[![Portrait of Kinsey Dickey with her arm around a smiling girl on a bridge](/assets/i/kinsey.jpg)](https://www.facebook.com/kinsey.dickey)
 
 ### <a href="https://www.facebook.com/kinsey.dickey">Kinsey Dickey</a>
 
-[![](/assets/i/ericmeyer280.jpg)](https://twitter.com/meyerweb)
+[![Portrait of Eric Meyer, with glasses and a light goatee, against a leafy background](/assets/i/ericmeyer280.jpg)](https://twitter.com/meyerweb)
 
 ### <a href="https://twitter.com/meyerweb">Eric Meyer</a>
 
-[![](/assets/i/dave-1024x1024.jpg)](https://www.facebook.com/daveshack)
+[![Dave Shackelford sitting in a rowboat on a lake, smiling and looking to the side](/assets/i/dave-1024x1024.jpg)](https://www.facebook.com/daveshack)
 
 ### <a href="https://www.facebook.com/daveshack">Dave Shackelford</a>
 
-[![](/assets/i/chuck-edited.png)](https://twitter.com/chuckwoj)
+[![Portrait of Chuck Wojack in a black polo shirt with a goatee](/assets/i/chuck-edited.png)](https://twitter.com/chuckwoj)
 
 ### <a href="https://twitter.com/chuckwoj">Chuck Wojack</a>
 
-[![](/assets/i/anton.jpg)](https://twitter.com/antonpeck)
+[![Close-up black and white portrait of Anton Peck, showing half of his face](/assets/i/anton.jpg)](https://twitter.com/antonpeck)
 
 ### <a href="https://twitter.com/antonpeck">Anton Peck</a>
 
-[![](/assets/i/tatiana.jpg)](https://twitter.com/darumacreative)
+[![Portrait of Tatiana Bischak in profile with a side-swept undercut and eyes closed](/assets/i/tatiana.jpg)](https://twitter.com/darumacreative)
 
 ### <a href="https://twitter.com/darumacreative">Tatiana Bischak</a>
 
-[![](/assets/i/chris-edited.png)](https://twitter.com/chrisfrueh)
+[![Webcam portrait of Chris Frueh resting his chin on his hand](/assets/i/chris-edited.png)](https://twitter.com/chrisfrueh)
 
 ### <a href="https://twitter.com/chrisfrueh">Chris Frueh</a>
 
-[![](/assets/i/arjen-1024x1024.jpg)](https://twitter.com/callmearjen)
+[![Portrait of Arjen Elliot in glasses and a plaid shirt against a gray lake](/assets/i/arjen-1024x1024.jpg)](https://twitter.com/callmearjen)
 
 ### <a href="https://twitter.com/callmearjen">Arjen Elliot</a>
 
-[![](/assets/i/rob.jpg)](https://twitter.com/SomethingRobS)
+[![Portrait of Rob Stewart in a tie, sitting on a bench in a garden](/assets/i/rob.jpg)](https://twitter.com/SomethingRobS)
 
 ### <a href="https://twitter.com/SomethingRobS">Rob Stewart</a>
 
-[![](/assets/i/jody.jpg)](https://twitter.com/jodyheavener)
+[![Portrait of Jody Heavener holding a white mug labeled 'depressed'](/assets/i/jody.jpg)](https://twitter.com/jodyheavener)
 
 ### <a href="https://twitter.com/jodyheavener">Jody Heavener</a>
 
-[![](/assets/i/tyler.jpg)](https://twitter.com/tyler_paulson)
+[![Portrait of Tyler Paulson smiling and holding a toddler outdoors in autumn](/assets/i/tyler.jpg)](https://twitter.com/tyler_paulson)
 
 ### <a href="https://twitter.com/tyler_paulson">Tyler Paulson</a>
 
-[![](/assets/i/josh.jpg)](https://twitter.com/joshking)
+[![Silhouette of Josh King looking out at hills at dusk](/assets/i/josh.jpg)](https://twitter.com/joshking)
 
 ### <a href="https://twitter.com/joshking">Josh King</a>
 
-[![](/assets/i/jacob.jpg)](https://twitter.com/jacobatruman)
+[![Selfie of Jacob Truman smiling next to a woman in aviator sunglasses](/assets/i/jacob.jpg)](https://twitter.com/jacobatruman)
 
 ### <a href="https://twitter.com/jacobatruman">Jacob Truman</a>
 
-[![](/assets/i/matt.jpg)](https://twitter.com/matto)
+[![Black and white close-up of Matthew Oliphant wearing wood-grain glasses](/assets/i/matt.jpg)](https://twitter.com/matto)
 
 ### <a href="https://twitter.com/matto">Matthew Oliphant</a>
 
-[![](/assets/i/jeff.jpg)](https://twitter.com/JeffLancaster6)
+[![Black and white portrait of Jeffrey Lancaster adjusting his collar against a siding wall](/assets/i/jeff.jpg)](https://twitter.com/JeffLancaster6)
 
 ### <a href="https://twitter.com/JeffLancaster6">Jeffrey Lancaster</a>
 
@@ -222,4 +222,4 @@ It's hard to pick out all the meaningful memories from 300+ hours of conversatio
 
 *Cowrok calls happen Monday - Friday from 10a-11:30a ET.  All are welcome. Follow <a href="https://twitter.com/plasticmind">@plasticmind</a> to get notified when a new session starts. *
 
-![](/assets/i/cowrokAsset-2@2x-1024x1024.png)
+![Cowrok logo: the word COWROK in red on a white center of overlapping colorful triangles on a dark navy background](/assets/i/cowrokAsset-2@2x-1024x1024.png)

@@ -19,7 +19,7 @@ hits: 450
 
 			
 
-<img src="/assets/i/ordination.jpg" alt="" />
+<img src="/assets/i/ordination.jpg" alt="Yellow and purple banner with the word Ordination and a BMX rider flying over treetops" />
 
 
 

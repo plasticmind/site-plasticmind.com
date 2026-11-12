@@ -19,7 +19,7 @@ hits: 144
 
 			
 
-<img src="https://farm3.static.flickr.com/2380/2214797684_5efb562077.jpg?v=0" alt="" />
+<img src="https://farm3.static.flickr.com/2380/2214797684_5efb562077.jpg?v=0" alt="Sarah smiling in a dark cardigan and floral vest" />
 
 
 

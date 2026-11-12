@@ -19,7 +19,7 @@ hits: 241
 
 			
 
-<img src="https://farm3.static.flickr.com/2413/2293166344_a3a080ef07.jpg?v=0" alt="" />
+<img src="https://farm3.static.flickr.com/2413/2293166344_a3a080ef07.jpg?v=0" alt="Color-coded Movable Type 4 template map grouping index, archive, module, and system templates" />
 
 
 

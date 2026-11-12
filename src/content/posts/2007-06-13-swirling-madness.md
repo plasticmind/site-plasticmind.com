@@ -14,6 +14,8 @@ meta_description:
 context: personal
 fix: false
 hits: 227
+# Short personal post: kept on the site, left out of search results.
+noindex: true
 ---
 
 Isn't it funny when <a href="https://www.flickr.com/photos/plasticmind/sets/72157600345543118/">nature reflects life</a>?

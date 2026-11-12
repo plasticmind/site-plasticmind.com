@@ -19,7 +19,7 @@ hits: 241
 
 			
 
-<img src="/assets/i/tmobile.jpg" alt="" />
+<img src="/assets/i/tmobile.jpg" alt="T-Mobile HotSpot @ Home logo in magenta and gray" />
 
 
 

@@ -64,7 +64,7 @@ Nothing's worse than a sick wife, not even a broken website.  At least I know ho
 
 
 
-<a href="https://www.flickr.com/photos/plasticmind/201198417/"><img src="https://static.flickr.com/61/201198417_fb3669643a_m.jpg" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/201198417/"><img src="https://static.flickr.com/61/201198417_fb3669643a_m.jpg" alt="My sick wife smiling slightly in a pink sleeveless top in front of a green military vehicle" /></a>
 
 
 

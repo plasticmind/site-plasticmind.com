@@ -31,8 +31,8 @@ To install, simply copy the unzipped file to the:
 </code></pre>
 directory. If that directory doesn’t exist, you’ll need to create it. For more information, be sure to check out <a href="https://colloquy.info/project/wiki/FAQs#WheredoIinstallnewStylesEmoticonsorPlugins">Colloquy’s FAQ list</a>.
 
-<a href="https://www.flickr.com/photos/plasticmind/2359906255/in/photostream/"><img src="https://farm3.static.flickr.com/2056/2359906255_e73c35df6f.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/2359906255/in/photostream/"><img src="https://farm3.static.flickr.com/2056/2359906255_e73c35df6f.jpg?v=0" alt="Colloquy chat transcript in a dark theme with the Lovable Type 4 logo watermark" /></a>
 
 <!--more-->
 
-<a href="https://www.flickr.com/photos/plasticmind/2359904919/in/photostream/"><img src="https://farm3.static.flickr.com/2280/2359904919_3249478e7e.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/2359904919/in/photostream/"><img src="https://farm3.static.flickr.com/2280/2359904919_3249478e7e.jpg?v=0" alt="Colloquy chat transcript in a light theme with the Lovable Type 4 logo watermark" /></a>

@@ -70,7 +70,7 @@ You can listen to the <a href="https://www.oxfordvalleychapel.org/sermons//audio
 
 A sample platter of examination council members:
 
-<a href="https://www.flickr.com/photos/plasticmind/930034099/"><img src="https://farm2.static.flickr.com/1418/930034099_f95712c9f5.jpg?v=0" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/930034099/"><img src="https://farm2.static.flickr.com/1418/930034099_f95712c9f5.jpg?v=0" alt="Four men from the ordination examination council standing together, including me and my dad" /></a>
 
 From left to right: Frank Cirone, <a href="https://www.progressivedevotions.com/">Keith Gardner (my dad)</a>, Me and Joe Roof; missing from the picture are Carl Barr, Pastor Dan and Rob Bailey.
 

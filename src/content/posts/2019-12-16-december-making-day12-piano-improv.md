@@ -24,7 +24,7 @@ https://soundcloud.com/jesse-gardner/piano-improv-12-16-19
 
 *This is day 12 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
-<img class="alignnone size-large wp-image-5783" src="/assets/i/2019-12-16-at-11.12-PM-1024x249.png" alt="" width="1024" height="249" />
+<img class="alignnone size-large wp-image-5783" src="/assets/i/2019-12-16-at-11.12-PM-1024x249.png" alt="GarageBand tracks showing a Steinway Grand Piano recording above a cello track named Abbey Wood" width="1024" height="249" />
 
 <div style="display: none;"></div>
 

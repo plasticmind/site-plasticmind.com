@@ -14,6 +14,8 @@ meta_description:
 context: personal
 fix: false
 hits: 249
+# Short personal post: kept on the site, left out of search results.
+noindex: true
 ---
 
 
@@ -25,7 +27,7 @@ Last night, my very first niece was born… 8lbs., 3oz. and 20”.  Congratulati
 
 
 
-<img src="https://farm3.static.flickr.com/2330/2071783654_724b15d590.jpg?v=0" alt="" />
+<img src="https://farm3.static.flickr.com/2330/2071783654_724b15d590.jpg?v=0" alt="Newborn baby in a white cap and swaddle blanket, held in someone&#x27;s lap beside a hand" />
 
 **Emma Ariel Gardner, 11/27/07**
 
