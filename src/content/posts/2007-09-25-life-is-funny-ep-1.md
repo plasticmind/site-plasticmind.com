@@ -55,7 +55,7 @@ Oh, and have you seen my favorite picture from Alcatraz?  The prisoners called t
 
 
 
-<a href="https://photos.plasticmind.com/photo/1426921646"><img src="https://farm2.static.flickr.com/1380/1426921646_3d5046fc1b.jpg" alt="" /></a>
+<a href="https://www.flickr.com/photos/plasticmind/1426921646/"><img src="https://farm2.static.flickr.com/1380/1426921646_3d5046fc1b.jpg" alt="" /></a>
 
 
 

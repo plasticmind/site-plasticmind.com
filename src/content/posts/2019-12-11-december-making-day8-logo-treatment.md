@@ -16,7 +16,7 @@ fix: false
 hits: 103
 ---
 
-*This is day 8 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 8 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 One of the mental barriers that has prevented me from being as prolific in my writing is a strange paralysis I get from feeling like my site is ugly and outdated. I'd love to create a new design, migrate to a new CMS, build out a better set of features and functionality, and I've got a *lot* of ideas I'd like to build out. I just haven't been able to prioritize those things with a lot of client work on deck.
 

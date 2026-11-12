@@ -19,7 +19,7 @@ hits: 334
 
 			
 
-<a href="https://plasticmind.com/mind/the-big-room/">I quit cold turkey</a>. I deleted all the social media apps off my phone, blocked the URLs in my host file and generally avoided thinking about or checking status updates.  I limited social interaction to phone calls, texting, email and, of course, real-life encounters.
+<a href="/journal/the-big-room/">I quit cold turkey</a>. I deleted all the social media apps off my phone, blocked the URLs in my host file and generally avoided thinking about or checking status updates.  I limited social interaction to phone calls, texting, email and, of course, real-life encounters.
 
 
 

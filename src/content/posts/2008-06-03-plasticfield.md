@@ -19,7 +19,7 @@ hits: 402
 
 			
 
-Thanks to <a href="https://endevver.com">Jay</a> and <a href="https://movalog.com">Arvind</a>, I've finally finished my first plugin, **PlasticField**.  I'd appreciate any <a href="https://plasticmind.com/contact/">feedback</a> on it you may have.
+Thanks to <a href="https://endevver.com">Jay</a> and <a href="https://movalog.com">Arvind</a>, I've finally finished my first plugin, **PlasticField**.  I'd appreciate any <a href="/">feedback</a> on it you may have.
 
 
 
@@ -34,7 +34,7 @@ This plugin gives you a new custom field type (‘Formatted Multi-Line Text Fiel
 
 
 
-<img src="https://img.skitch.com/20080603-8uyyn8bacqdjjd51h64ynnayfm.png" alt="PlasticField" />
+
 
 
 
@@ -49,7 +49,7 @@ PlasticField requires that you have <a href="https://www.movabletype.com/product
 
 
 
-<a href="https://plasticmind.com/plugins/PlasticField.zip" class="download-link">Download PlasticField v.0.1 for MT <span>(.zip/32k, updated 6/3/08)</span></a>
+Download PlasticField v.0.1 for MT <span>(.zip/32k, updated 6/3/08)</span>
 
 
 
@@ -58,7 +58,7 @@ PlasticField requires that you have <a href="https://www.movabletype.com/product
 
 
 
-This plugin is free and is provided as-is.  You can use it, redistribute it and/or modify it.  You just can't start reselling it as-is.  If you have a problem and would like to submit a fix, let me know.  **If you'd like to hire me to install it for you or just make your website look good, <a href="https://plasticmind.com/contact/">drop me a line</a>.**
+This plugin is free and is provided as-is.  You can use it, redistribute it and/or modify it.  You just can't start reselling it as-is.  If you have a problem and would like to submit a fix, let me know.  **If you'd like to hire me to install it for you or just make your website look good, <a href="/">drop me a line</a>.**
 
 
 

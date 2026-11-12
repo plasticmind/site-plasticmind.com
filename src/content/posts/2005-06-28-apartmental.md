@@ -37,7 +37,7 @@ Speaking of design, we got the apartment looking alot less like a dorm and alot 
 
 
 
-<img src="https://plasticmind.com/images/nav-search.gif" /> <a href="https://plasticmind.com/video/apartmentflythrough.wmv"><font style="color:red;font-size:14px;">APARTMENT FLYTHROUGH VIDEO (*double time to avoid boredom*)</font></a>
+ <font style="color:red;font-size:14px;">APARTMENT FLYTHROUGH VIDEO (*double time to avoid boredom*)</font>
 
 
 

@@ -18,7 +18,7 @@ hits: 138
 
 
 
-Any of you who read my blog know that <a href="https://plasticmind.com/retrospection/so-roll-the-clouds/">my heart has been heavy for my friend Jim Baldwin</a>.  Jim has been diagnosed with several types of cancer that have spread quite rapidly through his body.   His wife Bonnie and his son Andy have been struggling without Jim around.  Instead of asking "why God?", we've decided to spend 24 solid hours asking God to heal Jim.  It may not be what He has in mind, but we've been told to bring our requests.  We'll keep asking until He tells otherwise.  
+Any of you who read my blog know that <a href="/journal/so-roll-the-clouds/">my heart has been heavy for my friend Jim Baldwin</a>.  Jim has been diagnosed with several types of cancer that have spread quite rapidly through his body.   His wife Bonnie and his son Andy have been struggling without Jim around.  Instead of asking "why God?", we've decided to spend 24 solid hours asking God to heal Jim.  It may not be what He has in mind, but we've been told to bring our requests.  We'll keep asking until He tells otherwise.  
 
 
 

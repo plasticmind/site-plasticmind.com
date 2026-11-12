@@ -25,7 +25,7 @@ I mean, what's not to like?  The guy's an indie artist whose favorite instrument
 
 
 
-Here's a classic example:  Chicago, the song he's probably most famous for, is a memorable pop-ish jaunt, but as quick as you can say "Casimir Pulinski", the simple, haunting ballad of John Wayne Gacy gets seared into the brain.  And then, without so much as a blink, his music takes on a whole new level with the grand, sweeping sounds of <a href="https://audio.plasticmind.com/music/sufjan/SufjanStevens-MajestySnowbirdLive.mp3">Majesty Snowbird</a>, one of his yet-to-be-recorded songs he performed live on his most recent tour.
+Here's a classic example:  Chicago, the song he's probably most famous for, is a memorable pop-ish jaunt, but as quick as you can say "Casimir Pulinski", the simple, haunting ballad of John Wayne Gacy gets seared into the brain.  And then, without so much as a blink, his music takes on a whole new level with the grand, sweeping sounds of Majesty Snowbird, one of his yet-to-be-recorded songs he performed live on his most recent tour.
 
 
 
@@ -37,7 +37,7 @@ Now, those of you indie aficionado's *cough*Andy*cough* will have to bear with m
 
 
 
-You can watch his Majesty Snowbird performance (with the Butterfly Brigade!) <a href="https://www.youtube.com/watch?v=5DnN_z4N2bg">here</a> or <a href="https://www.youtube.com/watch?v=Sgt7G1BYZmg">here</a>, or better yet, <a href="https://audio.plasticmind.com/music/sufjan/SufjanStevens-MajestySnowbirdLive.mp3">download the full 10 minute .mp3</a> with much better (still not great) sound quality.
+You can watch his Majesty Snowbird performance (with the Butterfly Brigade!) <a href="https://www.youtube.com/watch?v=5DnN_z4N2bg">here</a> or <a href="https://www.youtube.com/watch?v=Sgt7G1BYZmg">here</a>, or better yet, download the full 10 minute .mp3 with much better (still not great) sound quality.
 
 
 

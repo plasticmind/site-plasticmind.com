@@ -26,7 +26,7 @@ See, it's not really that I have poor taste in laptops.  When I bought the thing
 
 ![eMac?](https://static.flickr.com/46/158167627_fad4a8181c_o.jpg)
 
-And it's lasted pretty well; [I only had to rebuild it once](/0s-and-1s/paradigm-lost/).
+And it's lasted pretty well; I only had to rebuild it once.
 
 But after being laughed to scorn at the Six Apart Business Blogging Seminar for my eMachines laptop (can I help it that [the Apple sticker is see-through](https://www.flickr.com/photos/plasticmind/158165089/) I decided it was time to take action.  So here's my tin-can jingling in the street. Spare a bloke a dollar for [a real MacBook](https://www.apple.com/macbook/)?
 

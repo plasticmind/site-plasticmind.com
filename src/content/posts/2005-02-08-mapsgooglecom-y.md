@@ -31,7 +31,7 @@ They've done it and they've done it good.
 
 
 
-<a href="https://maps.google.com"><img alt="googlemaps.gif" src="https://plasticmind.com/images/googlemaps.gif" width="164" height="64" border="0" /></a>
+
 
 
 

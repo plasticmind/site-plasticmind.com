@@ -31,7 +31,7 @@ We got on the road early Friday morning and drove a good six hours through <a hr
 
 
 
-<a href="https://www.hendersoncorporation.com/images/gallery/mini-circa_1880_Pa._barn_-_single_bent.JPG" target="_blank"><img src="https://images.google.com/images?q=tbn:eeFNAWab0GEJ:https://www.hendersoncorporation.com/images/gallery/mini-circa_1880_Pa._barn_-_single_bent.JPG"></a>
+
 
 
 			<!--more-->

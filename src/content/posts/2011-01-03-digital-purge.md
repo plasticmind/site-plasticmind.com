@@ -19,13 +19,13 @@ hits: 307
 
 			
 
-The first of my <a href="https://plasticmind.com/retrospection/30-day-change/">2011 challenges</a> is going to be a tough one: no Facebook or Twitter for 30 days.
+The first of my <a href="/journal/30-day-change/">2011 challenges</a> is going to be a tough one: no Facebook or Twitter for 30 days.
 
 
 
 
 
-As with each of these challenges, I have to set some parameters for it at the beginning of the month.  In other words, what does “no Facebook or Twitter” mean practically?  It requires a little more definition than just logging in to Twitter and Facebook to check or post updates.  Am I allowed to look over my shoulder as my wife checks her Facebook?  (Yes.)  Can I use apps like Instagram or Gowalla to push updates to Facebook?  (No.)  What about reading email notifications from Facebook?  (Fortunately, <a href="https://plasticmind.com/social-networking/facebook-friend-spam/">I turned those off</a>.)
+As with each of these challenges, I have to set some parameters for it at the beginning of the month.  In other words, what does “no Facebook or Twitter” mean practically?  It requires a little more definition than just logging in to Twitter and Facebook to check or post updates.  Am I allowed to look over my shoulder as my wife checks her Facebook?  (Yes.)  Can I use apps like Instagram or Gowalla to push updates to Facebook?  (No.)  What about reading email notifications from Facebook?  (Fortunately, I turned those off.)
 
 
 

@@ -37,7 +37,7 @@ A week or two after he's born we'll go to CHOP so the doctors can make a full ev
 
 
 
-If he has a full cleft lip that runs up into the nostril (which, from <a href="https://photos.plasticmind.com/photo/2490094421">the ultrasound</a>, we think he does), they'll do a two-step lip repair.  At three or four months, they'll perform the first surgery which will connect the cleft in the nostril, essentially creating a partial cleft.  After about 3 more months, they'll perform another surgery to repair the lip fully.  During the first surgery, an ENT (ear, nose and throat) physician will also install tubes in his ears since children with cleft palates are prone to fluid buildup and ear infections.
+If he has a full cleft lip that runs up into the nostril (which, from <a href="https://www.flickr.com/photos/plasticmind/2490094421/">the ultrasound</a>, we think he does), they'll do a two-step lip repair.  At three or four months, they'll perform the first surgery which will connect the cleft in the nostril, essentially creating a partial cleft.  After about 3 more months, they'll perform another surgery to repair the lip fully.  During the first surgery, an ENT (ear, nose and throat) physician will also install tubes in his ears since children with cleft palates are prone to fluid buildup and ear infections.
 
 
 

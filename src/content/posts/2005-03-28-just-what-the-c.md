@@ -25,7 +25,7 @@ Well, if you happen to look down at the bottom of this post, you'll notice the t
 
 
 
-<a href="https://plasticmind.com/fisher" target="_blank" border="0"><img alt="banner-cf.jpg" src="https://plasticmind.com/images/banner-cf.jpg" width="450" height="92" /></a>
+
 
 
 
@@ -43,7 +43,7 @@ Lots of interesting things over there.  Go check it out:
 
 
 
-<a href="https://plasticmind.com/fisher" target="_blank">**<span style="font-size:16px;text-decoration: none;">plasticmind.com/fisher</span>**</a>
+**<span style="font-size:16px;text-decoration: none;">plasticmind.com/fisher</span>**
 
 
 

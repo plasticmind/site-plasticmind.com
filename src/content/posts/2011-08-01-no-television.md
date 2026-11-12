@@ -19,7 +19,7 @@ hits: 350
 
 			
 
-I've been attempting these <a href="https://plasticmind.com/retrospection/30-day-change/">30 day challenges</a> for over half a year now, with considerable success.  August will probably be the most difficult yet rewarding challenge yet: **no television for 30 days**.
+I've been attempting these <a href="/journal/30-day-change/">30 day challenges</a> for over half a year now, with considerable success.  August will probably be the most difficult yet rewarding challenge yet: **no television for 30 days**.
 
 
 

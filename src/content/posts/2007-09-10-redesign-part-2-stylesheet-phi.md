@@ -40,7 +40,7 @@ So let's get right down to it.  What does **eliminate redundant code** have to d
 
 			<!--more-->
 
-Plenty.  The best stylesheets are well-thought-out and deal with many stylistic changes in a broad, concise way.  <a href="https://plasticmind.com/old/css/plasticmario.css">Bad CSS</a> is akin to micromanagement: you spend so much time styling each individual element that you forget the big picture of how elements relate to each other and inherit properties, resulting in a whole lot of redundancy.  (We call redundancy like this *bureaucracy* when it happens in the government.)  Here's how I broke down the stylesheets for <a href="https://plasticmind.com">Plasticmind.com</a>:
+Plenty.  The best stylesheets are well-thought-out and deal with many stylistic changes in a broad, concise way.  Bad CSS is akin to micromanagement: you spend so much time styling each individual element that you forget the big picture of how elements relate to each other and inherit properties, resulting in a whole lot of redundancy.  (We call redundancy like this *bureaucracy* when it happens in the government.)  Here's how I broke down the stylesheets for <a href="/">Plasticmind.com</a>:
 
 
 
@@ -58,7 +58,7 @@ I almost always begin with a reset CSS file.  One speedbump for me when I was fi
 
 
 
-Next, I decided to take a dual stylesheet approach.  My site has a common layout across the multiple sections, so I created an overall shared layout that exists in <a href="https://plasticmind.com/css/haas-common.css">a common CSS file</a>, while the section specific styles get put into <a href="https://plasticmind.com/css/haas-blog.css">a section specific stylesheet</a>.  So, if a particular style will be used in every section, it goes into the common stylesheet; if not, it gets stashed into the section-specific one.
+Next, I decided to take a dual stylesheet approach.  My site has a common layout across the multiple sections, so I created an overall shared layout that exists in a common CSS file, while the section specific styles get put into a section specific stylesheet.  So, if a particular style will be used in every section, it goes into the common stylesheet; if not, it gets stashed into the section-specific one.
 
 
 

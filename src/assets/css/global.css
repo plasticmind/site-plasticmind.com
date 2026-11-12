@@ -45,6 +45,11 @@ img {
     height: auto;
 }
 
+/* <picture> only swaps in WebP sources; it shouldn't change layout. */
+picture {
+    display: contents;
+}
+
 * {
     box-sizing: border-box;
 }

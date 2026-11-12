@@ -36,7 +36,7 @@ The assembled shelf looked good and was fairly sturdy, but my wife suggested a b
 
 I made some of the cuts a little too quickly (that or I need a new blade), so some of the cuts are splintered at the edges, but all in all, I'm happy with how it turned out. My son is also happy with how it turned out, so... project accomplished!
 
-*This is day 16 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 16 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 <img class="alignnone size-large wp-image-5820" src="/assets/i/IMG_6489-1024x768.jpg" alt="" width="1024" height="768" /><img class="alignnone size-large wp-image-5821" src="/assets/i/IMG_6490-1024x768.jpg" alt="" width="1024" height="768" /><img class="alignnone size-large wp-image-5819" src="/assets/i/IMG_6488-1024x768.jpg" alt="" width="1024" height="768" />
 

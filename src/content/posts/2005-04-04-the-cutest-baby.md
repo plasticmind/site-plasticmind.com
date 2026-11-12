@@ -42,7 +42,7 @@ Anyway, on to the good stuff.  For all of my lazy readers who come only for the 
 
 
 
-<a href="https://plasticmind.com/video/gabrieldance-small.wmv" title="Download the Video"><img alt="gabriel1.jpg" src="https://plasticmind.com/images/gabriel1.jpg" width="400" height="300" /><br />Download the GabeDance Video</a>
+<br />Download the GabeDance Video
 
 
 

@@ -19,13 +19,13 @@ hits: 289
 
 			
 
-<a href="https://photos.plasticmind.com/challenge/"><img src="https://plas.tc/s/challenge-20110301-085917.png" alt="February Photo Challenge" title="" /></a>
 
 
 
 
 
-We just crossed over into March, which means <a href="https://photos.plasticmind.com/challenge/">my February photo challenge</a> is done.  I'm not sure if it's because February only has 28 days this year, but the end of this challenge caught me completely by surprise.  Here and gone.
+
+We just crossed over into March, which means my February photo challenge is done.  I'm not sure if it's because February only has 28 days this year, but the end of this challenge caught me completely by surprise.  Here and gone.
 
 
 
@@ -49,7 +49,7 @@ As a sidenote, I had a lot of fun building the challenge site.  I piggy-backed o
 
 
 
-All in all, though, it was a good experience and certainly one I'd like to try again.  Did any of you do a photo challenge for February?  Some other challenge?  I'm going to post another update in the next few days about my March challenge (<a href="https://plasticmind.com/retrospection/30-day-change/">no computer after 9pm!</a>), but I'd love to hear about how you're making out on these 30 day challenges…
+All in all, though, it was a good experience and certainly one I'd like to try again.  Did any of you do a photo challenge for February?  Some other challenge?  I'm going to post another update in the next few days about my March challenge (<a href="/journal/30-day-change/">no computer after 9pm!</a>), but I'd love to hear about how you're making out on these 30 day challenges…
 
 
 

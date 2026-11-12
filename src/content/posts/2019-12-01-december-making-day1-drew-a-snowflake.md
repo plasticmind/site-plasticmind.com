@@ -16,7 +16,7 @@ fix: false
 hits: 315
 ---
 
-*This is day 1 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 1 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 I drew this snowflake with Procreate on the iPad. I used a textured brush to paint a background layer, then flooded a secondary layer with a solid color and used a brush pen with the radial symmetry drawing grid to erase the secondary layer and let the colored background show through.
 

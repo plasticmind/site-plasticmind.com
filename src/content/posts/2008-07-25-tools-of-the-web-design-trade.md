@@ -18,9 +18,9 @@ hits: 454
 
 Unless you count watching <a href="https://www.youtube.com/watch?v=4tK70tHKhME">*The Secret City*</a> with Mark Kistler on Saturday mornings as a child, the only formal training I’ve had in graphic design is an Intro to Desktop Publishing class that taught me the keyboard shortcuts in Photoshop and Illustrator. Everything else I’ve learned through observation and synthesis. That’s one of the great things about the Internet: there is no dearth of brilliant people taking chances, making progress and sharing their findings.
 
-Now, I wouldn’t consider myself brilliant, but I’d like to think I’ve made some progress over the last two years since <a href="https://plasticmind.com">Plasticmind Design</a> first hatched. So in the spirit of giving back, I think it’s only right that I share some things I’ve picked up over the years.
+Now, I wouldn’t consider myself brilliant, but I’d like to think I’ve made some progress over the last two years since <a href="/">Plasticmind Design</a> first hatched. So in the spirit of giving back, I think it’s only right that I share some things I’ve picked up over the years.
 
-Here are some of the tools that help me do what I do. This first article in the series covers inspiration, instruction and administrivia. Part two which I’ll publish next Tuesday will cover resources and process. (In the mean time, you can find some <a href="https://plasticmind.com/design/creating-mockups-in-photoshop/">helpful design resources here</a>.)
+Here are some of the tools that help me do what I do. This first article in the series covers inspiration, instruction and administrivia. Part two which I’ll publish next Tuesday will cover resources and process. (In the mean time, you can find some <a href="/journal/creating-mockups-in-photoshop/">helpful design resources here</a>.)
 
 <!--more-->
 
@@ -79,4 +79,4 @@ One of the first steps for almost every design project is getting together with 
 
 One important tip about scheduling: leave yourself one “spacer day” a week. Earlier this year I determined to get a better handle of scheduling, so I booked nearly two months in advance. But when certain projects took longer than I had planned (as they always do), suddenly my entire schedule was in shambles. Just as bridge builders use expansion joints to allow a bridge to “flex” when the weather causes its expansion and contraction, your schedule needs “flex” time or else you’ll find yourself apologizing endlessly to clients and earning the infamous reputation: “he’s a great web designer, but he can’t meet deadlines.”
 
-**Continue reading: <a href="https://plasticmind.com/design/tools-of-the-web-design-trade-2/">Tools of the Web Design Trade, Part 2 - Resources and Process</a>**
+**Continue reading: <a href="/journal/tools-of-the-web-design-trade-2/">Tools of the Web Design Trade, Part 2 - Resources and Process</a>**

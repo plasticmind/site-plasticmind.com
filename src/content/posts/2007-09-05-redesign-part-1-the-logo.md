@@ -59,12 +59,12 @@ First, I took the sharp edges off and gave it rounded corners. I also took the t
 ### Let The Mockups Begin
 
 I did several full redesigns with this iteration of the logo. This will give you an idea of the broad range I was still playing around with:
-<div class="thumb-left"><a href="https://plasticmind.com/assets/plasticmind-modern"><img src="/assets/i/plasticmind-modern-thumb-130x75.jpg" alt="plasticmind-modern.jpg" width="130" height="75" /></a></div>
-<div class="thumb-left"><a href="https://plasticmind.com/assets/plasticmind-olive"><img src="/assets/i/plasticmind-olive-thumb-130x78.jpg" alt="plasticmind-olive.jpg" width="130" height="78" /></a></div>
-<div class="thumb-left"><a href="https://plasticmind.com/assets/plasticmind-black"><img src="/assets/i/plasticmind-black-thumb-130x100.jpg" alt="plasticmind-black.jpg" width="130" height="100" /></a></div>
-<div class="thumb-left"><a href="https://plasticmind.com/assets/plasticmind-paper"><img src="/assets/i/plasticmind-paper-thumb-130x65.jpg" alt="plasticmind-paper.jpg" width="130" height="65" /></a></div>
-<div class="thumb-left"><a href="https://plasticmind.com/assets/siteideas-cityscape"><img src="/assets/i/siteideas-cityscape-thumb-130x81.jpg" alt="siteideas-cityscape.jpg" width="130" height="81" /></a></div>
-<div class="thumb-left"><a href="https://plasticmind.com/assets/siteideas-standingout"><img src="/assets/i/siteideas-standingout-thumb-130x67.jpg" alt="siteideas-standingout.jpg" width="130" height="67" /></a></div>
+<div class="thumb-left"><img src="/assets/i/plasticmind-modern-thumb-130x75.jpg" alt="plasticmind-modern.jpg" width="130" height="75" /></div>
+<div class="thumb-left"><img src="/assets/i/plasticmind-olive-thumb-130x78.jpg" alt="plasticmind-olive.jpg" width="130" height="78" /></div>
+<div class="thumb-left"><img src="/assets/i/plasticmind-black-thumb-130x100.jpg" alt="plasticmind-black.jpg" width="130" height="100" /></div>
+<div class="thumb-left"><img src="/assets/i/plasticmind-paper-thumb-130x65.jpg" alt="plasticmind-paper.jpg" width="130" height="65" /></div>
+<div class="thumb-left"><img src="/assets/i/siteideas-cityscape-thumb-130x81.jpg" alt="siteideas-cityscape.jpg" width="130" height="81" /></div>
+<div class="thumb-left"><img src="/assets/i/siteideas-standingout-thumb-130x67.jpg" alt="siteideas-standingout.jpg" width="130" height="67" /></div>
 ### The Great New Logo That Doesn’t Work
 
 Finally, I realized the logo just wasn’t right. It was far too generic. Doesn’t matter how long I agonized over the proportions; it still looked like it took 5 minutes to doodle up in Illustrator. It was communicating *simple*, but not *attention to detail*.
@@ -88,4 +88,4 @@ I reverted back to the previous iteration, only with three corners sharp and the
 
 **Couldn’t have said it better myself.**
 
-Tune in next time as we talk about the <a href="https://plasticmind.com/css/redesign-part-2-stylesheet-phi/">modular CSS approach</a> that makes creating new sites with similar layouts a breeze.
+Tune in next time as we talk about the <a href="/journal/redesign-part-2-stylesheet-phi/">modular CSS approach</a> that makes creating new sites with similar layouts a breeze.

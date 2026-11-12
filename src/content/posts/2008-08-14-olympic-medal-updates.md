@@ -17,7 +17,7 @@ hits: 147
 ---
 
 
-			<div class="thumb-right"><img src="https://arvind2111.com/images/beijing.png" alt="Olympic Medal Updates 2008" /></div>
+			<div class="thumb-right"></div>
 
 
 

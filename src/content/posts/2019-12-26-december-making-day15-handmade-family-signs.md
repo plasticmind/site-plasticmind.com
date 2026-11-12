@@ -22,7 +22,7 @@ We cut 12" rough cut pine planks about 60" long and stained them with Minwax's C
 
 I forgot to snap a photo of the finished sign, but there's a photo below of a similar sign we made for our Thoughtful Gardner farmer's market display that should give you some idea of what they looked like completed.
 
-*This is day 15 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 15 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 <img class="alignnone size-large wp-image-5810" src="/assets/i/signs2-768x1024.jpg" alt="" width="768" height="1024" />
 

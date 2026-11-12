@@ -18,9 +18,9 @@ hits: 221
 
 Decreased Clutter, Increased Productivity
 
-When Six Apart launched Movable Type 4 last year with it’s brand new UI, I attempted to design my own user interface for it—partly to try out the new custom UI capabilities and partly because some folks were complaining that the new UI was script-heavy and slow. The <a href="https://plasticmind.com/clients/mt4-ui/">Pep-o-mint UI</a> (as I called it) I began last year was really little more than a makeover.
+When Six Apart launched Movable Type 4 last year with it’s brand new UI, I attempted to design my own user interface for it—partly to try out the new custom UI capabilities and partly because some folks were complaining that the new UI was script-heavy and slow. The Pep-o-mint UI (as I called it) I began last year was really little more than a makeover.
 
-But something interesting happened that changed my perspective. After discovering that I could <a href="https://plasticmind.com/movable-type/movable-type-easy-as-twitter/">set up Movable Type as a dropdown on my desktop</a>, I began blogging with more consistency and greater ease. The simplified iMT interface stripped away all the unnecessary clutter and reduced my blogging experience to three main options: New Entry, Manage Comments and Manage Entries.
+But something interesting happened that changed my perspective. After discovering that I could <a href="/journal/movable-type-easy-as-twitter/">set up Movable Type as a dropdown on my desktop</a>, I began blogging with more consistency and greater ease. The simplified iMT interface stripped away all the unnecessary clutter and reduced my blogging experience to three main options: New Entry, Manage Comments and Manage Entries.
 
 ### Decreased Constraints, Decreased Productivity?
 

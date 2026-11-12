@@ -69,7 +69,7 @@ And sadly, the world trembles.  The Pope didn't technically *recant*, but it see
 
 
 
-I do not like to wave the broad strokes of stereotypes, but as <a href="https://plasticmind.com/world/the_best_way_not_to_prove_your_point.php">I said before</a>, violent Muslims simply are following the example of their "exalted one".  You may immediately flip a history textbook to the Crusades, but remember, those were people who were *not* following the example of the one they claimed as Lord.  Christ's words in Matthew 5 was certainly the furthest thing from the minds of the Crusaders as they invaded foreign lands.  But these Muslism who seek to kill and destroy are doing *exactly* what the Koran teaches a good Muslim should do.
+I do not like to wave the broad strokes of stereotypes, but as I said before, violent Muslims simply are following the example of their "exalted one".  You may immediately flip a history textbook to the Crusades, but remember, those were people who were *not* following the example of the one they claimed as Lord.  Christ's words in Matthew 5 was certainly the furthest thing from the minds of the Crusaders as they invaded foreign lands.  But these Muslism who seek to kill and destroy are doing *exactly* what the Koran teaches a good Muslim should do.
 
 
 

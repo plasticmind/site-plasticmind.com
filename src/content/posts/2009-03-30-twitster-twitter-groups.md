@@ -19,13 +19,13 @@ hits: 252
 
 			
 
-<a href="https://plasticmind.com/twitster/"><img src="/assets/i/twitster-20090330-155744.png" alt="Twitster" title="" /></a>
+<img src="/assets/i/twitster-20090330-155744.png" alt="Twitster" title="" />
 
 
 
 
 
-I'm really psyched to release the first public beta of <a href="https://plasticmind.com/twitster/">Twitster</a> into the wild today.
+I'm really psyched to release the first public beta of Twitster into the wild today.
 
 
 
@@ -67,7 +67,7 @@ So I set out to build Twitster, an application that would let you publish the tw
 
 
 
-**And that's what I'm happy to give you today: the <a href="https://plasticmind.com/twitster/">first public beta of Twitster</a>.**
+**And that's what I'm happy to give you today: the first public beta of Twitster.**
 
 
 
@@ -78,10 +78,10 @@ Here are some important links to help you get started with Twitster:
 
 
 <ul>
-<li><a href="https://plasticmind.com/twitster/">Twitster Homepage</a></li>
+<li>Twitster Homepage</li>
 <li><a href="https://code.google.com/p/twitster/">Twitster Google Code Page</a></li>
-<li><a href="https://plasticmind.com/twitster/blog/">Twitster Blog</a></li>
-<li><a href="https://plasticmind.com/twitster/support/">Twitster FAQS</a></li>
+<li>Twitster Blog</li>
+<li>Twitster FAQS</li>
 <li><a href="https://code.google.com/p/twitster/issues/list">Report Issues</a></li>
 <li><a href="https://ecommconf.com/2009/twitter/">Live Twitster Demo</a></li>
 </ul>

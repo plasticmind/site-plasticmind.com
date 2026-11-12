@@ -19,7 +19,7 @@ hits: 126
 
 			
 
-Well, now that <a href="https://plasticmind.com/movable-type/movable-type-easy-as-twitter/">blogging is a bit easier</a>, I may just do it more often.
+Well, now that <a href="/journal/movable-type-easy-as-twitter/">blogging is a bit easier</a>, I may just do it more often.
 
 
 

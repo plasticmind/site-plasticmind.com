@@ -25,7 +25,7 @@ Christmas Eve just ended, so I assume it's Christmas.  I should really just go t
 
 
 
-One such film I found interesting... It's a clip of my father about forty years ago.  He's about eight.  I've included it for your enjoyment, to experience the hypnosis for yourself.  Of course, I've edited out a shot of him urinating off of Mt. Washington.  Didn't seem appropriate on many levels, really.  <a href="/video/dadold.wmv">You can download it here.</a>
+One such film I found interesting... It's a clip of my father about forty years ago.  He's about eight.  I've included it for your enjoyment, to experience the hypnosis for yourself.  Of course, I've edited out a shot of him urinating off of Mt. Washington.  Didn't seem appropriate on many levels, really.  You can download it here.
 
 
 

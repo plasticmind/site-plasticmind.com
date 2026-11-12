@@ -16,7 +16,7 @@ fix: false
 hits: 565
 ---
 
-Every time I sit down to write, I’ve got this nagging thought that everything I write has to be consumable by the masses. This <a href="https://plasticmind.com/the-pen/the-journal/">hangs over my head like a cloud</a> and creates a kind of “<a href="https://plasticmind.com/the-pen/the-urge-to-create-something-meaningful/">publish pressure</a>” that often suffocates good ideas still in infancy.
+Every time I sit down to write, I’ve got this nagging thought that everything I write has to be consumable by the masses. This <a href="/journal/the-journal/">hangs over my head like a cloud</a> and creates a kind of “<a href="/journal/the-urge-to-create-something-meaningful/">publish pressure</a>” that often suffocates good ideas still in infancy.
 
 I didn’t always feel this pressure.
 
@@ -52,7 +52,7 @@ Not all ideas are worth sharing, and getting into the habit of journaling helps 
 
 While not all ideas are worth sharing, don’t just wait until your ideas are “perfect” before sharing them.
 
-We hate being wrong or incomplete. It’s in our nature to want to solve things and answer questions and be right in our answers, but human beings are about change. A good portion of what I wrote when I was young is <a href="https://plasticmind.com/heart/soulmate/">cringe-worthy</a>, even the things I picked out as being worth sharing with the world. I’m sure I’ll think the same thing in twenty years about much of what I’m writing now.
+We hate being wrong or incomplete. It’s in our nature to want to solve things and answer questions and be right in our answers, but human beings are about change. A good portion of what I wrote when I was young is <a href="/journal/soulmate/">cringe-worthy</a>, even the things I picked out as being worth sharing with the world. I’m sure I’ll think the same thing in twenty years about much of what I’m writing now.
 
 But there’s tremendous value in explaining your thinking at the moment, though it obviously might change. I mentioned earlier the conversational aspect of blogging. Imagine a conversation with someone who never spoke if he thought he might be wrong. You might as well be chatting with a robot. We’re humans, we make mistakes. Do your best to be as accurate and worthwhile and meaningful as you can when you write, then…
 

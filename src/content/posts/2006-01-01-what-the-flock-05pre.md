@@ -25,7 +25,7 @@ It's calling itself "the social browser" and claims to be the champion of Web 2.
 
 
 
-<a href="https://www.flock.com">Visit the site</a> and you'll find humongous type and a free-spirited blurb about the way the web should work, but what is Flock and should you be excited about it?  It claims to be one of the first browsers that emphasizes the internet sharing experience, allowing you from within the browsers interface to add and share del.ic.ious links (cf. <a href="https://plasticmind.com/0s-and-1s/delicious.php">my post about that</a>), post to and manage your blog(s), add and share Flickr photos and act as a fully functioning RSS news reader.  Those are some ambitious goals and certainly some vital needs in this new age of Internet.
+<a href="https://www.flock.com">Visit the site</a> and you'll find humongous type and a free-spirited blurb about the way the web should work, but what is Flock and should you be excited about it?  It claims to be one of the first browsers that emphasizes the internet sharing experience, allowing you from within the browsers interface to add and share del.ic.ious links (cf. my post about that), post to and manage your blog(s), add and share Flickr photos and act as a fully functioning RSS news reader.  Those are some ambitious goals and certainly some vital needs in this new age of Internet.
 
 
 
@@ -44,7 +44,7 @@ My impressions upon first launch were weak.  Aside from a fairly clean interface
 
 
 
-<a href="https://plasticmind.com/images/flock-favorites-collections.php" onclick="window.open('https://plasticmind.com/images/flock-favorites-collections.php','popup','width=731,height=517,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/images/flock-favorites-collections-thumb.jpg" width="100" height="70" alt="" /></a>
+
 
 
 
@@ -56,7 +56,7 @@ Seems as though Flock allows you to create "collections" of websites that can be
 
 
 
-<a href="https://plasticmind.com/images/flock-favorites-tags.php" onclick="window.open('https://plasticmind.com/images/flock-favorites-tags.php','popup','width=731,height=517,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/images/flock-favorites-tags-thumb.jpg" width="100" height="70" alt="" /></a>
+
 
 
 
@@ -74,7 +74,7 @@ One of the better features of Flock is the ability to then take these collection
 
 
 
-<a href="https://plasticmind.com/images/flock-agg.php" onclick="window.open('https://plasticmind.com/images/flock-agg.php','popup','width=595,height=746,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/images/flock-agg-thumb.jpg" width="79" height="100" alt="" /></a>
+
 
 
 
@@ -86,7 +86,7 @@ Then I moved over to the tools window and found paydirt--the ability to post to 
 
 
 
-<a href="https://plasticmind.com/images/flock-blogeditentry.php" onclick="window.open('https://plasticmind.com/images/flock-blogeditentry.php','popup','width=751,height=538,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/images/flock-blogeditentry-thumb.jpg" width="100" height="71" alt="" /></a>
+
 
 
 
@@ -98,7 +98,7 @@ A "Blog Bar" appears across the top with a "Drop Zone" that you can simply drag 
 
 
 
-<a href="https://plasticmind.com/images/flock-blognewentry.php" onclick="window.open('https://plasticmind.com/images/flock-blognewentry.php','popup','width=755,height=501,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/images/flock-blognewentry-thumb.jpg" width="100" height="66" alt="" /></a>
+
 
 
 
@@ -110,7 +110,7 @@ Creating a new entry was also simple.  A nice WYSIWYG editor pops up and lets yo
 
 
 
-<a href="https://plasticmind.com/images/flock-flickrnewentry.php" onclick="window.open('https://plasticmind.com/images/flock-flickrnewentry.php','popup','width=749,height=491,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/images/flock-flickrnewentry-thumb.jpg" width="100" height="65" alt="" /></a>
+
 
 
 
@@ -122,7 +122,7 @@ I dug around some more but really didn't find anything else of note, except perh
 
 
 
-<a href="https://plasticmind.com/images/flock-shelf.php" onclick="window.open('https://plasticmind.com/images/flock-shelf.php','popup','width=358,height=305,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/images/flock-shelf-thumb.jpg" width="100" height="85" alt="" /></a>
+
 
 
 
@@ -140,7 +140,7 @@ In a nutshell, it brings alot of handy things together.  Will that be enough to 
 
 
 
-<a href="https://plasticmind.com/junk/flock_setup.zip">See for yourself.</a>  (Shhhhhh...)
+See for yourself.  (Shhhhhh...)
 
 
 		

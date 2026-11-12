@@ -31,7 +31,7 @@ hits: 79
 
 
 
-There's so many thoughts going through my head right now, but at the very core of them all is this absolute excitement that I am getting myself into <a href="https://plasticmind.com/archives/2004/03/the_measure_of.html">something wonderful</a>.
+There's so many thoughts going through my head right now, but at the very core of them all is this absolute excitement that I am getting myself into something wonderful.
 
 
 
@@ -43,7 +43,7 @@ Weather for the move?  <a href="https://www.weather.com/weather/local/12037?lswe
 
 
 
-I've been thinking alot about those who aren't going to be able to make it to the wedding, and I want to say, **<font color="red">it's ok</font>**.  I've been at many stages in life, <a href="https://plasticmind.com/archives/2001/04/midnight_watch.html">abased</a> and the <a href="https://plasticmind.com/theboyandthegirl-page3.html">abounding</a>, and I know what it's like not to be able to do something you really want to do.  The day is going to be a celebration of something very good, but you don't need to be here to celebrate.  Celebrations can take many forms--emails, phone calls, thoughts and prayers.  I think I might even consider <a href="https://www.arborday.org/shopping/trees/trees.cfm">a tree planted in our honor</a> a celebration.
+I've been thinking alot about those who aren't going to be able to make it to the wedding, and I want to say, **<font color="red">it's ok</font>**.  I've been at many stages in life, <a href="/journal/midnight-watch/">abased</a> and the <a href="/journal/the-boy-and-the-girl-part-3/">abounding</a>, and I know what it's like not to be able to do something you really want to do.  The day is going to be a celebration of something very good, but you don't need to be here to celebrate.  Celebrations can take many forms--emails, phone calls, thoughts and prayers.  I think I might even consider <a href="https://www.arborday.org/shopping/trees/trees.cfm">a tree planted in our honor</a> a celebration.
 
 
 

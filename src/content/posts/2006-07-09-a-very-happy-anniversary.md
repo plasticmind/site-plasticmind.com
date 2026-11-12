@@ -26,6 +26,6 @@ And now, without further ado, a whirlwind tour of how it all began: *The Girl, T
 
 And last but not least, Jess and I finally took the time while vacationing to rerecord the song we sang at our wedding.&nbsp; For better or for worse: 
 
-**<a href="https://plasticmind.com/assets/sound/ThreefoldCord%28JnJRemix%29.mp3" target="_new">Threefold Cord (.mp3)</a>**<br />
+**Threefold Cord (.mp3)**<br />
 by Mark Nicholson<br />
 (the JnJ remix)

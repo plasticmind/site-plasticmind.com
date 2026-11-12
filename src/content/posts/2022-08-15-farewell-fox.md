@@ -18,7 +18,7 @@ hits: 841
 
 Friday was my last day at Fox Corporation.
 
-I joined Fox <a href="https://plasticmind.com/journeys/fox/" data-type="post" data-id="6120">last year</a> on their custom platform team, a shared service team providing infrastructure and support for most business units across the organization. While on that team, I helped launch <a href="https://foxweather.com">Fox Weather</a> and created comprehensive documentation for folks onboarding to the platform. I went on to manage several client-facing teams. Truly, my favorite part of the job was time spent with these incredibly hard-working and dedicated folks. I’m proud of the work we did together, and I will miss working with them the most. It’s not every day you get to solve hard problems with people operating at the top of their game. Collaboration like that is hard to come by.
+I joined Fox <a href="/journal/fox/" data-type="post" data-id="6120">last year</a> on their custom platform team, a shared service team providing infrastructure and support for most business units across the organization. While on that team, I helped launch <a href="https://foxweather.com">Fox Weather</a> and created comprehensive documentation for folks onboarding to the platform. I went on to manage several client-facing teams. Truly, my favorite part of the job was time spent with these incredibly hard-working and dedicated folks. I’m proud of the work we did together, and I will miss working with them the most. It’s not every day you get to solve hard problems with people operating at the top of their game. Collaboration like that is hard to come by.
 
 ## Why leave?
 
@@ -40,7 +40,7 @@ But there was another catalyst.
 
 ### Reorganization
 
-When I started at Fox, it was with the idea that I'd be working on a platform team that served all of the business units. Because of some recent organizational restructuring which deemphasized the shared services model, I found myself and my teams almost entirely under the Fox News purview. Instead of working on platform innovation for the entire org, my day-to-day responsibilities had shifted almost entirely to product and engineering-focused discussions around Fox News products. I mentioned my apprehensions about working with Fox News <a href="https://plasticmind.com/journeys/fox/">in my announcement post</a>.
+When I started at Fox, it was with the idea that I'd be working on a platform team that served all of the business units. Because of some recent organizational restructuring which deemphasized the shared services model, I found myself and my teams almost entirely under the Fox News purview. Instead of working on platform innovation for the entire org, my day-to-day responsibilities had shifted almost entirely to product and engineering-focused discussions around Fox News products. I mentioned my apprehensions about working with Fox News <a href="/journal/fox/">in my announcement post</a>.
 
 How can you be an effective leader—inspire and rally teams, drive the product forward, make intelligent decisions about prioritization—when you don't have alignment with the product you're responsible for? I wrestled with that decision for several months, and made a very personal decision that I could not.
 

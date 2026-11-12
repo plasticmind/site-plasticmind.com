@@ -55,37 +55,37 @@ Interestingly enough, my wife asked to join me in the challenges this year.  I t
 
 
 
-**<a href="https://plasticmind.com/30-day-challenge/30-days-without-facebook-and-twitter-what-i-learned/">January: 30 days with no Twitter or Facebook</a>** — An excellent challenge, one that I'm repeating again this year.  Instead of posting stream-of-consciousness style to social networks, I abstained and instead kept a running list of what I wanted to post throughout the month.  At the end of the month, I vetted the potential data and posted a much more substantial (and I'd even argue much more meaningful) digest of information.
+**<a href="/journal/30-days-without-facebook-and-twitter-what-i-learned/">January: 30 days with no Twitter or Facebook</a>** — An excellent challenge, one that I'm repeating again this year.  Instead of posting stream-of-consciousness style to social networks, I abstained and instead kept a running list of what I wanted to post throughout the month.  At the end of the month, I vetted the potential data and posted a much more substantial (and I'd even argue much more meaningful) digest of information.
 
 
 
 
 
-**<a href="https://plasticmind.com/30-day-challenge/28-days-of-photos-what-i-learned/">February: Take one picture a day for 30 days</a>** — The easiest of the challenges, especially since my daughter was born in February.  I'm probably not going to repeat this one as a challenge because a photo a day is practically a habit of mine now anyway.
+**<a href="/journal/28-days-of-photos-what-i-learned/">February: Take one picture a day for 30 days</a>** — The easiest of the challenges, especially since my daughter was born in February.  I'm probably not going to repeat this one as a challenge because a photo a day is practically a habit of mine now anyway.
 
 
 
 
 
-**<a href="https://plasticmind.com/30-day-challenge/marchs-30-day-challenge-failure/">March: 30 days with no computer after 9 p.m.</a>** — Surprisingly difficult and fraught with complexities, especially since the term computer has gotten so blurry.  What about my iPhone or my iPad?  Which tasks were okay?  Answer the phone, but don't check email?  Watch a movie, but don't check Facebook?  I'll need better definition if I'm going to attempt this again.
+**<a href="/journal/marchs-30-day-challenge-failure/">March: 30 days with no computer after 9 p.m.</a>** — Surprisingly difficult and fraught with complexities, especially since the term computer has gotten so blurry.  What about my iPhone or my iPad?  Which tasks were okay?  Answer the phone, but don't check email?  Watch a movie, but don't check Facebook?  I'll need better definition if I'm going to attempt this again.
 
 
 
 
 
-**<a href="https://plasticmind.com/journeys/new-things-and-blessings/">April: Try one new thing a day for 30 days</a>** — More difficult than you might think, but also incredibly rewarding.  Will definitely be repeating this one.
+**<a href="/journal/new-things-and-blessings/">April: Try one new thing a day for 30 days</a>** — More difficult than you might think, but also incredibly rewarding.  Will definitely be repeating this one.
 
 
 
 
 
-**<a href="https://plasticmind.com/30-day-challenge/a-june-without-caffeine/">May: 30 days to get my finances in order</a>** — Dismal failure.  I chalk this up to not having a specific goal in mind.  Look for this one again in 2012, with a much more specific task.
+**<a href="/journal/a-june-without-caffeine/">May: 30 days to get my finances in order</a>** — Dismal failure.  I chalk this up to not having a specific goal in mind.  Look for this one again in 2012, with a much more specific task.
 
 
 
 
 
-**<a href="https://plasticmind.com/30-day-challenge/30-days-without-caffeine/">June: 30 days with no caffeine</a>** — Another really great challenge.  This one inspired me to make more of my 2012 challenges about my body and my health.
+**<a href="/journal/30-days-without-caffeine/">June: 30 days with no caffeine</a>** — Another really great challenge.  This one inspired me to make more of my 2012 challenges about my body and my health.
 
 
 
@@ -97,7 +97,7 @@ Interestingly enough, my wife asked to join me in the challenges this year.  I t
 
 
 
-**<a href="https://plasticmind.com/30-day-challenge/no-television/">August: 30 days with no TV</a>** — I thought it would be one of the most difficult, but it was surprisingly easy.  I also found myself accomplish so much more with all of the extra time I had.  I also discovered that this one had a profound impact on my family, both in the shared challenge it was to give up television as well as the increased interaction we had as a family.  Will definitely be repeating this one.
+**<a href="/journal/no-television/">August: 30 days with no TV</a>** — I thought it would be one of the most difficult, but it was surprisingly easy.  I also found myself accomplish so much more with all of the extra time I had.  I also discovered that this one had a profound impact on my family, both in the shared challenge it was to give up television as well as the increased interaction we had as a family.  Will definitely be repeating this one.
 
 
 

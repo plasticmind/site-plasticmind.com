@@ -22,7 +22,7 @@ This past Tuesday he asked me to join him.
 
 Of course, I’m “off” for Christmas, so my initial reaction was no. The inertia of lying around on the couch is hard to overcome! But I reminded myself that life is less about being comfortable and more about making a difference; so I said yes and accompanied him to jail on Tuesday night, guitar in hand, ready to sing.
 
-See, my dad taught the guys there a song I wrote called <a href="https://audio.plasticmind.com/music/jdavidgardner/Immanuel.mp3">Immanuel</a>, and he thought they’d enjoy hearing the author of the song sing it. Little did they realize that it would be the other way around: I can’t begin to tell you how amazing it was to hear the song I wrote about God’s grace being sung—and sung enthusiastically—by a group of inmates just days before Christmas.
+See, my dad taught the guys there a song I wrote called Immanuel, and he thought they’d enjoy hearing the author of the song sing it. Little did they realize that it would be the other way around: I can’t begin to tell you how amazing it was to hear the song I wrote about God’s grace being sung—and sung enthusiastically—by a group of inmates just days before Christmas.
 
 Going to a Bible study in jail can be a real challenge to your thinking. There are obviously a lot of stereotypes you bring with you, mental assumptions that begin to surface from the first moment you hear the buzz of the door being unlocked for you. Going exactly where the guards tell you, watching the guys file in and size you up—I don’t even need to tell you exactly what some of the thoughts that were racing through my brain were, I’m sure you’re already imagining some of them.
 

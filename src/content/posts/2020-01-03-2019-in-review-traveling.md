@@ -16,7 +16,7 @@ fix: false
 hits: 348
 ---
 
-*This is part two of my year in review series. You can start with my <a href="https://plasticmind.com/family-ties/2019-in-review-family-homestead/">2019 in Review, Part 1</a> if you'd like.*
+*This is part two of my year in review series. You can start with my <a href="/journal/2019-in-review-family-homestead/">2019 in Review, Part 1</a> if you'd like.*
 
 In 2017, I turned 40. Instead of buying a sports car I couldn’t afford, I told my wife I wanted to travel more.
 

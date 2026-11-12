@@ -38,14 +38,14 @@ So inspired, in fact, that I decided to join in on the fun. I'm planning to make
 
 
 <ul>
-    <li>Day 1: <a href="https://plasticmind.com/30-day-challenge/december-making-day1-drew-a-snowflake/">I drew a snowflake</a>.</li>
-    <li>Day 2: <a href="https://plasticmind.com/30-day-challenge/december-making-day2-made-a-movie-about-snow/">I made a movie about snow.</a></li>
-    <li>Day 3/4: <a href="https://plasticmind.com/30-day-challenge/december-making-day3-4-original-song-and-visualization/">I wrote a song created a visualization for it.</a></li>
-    <li>Day 5: <a href="https://plasticmind.com/30-day-challenge/december-making-day5-home-renovation-plans/">I made some home renovation plans.</a></li>
-    <li>Day 6: <a href="https://plasticmind.com/30-day-challenge/december-making-day5-music-art-processing/">I made a Processing tutorial.</a></li>
-    <li>Day 7: <a href="https://plasticmind.com/30-day-challenge/december-making-day7-unmaking-wall/">I made some home renovations.</a></li>
-    <li>Day 8: <a href="https://plasticmind.com/30-day-challenge/december-making-day8-logo-treatment/">I created a new logo treatment for Plasticmind.</a></li>
-    <li>Day 9: <a href="https://plasticmind.com/30-day-challenge/december-making-day9-redesigning-plasticmind-com/">I created a plan to redesign Plasticmind.com.</a></li>
+    <li>Day 1: <a href="/journal/december-making-day1-drew-a-snowflake/">I drew a snowflake</a>.</li>
+    <li>Day 2: <a href="/journal/december-making-day2-made-a-movie-about-snow/">I made a movie about snow.</a></li>
+    <li>Day 3/4: <a href="/journal/december-making-day3-4-original-song-and-visualization/">I wrote a song created a visualization for it.</a></li>
+    <li>Day 5: <a href="/journal/december-making-day5-home-renovation-plans/">I made some home renovation plans.</a></li>
+    <li>Day 6: <a href="/journal/december-making-day5-music-art-processing/">I made a Processing tutorial.</a></li>
+    <li>Day 7: <a href="/journal/december-making-day7-unmaking-wall/">I made some home renovations.</a></li>
+    <li>Day 8: <a href="/journal/december-making-day8-logo-treatment/">I created a new logo treatment for Plasticmind.</a></li>
+    <li>Day 9: <a href="/journal/december-making-day9-redesigning-plasticmind-com/">I created a plan to redesign Plasticmind.com.</a></li>
 </ul>
 
 <div style="display: none;"></div>

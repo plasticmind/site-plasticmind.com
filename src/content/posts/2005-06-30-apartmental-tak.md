@@ -25,7 +25,7 @@ Well, I could copy and paste all the pictures and everything I just wrote about 
 
 
 
-*Or* you could just <a href="https://plasticmind.com/photos/archives/2005/07/new_apartment_b.html">go see the pictures yourself</a>.
+*Or* you could just go see the pictures yourself.
 
 
 

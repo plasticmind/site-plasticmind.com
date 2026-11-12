@@ -16,7 +16,7 @@ fix: false
 hits: 397
 ---
 
-<div class="thumb-left"><img src="https://plasticmind.com/images/story-theboyandthegirl.gif" alt="The Boy and the Girl: An Engagement Story" /></div>
+<div class="thumb-left"><img src="/assets/i/story-theboyandthegirl.gif" alt="The Boy and the Girl: An Engagement Story" /></div>
 
 ### Chapter 1: Prelude to a Kiss
 
@@ -49,4 +49,4 @@ Each and every day they spent time together. They played volleyball in the rain 
 
 Then one day, the boy had a big thought. “We should get married.”
 
-**<a href="https://plasticmind.com/heart/the-boy-and-the-2/">on to chapter two…</a>**
+**<a href="/journal/the-boy-and-the-girl-part-2/">on to chapter two…</a>**

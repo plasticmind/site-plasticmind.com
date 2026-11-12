@@ -88,7 +88,7 @@ The chickens also surprised us. In 2016, we procured a rooster from the side of 
 ### The House
 
 
-If you've been following along with <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my December "31 Days of Making" project</a>, you've seen some of the major work we've done over our house in 2019.
+If you've been following along with <a href="/journal/december-challenge-make-something-every-day/">my December "31 Days of Making" project</a>, you've seen some of the major work we've done over our house in 2019.
 
 <figure>
   <img src="/assets/i/old-deck-1024x768.jpg" alt="Desperately in need of a new deck">
@@ -140,9 +140,9 @@ More exciting, though, than any of these physical changes to our house have been
 ### Gardner Family Travels... Part 2
 
 
-Speaking of memories — we've made some incredible memories over the last few years with our travels: Ocean City, Yosemite, Grand Canyon, Ireland... but this is already a tome, so I'll save those recollections for <a href="https://plasticmind.com/journeys/2019-in-review-traveling/">Part 2 of our Year In Review</a>.
+Speaking of memories — we've made some incredible memories over the last few years with our travels: Ocean City, Yosemite, Grand Canyon, Ireland... but this is already a tome, so I'll save those recollections for <a href="/journal/2019-in-review-traveling/">Part 2 of our Year In Review</a>.
 
-*This is day 20 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 20 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 <figure>
   <img src="/assets/i/gardner-gang-2-1024x683.jpg" alt="Thanks for reading!">

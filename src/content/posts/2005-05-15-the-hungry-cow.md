@@ -25,24 +25,24 @@ I did something I've not gotten the chance to do in quite a while with all this 
 
 
 
-The winding twisting back roads of Ghent took me to some amazing places... I took over <a href="https://plasticmind.com/photos/">a hundred photographs</a>--barns, farmhouses, windmills, dandelions.  But the most memorable was a brief encounter I had with a hungry cow and an ornary turtle.
+The winding twisting back roads of Ghent took me to some amazing places... I took over a hundred photographs--barns, farmhouses, windmills, dandelions.  But the most memorable was a brief encounter I had with a hungry cow and an ornary turtle.
 
 
 			<!--more-->
 
-<img src="https://plasticmind.com/photos/stuff_and_nonsense/thehungrycow6.jpg">
 
 
 
 
 
-I first passed the cow (whom I will refer to as Ferdy, short for Ferdinand, in loving memory of Ferdinand the pacifist bull) while cruising for barns down a dirt road behind the old Kingdom Hall in Ghent.  I pulled over, grabbed the camera and a handful of tall grass from the side of the road.  Ferdy approached cautiously at first (<a href="https://plasticmind.com/photos/archives/2005/05/the_hungry_cow.html">photo</a>).  When it became obvious that I was not going to grab her udder, she because quite a bit more curious (<a href="https://plasticmind.com/photos/archives/2005/05/the_hungry_cow_1.html">photo</a>).  THEN I showed her the grass, and she let me know she was willing to do ANYTHING to get it (<a href="https://plasticmind.com/photos/archives/2005/05/the_hungry_cow_2.html">photo</a>).  She checked it out to make sure it wasn't just a handful of plastic straws--they don't eat plastic straws (<a href="https://plasticmind.com/photos/archives/2005/05/the_hungry_cow_3.html">photo</a>).  I wasn't going to make it easy, considering I wanted a good shot (<a href="https://plasticmind.com/photos/archives/2005/05/the_hungry_cow_4.html">photo</a>).  Then came the disgrace, yellow tongue flailing, making the most ungodly noises (<a href="https://plasticmind.com/photos/archives/2005/05/the_hungry_cow_5.html">photo</a>).
+
+I first passed the cow (whom I will refer to as Ferdy, short for Ferdinand, in loving memory of Ferdinand the pacifist bull) while cruising for barns down a dirt road behind the old Kingdom Hall in Ghent.  I pulled over, grabbed the camera and a handful of tall grass from the side of the road.  Ferdy approached cautiously at first (photo).  When it became obvious that I was not going to grab her udder, she because quite a bit more curious (photo).  THEN I showed her the grass, and she let me know she was willing to do ANYTHING to get it (photo).  She checked it out to make sure it wasn't just a handful of plastic straws--they don't eat plastic straws (photo).  I wasn't going to make it easy, considering I wanted a good shot (photo).  Then came the disgrace, yellow tongue flailing, making the most ungodly noises (photo).
 
 
 
 
 
-I bid them all farewell and made it only a short ways down the road before I came upon this old guy (<a href="https://plasticmind.com/photos/archives/2005/05/turtle_power.html">photo</a>).  He was not happy with me.  I got some great shots and thanked him before he flipped his tail at me incredulously and lumbered into the woods.
+I bid them all farewell and made it only a short ways down the road before I came upon this old guy (photo).  He was not happy with me.  I got some great shots and thanked him before he flipped his tail at me incredulously and lumbered into the woods.
 
 
 

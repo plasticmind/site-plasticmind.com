@@ -61,7 +61,7 @@ We pulled off keys and dabbed with napkins, toothpicks and cotton swabs for hour
 
 
 
-More proof positive that I am <a href="https://plasticmind.com/kicks-and-giggles/my-power-klutziness/">supernaturally endowed</a>.
+More proof positive that I am <a href="/journal/my-power-klutziness/">supernaturally endowed</a>.
 
 
 

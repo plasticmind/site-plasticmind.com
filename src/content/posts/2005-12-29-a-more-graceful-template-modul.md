@@ -19,7 +19,7 @@ hits: 256
 
 			
 
-In <a href="https://www.movabletweak.com/templates/powering_your_whole_site_with.php">a previous article</a> I spent a good deal of time working through the concept of powering an entire site with Movable Type, and one of the biggest questions we dealt with was "what do I do with content that is shared across multiple template (and even blogs)?"  After working at length with <a href="https://www.movalog.com">Arvind</a> and <a href="https://www.everitz.com/">Chad</a> on a few projects, I've come to realize that one of the most graceful solutions includes a nice blend of MT's functionality and PHP basics.
+In <a href="/journal/powering-your-whole-site-with/">a previous article</a> I spent a good deal of time working through the concept of powering an entire site with Movable Type, and one of the biggest questions we dealt with was "what do I do with content that is shared across multiple template (and even blogs)?"  After working at length with <a href="https://www.movalog.com">Arvind</a> and <a href="https://www.everitz.com/">Chad</a> on a few projects, I've come to realize that one of the most graceful solutions includes a nice blend of MT's functionality and PHP basics.
 
 
 

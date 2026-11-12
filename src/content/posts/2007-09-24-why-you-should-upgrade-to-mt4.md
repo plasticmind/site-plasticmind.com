@@ -34,9 +34,9 @@ hits: 483
 
 **8.** MT already has a lot of the most popular WP wishlist ideas built in. Want to search both posts and pages? Need to automatically generate thumbnails for images? Want a more usable photo uploader? Want a better WYSIWYG editor? Those are all built-in already.
 
-**9.** OpenID built right in. It’s not a plugin, and it even lets you sign in to comment on your blog with a wordpress.com account, or any other OpenID provider. (See my <a href="https://plasticmind.com/social-networking/social-graph-defined/">explanation of OpenID</a>.)
+**9.** OpenID built right in. It’s not a plugin, and it even lets you sign in to comment on your blog with a wordpress.com account, or any other OpenID provider. (See my <a href="/journal/social-graph-defined/">explanation of OpenID</a>.)
 
-**10.** MT can <a href="https://plasticmind.com/assets/mt4-import">import all of the content from your WP (and WP-MU) blog</a> right now. And then you’ll have more options of what to do with your blog. You can make PHP pages, sure, but you can also make ASP or JSP pages too.
+**10.** MT can import all of the content from your WP (and WP-MU) blog right now. And then you’ll have more options of what to do with your blog. You can make PHP pages, sure, but you can also make ASP or JSP pages too.
 
 **Update:** <a href="https://wank.wordpress.com/2007/09/24/wp-phone-home/">Make that eleven.</a> (Or seven, depending on how you count.)
 

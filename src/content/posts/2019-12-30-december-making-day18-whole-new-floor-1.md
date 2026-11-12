@@ -22,7 +22,7 @@ Since we bought our house in 2015, we've wanted to replace the flooring on the f
 
 Royal blue carpet with teal walls in the living room? Teal carpet in a dining room? Eggplant, taupe, and orange wood in the kitchen? A few years ago, we painted the walls and the kitchen cabinets to help bring a little more sense of "us" to the house, but we knew the big change would come when we replaced the floor.
 
-Trouble is, there's nearly 1,200 square feet of floor space, and any flooring price multiplied by 1,200 is substantial. We knew this was going to be a big project, especially since before we laid flooring we planned to redesign the floorplan. So this summer, we started work by hiring a contractor to tear out a wall and put up a new one. Then, earlier this month, I <a href="https://plasticmind.com/30-day-challenge/december-making-day5-home-renovation-plans/">planned out some of the other renovations</a> and <a href="https://plasticmind.com/30-day-challenge/december-making-day11-build-that-wall/">got to work</a>.
+Trouble is, there's nearly 1,200 square feet of floor space, and any flooring price multiplied by 1,200 is substantial. We knew this was going to be a big project, especially since before we laid flooring we planned to redesign the floorplan. So this summer, we started work by hiring a contractor to tear out a wall and put up a new one. Then, earlier this month, I <a href="/journal/december-making-day5-home-renovation-plans/">planned out some of the other renovations</a> and <a href="/journal/december-making-day11-build-that-wall/">got to work</a>.
 
 <figure>
   <img src="/assets/i/IMG_6530-768x1024.jpg" alt="Linoleum sandwich: linoleum, luan, linoleum, luan, linoleum">
@@ -60,7 +60,7 @@ In one full day, we removed all the flooring from the kitchen and the new living
 
 Next up: installing the flooring!
 
-*This is day 18 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 18 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 <div style="display: none;"></div>
 

@@ -40,7 +40,7 @@ All-in-all, it's taking a little longer than we expected, but we're about halfwa
 
 <img class="alignnone size-large wp-image-5864" src="/assets/i/IMG_6598-1024x768.jpg" alt="" width="1024" height="768" />
 
-*This is day 19 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 19 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 <div style="display: none;"></div>
 

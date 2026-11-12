@@ -25,7 +25,7 @@ It does not matter whether you hate George W. Bush or you hate Michael Moore.  I
 
 
 
-<a href="https://plasticmind.com/weblog/images/iraqi tears.html" onclick="window.open('https://plasticmind.com/weblog/images/iraqi tears.html','popup','width=333,height=450,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/weblog/images/iraqi tears-thumb.jpg" width="185" height="250" border="0" /></a>
+
 
 
 
@@ -36,7 +36,7 @@ The purple finger held high has now become synonymous with Arabs who have long b
 
 			<!--more-->
 
-<a href="https://plasticmind.com/weblog/images/polling place.html" onclick="window.open('https://plasticmind.com/weblog/images/polling place.html','popup','width=450,height=350,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/weblog/images/polling place-thumb.jpg" width="353" height="275" border="0" /></a>
+
 
 
 
@@ -48,7 +48,7 @@ Natan Sharansky, <a href="https://www.amazon.com/exec/obidos/ASIN/1586482610/pla
 
 
 
-<a href="https://plasticmind.com/weblog/images/i love iraq.html" onclick="window.open('https://plasticmind.com/weblog/images/i love iraq.html','popup','width=350,height=450,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/weblog/images/i love iraq-thumb.jpg" width="213" height="275" border="0" /></a>
+
 
 
 
@@ -60,7 +60,7 @@ Sadly enough, <a href="https://www.moveon.org">moveon.org</a> mentioned nothing 
 
 
 
-<a href="https://plasticmind.com/weblog/images/purple finger 2.html" onclick="window.open('https://plasticmind.com/weblog/images/purple finger 2.html','popup','width=331,height=450,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/weblog/images/purple finger 2-thumb.jpg" width="200" height="271" border="0" /></a>
+
 
 
 		

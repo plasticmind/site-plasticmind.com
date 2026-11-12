@@ -69,7 +69,7 @@ My final point is this: if Six Apart is going to reclaim prominence in the publi
 
 
 
-Six Apart needs to first solve the static page dilemma; there have been <a href="https://www.movabletweak.com/templates/powering_your_whole_site_with.php">countless articles written</a> on the topic, but they're almost all painful workarounds.  MT4.0 should add "Pages" to the main menu and have a "Default Page" template.  Then new "Pages" can be added  without cluttering up the Entry and Template lists.  Nearly all blogs have at least a few static pages: a contact page, an about page, etc.  Why should these pages clutter up the Template list when they aren't really templates?
+Six Apart needs to first solve the static page dilemma; there have been <a href="/journal/powering-your-whole-site-with/">countless articles written</a> on the topic, but they're almost all painful workarounds.  MT4.0 should add "Pages" to the main menu and have a "Default Page" template.  Then new "Pages" can be added  without cluttering up the Entry and Template lists.  Nearly all blogs have at least a few static pages: a contact page, an about page, etc.  Why should these pages clutter up the Template list when they aren't really templates?
 
 
 

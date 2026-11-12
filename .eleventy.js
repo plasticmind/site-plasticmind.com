@@ -23,6 +23,9 @@ const tagList = require("./src/_11ty/collections/tagList.js");
 const categoryList = require("./src/_11ty/collections/categoryList.js");
 const sitemapHubs = require("./src/_11ty/collections/sitemapHubs.js");
 
+// transforms
+const pictures = require("./src/_11ty/transforms/pictures.js");
+
 module.exports = (eleventyConfig) => {
 
     // filters
@@ -58,6 +61,9 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addCollection("tagList", tagList);
     eleventyConfig.addCollection("categoryList", categoryList);
     eleventyConfig.addCollection("sitemapHubs", sitemapHubs);
+
+    // transforms
+    eleventyConfig.addTransform("pictures", pictures);
 
     // plugins
     eleventyConfig.addPlugin(eleventyPluginNavigation);

@@ -19,7 +19,7 @@ hits: 95
 
 			
 
-I thought I'd get particularly transparent and tell you a little bit about myself, in celebration of my 300th entry.  I know, I know, it's not the same as the cool image I created <a href="https://plasticmind.com/blogging/happy_200.php">when I celebrated 200</a>.  Well, cowboy, you just don't celebrate as much when you get older.  Now when I hit 500, maybe I'll do something cool.  Or maybe I'll shoot for another abstract number, like 333 or something.  Sorry, I'm rambling.  But that's why you're here, right?
+I thought I'd get particularly transparent and tell you a little bit about myself, in celebration of my 300th entry.  I know, I know, it's not the same as the cool image I created <a href="/journal/happy-200/">when I celebrated 200</a>.  Well, cowboy, you just don't celebrate as much when you get older.  Now when I hit 500, maybe I'll do something cool.  Or maybe I'll shoot for another abstract number, like 333 or something.  Sorry, I'm rambling.  But that's why you're here, right?
 
 
 

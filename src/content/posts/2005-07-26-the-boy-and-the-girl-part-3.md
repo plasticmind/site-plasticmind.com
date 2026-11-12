@@ -16,7 +16,7 @@ fix: true
 hits: 332
 ---
 
-<div class="thumb-left"><img src="https://plasticmind.com/images/story-theboyandthegirl.gif" alt="The Boy and the Girl: An Engagement Story" class="noborder" /></div>
+<div class="thumb-left"><img src="/assets/i/story-theboyandthegirl.gif" alt="The Boy and the Girl: An Engagement Story" class="noborder" /></div>
 
 ### Chapter 3: The Leap
 

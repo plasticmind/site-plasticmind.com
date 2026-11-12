@@ -96,7 +96,7 @@ So, I came up with a list of ten ways the new Movable Type will rock your blog:
 
 
 
-Go ahead, try it out.  You can pick it up at <a href="https://www.movabletype.org/download.html">movabletype.org</a>.  And if you like it enough, I've got some <a href="https://www.movabletweak.com/freebies/movable_type_4_wallpaper.php">Movable Type 4 desktop swag over at Movable Tweak</a>.
+Go ahead, try it out.  You can pick it up at <a href="https://www.movabletype.org/download.html">movabletype.org</a>.  And if you like it enough, I've got some Movable Type 4 desktop swag over at Movable Tweak.
 
 
 

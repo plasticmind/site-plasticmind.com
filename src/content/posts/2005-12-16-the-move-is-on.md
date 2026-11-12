@@ -19,7 +19,7 @@ hits: 78
 
 			
 
-Things are progressing quickly and smoothly as we transition from our old apartment to our new apartment, much to the contradiction of <a href="https://plasticmind.com/miscellany/i_hate_verizon_vonage_and_comcast_or_erego_ergo_sum.php">early bumps</a> in the road.  I've taken some pictures of the stacks of boxes in our old apartment, and I'll post them as soon as I can compliment them with pictures of our barren new apartment.  
+Things are progressing quickly and smoothly as we transition from our old apartment to our new apartment, much to the contradiction of <a href="/journal/i-hate-verizon-vonage-and-comcast-or-erego-ergo-sum/">early bumps</a> in the road.  I've taken some pictures of the stacks of boxes in our old apartment, and I'll post them as soon as I can compliment them with pictures of our barren new apartment.  
 
 
 

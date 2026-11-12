@@ -19,7 +19,7 @@ hits: 448
 
 			
 
-In the previous article, I explained how to <a href="https://plasticmind.com/movable-type/movable-type-fluid/">set up Movable Type as a Fluid application</a> to run on your desktop.
+In the previous article, I explained how to <a href="/journal/movable-type-fluid/">set up Movable Type as a Fluid application</a> to run on your desktop.
 
 
 
@@ -31,7 +31,7 @@ But <a href="https://movalog.com">Arvind</a> suggested one better: why not insta
 
 
 
-<img src="https://img.skitch.com/20080613-m1y9qr3jjxax8e7fa826u85aug.png" alt="" />
+
 
 
 
@@ -52,7 +52,7 @@ First, make sure you've downloaded the <a href="https://plugins.movabletype.org/
 
 
 
-Next, follow the instructions from <a href="https://plasticmind.com/movable-type/movable-type-fluid/">the previous article on setting up Movable Type as a Fluid application</a>.  After that's done, you've only got just a few changes to make before you're ready to go:
+Next, follow the instructions from <a href="/journal/movable-type-fluid/">the previous article on setting up Movable Type as a Fluid application</a>.  After that's done, you've only got just a few changes to make before you're ready to go:
 
 
 
@@ -64,7 +64,7 @@ Next, follow the instructions from <a href="https://plasticmind.com/movable-type
 
 
 
-<img src="https://img.skitch.com/20080613-bdab6w6reygbeba68hjxiwy1k1.png" alt="" />
+
 
 
 
@@ -82,7 +82,7 @@ Next, follow the instructions from <a href="https://plasticmind.com/movable-type
 
 
 
-<img src="https://img.skitch.com/20080613-ft8ua24pjnsi32895i4jkdhjsg.png" alt="" />
+
 
 
 

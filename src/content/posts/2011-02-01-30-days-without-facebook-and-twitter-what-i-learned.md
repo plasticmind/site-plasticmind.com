@@ -19,7 +19,7 @@ hits: 3353
 
 			
 
-I just finished my first <a href="https://plasticmind.com/30-day-challenge/digital-purge/" title="Janauary's 30 Day Challenge">30 day challenge</a> of 2011: no Facebook and Twitter for the month of January.  It's the first of my year's worth of <a href="https://plasticmind.com/retrospection/30-day-change/" title="30 Day Change">monthly challenges</a>, and I have to say that having a realistic goal with a not-so-distant stopping point makes it *much* easier to stay faithful to that change.  There's something about knowing that you only have few more weeks to go that help you actually get over the difficult phase (two weeks in or so) of breaking a habit.
+I just finished my first <a href="/journal/digital-purge/" title="Janauary's 30 Day Challenge">30 day challenge</a> of 2011: no Facebook and Twitter for the month of January.  It's the first of my year's worth of <a href="/journal/30-day-change/" title="30 Day Change">monthly challenges</a>, and I have to say that having a realistic goal with a not-so-distant stopping point makes it *much* easier to stay faithful to that change.  There's something about knowing that you only have few more weeks to go that help you actually get over the difficult phase (two weeks in or so) of breaking a habit.
 
 
 

@@ -49,13 +49,13 @@ Now, most of the men on the council I know and respect, so I'm not afraid of bei
 
 
 
-**First, the state of my heart.**  I'm sure it's no surprise to frequent readers of my blog that <a href="https://plasticmind.com/retrospection/the_state_of_my_heart.php">I have "direction" issues</a>.  I love ministering to people, but I'm getting weary trying to be a full-time designer and a full-time pastor.  Take that weariness and drop a twenty page doctrinal statement and the lifetime commitment this ordination implies on it's head.  That'll smart.  (What's worse is that saying that feels so selfish.)
+**First, the state of my heart.**  I'm sure it's no surprise to frequent readers of my blog that <a href="/journal/the-state-of-my-heart/">I have "direction" issues</a>.  I love ministering to people, but I'm getting weary trying to be a full-time designer and a full-time pastor.  Take that weariness and drop a twenty page doctrinal statement and the lifetime commitment this ordination implies on it's head.  That'll smart.  (What's worse is that saying that feels so selfish.)
 
 
 
 
 
-**Second, and perhaps more salient, my doubt.**  Sure, I can throw around "verbal plenary" and "ex nihilo" with the best of them; but do I believe those bullet points with every fiber of my being?  Is it a lie to profess these things even if there are <a href="https://plasticmind.com/mind/the_elusive_mus.php">deep, dark doubts</a> lurking in the depths of my soul?  Is there latitude to say, like the father in Mark 9, "I do believe; help me overcome my unbelief!"
+**Second, and perhaps more salient, my doubt.**  Sure, I can throw around "verbal plenary" and "ex nihilo" with the best of them; but do I believe those bullet points with every fiber of my being?  Is it a lie to profess these things even if there are <a href="/journal/the-elusive-mus/">deep, dark doubts</a> lurking in the depths of my soul?  Is there latitude to say, like the father in Mark 9, "I do believe; help me overcome my unbelief!"
 
 
 

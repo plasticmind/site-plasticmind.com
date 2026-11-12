@@ -29,4 +29,4 @@ From the thicket a man leapt with a shout of gibberish and a flourish of his wea
 The world was upside down for a moment. I thought he had shot me, but I saw the woman and children tumbling in the air beside me and this time I could hear them screaming. My stomach was in frenzy and my dead hands and feet clawed out for anything as the swirling back and orange rushed at us. Then darkness.
 
 * * * * *
-<a title="The Fall of Man: Part 2" href="https://plasticmind.com/heart/the-fall-of-man-1/">Read Part 2</a>
+<a title="The Fall of Man: Part 2" href="/journal/the-fall-of-man-1/">Read Part 2</a>

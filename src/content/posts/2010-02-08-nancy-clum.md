@@ -25,7 +25,7 @@ hits: 267
 
 
 
-**She was a woman of hospitality.** In fact, I can honestly say I would not be here today if it were not for Nancy's hospitality.  I was a single (rather miserable) teacher at Northern Dutchess Christian School where Nancy was serving on the board and I had almost an hour drive each day coming in. So Nancy, in her typical giving way, offered their home to me if I couldn't make the drive home and told me “make yourself at home”.  It was through this offer that I grew close to the Clum family; and no—there were no <a href="https://plasticmind.com/heart/the-boy-and-the-1/">ulterior motives</a>.  I actually grew to love Dave and Nancy long before before I had even met Jessica.
+**She was a woman of hospitality.** In fact, I can honestly say I would not be here today if it were not for Nancy's hospitality.  I was a single (rather miserable) teacher at Northern Dutchess Christian School where Nancy was serving on the board and I had almost an hour drive each day coming in. So Nancy, in her typical giving way, offered their home to me if I couldn't make the drive home and told me “make yourself at home”.  It was through this offer that I grew close to the Clum family; and no—there were no <a href="/journal/the-boy-and-the-girl-part-1/">ulterior motives</a>.  I actually grew to love Dave and Nancy long before before I had even met Jessica.
 
 
 

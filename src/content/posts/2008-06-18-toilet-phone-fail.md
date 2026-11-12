@@ -19,7 +19,7 @@ hits: 122
 
 			
 
-**I nearly filed this in <a href="https://plasticmind.com/heart/">the Heart chapter</a>, because I feel so strongly about it.**
+**I nearly filed this in <a href="/category/personal/">the Heart chapter</a>, because I feel so strongly about it.**
 
 
 

@@ -19,19 +19,19 @@ hits: 129
 
 			
 
-In the spirit of beating dead horses (making things better), I've continued <a href="https://www.movabletweak.com/app/a_few_of_my_unfavorite_things.php">my wish list</a> for MT changes:
+In the spirit of beating dead horses (making things better), I've continued <a href="/journal/these-are-a-few-of-my-unfavorite-things/">my wish list</a> for MT changes:
 
 
 
 
 
-**Real Power-editing:** Marie from disarranging.com mentioned <a href="https://www.movabletweak.com/app/a_few_of_my_unfavorite_things.php">in the previous article</a> that the power editing mode should allow for assigning multiple categories.  I personally think the power editing mode could use even more oomph than that.  How about being able to customize just exactly which fields can be edited in that batch mode?  I have personally found myself wanting Flickr like managability where I can edit entries, titles and categories *en masse* just by clicking.
+**Real Power-editing:** Marie from disarranging.com mentioned <a href="/journal/these-are-a-few-of-my-unfavorite-things/">in the previous article</a> that the power editing mode should allow for assigning multiple categories.  I personally think the power editing mode could use even more oomph than that.  How about being able to customize just exactly which fields can be edited in that batch mode?  I have personally found myself wanting Flickr like managability where I can edit entries, titles and categories *en masse* just by clicking.
 
 
 
 
 
-**Messy Input:**  <a href="https://plasticmind.com/0s-and-1s/these_are_a_few_of_my_unfavorite_things.php#c2135">Mark griped</a> that MT allows for "bad characters" in an entry, but I would go further to add that MT's input processing needs a bit of a kick-in-the-pants.  This has reared it's ugly head during The Style Contest and numerous times on ProNet.  Technically the W3 calls for &lt;p&gt; tags to go inside of &lt;blockquote&gt; tags. However, MT's 'Convert Line Breaks" function will either a) nest paragraph tags improperly or b) simply place &lt;blockquote&gt; tags without &lt;p&gt; tags, depending on how you break your lines.  Not to mention it's fickle handling of all other block level HTML tags.  Certainly this would take some thinking through because what we want is for the program to figure out what the heck a user is trying to do based on what is entered.  But no matter how the user enters text, the program should output valid code (and characters).
+**Messy Input:**  <a href="/journal/these-are-a-few-of-my-unfavorite-things/#c2135">Mark griped</a> that MT allows for "bad characters" in an entry, but I would go further to add that MT's input processing needs a bit of a kick-in-the-pants.  This has reared it's ugly head during The Style Contest and numerous times on ProNet.  Technically the W3 calls for &lt;p&gt; tags to go inside of &lt;blockquote&gt; tags. However, MT's 'Convert Line Breaks" function will either a) nest paragraph tags improperly or b) simply place &lt;blockquote&gt; tags without &lt;p&gt; tags, depending on how you break your lines.  Not to mention it's fickle handling of all other block level HTML tags.  Certainly this would take some thinking through because what we want is for the program to figure out what the heck a user is trying to do based on what is entered.  But no matter how the user enters text, the program should output valid code (and characters).
 
 
 

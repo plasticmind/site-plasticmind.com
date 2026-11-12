@@ -37,7 +37,7 @@ Of course, I may have to avoid any kind of public writing until my body acclimat
 
 
 
-If you're wondering what this is all about, be sure to read about my <a href="https://plasticmind.com/retrospection/30-day-change/">2011 monthly challenges</a>.
+If you're wondering what this is all about, be sure to read about my <a href="/journal/30-day-change/">2011 monthly challenges</a>.
 
 
 

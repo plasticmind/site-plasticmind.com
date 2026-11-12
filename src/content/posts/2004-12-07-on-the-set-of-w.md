@@ -30,7 +30,7 @@ Filming began this week in Athens, NY on the set of *War of the Worlds*, a new m
 
 			<!--more-->
 
-<a href="https://plasticmind.com/weblog/hello/69/1361/640/bridge2.jpg"><img style="border: 3px solid rgb(51, 48, 0); margin: 2px;" src="https://plasticmind.com/weblog/hello/69/1361/320/bridge2.jpg" border="0" /></a>
+
 
 
 
@@ -42,7 +42,7 @@ I'm wearing a black overcoat so I guess I look official. The few cops I see don'
 
 
 
-<a href="https://plasticmind.com/weblog/hello/69/1361/640/bridge.jpg"><img style="border: 3px solid rgb(51, 48, 0); margin: 2px;" src="https://plasticmind.com/weblog/hello/69/1361/320/bridge.jpg" border="0" /></a>
+
 
 
 
@@ -54,7 +54,7 @@ About 100 feet out into the Hudson River, a number boats and flats had been some
 
 
 
-<a href="https://plasticmind.com/weblog/hello/69/1361/640/park.jpg"><img style="border: 3px solid rgb(51, 48, 0); margin: 2px;" src="https://plasticmind.com/weblog/hello/69/1361/320/park.jpg" border="0" /></a>
+
 
 
 
@@ -66,7 +66,7 @@ Walk a bit closer to where all the action is and notice I'm walking through a pa
 
 
 
-<a href="https://plasticmind.com/weblog/hello/69/1361/640/parkgazebo.jpg"><img style="border: 3px solid rgb(51, 48, 0); margin: 2px;" src="https://plasticmind.com/weblog/hello/69/1361/320/parkgazebo.jpg" border="0" /></a>
+
 
 
 
@@ -78,7 +78,7 @@ I get up a bit more courage and saunter into town. Unfortunately, I didn't get a
 
 
 
-<a href="https://plasticmind.com/weblog/hello/69/1361/640/pier2.jpg"><img style="border: 3px solid rgb(51, 48, 0); margin: 2px;" src="https://plasticmind.com/weblog/hello/69/1361/320/pier2.jpg" border="0" /></a>
+
 
 
 
@@ -90,7 +90,7 @@ A group of 30 or so military men approach, full camo with rifles and night-visio
 
 
 
-<a href="https://plasticmind.com/weblog/hello/69/1361/640/pier.jpg"><img style="border: 3px solid rgb(51, 48, 0); margin: 2px;" src="https://plasticmind.com/weblog/hello/69/1361/320/pier.jpg" border="0" /></a>
+
 
 
 
@@ -102,7 +102,7 @@ Then my luck runs out. A Sam Jackson look-alike 180 pound heavier walks up to me
 
 
 
-<a style="color: rgb(255, 0, 0); font-weight: bold;" href="https://plasticmind.com/video/WOTW-onset.wmv">The video clips are available here if you'd like.</a>
+The video clips are available here if you'd like.
 
 
 

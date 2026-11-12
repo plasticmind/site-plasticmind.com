@@ -25,13 +25,13 @@ hits: 124
 
 
 
-Thank you all for patience, and *welcome* to the new Plasticmind Journal.  Now, for those of you long time readers of my “blog”, let me clarify what just happened here.  Plasticmind: Food for Thought just became <a href="https://plasticmind.com">plasticmind.com</a>.  And the thing that lives over at <a href="https://plasticmind.com">plasticmind.com</a> is now my tech blog.  
+Thank you all for patience, and *welcome* to the new Plasticmind Journal.  Now, for those of you long time readers of my “blog”, let me clarify what just happened here.  Plasticmind: Food for Thought just became <a href="/">plasticmind.com</a>.  And the thing that lives over at <a href="/">plasticmind.com</a> is now my tech blog.  
 
 
 
 
 
-See, I did this because I realize some of you enjoy dialogging about faith, politics and whatever else oozes forth from the dark corners of my mind.  But lately, much of the stuff oozing from my brain has been related to technology and design; some of you are just cringing at the thought.  Hence, the separation.  If you're looking for tips and tricks about Photoshop or you're interested in me making a case for &lt;strong&gt; vs. &lt;b&gt;, <a href="https://plasticmind.com/">the blog</a> might be for you.  However, if you want to read about my good days, my bad days and stuff that's just plain hilarious, you're already <a href="https://plasticmind.com/">there (here)</a>.
+See, I did this because I realize some of you enjoy dialogging about faith, politics and whatever else oozes forth from the dark corners of my mind.  But lately, much of the stuff oozing from my brain has been related to technology and design; some of you are just cringing at the thought.  Hence, the separation.  If you're looking for tips and tricks about Photoshop or you're interested in me making a case for &lt;strong&gt; vs. &lt;b&gt;, <a href="/">the blog</a> might be for you.  However, if you want to read about my good days, my bad days and stuff that's just plain hilarious, you're already <a href="/">there (here)</a>.
 
 
 

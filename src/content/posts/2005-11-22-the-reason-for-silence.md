@@ -48,7 +48,7 @@ I *am* however planning to turn it into a music blog, if everyone is ok with tha
 
 
 
-And one more things before I wrap this up, I've decided to create a central location for all things PlasticMind:  <a href="https://www.allplasticmind.com">all.plasticmind.com</a>.  It's not entirely done yet, as in all the links don't work and I'm going to work on some DHTML (similar to <a href="https://plasticmind.com/portfolio/">my portfolio</a>) to make it a lot nicer.  Once that's done, I'll link to that from my forums, my design site and the blog.
+And one more things before I wrap this up, I've decided to create a central location for all things PlasticMind:  <a href="https://www.allplasticmind.com">all.plasticmind.com</a>.  It's not entirely done yet, as in all the links don't work and I'm going to work on some DHTML (similar to my portfolio) to make it a lot nicer.  Once that's done, I'll link to that from my forums, my design site and the blog.
 
 
 		

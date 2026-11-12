@@ -43,7 +43,7 @@ And yet we as Christians can say, "I know the *Master* of the storm.  I know the
 
 
 
-<a href="https://audio.plasticmind.com/sermons/restoration.mp3">LISTEN</a>
+LISTEN
 
 
 

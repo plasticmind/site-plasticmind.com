@@ -18,7 +18,7 @@ hits: 105
 
 
 
-You all may remember <a href="https://plasticmind.com/intercessional/prayer_vigil_for_jim_baldwin.php">my friend Jim</a> who was diagnosed last April with severe lymphoma.  His cancer has progressed faster than any of us could have imagined.  In fact, his kidneys failed today, he can't walk any more and the doctors just broke the news that he only has a week and a half left to live.  It's just eating him up.
+You all may remember <a href="/journal/prayer-vigil-for-jim-baldwin/">my friend Jim</a> who was diagnosed last April with severe lymphoma.  His cancer has progressed faster than any of us could have imagined.  In fact, his kidneys failed today, he can't walk any more and the doctors just broke the news that he only has a week and a half left to live.  It's just eating him up.
 
 
 

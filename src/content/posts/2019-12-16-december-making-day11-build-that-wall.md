@@ -16,7 +16,7 @@ fix: false
 hits: 252
 ---
 
-If you've been following along with <a href="https://plasticmind.com/30-day-challenge/december-making-day5-home-renovation-plans/">my renovation plans</a> for the foyer of our house, you know that I've been doing a lot of  <a href="https://plasticmind.com/30-day-challenge/december-making-day7-unmaking-wall/">"wall unmaking"</a> lately. For day 11, I finally *made* something instead of just tearing stuff down.
+If you've been following along with <a href="/journal/december-making-day5-home-renovation-plans/">my renovation plans</a> for the foyer of our house, you know that I've been doing a lot of  <a href="/journal/december-making-day7-unmaking-wall/">"wall unmaking"</a> lately. For day 11, I finally *made* something instead of just tearing stuff down.
 
 ‪This is the wall separating the new closet and pantry. The board on the ground closest to the front door is where the front closet wall/doorway will stand. The front closet will be 24" deep, and the pantry will be about 36" deep. The wall is 72" wide, and the closet doors will be 60" wide. Since the pantry is about 3' x 6', I'm planning to install 12" shelving along the long back wall and 18" shelving along the short side wall.
 
@@ -29,7 +29,7 @@ Things I still need to do:
     <li>Sheet rock/tape/mud the whole thing.</li>
 </ul>
 
-*This is day 11 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 11 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 <img class="alignnone size-large wp-image-5772" src="/assets/i/framed-wall-1024x768.jpg" alt="" width="1024" height="768" /> <img class="alignnone size-large wp-image-5773" src="/assets/i/hallway-wall-1024x766.jpg" alt="" width="1024" height="766" />
 

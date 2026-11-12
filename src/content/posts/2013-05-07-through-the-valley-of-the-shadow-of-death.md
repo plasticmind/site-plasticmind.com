@@ -19,7 +19,7 @@ hits: 274
 
 			
 
-In January of 2008, <a href="https://plasticmind.com/family-ties/nancy-clum/">my mother-in-law</a> was diagnosed with breast cancer.  She took the news with her characteristic tenacity and matter-of-factness, and started treatments so she could get past this inconvenience and get on with real life.  In January of 2010, the cancer <a href="https://reneeannsmith.com/a/a-fellow-doorkeeper/">returned with a vengeance</a> and she was given only a few weeks to live.  We buried her in February.
+In January of 2008, <a href="/journal/nancy-clum/">my mother-in-law</a> was diagnosed with breast cancer.  She took the news with her characteristic tenacity and matter-of-factness, and started treatments so she could get past this inconvenience and get on with real life.  In January of 2010, the cancer <a href="https://reneeannsmith.com/a/a-fellow-doorkeeper/">returned with a vengeance</a> and she was given only a few weeks to live.  We buried her in February.
 
 
 

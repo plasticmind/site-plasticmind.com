@@ -18,13 +18,13 @@ hits: 70
 
 
 
-After literally hundreds of hours of work on this project, we (<a href="https://www.movalog.com">Arvind</a>, <a href="https://www.learningmovabletype.com">Elise</a> and <a href="https://plasticmind.com/">I</a>) are finally doing what every good parent has to do--letting our baby wander out into the world.  Meet our baby:  
+After literally hundreds of hours of work on this project, we (<a href="https://www.movalog.com">Arvind</a>, <a href="https://www.learningmovabletype.com">Elise</a> and <a href="/">I</a>) are finally doing what every good parent has to do--letting our baby wander out into the world.  Meet our baby:  
 
 
 
 
 
-<a href="https://www.thestylecontest.com/" title="The Style Contest for Movable Type, Typepad and LiveJournal"><img src="https://www.thestylecontest.com/promo/promobadge1.gif" alt="The Style Contest for Movable Type, Typepad and LiveJournal" /></a>
+
 
 
 

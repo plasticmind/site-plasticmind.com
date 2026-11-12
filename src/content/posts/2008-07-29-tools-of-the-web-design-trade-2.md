@@ -19,7 +19,7 @@ hits: 389
 
 			
 
-In <a href="https://plasticmind.com/design/tools-of-the-web-design-trade/">the previous article</a>, I said that this article would be about the resources and processes of web design.  What I hadn't really considered was just how involved the process is, so I'll just address the initial stages of the process in this article, specifically **how to build trust with people and ultimately turn them into clients**.
+In <a href="/journal/tools-of-the-web-design-trade/">the previous article</a>, I said that this article would be about the resources and processes of web design.  What I hadn't really considered was just how involved the process is, so I'll just address the initial stages of the process in this article, specifically **how to build trust with people and ultimately turn them into clients**.
 
 
 
@@ -49,7 +49,7 @@ The process begins when a prospective client contacts me, interested in work.  A
 
 
 
-**Portfolios:**  I can't say nearly enough about the importance of a portfolio.  The design trade is all about the emotion of finished product; without it, hiring you is a guessing game. People need to feel your vibe.  You don't have to <a href="https://plasticmind.com/portfolio/">go crazy</a>, but at least put something up.  You can use a CMS like <a href="https://bloghelper.is-there.net/how-to-use-wordpress-for-a-portfolio-site-part-1/">Wordpress</a> or <a href="https://www.stopdesign.com/log/2003/07/16/rebuilding_a_portfolio.html">Movable Type</a> to build a portfolio, or you go even simpler and use <a href="https://slideshowpro.net/">SlideShowPro</a> to <a href="https://sonspring.com/journal/slideshowpro-portfolio">create a slideshow of your portfolio images</a>.  And you don't even have to put up all of the work that you do; just showcase the work that best represents what you do or what you want to be known for.  Anything is (almost always) better than nothing.
+**Portfolios:**  I can't say nearly enough about the importance of a portfolio.  The design trade is all about the emotion of finished product; without it, hiring you is a guessing game. People need to feel your vibe.  You don't have to go crazy, but at least put something up.  You can use a CMS like <a href="https://bloghelper.is-there.net/how-to-use-wordpress-for-a-portfolio-site-part-1/">Wordpress</a> or <a href="https://www.stopdesign.com/log/2003/07/16/rebuilding_a_portfolio.html">Movable Type</a> to build a portfolio, or you go even simpler and use <a href="https://slideshowpro.net/">SlideShowPro</a> to <a href="https://sonspring.com/journal/slideshowpro-portfolio">create a slideshow of your portfolio images</a>.  And you don't even have to put up all of the work that you do; just showcase the work that best represents what you do or what you want to be known for.  Anything is (almost always) better than nothing.
 
 
 
@@ -110,7 +110,7 @@ Once the requests for work start coming in, they'll come in all shapes and sizes
 
 
 
-**Is this a client I want to represent?**  When you first start getting requests for work, it's exhilarating.  You'll do a dance and call your friends.  Keep in mind, however, that the type of client you take on not only impacts your reputation, but also breeds more of the same.  After <a href="https://plasticmind.com/portfolio/web/simply-recipes/">redesigning Simply Recipes</a>, my inbox was **full** of food bloggers looking for a redesign.
+**Is this a client I want to represent?**  When you first start getting requests for work, it's exhilarating.  You'll do a dance and call your friends.  Keep in mind, however, that the type of client you take on not only impacts your reputation, but also breeds more of the same.  After <a href="/journal/simply-recipes/">redesigning Simply Recipes</a>, my inbox was **full** of food bloggers looking for a redesign.
 
 
 
@@ -161,7 +161,7 @@ Sometimes it's just easier to see an example, so I've created a sample proposal 
 
 
 
-<a href="https://plasticmind.com/resources/tutorials/sample-proposal.pdf" class="download-link">Sample Web Design Proposal <span>(.pdf/54k, 7/29/08)</span></a>
+Sample Web Design Proposal <span>(.pdf/54k, 7/29/08)</span>
 
 
 

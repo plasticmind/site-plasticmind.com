@@ -24,7 +24,7 @@ Better yet, with each style you can create as many “variants” that you’d l
 
 Let us dispense with the introductions! Here’s the Movable Type 4 theme for Colloquy, for your IRC browsing enjoyment:
 
-<a class="download-link" href="https://plasticmind.com/downloads/lovable-colloquy.zip">Download Lovable Type for Colloquy (.zip/110k, v.1)</a>
+Download Lovable Type for Colloquy (.zip/110k, v.1)
 
 To install, simply copy the unzipped file to the:
 <pre><code> ~/Library/Application Support/Colloquy/Styles

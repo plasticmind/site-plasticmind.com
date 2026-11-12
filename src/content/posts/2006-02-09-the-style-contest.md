@@ -19,7 +19,7 @@ hits: 90
 
 			
 
-<a href="https://www.thestylecontest.com/"><img src="https://plasticmind.com/images/tophat-q.gif" alt="" /></a>
+
 
 
 

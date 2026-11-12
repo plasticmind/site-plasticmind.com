@@ -16,7 +16,7 @@ fix: false
 hits: 228
 ---
 
-<div class="thumb-left"><img src="https://plasticmind.com/images/story-theboyandthegirl.gif" alt="The Boy and the Girl: An Engagement Story" /></div>
+<div class="thumb-left"><img src="/assets/i/story-theboyandthegirl.gif" alt="The Boy and the Girl: An Engagement Story" /></div>
 
 ### Chapter 2: The Secret
 
@@ -44,4 +44,4 @@ This was it! Today was the day! They were supposed to get up at five thirty and 
 
 They made it into the water at six, with the sun already coming up and a beautiful morning already starting. As they paddled out to the middle of the lake, two motor boats raced along the north shore. The girl did not notice. The two boats stopped at the cliffs and after about five minutes, one took off back up the north shore. The girl did not notice, but the boy did. He headed the kayak toward the cliffs.
 
-**<a href="https://plasticmind.com/heart/the-boy-and-the-3/">on to chapter 3…</a>**
+**<a href="/journal/the-boy-and-the-girl-part-3/">on to chapter 3…</a>**

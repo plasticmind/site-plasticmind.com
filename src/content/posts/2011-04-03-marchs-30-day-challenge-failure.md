@@ -25,7 +25,7 @@ A few days ago, a commentator on NPR made the comment that the Internet is like 
 
 
 
-For those of you not following along, instead of a year-long resolution, I'm attempting <a href="https://plasticmind.com/retrospection/30-day-change/">12 different 30 day challenges</a>.  The challenge for March was to be off the computer by 9pm every day.
+For those of you not following along, instead of a year-long resolution, I'm attempting <a href="/journal/30-day-change/">12 different 30 day challenges</a>.  The challenge for March was to be off the computer by 9pm every day.
 
 
 

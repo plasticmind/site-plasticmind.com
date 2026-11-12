@@ -26,6 +26,6 @@ So I’m proposing a celebration that involves you: **I will send my 1000th foll
 
 And have no fear, current followers, I have something for you, too. When we cross the 1000 mark, **I’m going to give away 4 like-new paperback copies of Dandelion Wine by Ray Bradbury to 4 randomly selected current followers.**
 
-These books and authors have been some of the most influential in my own life, and I’m hoping they can bring you some of <a href="https://plasticmind.com/the-pen/qui-minspire/">the same inspiration they’ve brought to me</a>.
+These books and authors have been some of the most influential in my own life, and I’m hoping they can bring you some of <a href="/journal/qui-minspire/">the same inspiration they’ve brought to me</a>.
 
 You should <a href="https://twitter.com/plasticmind">follow @plasticmind on Twitter</a>, or if you’re already following me, <a href="https://twitter.com/home?status=Follow%20@plasticmind%20and%20you%20could%20win%20a%20free%20book!%20https://plas.tc/4l">spread the word</a>!

@@ -31,7 +31,7 @@ To help prospective Twitter followers make a more informed decision (and have so
 
 
 
-<a href="https://twitter.com/plasticmind/"><img src="https://img.skitch.com/20090108-xbc7n4t2kcx8fxt2if2muyftks.png" alt="Twitter Nutrition Chart" title="" /></a>
+
 
 
 
@@ -43,7 +43,7 @@ And since I love to share, here's the PSD so you can roll your own (you'll need 
 
 
 
-<a href="https://plasticmind.com/resources/twitter-bg.psd.zip" class="download-link">Download Twitter Nutrition Facts PSD</a>
+Download Twitter Nutrition Facts PSD
 
 
 

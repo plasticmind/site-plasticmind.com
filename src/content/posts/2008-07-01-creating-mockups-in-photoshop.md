@@ -34,7 +34,7 @@ Here are some things I've discovered while creating website mockups in Photoshop
 
 
 
-<img src="https://img.skitch.com/20080702-mtnkecsmcb4a1dtb3gaaw2321t.png" alt="Use Shape Layers" />
+<img src="/assets/i/20080702-mtnkecsmcb4a1dtb3gaaw2321t.png" alt="Use Shape Layers" />
 
 
 
@@ -46,7 +46,7 @@ Here are some things I've discovered while creating website mockups in Photoshop
 
 
 
-<img src="https://img.skitch.com/20080702-edbwq78xw85cm4tiitt6dwwm22.png" alt="Blending Options FTW!" />
+<img src="/assets/i/20080702-edbwq78xw85cm4tiitt6dwwm22.png" alt="Blending Options FTW!" />
 
 
 
@@ -58,7 +58,7 @@ Here are some things I've discovered while creating website mockups in Photoshop
 
 
 
-<img src="https://img.skitch.com/20080702-fx3dy3bnqjgm4bja7im5s2rd9c.png" alt="Antialiasing in Photoshop" />
+<img src="/assets/i/20080702-fx3dy3bnqjgm4bja7im5s2rd9c.png" alt="Antialiasing in Photoshop" />
 
 
 
@@ -76,7 +76,7 @@ Here are some things I've discovered while creating website mockups in Photoshop
 
 
 
-<img src="https://img.skitch.com/20080702-x56asni2gbpf3pphyige46s8pt.png" alt="Nested Layers To Duplicate The DOM" />
+<img src="/assets/i/20080702-x56asni2gbpf3pphyige46s8pt.png" alt="Nested Layers To Duplicate The DOM" />
 
 
 
@@ -153,7 +153,7 @@ And then just toggle their visibility when saving multiple drafts.
 
 
 
-<a href="https://plasticmind.com/resources/tutorials/sample-mockup.psd.zip" class="download-link">Download Sample PSD Mockup <span>(.zip/1Mb, 7/2/08)</span></a>
+Download Sample PSD Mockup <span>(.zip/1Mb, 7/2/08)</span>
 
 
 
@@ -165,7 +165,7 @@ The mockup took me some time to put together.  If you do get some use of it, may
 
 
 
-Also, if you found this article useful, check out my article, <a href="https://plasticmind.com/design/tools-of-the-web-design-trade/">Tools of the Web Design Trade, Part 1</a> and <a href="https://plasticmind.com/design/tools-of-the-web-design-trade-2/">Part 2</a>.  Part two includes a sample invoice you can download that may come in handy if you're just learning the ropes.
+Also, if you found this article useful, check out my article, <a href="/journal/tools-of-the-web-design-trade/">Tools of the Web Design Trade, Part 1</a> and <a href="/journal/tools-of-the-web-design-trade-2/">Part 2</a>.  Part two includes a sample invoice you can download that may come in handy if you're just learning the ropes.
 
 
 

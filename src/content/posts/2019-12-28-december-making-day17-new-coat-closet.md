@@ -16,7 +16,7 @@ fix: false
 hits: 608
 ---
 
-In the continuing saga of <a href="https://plasticmind.com/30-day-challenge/december-making-day5-home-renovation-plans/">my renovation plans</a> for the foyer of our house, you know that I’ve <a href="https://plasticmind.com/30-day-challenge/december-making-day7-unmaking-wall/">torn down the wall closing in our entryway</a> and <a href="https://plasticmind.com/30-day-challenge/december-making-day11-build-that-wall/">framed in a new pantry and coat closet</a> in that space. For day 17, I finished the major work by sheetrocking the closet and shiplapping the rear wall.
+In the continuing saga of <a href="/journal/december-making-day5-home-renovation-plans/">my renovation plans</a> for the foyer of our house, you know that I’ve <a href="/journal/december-making-day7-unmaking-wall/">torn down the wall closing in our entryway</a> and <a href="/journal/december-making-day11-build-that-wall/">framed in a new pantry and coat closet</a> in that space. For day 17, I finished the major work by sheetrocking the closet and shiplapping the rear wall.
 
 <img class="alignnone size-large wp-image-5830" src="/assets/i/80268817_10156365741177202_4817581725485891584_o-1024x768.jpg" alt="" width="1024" height="768" />
 
@@ -44,7 +44,7 @@ The major construction is done, but there are a few things I still need to do:
     <li>Install the bi-fold doors.</li>
 </ul>
 
-*This is day 16 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 16 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 <div style="display: none;"></div>
 

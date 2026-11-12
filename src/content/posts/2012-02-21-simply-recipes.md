@@ -19,7 +19,7 @@ hits: 1015
 
 			
 
-Two years ago, almost to the day, I <a href="https://plasticmind.com/journeys/rainbow/">made the decision</a> to leave independent contracting and take a director position at <a href="https://amcnetworks.com">AMC Networks</a> (Rainbow Media at the time) in New York City.  At the time, I was doing a rather terrible job of balancing everything: a dozen or so clients, a new family, church.  I used to joke: “Why work 8 hours a day for someone else when you can work 16 hours a day for yourself!”
+Two years ago, almost to the day, I <a href="/journal/rainbow/">made the decision</a> to leave independent contracting and take a director position at <a href="https://amcnetworks.com">AMC Networks</a> (Rainbow Media at the time) in New York City.  At the time, I was doing a rather terrible job of balancing everything: a dozen or so clients, a new family, church.  I used to joke: “Why work 8 hours a day for someone else when you can work 16 hours a day for yourself!”
 
 
 

@@ -31,7 +31,7 @@ But I'd rather not write about that.  I've been thinking about another kind of m
 
 
 
-Earlier today, I <a href="https://plasticmind.com/social-networking/a-lesson-in-comment-policy-fro/">wrote briefly</a> about Gawker Media's new comment approach they've implemented across all of their web sites.  The psychology of it all fascinates me.
+Earlier today, I <a href="/journal/a-lesson-in-comment-policy-fro/">wrote briefly</a> about Gawker Media's new comment approach they've implemented across all of their web sites.  The psychology of it all fascinates me.
 
 
 

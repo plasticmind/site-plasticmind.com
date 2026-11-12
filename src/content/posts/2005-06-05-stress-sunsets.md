@@ -25,7 +25,7 @@ I'm almost too tired to enter this post, yet I feel like choosing every category
 
 
 
-<img src="https://plasticmind.com/photos/stuff_and_nonsense/kitty2.jpg">
+
 
 
 
@@ -37,7 +37,7 @@ Hi, Bob.  Looks like he's busy hunting mice, so we'll leave him and get back to 
 
 
 
-<img src="https://plasticmind.com/photos/stuff_and_nonsense/kitty3.jpg">
+
 
 
 
@@ -55,7 +55,7 @@ Oh look, I guess I put poor Bob to sleep.
 
 
 
-<img src="https://plasticmind.com/photos/stuff_and_nonsense/kitty1.jpg">
+
 
 
 

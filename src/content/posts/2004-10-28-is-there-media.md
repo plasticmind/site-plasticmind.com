@@ -36,7 +36,7 @@ Bush, Kerry Rock-N-Brawl (includes photo-op of Kerry and Springsteen)</span></sp
 • Iraq Hostage Drama Escalates
 • UN Workers Grabbed In Afghanistan
 
-<span style="font-size: 85%;"><span class="postbody" style="font-style: italic;">CBS seemed extremely slanted, and has over the course of the last few months. Ironically enough, I <a class="postlink" href="https://plasticmind.com/america/cbs-means-never/" target="_blank" rel="noopener">posted on my blog about CBS's issues</a> back in February. Even the headlines here are so pathetically one sided, its amazing its not KBS. </span></span>
+<span style="font-size: 85%;"><span class="postbody" style="font-style: italic;">CBS seemed extremely slanted, and has over the course of the last few months. Ironically enough, I posted on my blog about CBS's issues back in February. Even the headlines here are so pathetically one sided, its amazing its not KBS. </span></span>
 <span class="postbody">
 <span style="color: red;"><span style="text-decoration: underline;"><span style="font-size: 18px; line-height: normal;"><span style="font-weight: bold;">ABC News (Oct.28, 2004, 5:30pm)</span></span>:</span></span>
 <span style="font-weight: bold;"><span style="font-size: 14px; line-height: normal;">MAIN HEADLINE:

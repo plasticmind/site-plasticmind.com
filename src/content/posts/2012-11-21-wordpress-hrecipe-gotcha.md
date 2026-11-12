@@ -16,7 +16,7 @@ fix: false
 hits: 888
 ---
 
-**Update:** It appears that Google now prefers metadata (Schema.org) over microformats (hrecipe). More information on <a title="How We Got Our Rich Snippets Back" href="https://plasticmind.com/seo/get-recipe-rich-snippets-back/">my blog post about switching to metadata</a>.
+**Update:** It appears that Google now prefers metadata (Schema.org) over microformats (hrecipe). More information on <a title="How We Got Our Rich Snippets Back" href="/journal/get-recipe-rich-snippets-back/">my blog post about switching to metadata</a>.
 
 We recently migrated <a href="https://www.simplyrecipes.com/">Simply Recipes</a> over to WordPress from Movable Type. All-in-all a pretty seamless transition, and one I plan to document extensively in the coming weeks.
 

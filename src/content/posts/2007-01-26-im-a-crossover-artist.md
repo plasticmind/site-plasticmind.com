@@ -31,7 +31,7 @@ My dad has been a PC guy as long as I can remember.  And because he used to writ
 
 
 
-Well, I grew up and things started changing.  My voice began to crack.  I grew hair (singular) on my chest.  And for the first time in my life, I was buying my own technology.  I was also teaching at the time at a school that started their staff off at $13.8k a year, so I went cheap.  <a href="https://www.flickr.com/photos/plasticmind/158167627/">But I wasn't fooling anyone</a>.  I had my heart set on a sleek music player from the *other side*.  I tried to get a free one, but <a href="https://plasticmind.com/ears/my_free_ipod.php">that ended badly</a>.  Finally, I took my first step towards liberalism and <a href="https://plasticmind.com/ears/me_myself_and_i.php">bought an iPod</a>.
+Well, I grew up and things started changing.  My voice began to crack.  I grew hair (singular) on my chest.  And for the first time in my life, I was buying my own technology.  I was also teaching at the time at a school that started their staff off at $13.8k a year, so I went cheap.  <a href="https://www.flickr.com/photos/plasticmind/158167627/">But I wasn't fooling anyone</a>.  I had my heart set on a sleek music player from the *other side*.  I tried to get a free one, but that ended badly.  Finally, I took my first step towards liberalism and <a href="/journal/me-myself-and-i/">bought an iPod</a>.
 
 
 
@@ -49,7 +49,7 @@ I couldn't help but think, "if they've done such a bang up job with their music 
 
 
 
-So after several months of <a href="https://plasticmind.com/0s-and-1s/i_want_to_be_a_real_boy.php">a whiny dropcash campaign</a>, I finally bit the bullet and bought <a href="https://plasticmind.com/0s-and-1s/baby_got_mac.php">my first Mac</a>.  It took me a few weeks to get the hang of things.  Keyboard shortcuts were a big sticking point at first, and I'm still fumbling around with the terminal; but it's like rehab.  Tough at first, but OH the freedom!  Nearly everything makes sense about how this machine works.  I'm constantly being surprised at how well OSX anticipates what I'm trying to do and makes the job easy for me.
+So after several months of <a href="/journal/i-want-to-be-a-real-boy/">a whiny dropcash campaign</a>, I finally bit the bullet and bought <a href="/journal/baby-got-mac/">my first Mac</a>.  It took me a few weeks to get the hang of things.  Keyboard shortcuts were a big sticking point at first, and I'm still fumbling around with the terminal; but it's like rehab.  Tough at first, but OH the freedom!  Nearly everything makes sense about how this machine works.  I'm constantly being surprised at how well OSX anticipates what I'm trying to do and makes the job easy for me.
 
 
 

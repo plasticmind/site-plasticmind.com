@@ -49,7 +49,7 @@ Jumps, pauses, hesitations, 2 or 3 second chunks of nothing between sentimentali
 
 
 
-We found an apartment.  A bit overpriced, but it's a place to live.  We're moving most of our things down there this weekend and living out of suitcases for the most part; now *that* makes <a href="https://plasticmind.com/wedding/">the Day</a> seem ever so close.
+We found an apartment.  A bit overpriced, but it's a place to live.  We're moving most of our things down there this weekend and living out of suitcases for the most part; now *that* makes <a href="/category/people/">the Day</a> seem ever so close.
 
 
 

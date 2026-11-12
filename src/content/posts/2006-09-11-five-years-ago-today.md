@@ -36,7 +36,7 @@ What a strange situation, standing up there, myself afraid with all of those eye
 
 
 
-Five years ago today, I <a href="https://plasticmind.com/america/america-the-vul/">wrote down my fears</a>.
+Five years ago today, I <a href="/journal/america-the-vul/">wrote down my fears</a>.
 
 
 

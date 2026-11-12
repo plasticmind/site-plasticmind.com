@@ -16,7 +16,7 @@ fix: false
 hits: 184
 ---
 
-Every year since <a title="Ethan’s First Surgery" href="https://plasticmind.com/family-ties/ethans-first-surgery/">Ethan’s first cleft palate surgery</a>, we meet with the cleft palate team at Children’s Hospital so they can evaluate his progress. They test his speech and his hearing, measure his face and jaw for abnormal growth, and poke around his mouth to see how his palate is forming and his teeth are coming in.
+Every year since <a title="Ethan’s First Surgery" href="/journal/ethans-first-surgery/">Ethan’s first cleft palate surgery</a>, we meet with the cleft palate team at Children’s Hospital so they can evaluate his progress. They test his speech and his hearing, measure his face and jaw for abnormal growth, and poke around his mouth to see how his palate is forming and his teeth are coming in.
 
 After a long day of these tests (6 hours), there were a few small items of concern. His speech has recently become significantly more “hyper-nasal”, meaning that air escapes from his nostrils when he says certain words. This is compounded by the fact that his upper jaw isn’t growing at the same rate as his lower jaw. The audiologist also noticed a very slight hearing loss in his left ear that might be attributed to some seasonal congestion.
 

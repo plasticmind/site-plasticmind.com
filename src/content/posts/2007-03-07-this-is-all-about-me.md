@@ -31,7 +31,7 @@ I'm going to change things up today and do something novel: write a post about m
 
 
 
-Busy, busy, busy.  But then, I think busy is just a state of mind, really.  Every time I say it, it means less and less.  Pretty soon I'll be the hard shell of a workaholic and no one will recognize me.  Oh well, here's to <a href="https://plasticmind.com/retrospection/retrospect_vers.php">staying childlike</a>!
+Busy, busy, busy.  But then, I think busy is just a state of mind, really.  Every time I say it, it means less and less.  Pretty soon I'll be the hard shell of a workaholic and no one will recognize me.  Oh well, here's to <a href="/journal/retrospect-vers/">staying childlike</a>!
 
 
 

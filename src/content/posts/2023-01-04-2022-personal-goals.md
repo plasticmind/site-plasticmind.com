@@ -27,7 +27,7 @@ In 2013, I visited the Rockies for the first time and fell immediately in love. 
 ![](/assets/i/park-1024x683.jpeg)
 *Chasm Lake at the base of Long's Peak (near Estes Park, CO)*
 
-We weren't able to make it to the Rockies this year, for a few reasons that I alluded to this <a href="https://plasticmind.com/journeys/2022-home-family/">in a previous post</a>. In short, when I was working a full-time job, I didn’t have the time; and when I left my job, I didn’t have the money. I’ve set some specific financial goals to make this happen in 2023.
+We weren't able to make it to the Rockies this year, for a few reasons that I alluded to this <a href="/journal/2022-home-family/">in a previous post</a>. In short, when I was working a full-time job, I didn’t have the time; and when I left my job, I didn’t have the money. I’ve set some specific financial goals to make this happen in 2023.
 
 ### Start making videos teaching people.
 
@@ -47,7 +47,7 @@ Some success, some failure. See that big spike? That’s when I hiked part of th
 
 This was the hardest goal to write, let alone contemplate doing something about. I had just gone through a very challenging transition at work and was facing even more unknowns headed into 2022. I was overwhelmed by stress, and I knew the status quo wasn’t sustainable. A friend helped reframe my thinking, and the following months were some of the most personally and professionally satisfying of my career.
 
-In August, a big organizational restructure put me in a position that I wasn’t comfortable with, and I left. <a href="https://plasticmind.com/journeys/farewell-fox/">I wrote at length about why at the time</a>, so I won’t belabor the point here. But since then, I’ve been researching, writing, and consulting about design systems.
+In August, a big organizational restructure put me in a position that I wasn’t comfortable with, and I left. <a href="/journal/farewell-fox/">I wrote at length about why at the time</a>, so I won’t belabor the point here. But since then, I’ve been researching, writing, and consulting about design systems.
 
 Of all my goals, this feels like the one I accomplished most thoroughly. I figured out how to make the job I was in better (and helped better myself and others in the process), but I also started a new job (consulting) that I feel much better about! Win-win! Much more to come on that front in 2023.
 

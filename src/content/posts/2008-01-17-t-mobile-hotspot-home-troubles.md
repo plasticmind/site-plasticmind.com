@@ -25,7 +25,7 @@ hits: 241
 
 
 
-I spend **hours** at a time on conference calls, which can be problematic since I've only got a cell phone.  Those 3 hour support calls with clients can really gobble up those minutes.  I had been running Vonage, but that just didn't work on <a href="https://plasticmind.com/miscellany/i-hate-verizon-vonage-and-comcast-or-erego-ergo-sum/">so many different levels</a>.  In fact, the only solution I'd found up until this point was just to keep upping my minute plans; only trouble was that it required a renewal of my contract.  Ugh.
+I spend **hours** at a time on conference calls, which can be problematic since I've only got a cell phone.  Those 3 hour support calls with clients can really gobble up those minutes.  I had been running Vonage, but that just didn't work on <a href="/journal/i-hate-verizon-vonage-and-comcast-or-erego-ergo-sum/">so many different levels</a>.  In fact, the only solution I'd found up until this point was just to keep upping my minute plans; only trouble was that it required a renewal of my contract.  Ugh.
 
 
 

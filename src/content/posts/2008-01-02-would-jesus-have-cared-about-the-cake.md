@@ -31,13 +31,13 @@ hits: 225
 
 
 
-I must have missed the “always” somewhere in previous readings.  But <a href="https://plasticmind.com/heart/the-poor-dilemma-1/">they</a> came back today.  Yeah,<a href="https://plasticmind.com/heart/the-poor-dilemma-1/"> the couple living on disability I wrote about last year</a> who were sleeping on benches and needed food and money.  They scared me out of an email-induced stupor when they banged on my office window, calling me father and asking me to open the door.
+I must have missed the “always” somewhere in previous readings.  But <a href="/journal/the-poor-dilemma-1/">they</a> came back today.  Yeah,<a href="/journal/the-poor-dilemma-1/"> the couple living on disability I wrote about last year</a> who were sleeping on benches and needed food and money.  They scared me out of an email-induced stupor when they banged on my office window, calling me father and asking me to open the door.
 
 
 
 
 
-Turns out they were in a tight spot again.  With suitcases in tow, they told me how they were kicked out of their motel room today because their disability check didn't get deposited until midnight tonight.  They needed food, something warm to drink and enough money to stay one more night at the hotel.  I brewed up some coffee, gave them a plastic bag full of food and drink leftover from <a href="https://plasticmind.com/retrospection/2008-how-euphoric/">our New Year's celebration</a> and, while they ate, talked to them a while about getting out of this cycle of poverty.  They really didn't want  an apartment, they just wanted a cheaper motel.
+Turns out they were in a tight spot again.  With suitcases in tow, they told me how they were kicked out of their motel room today because their disability check didn't get deposited until midnight tonight.  They needed food, something warm to drink and enough money to stay one more night at the hotel.  I brewed up some coffee, gave them a plastic bag full of food and drink leftover from <a href="/journal/2008-how-euphoric/">our New Year's celebration</a> and, while they ate, talked to them a while about getting out of this cycle of poverty.  They really didn't want  an apartment, they just wanted a cheaper motel.
 
 
 

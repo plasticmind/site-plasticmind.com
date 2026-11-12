@@ -16,13 +16,13 @@ fix: false
 hits: 5993
 ---
 
-<img title="" src="https://img.skitch.com/20080919-p91e5qeg3grujjhq1gedumm4rx.png" alt="SymbolAssist" />
+<img title="" src="/assets/i/20080919-p91e5qeg3grujjhq1gedumm4rx.png" alt="SymbolAssist" />
 
 After seeing the nifty characters <a href="https://thenextweb.org/2008/09/16/twitterkeys-enhance-your-twitter-conversations/">TwitterKeys</a> made readily available for posting into your Twitter and IM conversations, I got inspired to dig around <a href="https://www.ssec.wisc.edu/~tomw/java/unicode.html">the 65,000+ Unicode characters</a> and find some more gems.
 
-As I did, I started to realize a couple of things. First, a huge list of symbols wouldn’t be all that helpful. Second, these symbols are useful for more than just jazzing up your Twitter conversations (✌ <a href="https://plasticmind.com/">@plasticmind</a>). So the idea of an organized character map tool that actually let you click a symbol to copy it to your clipboard began to percolate. Too often I’m opening up Word or trying to find a page on Google with the symbol I need.
+As I did, I started to realize a couple of things. First, a huge list of symbols wouldn’t be all that helpful. Second, these symbols are useful for more than just jazzing up your Twitter conversations (✌ <a href="/">@plasticmind</a>). So the idea of an organized character map tool that actually let you click a symbol to copy it to your clipboard began to percolate. Too often I’m opening up Word or trying to find a page on Google with the symbol I need.
 
-**The result is <a href="https://plasticmind.com/toybox/symbolassist/">SymbolAssist</a>, a browser-based character map that saves you time by letting you click-to-copy symbols to your clipboard.**
+**The result is SymbolAssist, a browser-based character map that saves you time by letting you click-to-copy symbols to your clipboard.**
 
 <!--more-->
 

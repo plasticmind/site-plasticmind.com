@@ -49,13 +49,13 @@ If you enjoy the feeling you get when you look at my website, and you're a Collo
 
 
 
-<a href="https://plasticmind.com/downloads/haas-colloquy.zip" class="download-link">Download Haas for Colloquy (.zip/8k, v.1)</a>
+Download Haas for Colloquy (.zip/8k, v.1)
 
 
 
 
 
-<a href="https://plasticmind.com/downloads/theme-colloquy-irc/">Installation instructions here.</a></a>
+<a href="/journal/theme-colloquy-irc/">Installation instructions here.</a></a>
 
 
 

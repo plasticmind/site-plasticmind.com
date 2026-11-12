@@ -1,0 +1,3119 @@
+{
+ "/assets/i/002-1024x772.jpg": {
+  "width": 1024,
+  "height": 772,
+  "webp": "/assets/i/002-1024x772.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/002-1024x772-800w.webp"
+ },
+ "/assets/i/003-1-1024x576.jpg": {
+  "width": 1024,
+  "height": 576,
+  "webp": "/assets/i/003-1-1024x576.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/003-1-1024x576-800w.webp"
+ },
+ "/assets/i/004-1-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/004-1-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/004-1-1024x683-800w.webp"
+ },
+ "/assets/i/005-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/005-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/005-1024x768-800w.webp"
+ },
+ "/assets/i/006-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/006-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/006-1024x768-800w.webp"
+ },
+ "/assets/i/007-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/007-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/008-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/008-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/008-1024x768-800w.webp"
+ },
+ "/assets/i/009-2-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/009-2-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/009-2-1024x768-800w.webp"
+ },
+ "/assets/i/010-1-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/010-1-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/010-1-1024x768-800w.webp"
+ },
+ "/assets/i/011-1-819x1024.jpg": {
+  "width": 819,
+  "height": 1024,
+  "webp": "/assets/i/011-1-819x1024.webp",
+  "webpWidth": 819,
+  "small": "/assets/i/011-1-819x1024-800w.webp"
+ },
+ "/assets/i/012-2-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/012-2-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/012-2-1024x768-800w.webp"
+ },
+ "/assets/i/013-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/013-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/014-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/014-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/014-1024x768-800w.webp"
+ },
+ "/assets/i/015-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/015-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/015-1024x768-800w.webp"
+ },
+ "/assets/i/016-1-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/016-1-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/016-1-1024x768-800w.webp"
+ },
+ "/assets/i/017-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/017-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/017-1024x683-800w.webp"
+ },
+ "/assets/i/018-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/018-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/018-1024x768-800w.webp"
+ },
+ "/assets/i/019-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/019-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/019-1024x768-800w.webp"
+ },
+ "/assets/i/020-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/020-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/020-1024x768-800w.webp"
+ },
+ "/assets/i/021-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/021-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/021-1024x768-800w.webp"
+ },
+ "/assets/i/022-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/022-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/022-1024x768-800w.webp"
+ },
+ "/assets/i/023-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/023-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/023-1024x768-800w.webp"
+ },
+ "/assets/i/024-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/024-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/025-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/025-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/025-1024x768-800w.webp"
+ },
+ "/assets/i/026-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/026-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/026-1024x768-800w.webp"
+ },
+ "/assets/i/027-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/027-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/027-1024x683-800w.webp"
+ },
+ "/assets/i/028-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/028-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/028-1024x683-800w.webp"
+ },
+ "/assets/i/029-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/029-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/029-1024x683-800w.webp"
+ },
+ "/assets/i/030-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/030-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/030-1024x683-800w.webp"
+ },
+ "/assets/i/031-1024x629.jpg": {
+  "width": 1024,
+  "height": 629,
+  "webp": "/assets/i/031-1024x629.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/031-1024x629-800w.webp"
+ },
+ "/assets/i/032-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/032-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/032-1024x768-800w.webp"
+ },
+ "/assets/i/033-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/033-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/033-1024x683-800w.webp"
+ },
+ "/assets/i/034-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/034-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/034-1024x768-800w.webp"
+ },
+ "/assets/i/035-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/035-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/036-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/036-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/036-1024x768-800w.webp"
+ },
+ "/assets/i/037-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/037-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/038-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/038-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/038-1024x768-800w.webp"
+ },
+ "/assets/i/039-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/039-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/039-1024x768-800w.webp"
+ },
+ "/assets/i/040-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/040-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/040-1024x768-800w.webp"
+ },
+ "/assets/i/041-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/041-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/041-1024x768-800w.webp"
+ },
+ "/assets/i/042-1-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/042-1-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/042-1-1024x768-800w.webp"
+ },
+ "/assets/i/102-dyer-1.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/102-dyer-1.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/102-dyer-1-800w.webp"
+ },
+ "/assets/i/10407376474_bd1d5eb619_k.jpg": {
+  "width": 2048,
+  "height": 1536,
+  "webp": "/assets/i/10407376474_bd1d5eb619_k.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/10407376474_bd1d5eb619_k-800w.webp"
+ },
+ "/assets/i/10up-1.png": {
+  "width": 3200,
+  "height": 900,
+  "webp": "/assets/i/10up-1.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/10up-1-800w.webp"
+ },
+ "/assets/i/1127590370_6379c04677_b.jpg": {
+  "width": 1024,
+  "height": 640,
+  "webp": "/assets/i/1127590370_6379c04677_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/1127590370_6379c04677_b-800w.webp"
+ },
+ "/assets/i/1426001157_a4fa083e65_b.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/1426001157_a4fa083e65_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/1426001157_a4fa083e65_b-800w.webp"
+ },
+ "/assets/i/18f.jpeg": {
+  "width": 2048,
+  "height": 1070,
+  "webp": "/assets/i/18f.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/18f-800w.webp"
+ },
+ "/assets/i/20080702-edbwq78xw85cm4tiitt6dwwm22.png": {
+  "width": 500,
+  "height": 300,
+  "webp": "/assets/i/20080702-edbwq78xw85cm4tiitt6dwwm22.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/20080702-fx3dy3bnqjgm4bja7im5s2rd9c.png": {
+  "width": 507,
+  "height": 163,
+  "webp": "/assets/i/20080702-fx3dy3bnqjgm4bja7im5s2rd9c.webp",
+  "webpWidth": 507
+ },
+ "/assets/i/20080702-mtnkecsmcb4a1dtb3gaaw2321t.png": {
+  "width": 500,
+  "height": 151,
+  "webp": "/assets/i/20080702-mtnkecsmcb4a1dtb3gaaw2321t.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/20080702-x56asni2gbpf3pphyige46s8pt.png": {
+  "width": 250,
+  "height": 310,
+  "webp": "/assets/i/20080702-x56asni2gbpf3pphyige46s8pt.webp",
+  "webpWidth": 250
+ },
+ "/assets/i/20080919-p91e5qeg3grujjhq1gedumm4rx.png": {
+  "width": 310,
+  "height": 302,
+  "webp": "/assets/i/20080919-p91e5qeg3grujjhq1gedumm4rx.webp",
+  "webpWidth": 310
+ },
+ "/assets/i/2013-03-21_at_1.21.00_PM.png": {
+  "width": 608,
+  "height": 335,
+  "webp": "/assets/i/2013-03-21_at_1.21.00_PM.webp",
+  "webpWidth": 608
+ },
+ "/assets/i/2014-09-11-at-10.19-AM.png": {
+  "width": 547,
+  "height": 144,
+  "webp": "/assets/i/2014-09-11-at-10.19-AM.webp",
+  "webpWidth": 547
+ },
+ "/assets/i/2014568741_6d26d1d0b7_b.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/2014568741_6d26d1d0b7_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/2014568741_6d26d1d0b7_b-800w.webp"
+ },
+ "/assets/i/2018-01-05-at-5.38-PM.png": {
+  "width": 1646,
+  "height": 808,
+  "webp": "/assets/i/2018-01-05-at-5.38-PM.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/2018-01-05-at-5.38-PM-800w.webp"
+ },
+ "/assets/i/2019-12-06-at-11.15-PM-300x199.png": {
+  "width": 300,
+  "height": 199,
+  "webp": "/assets/i/2019-12-06-at-11.15-PM-300x199.webp",
+  "webpWidth": 300
+ },
+ "/assets/i/2019-12-06-at-9.47-PM-1-1024x747.png": {
+  "width": 1024,
+  "height": 747,
+  "webp": "/assets/i/2019-12-06-at-9.47-PM-1-1024x747.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/2019-12-06-at-9.47-PM-1-1024x747-800w.webp"
+ },
+ "/assets/i/2019-12-06-at-9.47-PM.png": {
+  "width": 2052,
+  "height": 1496,
+  "webp": "/assets/i/2019-12-06-at-9.47-PM.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/2019-12-06-at-9.47-PM-800w.webp"
+ },
+ "/assets/i/2019-12-09-at-11.47-PM-scaled.png": {
+  "width": 2560,
+  "height": 1441,
+  "webp": "/assets/i/2019-12-09-at-11.47-PM-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/2019-12-09-at-11.47-PM-scaled-800w.webp"
+ },
+ "/assets/i/2019-12-16-at-11.12-PM-1024x249.png": {
+  "width": 1024,
+  "height": 249,
+  "webp": "/assets/i/2019-12-16-at-11.12-PM-1024x249.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/2019-12-16-at-11.12-PM-1024x249-800w.webp"
+ },
+ "/assets/i/2019-12-19-at-8.38-AM.jpg": {
+  "width": 1928,
+  "height": 1382,
+  "webp": "/assets/i/2019-12-19-at-8.38-AM.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/2019-12-19-at-8.38-AM-800w.webp"
+ },
+ "/assets/i/2020-03-04-at-10.09-AM.png": {
+  "width": 1914,
+  "height": 1132,
+  "webp": "/assets/i/2020-03-04-at-10.09-AM.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/2020-03-04-at-10.09-AM-800w.webp"
+ },
+ "/assets/i/2020-03-04-at-6.54-AM-1024x399.png": {
+  "width": 1024,
+  "height": 399,
+  "webp": "/assets/i/2020-03-04-at-6.54-AM-1024x399.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/2020-03-04-at-6.54-AM-1024x399-800w.webp"
+ },
+ "/assets/i/2020-03-04-at-9.49-AM-1024x615.png": {
+  "width": 1024,
+  "height": 615,
+  "webp": "/assets/i/2020-03-04-at-9.49-AM-1024x615.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/2020-03-04-at-9.49-AM-1024x615-800w.webp"
+ },
+ "/assets/i/2022-confessions.jpeg": {
+  "width": 2048,
+  "height": 1365,
+  "webp": "/assets/i/2022-confessions.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/2022-confessions-800w.webp"
+ },
+ "/assets/i/22232_233137487201_7535400_n.jpg": {
+  "width": 480,
+  "height": 379,
+  "webp": "/assets/i/22232_233137487201_7535400_n.webp",
+  "webpWidth": 480
+ },
+ "/assets/i/2453368809_384e3d7446_b.jpg": {
+  "width": 1024,
+  "height": 471,
+  "webp": "/assets/i/2453368809_384e3d7446_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/2453368809_384e3d7446_b-800w.webp"
+ },
+ "/assets/i/2453736816_074eb0420d_b.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/2453736816_074eb0420d_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/2453736816_074eb0420d_b-800w.webp"
+ },
+ "/assets/i/2488023541_d82a633021_b.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/2488023541_d82a633021_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/2488023541_d82a633021_b-800w.webp"
+ },
+ "/assets/i/3055562481_6b610a267d_o.jpg": {
+  "width": 800,
+  "height": 600,
+  "webp": "/assets/i/3055562481_6b610a267d_o.webp",
+  "webpWidth": 800
+ },
+ "/assets/i/3079284352_d65bc89d2c_b.jpg": {
+  "width": 1024,
+  "height": 721,
+  "webp": "/assets/i/3079284352_d65bc89d2c_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/3079284352_d65bc89d2c_b-800w.webp"
+ },
+ "/assets/i/336941842_8ce5df7cf7_o.jpg": {
+  "width": 1280,
+  "height": 853,
+  "webp": "/assets/i/336941842_8ce5df7cf7_o.webp",
+  "webpWidth": 1280,
+  "small": "/assets/i/336941842_8ce5df7cf7_o-800w.webp"
+ },
+ "/assets/i/346730514_6cfacb197a_o.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/346730514_6cfacb197a_o.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/346730514_6cfacb197a_o-800w.webp"
+ },
+ "/assets/i/3655465178_e2bc74d53c_o.png": {
+  "width": 1152,
+  "height": 720,
+  "webp": "/assets/i/3655465178_e2bc74d53c_o.webp",
+  "webpWidth": 1152,
+  "small": "/assets/i/3655465178_e2bc74d53c_o-800w.webp"
+ },
+ "/assets/i/41715274_10155391919522202_280447861051621376_o-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/41715274_10155391919522202_280447861051621376_o-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/41715274_10155391919522202_280447861051621376_o-1024x683-800w.webp"
+ },
+ "/assets/i/45829465_10155497578902202_7530434003380207616_o-739x1024.jpg": {
+  "width": 739,
+  "height": 1024,
+  "webp": "/assets/i/45829465_10155497578902202_7530434003380207616_o-739x1024.webp",
+  "webpWidth": 739
+ },
+ "/assets/i/470371513_3ec797ff3e_b.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/470371513_3ec797ff3e_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/470371513_3ec797ff3e_b-800w.webp"
+ },
+ "/assets/i/477982551_81c8e3f1d6_b.jpg": {
+  "width": 1024,
+  "height": 677,
+  "webp": "/assets/i/477982551_81c8e3f1d6_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/477982551_81c8e3f1d6_b-800w.webp"
+ },
+ "/assets/i/542983215_3df9655cfd_b.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/542983215_3df9655cfd_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/542983215_3df9655cfd_b-800w.webp"
+ },
+ "/assets/i/54812584472__9A2E0EC4-644D-4640-ADEE-3FBADF1258D2-769x1024.jpeg": {
+  "width": 769,
+  "height": 1024,
+  "webp": "/assets/i/54812584472__9A2E0EC4-644D-4640-ADEE-3FBADF1258D2-769x1024.webp",
+  "webpWidth": 769
+ },
+ "/assets/i/54812777841__2045D251-921A-4049-9C9B-739086D7F63A-768x1024.jpeg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/54812777841__2045D251-921A-4049-9C9B-739086D7F63A-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/5580600757_fd0c93163f_b.jpg": {
+  "width": 612,
+  "height": 612,
+  "webp": "/assets/i/5580600757_fd0c93163f_b.webp",
+  "webpWidth": 612
+ },
+ "/assets/i/57532967_10155814301712202_5168933737043329024_o-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/57532967_10155814301712202_5168933737043329024_o-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/57532967_10155814301712202_5168933737043329024_o-1024x768-800w.webp"
+ },
+ "/assets/i/664872087_763bd47840_b.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/664872087_763bd47840_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/664872087_763bd47840_b-800w.webp"
+ },
+ "/assets/i/67589278_10156035684042202_4372058943896158208_o-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/67589278_10156035684042202_4372058943896158208_o-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/69772562_844036488652_4688701606747701248_n.jpg": {
+  "width": 960,
+  "height": 759,
+  "webp": "/assets/i/69772562_844036488652_4688701606747701248_n.webp",
+  "webpWidth": 960,
+  "small": "/assets/i/69772562_844036488652_4688701606747701248_n-800w.webp"
+ },
+ "/assets/i/71658385_10156149372062202_6151384974604894208_o-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/71658385_10156149372062202_6151384974604894208_o-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/71658385_10156149372062202_6151384974604894208_o-1024x768-800w.webp"
+ },
+ "/assets/i/761761310_116f30457e_z.jpg": {
+  "width": 640,
+  "height": 424,
+  "webp": "/assets/i/761761310_116f30457e_z.webp",
+  "webpWidth": 640
+ },
+ "/assets/i/761864490_05b8c3d85f_z.jpg": {
+  "width": 640,
+  "height": 424,
+  "webp": "/assets/i/761864490_05b8c3d85f_z.webp",
+  "webpWidth": 640
+ },
+ "/assets/i/761864586_76b34b87d6_b.jpg": {
+  "width": 1024,
+  "height": 679,
+  "webp": "/assets/i/761864586_76b34b87d6_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/761864586_76b34b87d6_b-800w.webp"
+ },
+ "/assets/i/761864744_27d1213ff1_z.jpg": {
+  "width": 640,
+  "height": 427,
+  "webp": "/assets/i/761864744_27d1213ff1_z.webp",
+  "webpWidth": 640
+ },
+ "/assets/i/80268817_10156365741177202_4817581725485891584_o-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/80268817_10156365741177202_4817581725485891584_o-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/80268817_10156365741177202_4817581725485891584_o-1024x768-800w.webp"
+ },
+ "/assets/i/821223231_28018ded2a_b.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/821223231_28018ded2a_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/821223231_28018ded2a_b-800w.webp"
+ },
+ "/assets/i/829d24cf.jpg": {
+  "width": 1024,
+  "height": 680,
+  "webp": "/assets/i/829d24cf.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/829d24cf-800w.webp"
+ },
+ "/assets/i/855390177_b01354c156_z.jpg": {
+  "width": 640,
+  "height": 398,
+  "webp": "/assets/i/855390177_b01354c156_z.webp",
+  "webpWidth": 640
+ },
+ "/assets/i/877209842_7fc4dd77d3_b.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/877209842_7fc4dd77d3_b.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/877209842_7fc4dd77d3_b-800w.webp"
+ },
+ "/assets/i/9cd3e5-death.jpg": {
+  "width": 600,
+  "height": 100,
+  "webp": "/assets/i/9cd3e5-death.webp",
+  "webpWidth": 600
+ },
+ "/assets/i/CleanShot-2023-01-01-at-21.52.11@2x-1024x595.png": {
+  "width": 1024,
+  "height": 595,
+  "webp": "/assets/i/CleanShot-2023-01-01-at-21.52.11@2x-1024x595.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/CleanShot-2023-01-01-at-21.52.11@2x-1024x595-800w.webp"
+ },
+ "/assets/i/CleanShot-2023-01-01-at-22.11.04@2x-1024x625.png": {
+  "width": 1024,
+  "height": 625,
+  "webp": "/assets/i/CleanShot-2023-01-01-at-22.11.04@2x-1024x625.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/CleanShot-2023-01-01-at-22.11.04@2x-1024x625-800w.webp"
+ },
+ "/assets/i/CleanShot-2023-01-03-at-19.24.19.png": {
+  "width": 702,
+  "height": 390,
+  "webp": "/assets/i/CleanShot-2023-01-03-at-19.24.19.webp",
+  "webpWidth": 702
+ },
+ "/assets/i/Codebox Library.jpg": {
+  "width": 882,
+  "height": 456,
+  "webp": "/assets/i/Codebox Library.webp",
+  "webpWidth": 882,
+  "small": "/assets/i/Codebox Library-800w.webp"
+ },
+ "/assets/i/FLAG-1.jpg": {
+  "width": 2730,
+  "height": 1193,
+  "webp": "/assets/i/FLAG-1.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/FLAG-1-800w.webp"
+ },
+ "/assets/i/IMG_0559_jpg.JPG-1024x602.jpg": {
+  "width": 1024,
+  "height": 602,
+  "webp": "/assets/i/IMG_0559_jpg.JPG-1024x602.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_0559_jpg.JPG-1024x602-800w.webp"
+ },
+ "/assets/i/IMG_0568-1024x568.jpg": {
+  "width": 1024,
+  "height": 568,
+  "webp": "/assets/i/IMG_0568-1024x568.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_0568-1024x568-800w.webp"
+ },
+ "/assets/i/IMG_0913-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_0913-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_0913-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_1370-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_1370-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_1370-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_1942.JPG-1024x406.jpg": {
+  "width": 1024,
+  "height": 406,
+  "webp": "/assets/i/IMG_1942.JPG-1024x406.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_1942.JPG-1024x406-800w.webp"
+ },
+ "/assets/i/IMG_1942.JPG-scaled.jpg": {
+  "width": 2560,
+  "height": 1015,
+  "webp": "/assets/i/IMG_1942.JPG-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/IMG_1942.JPG-scaled-800w.webp"
+ },
+ "/assets/i/IMG_1995-1-1024x767.jpg": {
+  "width": 1024,
+  "height": 767,
+  "webp": "/assets/i/IMG_1995-1-1024x767.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_1995-1-1024x767-800w.webp"
+ },
+ "/assets/i/IMG_2296.HEIC-scaled.jpg": {
+  "width": 2560,
+  "height": 1920,
+  "webp": "/assets/i/IMG_2296.HEIC-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/IMG_2296.HEIC-scaled-800w.webp"
+ },
+ "/assets/i/IMG_2298-1024x448.jpg": {
+  "width": 1024,
+  "height": 448,
+  "webp": "/assets/i/IMG_2298-1024x448.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_2298-1024x448-800w.webp"
+ },
+ "/assets/i/IMG_2505.jpg": {
+  "width": 1024,
+  "height": 670,
+  "webp": "/assets/i/IMG_2505.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_2505-800w.webp"
+ },
+ "/assets/i/IMG_3129-2-756x1024.jpg": {
+  "width": 756,
+  "height": 1024,
+  "webp": "/assets/i/IMG_3129-2-756x1024.webp",
+  "webpWidth": 756
+ },
+ "/assets/i/IMG_3469-1024x613.jpg": {
+  "width": 1024,
+  "height": 613,
+  "webp": "/assets/i/IMG_3469-1024x613.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_3469-1024x613-800w.webp"
+ },
+ "/assets/i/IMG_3569-2.jpg": {
+  "width": 4032,
+  "height": 3024,
+  "webp": "/assets/i/IMG_3569-2.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/IMG_3569-2-800w.webp"
+ },
+ "/assets/i/IMG_40811.jpg": {
+  "width": 1024,
+  "height": 415,
+  "webp": "/assets/i/IMG_40811.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_40811-800w.webp"
+ },
+ "/assets/i/IMG_5833-scaled.jpg": {
+  "width": 2560,
+  "height": 1443,
+  "webp": "/assets/i/IMG_5833-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/IMG_5833-scaled-800w.webp"
+ },
+ "/assets/i/IMG_5916-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_5916-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_5916-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6044-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6044-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6044-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6046-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6046-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6046-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6052-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6052-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6052-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6072-scaled.jpg": {
+  "width": 2560,
+  "height": 1920,
+  "webp": "/assets/i/IMG_6072-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/IMG_6072-scaled-800w.webp"
+ },
+ "/assets/i/IMG_6075-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6075-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6075-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6168-scaled.jpg": {
+  "width": 2362,
+  "height": 2560,
+  "webp": "/assets/i/IMG_6168-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/IMG_6168-scaled-800w.webp"
+ },
+ "/assets/i/IMG_6366-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/IMG_6366-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/IMG_6481-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6481-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6481-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6482-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6482-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6482-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6483-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6483-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6483-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6483-scaled.jpg": {
+  "width": 2560,
+  "height": 1920,
+  "webp": "/assets/i/IMG_6483-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/IMG_6483-scaled-800w.webp"
+ },
+ "/assets/i/IMG_6488-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6488-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6488-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6489-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6489-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6489-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6490-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6490-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6490-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6498-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6498-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6498-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6511-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/IMG_6511-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/IMG_6514-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6514-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6514-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6516-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6516-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6516-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6522-scaled.jpg": {
+  "width": 2560,
+  "height": 1920,
+  "webp": "/assets/i/IMG_6522-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/IMG_6522-scaled-800w.webp"
+ },
+ "/assets/i/IMG_6527-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6527-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6527-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6530-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/IMG_6530-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/IMG_6535-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6535-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6535-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6538-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6538-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6538-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6550-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6550-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6550-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6553-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6553-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6553-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6555-scaled.jpg": {
+  "width": 2560,
+  "height": 1920,
+  "webp": "/assets/i/IMG_6555-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/IMG_6555-scaled-800w.webp"
+ },
+ "/assets/i/IMG_6567-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6567-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6567-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6570-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6570-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6570-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6595-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/IMG_6595-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/IMG_6597-1-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6597-1-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6597-1-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6598-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_6598-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_6598-1024x768-800w.webp"
+ },
+ "/assets/i/IMG_6598-scaled.jpg": {
+  "width": 2560,
+  "height": 1920,
+  "webp": "/assets/i/IMG_6598-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/IMG_6598-scaled-800w.webp"
+ },
+ "/assets/i/IMG_6807-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/IMG_6807-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/IMG_7836.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/IMG_7836.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_7836-800w.webp"
+ },
+ "/assets/i/IMG_7906.jpg": {
+  "width": 1024,
+  "height": 518,
+  "webp": "/assets/i/IMG_7906.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_7906-800w.webp"
+ },
+ "/assets/i/IMG_8053.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/IMG_8053.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_8053-800w.webp"
+ },
+ "/assets/i/IMG_8127.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/IMG_8127.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_8127-800w.webp"
+ },
+ "/assets/i/IMG_81441.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/IMG_81441.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_81441-800w.webp"
+ },
+ "/assets/i/IMG_8438-scaled.jpg": {
+  "width": 2560,
+  "height": 1440,
+  "webp": "/assets/i/IMG_8438-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/IMG_8438-scaled-800w.webp"
+ },
+ "/assets/i/IMG_8603-copy-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/IMG_8603-copy-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/IMG_8603-copy-1024x768-800w.webp"
+ },
+ "/assets/i/PDX-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/PDX-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/QrXgXMhCSouyhU7idq7g_IMG_8402.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/QrXgXMhCSouyhU7idq7g_IMG_8402.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/QrXgXMhCSouyhU7idq7g_IMG_8402-800w.webp"
+ },
+ "/assets/i/Roast Turkey.png": {
+  "width": 500,
+  "height": 286,
+  "webp": "/assets/i/Roast Turkey.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/SLC-crew-1024x769.jpg": {
+  "width": 1024,
+  "height": 769,
+  "webp": "/assets/i/SLC-crew-1024x769.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/SLC-crew-1024x769-800w.webp"
+ },
+ "/assets/i/Screen-Shot-2021-02-05-at-2.42.14-PM.png": {
+  "width": 2484,
+  "height": 1362,
+  "webp": "/assets/i/Screen-Shot-2021-02-05-at-2.42.14-PM.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/Screen-Shot-2021-02-05-at-2.42.14-PM-800w.webp"
+ },
+ "/assets/i/Screen-Shot-2021-02-10-at-1.47.58-PM.png": {
+  "width": 1200,
+  "height": 630,
+  "webp": "/assets/i/Screen-Shot-2021-02-10-at-1.47.58-PM.webp",
+  "webpWidth": 1200,
+  "small": "/assets/i/Screen-Shot-2021-02-10-at-1.47.58-PM-800w.webp"
+ },
+ "/assets/i/Screen-Shot-2021-04-13-at-9.48.28-AM-1024x548.png": {
+  "width": 1024,
+  "height": 548,
+  "webp": "/assets/i/Screen-Shot-2021-04-13-at-9.48.28-AM-1024x548.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/Screen-Shot-2021-04-13-at-9.48.28-AM-1024x548-800w.webp"
+ },
+ "/assets/i/Slide-16_9-white.png": {
+  "width": 2824,
+  "height": 1228,
+  "webp": "/assets/i/Slide-16_9-white.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/Slide-16_9-white-800w.webp"
+ },
+ "/assets/i/Splintered.png": {
+  "width": 500,
+  "height": 200,
+  "webp": "/assets/i/Splintered.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/TS560x560.jpg": {
+  "width": 560,
+  "height": 373,
+  "webp": "/assets/i/TS560x560.webp",
+  "webpWidth": 560
+ },
+ "/assets/i/Untitled-design.jpg": {
+  "width": 944,
+  "height": 713,
+  "webp": "/assets/i/Untitled-design.webp",
+  "webpWidth": 944,
+  "small": "/assets/i/Untitled-design-800w.webp"
+ },
+ "/assets/i/Untitled_Artwork-4-scaled.jpg": {
+  "width": 2560,
+  "height": 1919,
+  "webp": "/assets/i/Untitled_Artwork-4-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/Untitled_Artwork-4-scaled-800w.webp"
+ },
+ "/assets/i/a11y-panel.jpeg": {
+  "width": 1901,
+  "height": 1070,
+  "webp": "/assets/i/a11y-panel.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/a11y-panel-800w.webp"
+ },
+ "/assets/i/all-is-well.png": {
+  "width": 666,
+  "height": 303,
+  "webp": "/assets/i/all-is-well.webp",
+  "webpWidth": 666
+ },
+ "/assets/i/america-by-design.jpg": {
+  "width": 1794,
+  "height": 1146,
+  "webp": "/assets/i/america-by-design.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/america-by-design-800w.webp"
+ },
+ "/assets/i/andrew.jpg": {
+  "width": 480,
+  "height": 480,
+  "webp": "/assets/i/andrew.webp",
+  "webpWidth": 480
+ },
+ "/assets/i/anton.jpg": {
+  "width": 400,
+  "height": 400,
+  "webp": "/assets/i/anton.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/arjen-1024x1024.jpg": {
+  "width": 1024,
+  "height": 1024,
+  "webp": "/assets/i/arjen-1024x1024.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/arjen-1024x1024-800w.webp"
+ },
+ "/assets/i/ashes.jpg": {
+  "width": 500,
+  "height": 150,
+  "webp": "/assets/i/ashes.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/atlanta-1024x767.jpg": {
+  "width": 1024,
+  "height": 767,
+  "webp": "/assets/i/atlanta-1024x767.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/atlanta-1024x767-800w.webp"
+ },
+ "/assets/i/autobiography.png": {
+  "width": 504,
+  "height": 289,
+  "webp": "/assets/i/autobiography.webp",
+  "webpWidth": 504
+ },
+ "/assets/i/better.jpg": {
+  "width": 1024,
+  "height": 567,
+  "webp": "/assets/i/better.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/better-800w.webp"
+ },
+ "/assets/i/bibighaus-1024x562.jpg": {
+  "width": 1024,
+  "height": 562,
+  "webp": "/assets/i/bibighaus-1024x562.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/bibighaus-1024x562-800w.webp"
+ },
+ "/assets/i/blizzard-1024x768.jpeg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/blizzard-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/blizzard-1024x768-800w.webp"
+ },
+ "/assets/i/boat-birthday.jpg": {
+  "width": 960,
+  "height": 720,
+  "webp": "/assets/i/boat-birthday.webp",
+  "webpWidth": 960,
+  "small": "/assets/i/boat-birthday-800w.webp"
+ },
+ "/assets/i/boating-oc.jpg": {
+  "width": 960,
+  "height": 720,
+  "webp": "/assets/i/boating-oc.webp",
+  "webpWidth": 960,
+  "small": "/assets/i/boating-oc-800w.webp"
+ },
+ "/assets/i/box.png": {
+  "width": 241,
+  "height": 170,
+  "webp": "/assets/i/box.webp",
+  "webpWidth": 241
+ },
+ "/assets/i/brick-vines.jpeg": {
+  "width": 1280,
+  "height": 1600,
+  "webp": "/assets/i/brick-vines.webp",
+  "webpWidth": 1280,
+  "small": "/assets/i/brick-vines-800w.webp"
+ },
+ "/assets/i/buffalo-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/buffalo-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/buffalo-1024x768-800w.webp"
+ },
+ "/assets/i/candles-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/candles-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/candles-1024x768-800w.webp"
+ },
+ "/assets/i/car-breakdown-1024x818.jpg": {
+  "width": 1024,
+  "height": 818,
+  "webp": "/assets/i/car-breakdown-1024x818.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/car-breakdown-1024x818-800w.webp"
+ },
+ "/assets/i/carousel-bad-237x300.png": {
+  "width": 237,
+  "height": 300,
+  "webp": "/assets/i/carousel-bad-237x300.webp",
+  "webpWidth": 237
+ },
+ "/assets/i/carousel-bad.png": {
+  "width": 640,
+  "height": 809,
+  "webp": "/assets/i/carousel-bad.webp",
+  "webpWidth": 640
+ },
+ "/assets/i/carousel-good-236x300.png": {
+  "width": 236,
+  "height": 300,
+  "webp": "/assets/i/carousel-good-236x300.webp",
+  "webpWidth": 236
+ },
+ "/assets/i/carousel-good.png": {
+  "width": 640,
+  "height": 815,
+  "webp": "/assets/i/carousel-good.webp",
+  "webpWidth": 640
+ },
+ "/assets/i/carousel-normal-copy1-258x300.png": {
+  "width": 258,
+  "height": 300,
+  "webp": "/assets/i/carousel-normal-copy1-258x300.webp",
+  "webpWidth": 258
+ },
+ "/assets/i/carousel-normal-copy1.png": {
+  "width": 640,
+  "height": 744,
+  "webp": "/assets/i/carousel-normal-copy1.webp",
+  "webpWidth": 640
+ },
+ "/assets/i/castle-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/castle-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/castle-1024x683-800w.webp"
+ },
+ "/assets/i/chain.jpg": {
+  "width": 1280,
+  "height": 500,
+  "webp": "/assets/i/chain.webp",
+  "webpWidth": 1280,
+  "small": "/assets/i/chain-800w.webp"
+ },
+ "/assets/i/challies.jpg": {
+  "width": 800,
+  "height": 533,
+  "webp": "/assets/i/challies.webp",
+  "webpWidth": 800
+ },
+ "/assets/i/chelsea-taxi-1024x769.jpg": {
+  "width": 1024,
+  "height": 769,
+  "webp": "/assets/i/chelsea-taxi-1024x769.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/chelsea-taxi-1024x769-800w.webp"
+ },
+ "/assets/i/chestnut-819x1024.jpg": {
+  "width": 819,
+  "height": 1024,
+  "webp": "/assets/i/chestnut-819x1024.webp",
+  "webpWidth": 819,
+  "small": "/assets/i/chestnut-819x1024-800w.webp"
+ },
+ "/assets/i/chicks-1-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/chicks-1-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/chicks-1-1024x683-800w.webp"
+ },
+ "/assets/i/cho.jpg": {
+  "width": 607,
+  "height": 172,
+  "webp": "/assets/i/cho.webp",
+  "webpWidth": 607
+ },
+ "/assets/i/chris-edited.png": {
+  "width": 662,
+  "height": 661,
+  "webp": "/assets/i/chris-edited.webp",
+  "webpWidth": 662
+ },
+ "/assets/i/chuck-edited.png": {
+  "width": 1206,
+  "height": 1208,
+  "webp": "/assets/i/chuck-edited.webp",
+  "webpWidth": 1206,
+  "small": "/assets/i/chuck-edited-800w.webp"
+ },
+ "/assets/i/clare-1024x1019.png": {
+  "width": 1024,
+  "height": 1019,
+  "webp": "/assets/i/clare-1024x1019.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/clare-1024x1019-800w.webp"
+ },
+ "/assets/i/cliffs-moher-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/cliffs-moher-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/cliffs-moher-1024x683-800w.webp"
+ },
+ "/assets/i/coffee.jpg": {
+  "width": 500,
+  "height": 374,
+  "webp": "/assets/i/coffee.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/company.jpg": {
+  "width": 500,
+  "height": 300,
+  "webp": "/assets/i/company.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/confusion.jpg": {
+  "width": 1024,
+  "height": 518,
+  "webp": "/assets/i/confusion.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/confusion-800w.webp"
+ },
+ "/assets/i/corning-mist.jpeg": {
+  "width": 1280,
+  "height": 1707,
+  "webp": "/assets/i/corning-mist.webp",
+  "webpWidth": 1280,
+  "small": "/assets/i/corning-mist-800w.webp"
+ },
+ "/assets/i/cover-ep1-copy-scaled.jpg": {
+  "width": 2560,
+  "height": 1437,
+  "webp": "/assets/i/cover-ep1-copy-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/cover-ep1-copy-scaled-800w.webp"
+ },
+ "/assets/i/coworking-1year-copy-scaled.jpg": {
+  "width": 2560,
+  "height": 1667,
+  "webp": "/assets/i/coworking-1year-copy-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/coworking-1year-copy-scaled-800w.webp"
+ },
+ "/assets/i/cowrokAsset-2@2x-1024x1024.png": {
+  "width": 1024,
+  "height": 1024,
+  "webp": "/assets/i/cowrokAsset-2@2x-1024x1024.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/cowrokAsset-2@2x-1024x1024-800w.webp"
+ },
+ "/assets/i/crunch1.jpg": {
+  "width": 4272,
+  "height": 1622,
+  "webp": "/assets/i/crunch1.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/crunch1-800w.webp"
+ },
+ "/assets/i/css-tips2.png": {
+  "width": 500,
+  "height": 140,
+  "webp": "/assets/i/css-tips2.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/curling-1024x813.jpg": {
+  "width": 1024,
+  "height": 813,
+  "webp": "/assets/i/curling-1024x813.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/curling-1024x813-800w.webp"
+ },
+ "/assets/i/dave-1024x1024.jpg": {
+  "width": 1024,
+  "height": 1024,
+  "webp": "/assets/i/dave-1024x1024.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/dave-1024x1024-800w.webp"
+ },
+ "/assets/i/dave-shea-generalist.jpeg": {
+  "width": 2048,
+  "height": 1365,
+  "webp": "/assets/i/dave-shea-generalist.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/dave-shea-generalist-800w.webp"
+ },
+ "/assets/i/dc-819x1024.jpg": {
+  "width": 819,
+  "height": 1024,
+  "webp": "/assets/i/dc-819x1024.webp",
+  "webpWidth": 819,
+  "small": "/assets/i/dc-819x1024-800w.webp"
+ },
+ "/assets/i/death.jpg": {
+  "width": 1024,
+  "height": 335,
+  "webp": "/assets/i/death.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/death-800w.webp"
+ },
+ "/assets/i/deck-renovation-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/deck-renovation-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/deck-renovation-1024x768-800w.webp"
+ },
+ "/assets/i/deliciousbits-analytics.png": {
+  "width": 434,
+  "height": 197,
+  "webp": "/assets/i/deliciousbits-analytics.webp",
+  "webpWidth": 434
+ },
+ "/assets/i/dining-room-300x225.jpg": {
+  "width": 300,
+  "height": 225,
+  "webp": "/assets/i/dining-room-300x225.webp",
+  "webpWidth": 300
+ },
+ "/assets/i/dining-room-side.jpg": {
+  "width": 1020,
+  "height": 765,
+  "webp": "/assets/i/dining-room-side.webp",
+  "webpWidth": 1020,
+  "small": "/assets/i/dining-room-side-800w.webp"
+ },
+ "/assets/i/dining-room-wall-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/dining-room-wall-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/dining-room-wall-1024x683-800w.webp"
+ },
+ "/assets/i/download.jpg": {
+  "width": 275,
+  "height": 183,
+  "webp": "/assets/i/download.webp",
+  "webpWidth": 275
+ },
+ "/assets/i/drew-1024x723.jpg": {
+  "width": 1024,
+  "height": 723,
+  "webp": "/assets/i/drew-1024x723.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/drew-1024x723-800w.webp"
+ },
+ "/assets/i/driveway.jpg": {
+  "width": 725,
+  "height": 1024,
+  "webp": "/assets/i/driveway.webp",
+  "webpWidth": 725
+ },
+ "/assets/i/dustin-1024x1024.png": {
+  "width": 1024,
+  "height": 1024,
+  "webp": "/assets/i/dustin-1024x1024.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/dustin-1024x1024-800w.webp"
+ },
+ "/assets/i/ele_winvista_firefox_pulldown_1.jpg": {
+  "width": 158,
+  "height": 22,
+  "webp": "/assets/i/ele_winvista_firefox_pulldown_1.webp",
+  "webpWidth": 158
+ },
+ "/assets/i/elliot-1-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/elliot-1-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/elliot-1-1024x683-800w.webp"
+ },
+ "/assets/i/embrace-full.jpg": {
+  "width": 1024,
+  "height": 681,
+  "webp": "/assets/i/embrace-full.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/embrace-full-800w.webp"
+ },
+ "/assets/i/epic-1-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/epic-1-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/epic-1-1024x683-800w.webp"
+ },
+ "/assets/i/ericmeyer280.jpg": {
+  "width": 560,
+  "height": 560,
+  "webp": "/assets/i/ericmeyer280.webp",
+  "webpWidth": 560
+ },
+ "/assets/i/ethan-1-1024x778.jpg": {
+  "width": 1024,
+  "height": 778,
+  "webp": "/assets/i/ethan-1-1024x778.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/ethan-1-1024x778-800w.webp"
+ },
+ "/assets/i/ethan.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/ethan.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/ethan-800w.webp"
+ },
+ "/assets/i/eye.jpg": {
+  "width": 1000,
+  "height": 493,
+  "webp": "/assets/i/eye.webp",
+  "webpWidth": 1000,
+  "small": "/assets/i/eye-800w.webp"
+ },
+ "/assets/i/fam-1-scaled.jpg": {
+  "width": 2560,
+  "height": 1706,
+  "webp": "/assets/i/fam-1-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/fam-1-scaled-800w.webp"
+ },
+ "/assets/i/fam-1.jpg": {
+  "width": 2048,
+  "height": 1365,
+  "webp": "/assets/i/fam-1.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/fam-1-800w.webp"
+ },
+ "/assets/i/farewell-1-1.jpg": {
+  "width": 1517,
+  "height": 1000,
+  "webp": "/assets/i/farewell-1-1.webp",
+  "webpWidth": 1517,
+  "small": "/assets/i/farewell-1-1-800w.webp"
+ },
+ "/assets/i/fawn.jpg": {
+  "width": 1024,
+  "height": 493,
+  "webp": "/assets/i/fawn.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/fawn-800w.webp"
+ },
+ "/assets/i/fireworks-1024x565.png": {
+  "width": 1024,
+  "height": 565,
+  "webp": "/assets/i/fireworks-1024x565.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/fireworks-1024x565-800w.webp"
+ },
+ "/assets/i/frame-001929.png": {
+  "width": 1920,
+  "height": 1080,
+  "webp": "/assets/i/frame-001929.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/frame-001929-800w.webp"
+ },
+ "/assets/i/framed-wall-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/framed-wall-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/framed-wall-1024x768-800w.webp"
+ },
+ "/assets/i/games.jpg": {
+  "width": 963,
+  "height": 540,
+  "webp": "/assets/i/games.webp",
+  "webpWidth": 963,
+  "small": "/assets/i/games-800w.webp"
+ },
+ "/assets/i/gardner-gang-2-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/gardner-gang-2-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gardner-gang-2-1024x683-800w.webp"
+ },
+ "/assets/i/gb-1.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-1.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-1-800w.webp"
+ },
+ "/assets/i/gb-10.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-10.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-10-800w.webp"
+ },
+ "/assets/i/gb-11.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-11.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-11-800w.webp"
+ },
+ "/assets/i/gb-12.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-12.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-12-800w.webp"
+ },
+ "/assets/i/gb-13.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-13.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-13-800w.webp"
+ },
+ "/assets/i/gb-14.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-14.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-14-800w.webp"
+ },
+ "/assets/i/gb-15.jpg": {
+  "width": 1024,
+  "height": 702,
+  "webp": "/assets/i/gb-15.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-15-800w.webp"
+ },
+ "/assets/i/gb-16.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-16.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-16-800w.webp"
+ },
+ "/assets/i/gb-2.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-2.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-2-800w.webp"
+ },
+ "/assets/i/gb-3.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-3.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-3-800w.webp"
+ },
+ "/assets/i/gb-4.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-4.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-4-800w.webp"
+ },
+ "/assets/i/gb-5.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-5.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-5-800w.webp"
+ },
+ "/assets/i/gb-6.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-6.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-6-800w.webp"
+ },
+ "/assets/i/gb-7.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-7.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-7-800w.webp"
+ },
+ "/assets/i/gb-8.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-8.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-8-800w.webp"
+ },
+ "/assets/i/gb-9.jpg": {
+  "width": 1024,
+  "height": 682,
+  "webp": "/assets/i/gb-9.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gb-9-800w.webp"
+ },
+ "/assets/i/goodbyeseven.jpg": {
+  "width": 500,
+  "height": 244,
+  "webp": "/assets/i/goodbyeseven.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/grand-canyon-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/grand-canyon-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/grand-canyon-1024x768-800w.webp"
+ },
+ "/assets/i/grand-canyon-2-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/grand-canyon-2-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/grand-canyon-2-1024x768-800w.webp"
+ },
+ "/assets/i/grand-canyon-3-1024x583.jpg": {
+  "width": 1024,
+  "height": 583,
+  "webp": "/assets/i/grand-canyon-3-1024x583.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/grand-canyon-3-1024x583-800w.webp"
+ },
+ "/assets/i/grass-1-2.jpg": {
+  "width": 1000,
+  "height": 617,
+  "webp": "/assets/i/grass-1-2.webp",
+  "webpWidth": 1000,
+  "small": "/assets/i/grass-1-2-800w.webp"
+ },
+ "/assets/i/grass-1.jpg": {
+  "width": 1024,
+  "height": 565,
+  "webp": "/assets/i/grass-1.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/grass-1-800w.webp"
+ },
+ "/assets/i/great-esc-1024x769.jpg": {
+  "width": 1024,
+  "height": 769,
+  "webp": "/assets/i/great-esc-1024x769.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/great-esc-1024x769-800w.webp"
+ },
+ "/assets/i/gymnastics-1-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/gymnastics-1-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/gymnastics-1-1024x683-800w.webp"
+ },
+ "/assets/i/hack-a-thon-thumb.jpg": {
+  "width": 600,
+  "height": 400,
+  "webp": "/assets/i/hack-a-thon-thumb.webp",
+  "webpWidth": 600
+ },
+ "/assets/i/hallway-wall-1024x766.jpg": {
+  "width": 1024,
+  "height": 766,
+  "webp": "/assets/i/hallway-wall-1024x766.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/hallway-wall-1024x766-800w.webp"
+ },
+ "/assets/i/harmony.png": {
+  "width": 653,
+  "height": 179,
+  "webp": "/assets/i/harmony.webp",
+  "webpWidth": 653
+ },
+ "/assets/i/hbs-di-820x1024.jpg": {
+  "width": 820,
+  "height": 1024,
+  "webp": "/assets/i/hbs-di-820x1024.webp",
+  "webpWidth": 820,
+  "small": "/assets/i/hbs-di-820x1024-800w.webp"
+ },
+ "/assets/i/hearst-1024x731.jpg": {
+  "width": 1024,
+  "height": 731,
+  "webp": "/assets/i/hearst-1024x731.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/hearst-1024x731-800w.webp"
+ },
+ "/assets/i/helicopter-1024x779.jpg": {
+  "width": 1024,
+  "height": 779,
+  "webp": "/assets/i/helicopter-1024x779.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/helicopter-1024x779-800w.webp"
+ },
+ "/assets/i/hello-my-name-is.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/hello-my-name-is.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/hello-my-name-is-800w.webp"
+ },
+ "/assets/i/hidden-stack.jpg": {
+  "width": 650,
+  "height": 772,
+  "webp": "/assets/i/hidden-stack.webp",
+  "webpWidth": 650
+ },
+ "/assets/i/hugo-setup-1024x538.png": {
+  "width": 1024,
+  "height": 538,
+  "webp": "/assets/i/hugo-setup-1024x538.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/hugo-setup-1024x538-800w.webp"
+ },
+ "/assets/i/i-love-ny-1.jpg": {
+  "width": 2048,
+  "height": 1536,
+  "webp": "/assets/i/i-love-ny-1.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/i-love-ny-1-800w.webp"
+ },
+ "/assets/i/ice-1-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/ice-1-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/ice-1-1024x683-800w.webp"
+ },
+ "/assets/i/infinitescrollbehavior.png": {
+  "width": 670,
+  "height": 377,
+  "webp": "/assets/i/infinitescrollbehavior.webp",
+  "webpWidth": 670
+ },
+ "/assets/i/ipodvideo.jpg": {
+  "width": 150,
+  "height": 236,
+  "webp": "/assets/i/ipodvideo.webp",
+  "webpWidth": 150
+ },
+ "/assets/i/ireland-sunset-1024x509.jpg": {
+  "width": 1024,
+  "height": 509,
+  "webp": "/assets/i/ireland-sunset-1024x509.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/ireland-sunset-1024x509-800w.webp"
+ },
+ "/assets/i/jacob.jpg": {
+  "width": 400,
+  "height": 400,
+  "webp": "/assets/i/jacob.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/jail.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/jail.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/jail-800w.webp"
+ },
+ "/assets/i/jeff.jpg": {
+  "width": 400,
+  "height": 400,
+  "webp": "/assets/i/jeff.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/jesse-gardner-0h4LzK9uwAE-unsplash-1024x354.jpg": {
+  "width": 1024,
+  "height": 354,
+  "webp": "/assets/i/jesse-gardner-0h4LzK9uwAE-unsplash-1024x354.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/jesse-gardner-0h4LzK9uwAE-unsplash-1024x354-800w.webp"
+ },
+ "/assets/i/jesse-gardner-2IhPwAm5FVI-unsplash.jpg": {
+  "width": 2048,
+  "height": 1192,
+  "webp": "/assets/i/jesse-gardner-2IhPwAm5FVI-unsplash.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/jesse-gardner-2IhPwAm5FVI-unsplash-800w.webp"
+ },
+ "/assets/i/jesse-gardner-ksjFtCQpkmk-unsplash-1024x646.jpg": {
+  "width": 1024,
+  "height": 646,
+  "webp": "/assets/i/jesse-gardner-ksjFtCQpkmk-unsplash-1024x646.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/jesse-gardner-ksjFtCQpkmk-unsplash-1024x646-800w.webp"
+ },
+ "/assets/i/jesse-gardner.jpg": {
+  "width": 960,
+  "height": 958,
+  "webp": "/assets/i/jesse-gardner.webp",
+  "webpWidth": 960,
+  "small": "/assets/i/jesse-gardner-800w.webp"
+ },
+ "/assets/i/jesse-profile.jpg": {
+  "width": 800,
+  "height": 800,
+  "webp": "/assets/i/jesse-profile.webp",
+  "webpWidth": 800
+ },
+ "/assets/i/jody.jpg": {
+  "width": 400,
+  "height": 400,
+  "webp": "/assets/i/jody.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/josh.jpg": {
+  "width": 400,
+  "height": 400,
+  "webp": "/assets/i/josh.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/kinsey.jpg": {
+  "width": 874,
+  "height": 874,
+  "webp": "/assets/i/kinsey.webp",
+  "webpWidth": 874,
+  "small": "/assets/i/kinsey-800w.webp"
+ },
+ "/assets/i/kitchen-300x225.jpg": {
+  "width": 300,
+  "height": 225,
+  "webp": "/assets/i/kitchen-300x225.webp",
+  "webpWidth": 300
+ },
+ "/assets/i/leaves1.jpg": {
+  "width": 1024,
+  "height": 530,
+  "webp": "/assets/i/leaves1.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/leaves1-800w.webp"
+ },
+ "/assets/i/letter.png": {
+  "width": 694,
+  "height": 365,
+  "webp": "/assets/i/letter.webp",
+  "webpWidth": 694
+ },
+ "/assets/i/life-of-jason.jpg": {
+  "width": 1024,
+  "height": 605,
+  "webp": "/assets/i/life-of-jason.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/life-of-jason-800w.webp"
+ },
+ "/assets/i/life-scenarios.jpeg": {
+  "width": 917,
+  "height": 814,
+  "webp": "/assets/i/life-scenarios.webp",
+  "webpWidth": 917,
+  "small": "/assets/i/life-scenarios-800w.webp"
+ },
+ "/assets/i/lina-silivanova-570244-unsplash.jpg": {
+  "width": 4250,
+  "height": 2266,
+  "webp": "/assets/i/lina-silivanova-570244-unsplash.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/lina-silivanova-570244-unsplash-800w.webp"
+ },
+ "/assets/i/living-room-300x225.jpg": {
+  "width": 300,
+  "height": 225,
+  "webp": "/assets/i/living-room-300x225.webp",
+  "webpWidth": 300
+ },
+ "/assets/i/living-room-rear-300x225.jpg": {
+  "width": 300,
+  "height": 225,
+  "webp": "/assets/i/living-room-rear-300x225.webp",
+  "webpWidth": 300
+ },
+ "/assets/i/logo-pmdesign.png": {
+  "width": 200,
+  "height": 150,
+  "webp": "/assets/i/logo-pmdesign.webp",
+  "webpWidth": 200
+ },
+ "/assets/i/lovabletype-1024.png": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/lovabletype-1024.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/lovabletype-1024-800w.webp"
+ },
+ "/assets/i/lovabletype-1280.png": {
+  "width": 1280,
+  "height": 1024,
+  "webp": "/assets/i/lovabletype-1280.webp",
+  "webpWidth": 1280,
+  "small": "/assets/i/lovabletype-1280-800w.webp"
+ },
+ "/assets/i/lovabletype-1680.png": {
+  "width": 1680,
+  "height": 1050,
+  "webp": "/assets/i/lovabletype-1680.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/lovabletype-1680-800w.webp"
+ },
+ "/assets/i/lovabletype-800.png": {
+  "width": 800,
+  "height": 600,
+  "webp": "/assets/i/lovabletype-800.webp",
+  "webpWidth": 800
+ },
+ "/assets/i/macg5.jpg": {
+  "width": 150,
+  "height": 236,
+  "webp": "/assets/i/macg5.webp",
+  "webpWidth": 150
+ },
+ "/assets/i/macpro.jpg": {
+  "width": 450,
+  "height": 330,
+  "webp": "/assets/i/macpro.webp",
+  "webpWidth": 450
+ },
+ "/assets/i/magical-1-3.jpg": {
+  "width": 1000,
+  "height": 669,
+  "webp": "/assets/i/magical-1-3.webp",
+  "webpWidth": 1000,
+  "small": "/assets/i/magical-1-3-800w.webp"
+ },
+ "/assets/i/matt.jpg": {
+  "width": 400,
+  "height": 400,
+  "webp": "/assets/i/matt.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/me-1024x576.jpeg": {
+  "width": 1024,
+  "height": 576,
+  "webp": "/assets/i/me-1024x576.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/me-1024x576-800w.webp"
+ },
+ "/assets/i/missing-thumb.jpg": {
+  "width": 527,
+  "height": 347,
+  "webp": "/assets/i/missing-thumb.webp",
+  "webpWidth": 527
+ },
+ "/assets/i/mollyguard.png": {
+  "width": 500,
+  "height": 353,
+  "webp": "/assets/i/mollyguard.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/moose-1-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/moose-1-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/moose-1-1024x683-800w.webp"
+ },
+ "/assets/i/more-button.jpg": {
+  "width": 347,
+  "height": 357,
+  "webp": "/assets/i/more-button.webp",
+  "webpWidth": 347
+ },
+ "/assets/i/moreau-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/moreau-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/moreau-1024x768-800w.webp"
+ },
+ "/assets/i/mt4-icon-small.png": {
+  "width": 18,
+  "height": 18,
+  "webp": "/assets/i/mt4-icon-small.webp",
+  "webpWidth": 18
+ },
+ "/assets/i/mt4.jpg": {
+  "width": 600,
+  "height": 100,
+  "webp": "/assets/i/mt4.webp",
+  "webpWidth": 600
+ },
+ "/assets/i/mtpages-editpage-thumb.png": {
+  "width": 440,
+  "height": 424,
+  "webp": "/assets/i/mtpages-editpage-thumb.webp",
+  "webpWidth": 440
+ },
+ "/assets/i/mtpages-editpage.png": {
+  "width": 766,
+  "height": 738,
+  "webp": "/assets/i/mtpages-editpage.webp",
+  "webpWidth": 766
+ },
+ "/assets/i/mtpages-mainmenu-thumb.png": {
+  "width": 440,
+  "height": 113,
+  "webp": "/assets/i/mtpages-mainmenu-thumb.webp",
+  "webpWidth": 440
+ },
+ "/assets/i/mtpages-mainmenu.png": {
+  "width": 766,
+  "height": 196,
+  "webp": "/assets/i/mtpages-mainmenu.webp",
+  "webpWidth": 766
+ },
+ "/assets/i/mtpages-pagelisting-thumb.png": {
+  "width": 440,
+  "height": 229,
+  "webp": "/assets/i/mtpages-pagelisting-thumb.webp",
+  "webpWidth": 440
+ },
+ "/assets/i/mtpages-pagelisting.png": {
+  "width": 770,
+  "height": 401,
+  "webp": "/assets/i/mtpages-pagelisting.webp",
+  "webpWidth": 770
+ },
+ "/assets/i/mtpages-pagetemplates-thumb.png": {
+  "width": 440,
+  "height": 195,
+  "webp": "/assets/i/mtpages-pagetemplates-thumb.webp",
+  "webpWidth": 440
+ },
+ "/assets/i/mtpages-pagetemplates.png": {
+  "width": 768,
+  "height": 340,
+  "webp": "/assets/i/mtpages-pagetemplates.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/myheart.jpg": {
+  "width": 600,
+  "height": 100,
+  "webp": "/assets/i/myheart.webp",
+  "webpWidth": 600
+ },
+ "/assets/i/nancy.png": {
+  "width": 150,
+  "height": 188,
+  "webp": "/assets/i/nancy.webp",
+  "webpWidth": 150
+ },
+ "/assets/i/nashville-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/nashville-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/nashville-1024x768-800w.webp"
+ },
+ "/assets/i/neckbrace-thumb.jpg": {
+  "width": 200,
+  "height": 150,
+  "webp": "/assets/i/neckbrace-thumb.webp",
+  "webpWidth": 200
+ },
+ "/assets/i/neckbrace.jpg": {
+  "width": 640,
+  "height": 480,
+  "webp": "/assets/i/neckbrace.webp",
+  "webpWidth": 640
+ },
+ "/assets/i/new-deck-2-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/new-deck-2-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/new-deck-2-1024x683-800w.webp"
+ },
+ "/assets/i/niagara-1024x769.jpg": {
+  "width": 1024,
+  "height": 769,
+  "webp": "/assets/i/niagara-1024x769.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/niagara-1024x769-800w.webp"
+ },
+ "/assets/i/no-snippet.png": {
+  "width": 542,
+  "height": 399,
+  "webp": "/assets/i/no-snippet.webp",
+  "webpWidth": 542
+ },
+ "/assets/i/nova.jpg": {
+  "width": 1000,
+  "height": 405,
+  "webp": "/assets/i/nova.webp",
+  "webpWidth": 1000,
+  "small": "/assets/i/nova-800w.webp"
+ },
+ "/assets/i/nyc-accessibility.jpeg": {
+  "width": 2048,
+  "height": 1536,
+  "webp": "/assets/i/nyc-accessibility.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/nyc-accessibility-800w.webp"
+ },
+ "/assets/i/nys-egg.jpeg": {
+  "width": 2048,
+  "height": 1536,
+  "webp": "/assets/i/nys-egg.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/nys-egg-800w.webp"
+ },
+ "/assets/i/nys-nyc-crew.jpeg": {
+  "width": 2048,
+  "height": 1536,
+  "webp": "/assets/i/nys-nyc-crew.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/nys-nyc-crew-800w.webp"
+ },
+ "/assets/i/nysds-playground-card-slide.png": {
+  "width": 2560,
+  "height": 1600,
+  "webp": "/assets/i/nysds-playground-card-slide.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/nysds-playground-card-slide-800w.webp"
+ },
+ "/assets/i/nysds-sots.jpeg": {
+  "width": 1250,
+  "height": 960,
+  "webp": "/assets/i/nysds-sots.webp",
+  "webpWidth": 1250,
+  "small": "/assets/i/nysds-sots-800w.webp"
+ },
+ "/assets/i/nysds-team.jpg": {
+  "width": 2048,
+  "height": 1535,
+  "webp": "/assets/i/nysds-team.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/nysds-team-800w.webp"
+ },
+ "/assets/i/nysds-welcome.jpg": {
+  "width": 1626,
+  "height": 1276,
+  "webp": "/assets/i/nysds-welcome.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/nysds-welcome-800w.webp"
+ },
+ "/assets/i/nysds-zeroheight.jpg": {
+  "width": 1290,
+  "height": 1143,
+  "webp": "/assets/i/nysds-zeroheight.webp",
+  "webpWidth": 1290,
+  "small": "/assets/i/nysds-zeroheight-800w.webp"
+ },
+ "/assets/i/old-deck-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/old-deck-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/old-deck-1024x768-800w.webp"
+ },
+ "/assets/i/open-space-kitchen-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/open-space-kitchen-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/open-space-kitchen-1024x683-800w.webp"
+ },
+ "/assets/i/openid.png": {
+  "width": 508,
+  "height": 276,
+  "webp": "/assets/i/openid.webp",
+  "webpWidth": 508
+ },
+ "/assets/i/opensnap.png": {
+  "width": 508,
+  "height": 276,
+  "webp": "/assets/i/opensnap.webp",
+  "webpWidth": 508
+ },
+ "/assets/i/optimize.png": {
+  "width": 533,
+  "height": 186,
+  "webp": "/assets/i/optimize.webp",
+  "webpWidth": 533
+ },
+ "/assets/i/ordination.jpg": {
+  "width": 600,
+  "height": 100,
+  "webp": "/assets/i/ordination.webp",
+  "webpWidth": 600
+ },
+ "/assets/i/outrage3.jpg": {
+  "width": 194,
+  "height": 138,
+  "webp": "/assets/i/outrage3.webp",
+  "webpWidth": 194
+ },
+ "/assets/i/pad-and-quill-1.jpg": {
+  "width": 1024,
+  "height": 538,
+  "webp": "/assets/i/pad-and-quill-1.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/pad-and-quill-1-800w.webp"
+ },
+ "/assets/i/pad-and-quill-2-thumb-700x505-397.jpg": {
+  "width": 700,
+  "height": 505,
+  "webp": "/assets/i/pad-and-quill-2-thumb-700x505-397.webp",
+  "webpWidth": 700
+ },
+ "/assets/i/pad-and-quill-2.jpg": {
+  "width": 1024,
+  "height": 740,
+  "webp": "/assets/i/pad-and-quill-2.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/pad-and-quill-2-800w.webp"
+ },
+ "/assets/i/pad-and-quill-3-thumb-700x418-399.jpg": {
+  "width": 700,
+  "height": 418,
+  "webp": "/assets/i/pad-and-quill-3-thumb-700x418-399.webp",
+  "webpWidth": 700
+ },
+ "/assets/i/pad-and-quill-3.jpg": {
+  "width": 1024,
+  "height": 612,
+  "webp": "/assets/i/pad-and-quill-3.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/pad-and-quill-3-800w.webp"
+ },
+ "/assets/i/pad-and-quill-4-thumb-700x466-401.jpg": {
+  "width": 700,
+  "height": 466,
+  "webp": "/assets/i/pad-and-quill-4-thumb-700x466-401.webp",
+  "webpWidth": 700
+ },
+ "/assets/i/pad-and-quill-4.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/pad-and-quill-4.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/pad-and-quill-4-800w.webp"
+ },
+ "/assets/i/pad-and-quill-5-thumb-700x387-403.jpg": {
+  "width": 700,
+  "height": 387,
+  "webp": "/assets/i/pad-and-quill-5-thumb-700x387-403.webp",
+  "webpWidth": 700
+ },
+ "/assets/i/pad-and-quill-5.jpg": {
+  "width": 1024,
+  "height": 567,
+  "webp": "/assets/i/pad-and-quill-5.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/pad-and-quill-5-800w.webp"
+ },
+ "/assets/i/paddleboard-1024x789.jpg": {
+  "width": 1024,
+  "height": 789,
+  "webp": "/assets/i/paddleboard-1024x789.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/paddleboard-1024x789-800w.webp"
+ },
+ "/assets/i/paintball-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/paintball-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/paintball-1024x768-800w.webp"
+ },
+ "/assets/i/pakistanpope.jpg": {
+  "width": 290,
+  "height": 196,
+  "webp": "/assets/i/pakistanpope.webp",
+  "webpWidth": 290
+ },
+ "/assets/i/park-1024x683.jpeg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/park-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/park-1024x683-800w.webp"
+ },
+ "/assets/i/path-20110719-091420.png": {
+  "width": 500,
+  "height": 250,
+  "webp": "/assets/i/path-20110719-091420.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/pdf-to-web-app.jpg": {
+  "width": 800,
+  "height": 466,
+  "webp": "/assets/i/pdf-to-web-app.webp",
+  "webpWidth": 800
+ },
+ "/assets/i/pds-logo-open-graph.png": {
+  "width": 1200,
+  "height": 630,
+  "webp": "/assets/i/pds-logo-open-graph.webp",
+  "webpWidth": 1200,
+  "small": "/assets/i/pds-logo-open-graph-800w.webp"
+ },
+ "/assets/i/photo.jpg": {
+  "width": 500,
+  "height": 226,
+  "webp": "/assets/i/photo.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/pin-details-1024x572.png": {
+  "width": 1024,
+  "height": 572,
+  "webp": "/assets/i/pin-details-1024x572.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/pin-details-1024x572-800w.webp"
+ },
+ "/assets/i/pin-details1.png": {
+  "width": 972,
+  "height": 304,
+  "webp": "/assets/i/pin-details1.webp",
+  "webpWidth": 972,
+  "small": "/assets/i/pin-details1-800w.webp"
+ },
+ "/assets/i/pin-images.png": {
+  "width": 543,
+  "height": 1024,
+  "webp": "/assets/i/pin-images.webp",
+  "webpWidth": 543
+ },
+ "/assets/i/pinterest_overlay.png": {
+  "width": 547,
+  "height": 375,
+  "webp": "/assets/i/pinterest_overlay.webp",
+  "webpWidth": 547
+ },
+ "/assets/i/plasticmind-black-thumb-130x100.jpg": {
+  "width": 130,
+  "height": 100,
+  "webp": "/assets/i/plasticmind-black-thumb-130x100.webp",
+  "webpWidth": 130
+ },
+ "/assets/i/plasticmind-clean.png": {
+  "width": 419,
+  "height": 73,
+  "webp": "/assets/i/plasticmind-clean.webp",
+  "webpWidth": 419
+ },
+ "/assets/i/plasticmind-logo.jpg": {
+  "width": 1280,
+  "height": 720,
+  "webp": "/assets/i/plasticmind-logo.webp",
+  "webpWidth": 1280,
+  "small": "/assets/i/plasticmind-logo-800w.webp"
+ },
+ "/assets/i/plasticmind-modern-thumb-130x75.jpg": {
+  "width": 130,
+  "height": 75,
+  "webp": "/assets/i/plasticmind-modern-thumb-130x75.webp",
+  "webpWidth": 130
+ },
+ "/assets/i/plasticmind-olive-thumb-130x78.jpg": {
+  "width": 130,
+  "height": 78,
+  "webp": "/assets/i/plasticmind-olive-thumb-130x78.webp",
+  "webpWidth": 130
+ },
+ "/assets/i/plasticmind-online-1024x504.png": {
+  "width": 1024,
+  "height": 504,
+  "webp": "/assets/i/plasticmind-online-1024x504.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/plasticmind-online-1024x504-800w.webp"
+ },
+ "/assets/i/plasticmind-paper-thumb-130x65.jpg": {
+  "width": 130,
+  "height": 64,
+  "webp": "/assets/i/plasticmind-paper-thumb-130x65.webp",
+  "webpWidth": 130
+ },
+ "/assets/i/plasticmind.png": {
+  "width": 410,
+  "height": 110,
+  "webp": "/assets/i/plasticmind.webp",
+  "webpWidth": 410
+ },
+ "/assets/i/pm-e.png": {
+  "width": 359,
+  "height": 156,
+  "webp": "/assets/i/pm-e.webp",
+  "webpWidth": 359
+ },
+ "/assets/i/pm-logo.png": {
+  "width": 91,
+  "height": 63,
+  "webp": "/assets/i/pm-logo.webp",
+  "webpWidth": 91
+ },
+ "/assets/i/pmd-1.png": {
+  "width": 928,
+  "height": 242,
+  "webp": "/assets/i/pmd-1.webp",
+  "webpWidth": 928,
+  "small": "/assets/i/pmd-1-800w.webp"
+ },
+ "/assets/i/post-1-2-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/post-1-2-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/post-1-2-1024x683-800w.webp"
+ },
+ "/assets/i/post-1.jpg": {
+  "width": 2048,
+  "height": 1365,
+  "webp": "/assets/i/post-1.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/post-1-800w.webp"
+ },
+ "/assets/i/post-2-1024x720.jpg": {
+  "width": 1024,
+  "height": 720,
+  "webp": "/assets/i/post-2-1024x720.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/post-2-1024x720-800w.webp"
+ },
+ "/assets/i/post-3-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/post-3-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/post-3-1024x683-800w.webp"
+ },
+ "/assets/i/post-4-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/post-4-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/post-4-1024x683-800w.webp"
+ },
+ "/assets/i/post-5-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/post-5-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/post-5-1024x683-800w.webp"
+ },
+ "/assets/i/post-6-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/post-6-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/post-6-1024x683-800w.webp"
+ },
+ "/assets/i/question-multi-plaftorm.jpeg": {
+  "width": 2048,
+  "height": 848,
+  "webp": "/assets/i/question-multi-plaftorm.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/question-multi-plaftorm-800w.webp"
+ },
+ "/assets/i/rates.jpg": {
+  "width": 638,
+  "height": 782,
+  "webp": "/assets/i/rates.webp",
+  "webpWidth": 638
+ },
+ "/assets/i/reactions-2.png": {
+  "width": 676,
+  "height": 394,
+  "webp": "/assets/i/reactions-2.webp",
+  "webpWidth": 676
+ },
+ "/assets/i/reflect.jpg": {
+  "width": 2000,
+  "height": 1307,
+  "webp": "/assets/i/reflect.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/reflect-800w.webp"
+ },
+ "/assets/i/reflecting_leaves.png": {
+  "width": 500,
+  "height": 250,
+  "webp": "/assets/i/reflecting_leaves.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/rememberance-20110622-090213.png": {
+  "width": 500,
+  "height": 215,
+  "webp": "/assets/i/rememberance-20110622-090213.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/render-den-1024x755.jpg": {
+  "width": 1024,
+  "height": 755,
+  "webp": "/assets/i/render-den-1024x755.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/render-den-1024x755-800w.webp"
+ },
+ "/assets/i/render-dining-room-1024x726.jpg": {
+  "width": 1024,
+  "height": 726,
+  "webp": "/assets/i/render-dining-room-1024x726.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/render-dining-room-1024x726-800w.webp"
+ },
+ "/assets/i/render-livingroom-kitchen-1024x742.jpg": {
+  "width": 1024,
+  "height": 742,
+  "webp": "/assets/i/render-livingroom-kitchen-1024x742.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/render-livingroom-kitchen-1024x742-800w.webp"
+ },
+ "/assets/i/renovation-1-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/renovation-1-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/renovation-1-1024x683-800w.webp"
+ },
+ "/assets/i/renovation-1-2-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/renovation-1-2-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/renovation-1-2-1024x683-800w.webp"
+ },
+ "/assets/i/renovations-1-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/renovations-1-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/renovations-1-1024x768-800w.webp"
+ },
+ "/assets/i/review.jpg": {
+  "width": 1024,
+  "height": 519,
+  "webp": "/assets/i/review.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/review-800w.webp"
+ },
+ "/assets/i/road_edit.jpg": {
+  "width": 950,
+  "height": 328,
+  "webp": "/assets/i/road_edit.webp",
+  "webpWidth": 950,
+  "small": "/assets/i/road_edit-800w.webp"
+ },
+ "/assets/i/rob.jpg": {
+  "width": 400,
+  "height": 400,
+  "webp": "/assets/i/rob.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/rogieking.png": {
+  "width": 500,
+  "height": 200,
+  "webp": "/assets/i/rogieking.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/room.png": {
+  "width": 608,
+  "height": 291,
+  "webp": "/assets/i/room.webp",
+  "webpWidth": 608
+ },
+ "/assets/i/rwd1.jpg": {
+  "width": 1024,
+  "height": 565,
+  "webp": "/assets/i/rwd1.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/rwd1-800w.webp"
+ },
+ "/assets/i/sarah-roegner-odell.jpeg": {
+  "width": 500,
+  "height": 347,
+  "webp": "/assets/i/sarah-roegner-odell.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/say-it-out-loud-heart.jpeg": {
+  "width": 2048,
+  "height": 1258,
+  "webp": "/assets/i/say-it-out-loud-heart.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/say-it-out-loud-heart-800w.webp"
+ },
+ "/assets/i/sedona-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/sedona-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/sedona-1024x768-800w.webp"
+ },
+ "/assets/i/serious-times.jpeg": {
+  "width": 2048,
+  "height": 1364,
+  "webp": "/assets/i/serious-times.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/serious-times-800w.webp"
+ },
+ "/assets/i/serp-rich.png": {
+  "width": 1024,
+  "height": 269,
+  "webp": "/assets/i/serp-rich.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/serp-rich-800w.webp"
+ },
+ "/assets/i/shallowocean.jpg": {
+  "width": 450,
+  "height": 337,
+  "webp": "/assets/i/shallowocean.webp",
+  "webpWidth": 450
+ },
+ "/assets/i/sheep-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/sheep-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/sheep-1024x683-800w.webp"
+ },
+ "/assets/i/shell.jpg": {
+  "width": 1024,
+  "height": 413,
+  "webp": "/assets/i/shell.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/shell-800w.webp"
+ },
+ "/assets/i/signs-scaled.jpg": {
+  "width": 2560,
+  "height": 2560,
+  "webp": "/assets/i/signs-scaled.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/signs-scaled-800w.webp"
+ },
+ "/assets/i/signs2-768x1024.jpg": {
+  "width": 768,
+  "height": 1024,
+  "webp": "/assets/i/signs2-768x1024.webp",
+  "webpWidth": 768
+ },
+ "/assets/i/simplyrecipes-mockup2.jpg": {
+  "width": 853,
+  "height": 542,
+  "webp": "/assets/i/simplyrecipes-mockup2.webp",
+  "webpWidth": 853,
+  "small": "/assets/i/simplyrecipes-mockup2-800w.webp"
+ },
+ "/assets/i/siteideas-cityscape-thumb-130x81.jpg": {
+  "width": 130,
+  "height": 81,
+  "webp": "/assets/i/siteideas-cityscape-thumb-130x81.webp",
+  "webpWidth": 130
+ },
+ "/assets/i/siteideas-standingout-thumb-130x67.jpg": {
+  "width": 130,
+  "height": 66,
+  "webp": "/assets/i/siteideas-standingout-thumb-130x67.webp",
+  "webpWidth": 130
+ },
+ "/assets/i/skeeter2.png": {
+  "width": 700,
+  "height": 194,
+  "webp": "/assets/i/skeeter2.webp",
+  "webpWidth": 700
+ },
+ "/assets/i/snippet.png": {
+  "width": 541,
+  "height": 476,
+  "webp": "/assets/i/snippet.webp",
+  "webpWidth": 541
+ },
+ "/assets/i/snook.jpg": {
+  "width": 400,
+  "height": 400,
+  "webp": "/assets/i/snook.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/snowhole-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/snowhole-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/snowhole-1024x768-800w.webp"
+ },
+ "/assets/i/songbird.jpg": {
+  "width": 600,
+  "height": 172,
+  "webp": "/assets/i/songbird.webp",
+  "webpWidth": 600
+ },
+ "/assets/i/southwesternmacbook.jpg": {
+  "width": 500,
+  "height": 124,
+  "webp": "/assets/i/southwesternmacbook.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/sr-iphone-1.jpg": {
+  "width": 500,
+  "height": 250,
+  "webp": "/assets/i/sr-iphone-1.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/sr.jpg": {
+  "width": 600,
+  "height": 140,
+  "webp": "/assets/i/sr.webp",
+  "webpWidth": 600
+ },
+ "/assets/i/st3.png": {
+  "width": 639,
+  "height": 399,
+  "webp": "/assets/i/st3.webp",
+  "webpWidth": 639
+ },
+ "/assets/i/storm-chase-1024x767.jpg": {
+  "width": 1024,
+  "height": 767,
+  "webp": "/assets/i/storm-chase-1024x767.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/storm-chase-1024x767-800w.webp"
+ },
+ "/assets/i/strangers-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/strangers-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/strangers-1024x768-800w.webp"
+ },
+ "/assets/i/sufjan1.jpg": {
+  "width": 3072,
+  "height": 2048,
+  "webp": "/assets/i/sufjan1.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/sufjan1-800w.webp"
+ },
+ "/assets/i/sunset-dinner-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/sunset-dinner-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/sunset-dinner-1024x768-800w.webp"
+ },
+ "/assets/i/tatiana.jpg": {
+  "width": 400,
+  "height": 400,
+  "webp": "/assets/i/tatiana.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/taylor.jpg": {
+  "width": 400,
+  "height": 400,
+  "webp": "/assets/i/taylor.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/tetons-sunrise-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/tetons-sunrise-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/tetons-sunrise-1024x683-800w.webp"
+ },
+ "/assets/i/thanksgiving-1-300x200.jpg": {
+  "width": 300,
+  "height": 200,
+  "webp": "/assets/i/thanksgiving-1-300x200.webp",
+  "webpWidth": 300
+ },
+ "/assets/i/thatchers-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/thatchers-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/thatchers-1024x768-800w.webp"
+ },
+ "/assets/i/tmobile.jpg": {
+  "width": 500,
+  "height": 55,
+  "webp": "/assets/i/tmobile.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/tools-of-my-trade.png": {
+  "width": 500,
+  "height": 300,
+  "webp": "/assets/i/tools-of-my-trade.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/trail.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/trail.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/trail-800w.webp"
+ },
+ "/assets/i/trespassing.jpg": {
+  "width": 1000,
+  "height": 530,
+  "webp": "/assets/i/trespassing.webp",
+  "webpWidth": 1000,
+  "small": "/assets/i/trespassing-800w.webp"
+ },
+ "/assets/i/tumblr_l0tonjhLKm1qz4ezso1_400.png": {
+  "width": 400,
+  "height": 194,
+  "webp": "/assets/i/tumblr_l0tonjhLKm1qz4ezso1_400.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/tweet.jpeg": {
+  "width": 1024,
+  "height": 576,
+  "webp": "/assets/i/tweet.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/tweet-800w.webp"
+ },
+ "/assets/i/twitster-20090330-155744.png": {
+  "width": 500,
+  "height": 222,
+  "webp": "/assets/i/twitster-20090330-155744.webp",
+  "webpWidth": 500
+ },
+ "/assets/i/tyler.jpg": {
+  "width": 400,
+  "height": 400,
+  "webp": "/assets/i/tyler.webp",
+  "webpWidth": 400
+ },
+ "/assets/i/unnamed-1024x690.png": {
+  "width": 1024,
+  "height": 690,
+  "webp": "/assets/i/unnamed-1024x690.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/unnamed-1024x690-800w.webp"
+ },
+ "/assets/i/unnamed-2-1024x741.png": {
+  "width": 1024,
+  "height": 741,
+  "webp": "/assets/i/unnamed-2-1024x741.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/unnamed-2-1024x741-800w.webp"
+ },
+ "/assets/i/unpopular.png": {
+  "width": 568,
+  "height": 279,
+  "webp": "/assets/i/unpopular.webp",
+  "webpWidth": 568
+ },
+ "/assets/i/van-buren-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/van-buren-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/van-buren-1024x768-800w.webp"
+ },
+ "/assets/i/voodoo.jpg": {
+  "width": 340,
+  "height": 238,
+  "webp": "/assets/i/voodoo.webp",
+  "webpWidth": 340
+ },
+ "/assets/i/waffles-mt-1024x975.jpg": {
+  "width": 1024,
+  "height": 975,
+  "webp": "/assets/i/waffles-mt-1024x975.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/waffles-mt-1024x975-800w.webp"
+ },
+ "/assets/i/watkins-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/watkins-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/watkins-1024x768-800w.webp"
+ },
+ "/assets/i/wedding-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/wedding-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/wedding-1024x683-800w.webp"
+ },
+ "/assets/i/wedding-tree-1024x768.jpg": {
+  "width": 1024,
+  "height": 768,
+  "webp": "/assets/i/wedding-tree-1024x768.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/wedding-tree-1024x768-800w.webp"
+ },
+ "/assets/i/wrongway.jpg": {
+  "width": 600,
+  "height": 175,
+  "webp": "/assets/i/wrongway.webp",
+  "webpWidth": 600
+ },
+ "/assets/i/yosemite-1-2-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/yosemite-1-2-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/yosemite-1-2-1024x683-800w.webp"
+ },
+ "/assets/i/yosemite-1-2.jpg": {
+  "width": 2048,
+  "height": 1365,
+  "webp": "/assets/i/yosemite-1-2.webp",
+  "webpWidth": 1600,
+  "small": "/assets/i/yosemite-1-2-800w.webp"
+ },
+ "/assets/i/yosemite-1-3-1024x718.jpg": {
+  "width": 1024,
+  "height": 718,
+  "webp": "/assets/i/yosemite-1-3-1024x718.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/yosemite-1-3-1024x718-800w.webp"
+ },
+ "/assets/i/yosemite-2-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/yosemite-2-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/yosemite-2-1024x683-800w.webp"
+ },
+ "/assets/i/yosemite-3-2-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/yosemite-3-2-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/yosemite-3-2-1024x683-800w.webp"
+ },
+ "/assets/i/yosemite-6-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/yosemite-6-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/yosemite-6-1024x683-800w.webp"
+ },
+ "/assets/i/yosemite-7-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/yosemite-7-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/yosemite-7-1024x683-800w.webp"
+ },
+ "/assets/i/yosemite-water-1-1024x683.jpg": {
+  "width": 1024,
+  "height": 683,
+  "webp": "/assets/i/yosemite-water-1-1024x683.webp",
+  "webpWidth": 1024,
+  "small": "/assets/i/yosemite-water-1-1024x683-800w.webp"
+ }
+}

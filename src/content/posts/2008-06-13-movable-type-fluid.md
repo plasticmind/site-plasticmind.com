@@ -22,7 +22,7 @@ hits: 706
 
 
 
-<img src="https://img.skitch.com/20080613-js4xfg7b36j54qb1bccrfh1nt9.png" alt="Fluid" />
+
 
 
 
@@ -49,7 +49,7 @@ Enter: <a href="https://fluidapp.com/">Fluid</a>.  According to the site, Fluid 
 
 
 
-<img src="https://img.skitch.com/20080613-mfqmuhkwjh91ap9gfe2prbtj47.png" alt="Movable Type As An Application" />
+
 
 
 
@@ -82,7 +82,7 @@ How do you turn Movable Type into a “desktop app”.  It's surprisingly easy.
 
 
 
-<img src="https://img.skitch.com/20080613-k2268u8h736h9y5gp6t52n5r1.png" alt="Create a new Fluid Application" />
+
 
 
 
@@ -112,13 +112,13 @@ One final note: if you can't seem to log in or if Fluid keeps sending you over t
 
 
 
-<img src="https://img.skitch.com/20080613-gjfp2m7agt981n4g5ft6qyxcdu.png" alt="" />
 
 
 
 
 
-**Do More:** Install <a href="https://plugins.movabletype.org/imt/">the iMT plugin</a> and <a href="https://www.flickr.com/photos/indiekid/2554335881/">make it a menubar extra</a>.  Suddenly, updating your site is as easy as Twittering!  <a href="https://plasticmind.com/movable-type/movable-type-easy-as-twitter/">Read the article.</a>
+
+**Do More:** Install <a href="https://plugins.movabletype.org/imt/">the iMT plugin</a> and <a href="https://www.flickr.com/photos/indiekid/2554335881/">make it a menubar extra</a>.  Suddenly, updating your site is as easy as Twittering!  <a href="/journal/movable-type-easy-as-twitter/">Read the article.</a>
 
 
 

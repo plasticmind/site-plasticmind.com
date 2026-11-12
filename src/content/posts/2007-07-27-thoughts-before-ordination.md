@@ -25,7 +25,7 @@ It's 1:50 a.m. on a <strike>Friday night</strike> Saturday Morning.
 
 
 
-My <a href="https://plasticmind.com/savior/ordination_confirmation_or_religious_hoopjumping.php">ordination council</a> begins in 9 hours, but I can't sleep.  My mind is a whirlwind of TULIP's and canon's, common grace and dispensations, inspiration and preservation.
+My <a href="/journal/ordination-confirmation-or-religious-hoopjumping/">ordination council</a> begins in 9 hours, but I can't sleep.  My mind is a whirlwind of TULIP's and canon's, common grace and dispensations, inspiration and preservation.
 
 
 

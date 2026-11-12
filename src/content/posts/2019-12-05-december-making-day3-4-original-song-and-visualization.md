@@ -16,7 +16,7 @@ fix: false
 hits: 130
 ---
 
-*This is day 3 and 4 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 3 and 4 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 https://www.youtube.com/watch?v=sfxd-d8lWmU
 

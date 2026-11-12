@@ -19,7 +19,7 @@ hits: 516
 
 			
 
-When I first decided to do <a href="https://plasticmind.com/interviews/telling-their-stories/">these interviews</a>, I said that I wanted to talk plainly with people I admire who have excelled at their craft.  So it's no surprise that **Rogie King** was right there at the top of my list.  
+When I first decided to do <a href="/journal/telling-their-stories/">these interviews</a>, I said that I wanted to talk plainly with people I admire who have excelled at their craft.  So it's no surprise that **Rogie King** was right there at the top of my list.  
 
 
 

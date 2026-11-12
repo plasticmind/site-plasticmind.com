@@ -25,7 +25,7 @@ Although the job hunt was far from successful, Jess and I had the privilege of j
 
 
 
-<img alt="streets_3.jpg" src="https://plasticmind.com/images/streets_3.jpg" width="320" height="240" /><br /><br /> <img alt="sidewalk.jpg" src="https://plasticmind.com/images/sidewalk.jpg" width="320" height="240" />
+<br /><br /> 
 
 
 			<!--more-->
@@ -36,7 +36,7 @@ I must admit that after church this morning, I had little motivation for anythin
 
 
 
-<img alt="urbanhope.jpg" src="https://plasticmind.com/images/urbanhope.jpg" width="320" height="240" /><br /><br /> <img alt="streets_2.jpg" src="https://plasticmind.com/images/streets_2.jpg" width="320" height="240" />
+<br /><br /> 
 
 
 
@@ -48,7 +48,7 @@ But we went, hesitantly and stubbornly, and it was good for my heart.  Many year
 
 
 
-<img alt="kid_1.jpg" src="https://plasticmind.com/images/kid_1.jpg" width="320" height="240" /><br /><br /> <img alt="kid_2.jpg" src="https://plasticmind.com/images/kid_2.jpg" width="320" height="240" />
+<br /><br /> 
 
 
 
@@ -60,7 +60,7 @@ So we rounded up some children on this bleak day and bused them back to the chur
 
 
 
-<img alt="streets_1.jpg" src="https://plasticmind.com/images/streets_1.jpg" width="320" height="240" />
+
 
 
 		

@@ -31,7 +31,7 @@ It's a terrible thing when your body starts losing control of itself, when cells
 
 
 
-It's come after <a href="https://plasticmind.com/friends/eternal-sunrise/">far too many</a> of <a href="https://plasticmind.com/retrospection/so-roll-the-clouds/">the people I care about</a> and frankly I'm tired of that dread darkness.  **Death may be gain, but what a slow and painful investment!**
+It's come after <a href="/journal/eternal-sunrise/">far too many</a> of <a href="/journal/so-roll-the-clouds/">the people I care about</a> and frankly I'm tired of that dread darkness.  **Death may be gain, but what a slow and painful investment!**
 
 
 

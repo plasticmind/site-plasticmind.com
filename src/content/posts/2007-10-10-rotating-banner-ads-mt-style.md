@@ -75,6 +75,6 @@ Something wrong?
 
 If you ran your banner.php on its own and didn’t work, you probably aren’t running php. Sorry, this solution isn’t for you. Probably best to type ‘server side includes’ in Google and try your luck there.
 
-If you ran banner.php on it’s own and it did work, but it’s not working in your template, you may have called to it incorrectly. If the php code itself is being displayed instead of the image, your server isn’t executing the php, and you need to read about <a href="/templates/a-more-graceful-template-modul/">my solution for that on this post</a>.
+If you ran banner.php on it’s own and it did work, but it’s not working in your template, you may have called to it incorrectly. If the php code itself is being displayed instead of the image, your server isn’t executing the php, and you need to read about <a href="/journal/a-more-graceful-template-modul/">my solution for that on this post</a>.
 
 Not sure what your site path is? Well, MT has a tag for that. <code>&lt;mt:BlogSitePath /&gt;</code> or you can just look in your Publishing settings… it’s listed there as well.

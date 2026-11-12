@@ -41,7 +41,7 @@ Being randomly jittered, thrown out of the frame and focused on a larger scale, 
 
 <span data-offset-key="4fe23-0-0">If you point</span> your browser's new tab default to this URL, you'll get a random Wikipedia article title (linked) whenever you open a new tab:
 
-<a href="https://plasticmind.com/labs/wikipedia/">https://plasticmind.com/labs/wikipedia/</a>
+https://plasticmind.com/labs/wikipedia/
 
 </div>
 </div>

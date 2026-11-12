@@ -43,7 +43,7 @@ I fished the can out of the garbage.
 
 
 
-<img src="https://www.vox.com/library/item/6a00bf76d09e10438300c11414d9065af5-200pi" alt="" />
+
 
 
 

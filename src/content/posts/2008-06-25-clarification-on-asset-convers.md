@@ -67,7 +67,7 @@ As was mentioned before, Rightfield separates the filename from the location. Th
 
 
 
-The ideal scenario would be for the import tool to merge both <a href="RF2CF plugin](https://cxliv.org/2008/05/09/converting_rightfields_to_customfields_now_with_sql_goodness.php">Chad's RF2CF</a> plugin with <a href="https://plugins.movalog.com/asset-handler/">Arvind's AssHAT plugin</a>.  This uber-plugin would pull out the file name from RF's file field, combine it with the base location from the field settings and then pass that full file location information to AssHAT's magic unicorns which could then turn it into an asset.
+The ideal scenario would be for the import tool to merge both <a href="https://cxliv.org/2008/05/09/converting_rightfields_to_customfields_now_with_sql_goodness.php">Chad's RF2CF</a> plugin with <a href="https://plugins.movalog.com/asset-handler/">Arvind's AssHAT plugin</a>.  This uber-plugin would pull out the file name from RF's file field, combine it with the base location from the field settings and then pass that full file location information to AssHAT's magic unicorns which could then turn it into an asset.
 
 
 

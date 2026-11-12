@@ -31,7 +31,7 @@ Consider this a public service announcement to anyone debating about using Movab
 
 
 
-**2. There are no formatting options for editing Custom Fields.**  If you're using Custom Fields for your primary entry data (i.e. no entry body, only custom field data), be aware that they have no formatting options for the editor—it's just an input field.  You can get around this with <a href="https://plasticmind.com/movable-type/plasticfield/">my PlasticField plugin</a>, but it's not the best solution because it requires you to create a new field, doesn't use the default editor, and doesn't support installed format types like Markdown or Textile.
+**2. There are no formatting options for editing Custom Fields.**  If you're using Custom Fields for your primary entry data (i.e. no entry body, only custom field data), be aware that they have no formatting options for the editor—it's just an input field.  You can get around this with <a href="/journal/plasticfield/">my PlasticField plugin</a>, but it's not the best solution because it requires you to create a new field, doesn't use the default editor, and doesn't support installed format types like Markdown or Textile.
 
 
 

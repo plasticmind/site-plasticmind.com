@@ -16,7 +16,7 @@ fix: false
 hits: 92
 ---
 
-After <a href="https://plasticmind.com/journeys/farewell-fox/">leaving Fox</a>, I spent a couple of months figuring out what was next. The job had required an intense focus on engineering, which stretched me and dramatically increased my expertise in the area. I felt drained, though. I've still always had a passion for human-centered design, but the realities of the job didn't really allow for much of that.
+After <a href="/journal/farewell-fox/">leaving Fox</a>, I spent a couple of months figuring out what was next. The job had required an intense focus on engineering, which stretched me and dramatically increased my expertise in the area. I felt drained, though. I've still always had a passion for human-centered design, but the realities of the job didn't really allow for much of that.
 
 While I pondered, I started noticing folks in the industry talking about design systems. I've built products in the past and have built out different parts of design systems. I always had a bit of skepticism toward them, because most orgs that I worked with either had too-large bloated systems that stunted progress or were so disorganized that a design system seemed an impossibility. But my time at Fox helped me better understand where practical, highly-targeted systems of design and design-ops tools could solve some genuine problems and actually be useful.
 

@@ -31,4 +31,4 @@ I opened my eyes to a bright white gate, only able to make out dark figures movi
 Old vending machines, rusted car parts, lawn ornaments, antique weapons and other unidentifiable metal pieces lay strewn about the concrete floor and some of the children were digging through the piles. As my two ran over without hesitation and began constructing imaginary houses, the dawn of my mind shed its brightest light and I realized numbly that I was those children, rummaging through reality, constructing my own heaven, my own God, in the hope that I could after all control my own end. It had all been a game, a wager, a grasping and clawing as we fell, all of us, toward the swirling black and orange. Then rage.
 
 * * * * *
-<a title="The Fall of Man: Part 3" href="https://plasticmind.com/heart/the-fall-of-man/">Read Part 3</a>
+<a title="The Fall of Man: Part 3" href="/journal/the-fall-of-man/">Read Part 3</a>

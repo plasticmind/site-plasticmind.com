@@ -31,7 +31,7 @@ I can see.  I can see America’s children fearlessly pushing against the winds 
 
 
 
-<a href="https://plasticmind.com/images/portraitoffreedom.html" onclick="window.open('https://plasticmind.com/images/portraitoffreedom.html','popup','width=600,height=407,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="https://plasticmind.com/images/portraitoffreedom-thumb.jpg" width="300" height="203" /></a>
+
 
 
 

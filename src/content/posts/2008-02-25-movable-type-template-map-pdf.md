@@ -19,7 +19,7 @@ hits: 241
 
 			
 
-<a href="/assets/mt_templatemap.pdf"><img src="https://farm3.static.flickr.com/2413/2293166344_a3a080ef07.jpg?v=0" alt="" /></a>
+<img src="https://farm3.static.flickr.com/2413/2293166344_a3a080ef07.jpg?v=0" alt="" />
 
 
 
@@ -31,7 +31,7 @@ For those of you just upgrading to <a href="https://www.movabletype.com/products
 
 
 
-I won't go into too much detail on this modular approach, because <a href="https://www.movabletweak.com/architecture/mt3_vs_mt4_templates.php">I've already dealt with it previously on this site</a>.  The gist of it is this: instead of having dozens of copies of the same code strewn across all your templates, the new approach is having all the code snippets you're likely to use more than once—headers, sidebars, entry lists—stored in template modules and called to from each individual template.  So instead of changing your sidebar in seven different templates, you only have to change it once.
+I won't go into too much detail on this modular approach, because <a href="/journal/mt3-vs-mt4-templates/">I've already dealt with it previously on this site</a>.  The gist of it is this: instead of having dozens of copies of the same code strewn across all your templates, the new approach is having all the code snippets you're likely to use more than once—headers, sidebars, entry lists—stored in template modules and called to from each individual template.  So instead of changing your sidebar in seven different templates, you only have to change it once.
 
 
 
@@ -43,7 +43,7 @@ A great big thanks to <a href="https://www.thenorwoodhome.com/">Mark Norwood</a>
 
 
 
-**<a href="/assets/mt_templatemap.pdf">Download Movable Type 4 Template Map (.pdf/80k)</a>**
+**Download Movable Type 4 Template Map (.pdf/80k)**
 
 
 

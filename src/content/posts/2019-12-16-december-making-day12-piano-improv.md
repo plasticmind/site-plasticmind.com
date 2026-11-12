@@ -22,7 +22,7 @@ This is a new song I recorded tonight. I recorded the piano in one take on my Ca
 
 https://soundcloud.com/jesse-gardner/piano-improv-12-16-19
 
-*This is day 12 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 12 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 <img class="alignnone size-large wp-image-5783" src="/assets/i/2019-12-16-at-11.12-PM-1024x249.png" alt="" width="1024" height="249" />
 

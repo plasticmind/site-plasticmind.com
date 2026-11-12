@@ -31,7 +31,7 @@ Yes, yes, I know, I know.  I'm up way too late again.  Nothing like putting all 
 
 
 
-<a href="https://plasticmind.com/ndcs" target="_blank">The semi-new site I put together</a> - very, very plain.  It reminds me slightly of either dry oatmeal or wallpaper paste.  Can't decide which.
+The semi-new site I put together - very, very plain.  It reminds me slightly of either dry oatmeal or wallpaper paste.  Can't decide which.
 
 
 

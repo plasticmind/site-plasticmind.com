@@ -16,7 +16,7 @@ fix: false
 hits: 435
 ---
 
-A few days ago, <a href="https://plasticmind.com/30-day-challenge/december-making-day7-unmaking-wall/">I tore down a wall</a> between the living room and the foyer as part of <a href="https://plasticmind.com/30-day-challenge/december-making-day5-home-renovation-plans/">some renovation plans</a> for the foyer of our house. Today, I continued with my "unmaking" making streak and tore down the hallway closet adjacent to the foyer in order to build a new closet facing the entry door and add a walk-in pantry on the backside of the hallway.
+A few days ago, <a href="/journal/december-making-day7-unmaking-wall/">I tore down a wall</a> between the living room and the foyer as part of <a href="/journal/december-making-day5-home-renovation-plans/">some renovation plans</a> for the foyer of our house. Today, I continued with my "unmaking" making streak and tore down the hallway closet adjacent to the foyer in order to build a new closet facing the entry door and add a walk-in pantry on the backside of the hallway.
 
 I really enjoy the open space, even though it'll only be like that for a day or two. Jessica likes it open so much that she's having second thoughts about closing it up again. But having a pantry will be worth giving up the space (right now we keep most supplied in the basement or in large cupboard in the other room.)
 
@@ -38,7 +38,7 @@ https://youtu.be/mg7ZuWqxJe4
 
 Tomorrow, we build the wall!
 
-*This is day 10 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 10 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 <figure>
   <img src="/assets/i/IMG_5916-1024x768.jpg" alt="The &quot;before&quot; shot.">

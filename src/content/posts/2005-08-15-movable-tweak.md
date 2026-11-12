@@ -19,13 +19,13 @@ hits: 155
 
 			
 
-<a href="https://www.movabletweak.com"><img alt="movabletweak.gif" src="/assets/i/movabletweak-thumb.gif" width="454" height="90" border="0" /></a>
+<img alt="movabletweak.gif" src="/assets/i/movabletweak-thumb.gif" width="454" height="90" border="0" />
 
 
 
 
 
-As most of you know, I'm a die-hard <a href="https://www.sixapart.com/movabletype">Movable Type</a> fan.  MT is the most powerful content management software available today (IMHO), doing wonders for blogs and website alike.  Believe it or not, it's the framework upon which I built <a href="https://www.northerndutchesschristian.com">northerndutchesschristian.com</a>, <a href="https://www.advmr.net">advmr.net</a>, <a href="https://www.pjmcglynns.com">pjmcglynns.com</a>, <a href="https://plasticmind.com">plasticmind.com</a>, <a href="https://plasticmind.com/pix">plasticmind.com/pix</a>, <a href="https://plasticmind.com/pcc">plasticmind.com/pcc</a>, <a href="https://www.chaplainfisher.com">www.chaplainfisher.com</a> and a whole slew of new sites I'm releasing shortly.
+As most of you know, I'm a die-hard <a href="https://www.sixapart.com/movabletype">Movable Type</a> fan.  MT is the most powerful content management software available today (IMHO), doing wonders for blogs and website alike.  Believe it or not, it's the framework upon which I built <a href="https://www.northerndutchesschristian.com">northerndutchesschristian.com</a>, <a href="https://www.advmr.net">advmr.net</a>, <a href="https://www.pjmcglynns.com">pjmcglynns.com</a>, <a href="/">plasticmind.com</a>, plasticmind.com/pix, plasticmind.com/pcc, <a href="https://www.chaplainfisher.com">www.chaplainfisher.com</a> and a whole slew of new sites I'm releasing shortly.
 
 
 

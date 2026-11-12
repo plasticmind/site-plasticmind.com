@@ -49,7 +49,7 @@ If your put the word ‘steakhouse' in the keywords field and set the category t
 
 
 
-And also, as a side note, I usually create a blog for the main structure of the site using this method, then I create another blog for the additional information that would need to be added in the traditional MT way.  For example, a restaurant's pages could be generated using this method. Then you could set up a second blog that would publish to the site's /menu/ directory and use <a href="https://www.rayners.org/plugins/multiblog/">MultiBlog</a> to share modules, stylesheets, entries, etc.  I explain this in my article <a href="https://www.movabletweak.com/plugins/using_multiblog_to_share_more.php">Using MultiBlog to Share More</a>.
+And also, as a side note, I usually create a blog for the main structure of the site using this method, then I create another blog for the additional information that would need to be added in the traditional MT way.  For example, a restaurant's pages could be generated using this method. Then you could set up a second blog that would publish to the site's /menu/ directory and use <a href="https://www.rayners.org/plugins/multiblog/">MultiBlog</a> to share modules, stylesheets, entries, etc.  I explain this in my article <a href="/journal/using-multiblog-to-share-more/">Using MultiBlog to Share More</a>.
 
 
 

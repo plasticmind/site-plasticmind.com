@@ -19,7 +19,7 @@ hits: 98
 
 			
 
-It's hard to believe that there are less than six weeks left until <a href="https://plasticmind.com/wedding/">Jessica and I are married</a>.  We had a beautiful weekend jam-packed with all sorts of good stuff; but I have to be honest.  I hate this.  And I love this.
+It's hard to believe that there are less than six weeks left until <a href="/category/people/">Jessica and I are married</a>.  We had a beautiful weekend jam-packed with all sorts of good stuff; but I have to be honest.  I hate this.  And I love this.
 
 
 

@@ -25,7 +25,7 @@ A few days ago, Jane Wells put out <a href="https://wordpress.org/development/20
 
 
 
-Now, it's no secret that I work primarily with Movable Type, but I've tried to make Plasticmind Design less about the tool and more about helping users succeed.  I've worked with everything from Blogger to WordPress to Zen Cart in an effort to maximize user efficiency and experience (all tools fail in those areas at times).  I've been <a href="https://plasticmind.com/cms/why-you-should-upgrade-to-mt4/">critical of both platforms</a> on my blog when <a href="https://plasticmind.com/movable-type/custom-field-gotchas/">their flaws justified it</a>.  
+Now, it's no secret that I work primarily with Movable Type, but I've tried to make Plasticmind Design less about the tool and more about helping users succeed.  I've worked with everything from Blogger to WordPress to Zen Cart in an effort to maximize user efficiency and experience (all tools fail in those areas at times).  I've been <a href="/journal/why-you-should-upgrade-to-mt4/">critical of both platforms</a> on my blog when <a href="/journal/custom-field-gotchas/">their flaws justified it</a>.  
 
 
 

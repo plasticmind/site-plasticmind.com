@@ -37,7 +37,7 @@ Without you there to color my heart.
 
 
 
-<a href="https://plasticmind.com/photos/archives/2005/11/happy_22_my_lov.html"><img src="https://plasticmind.com/photos/my_lady/kimandersonparody-thumb.jpg" alt="My Love" /></a>
+
 
 
 

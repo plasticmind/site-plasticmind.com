@@ -19,7 +19,7 @@ hits: 157
 
 			
 
-<img src="https://plas.tc/s/path-20110719-091420.png" alt="Path" title="" />
+<img src="/assets/i/path-20110719-091420.png" alt="Path" title="" />
 
 
 

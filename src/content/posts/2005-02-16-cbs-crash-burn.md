@@ -19,7 +19,7 @@ hits: 122
 
 			
 
-Little did I know when <a href="https://plasticmind.com/america/cbs-means-never/">I wrote about CBS's many issues last February</a> just how hard they were going to crash.  It seems now that Howard, Murphy and West, the three members of the infamous Bush National Guard story that garnered so much criticism and network backlash, <a href="https://www.nyobserver.com/pages/nytv.asp">have been asked to resign by Les Moonves</a>, the president of CBS.  But they are <a href="https://www.bigeye.com/donotgo.htm">not going gently</a>.
+Little did I know when I wrote about CBS's many issues last February just how hard they were going to crash.  It seems now that Howard, Murphy and West, the three members of the infamous Bush National Guard story that garnered so much criticism and network backlash, <a href="https://www.nyobserver.com/pages/nytv.asp">have been asked to resign by Les Moonves</a>, the president of CBS.  But they are <a href="https://www.bigeye.com/donotgo.htm">not going gently</a>.
 
 
 

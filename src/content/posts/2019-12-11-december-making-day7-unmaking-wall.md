@@ -16,9 +16,9 @@ fix: false
 hits: 173
 ---
 
-*This is day 7 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 7 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
-On day 5, <a href="https://plasticmind.com/30-day-challenge/december-making-day5-home-renovation-plans/">I shared the renovation plans</a> I made for the first floor of our house. Last night, I started turning those plans into reality by tearing out the short wall that separates our entryway and living room. Unmaking is often an important part of making something, right?
+On day 5, <a href="/journal/december-making-day5-home-renovation-plans/">I shared the renovation plans</a> I made for the first floor of our house. Last night, I started turning those plans into reality by tearing out the short wall that separates our entryway and living room. Unmaking is often an important part of making something, right?
 
 When building out the renderings, I noticed just how much that little wall impacted the overall feel of the room. I'm amazed at how such a small change could open things up so much, and pleasantly surprised at how that openness worked in real life as well as it did in the renderings.
 

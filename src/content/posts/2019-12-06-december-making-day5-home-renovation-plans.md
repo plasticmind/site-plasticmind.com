@@ -16,7 +16,7 @@ fix: false
 hits: 98
 ---
 
-*This is day 5 of <a href="https://plasticmind.com/30-day-challenge/december-challenge-make-something-every-day/">my 31 days of making</a>.*
+*This is day 5 of <a href="/journal/december-challenge-make-something-every-day/">my 31 days of making</a>.*
 
 Earlier this year, we made some major changes to the layout of the first floor of our home. They were relatively inexpensive changes — taking down one wall and putting up another — but they had a huge impact on the flow of our home.
 

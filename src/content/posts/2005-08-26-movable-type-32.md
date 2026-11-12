@@ -50,7 +50,7 @@ There's alot more, but I suspect I'll be ranting about this one for a while.  An
 
 
 
-Oh and if I've convinced you to make the switch, tell everyone else by getting <a href="https://www.sixapart.com/movabletype/news/2005/08/movable_type_3_2.html" class="extlink">an official MT 3.2 badge</a> for your site -- or <a href="https://www.movabletweak.com/freebies/mt_32_badges_1.php">one of my unofficial ones</a>.
+Oh and if I've convinced you to make the switch, tell everyone else by getting <a href="https://www.sixapart.com/movabletype/news/2005/08/movable_type_3_2.html" class="extlink">an official MT 3.2 badge</a> for your site -- or one of my unofficial ones.
 
 
 			

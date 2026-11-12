@@ -31,7 +31,7 @@ Well, in case you missed <a href="https://ethanscottgardner.com">the announcemen
 
 
 
-Many thanks to all of our friends for your prayers, thoughts, visits, well-wishes and gifts for our little boy.  The outpouring of love has been hard to even keep up with (especially with a newborn on our hands!)  I've gotten more hits on <a href="https://ethanscottgardner.com">his website</a> in the last two weeks than <a href="https://plasticmind.com">Plasticmind.com</a> got in the last three months!  We'll be sending out thank you notes in short order.
+Many thanks to all of our friends for your prayers, thoughts, visits, well-wishes and gifts for our little boy.  The outpouring of love has been hard to even keep up with (especially with a newborn on our hands!)  I've gotten more hits on <a href="https://ethanscottgardner.com">his website</a> in the last two weeks than <a href="/">Plasticmind.com</a> got in the last three months!  We'll be sending out thank you notes in short order.
 
 
 

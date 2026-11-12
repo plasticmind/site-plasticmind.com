@@ -19,7 +19,7 @@ hits: 269
 
 			
 
-After <a href="https://plasticmind.com/0s-and-1s/movable_type_vs_wordpress.php">my little rant</a> the other day about the differences between MovableType and WordPress, I got thinking about more about their interfaces.  In my argument I begged the question that MT's interface is much slicker, but I'm sure some people feel otherwise.  After the recent release of <a href="https://www.brokenkode.com/shuttle">Shuttle</a>, a redesign *yawn* of WordPress' administration panel, I felt like maybe it's time for MT users to air our dirty laundry about what we would keep and what we would throw to the curb from Movable Type's interface.
+After <a href="/journal/movable-type-vs-wordpress/">my little rant</a> the other day about the differences between MovableType and WordPress, I got thinking about more about their interfaces.  In my argument I begged the question that MT's interface is much slicker, but I'm sure some people feel otherwise.  After the recent release of <a href="https://www.brokenkode.com/shuttle">Shuttle</a>, a redesign *yawn* of WordPress' administration panel, I felt like maybe it's time for MT users to air our dirty laundry about what we would keep and what we would throw to the curb from Movable Type's interface.
 
 
 

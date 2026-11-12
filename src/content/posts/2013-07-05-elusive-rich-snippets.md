@@ -19,7 +19,7 @@ hits: 215
 
 			
 
-Last year, I wrote about some <a href="https://plasticmind.com/wordpress/wordpress-hrecipe-gotcha/">trouble we were having with Google's rich snippets</a> for recipes.  In a nutshell, when Google saw the <code>.hentry</code> class on our recipe page, it ignored the <code>.hrecipe</code> class that Google uses to determine if a page is a recipe or not.  Subsequently, all of our lovely recipe photos stopped showing up in the search results.  (Boo.)
+Last year, I wrote about some <a href="/journal/wordpress-hrecipe-gotcha/">trouble we were having with Google's rich snippets</a> for recipes.  In a nutshell, when Google saw the <code>.hentry</code> class on our recipe page, it ignored the <code>.hrecipe</code> class that Google uses to determine if a page is a recipe or not.  Subsequently, all of our lovely recipe photos stopped showing up in the search results.  (Boo.)
 
 
 

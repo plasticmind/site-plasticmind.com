@@ -19,13 +19,13 @@ hits: 174
 
 			
 
-We had a blast putting together <a href="https://plasticmind.com/portfolio/web/simply-recipes/">the original Simply Recipes site</a>, so it's been a real thrill developing and designing an iPhone web app for Simply Recipes.  After all, what could be more exciting than developing a simple interface for a simple recipe website on the easiest-to-use phone out there?
+We had a blast putting together <a href="/journal/simply-recipes/">the original Simply Recipes site</a>, so it's been a real thrill developing and designing an iPhone web app for Simply Recipes.  After all, what could be more exciting than developing a simple interface for a simple recipe website on the easiest-to-use phone out there?
 
 
 
 
 
-<img src="https://plasticmind.com/portfolio/images/sr-iphone-1.jpg" alt="Simply Recipes iPhone App" title="" />
+<img src="/assets/i/sr-iphone-1.jpg" alt="Simply Recipes iPhone App" title="" />
 
 
 
@@ -37,7 +37,7 @@ There's nothing like working on a project that comes in handy both in the kitche
 
 
 
-You can read more about the app's launch <a href="https://plasticmind.com/portfolio/interface/simply-recipes-iphone-app/">in our portfolio</a> or over at <a href="https://www.elise.com/recipes/archives/007349simply_recipes_for_iphone.php">Elise's announcement post on Simply Recipes</a>.
+You can read more about the app's launch in our portfolio or over at <a href="https://www.elise.com/recipes/archives/007349simply_recipes_for_iphone.php">Elise's announcement post on Simply Recipes</a>.
 
 
 
